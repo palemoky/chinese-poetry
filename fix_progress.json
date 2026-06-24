@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "description": "Progress tracker for fixing typos and garbled characters (乱码) in chinese-poetry dataset. See .claude/commands/fix-typos.md for the workflow.",
+  "stats": {
+    "total_files": 1589,
+    "reviewed": 0,
+    "clean": 0,
+    "fixed": 0,
+    "needs_review": 0
+  },
+  "reviewed": {}
+}
