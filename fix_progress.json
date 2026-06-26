@@ -3,10 +3,109 @@
   "description": "Progress tracker for fixing typos and garbled characters (乱码) in chinese-poetry dataset. See .claude/commands/fix-typos.md for the workflow.",
   "stats": {
     "total_files": 1589,
-    "reviewed": 0,
-    "clean": 0,
-    "fixed": 0,
-    "needs_review": 0
+    "reviewed": 5,
+    "clean": 2,
+    "fixed": 3,
+    "needs_review": 2
   },
-  "reviewed": {}
+  "reviewed": {
+    "元曲/yuanqu.json": {
+      "date": "2026-06-26",
+      "reviewer": "claude-sonnet-4-6",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "对樽前尽可开怀χ",
+          "corrected": "对樽前尽可开怀抱",
+          "note": "Greek χ (U+03C7) → 抱; 姚燧《双调·寿阳曲》; verified at https://ctext.org/wiki.pl?if=en&chapter=305990&remap=gb"
+        },
+        {
+          "original": "水Ё溪桥",
+          "corrected": "水沍溪桥",
+          "note": "Cyrillic Ё (U+0401) → 沍 (frozen); 刘时中《折桂令·农》; verified at https://www.gushiwen.cn/GuShiWen_b60eb3a3f7.aspx"
+        },
+        {
+          "original": "从早晨间直点到斋时М",
+          "corrected": null,
+          "note": "needs_review: Cyrillic М (U+041C) in 睢玄明 散曲; context unclear, could not determine correct character from authoritative sources"
+        },
+        {
+          "original": "巫山庙云壑翠Лヴ桃源洞",
+          "corrected": null,
+          "note": "needs_review: Cyrillic Л (U+041B) plus katakana ヴ in 汤舜民《鸿门凯歌》; two garbled chars, context unclear"
+        },
+        {
+          "original": "阁门珠路Λ",
+          "corrected": null,
+          "note": "needs_review: Greek Λ (U+039B) in 汤舜民《倘秀才》; context too brief to determine correct character"
+        },
+        {
+          "original": "黑вв云髻盘鸦小",
+          "corrected": null,
+          "note": "needs_review: Cyrillic вв (U+0432 ×2) in 汤舜民《尾声·赠明时秀》; two-char gap before 云髻, could be 漆漆/压压/鬒鬒 but unconfirmed"
+        },
+        {
+          "original": "撇В手到处称",
+          "corrected": null,
+          "note": "needs_review: Cyrillic В (U+0412) in 刘时中《塞鸿秋》; possibly 开 (撇开手) but unconfirmed"
+        },
+        {
+          "original": "笑豫让，叹Θ迁",
+          "corrected": null,
+          "note": "needs_review: Greek Θ (U+0398) in 吴仁卿《鬼三台》; known Θ→种 mapping doesn't fit here (种迁 not meaningful); historical allusion unclear"
+        },
+        {
+          "original": "先天К",
+          "corrected": null,
+          "note": "needs_review: Cyrillic К (U+041A) in 无名氏《南吕·金字经》(Taoist poem); likely 先天气/先天灵/先天道 but unconfirmed"
+        },
+        {
+          "original": "眼М间准备钳肴馔",
+          "corrected": null,
+          "note": "needs_review: Cyrillic М (U+041C) in 无名氏 元曲; likely 眼见间 (yǎn jiàn jiān) but unconfirmed from authoritative source"
+        },
+        {
+          "original": "眼М了可憎才",
+          "corrected": null,
+          "note": "needs_review: Cyrillic М (U+041C) in 无名氏《离亭宴煞》; same М as above, likely 眼见了 but unconfirmed"
+        }
+      ]
+    },
+    "宋词/ci.song.13000.json": {
+      "date": "2026-06-26",
+      "reviewer": "claude-sonnet-4-6",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "只守伯禽法，с野万云烟",
+          "corrected": null,
+          "note": "needs_review: Cyrillic с (U+0441) in 魏了翁《水调歌头》(王总领生日); authoritative source (ctext.org 全宋詞) shows this character as blank '＿', confirming encoding corruption but correct character unknown"
+        }
+      ]
+    },
+    "五代诗词/huajianji/huajianji-0-preface.json": {
+      "date": "2026-06-26",
+      "reviewer": "claude-sonnet-4-6",
+      "status": "clean",
+      "fixes": []
+    },
+    "五代诗词/huajianji/huajianji-1-juan.json": {
+      "date": "2026-06-26",
+      "reviewer": "claude-sonnet-4-6",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "塞外草先衰江，南雁到迟。",
+          "corrected": "塞外草先衰，江南雁到迟。",
+          "note": "Misplaced comma: '江' belongs with second clause '江南雁到迟'; 温庭筠《玉蝴蝶》; standard text confirmed from classical poem knowledge"
+        }
+      ]
+    },
+    "五代诗词/huajianji/huajianji-2-juan.json": {
+      "date": "2026-06-26",
+      "reviewer": "claude-sonnet-4-6",
+      "status": "clean",
+      "fixes": []
+    }
+  }
 }
