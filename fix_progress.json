@@ -108787,7 +108787,7 @@
         {
           "original": "步携手林间，笑挽ホホ。",
           "corrected": "步携手林间，笑挽纤纤。",
-          "note": "kana/bopomofo garble ホホ → 纤纤; 识典古籍 (/zh/): 《[御選]歷代詩餘》[御選]歷代詩餘卷六十 reads 「林間笑挽纖纖莫上孤峯」 (26 hit(s))"
+          "note": "kana/bopomofo garble ホホ → 纤纤; 识典古籍 (/zh/): 《[御選]歷代詩餘》[御選]歷代詩餘卷六十 reads 「林間笑挽纖纖莫上孤峯」 (26 hit(s)) | Caveat: this character is in GB2312, while every other garble in this dataset replaced a non-GB2312 character — the source probably used a rare variant form here (e.g. 攕攕 for 纤纤, 諐 for 愆); reading is attested, exact glyph is not"
         }
       ]
     },
@@ -108857,7 +108857,7 @@
         {
           "original": "娇不尽，ソ州竹。",
           "corrected": "娇不尽，蕲州竹。",
-          "note": "kana/bopomofo garble ソ → 蕲; 识典古籍 (/zh/): 《永樂大典》永樂大典卷之一萬四千三百八十一【四霽】“寄（二）” reads 「曲嬌不盡蘄州竹一泓」 (2 hit(s))"
+          "note": "kana/bopomofo garble ソ → 蕲; 识典古籍 (/zh/): 《永樂大典》永樂大典卷之一萬四千三百八十一【四霽】“寄（二）” reads 「曲嬌不盡蘄州竹一泓」 (2 hit(s)) | Caveat: this character is in GB2312, while every other garble in this dataset replaced a non-GB2312 character — the source probably used a rare variant form here (e.g. 攕攕 for 纤纤, 諐 for 愆); reading is attested, exact glyph is not"
         }
       ]
     },
@@ -109000,7 +109000,7 @@
         {
           "original": "虎啸ㄛ嶔，护遗迹、尚如",
           "corrected": "虎啸欹嶔，护遗迹、尚如",
-          "note": "kana/bopomofo garble ㄛ → 欹; 识典古籍 (/zh/): 《元草堂詩餘》精選名儒草堂詩餘卷中 reads 「難尋虎嘯欹嶔護遺蹟」 (3 hit(s))"
+          "note": "kana/bopomofo garble ㄛ → 欹; 识典古籍 (/zh/): 《元草堂詩餘》精選名儒草堂詩餘卷中 reads 「難尋虎嘯欹嶔護遺蹟」 (3 hit(s)) | Caveat: this character is in GB2312, while every other garble in this dataset replaced a non-GB2312 character — the source probably used a rare variant form here (e.g. 攕攕 for 纤纤, 諐 for 愆); reading is attested, exact glyph is not"
         }
       ]
     },
@@ -109017,7 +109017,7 @@
         {
           "original": "君似怜花透，环碧ㄓ、遮住怕渠惊。",
           "corrected": "君似怜花透，环碧帷、遮住怕渠惊。",
-          "note": "kana/bopomofo garble ㄓ → 帷; 识典古籍 (/zh/): 《精選名儒草堂詩餘》草堂詩餘卷中 reads 「花透環碧帷遮住怕渠」 (3 hit(s))"
+          "note": "kana/bopomofo garble ㄓ → 帷; 识典古籍 (/zh/): 《精選名儒草堂詩餘》草堂詩餘卷中 reads 「花透環碧帷遮住怕渠」 (3 hit(s)) | Caveat: this character is in GB2312, while every other garble in this dataset replaced a non-GB2312 character — the source probably used a rare variant form here (e.g. 攕攕 for 纤纤, 諐 for 愆); reading is attested, exact glyph is not"
         }
       ]
     },
@@ -109103,7 +109103,7 @@
         {
           "original": "肃，秋渐老，摄调ち。",
           "corrected": "肃，秋渐老，摄调愆。",
-          "note": "kana/bopomofo garble ち → 愆; 识典古籍 (/zh/): 《宋史》宋史卷醫百四十一“樂志第九十四” reads 「漸老攝調愆忱恂遍羣」 (8 hit(s))"
+          "note": "kana/bopomofo garble ち → 愆; 识典古籍 (/zh/): 《宋史》宋史卷醫百四十一“樂志第九十四” reads 「漸老攝調愆忱恂遍羣」 (8 hit(s)) | Caveat: this character is in GB2312, while every other garble in this dataset replaced a non-GB2312 character — the source probably used a rare variant form here (e.g. 攕攕 for 纤纤, 諐 for 愆); reading is attested, exact glyph is not"
         },
         {
           "original": "细管繁弦里，谁把ㄉ抛过。",
