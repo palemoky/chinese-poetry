@@ -86,11 +86,15 @@ Known offenders in this dataset:
 | Α     | U+0391  | 秩             | 七Α开颜 → 七秩开颜                          |
 | Ι     | U+0399  | 徽             | Ι州 → 徽州                              |
 | Θ     | U+0398  | 种             | Θ瓜邵平 → 种瓜邵平                          |
-| с     | U+0441  | ?              | determine from context + sources below |
-| М     | U+041C  | ?              | determine from context + sources below |
+| с     | U+0441  | □ (lacuna)     | 只守伯禽法，с野万云烟 → □野万云烟 (《全宋词》底本缺字) |
+| М     | U+041C  | 剉 / 挫          | 斋时М → 斋时剉；眼М了 → 眼挫了               |
 | Λ     | U+039B  | ?              | determine from context + sources below |
 
-**Detection**: regex `[Ѐ-ӿͰ-Ͽ]`
+The same symbol does not always map to the same character (и and б both → 婵; Θ → 种 but Θ迁 → 鉏麑), so verify every occurrence against a source.
+
+Japanese kana and bopomofo (e.g. け然 → 翛然, 荼コ → 荼蘼, ゐ惶 → 恓惶, 不会ㄐ → 不会搊) are the same kind of garble. The title separator `・` (U+30FB) is legitimate.
+
+**Detection**: regex `[Ѐ-ӿͰ-Ͽ]` (Cyrillic/Greek) and `[぀-ヺー-ヿ㄀-ㄯㆠ-ㆿ]` (kana/bopomofo). `python3 scripts/check_structure.py` runs these and other structural checks over the whole dataset, including `title` fields (元曲 titles contain body text).
 
 **Correction approach** (in order of confidence):
 1. Obvious from immediate context (single character gap, clear word/phrase)
@@ -145,8 +149,11 @@ When context alone is insufficient, look up the poem in these sources (in order 
 | 搜韵网 | https://sou-yun.cn | Comprehensive poetry search with rhyme annotation; good for Tang/Song |
 | 古文岛 | https://www.guwendao.net | Covers most canonical works; good full-text search |
 | 汉典 | https://www.zdic.net | Character-level dictionary; use for verifying individual characters |
+| 识典古籍 | https://www.shidianguji.com | Full-text search over scanned editions (OCR + page images), cites book / 卷 / page; independent of web-crawled texts. Best source for 元曲/散曲 (《雍熙乐府》《词林摘艳》《盛世词林》 etc.). Search URL: `https://www.shidianguji.com/search/<query>`; texts are mostly unpunctuated, so search a 4–6 character run without punctuation |
 
 Search by: poem title (`rhythmic` field) + author (`author` field). Compare the suspect line against the authoritative version character by character.
+
+**Caveat for 元曲**: 古文岛/古诗文网's 元曲 texts largely share this dataset's crawled source and often carry the same garbled characters (e.g. `阁门珠路Λ`). It sometimes lists a second, proofread version of the same piece — use only a version without the garble, and prefer 识典古籍 when the two disagree.
 
 If the authoritative source shows a different character, that is strong evidence for a fix. Record the source URL in the `note` field of your fix entry.
 

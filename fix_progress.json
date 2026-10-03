@@ -4,9 +4,9 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 1107,
-    "fixed": 59,
-    "needs_review": 423
+    "clean": 1090,
+    "fixed": 62,
+    "needs_review": 437
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
@@ -6474,7 +6474,7 @@
     "元曲/yuanqu.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "fixed",
+      "status": "needs_review",
       "fixes": [
         {
           "original": "对樽前尽可开怀χ",
@@ -6535,18 +6535,603 @@
           "original": "有银筝不会ㄐ",
           "corrected": "有银筝不会搊",
           "note": "Bopomofo ㄐ (U+3110) → 搊 (to pluck strings; in title field); 无名氏 套数〔九〕\"有玉箫不会品，有银筝不会搊\"; verified at https://www.gushiwen.cn/search.aspx?value=生姜手"
+        },
+        {
+          "original": "会围棋、会蹴リ、会打围、会",
+          "corrected": "会围棋、会蹴踘、会打围、会",
+          "note": "Katakana/hiragana garble リ → 踘; 识典古籍: 《雍熙乐府》雍熙乐府卷之十“南吕宫” reads 「围棋会蹴踘会打围会」"
+        },
+        {
+          "original": "リ最风流。",
+          "corrected": "踘最风流。",
+          "note": "Katakana/hiragana garble リ → 踘; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之七【套数二】“越调” reads 「踘最风流演」"
+        },
+        {
+          "original": "蹴リ场中，鸣珂巷",
+          "corrected": "蹴踘场中，鸣珂巷",
+          "note": "Katakana/hiragana garble リ → 踘; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之七【套数二】“越调” reads 「蹴踘场中鸣珂」"
+        },
+        {
+          "original": "社常将蹴リ抱抛，占场儿",
+          "corrected": "社常将蹴踘抱抛，占场儿",
+          "note": "Katakana/hiragana garble リ → 踘; 识典古籍: 《雍熙乐府》卷四 reads 「社常将蹴踘抱抛占场」"
+        },
+        {
+          "original": "荼コ香・记得初相",
+          "corrected": "荼䕷香・记得初相",
+          "note": "Katakana/hiragana garble コ → 䕷; 识典古籍: 《雍熙乐府》雍熙乐府卷之十五 前集“小石调” reads 「荼䕷香记得初」"
+        },
+        {
+          "original": "雨丝丝开到荼コ。",
+          "corrected": "雨丝丝开到荼䕷。",
+          "note": "Katakana/hiragana garble コ → 䕷; 识典古籍: 《御定曲谱》御定曲谱卷一北黄钟宫正宫大石调小石调 reads 「丝开到荼䕷一春常是」"
+        },
+        {
+          "original": "轩，闲行至荼コ架，引的些蜂",
+          "corrected": "轩，闲行至荼䕷架，引的些蜂",
+          "note": "Katakana/hiragana garble コ → 䕷; 识典古籍: 《彩笔情辞》彩笔情辞卷一 reads 「闲行至荼䕷架引的些」"
+        },
+        {
+          "original": "鸯帕，香冷荼コ架。",
+          "corrected": "鸯帕，香冷荼䕷架。",
+          "note": "Katakana/hiragana garble コ → 䕷; by symbol consensus: コ → 䕷 verified in 6 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "宇声，香冷荼コ架。",
+          "corrected": "宇声，香冷荼䕷架。",
+          "note": "Katakana/hiragana garble コ → 䕷; 识典古籍: 《元清乐府小令》卷四 reads 「声香冷荼䕷架淡抹浓」"
+        },
+        {
+          "original": "一庭香雪糁荼コ，松下溪童睡",
+          "corrected": "一庭香雪糁荼䕷，松下溪童睡",
+          "note": "Katakana/hiragana garble コ → 䕷; by symbol consensus: コ → 䕷 verified in 6 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "开遍荼コ，近清和困人",
+          "corrected": "开遍荼䕷，近清和困人",
+          "note": "Katakana/hiragana garble コ → 䕷; 识典古籍: 《雍熙乐府》雍熙乐府卷之六“中吕” reads 「翠开遍荼𧃲近清和困」; normalized to dataset's usual form 䕷"
+        },
+        {
+          "original": "半卷，门掩荼コ院。蛛丝挂柳",
+          "corrected": "半卷，门掩荼䕷院。蛛丝挂柳",
+          "note": "Katakana/hiragana garble コ → 䕷; by symbol consensus: コ → 䕷 verified in 6 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "荼コ院风香雪霁，",
+          "corrected": "荼䕷院风香雪霁，",
+          "note": "Katakana/hiragana garble コ → 䕷; 识典古籍: 《雍熙乐府》雍熙乐府卷之十八“杂曲” reads 「险醉倒荼𧃲院风香雪」; normalized to dataset's usual form 䕷"
+        },
+        {
+          "original": "海棠过了，荼コ开遍，都不似",
+          "corrected": "海棠过了，荼䕷开遍，都不似",
+          "note": "Katakana/hiragana garble コ → 䕷; by symbol consensus: コ → 䕷 verified in 6 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "茶コ架边，蔷薇洞",
+          "corrected": "茶䕷架边，蔷薇洞",
+          "note": "Katakana/hiragana garble コ → 䕷; by symbol consensus: コ → 䕷 verified in 6 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "乌云欲把金莲さ，纽回身再说",
+          "corrected": "乌云欲把金莲靸，纽回身再说",
+          "note": "Katakana/hiragana garble さ → 靸; 识典古籍: 《雍熙乐府》雍熙乐府卷之十二“双调” reads 「欲把金莲靸纽回身再」"
+        },
+        {
+          "original": "，荆榛蔽。响さ廊，莓苔翳。",
+          "corrected": "，荆榛蔽。响屧廊，莓苔翳。",
+          "note": "Katakana/hiragana garble さ → 屧; 识典古籍: 《九宫大成南北词宫谱》卷闰 reads 「荆榛蔽响屧廊莓苔翳」"
+        },
+        {
+          "original": "出兰舟绣鞋忙さ。",
+          "corrected": "出兰舟绣鞋忙屧。",
+          "note": "Katakana/hiragana garble さ → 屧; 识典古籍: 《阳春白雪》阳春白雪后集卷之三 reads 「舟绣鞋忙屧乍相逢欲」"
+        },
+        {
+          "original": "银甲频将彩线ㄎ，绣到凤凰心",
+          "corrected": "银甲频将彩线撏，绣到凤凰心",
+          "note": "Katakana/hiragana garble ㄎ → 撏; 识典古籍: 《尧山堂外纪》卷七十一 reads 「频将彩线挦绣到凤凰」; normalized to dataset's usual form 撏"
+        },
+        {
+          "original": "著诸般讳，揪ㄎ不害羞。",
+          "corrected": "著诸般讳，揪撏不害羞。",
+          "note": "Katakana/hiragana garble ㄎ → 撏; by symbol consensus: ㄎ → 撏 verified in 7 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "彡，一味的掀ㄎ。一个撮金",
+          "corrected": "彡，一味的掀撏。一个撮金",
+          "note": "Katakana/hiragana garble ㄎ → 撏; by symbol consensus: ㄎ → 撏 verified in 7 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "焦，一半儿丝ㄎ一半儿烧！别",
+          "corrected": "焦，一半儿丝撏一半儿烧！别",
+          "note": "Katakana/hiragana garble ㄎ → 撏; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之五小令五“黄钟类” reads 「一半儿丝挦一半儿烧」; normalized to dataset's usual form 撏"
+        },
+        {
+          "original": "玉絮轻ㄎ，琼苞碎打，",
+          "corrected": "玉絮轻撏，琼苞碎打，",
+          "note": "Katakana/hiragana garble ㄎ → 撏; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之七【套数二】“越调” reads 「刮玉絮轻挦琼苞碎打」; normalized to dataset's usual form 撏"
+        },
+        {
+          "original": "最难禁碎揪ㄎ、胡腐掐、零",
+          "corrected": "最难禁碎揪撏、胡腐掐、零",
+          "note": "Katakana/hiragana garble ㄎ → 撏; by symbol consensus: ㄎ → 撏 verified in 7 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "舞，柳絮带风ㄎ。",
+          "corrected": "舞，柳絮带风撏。",
+          "note": "Katakana/hiragana garble ㄎ → 撏; by symbol consensus: ㄎ → 撏 verified in 7 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "巧计栽排，撕ㄎ碎合欢带，硬",
+          "corrected": "巧计栽排，撕撏碎合欢带，硬",
+          "note": "Katakana/hiragana garble ㄎ → 撏; 识典古籍: 《盛世新声》卷六 reads 「计栽排撕挦碎合欢带」; normalized to dataset's usual form 撏"
+        },
+        {
+          "original": "更道咱身边没ㄎ剥，便有后半",
+          "corrected": "更道咱身边没撏剥，便有后半",
+          "note": "Katakana/hiragana garble ㄎ → 撏; 识典古籍: 《北词谱》卷十一 reads 「咱身边没挦剥便有后」; normalized to dataset's usual form 撏"
+        },
+        {
+          "original": "寻着钱树不揪ㄎ，典卖",
+          "corrected": "寻着钱树不揪撏，典卖",
+          "note": "Katakana/hiragana garble ㄎ → 撏; 识典古籍: 《九宫大成南北词宫谱》卷二十一 reads 「钱树不揪挦典卖尽妆」; normalized to dataset's usual form 撏"
+        },
+        {
+          "original": "翅活不剌手中ㄎ，鸳鸯弹圆滴",
+          "corrected": "翅活不剌手中撏，鸳鸯弹圆滴",
+          "note": "Katakana/hiragana garble ㄎ → 撏; 识典古籍: 《雍熙乐府》卷十四 reads 「不剌手中挦鸳鸯弹圆」; normalized to dataset's usual form 撏"
+        },
+        {
+          "original": "舞，柳絮带风ㄎ。",
+          "corrected": "舞，柳絮带风撏。",
+          "note": "Katakana/hiragana garble ㄎ → 撏; by symbol consensus: ㄎ → 撏 verified in 7 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "红窗睡起不甚タ。",
+          "corrected": "红窗睡起不甚忺。",
+          "note": "Katakana/hiragana garble タ → 忺; by symbol consensus: タ → 忺 verified in 11 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "意不タ，琴瑟慵拈。",
+          "corrected": "意不忺，琴瑟慵拈。",
+          "note": "Katakana/hiragana garble タ → 忺; by symbol consensus: タ → 忺 verified in 11 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "阳春曲唱和难タ。",
+          "corrected": "阳春曲唱和难忺。",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之三【小令三】“越调类” reads 「曲唱和难忺新凉开扇」"
+        },
+        {
+          "original": "饥不タ进饮食，卧不",
+          "corrected": "饥不忺进饮食，卧不",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之六【套数】“套数类” reads 「图甚饥不忺进饮食卧」"
+        },
+        {
+          "original": "焰，倚窗愁未タ。",
+          "corrected": "焰，倚窗愁未忺。",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《阳春白雪》阳春白雪后集卷之一 reads 「倚窗愁未忺楚台云归」"
+        },
+        {
+          "original": "愁理晨妆不甚タ。",
+          "corrected": "愁理晨妆不甚忺。",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之三【小令三】“越调类” reads 「晨妆不甚忺玉纤春笋」"
+        },
+        {
+          "original": "书遍相思苦未タ。",
+          "corrected": "书遍相思苦未忺。",
+          "note": "Katakana/hiragana garble タ → 忺; by symbol consensus: タ → 忺 verified in 11 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "画远山眉，不タ宫样妆，平白",
+          "corrected": "画远山眉，不忺宫样妆，平白",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《太和正音谱》太和正音谱卷下 reads 「远山眉不忺宫样妆平」"
+        },
+        {
+          "original": "况兼，兴タ。",
+          "corrected": "况兼，兴忺。",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《词林摘艳》词林摘艳己集卷八 reads 「添况兼兴忺金波潋滟」"
+        },
+        {
+          "original": "那鬼厮扑恩情タ，得时暂委实",
+          "corrected": "那鬼厮扑恩情忺，得时暂委实",
+          "note": "Katakana/hiragana garble タ → 忺; by symbol consensus: タ → 忺 verified in 11 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "惹情タ，把穿。",
+          "corrected": "惹情忺，把穿。",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《太和正音谱》太和正音谱卷下 reads 「惹情忺把穿绝业」"
+        },
+        {
+          "original": "・溜秋波情意タ，并香肩语话",
+          "corrected": "・溜秋波情意忺，并香肩语话",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《雍熙乐府》雍熙乐府卷之三“正宫” reads 「秋波情意忺并香肩语」"
+        },
+        {
+          "original": "惜香怜玉那情タ，端的是心",
+          "corrected": "惜香怜玉那情忺，端的是心",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《雍熙乐府》卷三 reads 「怜玉那情忺端的是心」"
+        },
+        {
+          "original": "妙舞清歌近绣と，不由人一笑",
+          "corrected": "妙舞清歌近绣幨，不由人一笑",
+          "note": "Katakana/hiragana garble と → 幨; 识典古籍: 《雍熙乐府》雍熙乐府卷之三“正宫” reads 「清歌近绣幨不由人一」"
+        },
+        {
+          "original": "半衾幽梦睡初タ。",
+          "corrected": "半衾幽梦睡初忺。",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《彩笔情辞》彩笔情辞卷十二 reads 「幽梦睡初㰤」; normalized to dataset's usual form 忺"
+        },
+        {
+          "original": "况兼、兴タ。",
+          "corrected": "况兼、兴忺。",
+          "note": "Katakana/hiragana garble タ → 忺; 识典古籍: 《词林摘艳》词林摘艳己集卷八 reads 「添况兼兴忺金波潋滟」"
+        },
+        {
+          "original": "锦みま人跨凤侣，金",
+          "corrected": "锦毰毸人跨凤侣，金",
+          "note": "Katakana/hiragana garble みま → 毰毸; 识典古籍: 《南词十三种》附录 reads 「佩虎符锦毰毸人跨凤侣」"
+        },
+        {
+          "original": "系。开花仙藏ㄓ过瞒得你，街",
+          "corrected": "系。开花仙藏𢬍过瞒得你，街",
+          "note": "Katakana/hiragana garble ㄓ → 𢬍; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之九【小令九“般涉调” reads 「开花仙藏𢬍过瞒得你」"
+        },
+        {
+          "original": "浸了海峤，ビ庙火烈焰千层",
+          "corrected": "浸了海峤，祆庙火烈焰千层",
+          "note": "Katakana/hiragana garble ビ → 祆; 识典古籍: 《盛世新声》卷五 reads 「浸了海峤祅庙火烈焰」; normalized to dataset's usual form 祆"
+        },
+        {
+          "original": "仙吕・ビ神急道情",
+          "corrected": "仙吕・祆神急道情",
+          "note": "Katakana/hiragana garble ビ → 祆; by symbol consensus: ビ → 祆 verified in 2 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "楚岫被云遮，ビ庙火烧绝。",
+          "corrected": "楚岫被云遮，祆庙火烧绝。",
+          "note": "Katakana/hiragana garble ビ → 祆; 识典古籍: 《北词广正谱》北词广正谱卷八 reads 「岫被云遮祅庙火烧绝」; normalized to dataset's usual form 祆"
+        },
+        {
+          "original": "线鸡肥，新ド酽。",
+          "corrected": "线鸡肥，新篘酽。",
+          "note": "Katakana/hiragana garble ド → 篘; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之二【小令二】“双调类【二】” reads 「线鸡肥新𥬠酽不须典」; normalized to dataset's usual form 篘"
+        },
+        {
+          "original": "喜的是绿酒新ド。",
+          "corrected": "喜的是绿酒新篘。",
+          "note": "Katakana/hiragana garble ド → 篘; 识典古籍: 《明诗综》明诗综卷十一“徐畛” reads 「是绿酒新𥬠相拖逗金」; normalized to dataset's usual form 篘"
+        },
+        {
+          "original": "庭前竹栽，旋ド得缸面茅柴。",
+          "corrected": "庭前竹栽，旋篘得缸面茅柴。",
+          "note": "Katakana/hiragana garble ド → 篘; by symbol consensus: ド → 篘 verified in 7 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "，向仙家酒旋ド。会三岛十洲",
+          "corrected": "，向仙家酒旋篘。会三岛十洲",
+          "note": "Katakana/hiragana garble ド → 篘; 识典古籍: 《阳春白雪》阳春白雪后集卷之二 reads 「仙家酒旋𫇴会三岛十」; normalized to dataset's usual form 篘"
+        },
+        {
+          "original": "唤稚子ド新酿，靠篷窗",
+          "corrected": "唤稚子篘新酿，靠篷窗",
+          "note": "Katakana/hiragana garble ド → 篘; by symbol consensus: ド → 篘 verified in 7 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "初熟，浊酒新ド，豆粥香浮，",
+          "corrected": "初熟，浊酒新篘，豆粥香浮，",
+          "note": "Katakana/hiragana garble ド → 篘; 识典古籍: 《雍熙乐府》雍熙乐府卷之十四“商调” reads 「熟浊酒新𫇴豆粥香浮」; normalized to dataset's usual form 篘"
+        },
+        {
+          "original": "霜候，香醪羡ド，酒和花，人",
+          "corrected": "霜候，香醪羡篘，酒和花，人",
+          "note": "Katakana/hiragana garble ド → 篘; 识典古籍: 《梨园按试乐府新声》梨园按试乐府新声卷上“〇诸套数” reads 「候香醪羡𫇴酒和花人」; normalized to dataset's usual form 篘"
+        },
+        {
+          "original": "绿蚁新ド，瓦钵磁瓯，",
+          "corrected": "绿蚁新篘，瓦钵磁瓯，",
+          "note": "Katakana/hiragana garble ド → 篘; 识典古籍: 《雍熙乐府》雍熙乐府卷之十七“杂曲” reads 「舟绿蚁新𥬠瓦钵磁瓯」; normalized to dataset's usual form 篘"
+        },
+        {
+          "original": "郎・一篝灯下ド佳酝，身趔趄",
+          "corrected": "郎・一篝灯下篘佳酝，身趔趄",
+          "note": "Katakana/hiragana garble ド → 篘; 识典古籍: 《坐隐先生精订月香亭稿》坐隐先生精订月香亭稿正文 reads 「一篝灯下𫇴佳酝身趔」; normalized to dataset's usual form 篘"
+        },
+        {
+          "original": "则不如ド半缸绿蚁，啜",
+          "corrected": "则不如篘半缸绿蚁，啜",
+          "note": "Katakana/hiragana garble ド → 篘; by symbol consensus: ド → 篘 verified in 7 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "浮云薄处ㄔ胧日，白鸟明",
+          "corrected": "浮云薄处朣胧日，白鸟明",
+          "note": "Katakana/hiragana garble ㄔ → 朣; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之四小令四 reads 「浮云薄处朣胧日白鸟」"
+        },
+        {
+          "original": "把你揪ㄏ住？白甚么改",
+          "corrected": "把你揪捽住？白甚么改",
+          "note": "Katakana/hiragana garble ㄏ → 捽; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之九【小令九“般涉调” reads 「把你揪捽住白甚么」"
+        },
+        {
+          "original": "被西风吹起啼づ。",
+          "corrected": "被西风吹起啼螀。",
+          "note": "Katakana/hiragana garble づ → 螀; 识典古籍: 《九宫大成南北词宫谱》卷三十三 reads 「风吹起啼螀恼刘郎害」"
+        },
+        {
+          "original": "花・你看他打ㄐ拾云外飘，蹬",
+          "corrected": "花・你看他打搊拾云外飘，蹬",
+          "note": "Katakana/hiragana garble ㄐ → 搊; 识典古籍: 《新镌古今大雅北宫词纪》卷五 reads 「你看他打𫼝拾云外飘」; normalized to dataset's usual form 搊"
+        },
+        {
+          "original": "，病恹渐锦筝ㄐ雁柱慵支。",
+          "corrected": "，病恹渐锦筝搊雁柱慵支。",
+          "note": "Katakana/hiragana garble ㄐ → 搊; 识典古籍: 《词林摘艳》词林摘艳己集卷八 reads 「恹渐锦筝𫼝雁柱慵支」; normalized to dataset's usual form 搊"
+        },
+        {
+          "original": "你架银筝怎地ㄐ？难挽衫儿袖",
+          "corrected": "你架银筝怎地搊？难挽衫儿袖",
+          "note": "Katakana/hiragana garble ㄐ → 搊; by symbol consensus: ㄐ → 搊 verified in 3 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "粉香歌扇，闲ㄐ玉筝罗袖卷。",
+          "corrected": "粉香歌扇，闲搊玉筝罗袖卷。",
+          "note": "Katakana/hiragana garble ㄐ → 搊; by symbol consensus: ㄐ → 搊 verified in 3 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "帅席上粉筝才ㄐ罢，锦笺初展",
+          "corrected": "帅席上粉筝才搊罢，锦笺初展",
+          "note": "Katakana/hiragana garble ㄐ → 搊; by symbol consensus: ㄐ → 搊 verified in 3 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "明，江上何人ㄐ玉筝？隔江和",
+          "corrected": "明，江上何人搊玉筝？隔江和",
+          "note": "Katakana/hiragana garble ㄐ → 搊; 识典古籍: 《元清乐府小令》卷四 reads 「江上何人𫼝玉筝隔江」; normalized to dataset's usual form 搊"
+        },
+        {
+          "original": "风他负德我胡ㄐ。",
+          "corrected": "风他负德我胡搊。",
+          "note": "Katakana/hiragana garble ㄐ → 搊; by symbol consensus: ㄐ → 搊 verified in 3 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "，你也铺啜些ㄤ糟。朝中待独",
+          "corrected": "，你也铺啜些醨糟。朝中待独",
+          "note": "Katakana/hiragana garble ㄤ → 醨; 识典古籍: 《梨园按试乐府新声》梨园按试乐府新声卷上“〇诸套数” reads 「也铺啜些醨糟朝中待」"
+        },
+        {
+          "original": "屈其泥，啜其ㄤ，何须自苦风",
+          "corrected": "屈其泥，啜其醨，何须自苦风",
+          "note": "Katakana/hiragana garble ㄤ → 醨; 识典古籍: 《梨园按试乐府新声》梨园按试乐府新声卷中“山坡里羊” reads 「其泥啜其醨何须自苦」"
+        },
+        {
+          "original": "这些时春寒绣ブ，月暗重门，",
+          "corrected": "这些时春寒绣裀，月暗重门，",
+          "note": "Katakana/hiragana garble ブ → 裀; 识典古籍: 《一笠庵北词广正谱》卷二 reads 「时春寒绣裀月暗重门」"
+        },
+        {
+          "original": "浆，卧藤簟翠ブ绡帐。",
+          "corrected": "浆，卧藤簟翠裀绡帐。",
+          "note": "Katakana/hiragana garble ブ → 裀; by symbol consensus: ブ → 裀 verified in 8 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "乾坤，作幔为ブ，卧吸扶桑五",
+          "corrected": "乾坤，作幔为裀，卧吸扶桑五",
+          "note": "Katakana/hiragana garble ブ → 裀; by symbol consensus: ブ → 裀 verified in 8 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "绣ブ舒并宿鸳鸯，",
+          "corrected": "绣裀舒并宿鸳鸯，",
+          "note": "Katakana/hiragana garble ブ → 裀; 识典古籍: 《雍熙乐府》雍熙乐府卷之八“南吕宫” reads 「烟月乡绣裀舒并宿鸳」"
+        },
+        {
+          "original": "贵公子锦ブ绣褥？你多曾",
+          "corrected": "贵公子锦裀绣褥？你多曾",
+          "note": "Katakana/hiragana garble ブ → 裀; 识典古籍: 《雍熙乐府》雍熙乐府卷之十“南吕宫” reads 「贵公子锦禋绣褥你多」; normalized to dataset's usual form 裀"
+        },
+        {
+          "original": "边题扇华堂舞ブ画展，两行如",
+          "corrected": "边题扇华堂舞裀画展，两行如",
+          "note": "Katakana/hiragana garble ブ → 裀; by symbol consensus: ブ → 裀 verified in 8 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "添消瘦，不调ブ鼎，恣逞戈矛",
+          "corrected": "添消瘦，不调裀鼎，恣逞戈矛",
+          "note": "Katakana/hiragana garble ブ → 裀; 识典古籍: 《古今图书集成·人事典》钦定古今图书集成明伦汇编人事典第四千八百七十四卷“富贵部纪事二” reads 「消瘦不调裀鼎恣逞戈」"
+        },
+        {
+          "original": "序・你都待重ブ而卧，列鼎而",
+          "corrected": "序・你都待重裀而卧，列鼎而",
+          "note": "Katakana/hiragana garble ブ → 裀; 识典古籍: 《一笑散》正文 reads 「你都待重裀而卧列鼎」"
+        },
+        {
+          "original": "膏粱五味卧重ブ，阳起是你，",
+          "corrected": "膏粱五味卧重裀，阳起是你，",
+          "note": "Katakana/hiragana garble ブ → 裀; by symbol consensus: ブ → 裀 verified in 8 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "时冬里卧芙蓉ブ褥，夏里铺藤",
+          "corrected": "时冬里卧芙蓉裀褥，夏里铺藤",
+          "note": "Katakana/hiragana garble ブ → 裀; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之八（套数三） reads 「里卧芙蓉裀褥夏里铺」"
+        },
+        {
+          "original": "柳影，十里莎ブ。",
+          "corrected": "柳影，十里莎裀。",
+          "note": "Katakana/hiragana garble ブ → 裀; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之一 reads 「影十里莎禋不要多」; normalized to dataset's usual form 裀"
+        },
+        {
+          "original": "可。折莫你重ブ列鼎更如何，",
+          "corrected": "可。折莫你重裀列鼎更如何，",
+          "note": "Katakana/hiragana garble ブ → 裀; 识典古籍: 《坐隐先生精订梨云寄傲》坐隐先生精订梨云寄傲一卷 reads 「折莫你重裀列鼎更如」"
+        },
+        {
+          "original": "情悭义短。我ゐ惶事攒下万千",
+          "corrected": "情悭义短。我恓惶事攒下万千",
+          "note": "Katakana/hiragana garble ゐ → 恓; 识典古籍: 《雍熙乐府》卷十一 reads 「悭义短我恓惶事攒下」"
+        },
+        {
+          "original": "犹豫，几时得ゐ惶业足。",
+          "corrected": "犹豫，几时得恓惶业足。",
+          "note": "Katakana/hiragana garble ゐ → 恓; 识典古籍: 《新镌古今大雅北宫词纪》新镌古今大雅北宫词纪六卷 reads 「豫几时得恓惶业足多」"
+        },
+        {
+          "original": "气长吁，两眼ゐ惶泪如珠。",
+          "corrected": "气长吁，两眼恓惶泪如珠。",
+          "note": "Katakana/hiragana garble ゐ → 恓; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之七、八 reads 「长吁两眼恓惶泪如珠」"
+        },
+        {
+          "original": "ゐ惶运环海般相",
+          "corrected": "恓惶运环海般相",
+          "note": "Katakana/hiragana garble ゐ → 恓; by symbol consensus: ゐ → 恓 verified in 3 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "恰三停，一夜ゐ惶才二更，暗",
+          "corrected": "恰三停，一夜恓惶才二更，暗",
+          "note": "Katakana/hiragana garble ゐ → 恓; by symbol consensus: ゐ → 恓 verified in 3 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "煞尾・金佩虎ひ香，宝带骊珠",
+          "corrected": "煞尾・金佩虎鞶香，宝带骊珠",
+          "note": "Katakana/hiragana garble ひ → 鞶; 识典古籍: 《新镌古今大雅北宫词纪》卷四 reads 「尾金佩虎鞶香宝带骊」"
+        },
+        {
+          "original": "莲花帐，锦罘ぜ珠珞索翠氍毹",
+          "corrected": "莲花帐，锦罘罳珠珞索翠氍毹",
+          "note": "Katakana/hiragana garble ぜ → 罳; 识典古籍: 《新镌古今大雅北宫词纪》新镌古今大雅北宫词纪卷二 reads 「花帐锦罘罳珠珞索翠」"
+        },
+        {
+          "original": "，无半点尘埃ネ染。",
+          "corrected": "，无半点尘埃涴染。",
+          "note": "Katakana/hiragana garble ネ → 涴; 识典古籍: 《雍熙乐府》雍熙乐府卷之八“天符玉皇敕” reads 「半点尘埃涴染」"
+        },
+        {
+          "original": "孤山下，晴桥くぐ，小舫琵琶。",
+          "corrected": "孤山下，晴桥䗖蝀，小舫琵琶。",
+          "note": "Katakana/hiragana garble くぐ → 䗖蝀; 识典古籍: 《北词谱》卷十 reads 「山下晴桥䗖𬟽小舫琵琶」; normalized to dataset's usual form 䗖蝀"
+        },
+        {
+          "original": "归鸿，一扇凉ざ。",
+          "corrected": "归鸿，一扇凉飔。",
+          "note": "Katakana/hiragana garble ざ → 飔; 识典古籍: 《新刊张小山北曲联乐府》新刊张小山北曲联乐府卷上 reads 「鸿一扇凉飔远水空奁」"
+        },
+        {
+          "original": "恰天晴说皮糙ㄡ黧。",
+          "corrected": "恰天晴说皮糙燋黧。",
+          "note": "Katakana/hiragana garble ㄡ → 燋; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之九（套数四） reads 「晴说皮糙燋黧」"
+        },
+        {
+          "original": "的来不发心，ㄡ的方见次第，",
+          "corrected": "的来不发心，燋的方见次第，",
+          "note": "Katakana/hiragana garble ㄡ → 燋; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之九（套数四） reads 「来不发心燋的方见次」"
+        },
+        {
+          "original": "，荷钱小池面ソ蓝。点检芳丛",
+          "corrected": "，荷钱小池面挼蓝。点检芳丛",
+          "note": "Katakana/hiragana garble ソ → 挼; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之七【套数二】“大石调” reads 「钱小池面挼蓝点检芳」"
+        },
+        {
+          "original": "锄净，尚又怕ㄗ稗交生。桑榆",
+          "corrected": "锄净，尚又怕稊稗交生。桑榆",
+          "note": "Katakana/hiragana garble ㄗ → 稊; 识典古籍: 《新定九宫大成南北词宫谱》卷七十三 reads 「净尚又怕稊稗交生桑」"
+        },
+        {
+          "original": "不要多ゾ排一品，休嫌",
+          "corrected": "不要多殽排一品，休嫌",
+          "note": "Katakana/hiragana garble ゾ → 殽; 识典古籍: 《朝野新声太平乐府》朝野新声太平乐府卷之一【小令一】“双调” reads 「不要多殽排一品休」"
+        },
+        {
+          "original": "糊江景幽，翠がテ远山秀。正值",
+          "corrected": "糊江景幽，翠崚嶒远山秀。正值",
+          "note": "Katakana/hiragana garble がテ → 崚嶒; 识典古籍: 《雍熙乐府》雍熙乐府卷之四“仙吕宫” reads 「江景幽翠崚嶒远山秀正」"
+        },
+        {
+          "original": "就华屋芳妍，将步リ家风习演。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble リ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "看到蓠コ卸也，玉骢何处垂",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble コ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "タタ，タ得来不待タ。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble タタ; 识典古籍 candidates ambiguous: 尖兓, 忺忺"
+        },
+        {
+          "original": "タタ，タ得来不待タ。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble タ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "タタ，タ得来不待タ。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble タ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "起初儿相见十分砒タ，心肝儿般敬重将",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble タ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "树梢头ㄋ歌不怕险。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄋ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "从人ㄋ噪放狂乖，不似今",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄋ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "儿ㄋ七七。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄋ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "合掂，一个泥窝窝ㄏ破合添。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄏ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "悴年来，更比年时セ。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble セ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "难随，不由他醉了ぴ睡，今日世途非向",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ぴ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "州・听得那静鞭响ㄡㄡ聒聒，听得杖鼓鸣",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄡㄡ; no matching passage found on 识典古籍 (shidianguji.com)"
         }
       ]
     },
     "宋词/ci.song.13000.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "fixed",
+      "status": "needs_review",
       "fixes": [
         {
           "original": "只守伯禽法，с野万云烟",
           "corrected": "只守伯禽法，□野万云烟",
           "note": "Cyrillic с (U+0441) → □: 唐圭璋《全宋词》魏了翁《水调歌头》(王总领□□生日) itself has a lacuna here (\"＿野万云烟\", per ctext 全宋詞 and 汉典古籍 https://gj.zdic.net/jibu/1037/32340.html); marked with □ per dataset convention rather than guessing"
+        },
+        {
+          "original": "岁华深、け然但把，杖藜",
+          "corrected": "岁华深、翛然但把，杖藜",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《强村丛书》涧泉诗余 reads 「矣岁华深翛然但把杖」"
+        },
+        {
+          "original": "黄庭、心事只け然。",
+          "corrected": "黄庭、心事只翛然。",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《强村丛书》蒲江词稿 reads 「庭心事只翛然都占壶」"
+        },
+        {
+          "original": "朝朝只在尘中め。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble め; no matching passage found on 识典古籍 (shidianguji.com)"
         }
       ]
     },
@@ -108183,22 +108768,60 @@
       "fixes": []
     },
     "宋词/ci.song.0.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "解刷扮，能ㄋ嗽，表里都峭。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄋ; 识典古籍 candidates ambiguous: 𠴇, 㑟"
+        }
+      ]
     },
     "宋词/ci.song.1000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "步携手林间，笑挽ホホ。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ホホ; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.10000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "来堂上，倚杖け然长啸，万里",
+          "corrected": "来堂上，倚杖翛然长啸，万里",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《强村丛书》丘文定公词目录 reads 「堂上倚杖翛然长啸万」"
+        },
+        {
+          "original": "悠颺心地け然，生清凉。",
+          "corrected": "悠颺心地翛然，生清凉。",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《攻媿集》攻媿集卷六“古体诗” reads 「悠颺心地翛然生清凉」"
+        },
+        {
+          "original": "爱著荼シ彻骨香，嗅了",
+          "corrected": "爱著荼䕷彻骨香，嗅了",
+          "note": "Katakana/hiragana garble シ → 䕷; 识典古籍: 《强村丛书》丘文定公词目录 reads 「哢爱著荼䕷彻骨香嗅」"
+        },
+        {
+          "original": "我系如匏，便そ月良天任教。",
+          "corrected": "我系如匏，便𠈺月良天任教。",
+          "note": "Katakana/hiragana garble そ → 𠈺; 识典古籍: 《宋名家词》惜香乐府卷十 reads 「系如匏便𠈺月良天任」"
+        },
+        {
+          "original": "富ノ",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ノ; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.11000.json": {
       "date": "2026-06-26",
@@ -108207,58 +108830,287 @@
       "fixes": []
     },
     "宋词/ci.song.12000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "算け闲静胜，吾能",
+          "corrected": "算翛闲静胜，吾能",
+          "note": "Katakana/hiragana garble け → 翛; by symbol consensus: け → 翛 verified in 27 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "向闲中、百虑け然。",
+          "corrected": "向闲中、百虑翛然。",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《坦庵词》坦庵词“万年欢” reads 「闲中百虑翛然情事寄」"
+        },
+        {
+          "original": "け闲万事总忘机",
+          "corrected": "翛闲万事总忘机",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《宋元明三十三家词》坦庵长短句一卷 reads 「茗味回时翛闲万事总」"
+        },
+        {
+          "original": "信下榻殷勤，け然成梦，梦与",
+          "corrected": "信下榻殷勤，翛然成梦，梦与",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《白石道人歌曲》卷四 reads 「下榻殷勤翛然成梦梦」"
+        },
+        {
+          "original": "娇不尽，ソ州竹。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ソ; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.14000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "见说け然琴鹤外，诗",
+          "corrected": "见说翛然琴鹤外，诗",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《中兴以来绝妙词选》中兴以来绝妙词选卷之九“宋词” reads 「相送见说翛然琴鹤外」"
+        },
+        {
+          "original": "君如玉雪，好け然、琴鹤风尘",
+          "corrected": "君如玉雪，好翛然、琴鹤风尘",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《[乾隆]福建通志》福建通志卷七十八 reads 「如玉雪好翛然琴鹤风」"
+        },
+        {
+          "original": "花庵小，中有け然自在身。",
+          "corrected": "花庵小，中有翛然自在身。",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《中兴以来绝妙词选》中兴以来绝妙词选卷之十“宋词” reads 「庵小中有翛然自在身」"
+        },
+        {
+          "original": "涨一湖绿，天ぇ四山青。",
+          "corrected": "涨一湖绿，天𪟲四山青。",
+          "note": "Katakana/hiragana garble ぇ → 𪟲; 识典古籍: 《汉魏诸名家集二十一种》白玉蟾集卷六 reads 「一湖绿天𪟲四山青这」"
+        },
+        {
+          "original": "づ文王前子，自不与",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble づ; 识典古籍 candidates ambiguous: 亶"
+        },
+        {
+          "original": "拥熊旗指授，鹰扬や啖，毡裘胆落，鼠",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble や; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.15000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "但け然、黄庭境界",
+          "corrected": "但翛然、黄庭境界",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《开庆四明续志》四明续志卷十一“沁园春丙辰十月十日” reads 「难重绿但翛然黄庭境」"
+        },
+        {
+          "original": "沙霭蒹葭，咿ン雁声起。",
+          "corrected": "沙霭蒹葭，咿𠵣雁声起。",
+          "note": "Katakana/hiragana garble ン → 𠵣; 识典古籍: 《宋名家词》芸窗词 reads 「霭蒹葭咿𠵣雁声起平」"
+        },
+        {
+          "original": "帊，袖寒时复罩香え。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble え; 识典古籍 candidates ambiguous: 匜, 𠤷"
+        }
+      ]
     },
     "宋词/ci.song.16000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "烦恼，坦荡独け然。",
+          "corrected": "烦恼，坦荡独翛然。",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《六艺之一录》六艺之一录卷九十六钱唐倪涛撰“石刻文字七十二” reads 「恼坦荡独翛然来斯十」"
+        },
+        {
+          "original": "け然只欲住山林",
+          "corrected": "翛然只欲住山林",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《全芳备祖前集》全芳备祖前集卷二十一 reads 「梅花小底翛然只欲住」"
+        },
+        {
+          "original": "帐山君、け然羽化，梦魂",
+          "corrected": "帐山君、翛然羽化，梦魂",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《词综补遗》卷九 reads 「路帐山君翛然羽化梦」"
+        },
+        {
+          "original": "绿暗シ芜千里。",
+          "corrected": "绿暗䕷芜千里。",
+          "note": "Katakana/hiragana garble シ → 䕷; by symbol consensus: シ → 䕷 verified in 2 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "凝云冱晓，正シ花才积，荻絮",
+          "corrected": "凝云冱晓，正䕷花才积，荻絮",
+          "note": "Katakana/hiragana garble シ → 䕷; 识典古籍: 《御选历代诗余》御选历代诗余卷七十一“念奴娇” reads 「云冱晓正䕷花才积荻」"
+        },
+        {
+          "original": "枝，低罥鬓唇ぢ叶。",
+          "corrected": "枝，低罥鬓唇㔩叶。",
+          "note": "Katakana/hiragana garble ぢ → 㔩; by symbol consensus: ぢ → 㔩 verified in 2 other occurrences via 识典古籍; reading fits context"
+        }
+      ]
     },
     "宋词/ci.song.17000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "问读易堂前，け然松竹，留得",
+          "corrected": "问读易堂前，翛然松竹，留得",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《强村丛书》陵阳词 reads 「读易堂前翛然松竹留」"
+        },
+        {
+          "original": "け然自得，了无",
+          "corrected": "翛然自得，了无",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《词综补遗》卷十五 reads 「舞困时眠翛然自得了」"
+        },
+        {
+          "original": "け然自取玉为衣",
+          "corrected": "翛然自取玉为衣",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《宋明十六家词》宋明十六家词 reads 「爱红衫嫩翛然自取玉」"
+        },
+        {
+          "original": "け然一点系裙腰",
+          "corrected": "翛然一点系裙腰",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《强村丛书》须溪词（一） reads 「是鲜鲜翠翛然一点系」"
+        },
+        {
+          "original": "尘满翠微低ぢ叶，离愁推去",
+          "corrected": "尘满翠微低㔩叶，离愁推去",
+          "note": "Katakana/hiragana garble ぢ → 㔩; 识典古籍: 《潜斋先生文集》卷四 reads 「满翠微低㔩叶离愁推」"
+        },
+        {
+          "original": "垂ぢ叶，鬓酥融。",
+          "corrected": "垂㔩叶，鬓酥融。",
+          "note": "Katakana/hiragana garble ぢ → 㔩; 识典古籍: 《御选历代诗余》满江红 reads 「倚熏笼垂㔩叶鬓酥融」"
+        },
+        {
+          "original": "西母、年开八ど。",
+          "corrected": "西母、年开八袠。",
+          "note": "Katakana/hiragana garble ど → 袠; 识典古籍: 《须溪集》须溪集卷八宋刘辰翁撰 reads 「母年开八袠去年今日」"
+        },
+        {
+          "original": "虎啸ㄛ嶔，护遗迹、尚如",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄛ; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.18000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "楸走马，雕弓ㄇ柳，前事休评",
+          "corrected": "楸走马，雕弓莋柳，前事休评",
+          "note": "Katakana/hiragana garble ㄇ → 莋; 识典古籍: 《词综》词综卷二十七“元词五十三首” reads 「走马雕弓莋柳前事休」"
+        },
+        {
+          "original": "君似怜花透，环碧ㄓ、遮住怕渠惊。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄓ; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.19000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "け然无事净心目",
+          "corrected": "翛然无事净心目",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《乐府雅词》乐府雅词拾遗卷上“南歌子” reads 「瓶插嫩菊翛然无事净」"
+        },
+        {
+          "original": "玉尘生风，け然隐几，香蟠",
+          "corrected": "玉尘生风，翛然隐几，香蟠",
+          "note": "Katakana/hiragana garble け → 翛; by symbol consensus: け → 翛 verified in 27 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "希阔成昭备，彬郁づ晖光。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble づ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "，宵旰勤考，正朔づ同规。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble づ; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.2000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "けけ杨柳不知门。",
+          "corrected": "翛翛杨柳不知门。",
+          "note": "Katakana/hiragana garble けけ → 翛翛; 识典古籍: 《御选历代诗余》御选历代诗余卷六十、御选历代诗余卷六十一目录 reads 「雨捎池面翛翛杨柳不知」"
+        },
+        {
+          "original": "峨冠蝉尾けけ。",
+          "corrected": "峨冠蝉尾翛翛。",
+          "note": "Katakana/hiragana garble けけ → 翛翛; 识典古籍: 《蜀十五家词》李太白词 reads 「峨冠蝉尾翛翛整衣鹤骨」"
+        },
+        {
+          "original": "真个ヵ、共人ヵ。",
+          "corrected": "真个ヵ、共人𠵨。",
+          "note": "Katakana/hiragana garble ヵ → 𠵨; by symbol consensus: ヵ → 𠵨 verified in 2 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "噷奴真个ヵ、共人ヵ。",
+          "corrected": "噷奴真个𠵨、共人𠵨。",
+          "note": "Katakana/hiragana garble ヵ → 𠵨; 识典古籍: 《字孳补》卷上“字典丑集” reads 「噷奴真个𠵨共人」"
+        },
+        {
+          "original": "，且放我快活ヵ。",
+          "corrected": "，且放我快活𠵨。",
+          "note": "Katakana/hiragana garble ヵ → 𠵨; 识典古籍: 《宋名家词》山谷词 reads 「放我快活𠵨便索些别」"
+        },
+        {
+          "original": "与一口、管教�拍ァ�",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ァ; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.20000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "满前白发けけ。",
+          "corrected": "满前白发翛翛。",
+          "note": "Katakana/hiragana garble けけ → 翛翛; by symbol consensus: けけ → 翛翛 verified in 2 other occurrences via 识典古籍; reading fits context"
+        },
+        {
+          "original": "金虎鸣秋，玉龙ㄏ月，天气正凉。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄏ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "肃，秋渐老，摄调ち。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ち; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "细管繁弦里，谁把ㄉ抛过。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄉ; no matching passage found on 识典古籍 (shidianguji.com)"
+        }
+      ]
     },
     "宋词/ci.song.2019y.json": {
       "date": "2026-06-26",
@@ -108279,28 +109131,67 @@
       "fixes": []
     },
     "宋词/ci.song.4000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "斜川归兴，け然满目，回首",
+          "corrected": "斜川归兴，翛然满目，回首",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《乐府雅词》乐府雅词上“晁无咎” reads 「斜川归兴翛然满目回」"
+        },
+        {
+          "original": "嵬ㄝ押千官。",
+          "corrected": null,
+          "note": "needs_review: kana/bopomofo garble ㄝ; 识典古籍 candidates ambiguous: 嵓, 畾, 𡾋"
+        }
+      ]
     },
     "宋词/ci.song.5000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "相过，乘兴却け然。",
+          "corrected": "相过，乘兴却翛然。",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《乐府雅词》乐府雅词中“叶少蕴” reads 「过乘兴却翛然十载悲」"
+        },
+        {
+          "original": "念渊明归意，け然论谁。",
+          "corrected": "念渊明归意，翛然论谁。",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《丹徒县志》卷四十二 reads 「渊明归意翛然论谁归」"
+        }
+      ]
     },
     "宋词/ci.song.6000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "け然胜，清真冷",
+          "corrected": "翛然胜，清真冷",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《中兴以来绝妙词选》中兴以来绝妙词选卷之二“宋词” reads 「微裂芳缄翛然胜清真」"
+        }
+      ]
     },
     "宋词/ci.song.7000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "有妙人携手，け然归路凌风。",
+          "corrected": "有妙人携手，翛然归路凌风。",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《[御选]历代诗余》[御选]历代诗余卷十七 reads 「妙人携手翛然归路凌」"
+        },
+        {
+          "original": "我自知鱼，け然濠上，不问",
+          "corrected": "我自知鱼，翛然濠上，不问",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《竹溪先生文集》竹溪先生乐府卷一 reads 「我自知鱼翛然濠上不」"
+        }
+      ]
     },
     "宋词/ci.song.8000.json": {
       "date": "2026-06-26",
@@ -108309,10 +109200,21 @@
       "fixes": []
     },
     "宋词/ci.song.9000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "け然一饱西窗下",
+          "corrected": "翛然一饱西窗下",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《宋名家词》放翁词 reads 「雅称丝莼翛然一饱西」"
+        },
+        {
+          "original": "如今到此，け然万事，无处",
+          "corrected": "如今到此，翛然万事，无处",
+          "note": "Katakana/hiragana garble け → 翛; 识典古籍: 《梅山续稿》梅山续稿卷十八 reads 「如今到此翛然万事无」"
+        }
+      ]
     },
     "宋词/宋词三百首.json": {
       "date": "2026-06-26",
@@ -109261,6 +110163,11 @@
           "original": "解驂fL朱輪",
           "corrected": "解驂𨋗朱輪",
           "note": "Crawl residue \"fL\" → 𨋗: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "園即事寄舍弟ヨ",
+          "corrected": "園即事寄舍弟紞",
+          "note": "Katakana/hiragana garble ヨ → 紞; 识典古籍: 《王维集》须溪先生校本唐王右丞集卷第三“林园即事寄舍弟𬘘” reads 「事寄舍弟𬘘寓目一蕭」; normalized to dataset's usual form 紞"
         }
       ]
     },
