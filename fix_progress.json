@@ -4,9 +4,9 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 1081,
-    "fixed": 207,
-    "needs_review": 301
+    "clean": 1063,
+    "fixed": 227,
+    "needs_review": 299
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
@@ -606,6 +606,11 @@
           "original": "影堅路，摧殘廣脅gJ。七寶仙台亡舊跡",
           "corrected": null,
           "note": "needs_review: crawl residue \"gJ\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "落樹蕭槮，水清流寂。屬此悲哉氣，",
+          "corrected": "落樹蕭槮，水清流㵳寂。屬此悲哉氣，",
+          "note": "Bare PUA U+E41D → 㵳; 识典古籍 (/zh/): 《廣弘明集》廣弘明集卷第三十“四月八日贊佛詩” reads 「槮水清流㵳寂屬此悲」 (9 hit(s))"
         }
       ]
     },
@@ -3441,7 +3446,7 @@
     "御定全唐詩/json/405.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "fixed",
+      "status": "needs_review",
       "fixes": [
         {
           "original": "弓弦尚鹿fc。紫絛牽白犬，繡bi被花駰。",
@@ -3497,6 +3502,11 @@
           "original": "師才業業，暴卒已sJ々。",
           "corrected": "師才業業，暴卒已䖜々。",
           "note": "Crawl residue \"sJ\" → 䖜; 识典古籍 (/zh/): 《元氏長慶集》元氏長慶集卷第十“律詩” reads 「業暴卒已䖜」 (8 hit(s))"
+        },
+        {
+          "original": "禮天地，東野辟原勻。",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E4C3; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
         }
       ]
     },
@@ -4734,10 +4744,21 @@
       ]
     },
     "御定全唐詩/json/521.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "宮為近侍，分明羽林槍。",
+          "corrected": "宮為近侍，分明㩳羽林槍。",
+          "note": "Bare PUA U+E82A → 㩳; same PUA position as the verified 「分明㩳羽林槍」 (杜牧《念昔遊》)"
+        },
+        {
+          "original": "郊宮為近侍，分明羽林槍。",
+          "corrected": "郊宮為近侍，分明㩳羽林槍。",
+          "note": "Bare PUA U+E82A → 㩳; 识典古籍 (/zh/): 《唐詩類苑》卷一百三十一 reads 「近侍分明㩳」 (14 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/522.json": {
       "date": "2026-06-26",
@@ -5017,6 +5038,11 @@
           "original": "圓明青z3飯",
           "corrected": "圓明青䭀飯",
           "note": "Crawl residue \"z3\" → 䭀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "靈王子，吹笙溯泬。六宮攀不住，三",
+          "corrected": "靈王子，吹笙溯泬㵳。六宮攀不住，三",
+          "note": "Bare PUA U+E41D → 㵳; 识典古籍 (/zh/): 《唐詩選》雜五言體詩一卷（二） reads 「吹笙溯泬㵳六宮攀不」 (2 hit(s))"
         }
       ]
     },
@@ -5368,6 +5394,11 @@
           "original": "無征及獷ce",
           "corrected": "無征及獷𤟤",
           "note": "Crawl residue \"ce\" → 𤟤: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "今逢此夜，共冀泬明。豈是月華別，",
+          "corrected": "今逢此夜，共冀泬㵳明。豈是月華別，",
+          "note": "Bare PUA U+E41D → 㵳; 识典古籍 (/zh/): 《全唐詩》第九函第八册卷二 reads 「夜共冀泬㵳明豈是月」 (3 hit(s))"
         }
       ]
     },
@@ -5390,10 +5421,16 @@
       "fixes": []
     },
     "御定全唐詩/json/604.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "沉葭菼，帆來映泬。浮生自多事，無",
+          "corrected": "沉葭菼，帆來映泬㵳。浮生自多事，無",
+          "note": "Bare PUA U+E41D → 㵳; 识典古籍 (/zh/): 《佩文齋咏物詩選》佩文齋咏物詩選“佛寺類” reads 「帆來映泬㵳浮生自多」 (6 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/605.json": {
       "date": "2026-06-26",
@@ -6713,10 +6750,16 @@
       "fixes": []
     },
     "御定全唐詩/json/709.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "秀，一一排雲上泬。疊嶂出關分二陝",
+          "corrected": "秀，一一排雲上泬㵳。疊嶂出關分二陝",
+          "note": "Bare PUA U+E41D → 㵳; 识典古籍 (/zh/): 《唐詩贯珠》卷三十九 reads 「排雲上泬㵳疊嶂出關」 (1 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/710.json": {
       "date": "2026-06-27",
@@ -7879,14 +7922,19 @@
       "fixes": []
     },
     "全唐诗/poet.song.101000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "是與不是，好看棬。",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "needs_review: bare PUA char U+E841 after 棬 in 釋正覺《頌古一百則 其一六》; appears to be a placeholder for a rare/unencoded character (4th char in the 4+4 phrase 好看棬□); not wrapped in {} braces but context suggests intentional placeholder rather than encoding error — authoritative source needed"
+        },
+        {
+          "original": "是與不是，好看棬。",
+          "corrected": "是與不是，好看棬䙡。",
+          "note": "Bare PUA U+E841 → 䙡; 识典古籍 (/zh/): 《万松老人評唱天童覺和尚頌古從容庵録》卷上 reads 「是好看棬䙡似抑似揚」 (5 hit(s))"
         }
       ]
     },
@@ -8221,38 +8269,53 @@
       "fixes": []
     },
     "全唐诗/poet.song.15000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "秋果正熟猴猿𪘨",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "needs_review: bare PUA char U+E000 (followed by CJK ext char 𪘨 U+2A628) in 梅堯臣《送方進士遊廬山》; the PUA+𪘨 sequence likely represents a rare primate/animal name not encodable in standard Unicode at time of digitization; no {} braces but appears intentional — authoritative source needed to confirm correct character(s)"
+        },
+        {
+          "original": "橫，秋果正熟猴猿𪘨。",
+          "corrected": "橫，秋果正熟猴猿𪘨𪘨。",
+          "note": "Bare PUA U+E000 → 𪘨; 识典古籍 (/zh/): 《宛陵先生集》宛陵先生集卷第三十六“送方進士遊廬山” reads 「正熟猴猿𪘨𪘨東林淡」 (4 hit(s))"
         }
       ]
     },
     "全唐诗/poet.song.122000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "透過古今圈後",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "needs_review: bare PUA char U+E841 between 圈 and 後 in 李浩《贈鬻胭脂者偈》(Chan Buddhist poem); likely a rare character placeholder for a character in the Chan phrase '圈[X]後'; no {} braces but appears to be an intentional rare-character placeholder — authoritative source needed"
+        },
+        {
+          "original": "透過古今圈後，却來這裏喫拳",
+          "corrected": "透過古今圈䙡後，却來這裏喫拳",
+          "note": "Bare PUA U+E841 → 䙡; 识典古籍 (/zh/): 《五燈會元》五燈會元卷二十“南嶽下十五世” reads 「過古今圈䙡後却來這」 (11 hit(s))"
         }
       ]
     },
     "全唐诗/poet.song.131000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "酒朱門非我事",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "needs_review: bare PUA char U+E7E9 between 酒 and 朱門 in 陸游《西窗》; context suggests a character like 旗/肆/家 (e.g. '酒旗朱門' = wine-banner and vermilion gates) but the PUA char may be an intentional placeholder for a rare character not in standard Unicode — authoritative source needed"
+        },
+        {
+          "original": "酒朱門非我事，諸君",
+          "corrected": "酒䏑朱門非我事，諸君",
+          "note": "Bare PUA U+E7E9 → 䏑; 识典古籍 (/zh/): 《宋十五家詩選》劍南詩選卷上 reads 「喜共烹酒䏑朱門非我」 (5 hit(s))"
         }
       ]
     },
@@ -8311,10 +8374,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.163000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "麴氏傾意，人動情。",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E85A; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.164000.json": {
       "date": "2026-06-26",
@@ -8431,10 +8500,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.181000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "饑噇飯，困噇眠。",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E000; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.182000.json": {
       "date": "2026-06-26",
@@ -8443,10 +8518,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.183000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "庭花密密疎疎蕊，溪柳長長短",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E31C; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.184000.json": {
       "date": "2026-06-26",
@@ -8521,16 +8602,28 @@
       "fixes": []
     },
     "全唐诗/poet.song.195000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "送鄉先生林磻黄石講會",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E85A; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.196000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "頭看，已墮阿師圈中。",
+          "corrected": "頭看，已墮阿師圈䙡中。",
+          "note": "Bare PUA U+E841 → 䙡; by consensus: U+E841 = 䙡 in 4 other verified 「圈䙡」 occurrences (Chan idiom)"
+        }
+      ]
     },
     "全唐诗/poet.song.197000.json": {
       "date": "2026-06-26",
@@ -8587,10 +8680,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.204000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "乎爾，全身不在圈裏。",
+          "corrected": "乎爾，全身不在圈䙡裏。",
+          "note": "Bare PUA U+E841 → 䙡; 识典古籍 (/zh/): 《偃溪語錄》偃溪語錄一卷 reads 「身不在圈䙡裏」 (2 hit(s))"
+        }
+      ]
     },
     "全唐诗/poet.song.205000.json": {
       "date": "2026-06-26",
@@ -8611,10 +8710,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.208000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "覘疲罔象，睥睨忲陽侯。",
+          "corrected": "覘疲罔象，睥睨忲忲陽侯。",
+          "note": "Bare PUA U+E002 → 忲; 识典古籍 (/zh/): 《〖光緒〗江西通志》卷五十七 reads 「象睥睨忲忲陽侯漾月」 (9 hit(s))"
+        }
+      ]
     },
     "全唐诗/poet.song.209000.json": {
       "date": "2026-06-26",
@@ -8659,10 +8764,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.215000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "時人，不落他家圈裏。",
+          "corrected": "時人，不落他家圈䙡裏。",
+          "note": "Bare PUA U+E841 → 䙡; 识典古籍 (/zh/): 《五葉弘傳》五𫟒弘傳卷十四“頌古” reads 「落他家圈䙡裏」 (2 hit(s))"
+        }
+      ]
     },
     "全唐诗/poet.song.216000.json": {
       "date": "2026-06-26",
@@ -8713,10 +8824,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.223000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "單君範古意六首 ",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E85A; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.224000.json": {
       "date": "2026-06-26",
@@ -8743,10 +8860,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.228000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "晚風吹䆉稏，歸夢繞江村",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E000; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.229000.json": {
       "date": "2026-06-26",
@@ -8797,10 +8920,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.236000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "叢叢槲葉邊，身睨而視。",
+          "corrected": "叢叢槲葉邊，㩳身睨而視。",
+          "note": "Bare PUA U+E829 → 㩳; 识典古籍 (/zh/): 《佩韋齋集》佩韋齋集卷一“古詩” reads 「叢槲葉邊㩳身睨而視」 (4 hit(s))"
+        }
+      ]
     },
     "全唐诗/poet.song.237000.json": {
       "date": "2026-06-26",
@@ -8809,10 +8938,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.238000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "獨抱琴聲感歲年，捜趣外欲無絃。",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E805; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.239000.json": {
       "date": "2026-06-26",
@@ -8821,10 +8956,21 @@
       "fixes": []
     },
     "全唐诗/poet.song.24000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "下今與古，武庫千矛鏦。",
+          "corrected": "下今與古，武庫㩳千矛鏦。",
+          "note": "Bare PUA U+E829 → 㩳; 识典古籍 (/zh/): 《南陽集》南陽集卷四“同鄰㡬避暑景德” reads 「㩳千矛鏦疑」 (4 hit(s))"
+        },
+        {
+          "original": "上下今與古，武庫千矛鏦。",
+          "corrected": "上下今與古，武庫㩳千矛鏦。",
+          "note": "Bare PUA U+E829 → 㩳; 识典古籍 (/zh/): 《分類字錦》分類字錦卷十七“人物” reads 「與古武庫㩳」 (8 hit(s))"
+        }
+      ]
     },
     "全唐诗/poet.song.240000.json": {
       "date": "2026-06-26",
@@ -8833,10 +8979,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.241000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "張翰思蓴鱸圖",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E000; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.242000.json": {
       "date": "2026-06-26",
@@ -9103,10 +9255,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.57000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "字頌",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E012; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        }
+      ]
     },
     "全唐诗/poet.song.58000.json": {
       "date": "2026-06-26",
@@ -9127,50 +9285,70 @@
       "fixes": []
     },
     "全唐诗/poet.song.34000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "縱橫指顧皆舊物，撫事慨時驚呼。",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "Bare PUA char U+E829 between 事 and 慨 in 劉攽《幽州圖》. Not wrapped in {}. Possible rare char placeholder or encoding error."
+        },
+        {
+          "original": "指顧皆舊物，撫事慨時驚呼。",
+          "corrected": "指顧皆舊物，撫事忼慨時驚呼。",
+          "note": "Bare PUA U+E829 → 忼; 识典古籍 (/zh/): 《彭城集》卷七 reads 「舊物撫事忼慨時驚呼」 (7 hit(s))"
         }
       ]
     },
     "全唐诗/poet.song.42000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "禰生何事來擨。",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "Bare PUA char U+E802 after 擨 in 郭祥正《鸚鵡洲行》. Not wrapped in {}. May be a rare char."
+        },
+        {
+          "original": "州，禰生何事來擨。",
+          "corrected": "州，禰生何事來擨歈。",
+          "note": "Bare PUA U+E802 → 歈; 识典古籍 (/zh/): 《青山集》卷一 reads 「何事來擨歈黄雲屯屯」 (1 hit(s))"
         }
       ]
     },
     "全唐诗/poet.song.49000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "願翁勿言饑，稷調陰陽。",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "Bare PUA char U+E000 between 稷 and 調 in 蘇轍《和子瞻和陶淵明雜詩十一首 其三》. Not wrapped in {}."
+        },
+        {
+          "original": "願翁勿言饑，稷調陰陽。",
+          "corrected": "願翁勿言饑，稷卨調陰陽。",
+          "note": "Bare PUA U+E000 → 卨; 识典古籍 (/zh/): 《坡門酬唱》卷十六 reads 「勿言饑稷卨調陰陽玉」 (1 hit(s))"
         }
       ]
     },
     "全唐诗/poet.song.50000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "猗歟潛有頌，率職自人。",
           "corrected": null,
           "note": "Bare PUA char U+E85A between 自 and 人 in 范祖禹《春鮪初登》. Not wrapped in {}."
+        },
+        {
+          "original": "歟潛有頌，率職自人。",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E85A; 识典古籍 candidates ambiguous: 䍍"
         }
       ]
     },
@@ -9467,50 +9645,70 @@
       ]
     },
     "全唐诗/poet.song.68000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "香爐下烟霞客，此夜皇州亦掩門。",
           "corrected": null,
           "note": "Bare PUA U+E064 between 爐 and 下 in 晁說之《寄李輔之 其一》. Likely rare char placeholder."
+        },
+        {
+          "original": "香爐下烟霞客，此夜皇",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E064; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
         }
       ]
     },
     "全唐诗/poet.song.76000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "永媿山赤頭璨，不令姓氏落人間。",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "Bare PUA U+E066 between 媿 and 山 in 釋德洪《二十日偶書二首 其二》. Likely rare char placeholder."
+        },
+        {
+          "original": "永媿山赤頭璨，不令姓",
+          "corrected": "永媿𡷗山赤頭璨，不令姓",
+          "note": "Bare PUA U+E066 → 𡷗; 识典古籍 (/zh/): 《石門文字禪》石門文字禪卷第十一“七言律詩” reads 「一斑永媿𡷗山赤頭璨」 (6 hit(s))"
         }
       ]
     },
     "全唐诗/poet.song.8000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "恭館靖尊妙化，帝居齋祓擁純禧。",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "Bare PUA U+E805 between 靖 and 尊 in 夏竦《奉祀禮畢還京》. Likely rare char placeholder."
+        },
+        {
+          "original": "恭館靖尊妙化，帝居齋祓",
+          "corrected": "恭館靖𡨋尊妙化，帝居齋祓",
+          "note": "Bare PUA U+E805 → 𡨋; 识典古籍 (/zh/): 《文莊集》卷三十 reads 「闈恭館靖𡨋尊妙化帝」 (2 hit(s))"
         }
       ]
     },
     "全唐诗/poet.song.88000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "先生可笑人，爲生本田。",
           "corrected": null,
           "note": "Bare PUA U+E85A after 田 in 周紫芝《病起節物可驚效柳子厚》. Likely rare char placeholder."
+        },
+        {
+          "original": "可笑人，爲生本田。",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E85A; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
         }
       ]
     },
@@ -9797,50 +9995,75 @@
       "fixes": []
     },
     "全唐诗/poet.tang.28000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "曾奉郊宮爲近侍，分明羽林槍。",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "Bare PUA U+E829 between 林 and 槍 in 杜牧《念昔遊三首 二》. Cannot confirm correct char from training data."
+        },
+        {
+          "original": "宮爲近侍，分明羽林槍。",
+          "corrected": "宮爲近侍，分明㩳羽林槍。",
+          "note": "Bare PUA U+E829 → 㩳; same PUA position as the verified 「分明㩳羽林槍」 (杜牧《念昔遊》)"
+        },
+        {
+          "original": "郊宮爲近侍，分明羽林槍。",
+          "corrected": "郊宮爲近侍，分明㩳羽林槍。",
+          "note": "Bare PUA U+E829 → 㩳; 识典古籍 (/zh/): 《唐詩類苑》卷一百三十一 reads 「近侍分明㩳」 (14 hit(s))"
         }
       ]
     },
     "全唐诗/poet.tang.34000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "空持一竿餌，有意鯨魚。",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "Bare PUA U+E85A after 魚 in 陸龜蒙《奉和襲美酬前進士崔潞盛製見寄因贈至一百四十言》. Cannot confirm."
+        },
+        {
+          "original": "空持一竿餌，有意鯨魚。",
+          "corrected": null,
+          "note": "needs_review: bare PUA U+E85A; 识典古籍 candidates ambiguous: 敿"
         }
       ]
     },
     "全唐诗/poet.tang.54000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "[PUA in editorial note]",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "PUA U+E864 in editorial annotation text for 僧鸞《句》. Likely intentional rare char placeholder in commentary."
+        },
+        {
+          "original": "「鸞」字離作「、鳥」二字，與「",
+          "corrected": "「鸞」字離作「龻、鳥」二字，與「",
+          "note": "Bare PUA U+E864 → 龻; GB18030-2005 standard mapping: PUA U+E864 (GBK FEA0) = U+9FBB 龻 (component of 鸞, as the note describes)"
         }
       ]
     },
     "全唐诗/poet.tang.56000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "[PUA in inscription note]",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "PUA U+E832 in transcription note for 無名氏《七言不全詩句石刻》. Appears in editorial brackets, likely intentional."
+        },
+        {
+          "original": "存『石』字，存『』字，三行存『一",
+          "corrected": "存『石』字，存『龸』字，三行存『一",
+          "note": "Bare PUA U+E832 → 龸; GB18030-2005 standard mapping: PUA U+E832 (GBK FE6D) = U+9FB8 龸"
         }
       ]
     },
@@ -110798,12 +111021,12 @@
       "fixes": [
         {
           "original": "至滑州隔河望黎陽憶丁三",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "needs_review: bare PUA U+E7A6 in poem title (person's name 丁三?); cannot identify rare character without authoritative source"
         },
         {
           "original": "丁田家有贈",
-          "corrected": null,
+          "corrected": "(resolved 2026-10-03, see the \"Bare PUA\" entry below)",
           "note": "needs_review: bare PUA U+E7A6 in poem title (person's name 丁?); Wang Wei poem; cannot identify rare character"
         },
         {
@@ -110820,6 +111043,16 @@
           "original": "地多齊後w9，人帶荊州癭。徒",
           "corrected": null,
           "note": "needs_review: crawl residue \"w9\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "隔河望黎陽憶丁三",
+          "corrected": "隔河望黎陽憶丁三㝢",
+          "note": "Bare PUA U+E7A6 → 㝢; 王維《至滑州隔河望黎陽憶丁三㝢》: 全唐诗 twin reads 宇, common editions 寓; the PUA implies a char outside GBK, and 㝢 (Ext-A variant of 寓/宇) is the only such reading — inferred, not directly attested"
+        },
+        {
+          "original": "丁田家有贈",
+          "corrected": "丁㝢田家有贈",
+          "note": "Bare PUA U+E7A6 → 㝢; 王維《丁㝢田家有贈》: same reasoning as 《至滑州隔河望黎陽憶丁三㝢》 (全唐诗 twin: 丁宇; common: 丁寓) — inferred"
         }
       ]
     },
