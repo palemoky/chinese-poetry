@@ -7063,8 +7063,8 @@
         },
         {
           "original": "タタ，タ得来不待タ。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble タ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "忺忺，忺得来不待忺。",
+          "note": "kana garble タ → 忺; by consensus with the verified 忺忺 in the same line (识典古籍: 《古今图书集成·文学典》卷二百四十一)"
         },
         {
           "original": "起初儿相见十分砒タ，心肝儿般敬重将",
