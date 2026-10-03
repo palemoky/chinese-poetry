@@ -4,8 +4,8 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 970,
-    "fixed": 267,
+    "clean": 963,
+    "fixed": 274,
     "needs_review": 352
   },
   "reviewed": {
@@ -7990,10 +7990,21 @@
       ]
     },
     "全唐诗/poet.song.0.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "弔王事信靡盬",
+          "corrected": "王事信靡盬",
+          "note": "Line-length anomaly (5-char poem): extra char removed; 3 books on 识典古籍 read 「王事信靡盬」 (e.g. 《唐詩》, 《徐公文集》, 《徐常侍集》), none read the dataset's version"
+        },
+        {
+          "original": "弔新安風景好",
+          "corrected": "新安風景好",
+          "note": "Line-length anomaly (5-char poem): extra char removed; 4 books on 识典古籍 read 「新安風景好」 (e.g. 《唐詩》, 《唐音戊籤》, 《徐常侍集》), none read the dataset's version"
+        }
+      ]
     },
     "全唐诗/poet.song.1000.json": {
       "date": "2026-10-04",
@@ -8505,7 +8516,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.15000.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -8518,6 +8529,11 @@
           "original": "橫，秋果正熟猴猿𪘨。",
           "corrected": "橫，秋果正熟猴猿𪘨𪘨。",
           "note": "Bare PUA U+E000 → 𪘨; 识典古籍 (/zh/): 《宛陵先生集》宛陵先生集卷第三十六“送方進士遊廬山” reads 「正熟猴猿𪘨𪘨東林淡」 (4 hit(s))"
+        },
+        {
+          "original": "如快刀一削平無痕",
+          "corrected": "如快刀一削平無痕",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 2 books on 识典古籍 (《名山縣志》, 《宛陵先生集》); no change"
         }
       ]
     },
@@ -8540,6 +8556,11 @@
           "original": "層樓百仞高，下□雲水鄉。",
           "corrected": "層樓百仞高，下瞰雲水鄉。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 3 independent books on 识典古籍 agree, e.g. 《【乾隆】遂寧縣志》遂寧縣志卷九; 《遂寧縣志》遂寧縣志卷九"
+        },
+        {
+          "original": "又何必東望瀛",
+          "corrected": "又何必東望瀛",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 3 books on 识典古籍 (《光緒巫山縣志》, 《四川總志》, 《宋詩紀事》); no change"
         }
       ]
     },
@@ -8597,22 +8618,45 @@
       "fixes": []
     },
     "全唐诗/poet.song.16000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "引領一望雲淋𩅰𩅰",
+          "corrected": "引領一望雲𩅰𩅰",
+          "note": "Line-length anomaly (7-char poem): extra char removed; 3 books on 识典古籍 read 「引領一望雲𩅰𩅰」 (e.g. 《鐔津文集》, 《鐔津集》, 《镡津文集》), none read the dataset's version"
+        }
+      ]
     },
     "全唐诗/poet.song.160000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "有客停騑",
+          "corrected": "有客停征騑",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「有客停征騑」 (e.g. 《雙溪醉隱集》, 《雙溪集》), none read the dataset's version"
+        }
+      ]
     },
     "全唐诗/poet.song.161000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
       "status": "clean",
-      "fixes": []
+      "fixes": [
+        {
+          "original": "惠愛春江之赴滄海",
+          "corrected": "惠愛春江之赴滄海",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 2 books on 识典古籍 (《[嘉靖]四川總志》, 《全蜀藝文志》); no change"
+        },
+        {
+          "original": "清明秋月之挂峨嵋",
+          "corrected": "清明秋月之挂峨嵋",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 2 books on 识典古籍 (《[嘉靖]四川總志》, 《宋詩紀事》); no change"
+        }
+      ]
     },
     "全唐诗/poet.song.162000.json": {
       "date": "2026-06-26",
@@ -8701,10 +8745,31 @@
       ]
     },
     "全唐诗/poet.song.17000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "嗟子學雖",
+          "corrected": "嗟子學雖勞",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 4 books on 识典古籍 read 「嗟子學雖勞」 (e.g. 《宋詩鈔》, 《居士集》, 《歐陽文忠公全集》), none read the dataset's version"
+        },
+        {
+          "original": "讀書文章",
+          "corrected": "讀書爲文章",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「讀書爲文章」 (e.g. 《宋文鑒》, 《皇朝文鑒》), none read the dataset's version"
+        },
+        {
+          "original": "多難人生摧拉",
+          "corrected": "多難人生自摧拉",
+          "note": "Line-length anomaly (7-char poem): missing char restored; 4 books on 识典古籍 read 「多難人生自摧拉」 (e.g. 《古詩箋》, 《宋詩鈔》, 《居士集》), none read the dataset's version"
+        },
+        {
+          "original": "庶幾助衰衰癃",
+          "corrected": "庶幾助衰癃",
+          "note": "Line-length anomaly (5-char poem): extra char removed; 3 books on 识典古籍 read 「庶幾助衰癃」 (e.g. 《宋詩鈔》, 《歐陽文忠公文集》, 《歐陽文忠公集》), none read the dataset's version"
+        }
+      ]
     },
     "全唐诗/poet.song.170000.json": {
       "date": "2026-10-04",
@@ -8883,10 +8948,16 @@
       ]
     },
     "全唐诗/poet.song.189000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
       "status": "clean",
-      "fixes": []
+      "fixes": [
+        {
+          "original": "又不見慶曆元祐際",
+          "corrected": "又不見慶曆元祐際",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 3 books on 识典古籍 (《宋百家詩存》, 《方壺先生集》, 《方壺存稿》); no change"
+        }
+      ]
     },
     "全唐诗/poet.song.19000.json": {
       "date": "2026-10-04",
@@ -8992,6 +9063,11 @@
           "original": "廣橫幕，矗石排吟□。",
           "corrected": "廣橫幕，矗石排吟牀。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《宋詩紀事》宋詩紀事卷三錢塘厲鶚撰; 《湖南通志》卷十三"
+        },
+        {
+          "original": "慈結北憂",
+          "corrected": "慈結北堂憂",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 4 books on 识典古籍 read 「慈結北堂憂」 (e.g. 《宋元詩會》, 《宋詩紀事》, 《西崑詶唱集》), none read the dataset's version"
         }
       ]
     },
@@ -9061,14 +9137,19 @@
       "fixes": []
     },
     "全唐诗/poet.song.208000.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
         {
           "original": "覘疲罔象，睥睨忲陽侯。",
           "corrected": "覘疲罔象，睥睨忲忲陽侯。",
-          "note": "Bare PUA U+E002 → 忲; 识典古籍 (/zh/): 《〖光緒〗江西通志》卷五十七 reads 「象睥睨忲忲陽侯漾月」 (9 hit(s))"
+          "note": "Bare PUA U+E002 → 忲; 识典古籍 (/zh/): 《〖光緒〗江西通志》卷五十七 reads 「象睥睨忲忲陽侯漾月」 (9 hit(s)) | SUPERSEDED 2026-10-04: editions read 「睥睨忲陽侯」 — the PUA was an extraneous char and has been removed (see line-length entry)"
+        },
+        {
+          "original": "睥睨忲忲陽侯",
+          "corrected": "睥睨忲陽侯",
+          "note": "Line-length anomaly (5-char poem): extra char removed; 2 books on 识典古籍 read 「睥睨忲陽侯」 (e.g. 《江西通志》, 《龍雲集》), none read the dataset's version; this also corrects the 2026-10-03 PUA fix (U+E002 was an extraneous char, not 忲)"
         }
       ]
     },
@@ -9425,6 +9506,11 @@
           "original": "呼侶歸殘照，野鶴□□下紫烟。",
           "corrected": "呼侶歸殘照，野鶴啣花下紫烟。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 4 independent books on 识典古籍 agree, e.g. 《[乾隆]福建通志》福建通志卷七十七; 《大明一統名胜志》永福縣"
+        },
+        {
+          "original": "胡不見廬山三峽水",
+          "corrected": "胡不見廬山三峽水",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 3 books on 识典古籍 (《新編方輿勝覽》, 《都官集》, 《青山集》); no change"
         }
       ]
     },
@@ -9520,6 +9606,16 @@
           "original": "買牛勤敎子，邵平□地要人鋤。",
           "corrected": "買牛勤敎子，邵平瓜地要人鋤。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《兩宋名賢小集》兩宋名賢小集卷三百四十一“元陳世隆補”; 《石倉歷代詩選》石倉歷代詩選卷二百十八"
+        },
+        {
+          "original": "好懷自制",
+          "corrected": "好懷不自制",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「好懷不自制」 (e.g. 《天下同文集》, 《宋詩紀事》), none read the dataset's version"
+        },
+        {
+          "original": "意風雅軋",
+          "corrected": "意與風雅軋",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 3 books on 识典古籍 read 「意與風雅軋」 (e.g. 《兩宋名賢小集》, 《東甌詩集》, 《飲冰詩集》), none read the dataset's version"
         }
       ]
     },
@@ -9742,6 +9838,11 @@
           "original": "欲問錢塘□，漁家未啟關。",
           "corrected": "欲問錢塘路，漁家未啟關。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 5 independent books on 识典古籍 agree, e.g. 《[雍正]浙江通志》浙江通志卷二百七十四; 《敕修浙江通志》敕修浙江通志卷二百七十四"
+        },
+        {
+          "original": "星馳電走見相",
+          "corrected": "星馳電走見相",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 2 books on 识典古籍 (《八瓊室金石補正》, 《涪州石魚文字所見錄》); no change"
         }
       ]
     },
@@ -9840,10 +9941,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.38000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "斯瑩青玉",
+          "corrected": "斯巖瑩青玉",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「斯巖瑩青玉」 (e.g. 《〖光緒〗江西通志》, 《江西通志》), none read the dataset's version"
+        }
+      ]
     },
     "全唐诗/poet.song.39000.json": {
       "date": "2026-10-04",
@@ -9929,10 +10036,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.45000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "乃使驥隨蹇步",
+          "corrected": "乃使驥騄隨蹇步",
+          "note": "Line-length anomaly (7-char poem): missing char restored; 5 books on 识典古籍 read 「乃使驥騄隨蹇步」 (e.g. 《東坡全集》, 《東坡後集》, 《東坡詩集注》), none read the dataset's version"
+        }
+      ]
     },
     "全唐诗/poet.song.46000.json": {
       "date": "2026-10-04",
@@ -10011,16 +10124,28 @@
       ]
     },
     "全唐诗/poet.song.55000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
       "status": "clean",
-      "fixes": []
+      "fixes": [
+        {
+          "original": "萬言萬當不如一默",
+          "corrected": "萬言萬當不如一默",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 7 books on 识典古籍 (《四友齋叢説》, 《宋文鑑》, 《山谷内集詩注》); no change"
+        }
+      ]
     },
     "全唐诗/poet.song.56000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
       "status": "clean",
-      "fixes": []
+      "fixes": [
+        {
+          "original": "誠不如南鄰席明府",
+          "corrected": "誠不如南鄰席明府",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 4 books on 识典古籍 (《山谷全書》, 《山谷集》, 《豫章黄先生文集》); no change"
+        }
+      ]
     },
     "全唐诗/poet.song.57000.json": {
       "date": "2026-10-04",
@@ -10139,7 +10264,7 @@
       ]
     },
     "全唐诗/poet.song.49000.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -10152,6 +10277,11 @@
           "original": "願翁勿言饑，稷調陰陽。",
           "corrected": "願翁勿言饑，稷卨調陰陽。",
           "note": "Bare PUA U+E000 → 卨; 识典古籍 (/zh/): 《坡門酬唱》卷十六 reads 「勿言饑稷卨調陰陽玉」 (1 hit(s))"
+        },
+        {
+          "original": "疏捲檐花",
+          "corrected": "疏簾捲檐花",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「疏簾捲檐花」 (e.g. 《【康熙】常熟縣志》, 《常昭合志》), none read the dataset's version"
         }
       ]
     },
@@ -10344,6 +10474,11 @@
           "original": "如今□□□峰頂，無法可傳心",
           "corrected": "如今宴坐孤峰頂，無法可傳心",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 4 independent books on 识典古籍 agree, e.g. 《新編事文類聚翰墨大全》癸集卷之六; 《朱子大全》朱子大全卷之八十一"
+        },
+        {
+          "original": "又不見六一翁",
+          "corrected": "又不見六一翁",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 3 books on 识典古籍 (《宋元詩會》, 《石倉歷代詩選》, 《竹友集》); no change"
         }
       ]
     },
@@ -10372,10 +10507,21 @@
       "fixes": []
     },
     "全唐诗/poet.song.83000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
       "status": "clean",
-      "fixes": []
+      "fixes": [
+        {
+          "original": "公不見大小二鄭公",
+          "corrected": "公不見大小二鄭公",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 2 books on 识典古籍 (《陵陽先生詩》, 《陵陽先生詩集》); no change"
+        },
+        {
+          "original": "又不見韋家兩世侯",
+          "corrected": "又不見韋家兩世侯",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 3 books on 识典古籍 (《陵陽先生詩》, 《陵陽先生詩集》, 《陵陽集》); no change"
+        }
+      ]
     },
     "全唐诗/poet.song.84000.json": {
       "date": "2026-10-04",
@@ -10390,10 +10536,16 @@
       ]
     },
     "全唐诗/poet.song.85000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "汝也寧慚",
+          "corrected": "汝也寧不慚",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「汝也寧不慚」 (e.g. 《古今事文類聚》, 《新編古今事文類聚》), none read the dataset's version"
+        }
+      ]
     },
     "全唐诗/poet.song.86000.json": {
       "date": "2026-10-04",
@@ -10456,14 +10608,30 @@
           "original": "莫合人千里，丹鳳□□天一涯。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「愁看」 supported by only 1 book on 识典古籍 (《東萊先生詩集》卷一); not filled"
+        },
+        {
+          "original": "二廣二矩及甄",
+          "corrected": "二廣二矩及二甄",
+          "note": "Line-length anomaly (7-char poem): missing char restored; 2 books on 识典古籍 read 「二廣二矩及二甄」 (e.g. 《忠武錄》, 《桯史》), none read the dataset's version"
         }
       ]
     },
     "全唐诗/poet.song.92000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
       "status": "clean",
-      "fixes": []
+      "fixes": [
+        {
+          "original": "竹不可一日無",
+          "corrected": "竹不可一日無",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 2 books on 识典古籍 (《宋百家詩存》, 《東萊先生詩集》); no change"
+        },
+        {
+          "original": "酒不可飲不醉",
+          "corrected": "酒不可飲不醉",
+          "note": "Line-length anomaly checked: irregular line is attested as-is in 2 books on 识典古籍 (《宋百家詩存》, 《東萊先生詩集》); no change"
+        }
+      ]
     },
     "全唐诗/poet.song.93000.json": {
       "date": "2026-10-04",
@@ -10990,6 +11158,11 @@
           "original": "石砌百□光似鏡，井輪千轉",
           "corrected": "石砌百尋光似鏡，井輪千轉",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 4 independent books on 识典古籍 agree, e.g. 《古今事文類聚》古今事文類聚前集卷三十五“仙佛部”; 《古今合璧事類備要》古今合璧事類備要前集卷四十九“釋教門”"
+        },
+        {
+          "original": "亟卿拜樂卿爲上客",
+          "corrected": "亟拜樂卿爲上客",
+          "note": "Line-length anomaly (7-char poem): extra char removed; 3 books on 识典古籍 read 「亟拜樂卿爲上客」 (e.g. 《[康熙]日下舊聞》, 《古今圖書集成·職方典》, 《栲栳山人詩集》), none read the dataset's version"
         }
       ]
     },
@@ -11098,7 +11271,7 @@
       ]
     },
     "全唐诗/poet.tang.56000.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -11111,6 +11284,11 @@
           "original": "存『石』字，存『』字，三行存『一",
           "corrected": "存『石』字，存『龸』字，三行存『一",
           "note": "Bare PUA U+E832 → 龸; GB18030-2005 standard mapping: PUA U+E832 (GBK FE6D) = U+9FB8 龸"
+        },
+        {
+          "original": "道貴珠玉",
+          "corrected": "道不貴珠玉",
+          "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「道不貴珠玉」 (e.g. 《無上黃籙大齋立成儀》, 《道門通教必用集》), none read the dataset's version"
         }
       ]
     },
