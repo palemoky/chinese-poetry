@@ -149,7 +149,7 @@ When context alone is insufficient, look up the poem in these sources (in order 
 | 搜韵网 | https://sou-yun.cn | Comprehensive poetry search with rhyme annotation; good for Tang/Song |
 | 古文岛 | https://www.guwendao.net | Covers most canonical works; good full-text search |
 | 汉典 | https://www.zdic.net | Character-level dictionary; use for verifying individual characters |
-| 识典古籍 | https://www.shidianguji.com | Full-text search over scanned editions (OCR + page images), cites book / 卷 / page; independent of web-crawled texts. Best source for 元曲/散曲 (《雍熙乐府》《词林摘艳》《盛世词林》 etc.). Search URL: `https://www.shidianguji.com/search/<query>`; texts are mostly unpunctuated, so search a 4–6 character run without punctuation |
+| 识典古籍 | https://www.shidianguji.com | Full-text search over scanned editions (OCR + page images), cites book / 卷 / page; independent of web-crawled texts. Best source for 元曲/散曲 (《雍熙乐府》《词林摘艳》《盛世词林》 etc.). Search URL: `https://www.shidianguji.com/search/<query>` (simplified display) or `https://www.shidianguji.com/zh/search/<query>` (traditional display); texts are mostly unpunctuated, so search a 4–6 character run without punctuation. Both displays are automatic conversions, not the original glyphs: simplified display turns rare chars into 类推简化 forms (搊→𫼝, 篘→𫇴, 紞→𬘘), traditional display can over-convert (卜→蔔). Use the traditional display to read a rare character, then write it in the form this dataset already uses (e.g. 䕷 not 𧃲, 裀 not 䄄) |
 
 Search by: poem title (`rhythmic` field) + author (`author` field). Compare the suspect line against the authoritative version character by character.
 
