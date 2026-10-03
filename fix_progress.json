@@ -6494,27 +6494,27 @@
         {
           "original": "巫山庙云壑翠Лヴ桃源洞",
           "corrected": null,
-          "note": "needs_review: Cyrillic Л (U+041B) plus katakana ヴ in 汤舜民《鸿门凯歌》; two garbled chars, context unclear"
+          "note": "needs_review: Cyrillic Л (U+041B) plus katakana ヴ in 汤舜民《鸿门凯歌》; two garbled chars, context unclear | 2026-10-03: gushiwen.cn (汤舜民《双调·新水令·春日闺思》) reads \"云壑翠桃园洞\" with the garble simply dropped; parallel with \"烟火黑弥漫\" suggests 2 chars are missing after 翠, so that version is not reliable either"
         },
         {
           "original": "阁门珠路Λ",
           "corrected": null,
-          "note": "needs_review: Greek Λ (U+039B) in 汤舜民《倘秀才》; context too brief to determine correct character"
+          "note": "needs_review: Greek Λ (U+039B) in 汤舜民《倘秀才》; context too brief to determine correct character | 2026-10-03: gushiwen.cn (汤舜民《正宫·端正好·咏荆南佳丽》) has the same garbled \"Λ\" — its 元曲 text shares this corrupted source, not usable for verification"
         },
         {
           "original": "黑вв云髻盘鸦小",
           "corrected": null,
-          "note": "needs_review: Cyrillic вв (U+0432 ×2) in 汤舜民《尾声·赠明时秀》; two-char gap before 云髻, could be 漆漆/压压/鬒鬒 but unconfirmed"
+          "note": "needs_review: Cyrillic вв (U+0432 ×2) in 汤舜民《尾声·赠明时秀》; two-char gap before 云髻, could be 漆漆/压压/鬒鬒 but unconfirmed | 2026-10-03: not found on gushiwen.cn (汤舜民 author list) or sou-yun.cn"
         },
         {
           "original": "撇В手到处称",
-          "corrected": null,
-          "note": "needs_review: Cyrillic В (U+0412) in 刘时中《塞鸿秋》; possibly 开 (撇开手) but unconfirmed"
+          "corrected": "撇摽手到处称",
+          "note": "Cyrillic В (U+0412) → 摽 (in title field); 刘时中《端正好·上高监司》后套〔塞鸿秋〕\"撇摽手到处称人物\"; verified at https://www.gushiwen.cn/shiwenv_e453b65e18d4.aspx"
         },
         {
           "original": "笑豫让，叹Θ迁",
-          "corrected": null,
-          "note": "needs_review: Greek Θ (U+0398) in 吴仁卿《鬼三台》; known Θ→种 mapping doesn't fit here (种迁 not meaningful); historical allusion unclear"
+          "corrected": "笑豫让，叹鉏麑",
+          "note": "Greek Θ + 迁 → 鉏麑 (both chars corrupted; in title field); 吴仁卿《越调·斗鹌鹑·自悟》〔鬼三台〕\"笑豫让，叹鉏麑\" — 豫让/鉏麑 are paired assassin allusions; verified at https://www.gushiwen.cn/shiwens/default.aspx?astr=吴仁卿"
         },
         {
           "original": "先天К",
