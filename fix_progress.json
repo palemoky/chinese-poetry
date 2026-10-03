@@ -5,8 +5,8 @@
     "total_files": 1589,
     "reviewed": 1589,
     "clean": 1090,
-    "fixed": 62,
-    "needs_review": 437
+    "fixed": 68,
+    "needs_review": 431
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
@@ -6498,8 +6498,8 @@
         },
         {
           "original": "阁门珠路Λ",
-          "corrected": null,
-          "note": "needs_review: Greek Λ (U+039B) in 汤舜民《倘秀才》; context too brief to determine correct character | 2026-10-03: gushiwen.cn (汤舜民《正宫·端正好·咏荆南佳丽》) has the same garbled \"Λ\" — its 元曲 text shares this corrupted source, not usable for verification | 2026-10-03 shidianguji: 《词林摘艳》卷六 reads \"阁门珠鹿𦌊\", 《盛世词林》卷二 reads \"阁门珠络籁\" — witnesses disagree on the final char (𦌊 vs 籁), left unresolved"
+          "corrected": "阁门珠路𦌊",
+          "note": "Greek Λ (U+039B) → 𦌊; 汤舜民《正宫·端正好·咏荆南佳丽》〔倘秀才〕: 《雍熙乐府》卷二 (四部丛刊本) \"阁门珠䍡𦌊\", 《词林摘艳》卷六 \"阁门珠鹿𦌊\" (other witnesses: 嘉靖四十五年本 \"珠麗榖\", 《盛世词林》 \"珠絡籟\"); verified at https://www.shidianguji.com/zh/search/復道錦氍毹 . Note: preceding 路 is probably a substitution for 䍡 (lù) but is not garbled, left unchanged"
         },
         {
           "original": "黑вв云髻盘鸦小",
@@ -7048,18 +7048,18 @@
         },
         {
           "original": "看到蓠コ卸也，玉骢何处垂",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble コ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "看到蓠䕷卸也，玉骢何处垂",
+          "note": "kana/bopomofo garble コ → 䕷; 识典古籍 (/zh/): 《雍熙樂府》雍熙樂府卷之十二“雙調” reads 「看到蘺䕷卸也玉驄」 (2 hit(s))"
         },
         {
           "original": "タタ，タ得来不待タ。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble タタ; 识典古籍 candidates ambiguous: 尖兓, 忺忺"
+          "corrected": "忺タ，タ得来不待タ。",
+          "note": "kana/bopomofo garble タ → 忺; by consensus with the verified 忺忺 in the same line (识典古籍: 《古今圖書集成·文學典》卷二百四十一)"
         },
         {
           "original": "タタ，タ得来不待タ。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble タ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "忺タ，タ得来不待タ。",
+          "note": "kana/bopomofo garble タ → 忺; by consensus with the verified 忺忺 in the same line (识典古籍: 《古今圖書集成·文學典》卷二百四十一)"
         },
         {
           "original": "タタ，タ得来不待タ。",
@@ -7078,8 +7078,8 @@
         },
         {
           "original": "从人ㄋ噪放狂乖，不似今",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ㄋ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "从人啅噪放狂乖，不似今",
+          "note": "kana/bopomofo garble ㄋ → 啅; 识典古籍 (/zh/): 《類聚名賢樂府群玉》卷之一 reads 「怪從人啅噪放狂乖」 (3 hit(s))"
         },
         {
           "original": "儿ㄋ七七。",
@@ -7093,8 +7093,8 @@
         },
         {
           "original": "悴年来，更比年时セ。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble セ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "悴年来，更比年时㬠。",
+          "note": "kana/bopomofo garble セ → 㬠; 识典古籍 (/zh/): 《朝野新聲太平樂府》朝野新聲太平樂府卷之六【套數】“套數類” reads 「更比年時㬠傷春心未」 (2 hit(s))"
         },
         {
           "original": "难随，不由他醉了ぴ睡，今日世途非向",
@@ -108782,12 +108782,12 @@
     "宋词/ci.song.1000.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "步携手林间，笑挽ホホ。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ホホ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "步携手林间，笑挽纤纤。",
+          "note": "kana/bopomofo garble ホホ → 纤纤; 识典古籍 (/zh/): 《[御選]歷代詩餘》[御選]歷代詩餘卷六十 reads 「林間笑挽纖纖莫上孤峯」 (26 hit(s))"
         }
       ]
     },
@@ -108832,7 +108832,7 @@
     "宋词/ci.song.12000.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "算け闲静胜，吾能",
@@ -108856,8 +108856,8 @@
         },
         {
           "original": "娇不尽，ソ州竹。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ソ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "娇不尽，蕲州竹。",
+          "note": "kana/bopomofo garble ソ → 蕲; 识典古籍 (/zh/): 《永樂大典》永樂大典卷之一萬四千三百八十一【四霽】“寄（二）” reads 「曲嬌不盡蘄州竹一泓」 (2 hit(s))"
         }
       ]
     },
@@ -108893,15 +108893,15 @@
         },
         {
           "original": "拥熊旗指授，鹰扬や啖，毡裘胆落，鼠",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble や; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "拥熊旗指授，鹰扬虓啖，毡裘胆落，鼠",
+          "note": "kana/bopomofo garble や → 虓; 识典古籍 (/zh/): 《宋名家詞》芸窗詞 reads 「指授鷹揚虓啖氈裘膽」 (2 hit(s))"
         }
       ]
     },
     "宋词/ci.song.15000.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "但け然、黄庭境界",
@@ -108915,8 +108915,8 @@
         },
         {
           "original": "帊，袖寒时复罩香え。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble え; 识典古籍 candidates ambiguous: 匜, 𠤷"
+          "corrected": "帊，袖寒时复罩香匜。",
+          "note": "kana/bopomofo garble え → 匜; 识典古籍 (/zh/): 《宋元八家詞》梅屋詞 reads 「時復罩香匜誤點一痕」 (6 hit(s))"
         }
       ]
     },
@@ -108960,7 +108960,7 @@
     "宋词/ci.song.17000.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "问读易堂前，け然松竹，留得",
@@ -108999,15 +108999,15 @@
         },
         {
           "original": "虎啸ㄛ嶔，护遗迹、尚如",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ㄛ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "虎啸欹嶔，护遗迹、尚如",
+          "note": "kana/bopomofo garble ㄛ → 欹; 识典古籍 (/zh/): 《元草堂詩餘》精選名儒草堂詩餘卷中 reads 「難尋虎嘯欹嶔護遺蹟」 (3 hit(s))"
         }
       ]
     },
     "宋词/ci.song.18000.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "楸走马，雕弓ㄇ柳，前事休评",
@@ -109016,8 +109016,8 @@
         },
         {
           "original": "君似怜花透，环碧ㄓ、遮住怕渠惊。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ㄓ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "君似怜花透，环碧帷、遮住怕渠惊。",
+          "note": "kana/bopomofo garble ㄓ → 帷; 识典古籍 (/zh/): 《精選名儒草堂詩餘》草堂詩餘卷中 reads 「花透環碧帷遮住怕渠」 (3 hit(s))"
         }
       ]
     },
@@ -109102,8 +109102,8 @@
         },
         {
           "original": "肃，秋渐老，摄调ち。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ち; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "肃，秋渐老，摄调愆。",
+          "note": "kana/bopomofo garble ち → 愆; 识典古籍 (/zh/): 《宋史》宋史卷醫百四十一“樂志第九十四” reads 「漸老攝調愆忱恂遍羣」 (8 hit(s))"
         },
         {
           "original": "细管繁弦里，谁把ㄉ抛过。",
@@ -109133,7 +109133,7 @@
     "宋词/ci.song.4000.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "斜川归兴，け然满目，回首",
@@ -109142,8 +109142,8 @@
         },
         {
           "original": "嵬ㄝ押千官。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ㄝ; 识典古籍 candidates ambiguous: 嵓, 畾, 𡾋"
+          "corrected": "嵬嵓押千官。",
+          "note": "kana/bopomofo garble ㄝ → 嵓; 识典古籍 (/zh/): 《宋名家詞》第八册 reads 「紅屈盤嵬嵓押千官」 (6 hit(s))"
         }
       ]
     },
