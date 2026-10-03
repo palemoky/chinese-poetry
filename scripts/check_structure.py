@@ -6,6 +6,7 @@
   ci_pattern       词：与同词牌主流体式相比总字数差 1~2 字，且该字数极少见（疑漏字、衍字）
   ascii_residue    正文中混入的 ASCII 字母/数字（爬取残渣，如 z5、zB）
   cyrillic_greek   西里尔 / 希腊字母乱码
+  kana_bopomofo    日文假名 / 注音符号乱码
   bare_pua         {...} 之外的私用区字符
   missing_char     □ 缺字
 
@@ -33,6 +34,7 @@ ZAYAN_TITLE = re.compile(r'[歌行吟引曲謠谣辭辞詞词句]')  # 歌行杂
 ASCII_RES = re.compile(r'[A-Za-z0-9]+')
 HANZI = re.compile(r'[\u3400-\u9fff\U00020000-\U0003ffff\ue000-\uf8ff□〇]')
 CYRILLIC_GREEK = re.compile(r'[Ѐ-ӿͰ-Ͽ]')
+KANA_BOPOMOFO = re.compile(r'[\u3040-\u30fa\u30fc-\u30ff\u3100-\u312f\u31a0-\u31bf]')  # 假名、注音乱码（不含标题分隔符・）
 PUA = re.compile(r'[-]')
 CI_DIRS = {'宋词', '五代诗词'}
 SHI_DIRS = {'全唐诗', '御定全唐詩', '水墨唐诗', '曹操诗集', '纳兰性德'}  # 元曲有衬字，不做字数检查
@@ -87,8 +89,8 @@ def label(it):
 def check_chars(rel, idx, it, lines, report):
     for line in lines:
         body = FOOTNOTE.sub('', PLACEHOLDER.sub('', line))
-        for kind, rx in (('cyrillic_greek', CYRILLIC_GREEK), ('bare_pua', PUA),
-                         ('ascii_residue', ASCII_RES)):
+        for kind, rx in (('cyrillic_greek', CYRILLIC_GREEK), ('kana_bopomofo', KANA_BOPOMOFO),
+                         ('bare_pua', PUA), ('ascii_residue', ASCII_RES)):
             for m in rx.finditer(body):
                 report(kind, rel, idx, it, line, token=m.group())
         if '□' in line:
@@ -98,7 +100,8 @@ def check_chars(rel, idx, it, lines, report):
         text = it.get(field)
         if isinstance(text, str):
             body = PLACEHOLDER.sub('', text)
-            for kind, rx in (('cyrillic_greek', CYRILLIC_GREEK), ('bare_pua', PUA)):
+            for kind, rx in (('cyrillic_greek', CYRILLIC_GREEK), ('kana_bopomofo', KANA_BOPOMOFO),
+                             ('bare_pua', PUA)):
                 for m in rx.finditer(body):
                     report(kind, rel, idx, it, f'[{field}] {text}', token=m.group())
 
