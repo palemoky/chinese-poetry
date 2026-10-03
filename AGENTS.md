@@ -20,7 +20,7 @@ Run this script to get your next batch:
 import os, json, re
 
 ROOT = os.path.dirname(os.path.abspath('fix_progress.json'))
-SKIP = {'author', 'rank', 'settings', '表面结构字', 'error'}
+SKIP = {'author', 'rank', 'settings', '表面结构字', 'error', 'fix_progress'}
 SKIP_DIRS = {'loader', 'strains', 'images', 'rank', '.git', '.claude'}
 CYRILLIC_GREEK = re.compile(r'[Ѐ-ӿͰ-Ͽ]')
 

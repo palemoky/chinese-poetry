@@ -3,15 +3,15 @@
   "description": "Progress tracker for fixing typos and garbled characters (乱码) in chinese-poetry dataset. See .claude/commands/fix-typos.md for the workflow.",
   "stats": {
     "total_files": 1589,
-    "reviewed": 1590,
-    "clean": 1160,
-    "fixed": 6,
-    "needs_review": 424
+    "reviewed": 1589,
+    "clean": 1107,
+    "fixed": 59,
+    "needs_review": 423
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -23,6 +23,16 @@
           "original": "世間恩愛極難yR",
           "corrected": null,
           "note": "李茂複《自歎》(no#10) contains 'yR' as an apparent placeholder for an unrepresentable character. Context: '世間恩愛極難yR，近來不作顛狂事'. Requires expert verification."
+        },
+        {
+          "original": "無ew我陵",
+          "corrected": "無㗲我陵",
+          "note": "Crawl residue \"ew\" → 㗲: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "世間恩愛極難yR",
+          "corrected": "世間恩愛極難𢬵",
+          "note": "Crawl residue \"yR\" → 𢬵: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -75,26 +85,36 @@
       ]
     },
     "御定全唐詩/json/776.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "登艫fS川陸",
           "corrected": null,
           "note": "唐堯臣《金陵懷古》(no#17): 'fS' in '登艫fS川陸' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "登艫fS川陸",
+          "corrected": "登艫𦪇川陸",
+          "note": "Crawl residue \"fS\" → 𦪇: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/777.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "冪zx野煙起",
           "corrected": null,
           "note": "豆盧回《登樂游原懷古》(no#6): 'zx' in '冪zx野煙起，蒼茫嵐氣昏' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "冪zx野煙起",
+          "corrected": "冪䍥野煙起",
+          "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -105,26 +125,36 @@
       "fixes": []
     },
     "御定全唐詩/json/779.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "珠綴引xz朧",
           "corrected": null,
           "note": "柴宿《初日照華清宮》(no#6): 'xz' in '珠綴引xz朧' is an ASCII placeholder code. Also, poem no#9 author '劉gL' has 'gL' as placeholder in the author's given name. Requires verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "珠綴引xz朧",
+          "corrected": "珠綴引𦝰朧",
+          "note": "Crawl residue \"xz\" → 𦝰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/780.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "圓彩色玢ge",
           "corrected": null,
           "note": "鄧陟《珠還合浦》(no#24): 'ge' after '玢' in '圓彩色玢ge' is an ASCII placeholder code. Also, poem no#26 author '苑gT' has 'gT' as placeholder in the author's name. Requires verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "圓彩色玢ge",
+          "corrected": "圓彩色玢㻞",
+          "note": "Crawl residue \"ge\" → 㻞: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -153,14 +183,19 @@
       "fixes": []
     },
     "御定全唐詩/json/785.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "雙月謳cA輾秋碧",
           "corrected": null,
           "note": "無名氏《小蘇家》(no#12): 'cA' in '雙月謳cA輾秋碧' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "雙月謳cA輾秋碧",
+          "corrected": "雙月謳䛩輾秋碧",
+          "note": "Crawl residue \"cA\" → 䛩: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -177,26 +212,41 @@
       "fixes": []
     },
     "御定全唐詩/json/788.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "醉後接z5倒 / 倒著接z5發垂領 / 拈z2舐指不知休",
           "corrected": null,
           "note": "顏真卿聯句集: poem no#3 '醉後接z5倒' and no#23 '倒著接z5發垂領' contain 'z5' placeholder; poem no#21 '拈z2舐指不知休' contains 'z2' placeholder. All are ASCII placeholder codes for characters unrepresentable in source encoding. Requires verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "醉後接z5倒",
+          "corrected": "醉後接䍦倒",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "倒著接z5發垂領",
+          "corrected": "倒著接䍦發垂領",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/789.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "山簡酣歌倒接z5",
           "corrected": null,
           "note": "嚴維《酒語聯句》(no#4): 'z5' in '山簡酣歌倒接z5' is an ASCII placeholder code. Requires verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "山簡酣歌倒接z5",
+          "corrected": "山簡酣歌倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -207,14 +257,114 @@
       "fixes": []
     },
     "御定全唐詩/json/791.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "z9, pi, kq, fn, br, gu, z1, fU, t3, gl, eM, bR, eGcP, btbT, s9, s8, y5, xK, bsbS, cd, gp, fE, ob, wM placeholders throughout",
           "corrected": null,
           "note": "韓愈/孟郊聯句集 (nos 1-10) contains extensive ASCII placeholder codes scattered across multiple poems: z9 (×2), pi, kq, fn, br, gu, z1 (×2), fU, t3, gl, eM (×2), bR, eGcP, btbT, s9, s8, y5, xK, bsbS, cd, gp, fE, ob, wM. These rare character placeholders are concentrated in 《城南聯句》《會合聯句》《征蜀聯句》etc. All require expert verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "z9肌遭眊刺",
+          "corrected": "㾕肌遭眊刺",
+          "note": "Crawl residue \"z9\" → 㾕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "蹙鬐怒dE鬤",
+          "corrected": "蹙鬐怒䰃鬤",
+          "note": "Crawl residue \"dE\" → 䰃: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "惡嚼kq腥鯖",
+          "corrected": "惡嚼𠽢腥鯖",
+          "note": "Crawl residue \"kq\" → 𠽢: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "威暢捐fn輣",
+          "corrected": "威暢捐䡴輣",
+          "note": "Crawl residue \"fn\" → 䡴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "龍駕聞敲br",
+          "corrected": "龍駕聞敲𩙁",
+          "note": "Crawl residue \"br\" → 𩙁: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "啄場翽祥gu",
+          "corrected": "啄場翽祥䳟",
+          "note": "Crawl residue \"gu\" → 䳟: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "畦肥翦韭z1",
+          "corrected": "畦肥翦韭䪥",
+          "note": "Crawl residue \"z1\" → 䪥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "眼剽強盯fU",
+          "corrected": "眼剽強盯𥋝",
+          "note": "Crawl residue \"fU\" → 𥋝: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "江疾有餘t3",
+          "corrected": "江疾有餘尰",
+          "note": "Crawl residue \"t3\" → 尰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "磔毛各噤z9",
+          "corrected": "磔毛各噤㾕",
+          "note": "Crawl residue \"z9\" → 㾕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "長wM倦還捉",
+          "corrected": "長䈉倦還捉",
+          "note": "Crawl residue \"wM\" → 䈉: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "盤殽饋禽ob",
+          "corrected": "盤殽饋禽㲉",
+          "note": "Crawl residue \"ob\" → 㲉: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "鐵刃我槍bR",
+          "corrected": "鐵刃我槍䶪",
+          "note": "Crawl residue \"bR\" → 䶪: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "中矢類妖cd",
+          "corrected": "中矢類妖㺑",
+          "note": "Crawl residue \"cd\" → 㺑: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "獷眼困逾fx",
+          "corrected": "獷眼困逾䀣",
+          "note": "Crawl residue \"fx\" → 䀣: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "載實駝鳴s8",
+          "corrected": "載實駝鳴𡇼",
+          "note": "Crawl residue \"s8\" → 𡇼: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "燾養均草y5",
+          "corrected": "燾養均草䕓",
+          "note": "Crawl residue \"y5\" → 䕓: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "巧舌千皆fE",
+          "corrected": "巧舌千皆𦧈",
+          "note": "Crawl residue \"fE\" → 𦧈: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "微芳比蕭z1",
+          "corrected": "微芳比蕭䪥",
+          "note": "Crawl residue \"z1\" → 䪥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "生堂合y7鑮",
+          "corrected": "生堂合毊鑮",
+          "note": "Crawl residue \"y7\" → 毊: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -309,14 +459,19 @@
       "fixes": []
     },
     "御定全唐詩/json/806.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "兒弄口ex々 / 吃他殘czwW / 世濁作fh羺 / 弄璋字烏cY / 買肉血dj々 / 灰塵亂ej々 / 鳥語聲eX々 (×3)",
           "corrected": null,
           "note": "寒山《詩三百三首》(no#1) contains multiple ASCII placeholder codes for unrepresentable rare characters: 'ex' (父母句), 'czwW' (吃他殘czwW), 'fh' (世濁作fh羺), 'cY' (弄璋字烏cY), 'dj' (買肉血dj々), 'ej' (灰塵亂ej々), 'eX' appears 3 times (鳥語聲eX々 etc.). All are encoding artifacts for characters beyond the source system's character set. Requires verification against physical edition."
+        },
+        {
+          "original": "弄璋字烏cY",
+          "corrected": "弄璋字烏䖘",
+          "note": "Crawl residue \"cY\" → 䖘: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -333,14 +488,19 @@
       ]
     },
     "御定全唐詩/json/808.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "緣崖藤冪zx / 摧殘廣脅gJ",
           "corrected": null,
           "note": "Two ASCII placeholder codes found: (1) 慧宣《秋日遊東山寺尋殊曹二法師》(no#3): 'zx' in '緣崖藤冪zx'; (2) 義淨《與無行禪師同游鷲嶺…》(no#22): 'gJ' in '摧殘廣脅gJ'. Both are encoding artifacts for characters unrepresentable in the source encoding system. Requires verification against physical edition."
+        },
+        {
+          "original": "緣崖藤冪zx",
+          "corrected": "緣崖藤冪䍥",
+          "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -357,14 +517,19 @@
       "fixes": []
     },
     "御定全唐詩/json/811.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "dU幘題新句",
           "corrected": null,
           "note": "法振《陳九溪中草堂》(no#15) contains 'dU' in '蓑衣象古賢。曙花閑秀色，三十六峰前。dU幘題新句'. ASCII placeholder code for an unrepresentable rare character (likely a type of headwear/hat character). Requires verification against physical edition."
+        },
+        {
+          "original": "dU幘題新句",
+          "corrected": "䪻幘題新句",
+          "note": "Crawl residue \"dU\" → 䪻: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -387,38 +552,53 @@
       "fixes": []
     },
     "御定全唐詩/json/815.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "應思石de訪春泉",
           "corrected": null,
           "note": "皎然《酬秦山人贈別二首》(no#56) contains 'de' in '應思石de訪春泉'. ASCII placeholder code for an unrepresentable character following 石 (likely a rare stone-path character). Same code also appears in 817.json poem 6. Requires verification against physical edition."
+        },
+        {
+          "original": "應思石de訪春泉",
+          "corrected": "應思石瀃訪春泉",
+          "note": "Crawl residue \"de\" → 瀃: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/816.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "霜剪荍y9心",
           "corrected": null,
           "note": "皎然《寄崔萬芳夔》(no#11) contains 'y9' in '霜剪荍y9心'. ASCII placeholder code for an unrepresentable rare character. □ in poem 55 '□□□滿山' is intentional (damaged text). Requires verification against physical edition."
+        },
+        {
+          "original": "霜剪荍y9心",
+          "corrected": "霜剪荍𦾾心",
+          "note": "Crawl residue \"y9\" → 𦾾: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/817.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "石de清心胸",
           "corrected": null,
           "note": "皎然《奉陪陸使君長源諸公游支硎寺》(no#6) contains 'de' in '石de清心胸'. Same ASCII placeholder code as 815.json poem 56 '石de訪春泉' — consistent encoding artifact for the same rare character following 石. □ in poem 72 '何曾裛□塵' is intentional. Requires verification against physical edition."
+        },
+        {
+          "original": "石de清心胸",
+          "corrected": "石瀃清心胸",
+          "note": "Crawl residue \"de\" → 瀃: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -495,8 +675,8 @@
       "fixes": []
     },
     "御定全唐詩/json/829.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -508,12 +688,17 @@
           "original": "旅墳孤fb嶽",
           "corrected": null,
           "note": "貫休《懷劉得仁》(no#28): 'fb' in '旅墳孤fb嶽，羸僕泣如兒。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+        },
+        {
+          "original": "苦惑神仙cX",
+          "corrected": "苦惑神仙䜝",
+          "note": "Crawl residue \"cX\" → 䜝: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/830.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -535,6 +720,16 @@
           "original": "鵬cR甯唯白",
           "corrected": null,
           "note": "貫休《贈抱麻劉舍人》(no#57): 'cR' in '鵬cR甯唯白，龍多豈止荀。' ASCII placeholder code (mixed case). Requires verification against physical edition."
+        },
+        {
+          "original": "穿霞逢黑yU",
+          "corrected": "穿霞逢黑鴧",
+          "note": "Crawl residue \"yU\" → 鴧: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "老ch寒披衲",
+          "corrected": "老𤣎寒披衲",
+          "note": "Crawl residue \"ch\" → 𤣎: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -545,8 +740,8 @@
       "fixes": []
     },
     "御定全唐詩/json/832.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -558,18 +753,28 @@
           "original": "df水準芳草",
           "corrected": null,
           "note": "貫休《偶作因懷大同道友》(no#48): 'df' in 'df水準芳草，山花落淨巾。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+        },
+        {
+          "original": "飛錫下崆gk",
+          "corrected": "飛錫下崆㟅",
+          "note": "Crawl residue \"gk\" → 㟅: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/833.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "田香熟稻r1",
           "corrected": null,
           "note": "貫休《壽春節進》(no#1): 'r1' in '田香熟稻r1。夢中逢傅說。' ASCII placeholder code (letter+digit). Requires verification against physical edition."
+        },
+        {
+          "original": "田香熟稻r1",
+          "corrected": "田香熟稻𪎭",
+          "note": "Crawl residue \"r1\" → 𪎭: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -604,14 +809,19 @@
       ]
     },
     "御定全唐詩/json/838.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "霮zw蔽穹蒼",
           "corrected": null,
           "note": "齊己《夏雨》(no#73): 'zw' in '霮zw蔽穹蒼，冥蒙自一方。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+        },
+        {
+          "original": "霮zw蔽穹蒼",
+          "corrected": "霮䨴蔽穹蒼",
+          "note": "Crawl residue \"zw\" → 䨴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -646,14 +856,19 @@
       "fixes": []
     },
     "御定全唐詩/json/853.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "瑤草多zv茸",
           "corrected": null,
           "note": "吳筠《遊廬山五老峰》(no#7): 'zv' in '瑤草多zv茸'. ASCII placeholder code (two lowercase letters). Likely a character describing lush plants. Requires verification against physical edition."
+        },
+        {
+          "original": "瑤草多zv茸",
+          "corrected": "瑤草多䒠茸",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -742,14 +957,19 @@
       "fixes": []
     },
     "御定全唐詩/json/847.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "白bv封題寄火前",
           "corrected": null,
           "note": "齊己《句》(no#80): 'bv' in '白bv封題寄火前。（《詠茶》，'. ASCII placeholder code (two lowercase letters). Likely an unrepresentable character in a miscellaneous verse collection. Requires verification against physical edition."
+        },
+        {
+          "original": "白bv封題寄火前",
+          "corrected": "白甀封題寄火前",
+          "note": "Crawl residue \"bv\" → 甀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -760,14 +980,19 @@
       "fixes": []
     },
     "御定全唐詩/json/859.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "陰b2果決用心除",
           "corrected": null,
           "note": "呂岩《贈劉方處士》(no#1): 'b2' in '陰b2果決用心除'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+        },
+        {
+          "original": "陰b2果決用心除",
+          "corrected": "陰媱果決用心除",
+          "note": "Crawl residue \"b2\" → 媱: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -838,8 +1063,8 @@
       "fixes": []
     },
     "御定全唐詩/json/869.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -861,6 +1086,26 @@
           "original": "fk鏤銀盤盛蛤蜊",
           "corrected": null,
           "note": "賀知章《答朝士》(no#49) and 顧況《和知章詩》(no#50): 'fk' at start of line '鏤銀盤盛蛤蜊'/'鏤銀盤盛炒蝦'. ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+        },
+        {
+          "original": "瓦惡頻蒙cv",
+          "corrected": "瓦惡頻蒙𢸗",
+          "note": "Crawl residue \"cv\" → 𢸗: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "騎豬向南r2",
+          "corrected": "騎豬向南𧾩",
+          "note": "Crawl residue \"r2\" → 𧾩: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "fk鏤銀盤盛蛤蜊",
+          "corrected": "鈒鏤銀盤盛蛤蜊",
+          "note": "Crawl residue \"fk\" → 鈒: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "fk鏤銀盤盛炒蝦",
+          "corrected": "鈒鏤銀盤盛炒蝦",
+          "note": "Crawl residue \"fk\" → 鈒: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -924,14 +1169,19 @@
       ]
     },
     "御定全唐詩/json/877.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "長沙益陽，一時相b3",
           "corrected": null,
           "note": "no#27 《益陽諺》: 'b3' in '長沙益陽，一時相b3'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+        },
+        {
+          "original": "一時相b3",
+          "corrected": "一時相卬",
+          "note": "Crawl residue \"b3\" → 卬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1110,14 +1360,19 @@
       "fixes": []
     },
     "御定全唐詩/json/888.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "絕地窮gK岈，造天究盤礴",
           "corrected": null,
           "note": "no#13 吳筠《遊倚帝山二首》: 'gK' in '絕地窮gK岈'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition."
+        },
+        {
+          "original": "絕地窮gK岈",
+          "corrected": "絕地窮㟏岈",
+          "note": "Crawl residue \"gK\" → 㟏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1128,14 +1383,19 @@
       "fixes": []
     },
     "御定全唐詩/json/890.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "打得來來越z4",
           "corrected": null,
           "note": "no#27 白居易《如夢令》: 'z4' in '打得來來越z4'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+        },
+        {
+          "original": "打得來來越z4",
+          "corrected": "打得來來越曬",
+          "note": "Crawl residue \"z4\" → 曬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1193,14 +1453,19 @@
       ]
     },
     "御定全唐詩/json/886.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "紅bW著霜樹",
           "corrected": null,
           "note": "no#20 孫魴《題梅嶺泉》: 'bW' in '紅bW著霜樹，香老臥池邊'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition."
+        },
+        {
+          "original": "紅bW著霜樹",
+          "corrected": "紅黰著霜樹",
+          "note": "Crawl residue \"bW\" → 黰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1258,14 +1523,19 @@
       ]
     },
     "御定全唐詩/json/882.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "講藝遵先fN",
           "corrected": null,
           "note": "no#5 許敬宗《奉和九月九日應制》: 'fN' in '講藝遵先fN'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition. (□ chars in no#18 and no#23 are intentional classical database placeholders.)"
+        },
+        {
+          "original": "講藝遵先fN",
+          "corrected": "講藝遵先𮜿",
+          "note": "Crawl residue \"fN\" → 𮜿: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1341,13 +1611,6 @@
       "status": "clean",
       "fixes": []
     },
-    "fix_progress.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": [],
-      "note": "Not a poetry file — progress tracker; skipped content review"
-    },
     "御定全唐詩/json/259.json": {
       "date": "2026-06-26",
       "reviewer": "claude-sonnet-4-6",
@@ -1373,14 +1636,19 @@
       "fixes": []
     },
     "御定全唐詩/json/263.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "惟將白接z5",
           "corrected": null,
           "note": "needs_review: 'z5' appears to be a bare ASCII placeholder for a rare/unencoded character in 嚴維《贈送朱放》no.18; context 白接z5 (clothing item?); cannot determine correct char without authoritative source"
+        },
+        {
+          "original": "惟將白接z5",
+          "corrected": "惟將白接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1402,10 +1670,16 @@
       ]
     },
     "御定全唐詩/json/265.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "頭髻pE鬌手爪長",
+          "corrected": "頭髻䰀鬌手爪長",
+          "note": "Crawl residue \"pE\" → 䰀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/266.json": {
       "date": "2026-06-26",
@@ -1450,14 +1724,19 @@
       "fixes": []
     },
     "御定全唐詩/json/272.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "每慚蘋藻用，多謝vK蘭榮。",
           "corrected": null,
           "note": "needs_review: 'vK' appears to be a bare ASCII placeholder for a rare/unencoded character; in 於結《賦得生芻一束》no.12; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "多謝vK蘭榮",
+          "corrected": "多謝𦶜蘭榮",
+          "note": "Crawl residue \"vK\" → 𦶜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1618,20 +1897,25 @@
       "fixes": []
     },
     "御定全唐詩/json/297.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "暗池光冪zx，密樹花葳蕤。",
           "corrected": null,
           "note": "needs_review: 'zx' appears to be a bare ASCII placeholder for a rare/unencoded character; in 王建《早起》; context is morning light on a dark pond (暗池光冪___); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "暗池光冪zx",
+          "corrected": "暗池光冪䍥",
+          "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/298.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1643,6 +1927,11 @@
           "original": "嗟嗟eP々下堂階，獨自灶前來跪拜。",
           "corrected": null,
           "note": "needs_review: 'eP々' appears to be a bare ASCII placeholder (with 々 repetition mark) for a rare/unencoded character; in 王建《鏡聽詞》; context is a woman sighing and descending hall steps; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "雛出ob",
+          "corrected": "雛出㲉",
+          "note": "Crawl residue \"ob\" → 㲉: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1659,14 +1948,19 @@
       "fixes": []
     },
     "御定全唐詩/json/301.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "聞晴z4曝舊芳茵。",
           "corrected": null,
           "note": "needs_review: 'z4' appears to be a bare ASCII placeholder for a rare/unencoded character; in 王建《秋日後》; context is going out on a sunny day to air old fragrant mats; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "聞晴z4曝舊芳茵",
+          "corrected": "聞晴曬曝舊芳茵",
+          "note": "Crawl residue \"z4\" → 曬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1701,8 +1995,8 @@
       "fixes": []
     },
     "御定全唐詩/json/307.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1714,6 +2008,16 @@
           "original": "嵯rU滿山響，坐覺炎氛變。",
           "corrected": null,
           "note": "needs_review: 'rU' appears to be a bare ASCII placeholder for a rare/unencoded character; in 丘丹《奉使過石門觀瀑》; context suggests 嵯峨 compound (嵯___ 満山響) but cannot confirm without authoritative source"
+        },
+        {
+          "original": "紅蟹大如l4",
+          "corrected": "紅蟹大如𤬊",
+          "note": "Crawl residue \"l4\" → 𤬊: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "嵯rU滿山響",
+          "corrected": "嵯𤄓滿山響",
+          "note": "Crawl residue \"rU\" → 𤄓: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1730,8 +2034,8 @@
       "fixes": []
     },
     "御定全唐詩/json/310.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1753,6 +2057,21 @@
           "original": "gS牙斷行處，光滑猿猱跡。",
           "corrected": null,
           "note": "needs_review: 'gS' appears to be a bare ASCII placeholder; in 於鵠《山中訪道者》; context suggests rocky terrain (___牙斷行處); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "升堂戴接z5",
+          "corrected": "升堂戴接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "應閑白接z5",
+          "corrected": "應閑白接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "gS牙斷行處",
+          "corrected": "㰹牙斷行處",
+          "note": "Crawl residue \"gS\" → 㰹: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1871,8 +2190,8 @@
       ]
     },
     "御定全唐詩/json/328.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1884,6 +2203,16 @@
           "original": "fT睇呈巧笑，惠音激淒清。",
           "corrected": null,
           "note": "needs_review: 'fT' placeholder again; in 權德輿《古意》; context is a charming glance (___睇呈巧笑); same character as above likely"
+        },
+        {
+          "original": "香黛宜fT綠",
+          "corrected": "香黛宜𥊑綠",
+          "note": "Crawl residue \"fT\" → 𥊑: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "fT睇呈巧笑",
+          "corrected": "𥊑睇呈巧笑",
+          "note": "Crawl residue \"fT\" → 𥊑: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1912,8 +2241,8 @@
       "fixes": []
     },
     "御定全唐詩/json/333.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1925,6 +2254,11 @@
           "original": "叔侄朱門rV槊連。",
           "corrected": null,
           "note": "needs_review: 'rV' bare ASCII placeholder; in 楊巨源《賀田僕射子弟榮拜金吾》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "征聲by僸攢",
+          "corrected": "征聲𣤮僸攢",
+          "note": "Crawl residue \"by\" → 𣤮: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1941,8 +2275,8 @@
       "fixes": []
     },
     "御定全唐詩/json/336.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1959,12 +2293,17 @@
           "original": "k7々屋摧溜。",
           "corrected": null,
           "note": "needs_review: 'k7々' bare ASCII placeholder with 々 repetition mark; in 韓愈《南山詩》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "後鈍嗔bz譳",
+          "corrected": "後鈍嗔䛠譳",
+          "note": "Crawl residue \"bz\" → 䛠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/337.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1976,6 +2315,11 @@
           "original": "交驚舌互bc。",
           "corrected": null,
           "note": "needs_review: 'bc' bare ASCII placeholder; in 韓愈《喜侯喜至贈張籍張徹》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "交驚舌互bc",
+          "corrected": "交驚舌互舚",
+          "note": "Crawl residue \"bc\" → 舚: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -1986,8 +2330,8 @@
       "fixes": []
     },
     "御定全唐詩/json/339.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1999,12 +2343,17 @@
           "original": "電光ze磹赬目fu，",
           "corrected": null,
           "note": "needs_review: 'ze' and 'fu' bare ASCII placeholders (two in one line); in 韓愈《陸渾山火和皇甫湜用其韻》; cannot determine correct characters without authoritative source"
+        },
+        {
+          "original": "fI池波風肉陵屯",
+          "corrected": "𥁃池波風肉陵屯",
+          "note": "Crawl residue \"fI\" → 𥁃: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/340.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2016,6 +2365,16 @@
           "original": "詎可陵崆uu。",
           "corrected": null,
           "note": "needs_review: 'uu' bare ASCII placeholder; in 韓愈《病中贈張十八》; context suggests 崆峒 compound (崆___); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "舉室常bC頷",
+          "corrected": "舉室常顑頷",
+          "note": "Crawl residue \"bC\" → 顑: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "詎可陵崆uu",
+          "corrected": "詎可陵崆㟅",
+          "note": "Crawl residue \"uu\" → 㟅: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2032,8 +2391,8 @@
       ]
     },
     "御定全唐詩/json/342.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2045,6 +2404,11 @@
           "original": "我亦平行蹋y槱e，",
           "corrected": null,
           "note": "needs_review: 'y' and 'e' bare ASCII placeholders surrounding 槱; in 韓愈《記夢》; cannot determine correct characters without authoritative source"
+        },
+        {
+          "original": "雷霆逼颶f2",
+          "corrected": "雷霆逼颶䫻",
+          "note": "Crawl residue \"f2\" → 䫻: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2067,14 +2431,19 @@
       "fixes": []
     },
     "御定全唐詩/json/345.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "草木森苯mH。",
           "corrected": null,
           "note": "needs_review: 'mH' bare ASCII placeholder; in 韓愈《嘲鼾睡》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "草木森苯mH",
+          "corrected": "草木森苯䔿",
+          "note": "Crawl residue \"mH\" → 䔿: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2109,8 +2478,8 @@
       ]
     },
     "御定全唐詩/json/350.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2127,12 +2496,22 @@
           "original": "苞枿ba矣，惟恨之蟠。",
           "corrected": null,
           "note": "needs_review: 'ba' bare ASCII placeholder; in 柳宗元《唐鐃歌鼓吹曲》第六; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "屈rH猛",
+          "corrected": "屈𧹁猛",
+          "note": "Crawl residue \"rH\" → 𧹁: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "命之vG",
+          "corrected": "命之瞢",
+          "note": "Crawl residue \"vG\" → 瞢: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/351.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2159,6 +2538,21 @@
           "original": "殘肌觸瘴m5。",
           "corrected": null,
           "note": "needs_review: 'm5' bare ASCII placeholder; in 柳宗元《酬韶州裴曹長使君》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "禮容垂gb琫",
+          "corrected": "禮容垂珌琫",
+          "note": "Crawl residue \"gb\" → 珌: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "明心欲自gn",
+          "corrected": "明心欲自𠜲",
+          "note": "Crawl residue \"gn\" → 𠜲: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "殘肌觸瘴m5",
+          "corrected": "殘肌觸瘴𤸷",
+          "note": "Crawl residue \"m5\" → 𤸷: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2175,14 +2569,19 @@
       ]
     },
     "御定全唐詩/json/353.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "pL斯起蒿萊。",
           "corrected": null,
           "note": "needs_review: 'pL' bare ASCII placeholder; in 柳宗元《感遇二首》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "pL斯起蒿萊",
+          "corrected": "鸒斯起蒿萊",
+          "note": "Crawl residue \"pL\" → 鸒: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2277,14 +2676,24 @@
       "fixes": []
     },
     "御定全唐詩/json/369.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "危樓倚天門，如m6星辰宮。",
           "corrected": null,
           "note": "needs_review: 'm6' bare ASCII placeholder; in 樊宗師《蜀綿州越王樓詩》; context is tower reaching the heavens (如___星辰宮); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "如m6星辰宮",
+          "corrected": "如𨶻星辰宮",
+          "note": "Crawl residue \"m6\" → 𨶻: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "蛣蟲食縱",
+          "corrected": "蛣𧎜蟲食縱",
+          "note": "Missing rare char restored by collating with 全唐诗/poet.tang.* (same poem, adjacent lines identical)"
         }
       ]
     },
@@ -2313,14 +2722,19 @@
       "fixes": []
     },
     "御定全唐詩/json/374.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "何人免噓eS。",
           "corrected": null,
           "note": "needs_review: 'eS' bare ASCII placeholder; in 孟郊《病客吟》; context is sighing/moaning in illness (何人免噓___); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "何人免噓eS",
+          "corrected": "何人免噓𠾬",
+          "note": "Crawl residue \"eS\" → 𠾬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2355,14 +2769,19 @@
       "fixes": []
     },
     "御定全唐詩/json/379.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "聚書雲霮zw，",
           "corrected": null,
           "note": "needs_review: 'zw' bare ASCII placeholder; in 孟郊《送草書獻上人歸廬山》; context is gathering books under cloudy/dark skies (雲霮___); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "聚書雲霮zw",
+          "corrected": "聚書雲霮䨴",
+          "note": "Crawl residue \"zw\" → 䨴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2373,14 +2792,19 @@
       "fixes": []
     },
     "御定全唐詩/json/381.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "踔ez猿相過。",
           "corrected": null,
           "note": "needs_review: 'ez' bare ASCII placeholder; in 孟郊《峽哀》; context is monkeys leaping (踔___猿相過); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "踔ez猿相過",
+          "corrected": "踔𨃚猿相過",
+          "note": "Crawl residue \"ez\" → 𨃚: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2409,14 +2833,19 @@
       "fixes": []
     },
     "御定全唐詩/json/386.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "女郎相喚擺階o3。",
           "corrected": null,
           "note": "needs_review: 'o3' bare ASCII placeholder; in 張籍《寒食》; context is women dancing/playing at steps (擺階___); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "女郎相喚擺階o3",
+          "corrected": "女郎相喚擺階𤺩",
+          "note": "Crawl residue \"o3\" → 𤺩: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2469,8 +2898,8 @@
       "fixes": []
     },
     "御定全唐詩/json/393.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2482,18 +2911,28 @@
           "original": "玉挽鳴qX轔。",
           "corrected": null,
           "note": "needs_review: 'qX' bare ASCII placeholder; in 李賀《出城別張又新酬李漢》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "妝成pE鬌欹不斜",
+          "corrected": "妝成䰀鬌欹不斜",
+          "note": "Crawl residue \"pE\" → 䰀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/394.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "zv蒙梨花滿，",
           "corrected": null,
           "note": "needs_review: 'zv' bare ASCII placeholder; in 李賀《感諷六首》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "zv蒙梨花滿",
+          "corrected": "䒠蒙梨花滿",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2528,32 +2967,42 @@
       "fixes": []
     },
     "御定全唐詩/json/398.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "z8々刀刃光，彎彎弓面張。",
           "corrected": null,
           "note": "needs_review: 'z8々' bare ASCII placeholder with 々 repetition mark; in 元稹《遣興十首》; context is weapons (刀刃光，弓面張); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "z8々刀刃光",
+          "corrected": "㸌々刀刃光",
+          "note": "Crawl residue \"z8\" → 㸌: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/399.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "敢憚榱dw蠹，",
           "corrected": null,
           "note": "needs_review: 'dw' bare ASCII placeholder; in 元稹《蟲豸詩：蟻子》; context is rafters being eaten by insects (榱___蠹); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "敢憚榱dw蠹",
+          "corrected": "敢憚榱𣡵蠹",
+          "note": "Crawl residue \"dw\" → 𣡵: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/400.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2565,6 +3014,16 @@
           "original": "寒臥支體m5。",
           "corrected": null,
           "note": "needs_review: 'm5' recurring bare ASCII placeholder (also seen in 351.json); in 元稹《台中鞫獄憶開元觀舊事》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "鷂子繡線oT",
+          "corrected": "鷂子繡線𩏪",
+          "note": "Crawl residue \"oT\" → 𩏪: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "寒臥支體m5",
+          "corrected": "寒臥支體𤸷",
+          "note": "Crawl residue \"m5\" → 𤸷: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2605,8 +3064,8 @@
       "fixes": []
     },
     "御定全唐詩/json/405.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2633,12 +3092,37 @@
           "original": "坳窪饒t3矮，",
           "corrected": null,
           "note": "needs_review: 't3' recurring bare ASCII placeholder (also in 406.json); in 元稹《酬翰林白學士代書一百韻》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "弓弦尚鹿fc",
+          "corrected": "弓弦尚鹿𦟘",
+          "note": "Crawl residue \"fc\" → 𦟘: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "繡bi被花駰",
+          "corrected": "繡䪜被花駰",
+          "note": "Crawl residue \"bi\" → 䪜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "鷹擒東郭su",
+          "corrected": "鷹擒東郭㕙",
+          "note": "Crawl residue \"su\" → 㕙: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "輕橈蕩小fq",
+          "corrected": "輕橈蕩小䑳",
+          "note": "Crawl residue \"fq\" → 䑳: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "坳窪饒t3矮",
+          "corrected": "坳窪饒尰矮",
+          "note": "Crawl residue \"t3\" → 尰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/406.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2660,6 +3144,21 @@
           "original": "那複敢崴pN。",
           "corrected": null,
           "note": "needs_review: 'pN' bare ASCII placeholder; in 元稹《痁臥聞幕中諸公征樂會飲》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "羸馬步殑fF",
+          "corrected": "羸馬步殑㱥",
+          "note": "Crawl residue \"fF\" → 㱥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "矮馬駝鬃bi",
+          "corrected": "矮馬駝鬃䪜",
+          "note": "Crawl residue \"bi\" → 䪜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "治t3扶輕仗",
+          "corrected": "治尰扶輕仗",
+          "note": "Crawl residue \"t3\" → 尰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2681,8 +3180,8 @@
       ]
     },
     "御定全唐詩/json/408.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2694,6 +3193,11 @@
           "original": "瑞雲低g7々，",
           "corrected": null,
           "note": "needs_review: 'g7々' bare ASCII placeholder with 々; in 元稹《春六十韻》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "倡樓妝z8々",
+          "corrected": "倡樓妝㸌々",
+          "note": "Crawl residue \"z8\" → 㸌: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2734,26 +3238,36 @@
       "fixes": []
     },
     "御定全唐詩/json/414.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "後侶逢灘方拽zB，",
           "corrected": null,
           "note": "needs_review: 'zB' bare ASCII placeholder; in 元稹《遭風二十韻》; context is hauling a boat (拽___); same placeholder appears in 415.json"
+        },
+        {
+          "original": "後侶逢灘方拽zB",
+          "corrected": "後侶逢灘方拽𥮘",
+          "note": "Crawl residue \"zB\" → 𥮘: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/415.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "船到明灘拽zB遲。",
           "corrected": null,
           "note": "needs_review: 'zB' recurring placeholder (also in 414.json); in 元稹《南昌灘》; context is boat hauling (拽___遲); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "船到明灘拽zB遲",
+          "corrected": "船到明灘拽𥮘遲",
+          "note": "Crawl residue \"zB\" → 𥮘: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2770,8 +3284,8 @@
       "fixes": []
     },
     "御定全唐詩/json/418.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2783,12 +3297,22 @@
           "original": "延緣蝕dw櫨，",
           "corrected": null,
           "note": "needs_review: 'dw' recurring placeholder (also in 399.json); in 元稹《捉捕歌》; context is gnawing on pillars (蝕___櫨); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "uG秋玉帛積",
+          "corrected": "禜秋玉帛積",
+          "note": "Crawl residue \"uG\" → 禜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "延緣蝕dw櫨",
+          "corrected": "延緣蝕𣡵櫨",
+          "note": "Crawl residue \"dw\" → 𣡵: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/419.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2800,12 +3324,22 @@
           "original": "挑紋變di力倍費，",
           "corrected": null,
           "note": "needs_review: 'di' bare ASCII placeholder; in 元稹《和李校書新題樂府：陰山道》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "雲蠻通好轡長em",
+          "corrected": "雲蠻通好轡長駷",
+          "note": "Crawl residue \"em\" → 駷: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "挑紋變di力倍費",
+          "corrected": "挑紋變䌰力倍費",
+          "note": "Crawl residue \"di\" → 䌰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/420.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2817,6 +3351,16 @@
           "original": "舌端百囀聲咄eu。",
           "corrected": null,
           "note": "needs_review: 'eu' bare ASCII placeholder; in 元稹《有鳥二十章》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "食蛇抱xB天姿惡",
+          "corrected": "食蛇抱礐天姿惡",
+          "note": "Crawl residue \"xB\" → 礐: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "舌端百囀聲咄eu",
+          "corrected": "舌端百囀聲咄㗌",
+          "note": "Crawl residue \"eu\" → 㗌: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2827,14 +3371,19 @@
       "fixes": []
     },
     "御定全唐詩/json/422.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "玉爪kO朱橘。",
           "corrected": null,
           "note": "needs_review: 'kO' bare ASCII placeholder; in 元稹《閨晚》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "玉爪kO朱橘",
+          "corrected": "玉爪剺朱橘",
+          "note": "Crawl residue \"kO\" → 剺: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2881,8 +3430,8 @@
       "fixes": []
     },
     "御定全唐詩/json/429.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -2899,6 +3448,11 @@
           "original": "q0p0上不得，豈我能攀援。",
           "corrected": null,
           "note": "needs_review: 'q0p0' unusual 4-char bare ASCII placeholder; in 白居易《遊悟真寺詩》; context is reaching the top (___上不得); cannot determine correct character(s) without authoritative source"
+        },
+        {
+          "original": "pI嵬欹且刓",
+          "corrected": "𡾋嵬欹且刓",
+          "note": "Crawl residue \"pI\" → 𡾋: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2909,14 +3463,19 @@
       "fixes": []
     },
     "御定全唐詩/json/431.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "持刀gN密竹，",
           "corrected": null,
           "note": "needs_review: 'gN' bare ASCII placeholder; in 白居易《池畔二首》; context is cutting bamboo (持刀___密竹); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "持刀gN密竹",
+          "corrected": "持刀𠜴密竹",
+          "note": "Crawl residue \"gN\" → 𠜴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2933,14 +3492,19 @@
       "fixes": []
     },
     "御定全唐詩/json/434.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "苒箬竹蔑zB，欹危楫師趾。",
           "corrected": null,
           "note": "needs_review: 'zB' recurring placeholder (also in 414.json, 415.json); in 白居易《初入峽有感》; context is bamboo/boating; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "苒箬竹蔑zB",
+          "corrected": "苒箬竹蔑𥮘",
+          "note": "Crawl residue \"zB\" → 𥮘: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -2987,26 +3551,36 @@
       ]
     },
     "御定全唐詩/json/441.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "拔zB暗船來。",
           "corrected": null,
           "note": "needs_review: 'zB' recurring placeholder (also in 414.json, 415.json, 434.json); in 白居易《夜入瞿唐峽》; context is pulling boat through rapids; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "拔zB暗船來",
+          "corrected": "拔𥮘暗船來",
+          "note": "Crawl residue \"zB\" → 𥮘: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/442.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "qL草四時青。",
           "corrected": null,
           "note": "needs_review: 'qL' bare ASCII placeholder; in 白居易《送客南遷》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "qL草四時青",
+          "corrected": "䕭草四時青",
+          "note": "Crawl residue \"qL\" → 䕭: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3017,14 +3591,19 @@
       "fixes": []
     },
     "御定全唐詩/json/444.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "毳bD逐日卷，",
           "corrected": null,
           "note": "needs_review: 'bD' bare ASCII placeholder; in 白居易《別氈帳火爐》; context is felt/wool rolling up (毳___逐日卷); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "毳bD逐日卷",
+          "corrected": "毳䈴逐日卷",
+          "note": "Crawl residue \"bD\" → 䈴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3035,26 +3614,46 @@
       "fixes": []
     },
     "御定全唐詩/json/446.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "泛小fq二首》] 水一塘，fq一隻。fq頭漾漾知風起，fq背蕭蕭聞雨滴。",
           "corrected": null,
           "note": "needs_review: 'fq' recurring placeholder (also in 405.json); in 白居易《泛小fq二首》; appears 4 times including in poem title; context is a small boat; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "fq一隻",
+          "corrected": "䑳一隻",
+          "note": "Crawl residue \"fq\" → 䑳: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "fq頭漾漾知風起",
+          "corrected": "䑳頭漾漾知風起",
+          "note": "Crawl residue \"fq\" → 䑳: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "fq背蕭蕭聞雨滴",
+          "corrected": "䑳背蕭蕭聞雨滴",
+          "note": "Crawl residue \"fq\" → 䑳: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/447.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "晴教z4舞茵。",
           "corrected": null,
           "note": "needs_review: 'z4' recurring placeholder (also in 301.json); in 白居易《自到郡齋僅經旬日》; context is airing mats on a sunny day; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "晴教z4舞茵",
+          "corrected": "晴教曬舞茵",
+          "note": "Crawl residue \"z4\" → 曬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3077,26 +3676,36 @@
       "fixes": []
     },
     "御定全唐詩/json/451.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "時時bZ我喚笙歌。",
           "corrected": null,
           "note": "needs_review: 'bZ' bare ASCII placeholder; in 白居易《雪後早過天津橋偶呈諸客》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "時時bZ我喚笙歌",
+          "corrected": "時時䛏我喚笙歌",
+          "note": "Crawl residue \"bZ\" → 䛏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/452.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "唯聞倒接z5。",
           "corrected": null,
           "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 455.json); in 白居易《裴侍中晉公以集賢林亭即事詩》; context is hat type (倒接___); same rare character as before"
+        },
+        {
+          "original": "唯聞倒接z5",
+          "corrected": "唯聞倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3107,38 +3716,53 @@
       "fixes": []
     },
     "御定全唐詩/json/454.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "鶯嬌語bZ風。",
           "corrected": null,
           "note": "needs_review: 'bZ' recurring placeholder (also in 451.json); in 白居易《箏》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "鶯嬌語bZ風",
+          "corrected": "鶯嬌語䛏風",
+          "note": "Crawl residue \"bZ\" → 䛏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/455.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "欹簪白接z5。",
           "corrected": null,
           "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json); in 白居易《和楊同州寒食》; context is hat type (白接___)"
+        },
+        {
+          "original": "欹簪白接z5",
+          "corrected": "欹簪白接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/456.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "嗟歎悲啼eW殺君。",
           "corrected": null,
           "note": "needs_review: 'eW' bare ASCII placeholder; in 白居易《雨中聽琴者彈別鶴操》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "嗟歎悲啼eW殺君",
+          "corrected": "嗟歎悲啼䛏殺君",
+          "note": "Crawl residue \"eW\" → 䛏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3197,14 +3821,19 @@
       "fixes": []
     },
     "御定全唐詩/json/466.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "噤z9微寒早，",
           "corrected": null,
           "note": "needs_review: 'z9' bare ASCII placeholder; in 牛僧孺《李蘇州遺太湖石奇狀絕倫因題二十韻》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "噤z9微寒早",
+          "corrected": "噤㾕微寒早",
+          "note": "Crawl residue \"z9\" → 㾕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3215,14 +3844,19 @@
       "fixes": []
     },
     "御定全唐詩/json/468.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "鶴老身更b3，",
           "corrected": null,
           "note": "needs_review: 'b3' bare ASCII placeholder; in 劉言史《初下東周贈孟郊》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "鶴老身更b3",
+          "corrected": "鶴老身更卬",
+          "note": "Crawl residue \"b3\" → 卬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3293,14 +3927,19 @@
       "fixes": []
     },
     "御定全唐詩/json/477.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "不借eZ跌光顏看。",
           "corrected": null,
           "note": "needs_review: 'eZ' bare ASCII placeholder; in 李涉《與弟渤新羅劍歌》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "不借eZ跌光顏看",
+          "corrected": "不借𨁂跌光顏看",
+          "note": "Crawl residue \"eZ\" → 𨁂: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3311,14 +3950,19 @@
       "fixes": []
     },
     "御定全唐詩/json/479.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "已co名利不相關。",
           "corrected": null,
           "note": "needs_review: 'co' bare ASCII placeholder; in 封敖《題西隱寺》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "已co名利不相關",
+          "corrected": "已𢬵名利不相關",
+          "note": "Crawl residue \"co\" → 𢬵: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3359,14 +4003,19 @@
       "fixes": []
     },
     "御定全唐詩/json/486.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "不及瑤wG燕，",
           "corrected": null,
           "note": "needs_review: 'wG' bare ASCII placeholder; in 鮑溶《歸雁》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "不及瑤wG燕",
+          "corrected": "不及瑤𥯅燕",
+          "note": "Crawl residue \"wG\" → 𥯅: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3395,14 +4044,19 @@
       "fixes": []
     },
     "御定全唐詩/json/491.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "陶令門前罥接z5，",
           "corrected": null,
           "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json); in 滕邁《句》; context is willow branches catching (接___); same rare hat/object character"
+        },
+        {
+          "original": "陶令門前罥接z5",
+          "corrected": "陶令門前罥接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3419,8 +4073,8 @@
       "fixes": []
     },
     "御定全唐詩/json/494.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -3432,18 +4086,33 @@
           "original": "女伴能來看新bE，",
           "corrected": null,
           "note": "needs_review: 'bE' bare ASCII placeholder; in 施肩吾《江南織綾詞》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "l6毯敝衣無處結",
+          "corrected": "𣰦毯敝衣無處結",
+          "note": "Crawl residue \"l6\" → 𣰦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "女伴能來看新bE",
+          "corrected": "女伴能來看新𥷨",
+          "note": "Crawl residue \"bE\" → 𥷨: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/495.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "入林寒z9々，近瀑雨濛濛。",
           "corrected": null,
           "note": "needs_review: 'z9々' recurring placeholder (z9 also in 466.json) with 々; in 費冠卿《答蕭建》; context is cold forest (入林寒___); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "入林寒z9々",
+          "corrected": "入林寒㾕々",
+          "note": "Crawl residue \"z9\" → 㾕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3598,8 +4267,8 @@
       "fixes": []
     },
     "御定全唐詩/json/520.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -3611,6 +4280,11 @@
           "original": "cq橛與棟樑，施之皆有位。",
           "corrected": null,
           "note": "needs_review: 'cq' bare ASCII placeholder; in 杜牧《送沈士赴蘇州》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "刳隍by萬尋",
+          "corrected": "刳隍𣤮萬尋",
+          "note": "Crawl residue \"by\" → 𣤮: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3663,14 +4337,19 @@
       "fixes": []
     },
     "御定全唐詩/json/529.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "今日從公醉，何人倒接z5。",
           "corrected": null,
           "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json, 491.json); in 許渾《聞薛先輩陪大夫看早梅因寄》; context is hat type (倒接___)"
+        },
+        {
+          "original": "何人倒接z5",
+          "corrected": "何人倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3687,8 +4366,8 @@
       "fixes": []
     },
     "御定全唐詩/json/532.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -3700,6 +4379,16 @@
           "original": "co死酒中老，謀生書外貧。",
           "corrected": null,
           "note": "needs_review: 'co' recurring placeholder (also in 479.json); in 許渾《題灞西駱隱居》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "南da一回首",
+          "corrected": "南𤃩一回首",
+          "note": "Crawl residue \"da\" → 𤃩: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "co死酒中老",
+          "corrected": "𢬵死酒中老",
+          "note": "Crawl residue \"co\" → 𢬵: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3746,26 +4435,36 @@
       "fixes": []
     },
     "御定全唐詩/json/540.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "玉xC不動便門鎖。",
           "corrected": null,
           "note": "needs_review: 'xC' bare ASCII placeholder; in 李商隱《日高》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "玉xC不動便門鎖",
+          "corrected": "玉𥫽不動便門鎖",
+          "note": "Crawl residue \"xC\" → 𥫽: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/541.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "e5敗秉爺笏。",
           "corrected": null,
           "note": "needs_review: 'e5' bare ASCII placeholder; in 李商隱《驕兒詩》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "e5敗秉爺笏",
+          "corrected": "䦱敗秉爺笏",
+          "note": "Crawl residue \"e5\" → 䦱: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3860,14 +4559,19 @@
       "fixes": []
     },
     "御定全唐詩/json/557.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "圓明青z3飯，光潤碧霞漿。",
           "corrected": null,
           "note": "needs_review: 'z3' bare ASCII placeholder; in 鄭畋《句》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "圓明青z3飯",
+          "corrected": "圓明青䭀飯",
+          "note": "Crawl residue \"z3\" → 䭀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3950,14 +4654,19 @@
       "fixes": []
     },
     "御定全唐詩/json/570.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "曉華朧xz聞調笙，",
           "corrected": null,
           "note": "needs_review: 'xz' bare ASCII placeholder; in 李群玉《曉宴》; context is hazy dawn light (曉華朧___); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "曉華朧xz聞調笙",
+          "corrected": "曉華朧𦝰聞調笙",
+          "note": "Crawl residue \"xz\" → 𦝰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -3992,20 +4701,25 @@
       "fixes": []
     },
     "御定全唐詩/json/576.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "zv茸單衣麥田路，",
           "corrected": null,
           "note": "needs_review: 'zv' bare ASCII placeholder (also in 394.json and 577.json); in 溫庭筠《會昌丙寅豐歲歌》; context is light/downy fabric (___茸); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "zv茸單衣麥田路",
+          "corrected": "䒠茸單衣麥田路",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/577.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4017,6 +4731,16 @@
           "original": "敕勒金fj壁，",
           "corrected": null,
           "note": "needs_review: 'fj' bare ASCII placeholder; in 溫庭筠《敕勒歌塞北》; context is golden walls (金___壁); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "金刹映zv茸",
+          "corrected": "金刹映䒠茸",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "敕勒金fj壁",
+          "corrected": "敕勒金隤壁",
+          "note": "Crawl residue \"fj\" → 隤: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4045,14 +4769,19 @@
       "fixes": []
     },
     "御定全唐詩/json/582.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "先知i7子賢。",
           "corrected": null,
           "note": "needs_review: 'i7' bare ASCII placeholder; in 溫庭筠《送淮陰孫令之官》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "先知i7子賢",
+          "corrected": "先知虙子賢",
+          "note": "Crawl residue \"i7\" → 虙: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4099,14 +4828,19 @@
       "fixes": []
     },
     "御定全唐詩/json/590.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "溢榼香醪倒接z5。",
           "corrected": null,
           "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json, 491.json, 529.json); in 李郢《南池》; context is hat type (倒接___)"
+        },
+        {
+          "original": "溢榼香醪倒接z5",
+          "corrected": "溢榼香醪倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4171,14 +4905,19 @@
       "fixes": []
     },
     "御定全唐詩/json/600.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "無征及獷ce。",
           "corrected": null,
           "note": "needs_review: 'ce' bare ASCII placeholder; in 鄭洪業《詔放雲南子弟還國》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "無征及獷ce",
+          "corrected": "無征及獷𤟤",
+          "note": "Crawl residue \"ce\" → 𤟤: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4225,8 +4964,8 @@
       "fixes": []
     },
     "御定全唐詩/json/608.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4238,60 +4977,190 @@
           "original": "忘戴白接z5。",
           "corrected": null,
           "note": "needs_review: 'z5' recurring placeholder; in 皮日休《鹿門夏日》; hat type (白接___)"
+        },
+        {
+          "original": "刺謁戴接z5",
+          "corrected": "刺謁戴接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "忘戴白接z5",
+          "corrected": "忘戴白接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/609.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "耀影或如wH。",
           "corrected": null,
           "note": "needs_review: 'wH' and 11 other bare ASCII placeholders throughout; in 皮日休《魯望昨以五百言見貽》(長詩); 12 total placeholders — all needs_review; cannot determine characters without authoritative source"
+        },
+        {
+          "original": "漬米未離bL",
+          "corrected": "漬米未離䉛",
+          "note": "Crawl residue \"bL\" → 䉛: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "欲載如垤eJ",
+          "corrected": "欲載如垤㙞",
+          "note": "Crawl residue \"eJ\" → 㙞: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "予頭向中bK",
+          "corrected": "予頭向中𭮷",
+          "note": "Crawl residue \"bK\" → 𭮷: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "散性多儑bY",
+          "corrected": "散性多儑𠉤",
+          "note": "Crawl residue \"bY\" → 𠉤: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "經旬唯白vS",
+          "corrected": "經旬唯白㡊",
+          "note": "Crawl residue \"vS\" → 㡊: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "似愈漸離z8",
+          "corrected": "似愈漸離㸌",
+          "note": "Crawl residue \"z8\" → 㸌: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "有pF可以馨",
+          "corrected": "有𥳇可以馨",
+          "note": "Crawl residue \"pF\" → 𥳇: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "bo耳側以聽",
+          "corrected": "䯔耳側以聽",
+          "note": "Crawl residue \"bo\" → 䯔: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/610.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "eH々露矛戟。",
           "corrected": null,
           "note": "needs_review: 'eH々' and 12 other bare ASCII placeholders throughout; in 皮日休《太湖詩》系列; 13 total placeholders — all needs_review; cannot determine characters without authoritative source"
+        },
+        {
+          "original": "清輝蕩拋cQ",
+          "corrected": "清輝蕩拋𢶉",
+          "note": "Crawl residue \"cQ\" → 𢶉: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "肌上生瘮t7",
+          "corrected": "肌上生瘮𤶬",
+          "note": "Crawl residue \"t7\" → 𤶬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "洞氣黑昳ft",
+          "corrected": "洞氣黑昳𥄴",
+          "note": "Crawl residue \"ft\" → 𥄴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "閑猱弄榅eb",
+          "corrected": "閑猱弄榅䗁",
+          "note": "Crawl residue \"eb\" → 䗁: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "水苔青wK髵",
+          "corrected": "水苔青髬髵",
+          "note": "Crawl residue \"wK\" → 髬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/611.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "網小正星bI，",
           "corrected": null,
           "note": "needs_review: 'bI' and 6 other bare ASCII placeholders; in 皮日休《奉和魯望漁具十五詠》系列; 7 total placeholders — all needs_review"
+        },
+        {
+          "original": "網小正星bI",
+          "corrected": "網小正星𣞷",
+          "note": "Crawl residue \"bI\" → 𣞷: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "數頃跳鯆cr",
+          "corrected": "數頃跳鯆䱐",
+          "note": "Crawl residue \"cr\" → 䱐: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "襟色裛xU靄",
+          "corrected": "襟色裛䐑靄",
+          "note": "Crawl residue \"xU\" → 䐑: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "空成睡齁qf",
+          "corrected": "空成睡齁䶎",
+          "note": "Crawl residue \"qf\" → 䶎: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "鑄作鱙qT角",
+          "corrected": "鑄作鱙𬵩角",
+          "note": "Crawl residue \"qT\" → 𬵩: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "庭從dx子遮",
+          "corrected": "庭從𣟤子遮",
+          "note": "Crawl residue \"dx\" → 𣟤: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/612.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "果教ce子供。",
           "corrected": null,
           "note": "needs_review: 'ce' and 5 other bare ASCII placeholders; in 皮日休《奉和魯望四明山九題》等; 6 total placeholders — all needs_review"
+        },
+        {
+          "original": "果教ce子供",
+          "corrected": "果教𤟤子供",
+          "note": "Crawl residue \"ce\" → 𤟤: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "狼頭gR窣豎",
+          "corrected": "狼頭㪍窣豎",
+          "note": "Crawl residue \"gR\" → 㪍: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "文定寫bm皮",
+          "corrected": "文定寫甝皮",
+          "note": "Crawl residue \"bm\" → 甝: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "搶煙寒嶱gi",
+          "corrected": "搶煙寒嶱𡾲",
+          "note": "Crawl residue \"gi\" → 𡾲: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "石面得能bn",
+          "corrected": "石面得能䫜",
+          "note": "Crawl residue \"bn\" → 䫜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/613.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4303,12 +5172,17 @@
           "original": "雕胡飯熟bu餬軟，",
           "corrected": null,
           "note": "needs_review: 'bu' bare ASCII placeholder; in 皮日休《魯望以躬掇野蔬兼示雅什》; cannot determine without authoritative source"
+        },
+        {
+          "original": "半日始齋青z3飯",
+          "corrected": "半日始齋青䭀飯",
+          "note": "Crawl residue \"z3\" → 䭀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/614.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4320,6 +5194,11 @@
           "original": "傳得三元z3飯名，",
           "corrected": null,
           "note": "needs_review: 'z3' recurring placeholder; in 皮日休《潤卿遺青z3飯兼之一絕》; same as 557.json, 613.json etc. (青___飯)"
+        },
+        {
+          "original": "傳得三元z3飯名",
+          "corrected": "傳得三元䭀飯名",
+          "note": "Crawl residue \"z3\" → 䭀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4342,20 +5221,45 @@
       ]
     },
     "御定全唐詩/json/617.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "鴻生方dr摫。",
           "corrected": null,
           "note": "needs_review: 'dr' and 4 other bare ASCII placeholders; in 陸龜蒙《襲美先輩以龜蒙所獻五百言》(長詩); 5 total placeholders — all needs_review"
+        },
+        {
+          "original": "鴻生方dr摫",
+          "corrected": "鴻生方鎃摫",
+          "note": "Crawl residue \"dr\" → 鎃: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "酌茗煩甌dy",
+          "corrected": "酌茗煩甌㰕",
+          "note": "Crawl residue \"dy\" → 㰕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "泥僮苦舂bN",
+          "corrected": "泥僮苦舂䑔",
+          "note": "Crawl residue \"bN\" → 䑔: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "gs琴無泛聲",
+          "corrected": "㪇琴無泛聲",
+          "note": "Crawl residue \"gs\" → 㪇: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "好問如除t9",
+          "corrected": "好問如除㾓",
+          "note": "Crawl residue \"t9\" → 㾓: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/618.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4367,6 +5271,21 @@
           "original": "諒無pk翦憂，",
           "corrected": null,
           "note": "needs_review: 'pk' bare ASCII placeholder; in 陸龜蒙《奉和襲美公齋四詠次韻：小桂》; cannot determine without authoritative source"
+        },
+        {
+          "original": "回眸更輝z8",
+          "corrected": "回眸更輝㸌",
+          "note": "Crawl residue \"z8\" → 㸌: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "諒無pk翦憂",
+          "corrected": "諒無𠠜翦憂",
+          "note": "Crawl residue \"pk\" → 𠠜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "騃犢臥新fO",
+          "corrected": "騃犢臥新𦬻",
+          "note": "Crawl residue \"fO\" → 𦬻: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4389,8 +5308,8 @@
       "fixes": []
     },
     "御定全唐詩/json/621.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4402,30 +5321,75 @@
           "original": "dl合眩旋，卓植赴列，",
           "corrected": null,
           "note": "needs_review: 'dl' bare ASCII placeholder; in 陸龜蒙《吳俞兒舞歌：矛俞》; cannot determine without authoritative source"
+        },
+        {
+          "original": "青pF未垂孤鳳餓",
+          "corrected": "青𥳇未垂孤鳳餓",
+          "note": "Crawl residue \"pF\" → 𥳇: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "dl合眩旋",
+          "corrected": "𧞔合眩旋",
+          "note": "Crawl residue \"dl\" → 𧞔: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/622.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "芝zC手自攜。",
           "corrected": null,
           "note": "needs_review: 'zC' bare ASCII placeholder; in 陸龜蒙《四明山詩：雲南》; cannot determine without authoritative source"
+        },
+        {
+          "original": "芝zC手自攜",
+          "corrected": "芝𥰭手自攜",
+          "note": "Crawl residue \"zC\" → 𥰭: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/623.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "燒岸黑bO黧。",
           "corrected": null,
           "note": "needs_review: 'bO' and 8 other bare ASCII placeholders; in 陸龜蒙《奉和襲美古杉三十韻》; 9 total placeholders — all needs_review"
+        },
+        {
+          "original": "燒岸黑bO黧",
+          "corrected": "燒岸黑𪑿黧",
+          "note": "Crawl residue \"bO\" → 𪑿: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "bp趚閡雲螭",
+          "corrected": "䟐趚閡雲螭",
+          "note": "Crawl residue \"bp\" → 䟐: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "池緣本來bn",
+          "corrected": "池緣本來䫜",
+          "note": "Crawl residue \"bn\" → 䫜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "窗靜常懸dO",
+          "corrected": "窗靜常懸䕹",
+          "note": "Crawl residue \"dO\" → 䕹: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "占烏未見gm",
+          "corrected": "占烏未見𨝸",
+          "note": "Crawl residue \"gm\" → 𨝸: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "嘗茶試石bP",
+          "corrected": "嘗茶試石𪼿",
+          "note": "Crawl residue \"bP\" → 𪼿: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4436,14 +5400,19 @@
       "fixes": []
     },
     "御定全唐詩/json/625.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "迸出似毫當垤eJ，",
           "corrected": null,
           "note": "needs_review: 'eJ' bare ASCII placeholder; in 陸龜蒙《奉和襲美聞開元寺開筍園寄章上人》; cannot determine without authoritative source"
+        },
+        {
+          "original": "迸出似毫當垤eJ",
+          "corrected": "迸出似毫當垤㙞",
+          "note": "Crawl residue \"eJ\" → 㙞: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4460,14 +5429,19 @@
       "fixes": []
     },
     "御定全唐詩/json/628.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "接z5拋下漉春醪。",
           "corrected": null,
           "note": "needs_review: 'z5' recurring placeholder; in 陸龜蒙《和襲美釣侶二章》; hat type (接___)"
+        },
+        {
+          "original": "接z5拋下漉春醪",
+          "corrected": "接䍦拋下漉春醪",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4484,38 +5458,53 @@
       ]
     },
     "御定全唐詩/json/630.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "cL我窮棲蓬藋裏。",
           "corrected": null,
           "note": "needs_review: 'cL' bare ASCII placeholder; in 陸龜蒙《奉酬襲美苦雨見寄》; cannot determine without authoritative source"
+        },
+        {
+          "original": "cL我窮棲蓬藋裏",
+          "corrected": "㤞我窮棲蓬藋裏",
+          "note": "Crawl residue \"cL\" → 㤞: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/631.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "誰屑瓊瑤事青z3，",
           "corrected": null,
           "note": "needs_review: 'z3' recurring placeholder (also in 557.json, 613.json, 614.json); in 張賁《以青z3飯分送襲美魯望因成一絕》; same rare food character"
+        },
+        {
+          "original": "誰屑瓊瑤事青z3",
+          "corrected": "誰屑瓊瑤事青䭀",
+          "note": "Crawl residue \"z3\" → 䭀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/632.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "z4書因閱畫，",
           "corrected": null,
           "note": "needs_review: 'z4' recurring placeholder (also in 301.json, 447.json); in 司空圖《雜題九首》; cannot determine without authoritative source"
+        },
+        {
+          "original": "z4書因閱畫",
+          "corrected": "曬書因閱畫",
+          "note": "Crawl residue \"z4\" → 曬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4592,26 +5581,36 @@
       "fixes": []
     },
     "御定全唐詩/json/644.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "皴bq老松根，",
           "corrected": null,
           "note": "needs_review: 'bq' bare ASCII placeholder; in 李咸用《覽友生古風》; cannot determine without authoritative source"
+        },
+        {
+          "original": "皴bq老松根",
+          "corrected": "皴皵老松根",
+          "note": "Crawl residue \"bq\" → 皵: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
     "御定全唐詩/json/645.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "囚墨膩於cD。",
           "corrected": null,
           "note": "needs_review: 'cD' bare ASCII placeholder; in 李鹹用《謝友生遺端溪硯瓦》; cannot determine without authoritative source"
+        },
+        {
+          "original": "囚墨膩於cD",
+          "corrected": "囚墨膩於䃜",
+          "note": "Crawl residue \"cD\" → 䃜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4736,14 +5735,19 @@
       "fixes": []
     },
     "御定全唐詩/json/665.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "竿頭cG佩紅。",
           "corrected": null,
           "note": "needs_review: 'cG' bare ASCII placeholder; in 羅隱《投宣武鄭尚書二十韻》; cannot determine without authoritative source"
+        },
+        {
+          "original": "竿頭cG佩紅",
+          "corrected": "竿頭㺗佩紅",
+          "note": "Crawl residue \"cG\" → 㺗: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4784,8 +5788,8 @@
       "fixes": []
     },
     "御定全唐詩/json/671.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4797,6 +5801,11 @@
           "original": "uT口涎空流。",
           "corrected": null,
           "note": "needs_review: 'uT' bare ASCII placeholder; in 唐彥謙《索蝦》; cannot determine without authoritative source"
+        },
+        {
+          "original": "dG箏簫管和琵琶",
+          "corrected": "𥱧箏簫管和琵琶",
+          "note": "Crawl residue \"dG\" → 𥱧: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4855,14 +5864,19 @@
       "fixes": []
     },
     "御定全唐詩/json/681.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "兔急且cg猭。",
           "corrected": null,
           "note": "needs_review: 'cg' bare ASCII placeholder; in 韓偓《感事三十四韻》; cannot determine without authoritative source"
+        },
+        {
+          "original": "兔急且cg猭",
+          "corrected": "兔急且㺦猭",
+          "note": "Crawl residue \"cg\" → 㺦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4873,8 +5887,8 @@
       "fixes": []
     },
     "御定全唐詩/json/683.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4891,6 +5905,16 @@
           "original": "噤z9餘寒酒半醒。",
           "corrected": null,
           "note": "needs_review: 'z9' recurring placeholder (also in 466.json, 495.json); in 韓偓《日高》; cannot determine without authoritative source"
+        },
+        {
+          "original": "ok魚苦筍香味新",
+          "corrected": "鳀魚苦筍香味新",
+          "note": "Crawl residue \"ok\" → 鳀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "噤z9餘寒酒半醒",
+          "corrected": "噤㾕餘寒酒半醒",
+          "note": "Crawl residue \"z9\" → 㾕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4913,8 +5937,8 @@
       "fixes": []
     },
     "御定全唐詩/json/687.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -4931,6 +5955,16 @@
           "original": "莫輕河邊羖fG，飛作天上麒麟。",
           "corrected": null,
           "note": "needs_review: 'fG' bare ASCII placeholder; in 吳融《贈廣利大師歌》; cannot determine without authoritative source"
+        },
+        {
+          "original": "只欠山公倒接z5",
+          "corrected": "只欠山公倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "莫輕河邊羖fG",
+          "corrected": "莫輕河邊羖䍽",
+          "note": "Crawl residue \"fG\" → 䍽: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -4959,14 +5993,19 @@
       "fixes": []
     },
     "御定全唐詩/json/692.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "eh公不到更何時。",
           "corrected": null,
           "note": "needs_review: 'eh' bare ASCII placeholder; in 杜荀鶴《友人贈舍弟依韻戲和》; cannot determine without authoritative source"
+        },
+        {
+          "original": "eh公不到更何時",
+          "corrected": "碢公不到更何時",
+          "note": "Crawl residue \"eh\" → 碢: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -5234,14 +6273,19 @@
       "fixes": []
     },
     "御定全唐詩/json/734.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "師離dt水動王侯，",
           "corrected": null,
           "note": "needs_review: 'dt' bare ASCII placeholder; in 王鎔《哭趙州和尚二首》; cannot determine without authoritative source"
+        },
+        {
+          "original": "師離dt水動王侯",
+          "corrected": "師離㴲水動王侯",
+          "note": "Crawl residue \"dt\" → 㴲: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -5324,8 +6368,8 @@
       "fixes": []
     },
     "御定全唐詩/json/746.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -5337,6 +6381,16 @@
           "original": "金欄白的善篸zC，",
           "corrected": null,
           "note": "needs_review: 'zC' recurring placeholder (also in 622.json); in 陳陶《鏡道中吹簫》; cannot determine without authoritative source"
+        },
+        {
+          "original": "牝雞何譈ca",
+          "corrected": "牝雞何譈䜕",
+          "note": "Crawl residue \"ca\" → 䜕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "金欄白的善篸zC",
+          "corrected": "金欄白的善篸𥰭",
+          "note": "Crawl residue \"zC\" → 𥰭: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -5389,14 +6443,19 @@
       "fixes": []
     },
     "御定全唐詩/json/755.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "潤膩裛輕rG。",
           "corrected": null,
           "note": "needs_review: 'rG' bare ASCII placeholder; in 徐鉉《依韻和令公大王薔薇詩》; cannot determine without authoritative source"
+        },
+        {
+          "original": "潤膩裛輕rG",
+          "corrected": "潤膩裛輕𩅰",
+          "note": "Crawl residue \"rG\" → 𩅰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -5413,8 +6472,8 @@
       "fixes": []
     },
     "元曲/yuanqu.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
         {
@@ -5429,8 +6488,8 @@
         },
         {
           "original": "从早晨间直点到斋时М",
-          "corrected": null,
-          "note": "needs_review: Cyrillic М (U+041C) in 睢玄明 散曲; context unclear, could not determine correct character from authoritative sources"
+          "corrected": "从早晨间直点到斋时剉",
+          "note": "Cyrillic М (U+041C) → 剉; 睢玄明《般涉调·耍孩儿·咏鼓》【尾】; verified at https://www.gushiwen.cn/shiwenv_96990e3ee004.aspx"
         },
         {
           "original": "巫山庙云壑翠Лヴ桃源洞",
@@ -5475,14 +6534,14 @@
       ]
     },
     "宋词/ci.song.13000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "只守伯禽法，с野万云烟",
-          "corrected": null,
-          "note": "needs_review: Cyrillic с (U+0441) in 魏了翁《水调歌头》(王总领生日); authoritative source (ctext.org 全宋詞) shows this character as blank '＿', confirming encoding corruption but correct character unknown"
+          "corrected": "只守伯禽法，□野万云烟",
+          "note": "Cyrillic с (U+0441) → □: 唐圭璋《全宋词》魏了翁《水调歌头》(王总领□□生日) itself has a lacuna here (\"＿野万云烟\", per ctext 全宋詞 and 汉典古籍 https://gj.zdic.net/jibu/1037/32340.html); marked with □ per dataset convention rather than guessing"
         }
       ]
     },
@@ -7196,14 +8255,24 @@
       "fixes": []
     },
     "全唐诗/poet.tang.10000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
         {
           "original": "身思狡兔，俱目似愁胡。",
           "corrected": "竦身思狡兔，側目似愁胡。",
           "note": "PUA U+E829 → 竦; 俱 → 側. Verified: 杜甫《畫鷹》classical text: 竦身思狡兔，側目似愁胡。"
+        },
+        {
+          "original": "不見管鮑貧時交",
+          "corrected": "君不見管鮑貧時交",
+          "note": "杜甫《貧交行》: \"君不見管鮑貧時交\"; matches 御定全唐詩"
+        },
+        {
+          "original": "君不朝來割素鬐",
+          "corrected": "君不見朝來割素鬐",
+          "note": "杜甫《觀打魚歌》: \"君不見朝來割素鬐\"; matches 御定全唐詩"
         }
       ]
     },
@@ -7298,10 +8367,16 @@
       "fixes": []
     },
     "全唐诗/poet.tang.21000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "上思天戒",
+          "corrected": "上思答天戒",
+          "note": "白居易《賀雨》: \"上思答天戒，下思致時邕\"; matches 御定全唐詩"
+        }
+      ]
     },
     "全唐诗/poet.tang.22000.json": {
       "date": "2026-06-26",
@@ -107247,10 +108322,16 @@
       "fixes": []
     },
     "御定全唐詩/json/001.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "翠濤過玉z1",
+          "corrected": "翠濤過玉䪥",
+          "note": "Crawl residue \"z1\" → 䪥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/002.json": {
       "date": "2026-06-26",
@@ -107271,10 +108352,16 @@
       "fixes": []
     },
     "御定全唐詩/json/005.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "飆f2松聲",
+          "corrected": "飆䫻松聲",
+          "note": "Crawl residue \"f2\" → 䫻: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/006.json": {
       "date": "2026-06-26",
@@ -107289,10 +108376,16 @@
       "fixes": []
     },
     "御定全唐詩/json/008.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "泣淚滴煙rG",
+          "corrected": "泣淚滴煙𩅰",
+          "note": "Crawl residue \"rG\" → 𩅰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/009.json": {
       "date": "2026-06-26",
@@ -107331,10 +108424,16 @@
       "fixes": []
     },
     "御定全唐詩/json/015.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "日逐衛文lq",
+          "corrected": "日逐衛文㮰",
+          "note": "Crawl residue \"lq\" → 㮰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/016.json": {
       "date": "2026-06-26",
@@ -107343,10 +108442,16 @@
       "fixes": []
     },
     "御定全唐詩/json/017.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "屈rH猛",
+          "corrected": "屈𧹁猛",
+          "note": "Crawl residue \"rH\" → 𧹁: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/018.json": {
       "date": "2026-06-26",
@@ -107355,10 +108460,16 @@
       "fixes": []
     },
     "御定全唐詩/json/019.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "青pF未垂孤鳳餓",
+          "corrected": "青𥳇未垂孤鳳餓",
+          "note": "Crawl residue \"pF\" → 𥳇: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/020.json": {
       "date": "2026-06-26",
@@ -107373,16 +108484,28 @@
       "fixes": []
     },
     "御定全唐詩/json/022.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "dl合眩旋",
+          "corrected": "𧞔合眩旋",
+          "note": "Crawl residue \"dl\" → 𧞔: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/023.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "含情傲慰心目",
+          "corrected": "含情傲睨慰心目",
+          "note": "宋之問《綠竹引》; missing 睨, matches 全唐诗/poet.tang.3000.json and standard text"
+        }
+      ]
     },
     "御定全唐詩/json/024.json": {
       "date": "2026-06-26",
@@ -107403,10 +108526,21 @@
       "fixes": []
     },
     "御定全唐詩/json/027.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "華清源中iJ石湯",
+          "corrected": "華清源中礜石湯",
+          "note": "Crawl residue \"iJ\" → 礜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "今朝倒接z5",
+          "corrected": "今朝倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/028.json": {
       "date": "2026-06-26",
@@ -107415,10 +108549,21 @@
       "fixes": []
     },
     "御定全唐詩/json/029.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "倒著接z5花下迷",
+          "corrected": "倒著接䍦花下迷",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "頭上白接z5",
+          "corrected": "頭上白接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/030.json": {
       "date": "2026-06-26",
@@ -107487,10 +108632,16 @@
       "fixes": []
     },
     "御定全唐詩/json/041.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "松蘿冪zx掩松門",
+          "corrected": "松蘿冪䍥掩松門",
+          "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/042.json": {
       "date": "2026-06-26",
@@ -107517,10 +108668,16 @@
       "fixes": []
     },
     "御定全唐詩/json/046.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "岸上zv茸五花樹",
+          "corrected": "岸上䒠茸五花樹",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/047.json": {
       "date": "2026-06-26",
@@ -107619,10 +108776,16 @@
       "fixes": []
     },
     "御定全唐詩/json/063.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "驚cb透煙霞",
+          "corrected": "驚𤢹透煙霞",
+          "note": "Crawl residue \"cb\" → 𤢹: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/064.json": {
       "date": "2026-06-26",
@@ -107697,10 +108860,16 @@
       "fixes": []
     },
     "御定全唐詩/json/076.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "vK若茂芳序",
+          "corrected": "𦶜若茂芳序",
+          "note": "Crawl residue \"vK\" → 𦶜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/077.json": {
       "date": "2026-06-26",
@@ -107709,10 +108878,16 @@
       "fixes": []
     },
     "御定全唐詩/json/078.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "凝滯蘅vK岸",
+          "corrected": "凝滯蘅𦶜岸",
+          "note": "Crawl residue \"vK\" → 𦶜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/079.json": {
       "date": "2026-06-26",
@@ -107721,22 +108896,40 @@
       "fixes": []
     },
     "御定全唐詩/json/080.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "態聚ey還急",
+          "corrected": "態聚𨄳還急",
+          "note": "Crawl residue \"ey\" → 𨄳: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/081.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "zv茸倚蘭殿",
+          "corrected": "䒠茸倚蘭殿",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/082.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "北堂紅草盛zv茸",
+          "corrected": "北堂紅草盛䒠茸",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/083.json": {
       "date": "2026-06-26",
@@ -107757,16 +108950,28 @@
       "fixes": []
     },
     "御定全唐詩/json/086.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "娥眉fT睩共灰塵",
+          "corrected": "娥眉𥊑睩共灰塵",
+          "note": "Crawl residue \"fT\" → 𥊑: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/087.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "昔日接z5倒",
+          "corrected": "昔日接䍦倒",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/088.json": {
       "date": "2026-06-26",
@@ -107811,10 +109016,16 @@
       "fixes": []
     },
     "御定全唐詩/json/095.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "穹窿曳長dh",
+          "corrected": "穹窿曳長䋏",
+          "note": "Crawl residue \"dh\" → 䋏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/096.json": {
       "date": "2026-06-26",
@@ -107823,10 +109034,16 @@
       "fixes": []
     },
     "御定全唐詩/json/097.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "且懼威非rP",
+          "corrected": "且懼威非贙",
+          "note": "Crawl residue \"rP\" → 贙: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/098.json": {
       "date": "2026-06-26",
@@ -107865,10 +109082,16 @@
       "fixes": []
     },
     "御定全唐詩/json/104.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "zv茸新吐禦筵開",
+          "corrected": "䒠茸新吐禦筵開",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/105.json": {
       "date": "2026-06-26",
@@ -107877,10 +109100,16 @@
       "fixes": []
     },
     "御定全唐詩/json/106.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "錦dh沙棠艦",
+          "corrected": "錦䋏沙棠艦",
+          "note": "Crawl residue \"dh\" → 䋏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/107.json": {
       "date": "2026-06-26",
@@ -107913,10 +109142,16 @@
       "fixes": []
     },
     "御定全唐詩/json/112.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "fk鏤銀盤盛蛤蜊",
+          "corrected": "鈒鏤銀盤盛蛤蜊",
+          "note": "Crawl residue \"fk\" → 鈒: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/113.json": {
       "date": "2026-06-26",
@@ -107925,10 +109160,16 @@
       "fixes": []
     },
     "御定全唐詩/json/114.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "zv茸勝浣紗",
+          "corrected": "䒠茸勝浣紗",
+          "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/115.json": {
       "date": "2026-06-26",
@@ -107943,10 +109184,16 @@
       "fixes": []
     },
     "御定全唐詩/json/117.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "紅l1鋪新月",
+          "corrected": "紅毾鋪新月",
+          "note": "Crawl residue \"l1\" → 毾: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/118.json": {
       "date": "2026-06-26",
@@ -107991,8 +109238,8 @@
       "fixes": []
     },
     "御定全唐詩/json/125.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -108004,6 +109251,11 @@
           "original": "丁田家有贈",
           "corrected": null,
           "note": "needs_review: bare PUA U+E7A6 in poem title (person's name 丁?); Wang Wei poem; cannot identify rare character"
+        },
+        {
+          "original": "解驂fL朱輪",
+          "corrected": "解驂𨋗朱輪",
+          "note": "Crawl residue \"fL\" → 𨋗: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -108044,10 +109296,16 @@
       "fixes": []
     },
     "御定全唐詩/json/132.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "左手正接z5",
+          "corrected": "左手正接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/133.json": {
       "date": "2026-06-26",
@@ -108068,10 +109326,16 @@
       "fixes": []
     },
     "御定全唐詩/json/136.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "冪zx疏蒿下",
+          "corrected": "冪䍥疏蒿下",
+          "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/137.json": {
       "date": "2026-06-26",
@@ -108080,10 +109344,16 @@
       "fixes": []
     },
     "御定全唐詩/json/138.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "析ds增廣運",
+          "corrected": "析㯕增廣運",
+          "note": "Crawl residue \"ds\" → 㯕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/139.json": {
       "date": "2026-06-26",
@@ -108128,10 +109398,16 @@
       "fixes": []
     },
     "御定全唐詩/json/146.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "豗cI浪始聞",
+          "corrected": "豗𢟸浪始聞",
+          "note": "Crawl residue \"cI\" → 𢟸: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/147.json": {
       "date": "2026-06-26",
@@ -108152,10 +109428,16 @@
       "fixes": []
     },
     "御定全唐詩/json/150.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "雲色常霮zw",
+          "corrected": "雲色常霮䨴",
+          "note": "Crawl residue \"zw\" → 䨴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/151.json": {
       "date": "2026-06-26",
@@ -108212,10 +109494,16 @@
       "fixes": []
     },
     "御定全唐詩/json/160.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "時唱接z5歌",
+          "corrected": "時唱接䍦歌",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/161.json": {
       "date": "2026-06-26",
@@ -108236,10 +109524,16 @@
       "fixes": []
     },
     "御定全唐詩/json/164.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "頭上白接z5",
+          "corrected": "頭上白接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/165.json": {
       "date": "2026-06-26",
@@ -108248,16 +109542,28 @@
       "fixes": []
     },
     "御定全唐詩/json/166.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "倒著接z5花下迷",
+          "corrected": "倒著接䍦花下迷",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/167.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "風雲何霮zw",
+          "corrected": "風雲何霮䨴",
+          "note": "Crawl residue \"zw\" → 䨴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/168.json": {
       "date": "2026-06-26",
@@ -108278,10 +109584,16 @@
       "fixes": []
     },
     "御定全唐詩/json/171.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "蕭曹安zj屼",
+          "corrected": "蕭曹安𡸣屼",
+          "note": "Crawl residue \"zj\" → 𡸣: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/172.json": {
       "date": "2026-06-26",
@@ -108320,10 +109632,16 @@
       "fixes": []
     },
     "御定全唐詩/json/178.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "全勝白接z5",
+          "corrected": "全勝白接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/179.json": {
       "date": "2026-06-26",
@@ -108344,10 +109662,16 @@
       "fixes": []
     },
     "御定全唐詩/json/182.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "還應倒接z5",
+          "corrected": "還應倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/183.json": {
       "date": "2026-06-26",
@@ -108440,10 +109764,16 @@
       "fixes": []
     },
     "御定全唐詩/json/198.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "gg山昨夜雷",
+          "corrected": "𡷛山昨夜雷",
+          "note": "Crawl residue \"gg\" → 𡷛: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/199.json": {
       "date": "2026-06-26",
@@ -108452,10 +109782,16 @@
       "fixes": []
     },
     "御定全唐詩/json/200.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "千杯倒接z5",
+          "corrected": "千杯倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/201.json": {
       "date": "2026-06-26",
@@ -108548,16 +109884,33 @@
       "fixes": []
     },
     "御定全唐詩/json/216.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "權門多噂eR",
+          "corrected": "權門多噂𠴲",
+          "note": "Crawl residue \"eR\" → 𠴲: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "花門kO面請雪恥",
+          "corrected": "花門剺面請雪恥",
+          "note": "Crawl residue \"kO\" → 剺: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/217.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "揭gG怪石走",
+          "corrected": "揭𡿗怪石走",
+          "note": "Crawl residue \"gG\" → 𡿗: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/218.json": {
       "date": "2026-06-26",
@@ -108584,10 +109937,16 @@
       "fixes": []
     },
     "御定全唐詩/json/222.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "胡為投乳rP",
+          "corrected": "胡為投乳贙",
+          "note": "Crawl residue \"rP\" → 贙: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/223.json": {
       "date": "2026-06-26",
@@ -108596,14 +109955,19 @@
       "fixes": []
     },
     "御定全唐詩/json/224.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
         {
           "original": "身思狡兔",
           "corrected": "掣身思狡兔",
           "note": "Bare PUA U+E82A → 掣 (U+63A3); 杜甫《畫鷹》correct reading confirmed from classical text knowledge"
+        },
+        {
+          "original": "狂遺白接z5",
+          "corrected": "狂遺白接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
@@ -108638,10 +110002,16 @@
       "fixes": []
     },
     "御定全唐詩/json/230.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "乳rP號攀石",
+          "corrected": "乳贙號攀石",
+          "note": "Crawl residue \"rP\" → 贙: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/231.json": {
       "date": "2026-06-26",
@@ -108692,22 +110062,45 @@
       "fixes": []
     },
     "御定全唐詩/json/239.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "未勝杯前倒接z5",
+          "corrected": "未勝杯前倒接䍦",
+          "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/240.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "心慅bj兮意惶懹",
+          "corrected": "心慅𢜱兮意惶懹",
+          "note": "Crawl residue \"bj\" → 𢜱: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "山屹dB兮水淪漣",
+          "corrected": "山屹𡵉兮水淪漣",
+          "note": "Crawl residue \"dB\" → 𡵉: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/241.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "峰gH生回溝",
+          "corrected": "峰𡻮生回溝",
+          "note": "Crawl residue \"gH\" → 𡻮: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/242.json": {
       "date": "2026-06-26",
@@ -108728,10 +110121,16 @@
       "fixes": []
     },
     "御定全唐詩/json/245.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "青絲dh引木蘭船",
+          "corrected": "青絲䋏引木蘭船",
+          "note": "Crawl residue \"dh\" → 䋏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/246.json": {
       "date": "2026-06-26",
@@ -108740,10 +110139,16 @@
       "fixes": []
     },
     "御定全唐詩/json/247.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "mH々葉成幄",
+          "corrected": "䔿々葉成幄",
+          "note": "Crawl residue \"mH\" → 䔿: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        }
+      ]
     },
     "御定全唐詩/json/248.json": {
       "date": "2026-06-26",
@@ -108770,14 +110175,19 @@
       "fixes": []
     },
     "御定全唐詩/json/252.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "蘇",
           "corrected": null,
           "note": "needs_review: bare PUA U+E7A6 in author name; cannot identify rare character in name without authoritative source"
+        },
+        {
+          "original": "冪zx溪邊草",
+          "corrected": "冪䍥溪邊草",
+          "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
         }
       ]
     },
