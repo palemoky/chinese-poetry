@@ -6493,18 +6493,18 @@
         },
         {
           "original": "巫山庙云壑翠Лヴ桃源洞",
-          "corrected": null,
-          "note": "needs_review: Cyrillic Л (U+041B) plus katakana ヴ in 汤舜民《鸿门凯歌》; two garbled chars, context unclear | 2026-10-03: gushiwen.cn (汤舜民《双调·新水令·春日闺思》) reads \"云壑翠桃园洞\" with the garble simply dropped; parallel with \"烟火黑弥漫\" suggests 2 chars are missing after 翠, so that version is not reliable either"
+          "corrected": "巫山庙云壑翠巑岏，桃源洞",
+          "note": "Cyrillic Л + katakana ヴ → 巑岏 (山攒竦貌, parallels 黑弥漫), missing comma restored; 汤舜民《双调·新水令·春日闺思》〔得胜令/鸿门凯歌〕\"巫山庙云雨翠巑岏，桃源洞烟水黑弥漫\" in 《雍熙乐府》卷十一 (嘉靖刊本 & 嘉靖四十五年刻本) and 《词林摘艳》己集/卷二; verified at https://www.shidianguji.com/search/雲雨翠巑岏"
         },
         {
           "original": "阁门珠路Λ",
           "corrected": null,
-          "note": "needs_review: Greek Λ (U+039B) in 汤舜民《倘秀才》; context too brief to determine correct character | 2026-10-03: gushiwen.cn (汤舜民《正宫·端正好·咏荆南佳丽》) has the same garbled \"Λ\" — its 元曲 text shares this corrupted source, not usable for verification"
+          "note": "needs_review: Greek Λ (U+039B) in 汤舜民《倘秀才》; context too brief to determine correct character | 2026-10-03: gushiwen.cn (汤舜民《正宫·端正好·咏荆南佳丽》) has the same garbled \"Λ\" — its 元曲 text shares this corrupted source, not usable for verification | 2026-10-03 shidianguji: 《词林摘艳》卷六 reads \"阁门珠鹿𦌊\", 《盛世词林》卷二 reads \"阁门珠络籁\" — witnesses disagree on the final char (𦌊 vs 籁), left unresolved"
         },
         {
           "original": "黑вв云髻盘鸦小",
-          "corrected": null,
-          "note": "needs_review: Cyrillic вв (U+0432 ×2) in 汤舜民《尾声·赠明时秀》; two-char gap before 云髻, could be 漆漆/压压/鬒鬒 but unconfirmed | 2026-10-03: not found on gushiwen.cn (汤舜民 author list) or sou-yun.cn"
+          "corrected": "黑鬒鬒云髻盘鸦小",
+          "note": "Cyrillic вв → 鬒鬒 (parallels 星靥靥); 汤舜民《赠明时秀》\"墨鬒鬒云髻盘鸦小\" in 《雍熙乐府》卷八 (四部丛刊嘉靖刊本 p64-65; that edition reads 墨 for 黑, left unchanged); verified at https://www.shidianguji.com/search/雲髻盤鴉"
         },
         {
           "original": "撇В手到处称",
