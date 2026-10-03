@@ -4,9 +4,9 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 1090,
-    "fixed": 68,
-    "needs_review": 431
+    "clean": 1081,
+    "fixed": 73,
+    "needs_review": 435
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
@@ -230,6 +230,11 @@
           "original": "倒著接z5發垂領",
           "corrected": "倒著接䍦發垂領",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "拈z2舐指不知休，——",
+          "corrected": "拈䭔舐指不知休，——",
+          "note": "Crawl residue \"z2\" → 䭔; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷七百八十八“李白” reads 「拈䭔舐指不知」 (5 hit(s))"
         }
       ]
     },
@@ -365,6 +370,51 @@
           "original": "生堂合y7鑮",
           "corrected": "生堂合毊鑮",
           "note": "Crawl residue \"y7\" → 毊: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "鵠pi攢瑰橙。騖廣雜良",
+          "corrected": "鵠𪇄攢瑰橙。騖廣雜良",
+          "note": "Crawl residue \"pi\" → 𪇄; 识典古籍 (/zh/): 《韓昌黎詩集編年箋注》卷五 reads 「韓愈鵠𪇄攢瑰橙騖」 (2 hit(s))"
+        },
+        {
+          "original": "須猶鬇鬡，斷臂仍bsbS。——韓愈",
+          "corrected": "須猶鬇鬡，斷臂仍𤬁𤫶。——韓愈",
+          "note": "Crawl residue \"bsbS\" → 𤬁𤫶; 识典古籍 (/zh/): 《昌黎先生集》昌黎先生集卷第八“聯句” reads 「鬡斷臂仍𤬁𤫶」 (8 hit(s))"
+        },
+        {
+          "original": "熇歊熹，抉門呀拗s9。——孟郊",
+          "corrected": "熇歊熹，抉門呀拗䦪。——孟郊",
+          "note": "Crawl residue \"s9\" → 䦪; 识典古籍 (/zh/): 《東雅堂昌黎集注》東雅堂昌黎集注卷八 reads 「抉門呀拗䦪」 (8 hit(s))"
+        },
+        {
+          "original": "杏飛蜂，及歸柳嘶xK。——孟郊",
+          "corrected": "杏飛蜂，及歸柳嘶𧉒。——孟郊",
+          "note": "Crawl residue \"xK\" → 𧉒; 识典古籍 (/zh/): 《東雅堂昌黎集注》東雅堂昌黎集注卷八 reads 「及歸柳嘶𧉒」 (8 hit(s))"
+        },
+        {
+          "original": "。昌言拜舜禹，舉eM淩鬥牛。——韓愈",
+          "corrected": "。昌言拜舜禹，舉颿淩鬥牛。——韓愈",
+          "note": "Crawl residue \"eM\" → 颿; 识典古籍 (/zh/): 《五唐人詩集》孟東野集附錄 reads 「拜舜禹舉颿淩鬥牛」 (9 hit(s))"
+        },
+        {
+          "original": "憶沈冥，峨冠慚闒gl。——韓愈",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"gl\"; 识典古籍 candidates ambiguous: 𤾖, 𡫦, 𫝢"
+        },
+        {
+          "original": "浹瘡痍，敗面碎黥gp。——韓愈",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"gp\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "投奅鬧eGcP，填隍btbT傄",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"eGcP\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "鬧eGcP，填隍btbT傄。——韓愈",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"btbT\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -375,14 +425,24 @@
       "fixes": []
     },
     "御定全唐詩/json/793.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "松吟方eP々 / zh瓦珠璣濺",
           "corrected": null,
           "note": "皮日休/陸龜蒙聯句: poem no#4 《寒夜文宴聯句》 '松吟方eP々' contains 'eP' placeholder; poem no#7 《開元寺樓看雨聯句》 '垂簷珂佩喧，zh瓦珠璣濺' contains 'zh' placeholder. Both are ASCII placeholder codes for characters unrepresentable in the source encoding. Multiple □ chars in poem no#8 are intentional damaged-text markers. Requires verification against physical edition of 御定全唐詩."
+        },
+        {
+          "original": "眩。垂簷珂佩喧，zh瓦珠璣濺。——皮",
+          "corrected": "眩。垂簷珂佩喧，㩧瓦珠璣濺。——皮",
+          "note": "Crawl residue \"zh\" → 㩧; 识典古籍 (/zh/): 《唐甫里先生文集》唐甫里先生文集卷之十三“雜體詩” reads 「簷珂佩喧㩧瓦珠璣濺」 (5 hit(s))"
+        },
+        {
+          "original": "松吟方eP々，泉夢憶潺潺。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"eP\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -472,6 +532,46 @@
           "original": "弄璋字烏cY",
           "corrected": "弄璋字烏䖘",
           "note": "Crawl residue \"cY\" → 䖘: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "搖機軋軋，兒弄口ex々。",
+          "corrected": "搖機軋軋，兒弄口㗻々。",
+          "note": "Crawl residue \"ex\" → 㗻; 识典古籍 (/zh/): 《五燈會元》五燈會元卷第十五 reads 「軋兒弄口㗻」 (16 hit(s))"
+        },
+        {
+          "original": "世濁作fh羺時清為騄耳。前",
+          "corrected": "世濁作䍲羺時清為騄耳。前",
+          "note": "Crawl residue \"fh\" → 䍲; 识典古籍 (/zh/): 《寒山子詩集》寒山子詩集 reads 「已世濁作䍲羺時清為」 (18 hit(s))"
+        },
+        {
+          "original": "至攬其中，灰塵亂ej々。",
+          "corrected": "至攬其中，灰塵亂𡋯々。",
+          "note": "Crawl residue \"ej\" → 𡋯; 识典古籍 (/zh/): 《天臺三聖詩集和韻》天台三聖詩集和韻“寒山子詩并和共九百二十一首” reads 「中灰塵亂𡋯」 (14 hit(s))"
+        },
+        {
+          "original": "風清颯颯，鳥語聲eX々。",
+          "corrected": "風清颯颯，鳥語聲𠴨々。",
+          "note": "Crawl residue \"eX\" → 𠴨; 识典古籍 (/zh/): 《寒山子詩集》寒山詩“五言” reads 「颯鳥語聲𠴨」 (4 hit(s))"
+        },
+        {
+          "original": "買肉血dj々，買魚跳鱍鱍。",
+          "corrected": "買肉血𣽅々，買魚跳鱍鱍。",
+          "note": "Crawl residue \"dj\" → 𣽅; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷八百六“寒山” reads 「立買肉血𣽅」 (4 hit(s))"
+        },
+        {
+          "original": "為著破裙，吃他殘czwW。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"czwW\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "朋雖阻絕，春至鳥eX々。",
+          "corrected": "朋雖阻絕，春至鳥𠴨々。",
+          "note": "Crawl residue \"eX\" → 𠴨; code table (scripts/yuding_codes.tsv) entry established from other verified occurrences / 全唐诗 collation"
+        },
+        {
+          "original": "花上黃鶯子，eX々聲可憐美人顏似玉，對此弄鳴弦。",
+          "corrected": "花上黃鶯子，𠴨々聲可憐美人顏似玉，對此弄鳴弦。",
+          "note": "Crawl residue restored via code table scripts/yuding_codes.tsv (twin_fix.py)"
         }
       ]
     },
@@ -501,6 +601,11 @@
           "original": "緣崖藤冪zx",
           "corrected": "緣崖藤冪䍥",
           "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "影堅路，摧殘廣脅gJ。七寶仙台亡舊跡",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"gJ\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -693,6 +798,11 @@
           "original": "苦惑神仙cX",
           "corrected": "苦惑神仙䜝",
           "note": "Crawl residue \"cX\" → 䜝: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "旅墳孤fb嶽，羸僕泣如兒。",
+          "corrected": "旅墳孤骹嶽，羸僕泣如兒。",
+          "note": "Crawl residue \"fb\" → 骹; 识典古籍 (/zh/): 《禪月集》卷七 reads 「知旅墳孤骹嶽羸僕泣」 (3 hit(s))"
         }
       ]
     },
@@ -730,6 +840,16 @@
           "original": "老ch寒披衲",
           "corrected": "老𤣎寒披衲",
           "note": "Crawl residue \"ch\" → 𤣎: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "處，遊人得得過。dz深黃狖小，地暖白",
+          "corrected": "處，遊人得得過。𣝡深黃狖小，地暖白",
+          "note": "Crawl residue \"dz\" → 𣝡; 识典古籍 (/zh/): 《禪月集》卷第九“經孟皓然鹿門觀居” reads 「人得得過𣝡深黃狖小」 (4 hit(s))"
+        },
+        {
+          "original": "鵬cR甯唯白，龍多豈止",
+          "corrected": "鵬𪄚甯唯白，龍多豈止",
+          "note": "Crawl residue \"cR\" → 𪄚; 识典古籍 (/zh/): 《禪月集》卷十一 reads 「更青皴鵬𪄚甯唯白龍」 (4 hit(s))"
         }
       ]
     },
@@ -758,6 +878,11 @@
           "original": "飛錫下崆gk",
           "corrected": "飛錫下崆㟅",
           "note": "Crawl residue \"gk\" → 㟅: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "df水準芳草，山花落",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"df\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -1045,14 +1170,19 @@
       "fixes": []
     },
     "御定全唐詩/json/867.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "dS用秘功，以嶺以穴",
           "corrected": null,
           "note": "原陵老翁《原陵老翁吟》(no#3): 'dS' in 'dS用秘功，以嶺以穴'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition."
+        },
+        {
+          "original": "研動。袾袾哳哳。dS用秘功，以嶺以穴",
+          "corrected": "研動。袾袾哳哳。𭰴用秘功，以嶺以穴",
+          "note": "Crawl residue \"dS\" → 𭰴; 识典古籍 (/zh/): 《唐詩所》卷七 reads 「袾袾哳哳𭰴用秘功以」 (2 hit(s))"
         }
       ]
     },
@@ -1106,12 +1236,17 @@
           "original": "fk鏤銀盤盛炒蝦",
           "corrected": "鈒鏤銀盤盛炒蝦",
           "note": "Crawl residue \"fk\" → 鈒: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "旋，倒地還如著腳z2。莫怪殿上空行事",
+          "corrected": "旋，倒地還如著腳䭔。莫怪殿上空行事",
+          "note": "Crawl residue \"z2\" → 䭔; 识典古籍 (/zh/): 《太平廣記》卷二百五十七 reads 「還如著腳䭔莫怪殿上」 (5 hit(s))"
         }
       ]
     },
     "御定全唐詩/json/870.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1123,6 +1258,21 @@
           "original": "zh挑筋斗太嘍羅",
           "corrected": null,
           "note": "李貞白《詠狗蚤》(no#66): 'zh' in 'zh挑筋斗太嘍羅'. ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+        },
+        {
+          "original": "悠，陳鶡z2鑼古ie頭。",
+          "corrected": "悠，陳鶡z2鑼古䭃頭。",
+          "note": "Crawl residue \"ie\" → 䭃; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷八百七十“賀遂涉” reads 「鑼古䭃頭更有台」 (2 hit(s))"
+        },
+        {
+          "original": "食店大悠悠，陳鶡z2鑼古ie頭。",
+          "corrected": "食店大悠悠，陳鶡䭔鑼古ie頭。",
+          "note": "Crawl residue \"z2\" → 䭔; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷八百七十“賀遂涉” reads 「悠悠陳鶡䭔鑼古」 (2 hit(s))"
+        },
+        {
+          "original": "與虱都來不較多，zh挑筋斗太嘍羅。",
+          "corrected": "與虱都來不較多，㩧挑筋斗太嘍羅。",
+          "note": "Crawl residue \"zh\" → 㩧; 识典古籍 (/zh/): 《增修詩話總龜》增修詩話總龜卷之二十“咏物門” reads 「來不較多㩧挑筋斗太」 (3 hit(s))"
         }
       ]
     },
@@ -1157,14 +1307,19 @@
       "fixes": []
     },
     "御定全唐詩/json/876.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "竇僕射，前為韋氏國yQ，後作公主邑丞",
           "corrected": null,
           "note": "no#24 《竇僕射語》: 'yQ' in '竇僕射，前為韋氏國yQ，後作公主邑丞'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition."
+        },
+        {
+          "original": "僕射，前為韋氏國yQ，後作公主邑丞。",
+          "corrected": "僕射，前為韋氏國㸙，後作公主邑丞。",
+          "note": "Crawl residue \"yQ\" → 㸙; 识典古籍 (/zh/): 《册府元龜》册府元龜卷四百八十二宋王欽若等撰“朋附” reads 「為韋氏國㸙後作公主」 (20 hit(s))"
         }
       ]
     },
@@ -1306,14 +1461,19 @@
       "fixes": []
     },
     "御定全唐詩/json/899.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "一庭紅fQ簌",
           "corrected": null,
           "note": "no#11 無名氏《後庭宴》: 'fQ' in '一庭紅fQ簌'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+        },
+        {
+          "original": "樹綠低迷，一庭紅fQ簌。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"fQ\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -1400,8 +1560,8 @@
       ]
     },
     "御定全唐詩/json/891.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1413,6 +1573,16 @@
           "original": "張曙2",
           "corrected": null,
           "note": "Author field of no#34 《浣溪沙》: trailing '2' in '張曙2'. Same pattern as '李瀚2' (881.json), '王季友1' (883.json), '崔融2' (887.json). Digit not part of historical poet's name. Requires verification against physical edition."
+        },
+        {
+          "original": "香玉，翠鳳寶釵垂s4zy。鈿筐交勝金粟，",
+          "corrected": "香玉，翠鳳寶釵垂𦋏𦌊。鈿筐交勝金粟，",
+          "note": "Crawl residue \"s4zy\" → 𦋏𦌊; by consistency of code s4zy with other verified occurrences (识典古籍)"
+        },
+        {
+          "original": "繡簾垂s4zy，眉黛遠山綠。春",
+          "corrected": "繡簾垂𦋏𦌊，眉黛遠山綠。春",
+          "note": "Crawl residue \"s4zy\" → 𦋏𦌊; 识典古籍 (/zh/): 《尊前集》尊前集卷上“明皇” reads 「堂繡簾垂𦋏𦌊眉黛遠山」 (4 hit(s))"
         }
       ]
     },
@@ -1441,14 +1611,19 @@
       "fixes": []
     },
     "御定全唐詩/json/885.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "溫r3終有思",
           "corrected": null,
           "note": "no#23 唐彥謙《紫薇花》: 'r3' in '溫r3終有思，暗淡豈無輝'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+        },
+        {
+          "original": "溫r3終有思，暗淡豈無",
+          "corrected": "溫𥂓終有思，暗淡豈無",
+          "note": "Crawl residue \"r3\" → 𥂓; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷八百八十五“司空圖” reads 「見紫薇溫𥂓終有思暗」 (3 hit(s))"
         }
       ]
     },
@@ -1482,8 +1657,8 @@
       ]
     },
     "御定全唐詩/json/878.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1495,6 +1670,16 @@
           "original": "o9々引黑牛，天差不自由",
           "corrected": null,
           "note": "no#46 《秦人竹o9謠》: 'o9' appears in both the poem title and the text '(o9々引黑牛，天差不自由)'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+        },
+        {
+          "original": "黃fd犢子挽紖斷，兩腳",
+          "corrected": "黃牸犢子挽紖斷，兩腳",
+          "note": "Crawl residue \"fd\" → 牸; 识典古籍 (/zh/): 《唐書》唐書卷三十五 reads 「黃牸犢子挽紖」 (3 hit(s))"
+        },
+        {
+          "original": "紖斷，兩腳蹋地鞋bV斷。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"bV\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -1552,14 +1737,19 @@
       "fixes": []
     },
     "御定全唐詩/json/765.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "苟非dJ之為",
           "corrected": null,
           "note": "王周《志峽船具詩：百丈》(no#42) contains 'dJ' as an apparent placeholder for an unrepresentable character. The poem discusses rope/cable (百丈) used to pull boats through gorges. Likely a two-character code from the same encoding system seen in 761.json (h-codes). Requires expert verification against a physical edition."
+        },
+        {
+          "original": "朽索何足擬。苟非dJ之為，胡可力行此",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"dJ\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -1594,14 +1784,49 @@
       "fixes": []
     },
     "御定全唐詩/json/761.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "h4昷h7h8異 ... h5傑自其一 ... hAha義 ... hBhChb囝星，hDhd厓he埊。缶圀及曌hE",
           "corrected": null,
           "note": "詹敦仁《複留侯從效問南漢劉岩改名龑字音義》(no#11) contains h4/h5/h7/h8/hA/hB/hC/hD/hE-style placeholder codes interspersed with rare Unicode characters (𩅦𩅔𧟨 etc.). The poem explicitly catalogues rare/invented characters from Wu Zetian and other dynasties. These h-codes may be an editor's notation for unrepresentable characters; requires expert verification against a physical edition of 御定全唐詩."
+        },
+        {
+          "original": "鄙哉化䁈名，陋矣hAha義。大唐有天下，",
+          "corrected": "鄙哉化䁈名，陋矣𪌝䵎義。大唐有天下，",
+          "note": "Crawl residue \"hAha\" → 𪌝䵎; 识典古籍 (/zh/): 《十國春秋》十國春秋卷第九十七“閩八” reads 「䁈名陋矣𪌝䵎義大唐有」 (1 hit(s))"
+        },
+        {
+          "original": "意。𩅦莔𩅔𧟨僻，h4昷h7h8異。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"h4\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "莔𩅔𧟨僻，h4昷h7h8異。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"h7h8\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "非，時亦跡舊事。h5傑自其一，蜀闖是",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"h5\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "BhChb囝星，hDhd厓he埊。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"hDhd\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "囝星，hDhd厓he埊。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"he\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "缶圀及曌hE，作史難詳備。唐",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"hE\"; 识典古籍 candidates ambiguous: 曌"
         }
       ]
     },
@@ -1653,8 +1878,8 @@
       ]
     },
     "御定全唐詩/json/264.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -1666,6 +1891,11 @@
           "original": "況榜龍fp船",
           "corrected": null,
           "note": "needs_review: 'fp' appears to be an ASCII placeholder for a rare character in 顧況《寄上兵部韓侍郎》; context suggests a type of boat; cannot determine correct char"
+        },
+        {
+          "original": "登略彴橋，況榜龍fp船。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"fp\"; 识典古籍 candidates ambiguous: 舺"
         }
       ]
     },
@@ -1837,14 +2067,19 @@
       "fixes": []
     },
     "御定全唐詩/json/288.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "繞階流dA々，來砌樹陰陰。",
           "corrected": null,
           "note": "needs_review: 'dA々' appears to be a bare ASCII placeholder (with 々 repetition mark) for a rare/unencoded character; in 陸贄《句》; context suggests flowing water onomatopoeia (繞階流___); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "繞階流dA々，來砌樹陰陰。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"dA\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -1932,6 +2167,11 @@
           "original": "雛出ob",
           "corrected": "雛出㲉",
           "note": "Crawl residue \"ob\" → 㲉: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "嗟嗟eP々下堂階，獨自灶",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"eP\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -2072,6 +2312,11 @@
           "original": "gS牙斷行處",
           "corrected": "㰹牙斷行處",
           "note": "Crawl residue \"gS\" → 㰹: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "程。放石試淺深，eg壁蛇鳥驚。",
+          "corrected": "程。放石試淺深，䃂壁蛇鳥驚。",
+          "note": "Crawl residue \"eg\" → 䃂; 识典古籍 (/zh/): 《唐詩類苑》唐詩類苑卷第三十一 reads 「石試淺深䃂壁蛇鳥驚」 (8 hit(s))"
         }
       ]
     },
@@ -2148,14 +2393,19 @@
       "fixes": []
     },
     "御定全唐詩/json/323.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "豐年系鎡dQ。",
           "corrected": null,
           "note": "needs_review: 'dQ' appears to be a bare ASCII placeholder; in 權德輿《送別沅泛》; 鎡___ likely a farming tool compound (鎡is a hoe); cannot determine second character without authoritative source"
+        },
+        {
+          "original": "起足下，豐年系鎡dQ。苟令志氣堅，佇",
+          "corrected": "起足下，豐年系鎡䥓。苟令志氣堅，佇",
+          "note": "Crawl residue \"dQ\" → 䥓; 识典古籍 (/zh/): 《新刊權載之文集》卷四 reads 「豐年系鎡䥓苟令志氣」 (2 hit(s))"
         }
       ]
     },
@@ -2178,14 +2428,19 @@
       "fixes": []
     },
     "御定全唐詩/json/327.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "從龍開ek路，合璧向方中。",
           "corrected": null,
           "note": "needs_review: 'ek' appears to be a bare ASCII placeholder; in 權德輿《大行皇太后挽歌詞三首》; context is funeral elegy (從龍開___路); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "山祔禮崇。從龍開ek路，合璧向方中。",
+          "corrected": "山祔禮崇。從龍開𡑞路，合璧向方中。",
+          "note": "Crawl residue \"ek\" → 𡑞; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷三百二十七“權德輿” reads 「崇從龍開𡑞路合璧向」 (5 hit(s))"
         }
       ]
     },
@@ -2259,6 +2514,11 @@
           "original": "征聲by僸攢",
           "corrected": "征聲𣤮僸攢",
           "note": "Crawl residue \"by\" → 𣤮: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "不同年，叔侄朱門rV槊連。鳳沼九重相",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"rV\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -2298,6 +2558,11 @@
           "original": "後鈍嗔bz譳",
           "corrected": "後鈍嗔䛠譳",
           "note": "Crawl residue \"bz\" → 䛠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "累若盆罌，或揭若bB豆。",
+          "corrected": "累若盆罌，或揭若㽅豆。",
+          "note": "Crawl residue \"bB\" → 㽅; 识典古籍 (/zh/): 《唐詩選》五言古體詩一卷（三） reads 「罌或揭若㽅豆或覆若」 (2 hit(s))"
         }
       ]
     },
@@ -2320,6 +2585,11 @@
           "original": "交驚舌互bc",
           "corrected": "交驚舌互舚",
           "note": "Crawl residue \"bc\" → 舚: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "今聖政初，恩澤完vr狘。胡為不自暇，",
+          "corrected": "今聖政初，恩澤完䎉狘。胡為不自暇，",
+          "note": "Crawl residue \"vr\" → 䎉; 识典古籍 (/zh/): 《唐宋四家詩選》韓詩卷二 reads 「初恩澤完䎉狘胡為不」 (3 hit(s))"
         }
       ]
     },
@@ -2348,6 +2618,21 @@
           "original": "fI池波風肉陵屯",
           "corrected": "𥁃池波風肉陵屯",
           "note": "Crawl residue \"fI\" → 𥁃: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "嚼齧舌齶反，電光ze磹赬目fu，頊冥",
+          "corrected": "嚼齧舌齶反，電光䃸磹赬目fu，頊冥",
+          "note": "Crawl residue \"ze\" → 䃸; 识典古籍 (/zh/): 《朱文公校昌黎先生文集》卷四 reads 「齶反電光䃸磹赬目」 (6 hit(s))"
+        },
+        {
+          "original": "，電光ze磹赬目fu，頊冥收威避玄根",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"fu\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "齒牙嚼齧舌齶反，電光䃸磹赬目fu，頊冥收威避玄根，",
+          "corrected": "齒牙嚼齧舌齶反，電光䃸磹赬目䁔，頊冥收威避玄根，",
+          "note": "Crawl residue restored via code table scripts/yuding_codes.tsv (twin_fix.py)"
         }
       ]
     },
@@ -2379,14 +2664,19 @@
       ]
     },
     "御定全唐詩/json/341.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "bd大瓶罌小，所任自有宜。",
           "corrected": null,
           "note": "needs_review: 'bd' bare ASCII placeholder; in 韓愈《瀧吏》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "bd大瓶罌小，所任自",
+          "corrected": "㼚大瓶罌小，所任自",
+          "note": "Crawl residue \"bd\" → 㼚; 识典古籍 (/zh/): 《十八家詩鈔》卷九 reads 「色久戃慌㼚大瓶罌小」 (2 hit(s))"
         }
       ]
     },
@@ -2409,18 +2699,33 @@
           "original": "雷霆逼颶f2",
           "corrected": "雷霆逼颶䫻",
           "note": "Crawl residue \"f2\" → 䫻: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "。我亦平行蹋y槱e，",
+          "corrected": "。我亦平行蹋y槱𦨻，",
+          "note": "Crawl residue \"e\" → 𦨻; 识典古籍 (/zh/): 《唐詩類苑》唐詩類苑卷第八十七 reads 「槱𦨻神官見我」 (2 hit(s))"
+        },
+        {
+          "original": "不危。我亦平行蹋y槱e，",
+          "corrected": "不危。我亦平行蹋𠿕槱e，",
+          "note": "Crawl residue \"y\" → 𠿕; 识典古籍 (/zh/): 《五百家注昌黎文集》五百家注昌黎文集卷七 reads 「亦平行蹋𠿕槱」 (9 hit(s))"
         }
       ]
     },
     "御定全唐詩/json/343.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "高愁cN鬥魁。",
           "corrected": null,
           "note": "needs_review: 'cN' bare ASCII placeholder; in 韓愈《詠雪贈張籍》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "厚慮填溟壑，高愁cN鬥魁。日輪埋欲側",
+          "corrected": "厚慮填溟壑，高愁㨖鬥魁。日輪埋欲側",
+          "note": "Crawl residue \"cN\" → 㨖; 识典古籍 (/zh/): 《五百家注昌黎文集》五百家注昌黎文集卷九 reads 「溟壑高愁㨖鬥魁日輪」 (17 hit(s))"
         }
       ]
     },
@@ -2466,14 +2771,19 @@
       "fixes": []
     },
     "御定全唐詩/json/349.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "nNvF一席眠還坐，蛙噪螢飛夜未央。",
           "corrected": null,
           "note": "needs_review: 'nNvF' appears to be a bare ASCII placeholder (4 chars, unusual length); in 歐陽詹《宿建溪中宵即事》; cannot determine correct character(s) without authoritative source"
+        },
+        {
+          "original": "nNvF一席眠還坐，蛙噪",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"nNvF\"; 识典古籍 candidates ambiguous: 薩藭"
         }
       ]
     },
@@ -2506,6 +2816,11 @@
           "original": "命之vG",
           "corrected": "命之瞢",
           "note": "Crawl residue \"vG\" → 瞢: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "苞枿ba矣，惟恨之蟠。彌",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"ba\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -2553,18 +2868,38 @@
           "original": "殘肌觸瘴m5",
           "corrected": "殘肌觸瘴𤸷",
           "note": "Crawl residue \"m5\" → 𤸷: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "狐作孽，林宿鳥為ff。",
+          "corrected": "狐作孽，林宿鳥為𣩈。",
+          "note": "Crawl residue \"ff\" → 𣩈; 识典古籍 (/zh/): 《唐人百家詩》柳河東先生詩集卷二 reads 「林宿鳥為𣩈同病憂能」 (4 hit(s))"
+        },
+        {
+          "original": "心方的的，騰口任es々。",
+          "corrected": "心方的的，騰口任㘖々。",
+          "note": "Crawl residue \"es\" → 㘖; 识典古籍 (/zh/): 《唐柳河東集》唐柳河東集卷第四十二“詩” reads 「的騰口任㘖」 (18 hit(s))"
+        },
+        {
+          "original": "辭甯切，虞童發未sG。秉心方的的，騰",
+          "corrected": "辭甯切，虞童發未䰉。秉心方的的，騰",
+          "note": "Crawl residue \"sG\" → 䰉; 识典古籍 (/zh/): 《唐四家詩》柳河東詩集卷下 reads 「虞童發未䰉秉心方的」 (10 hit(s))"
         }
       ]
     },
     "御定全唐詩/json/352.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "環洲凋蘭mL。",
           "corrected": null,
           "note": "needs_review: 'mL' bare ASCII placeholder; in 柳宗元《游南亭夜還敘志七十韻》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "怨鴻鵠，環洲凋蘭mL。暮景回西岑，北",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"mL\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -2739,14 +3074,19 @@
       ]
     },
     "御定全唐詩/json/375.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "眾誚瞋bF々。",
           "corrected": null,
           "note": "needs_review: 'bF々' bare ASCII placeholder with 々 repetition mark; in 孟郊《懊惱》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "閑未得閒，眾誚瞋bF々。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"bF\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -2868,26 +3208,36 @@
       "fixes": []
     },
     "御定全唐詩/json/390.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "挼絲團金懸bAzy，",
           "corrected": null,
           "note": "needs_review: 'bAzy' bare ASCII placeholder (4 chars); in 李賀《春坊正字劍子歌》; cannot determine correct character(s) without authoritative source"
+        },
+        {
+          "original": "坊字。挼絲團金懸bAzy，",
+          "corrected": "坊字。挼絲團金懸䍡𦌊，",
+          "note": "Crawl residue \"bAzy\" → 䍡𦌊; 识典古籍 (/zh/): 《唐音》唐音卷十二 reads 「絲團金懸䍡𦌊」 (4 hit(s))"
         }
       ]
     },
     "御定全唐詩/json/391.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "象口吹香毾bG暖，",
           "corrected": null,
           "note": "needs_review: 'bG' bare ASCII placeholder; in 李賀《宮娃歌》; context is a fragrant carpet (毾___) blown by elephant-shaped incense burner; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "守宮。象口吹香毾bG暖，",
+          "corrected": "守宮。象口吹香毾㲪暖，",
+          "note": "Crawl residue \"bG\" → 㲪; 识典古籍 (/zh/): 《唐詩品彙》唐詩品彙卷三十五“拘幽操” reads 「口吹香毾㲪暖啼蛄吊」 (10 hit(s))"
         }
       ]
     },
@@ -2916,6 +3266,11 @@
           "original": "妝成pE鬌欹不斜",
           "corrected": "妝成䰀鬌欹不斜",
           "note": "Crawl residue \"pE\" → 䰀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "春戲草苑，玉挽鳴qX轔。綠網縋金鈴，",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"qX\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -2937,26 +3292,36 @@
       ]
     },
     "御定全唐詩/json/395.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "未聞eK孽苦蒼生，",
           "corrected": null,
           "note": "needs_review: 'eK' bare ASCII placeholder; in 劉叉《雪車》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "未聞eK孽苦蒼生，相群相",
+          "corrected": "未聞𭐁孽苦蒼生，相群相",
+          "note": "Crawl residue \"eK\" → 𭐁; 识典古籍 (/zh/): 《唐詩類苑》卷七 reads 「之德未聞𭐁孽苦蒼生」 (4 hit(s))"
         }
       ]
     },
     "御定全唐詩/json/396.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "音聲甚eT嗗，",
           "corrected": null,
           "note": "needs_review: 'eT' bare ASCII placeholder; in 元稹《大觜烏》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "音聲甚eT嗗，潛通妖怪詞。",
+          "corrected": "音聲甚㕭嗗，潛通妖怪詞。",
+          "note": "Crawl residue \"eT\" → 㕭; 识典古籍 (/zh/): 《元氏長慶集》一 reads 「錐音聲甚㕭嗗潛通妖」 (4 hit(s))"
         }
       ]
     },
@@ -3028,14 +3393,19 @@
       ]
     },
     "御定全唐詩/json/401.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "酒聲頻cH々。",
           "corrected": null,
           "note": "needs_review: 'cH々' bare ASCII placeholder with 々 repetition mark; in 元稹《寄吳士矩端公五十韻》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "眼漸紛紛，酒聲頻cH々。",
+          "corrected": "眼漸紛紛，酒聲頻䬵々。",
+          "note": "Crawl residue \"cH\" → 䬵; 识典古籍 (/zh/): 《元氏長慶集》元氏長慶集卷第六“寄吳士矩端公五十韻” reads 「紛酒聲頻䬵」 (10 hit(s))"
         }
       ]
     },
@@ -3046,14 +3416,19 @@
       "fixes": []
     },
     "御定全唐詩/json/403.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "轀fm轉城闉。",
           "corrected": null,
           "note": "needs_review: 'fm' bare ASCII placeholder; in 元稹《順宗至德大聖大安孝皇帝挽歌詞三首》; context is a funeral hearse (轀___轉城闉); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "。羽儀經巷內，轀fm轉城闉。",
+          "corrected": "。羽儀經巷內，轀輼轉城闉。",
+          "note": "Crawl residue \"fm\" → 輼; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷四百三“元稹” reads 「經巷內轀輼轉城闉暝」 (3 hit(s))"
         }
       ]
     },
@@ -3117,6 +3492,11 @@
           "original": "坳窪饒t3矮",
           "corrected": "坳窪饒尰矮",
           "note": "Crawl residue \"t3\" → 尰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "師才業業，暴卒已sJ々。",
+          "corrected": "師才業業，暴卒已䖜々。",
+          "note": "Crawl residue \"sJ\" → 䖜; 识典古籍 (/zh/): 《元氏長慶集》元氏長慶集卷第十“律詩” reads 「業暴卒已䖜」 (8 hit(s))"
         }
       ]
     },
@@ -3159,12 +3539,17 @@
           "original": "治t3扶輕仗",
           "corrected": "治尰扶輕仗",
           "note": "Crawl residue \"t3\" → 尰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "如在手，那複敢崴pN。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"pN\"; no matching passage found on 识典古籍"
         }
       ]
     },
     "御定全唐詩/json/407.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -3176,6 +3561,16 @@
           "original": "破窗塵ej々，",
           "corrected": null,
           "note": "needs_review: 'ej々' bare ASCII placeholder with 々; in 元稹《酬樂天東南行詩一百韻》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "奴。芋羹真暫淡，bJ炙漫塗蘇。",
+          "corrected": "奴。芋羹真暫淡，䶉炙漫塗蘇。",
+          "note": "Crawl residue \"bJ\" → 䶉; 识典古籍 (/zh/): 《元氏長慶集》元氏長慶集卷十二“律詩” reads 「羹真暫淡䶉炙漫塗蘇」 (3 hit(s))"
+        },
+        {
+          "original": "家滿地蕪。破窗塵ej々，幽院鳥嗚嗚。",
+          "corrected": "家滿地蕪。破窗塵𡋯々，幽院鳥嗚嗚。",
+          "note": "Crawl residue \"ej\" → 𡋯; 识典古籍 (/zh/): 《御定全唐詩錄》御定全唐詩錄卷第六十七“元稹” reads 「蕪破窗塵𡋯」 (2 hit(s))"
         }
       ]
     },
@@ -3198,18 +3593,28 @@
           "original": "倡樓妝z8々",
           "corrected": "倡樓妝㸌々",
           "note": "Crawl residue \"z8\" → 㸌: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "繁晻澹桐。瑞雲低g7々，香雨潤濛濛。",
+          "corrected": "繁晻澹桐。瑞雲低𢈈々，香雨潤濛濛。",
+          "note": "Crawl residue \"g7\" → 𢈈; 识典古籍 (/zh/): 《元氏長慶集》元氏長慶集卷十三“律詩” reads 「桐瑞雲低𢈈」 (18 hit(s))"
         }
       ]
     },
     "御定全唐詩/json/409.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "sV鵊柳枝頭。",
           "corrected": null,
           "note": "needs_review: 'sV' bare ASCII placeholder; in 元稹《欲曙》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "鶴媒華表上，sV鵊柳枝頭。不為來",
+          "corrected": "鶴媒華表上，𪄆鵊柳枝頭。不為來",
+          "note": "Crawl residue \"sV\" → 𪄆; 识典古籍 (/zh/): 《元氏長慶集》元氏長慶集卷第十四 reads 「媒華表上𪄆鵊柳枝頭」 (7 hit(s))"
         }
       ]
     },
@@ -3388,14 +3793,19 @@
       ]
     },
     "御定全唐詩/json/423.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "娑葛fg三台。",
           "corrected": null,
           "note": "needs_review: 'fg' bare ASCII placeholder; in 元稹《三月三十日程氏館餞杜十四歸京》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "消梨拋五遍，娑葛fg三台。已許尊前倒",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"fg\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -3453,6 +3863,11 @@
           "original": "pI嵬欹且刓",
           "corrected": "𡾋嵬欹且刓",
           "note": "Crawl residue \"pI\" → 𡾋: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "峰，拄天青玉竿。q0p0上不得，豈我能攀",
+          "corrected": "峰，拄天青玉竿。𪕍䶃上不得，豈我能攀",
+          "note": "Crawl residue \"q0p0\" → 𪕍䶃; by consistency of code q0p0 with other verified occurrences (识典古籍)"
         }
       ]
     },
@@ -3539,14 +3954,19 @@
       "fixes": []
     },
     "御定全唐詩/json/440.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "鳥以能言cm，",
           "corrected": null,
           "note": "needs_review: 'cm' bare ASCII placeholder; in 白居易《江州赴忠州》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "鳥以能言cm，龜緣入夢烹。知",
+          "corrected": "鳥以能言𦃪，龜緣入夢烹。知",
+          "note": "Crawl residue \"cm\" → 𦃪; 识典古籍 (/zh/): 《全唐詩目》第四册（一） reads 「鳥以能言𦃪龜緣入夢」 (4 hit(s))"
         }
       ]
     },
@@ -3861,14 +4281,19 @@
       ]
     },
     "御定全唐詩/json/469.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "日落風bk々，驅車行遠郊。",
           "corrected": null,
           "note": "needs_review: 'bk々' bare ASCII placeholder with 々; in 長孫佐輔《山行書事》; context is wind at sunset (日落風___々); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "日落風bk々，驅車行遠郊。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"bk\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -3897,26 +4322,36 @@
       "fixes": []
     },
     "御定全唐詩/json/474.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "不能相見見人傳，rv岸山中岱岸邊。",
           "corrected": null,
           "note": "needs_review: 'rv' bare ASCII placeholder; in 徐凝《寄玄陽先生》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "不能相見見人傳，rv岸山中岱岸邊。",
+          "corrected": "不能相見見人傳，巏岸山中岱岸邊。",
+          "note": "Crawl residue \"rv\" → 巏; 识典古籍 (/zh/): 《萬首唐人絶句》萬首唐人絶句卷六十七 reads 「見見人傳巏岸山中岱」 (3 hit(s))"
         }
       ]
     },
     "御定全唐詩/json/475.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "dc濴寒泉深百尺。",
           "corrected": null,
           "note": "needs_review: 'dc' bare ASCII placeholder; in 李德裕《句》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "dc濴寒泉深百尺。",
+          "corrected": "㵿濴寒泉深百尺。",
+          "note": "Crawl residue \"dc\" → 㵿; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷四百七十五“李德裕” reads 「輩毀尖新㵿濴寒泉深」 (1 hit(s))"
         }
       ]
     },
@@ -4129,14 +4564,19 @@
       "fixes": []
     },
     "御定全唐詩/json/498.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "凶神扇pQ惡神行，",
           "corrected": null,
           "note": "needs_review: 'pQ' bare ASCII placeholder; in 姚合《惡神行雨》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "凶神扇pQ惡神行，洶湧挨排",
+          "corrected": "凶神扇𥳽惡神行，洶湧挨排",
+          "note": "Crawl residue \"pQ\" → 𥳽; 识典古籍 (/zh/): 《唐人六集》姚少監詩集卷六 reads 「凶神扇𥳽惡神行洶」 (6 hit(s))"
         }
       ]
     },
@@ -4285,6 +4725,11 @@
           "original": "刳隍by萬尋",
           "corrected": "刳隍𣤮萬尋",
           "note": "Crawl residue \"by\" → 𣤮: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "cq橛與棟樑，施之皆",
+          "corrected": "㨝橛與棟樑，施之皆",
+          "note": "Crawl residue \"cq\" → 㨝; 识典古籍 (/zh/): 《唐詩》唐詩卷四百九十九 reads 「者細一指㨝橛與棟樑」 (4 hit(s))"
         }
       ]
     },
@@ -4630,14 +5075,19 @@
       "fixes": []
     },
     "御定全唐詩/json/567.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "繡do衣褓日屭贔，",
           "corrected": null,
           "note": "needs_review: 'do' bare ASCII placeholder; in 鄭嵎《津陽門詩》; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "雞畫障當罘罳。繡do衣褓日屭贔，",
+          "corrected": "雞畫障當罘罳。繡祤衣褓日屭贔，",
+          "note": "Crawl residue \"do\" → 祤; 识典古籍 (/zh/): 《唐詩紀事》唐詩紀事卷六十二“鄭嵎” reads 「當罘罳繡祤衣褓日屭」 (15 hit(s))"
         }
       ]
     },
@@ -5039,6 +5489,26 @@
           "original": "bo耳側以聽",
           "corrected": "䯔耳側以聽",
           "note": "Crawl residue \"bo\" → 䯔: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "瘡複痏，百靈瘠且q3。謂乎數十公，筆",
+          "corrected": "瘡複痏，百靈瘠且𤼙。謂乎數十公，筆",
+          "note": "Crawl residue \"q3\" → 𤼙; 识典古籍 (/zh/): 《全唐詩》第九函第九册卷二 reads 「百靈瘠且𤼙謂乎數十」 (6 hit(s))"
+        },
+        {
+          "original": "古與今，何殊喑共fw。",
+          "corrected": "古與今，何殊喑共𦘍。",
+          "note": "Crawl residue \"fw\" → 𦘍; 识典古籍 (/zh/): 《全唐詩》第九函第九册卷二 reads 「何殊喑共𦘍昔之慕經」 (6 hit(s))"
+        },
+        {
+          "original": "予愜斯志，有似劀q3瘼。遇勝即夷猶，",
+          "corrected": "予愜斯志，有似劀𤼙瘼。遇勝即夷猶，",
+          "note": "Crawl residue \"q3\" → 𤼙; 识典古籍 (/zh/): 《吳縣志》吳縣志卷之二十五（一） reads 「志有似劀𤼙瘼遇勝即」 (6 hit(s))"
+        },
+        {
+          "original": "或若虹，耀影或如wH。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"wH\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -5076,6 +5546,36 @@
           "original": "水苔青wK髵",
           "corrected": "水苔青髬髵",
           "note": "Crawl residue \"wK\" → 髬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "和雲尋鹿蹤。時驚q0p0鼠，飛上千丈松。",
+          "corrected": "和雲尋鹿蹤。時驚𪕍䶃鼠，飛上千丈松。",
+          "note": "Crawl residue \"q0p0\" → 𪕍䶃; 识典古籍 (/zh/): 《唐音戊籤》戊籤七十二皮日休之二唐音統籤卷“五言古詩二” reads 「鹿蹤時驚𪕍䶃鼠飛上千」 (4 hit(s))"
+        },
+        {
+          "original": "入雲肆。岩邊足鳴wJ，樹杪多飛鸓。",
+          "corrected": "入雲肆。岩邊足鳴䗃，樹杪多飛鸓。",
+          "note": "Crawl residue \"wJ\" → 䗃; 识典古籍 (/zh/): 《吳縣志》吳縣志卷之二十六（一） reads 「岩邊足鳴䗃樹杪多飛」 (20 hit(s))"
+        },
+        {
+          "original": "箘uM突古砌，薜荔繃頹",
+          "corrected": "箘䉦突古砌，薜荔繃頹",
+          "note": "Crawl residue \"uM\" → 䉦; 识典古籍 (/zh/): 《吳都文粹續集》吳都文粹續集卷十四 reads 「多桃漿箘䉦突古砌薜」 (8 hit(s))"
+        },
+        {
+          "original": "三官責，不敢攜一bl。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"bl\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "壁內有室，叩之虛eGcP。古穴下徹海，視",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"eGcP\"; 识典古籍 candidates ambiguous: 虚䃔, 䃔䃧, 𮀩隳"
+        },
+        {
+          "original": "移時卻cs下，細碎衡與嵩。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"cs\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -5118,6 +5618,11 @@
           "original": "庭從dx子遮",
           "corrected": "庭從𣟤子遮",
           "note": "Crawl residue \"dx\" → 𣟤: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "著筣笓，竅中維艒fR。",
+          "corrected": "著筣笓，竅中維艒䑿。",
+          "note": "Crawl residue \"fR\" → 䑿; 识典古籍 (/zh/): 《周松靄遺書》杜詩雙聲疊韻譜括略卷之一“古詩” reads 「竅中維艒䑿多逢沙鳥」 (9 hit(s))"
         }
       ]
     },
@@ -5155,6 +5660,11 @@
           "original": "石面得能bn",
           "corrected": "石面得能䫜",
           "note": "Crawl residue \"bn\" → 䫜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "殼，杉破腹如腔。dpdP漁人服，筕篖野店",
+          "corrected": "殼，杉破腹如腔。䘨𧘈漁人服，筕篖野店",
+          "note": "Crawl residue \"dpdP\" → 䘨𧘈; 识典古籍 (/zh/): 《唐詩》唐詩卷五百五十一 reads 「破腹如腔䘨𧘈漁人服筕」 (2 hit(s))"
         }
       ]
     },
@@ -5177,6 +5687,16 @@
           "original": "半日始齋青z3飯",
           "corrected": "半日始齋青䭀飯",
           "note": "Crawl residue \"z3\" → 䭀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "雕胡飯熟bu餬軟，不是高人不",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"bu\"; 识典古籍 candidates ambiguous: 𩝊, 鳀, 鍉"
+        },
+        {
+          "original": "相問，正滯江南為eE魚。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"eE\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -5199,6 +5719,11 @@
           "original": "傳得三元z3飯名",
           "corrected": "傳得三元䭀飯名",
           "note": "Crawl residue \"z3\" → 䭀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "明朝有物充君信，dX酒三瓶寄夜航。",
+          "corrected": "明朝有物充君信，㰂酒三瓶寄夜航。",
+          "note": "Crawl residue \"dX\" → 㰂; 识典古籍 (/zh/): 《中吳紀聞》中吴紀聞卷四“太公避地處” reads 「物充君信㰂酒三瓶寄」 (8 hit(s))"
         }
       ]
     },
@@ -5209,14 +5734,19 @@
       "fixes": []
     },
     "御定全唐詩/json/616.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "eQ蠃時時上幾案，",
           "corrected": null,
           "note": "needs_review: 'eQ' bare ASCII placeholder; in 皮日休《苦雨雜言寄魯望》; cannot determine without authoritative source"
+        },
+        {
+          "original": "eQ蠃時時上幾案，蛙",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"eQ\"; 识典古籍 candidates ambiguous: 𣡗, 𧓎"
         }
       ]
     },
@@ -5390,6 +5920,21 @@
           "original": "嘗茶試石bP",
           "corrected": "嘗茶試石𪼿",
           "note": "Crawl residue \"bP\" → 𪼿: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "重瞳聖，夔猶一足cF。阮高酣麹糵，莊",
+          "corrected": "重瞳聖，夔猶一足蹔。阮高酣麹糵，莊",
+          "note": "Crawl residue \"cF\" → 蹔; 识典古籍 (/zh/): 《唐甫里先生集》卷四 reads 「夔猶一足蹔阮高酣麹」 (9 hit(s))"
+        },
+        {
+          "original": "影，飛泉撼玉琤。fsfp尋遠近，握槊鬥輸",
+          "corrected": "影，飛泉撼玉琤。𦪽𦨰尋遠近，握槊鬥輸",
+          "note": "Crawl residue \"fsfp\" → 𦪽𦨰; 识典古籍 (/zh/): 《全唐詩》第九函第十册卷七 reads 「泉撼玉琤𦪽𦨰尋遠近握」 (7 hit(s))"
+        },
+        {
+          "original": "水喧揌紫芡，村響yw香粳。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"yw\"; 识典古籍 candidates ambiguous: 礧, 𦥥"
         }
       ]
     },
@@ -5446,14 +5991,19 @@
       ]
     },
     "御定全唐詩/json/629.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "且將絲wf系蘭舟，",
           "corrected": null,
           "note": "needs_review: 'wf' bare ASCII placeholder; in 陸龜蒙《有別二首》; cannot determine without authoritative source"
+        },
+        {
+          "original": "且將絲wf系蘭舟，醉下煙汀",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"wf\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -5515,14 +6065,19 @@
       "fixes": []
     },
     "御定全唐詩/json/634.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "（贈z6光，",
           "corrected": null,
           "note": "needs_review: 'z6' bare ASCII placeholder in attribution note; in 司空圖《句》; likely a person's name character; cannot determine without authoritative source"
+        },
+        {
+          "original": "歌行李白詩。（贈z6光，",
+          "corrected": "歌行李白詩。（贈䛒光，",
+          "note": "Crawl residue \"z6\" → 䛒; 识典古籍 (/zh/): 《司空表聖詩集》戊籤七十四 司空圖之五 唐音統籤卷七百八“七言絶句三” reads 「李白詩贈䛒光」 (1 hit(s))"
         }
       ]
     },
@@ -5615,14 +6170,19 @@
       ]
     },
     "御定全唐詩/json/646.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "如繰如織暮eV々，",
           "corrected": null,
           "note": "needs_review: 'eV々' bare ASCII placeholder with 々; in 李鹹用《草蟲》; context is insect sounds at dusk (暮___々); cannot determine without authoritative source"
+        },
+        {
+          "original": "如繰如織暮eV々，應節催年使我",
+          "corrected": "如繰如織暮㗀々，應節催年使我",
+          "note": "Crawl residue \"eV\" → 㗀; 识典古籍 (/zh/): 《唐李推官披沙集》唐李推官披沙集卷第六“草蟲” reads 「繰如織暮㗀」 (8 hit(s))"
         }
       ]
     },
@@ -5806,6 +6366,11 @@
           "original": "dG箏簫管和琵琶",
           "corrected": "𥱧箏簫管和琵琶",
           "note": "Crawl residue \"dG\" → 𥱧: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "銜杯動遐思，uT口涎空流。封緘托",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"uT\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -5915,6 +6480,11 @@
           "original": "噤z9餘寒酒半醒",
           "corrected": "噤㾕餘寒酒半醒",
           "note": "Crawl residue \"z9\" → 㾕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "是黃昏後，歸當朧fC時。叉衣吟宿醉，",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"fC\"; 识典古籍 candidates ambiguous: 𦝰, 𦜩, 䐋"
         }
       ]
     },
@@ -5965,6 +6535,11 @@
           "original": "莫輕河邊羖fG",
           "corrected": "莫輕河邊羖䍽",
           "note": "Crawl residue \"fG\" → 䍽: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "羈束。江南有僧名z6光，",
+          "corrected": "羈束。江南有僧名䛒光，",
+          "note": "Crawl residue \"z6\" → 䛒; code table (scripts/yuding_codes.tsv) entry established from other verified occurrences / 全唐诗 collation"
         }
       ]
     },
@@ -6016,14 +6591,19 @@
       "fixes": []
     },
     "御定全唐詩/json/694.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "一朝羖qj飛上天，",
           "corrected": null,
           "note": "needs_review: 'qj' bare ASCII placeholder; in 王轂《後魏行》; cannot determine without authoritative source"
+        },
+        {
+          "original": "一朝羖qj飛上天，子孫盡作",
+          "corrected": "一朝羖䍽飛上天，子孫盡作",
+          "note": "Crawl residue \"qj\" → 䍽; 识典古籍 (/zh/): 《唐文粹》文粹卷第十二古樂三“後魏行” reads 「畏一朝羖䍽飛上天子」 (11 hit(s))"
         }
       ]
     },
@@ -6040,8 +6620,8 @@
       "fixes": []
     },
     "御定全唐詩/json/697.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
@@ -6053,6 +6633,16 @@
           "original": "喧呼繡cK攘。",
           "corrected": null,
           "note": "needs_review: 'cK' bare ASCII placeholder; in 韋莊《和鄭拾遺秋日感事一百韻》; cannot determine without authoritative source"
+        },
+        {
+          "original": "白雲紅樹eryy東，名鳥群飛古畫",
+          "corrected": "白雲紅樹𡵻㟍東，名鳥群飛古畫",
+          "note": "Crawl residue \"eryy\" → 𡵻㟍; 识典古籍 (/zh/): 《[雍正]山西通志》山西通志卷二百二十六（一） reads 「白雲紅樹𡵻㟍東名鳥群」 (6 hit(s))"
+        },
+        {
+          "original": "侈彤襜亂，喧呼繡cK攘。但聞爭曳組，",
+          "corrected": "侈彤襜亂，喧呼繡𩭪攘。但聞爭曳組，",
+          "note": "Crawl residue \"cK\" → 𩭪; 识典古籍 (/zh/): 《唐詩》唐詩卷六百二十二 reads 「亂喧呼繡𩭪攘但聞爭」 (6 hit(s))"
         }
       ]
     },
@@ -6290,14 +6880,19 @@
       ]
     },
     "御定全唐詩/json/735.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "貢橘香勻x0oh容，",
           "corrected": null,
           "note": "needs_review: 'x0oh' unusual 4-char bare ASCII placeholder; in 和凝《宮詞百首》; context is cosmetics/appearance (香勻___容); cannot determine without authoritative source"
+        },
+        {
+          "original": "貢橘香勻x0oh容，星光初滿小金",
+          "corrected": "貢橘香勻䩋𩉙容，星光初滿小金",
+          "note": "Crawl residue \"x0oh\" → 䩋𩉙; 识典古籍 (/zh/): 《佩文韵府拾遺》韻府拾遺卷十一“上平聲 十一真韻” reads 「貢橘香勻䩋𩉙容星光初」 (7 hit(s))"
         }
       ]
     },
@@ -6314,14 +6909,19 @@
       "fixes": []
     },
     "御定全唐詩/json/738.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "赤驥相煿zh。",
           "corrected": null,
           "note": "needs_review: 'zh' bare ASCII placeholder; in 宋齊丘《陪遊鳳凰台獻詩》; cannot determine without authoritative source"
+        },
+        {
+          "original": "欲吞人，赤驥相煿zh。畫棟泥金碧，石",
+          "corrected": "欲吞人，赤驥相煿㩧。畫棟泥金碧，石",
+          "note": "Crawl residue \"zh\" → 㩧; 识典古籍 (/zh/): 《唐音戊籤》戊籤餘十二 、 唐音統籤卷 、戊籤餘十三 reads 「赤驥相煿㩧畫棟泥金」 (5 hit(s))"
         }
       ]
     },
@@ -109307,10 +109907,16 @@
       "fixes": []
     },
     "御定全唐詩/json/011.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "有z0斯旨，有牲斯碩。",
+          "corrected": "有𨣧斯旨，有牲斯碩。",
+          "note": "Crawl residue \"z0\" → 𨣧; 识典古籍 (/zh/): 《唐書合鈔》唐書卷第三十九 reads 「明湛夕有𨣧斯旨有牲」 (2 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/012.json": {
       "date": "2026-06-26",
@@ -109343,10 +109949,16 @@
       ]
     },
     "御定全唐詩/json/016.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "黍稷馨，醴z0清。牲牷潔，金石",
+          "corrected": "黍稷馨，醴𨣧清。牲牷潔，金石",
+          "note": "Crawl residue \"z0\" → 𨣧; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷十六“郊廟歌辭” reads 「黍稷馨醴𨣧清牲牷潔」 (2 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/017.json": {
       "date": "2026-10-03",
@@ -109421,16 +110033,28 @@
       "fixes": []
     },
     "御定全唐詩/json/025.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "頭上何所有，翠微zc葉垂鬢唇。背後何",
+          "corrected": "頭上何所有，翠微㔩葉垂鬢唇。背後何",
+          "note": "Crawl residue \"zc\" → 㔩; 识典古籍 (/zh/): 《杜甫集》分門集注杜工部詩卷第三“節序” reads 「所有翠微㔩葉垂鬢唇」 (4 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/026.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "步河堤，妖韶援綠pH。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"pH\"; no matching passage found on 识典古籍"
+        }
+      ]
     },
     "御定全唐詩/json/027.json": {
       "date": "2026-10-03",
@@ -109479,10 +110103,16 @@
       "fixes": []
     },
     "御定全唐詩/json/031.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "瓊羞溢俎，玉z0浮觴。恭惟正直，",
+          "corrected": "瓊羞溢俎，玉𨣧浮觴。恭惟正直，",
+          "note": "Crawl residue \"z0\" → 𨣧; 识典古籍 (/zh/): 《唐書合鈔》唐書卷第三十九 reads 「羞溢俎玉𨣧浮觴恭惟」 (8 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/032.json": {
       "date": "2026-06-26",
@@ -109749,10 +110379,16 @@
       "fixes": []
     },
     "御定全唐詩/json/073.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "北登嵔gF阪，東望姑蘇台。",
+          "corrected": "北登嵔𡿔阪，東望姑蘇台。",
+          "note": "Crawl residue \"gF\" → 𡿔; 识典古籍 (/zh/): 《唐詩類苑》卷一百三十四 reads 「財北登嵔𡿔阪東望姑」 (3 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/074.json": {
       "date": "2026-06-26",
@@ -109839,10 +110475,16 @@
       ]
     },
     "御定全唐詩/json/083.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "說相啖食，利害紛eq々。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"eq\"; no matching passage found on 识典古籍"
+        }
+      ]
     },
     "御定全唐詩/json/084.json": {
       "date": "2026-06-26",
@@ -109931,6 +110573,11 @@
           "original": "穹窿曳長dh",
           "corrected": "穹窿曳長䋏",
           "note": "Crawl residue \"dh\" → 䋏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "k3k4縈海若，霹靂耿天",
+          "corrected": "䬓䬔縈海若，霹靂耿天",
+          "note": "Crawl residue \"k3k4\" → 䬓䬔; 识典古籍 (/zh/): 《丹鉛總錄》丹鉛摘録卷十明楊慎撰 reads 「雲逐鬥樞䬓䬔縈海若霹」 (8 hit(s))"
         }
       ]
     },
@@ -110168,6 +110815,11 @@
           "original": "園即事寄舍弟ヨ",
           "corrected": "園即事寄舍弟紞",
           "note": "Katakana/hiragana garble ヨ → 紞; 识典古籍: 《王维集》须溪先生校本唐王右丞集卷第三“林园即事寄舍弟𬘘” reads 「事寄舍弟𬘘寓目一蕭」; normalized to dataset's usual form 紞"
+        },
+        {
+          "original": "地多齊後w9，人帶荊州癭。徒",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"w9\"; no matching passage found on 识典古籍"
         }
       ]
     },
@@ -110304,10 +110956,16 @@
       "fixes": []
     },
     "御定全唐詩/json/145.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "池已蕪漫。君不見h6祁宮，",
+          "corrected": "池已蕪漫。君不見虒祁宮，",
+          "note": "Crawl residue \"h6\" → 虒; 识典古籍 (/zh/): 《文苑英華》文苑英華卷三百九宋李昉等編“登石頭城何遜” reads 「漫君不見虒祁宮一代」 (1 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/146.json": {
       "date": "2026-10-03",
@@ -110342,12 +111000,17 @@
     "御定全唐詩/json/150.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "fixed",
+      "status": "needs_review",
       "fixes": [
         {
           "original": "雲色常霮zw",
           "corrected": "雲色常霮䨴",
           "note": "Crawl residue \"zw\" → 䨴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "自歸飛，雲閑獨容cV。",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"cV\"; 识典古籍 candidates ambiguous: 潏, 㵝"
         }
       ]
     },
@@ -110484,10 +111147,16 @@
       "fixes": []
     },
     "御定全唐詩/json/169.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-03",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "廉藺。匣中盤劍裝eC魚，",
+          "corrected": "廉藺。匣中盤劍裝䱜魚，",
+          "note": "Crawl residue \"eC\" → 䱜; 识典古籍 (/zh/): 《全唐詩》第三函第五册卷一 reads 「中盤劍裝䱜魚」 (6 hit(s))"
+        }
+      ]
     },
     "御定全唐詩/json/170.json": {
       "date": "2026-06-26",
@@ -110809,6 +111478,11 @@
           "original": "花門kO面請雪恥",
           "corrected": "花門剺面請雪恥",
           "note": "Crawl residue \"kO\" → 剺: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "頭上何所有，翠微zc葉垂鬢唇。背後何",
+          "corrected": "頭上何所有，翠微㔩葉垂鬢唇。背後何",
+          "note": "Crawl residue \"zc\" → 㔩; 识典古籍 (/zh/): 《杜甫集》分門集注杜工部詩卷第三“節序” reads 「所有翠微㔩葉垂鬢唇」 (4 hit(s))"
         }
       ]
     },
@@ -110857,6 +111531,11 @@
           "original": "胡為投乳rP",
           "corrected": "胡為投乳贙",
           "note": "Crawl residue \"rP\" → 贙: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "排鐵騎，清旭散錦eL。賊臣表逆節，相",
+          "corrected": "排鐵騎，清旭散錦𩦺。賊臣表逆節，相",
+          "note": "Crawl residue \"eL\" → 𩦺; 识典古籍 (/zh/): 《唐詩類苑》唐詩類苑卷第一百二十七 reads 「清旭散錦𩦺賊臣表逆」 (7 hit(s))"
         }
       ]
     },
@@ -110988,7 +111667,7 @@
     "御定全唐詩/json/240.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "fixed",
+      "status": "needs_review",
       "fixes": [
         {
           "original": "心慅bj兮意惶懹",
@@ -110999,6 +111678,36 @@
           "original": "山屹dB兮水淪漣",
           "corrected": "山屹𡵉兮水淪漣",
           "note": "Crawl residue \"dB\" → 𡵉: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "致夫精誠。久愵兮cJ々，",
+          "corrected": "致夫精誠。久愵兮㤝々，",
+          "note": "Crawl residue \"cJ\" → 㤝; 识典古籍 (/zh/): 《唐元次山文集》唐元次山文集卷第五“演興四首” reads 「誠久愵兮㤝」 (10 hit(s))"
+        },
+        {
+          "original": "雲纓為dT兮愚木栭。洞淵禪",
+          "corrected": "雲纓為𣔺兮愚木栭。洞淵禪",
+          "note": "Crawl residue \"dT\" → 𣔺; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷二百四十“元結” reads 「榱雲纓為𣔺兮愚木栭」 (5 hit(s))"
+        },
+        {
+          "original": "w兮舞顒幹。薦天ed兮酒陽泉，",
+          "corrected": "w兮舞顒幹。薦天𩷨兮酒陽泉，",
+          "note": "Crawl residue \"ed\" → 𩷨; 识典古籍 (/zh/): 《唐元次山文集》唐元次山文集卷第五“演興四首” reads 「顒幹薦天𩷨兮酒陽泉」 (3 hit(s))"
+        },
+        {
+          "original": "釤兮掉蕪殳，靈巫rw兮舞顒幹。薦天e",
+          "corrected": "釤兮掉蕪殳，靈巫讄兮舞顒幹。薦天e",
+          "note": "Crawl residue \"rw\" → 讄; 识典古籍 (/zh/): 《唐元次山文集》唐元次山文集卷第五“演興四首” reads 「蕪殳靈巫讄兮舞顒幹」 (18 hit(s))"
+        },
+        {
+          "original": "久懹懹以ck惋，卻遲回而永歎",
+          "corrected": "久懹懹以㥄惋，卻遲回而永歎",
+          "note": "Crawl residue \"ck\" → 㥄; 识典古籍 (/zh/): 《唐元次山文集》唐元次山文集卷第五“演興四首” reads 「久懹懹以㥄惋卻遲回」 (2 hit(s))"
+        },
+        {
+          "original": "櫁du樽兮不香，拔豐茸",
+          "corrected": null,
+          "note": "needs_review: crawl residue \"du\"; 识典古籍 candidates ambiguous: 樒, 𪱻, 櫁"
         }
       ]
     },
