@@ -118,9 +118,10 @@ def build_table(evidence, known):
 
 
 def apply_fixes(table, bare_gaps, write):
-    token = re.compile(r'(?<![A-Za-z0-9\[])('
-                       + '|'.join(map(re.escape, sorted(table, key=len, reverse=True)))
-                       + r')(?![A-Za-z0-9\]])') if table else None
+    # 单个编码，或两个编码连写（如 q0p0 = q0 + p0），两侧不得紧邻其他字母数字
+    alt = '|'.join(map(re.escape, sorted(table, key=len, reverse=True)))
+    token = re.compile(rf'(?<![A-Za-z0-9\[])((?:{alt}){{1,2}})(?![A-Za-z0-9\]])') if table else None
+    split = re.compile(alt) if table else None
     gaps_by_file = collections.defaultdict(list)
     for g in bare_gaps:
         gaps_by_file[g['file']].append(g)
@@ -135,7 +136,7 @@ def apply_fixes(table, bare_gaps, write):
         for idx, it in enumerate(data):
             paras = it.get('paragraphs') or []
             for li, line in enumerate(paras):
-                new = token.sub(lambda m: table[m.group(1)], line) if token else line
+                new = token.sub(lambda m: ''.join(table[c] for c in split.findall(m.group(1))), line) if token else line
                 if new != line:
                     file_changes.append(dict(file=rel, idx=idx, author=it.get('author'),
                                              title=it.get('title'), original=line,

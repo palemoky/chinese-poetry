@@ -5,24 +5,24 @@
     "total_files": 1589,
     "reviewed": 1589,
     "clean": 1081,
-    "fixed": 73,
-    "needs_review": 435
+    "fixed": 207,
+    "needs_review": 301
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "無ew我陵",
-          "corrected": null,
-          "note": "丘光庭《補茅鴟》(no#5) contains 'ew' as an apparent placeholder for an unrepresentable character. Same encoding system as 761.json (h-codes) and 765.json (dJ). Requires expert verification."
+          "corrected": "無㗲我陵",
+          "note": "丘光庭《補茅鴟》(no#5) contains 'ew' as an apparent placeholder for an unrepresentable character. Same encoding system as 761.json (h-codes) and 765.json (dJ). Requires expert verification. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "世間恩愛極難yR",
-          "corrected": null,
-          "note": "李茂複《自歎》(no#10) contains 'yR' as an apparent placeholder for an unrepresentable character. Context: '世間恩愛極難yR，近來不作顛狂事'. Requires expert verification."
+          "corrected": "世間恩愛極難𢬵",
+          "note": "李茂複《自歎》(no#10) contains 'yR' as an apparent placeholder for an unrepresentable character. Context: '世間恩愛極難yR，近來不作顛狂事'. Requires expert verification. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "無ew我陵",
@@ -87,12 +87,12 @@
     "御定全唐詩/json/776.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "登艫fS川陸",
-          "corrected": null,
-          "note": "唐堯臣《金陵懷古》(no#17): 'fS' in '登艫fS川陸' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩."
+          "corrected": "登艫𦪇川陸",
+          "note": "唐堯臣《金陵懷古》(no#17): 'fS' in '登艫fS川陸' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "登艫fS川陸",
@@ -104,12 +104,12 @@
     "御定全唐詩/json/777.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "冪zx野煙起",
-          "corrected": null,
-          "note": "豆盧回《登樂游原懷古》(no#6): 'zx' in '冪zx野煙起，蒼茫嵐氣昏' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩."
+          "corrected": "冪䍥野煙起",
+          "note": "豆盧回《登樂游原懷古》(no#6): 'zx' in '冪zx野煙起，蒼茫嵐氣昏' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "冪zx野煙起",
@@ -127,12 +127,12 @@
     "御定全唐詩/json/779.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "珠綴引xz朧",
-          "corrected": null,
-          "note": "柴宿《初日照華清宮》(no#6): 'xz' in '珠綴引xz朧' is an ASCII placeholder code. Also, poem no#9 author '劉gL' has 'gL' as placeholder in the author's given name. Requires verification against physical edition of 御定全唐詩."
+          "corrected": "珠綴引𦝰朧",
+          "note": "柴宿《初日照華清宮》(no#6): 'xz' in '珠綴引xz朧' is an ASCII placeholder code. Also, poem no#9 author '劉gL' has 'gL' as placeholder in the author's given name. Requires verification against physical edition of 御定全唐詩. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "珠綴引xz朧",
@@ -144,12 +144,12 @@
     "御定全唐詩/json/780.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "圓彩色玢ge",
-          "corrected": null,
-          "note": "鄧陟《珠還合浦》(no#24): 'ge' after '玢' in '圓彩色玢ge' is an ASCII placeholder code. Also, poem no#26 author '苑gT' has 'gT' as placeholder in the author's name. Requires verification against physical edition of 御定全唐詩."
+          "corrected": "圓彩色玢㻞",
+          "note": "鄧陟《珠還合浦》(no#24): 'ge' after '玢' in '圓彩色玢ge' is an ASCII placeholder code. Also, poem no#26 author '苑gT' has 'gT' as placeholder in the author's name. Requires verification against physical edition of 御定全唐詩. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "圓彩色玢ge",
@@ -185,12 +185,12 @@
     "御定全唐詩/json/785.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "雙月謳cA輾秋碧",
-          "corrected": null,
-          "note": "無名氏《小蘇家》(no#12): 'cA' in '雙月謳cA輾秋碧' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩."
+          "corrected": "雙月謳䛩輾秋碧",
+          "note": "無名氏《小蘇家》(no#12): 'cA' in '雙月謳cA輾秋碧' is an ASCII placeholder code representing a character unrepresentable in the source encoding system. Requires verification against physical edition of 御定全唐詩. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "雙月謳cA輾秋碧",
@@ -214,12 +214,12 @@
     "御定全唐詩/json/788.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "醉後接z5倒 / 倒著接z5發垂領 / 拈z2舐指不知休",
-          "corrected": null,
-          "note": "顏真卿聯句集: poem no#3 '醉後接z5倒' and no#23 '倒著接z5發垂領' contain 'z5' placeholder; poem no#21 '拈z2舐指不知休' contains 'z2' placeholder. All are ASCII placeholder codes for characters unrepresentable in source encoding. Requires verification against physical edition of 御定全唐詩."
+          "corrected": "醉後接䍦倒 / 倒著接䍦發垂領 / 拈䭔舐指不知休",
+          "note": "顏真卿聯句集: poem no#3 '醉後接z5倒' and no#23 '倒著接z5發垂領' contain 'z5' placeholder; poem no#21 '拈z2舐指不知休' contains 'z2' placeholder. All are ASCII placeholder codes for characters unrepresentable in source encoding. Requires verification against physical edition of 御定全唐詩. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "醉後接z5倒",
@@ -241,12 +241,12 @@
     "御定全唐詩/json/789.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "山簡酣歌倒接z5",
-          "corrected": null,
-          "note": "嚴維《酒語聯句》(no#4): 'z5' in '山簡酣歌倒接z5' is an ASCII placeholder code. Requires verification against physical edition of 御定全唐詩."
+          "corrected": "山簡酣歌倒接䍦",
+          "note": "嚴維《酒語聯句》(no#4): 'z5' in '山簡酣歌倒接z5' is an ASCII placeholder code. Requires verification against physical edition of 御定全唐詩. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "山簡酣歌倒接z5",
@@ -624,12 +624,12 @@
     "御定全唐詩/json/811.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "dU幘題新句",
-          "corrected": null,
-          "note": "法振《陳九溪中草堂》(no#15) contains 'dU' in '蓑衣象古賢。曙花閑秀色，三十六峰前。dU幘題新句'. ASCII placeholder code for an unrepresentable rare character (likely a type of headwear/hat character). Requires verification against physical edition."
+          "corrected": "䪻幘題新句",
+          "note": "法振《陳九溪中草堂》(no#15) contains 'dU' in '蓑衣象古賢。曙花閑秀色，三十六峰前。dU幘題新句'. ASCII placeholder code for an unrepresentable rare character (likely a type of headwear/hat character). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "dU幘題新句",
@@ -659,12 +659,12 @@
     "御定全唐詩/json/815.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "應思石de訪春泉",
-          "corrected": null,
-          "note": "皎然《酬秦山人贈別二首》(no#56) contains 'de' in '應思石de訪春泉'. ASCII placeholder code for an unrepresentable character following 石 (likely a rare stone-path character). Same code also appears in 817.json poem 6. Requires verification against physical edition."
+          "corrected": "應思石瀃訪春泉",
+          "note": "皎然《酬秦山人贈別二首》(no#56) contains 'de' in '應思石de訪春泉'. ASCII placeholder code for an unrepresentable character following 石 (likely a rare stone-path character). Same code also appears in 817.json poem 6. Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "應思石de訪春泉",
@@ -676,12 +676,12 @@
     "御定全唐詩/json/816.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "霜剪荍y9心",
-          "corrected": null,
-          "note": "皎然《寄崔萬芳夔》(no#11) contains 'y9' in '霜剪荍y9心'. ASCII placeholder code for an unrepresentable rare character. □ in poem 55 '□□□滿山' is intentional (damaged text). Requires verification against physical edition."
+          "corrected": "霜剪荍𦾾心",
+          "note": "皎然《寄崔萬芳夔》(no#11) contains 'y9' in '霜剪荍y9心'. ASCII placeholder code for an unrepresentable rare character. □ in poem 55 '□□□滿山' is intentional (damaged text). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "霜剪荍y9心",
@@ -693,12 +693,12 @@
     "御定全唐詩/json/817.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "石de清心胸",
-          "corrected": null,
-          "note": "皎然《奉陪陸使君長源諸公游支硎寺》(no#6) contains 'de' in '石de清心胸'. Same ASCII placeholder code as 815.json poem 56 '石de訪春泉' — consistent encoding artifact for the same rare character following 石. □ in poem 72 '何曾裛□塵' is intentional. Requires verification against physical edition."
+          "corrected": "石瀃清心胸",
+          "note": "皎然《奉陪陸使君長源諸公游支硎寺》(no#6) contains 'de' in '石de清心胸'. Same ASCII placeholder code as 815.json poem 56 '石de訪春泉' — consistent encoding artifact for the same rare character following 石. □ in poem 72 '何曾裛□塵' is intentional. Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "石de清心胸",
@@ -782,17 +782,17 @@
     "御定全唐詩/json/829.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "苦惑神仙cX",
-          "corrected": null,
-          "note": "貫休《貽世》(no#19): 'cX' in '苦惑神仙cX，難收日月精。' ASCII placeholder code (mixed case). Requires verification against physical edition."
+          "corrected": "苦惑神仙䜝",
+          "note": "貫休《貽世》(no#19): 'cX' in '苦惑神仙cX，難收日月精。' ASCII placeholder code (mixed case). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "旅墳孤fb嶽",
-          "corrected": null,
-          "note": "貫休《懷劉得仁》(no#28): 'fb' in '旅墳孤fb嶽，羸僕泣如兒。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+          "corrected": "旅墳孤骹嶽",
+          "note": "貫休《懷劉得仁》(no#28): 'fb' in '旅墳孤fb嶽，羸僕泣如兒。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "苦惑神仙cX",
@@ -809,27 +809,27 @@
     "御定全唐詩/json/830.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "dz深黃狖小",
-          "corrected": null,
-          "note": "貫休《經孟浩然鹿門舊居二首》(no#10): 'dz' in '...遊人得得過。dz深黃狖小，地暖白雲多。' ASCII placeholder code. Requires verification against physical edition."
+          "corrected": "𣝡深黃狖小",
+          "note": "貫休《經孟浩然鹿門舊居二首》(no#10): 'dz' in '...遊人得得過。dz深黃狖小，地暖白雲多。' ASCII placeholder code. Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "穿霞逢黑yU",
-          "corrected": null,
-          "note": "貫休《春送禪師歸閩中》(no#11): 'yU' in '穿霞逢黑yU，乞食得紅薑。' ASCII placeholder code (mixed case). Requires verification against physical edition."
+          "corrected": "穿霞逢黑鴧",
+          "note": "貫休《春送禪師歸閩中》(no#11): 'yU' in '穿霞逢黑yU，乞食得紅薑。' ASCII placeholder code (mixed case). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "老ch寒披衲",
-          "corrected": null,
-          "note": "貫休《離亂後寄九峰和尚二首》(no#32): 'ch' in '老ch寒披衲，孤雲靜入廚。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+          "corrected": "老𤣎寒披衲",
+          "note": "貫休《離亂後寄九峰和尚二首》(no#32): 'ch' in '老ch寒披衲，孤雲靜入廚。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "鵬cR甯唯白",
-          "corrected": null,
-          "note": "貫休《贈抱麻劉舍人》(no#57): 'cR' in '鵬cR甯唯白，龍多豈止荀。' ASCII placeholder code (mixed case). Requires verification against physical edition."
+          "corrected": "鵬𪄚甯唯白",
+          "note": "貫休《贈抱麻劉舍人》(no#57): 'cR' in '鵬cR甯唯白，龍多豈止荀。' ASCII placeholder code (mixed case). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "穿霞逢黑yU",
@@ -866,8 +866,8 @@
       "fixes": [
         {
           "original": "飛錫下崆gk",
-          "corrected": null,
-          "note": "貫休《送廬山衲僧》(no#8): 'gk' in '飛錫下崆gk，清高世少雙。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+          "corrected": "飛錫下崆㟅",
+          "note": "貫休《送廬山衲僧》(no#8): 'gk' in '飛錫下崆gk，清高世少雙。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "df水準芳草",
@@ -889,12 +889,12 @@
     "御定全唐詩/json/833.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "田香熟稻r1",
-          "corrected": null,
-          "note": "貫休《壽春節進》(no#1): 'r1' in '田香熟稻r1。夢中逢傅說。' ASCII placeholder code (letter+digit). Requires verification against physical edition."
+          "corrected": "田香熟稻𪎭",
+          "note": "貫休《壽春節進》(no#1): 'r1' in '田香熟稻r1。夢中逢傅說。' ASCII placeholder code (letter+digit). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "田香熟稻r1",
@@ -936,12 +936,12 @@
     "御定全唐詩/json/838.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "霮zw蔽穹蒼",
-          "corrected": null,
-          "note": "齊己《夏雨》(no#73): 'zw' in '霮zw蔽穹蒼，冥蒙自一方。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+          "corrected": "霮䨴蔽穹蒼",
+          "note": "齊己《夏雨》(no#73): 'zw' in '霮zw蔽穹蒼，冥蒙自一方。' ASCII placeholder code (two lowercase letters). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "霮zw蔽穹蒼",
@@ -983,12 +983,12 @@
     "御定全唐詩/json/853.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "瑤草多zv茸",
-          "corrected": null,
-          "note": "吳筠《遊廬山五老峰》(no#7): 'zv' in '瑤草多zv茸'. ASCII placeholder code (two lowercase letters). Likely a character describing lush plants. Requires verification against physical edition."
+          "corrected": "瑤草多䒠茸",
+          "note": "吳筠《遊廬山五老峰》(no#7): 'zv' in '瑤草多zv茸'. ASCII placeholder code (two lowercase letters). Likely a character describing lush plants. Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "瑤草多zv茸",
@@ -1084,12 +1084,12 @@
     "御定全唐詩/json/847.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "白bv封題寄火前",
-          "corrected": null,
-          "note": "齊己《句》(no#80): 'bv' in '白bv封題寄火前。（《詠茶》，'. ASCII placeholder code (two lowercase letters). Likely an unrepresentable character in a miscellaneous verse collection. Requires verification against physical edition."
+          "corrected": "白甀封題寄火前",
+          "note": "齊己《句》(no#80): 'bv' in '白bv封題寄火前。（《詠茶》，'. ASCII placeholder code (two lowercase letters). Likely an unrepresentable character in a miscellaneous verse collection. Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "白bv封題寄火前",
@@ -1107,12 +1107,12 @@
     "御定全唐詩/json/859.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "陰b2果決用心除",
-          "corrected": null,
-          "note": "呂岩《贈劉方處士》(no#1): 'b2' in '陰b2果決用心除'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+          "corrected": "陰媱果決用心除",
+          "note": "呂岩《贈劉方處士》(no#1): 'b2' in '陰b2果決用心除'. ASCII placeholder code (letter + digit). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "陰b2果決用心除",
@@ -1172,12 +1172,12 @@
     "御定全唐詩/json/867.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "dS用秘功，以嶺以穴",
-          "corrected": null,
-          "note": "原陵老翁《原陵老翁吟》(no#3): 'dS' in 'dS用秘功，以嶺以穴'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition."
+          "corrected": "𭰴用秘功，以嶺以穴",
+          "note": "原陵老翁《原陵老翁吟》(no#3): 'dS' in 'dS用秘功，以嶺以穴'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "研動。袾袾哳哳。dS用秘功，以嶺以穴",
@@ -1195,27 +1195,27 @@
     "御定全唐詩/json/869.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "瓦惡頻蒙cv，牆虛屢被叉",
-          "corrected": null,
-          "note": "竇昉《嘲許子儒》(no#11): 'cv' in '瓦惡頻蒙cv，牆虛屢被叉'. ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+          "corrected": "瓦惡頻蒙𢸗，牆虛屢被叉",
+          "note": "竇昉《嘲許子儒》(no#11): 'cv' in '瓦惡頻蒙cv，牆虛屢被叉'. ASCII placeholder code (two lowercase letters). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "騎豬向南r2",
-          "corrected": null,
-          "note": "張元一《嘲武懿宗》(no#16): 'r2' in '騎豬向南r2'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+          "corrected": "騎豬向南𧾩",
+          "note": "張元一《嘲武懿宗》(no#16): 'r2' in '騎豬向南r2'. ASCII placeholder code (letter + digit). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "倒地還如著腳z2",
-          "corrected": null,
-          "note": "邵景《嘲韋鏗》(no#42): 'z2' in '倒地還如著腳z2'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+          "corrected": "倒地還如著腳䭔",
+          "note": "邵景《嘲韋鏗》(no#42): 'z2' in '倒地還如著腳z2'. ASCII placeholder code (letter + digit). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "fk鏤銀盤盛蛤蜊",
-          "corrected": null,
-          "note": "賀知章《答朝士》(no#49) and 顧況《和知章詩》(no#50): 'fk' at start of line '鏤銀盤盛蛤蜊'/'鏤銀盤盛炒蝦'. ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+          "corrected": "鈒鏤銀盤盛蛤蜊",
+          "note": "賀知章《答朝士》(no#49) and 顧況《和知章詩》(no#50): 'fk' at start of line '鏤銀盤盛蛤蜊'/'鏤銀盤盛炒蝦'. ASCII placeholder code (two lowercase letters). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "瓦惡頻蒙cv",
@@ -1247,17 +1247,17 @@
     "御定全唐詩/json/870.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "陳鶡z2鑼古ie頭",
-          "corrected": null,
-          "note": "李日新《題仙娥驛》(no#40): 'z2' and 'ie' in '陳鶡z2鑼古ie頭'. Two ASCII placeholder codes in the same line. Requires verification against physical edition."
+          "corrected": "陳鶡䭔鑼古䭃頭",
+          "note": "李日新《題仙娥驛》(no#40): 'z2' and 'ie' in '陳鶡z2鑼古ie頭'. Two ASCII placeholder codes in the same line. Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "zh挑筋斗太嘍羅",
-          "corrected": null,
-          "note": "李貞白《詠狗蚤》(no#66): 'zh' in 'zh挑筋斗太嘍羅'. ASCII placeholder code (two lowercase letters). Requires verification against physical edition."
+          "corrected": "㩧挑筋斗太嘍羅",
+          "note": "李貞白《詠狗蚤》(no#66): 'zh' in 'zh挑筋斗太嘍羅'. ASCII placeholder code (two lowercase letters). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "悠，陳鶡z2鑼古ie頭。",
@@ -1309,12 +1309,12 @@
     "御定全唐詩/json/876.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "竇僕射，前為韋氏國yQ，後作公主邑丞",
-          "corrected": null,
-          "note": "no#24 《竇僕射語》: 'yQ' in '竇僕射，前為韋氏國yQ，後作公主邑丞'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition."
+          "corrected": "竇僕射，前為韋氏國㸙，後作公主邑丞",
+          "note": "no#24 《竇僕射語》: 'yQ' in '竇僕射，前為韋氏國yQ，後作公主邑丞'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "僕射，前為韋氏國yQ，後作公主邑丞。",
@@ -1326,12 +1326,12 @@
     "御定全唐詩/json/877.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "長沙益陽，一時相b3",
-          "corrected": null,
-          "note": "no#27 《益陽諺》: 'b3' in '長沙益陽，一時相b3'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+          "corrected": "長沙益陽，一時相卬",
+          "note": "no#27 《益陽諺》: 'b3' in '長沙益陽，一時相b3'. ASCII placeholder code (letter + digit). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "一時相b3",
@@ -1522,12 +1522,12 @@
     "御定全唐詩/json/888.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "絕地窮gK岈，造天究盤礴",
-          "corrected": null,
-          "note": "no#13 吳筠《遊倚帝山二首》: 'gK' in '絕地窮gK岈'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition."
+          "corrected": "絕地窮㟏岈，造天究盤礴",
+          "note": "no#13 吳筠《遊倚帝山二首》: 'gK' in '絕地窮gK岈'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "絕地窮gK岈",
@@ -1545,12 +1545,12 @@
     "御定全唐詩/json/890.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "打得來來越z4",
-          "corrected": null,
-          "note": "no#27 白居易《如夢令》: 'z4' in '打得來來越z4'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+          "corrected": "打得來來越曬",
+          "note": "no#27 白居易《如夢令》: 'z4' in '打得來來越z4'. ASCII placeholder code (letter + digit). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "打得來來越z4",
@@ -1566,8 +1566,8 @@
       "fixes": [
         {
           "original": "翠鳳寶釵垂s4zy",
-          "corrected": null,
-          "note": "no#17 溫庭筠《歸國遙》: 's4zy' in '翠鳳寶釵垂s4zy'. Also appears in no#18 《菩薩蠻》: '繡簾垂s4zy'. Unusual 4-character placeholder code (possibly two adjacent codes 's4'+'zy' or a single 4-char code). Requires verification against physical edition."
+          "corrected": "翠鳳寶釵垂𦋏𦌊",
+          "note": "no#17 溫庭筠《歸國遙》: 's4zy' in '翠鳳寶釵垂s4zy'. Also appears in no#18 《菩薩蠻》: '繡簾垂s4zy'. Unusual 4-character placeholder code (possibly two adjacent codes 's4'+'zy' or a single 4-char code). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv; corrected text verified present in file"
         },
         {
           "original": "張曙2",
@@ -1613,12 +1613,12 @@
     "御定全唐詩/json/885.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "溫r3終有思",
-          "corrected": null,
-          "note": "no#23 唐彥謙《紫薇花》: 'r3' in '溫r3終有思，暗淡豈無輝'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+          "corrected": "溫𥂓終有思",
+          "note": "no#23 唐彥謙《紫薇花》: 'r3' in '溫r3終有思，暗淡豈無輝'. ASCII placeholder code (letter + digit). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "溫r3終有思，暗淡豈無",
@@ -1630,12 +1630,12 @@
     "御定全唐詩/json/886.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "紅bW著霜樹",
-          "corrected": null,
-          "note": "no#20 孫魴《題梅嶺泉》: 'bW' in '紅bW著霜樹，香老臥池邊'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition."
+          "corrected": "紅黰著霜樹",
+          "note": "no#20 孫魴《題梅嶺泉》: 'bW' in '紅bW著霜樹，香老臥池邊'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition. | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "紅bW著霜樹",
@@ -1710,12 +1710,12 @@
     "御定全唐詩/json/882.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "講藝遵先fN",
-          "corrected": null,
-          "note": "no#5 許敬宗《奉和九月九日應制》: 'fN' in '講藝遵先fN'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition. (□ chars in no#18 and no#23 are intentional classical database placeholders.)"
+          "corrected": "講藝遵先𮜿",
+          "note": "no#5 許敬宗《奉和九月九日應制》: 'fN' in '講藝遵先fN'. ASCII placeholder code (lowercase + uppercase letter). Requires verification against physical edition. (□ chars in no#18 and no#23 are intentional classical database placeholders.) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "講藝遵先fN",
@@ -1863,12 +1863,12 @@
     "御定全唐詩/json/263.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "惟將白接z5",
-          "corrected": null,
-          "note": "needs_review: 'z5' appears to be a bare ASCII placeholder for a rare/unencoded character in 嚴維《贈送朱放》no.18; context 白接z5 (clothing item?); cannot determine correct char without authoritative source"
+          "corrected": "惟將白接䍦",
+          "note": "needs_review: 'z5' appears to be a bare ASCII placeholder for a rare/unencoded character in 嚴維《贈送朱放》no.18; context 白接z5 (clothing item?); cannot determine correct char without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "惟將白接z5",
@@ -1956,12 +1956,12 @@
     "御定全唐詩/json/272.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "每慚蘋藻用，多謝vK蘭榮。",
-          "corrected": null,
-          "note": "needs_review: 'vK' appears to be a bare ASCII placeholder for a rare/unencoded character; in 於結《賦得生芻一束》no.12; cannot determine correct character without authoritative source"
+          "corrected": "每慚蘋藻用，多謝𦶜蘭榮。",
+          "note": "needs_review: 'vK' appears to be a bare ASCII placeholder for a rare/unencoded character; in 於結《賦得生芻一束》no.12; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "多謝vK蘭榮",
@@ -2134,12 +2134,12 @@
     "御定全唐詩/json/297.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "暗池光冪zx，密樹花葳蕤。",
-          "corrected": null,
-          "note": "needs_review: 'zx' appears to be a bare ASCII placeholder for a rare/unencoded character; in 王建《早起》; context is morning light on a dark pond (暗池光冪___); cannot determine correct character without authoritative source"
+          "corrected": "暗池光冪䍥，密樹花葳蕤。",
+          "note": "needs_review: 'zx' appears to be a bare ASCII placeholder for a rare/unencoded character; in 王建《早起》; context is morning light on a dark pond (暗池光冪___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "暗池光冪zx",
@@ -2155,8 +2155,8 @@
       "fixes": [
         {
           "original": "雛出ob。",
-          "corrected": null,
-          "note": "needs_review: 'ob' appears to be a bare ASCII placeholder for a rare/unencoded character; in 王建《雉將雛》; context is chicks hatching (雉咿喔，雛出___); cannot determine correct character without authoritative source"
+          "corrected": "雛出㲉。",
+          "note": "needs_review: 'ob' appears to be a bare ASCII placeholder for a rare/unencoded character; in 王建《雉將雛》; context is chicks hatching (雉咿喔，雛出___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "嗟嗟eP々下堂階，獨自灶前來跪拜。",
@@ -2190,12 +2190,12 @@
     "御定全唐詩/json/301.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "聞晴z4曝舊芳茵。",
-          "corrected": null,
-          "note": "needs_review: 'z4' appears to be a bare ASCII placeholder for a rare/unencoded character; in 王建《秋日後》; context is going out on a sunny day to air old fragrant mats; cannot determine correct character without authoritative source"
+          "corrected": "聞晴曬曝舊芳茵。",
+          "note": "needs_review: 'z4' appears to be a bare ASCII placeholder for a rare/unencoded character; in 王建《秋日後》; context is going out on a sunny day to air old fragrant mats; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "聞晴z4曝舊芳茵",
@@ -2237,17 +2237,17 @@
     "御定全唐詩/json/307.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "紅蟹大如l4。",
-          "corrected": null,
-          "note": "needs_review: 'l4' appears to be a bare ASCII placeholder for a rare/unencoded character; in 丘丹《狀江南：季冬》; context is size comparison for red crabs (紅蟹大如___); cannot determine correct character without authoritative source"
+          "corrected": "紅蟹大如𤬊。",
+          "note": "needs_review: 'l4' appears to be a bare ASCII placeholder for a rare/unencoded character; in 丘丹《狀江南：季冬》; context is size comparison for red crabs (紅蟹大如___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "嵯rU滿山響，坐覺炎氛變。",
-          "corrected": null,
-          "note": "needs_review: 'rU' appears to be a bare ASCII placeholder for a rare/unencoded character; in 丘丹《奉使過石門觀瀑》; context suggests 嵯峨 compound (嵯___ 満山響) but cannot confirm without authoritative source"
+          "corrected": "嵯𤄓滿山響，坐覺炎氛變。",
+          "note": "needs_review: 'rU' appears to be a bare ASCII placeholder for a rare/unencoded character; in 丘丹《奉使過石門觀瀑》; context suggests 嵯峨 compound (嵯___ 満山響) but cannot confirm without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "紅蟹大如l4",
@@ -2276,27 +2276,27 @@
     "御定全唐詩/json/310.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "升堂戴接z5。",
-          "corrected": null,
-          "note": "needs_review: 'z5' is a recurring bare ASCII placeholder in this dataset; in 於鵠《夜會李太守宅》; context is a headwear/hat item (接___); same placeholder seen in 263.json"
+          "corrected": "升堂戴接䍦。",
+          "note": "needs_review: 'z5' is a recurring bare ASCII placeholder in this dataset; in 於鵠《夜會李太守宅》; context is a headwear/hat item (接___); same placeholder seen in 263.json | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "應閑白接z5。",
-          "corrected": null,
-          "note": "needs_review: 'z5' placeholder again; in 於鵠《途中寄楊涉》; 白接___ is likely a type of hat; same as above"
+          "corrected": "應閑白接䍦。",
+          "note": "needs_review: 'z5' placeholder again; in 於鵠《途中寄楊涉》; 白接___ is likely a type of hat; same as above | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "放石試淺深，eg壁蛇鳥驚。",
-          "corrected": null,
-          "note": "needs_review: 'eg' appears to be a bare ASCII placeholder; in 于鵠《早上淩霄第六峰》; context suggests cliff/rock wall (___壁); cannot determine correct character without authoritative source"
+          "corrected": "放石試淺深，䃂壁蛇鳥驚。",
+          "note": "needs_review: 'eg' appears to be a bare ASCII placeholder; in 于鵠《早上淩霄第六峰》; context suggests cliff/rock wall (___壁); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "gS牙斷行處，光滑猿猱跡。",
-          "corrected": null,
-          "note": "needs_review: 'gS' appears to be a bare ASCII placeholder; in 於鵠《山中訪道者》; context suggests rocky terrain (___牙斷行處); cannot determine correct character without authoritative source"
+          "corrected": "㰹牙斷行處，光滑猿猱跡。",
+          "note": "needs_review: 'gS' appears to be a bare ASCII placeholder; in 於鵠《山中訪道者》; context suggests rocky terrain (___牙斷行處); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "升堂戴接z5",
@@ -2395,12 +2395,12 @@
     "御定全唐詩/json/323.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "豐年系鎡dQ。",
-          "corrected": null,
-          "note": "needs_review: 'dQ' appears to be a bare ASCII placeholder; in 權德輿《送別沅泛》; 鎡___ likely a farming tool compound (鎡is a hoe); cannot determine second character without authoritative source"
+          "corrected": "豐年系鎡䥓。",
+          "note": "needs_review: 'dQ' appears to be a bare ASCII placeholder; in 權德輿《送別沅泛》; 鎡___ likely a farming tool compound (鎡is a hoe); cannot determine second character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "起足下，豐年系鎡dQ。苟令志氣堅，佇",
@@ -2430,12 +2430,12 @@
     "御定全唐詩/json/327.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "從龍開ek路，合璧向方中。",
-          "corrected": null,
-          "note": "needs_review: 'ek' appears to be a bare ASCII placeholder; in 權德輿《大行皇太后挽歌詞三首》; context is funeral elegy (從龍開___路); cannot determine correct character without authoritative source"
+          "corrected": "從龍開𡑞路，合璧向方中。",
+          "note": "needs_review: 'ek' appears to be a bare ASCII placeholder; in 權德輿《大行皇太后挽歌詞三首》; context is funeral elegy (從龍開___路); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "山祔禮崇。從龍開ek路，合璧向方中。",
@@ -2447,17 +2447,17 @@
     "御定全唐詩/json/328.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "香黛宜fT綠。",
-          "corrected": null,
-          "note": "needs_review: 'fT' appears to be a bare ASCII placeholder; in 權德輿《雜詩五首》; context is cosmetics description (香黛宜___綠); same placeholder appears in next poem"
+          "corrected": "香黛宜𥊑綠。",
+          "note": "needs_review: 'fT' appears to be a bare ASCII placeholder; in 權德輿《雜詩五首》; context is cosmetics description (香黛宜___綠); same placeholder appears in next poem | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "fT睇呈巧笑，惠音激淒清。",
-          "corrected": null,
-          "note": "needs_review: 'fT' placeholder again; in 權德輿《古意》; context is a charming glance (___睇呈巧笑); same character as above likely"
+          "corrected": "𥊑睇呈巧笑，惠音激淒清。",
+          "note": "needs_review: 'fT' placeholder again; in 權德輿《古意》; context is a charming glance (___睇呈巧笑); same character as above likely | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "香黛宜fT綠",
@@ -2502,8 +2502,8 @@
       "fixes": [
         {
           "original": "歡味膻腥列，征聲by僸攢。",
-          "corrected": null,
-          "note": "needs_review: 'by' bare ASCII placeholder; in 楊巨源《和呂舍人喜張員外自北番回至境上》; cannot determine correct character without authoritative source"
+          "corrected": "歡味膻腥列，征聲𣤮僸攢。",
+          "note": "needs_review: 'by' bare ASCII placeholder; in 楊巨源《和呂舍人喜張員外自北番回至境上》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "叔侄朱門rV槊連。",
@@ -2541,13 +2541,13 @@
       "fixes": [
         {
           "original": "後鈍嗔bz譳。",
-          "corrected": null,
-          "note": "needs_review: 'bz' bare ASCII placeholder; in 韓愈《南山詩》; cannot determine correct character without authoritative source"
+          "corrected": "後鈍嗔䛠譳。",
+          "note": "needs_review: 'bz' bare ASCII placeholder; in 韓愈《南山詩》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "或揭若bB豆。",
-          "corrected": null,
-          "note": "needs_review: 'bB' bare ASCII placeholder; in 韓愈《南山詩》; cannot determine correct character without authoritative source"
+          "corrected": "或揭若㽅豆。",
+          "note": "needs_review: 'bB' bare ASCII placeholder; in 韓愈《南山詩》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "k7々屋摧溜。",
@@ -2569,17 +2569,17 @@
     "御定全唐詩/json/337.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "恩澤完vr狘。",
-          "corrected": null,
-          "note": "needs_review: 'vr' bare ASCII placeholder; in 韓愈《送文暢師北遊》; cannot determine correct character without authoritative source"
+          "corrected": "恩澤完䎉狘。",
+          "note": "needs_review: 'vr' bare ASCII placeholder; in 韓愈《送文暢師北遊》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "交驚舌互bc。",
-          "corrected": null,
-          "note": "needs_review: 'bc' bare ASCII placeholder; in 韓愈《喜侯喜至贈張籍張徹》; cannot determine correct character without authoritative source"
+          "corrected": "交驚舌互舚。",
+          "note": "needs_review: 'bc' bare ASCII placeholder; in 韓愈《喜侯喜至贈張籍張徹》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "交驚舌互bc",
@@ -2611,8 +2611,8 @@
         },
         {
           "original": "電光ze磹赬目fu，",
-          "corrected": null,
-          "note": "needs_review: 'ze' and 'fu' bare ASCII placeholders (two in one line); in 韓愈《陸渾山火和皇甫湜用其韻》; cannot determine correct characters without authoritative source"
+          "corrected": "電光䃸磹赬目䁔，",
+          "note": "needs_review: 'ze' and 'fu' bare ASCII placeholders (two in one line); in 韓愈《陸渾山火和皇甫湜用其韻》; cannot determine correct characters without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "fI池波風肉陵屯",
@@ -2626,8 +2626,8 @@
         },
         {
           "original": "，電光ze磹赬目fu，頊冥收威避玄根",
-          "corrected": null,
-          "note": "needs_review: crawl residue \"fu\"; no matching passage found on 识典古籍"
+          "corrected": "，電光䃸磹赬目䁔，頊冥收威避玄根",
+          "note": "needs_review: crawl residue \"fu\"; no matching passage found on 识典古籍 | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "齒牙嚼齧舌齶反，電光䃸磹赬目fu，頊冥收威避玄根，",
@@ -2639,17 +2639,17 @@
     "御定全唐詩/json/340.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "舉室常bC頷。",
-          "corrected": null,
-          "note": "needs_review: 'bC' bare ASCII placeholder; in 韓愈《送無本師歸范陽》; cannot determine correct character without authoritative source"
+          "corrected": "舉室常顑頷。",
+          "note": "needs_review: 'bC' bare ASCII placeholder; in 韓愈《送無本師歸范陽》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "詎可陵崆uu。",
-          "corrected": null,
-          "note": "needs_review: 'uu' bare ASCII placeholder; in 韓愈《病中贈張十八》; context suggests 崆峒 compound (崆___); cannot determine correct character without authoritative source"
+          "corrected": "詎可陵崆㟅。",
+          "note": "needs_review: 'uu' bare ASCII placeholder; in 韓愈《病中贈張十八》; context suggests 崆峒 compound (崆___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "舉室常bC頷",
@@ -2666,12 +2666,12 @@
     "御定全唐詩/json/341.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "bd大瓶罌小，所任自有宜。",
-          "corrected": null,
-          "note": "needs_review: 'bd' bare ASCII placeholder; in 韓愈《瀧吏》; cannot determine correct character without authoritative source"
+          "corrected": "㼚大瓶罌小，所任自有宜。",
+          "note": "needs_review: 'bd' bare ASCII placeholder; in 韓愈《瀧吏》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "bd大瓶罌小，所任自",
@@ -2687,8 +2687,8 @@
       "fixes": [
         {
           "original": "雷霆逼颶f2。",
-          "corrected": null,
-          "note": "needs_review: 'f2' bare ASCII placeholder; in 韓愈《山南鄭相公樊員外酬答》; cannot determine correct character without authoritative source"
+          "corrected": "雷霆逼颶䫻。",
+          "note": "needs_review: 'f2' bare ASCII placeholder; in 韓愈《山南鄭相公樊員外酬答》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "我亦平行蹋y槱e，",
@@ -2715,12 +2715,12 @@
     "御定全唐詩/json/343.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "高愁cN鬥魁。",
-          "corrected": null,
-          "note": "needs_review: 'cN' bare ASCII placeholder; in 韓愈《詠雪贈張籍》; cannot determine correct character without authoritative source"
+          "corrected": "高愁㨖鬥魁。",
+          "note": "needs_review: 'cN' bare ASCII placeholder; in 韓愈《詠雪贈張籍》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "厚慮填溟壑，高愁cN鬥魁。日輪埋欲側",
@@ -2738,12 +2738,12 @@
     "御定全唐詩/json/345.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "草木森苯mH。",
-          "corrected": null,
-          "note": "needs_review: 'mH' bare ASCII placeholder; in 韓愈《嘲鼾睡》; cannot determine correct character without authoritative source"
+          "corrected": "草木森苯䔿。",
+          "note": "needs_review: 'mH' bare ASCII placeholder; in 韓愈《嘲鼾睡》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "草木森苯mH",
@@ -2794,13 +2794,13 @@
       "fixes": [
         {
           "original": "屈rH猛，虔栗栗。",
-          "corrected": null,
-          "note": "needs_review: 'rH' bare ASCII placeholder; in 柳宗元《唐鐃歌鼓吹曲》第二; cannot determine correct character without authoritative source"
+          "corrected": "屈𧹁猛，虔栗栗。",
+          "note": "needs_review: 'rH' bare ASCII placeholder; in 柳宗元《唐鐃歌鼓吹曲》第二; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "命之vG，卑以斫。",
-          "corrected": null,
-          "note": "needs_review: 'vG' bare ASCII placeholder; in 柳宗元《唐鐃歌鼓吹曲》第三; cannot determine correct character without authoritative source"
+          "corrected": "命之瞢，卑以斫。",
+          "note": "needs_review: 'vG' bare ASCII placeholder; in 柳宗元《唐鐃歌鼓吹曲》第三; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "苞枿ba矣，惟恨之蟠。",
@@ -2827,32 +2827,32 @@
     "御定全唐詩/json/351.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "禮容垂gb琫，戍備響錏鍜。",
-          "corrected": null,
-          "note": "needs_review: 'gb' bare ASCII placeholder; in 柳宗元《同劉二十八院長述舊言懷感時書事》; cannot determine correct character without authoritative source"
+          "corrected": "禮容垂珌琫，戍備響錏鍜。",
+          "note": "needs_review: 'gb' bare ASCII placeholder; in 柳宗元《同劉二十八院長述舊言懷感時書事》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "林宿鳥為ff。",
-          "corrected": null,
-          "note": "needs_review: 'ff' bare ASCII placeholder; in 柳宗元《同劉二十八院長述舊言懷感時書事》; cannot determine correct character without authoritative source"
+          "corrected": "林宿鳥為𣩈。",
+          "note": "needs_review: 'ff' bare ASCII placeholder; in 柳宗元《同劉二十八院長述舊言懷感時書事》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "明心欲自gn。",
-          "corrected": null,
-          "note": "needs_review: 'gn' bare ASCII placeholder; in 柳宗元《同劉二十八院長述舊言懷感時書事》; cannot determine correct character without authoritative source"
+          "corrected": "明心欲自𠜲。",
+          "note": "needs_review: 'gn' bare ASCII placeholder; in 柳宗元《同劉二十八院長述舊言懷感時書事》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "虞童發未sG。秉心方的的，騰口任es々。",
-          "corrected": null,
-          "note": "needs_review: 'sG' and 'es々' bare ASCII placeholders (two in one paragraph); in 柳宗元《酬韶州裴曹長使君》; cannot determine correct characters without authoritative source"
+          "corrected": "虞童發未䰉。秉心方的的，騰口任㘖々。",
+          "note": "needs_review: 'sG' and 'es々' bare ASCII placeholders (two in one paragraph); in 柳宗元《酬韶州裴曹長使君》; cannot determine correct characters without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "殘肌觸瘴m5。",
-          "corrected": null,
-          "note": "needs_review: 'm5' bare ASCII placeholder; in 柳宗元《酬韶州裴曹長使君》; cannot determine correct character without authoritative source"
+          "corrected": "殘肌觸瘴𤸷。",
+          "note": "needs_review: 'm5' bare ASCII placeholder; in 柳宗元《酬韶州裴曹長使君》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "禮容垂gb琫",
@@ -2906,12 +2906,12 @@
     "御定全唐詩/json/353.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "pL斯起蒿萊。",
-          "corrected": null,
-          "note": "needs_review: 'pL' bare ASCII placeholder; in 柳宗元《感遇二首》; cannot determine correct character without authoritative source"
+          "corrected": "鸒斯起蒿萊。",
+          "note": "needs_review: 'pL' bare ASCII placeholder; in 柳宗元《感遇二首》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "pL斯起蒿萊",
@@ -3013,12 +3013,12 @@
     "御定全唐詩/json/369.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "危樓倚天門，如m6星辰宮。",
-          "corrected": null,
-          "note": "needs_review: 'm6' bare ASCII placeholder; in 樊宗師《蜀綿州越王樓詩》; context is tower reaching the heavens (如___星辰宮); cannot determine correct character without authoritative source"
+          "corrected": "危樓倚天門，如𨶻星辰宮。",
+          "note": "needs_review: 'm6' bare ASCII placeholder; in 樊宗師《蜀綿州越王樓詩》; context is tower reaching the heavens (如___星辰宮); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "如m6星辰宮",
@@ -3059,12 +3059,12 @@
     "御定全唐詩/json/374.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "何人免噓eS。",
-          "corrected": null,
-          "note": "needs_review: 'eS' bare ASCII placeholder; in 孟郊《病客吟》; context is sighing/moaning in illness (何人免噓___); cannot determine correct character without authoritative source"
+          "corrected": "何人免噓𠾬。",
+          "note": "needs_review: 'eS' bare ASCII placeholder; in 孟郊《病客吟》; context is sighing/moaning in illness (何人免噓___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "何人免噓eS",
@@ -3111,12 +3111,12 @@
     "御定全唐詩/json/379.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "聚書雲霮zw，",
-          "corrected": null,
-          "note": "needs_review: 'zw' bare ASCII placeholder; in 孟郊《送草書獻上人歸廬山》; context is gathering books under cloudy/dark skies (雲霮___); cannot determine correct character without authoritative source"
+          "corrected": "聚書雲霮䨴，",
+          "note": "needs_review: 'zw' bare ASCII placeholder; in 孟郊《送草書獻上人歸廬山》; context is gathering books under cloudy/dark skies (雲霮___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "聚書雲霮zw",
@@ -3134,12 +3134,12 @@
     "御定全唐詩/json/381.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "踔ez猿相過。",
-          "corrected": null,
-          "note": "needs_review: 'ez' bare ASCII placeholder; in 孟郊《峽哀》; context is monkeys leaping (踔___猿相過); cannot determine correct character without authoritative source"
+          "corrected": "踔𨃚猿相過。",
+          "note": "needs_review: 'ez' bare ASCII placeholder; in 孟郊《峽哀》; context is monkeys leaping (踔___猿相過); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "踔ez猿相過",
@@ -3175,12 +3175,12 @@
     "御定全唐詩/json/386.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "女郎相喚擺階o3。",
-          "corrected": null,
-          "note": "needs_review: 'o3' bare ASCII placeholder; in 張籍《寒食》; context is women dancing/playing at steps (擺階___); cannot determine correct character without authoritative source"
+          "corrected": "女郎相喚擺階𤺩。",
+          "note": "needs_review: 'o3' bare ASCII placeholder; in 張籍《寒食》; context is women dancing/playing at steps (擺階___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "女郎相喚擺階o3",
@@ -3210,12 +3210,12 @@
     "御定全唐詩/json/390.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "挼絲團金懸bAzy，",
-          "corrected": null,
-          "note": "needs_review: 'bAzy' bare ASCII placeholder (4 chars); in 李賀《春坊正字劍子歌》; cannot determine correct character(s) without authoritative source"
+          "corrected": "挼絲團金懸䍡𦌊，",
+          "note": "needs_review: 'bAzy' bare ASCII placeholder (4 chars); in 李賀《春坊正字劍子歌》; cannot determine correct character(s) without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv; corrected text verified present in file"
         },
         {
           "original": "坊字。挼絲團金懸bAzy，",
@@ -3227,12 +3227,12 @@
     "御定全唐詩/json/391.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "象口吹香毾bG暖，",
-          "corrected": null,
-          "note": "needs_review: 'bG' bare ASCII placeholder; in 李賀《宮娃歌》; context is a fragrant carpet (毾___) blown by elephant-shaped incense burner; cannot determine correct character without authoritative source"
+          "corrected": "象口吹香毾㲪暖，",
+          "note": "needs_review: 'bG' bare ASCII placeholder; in 李賀《宮娃歌》; context is a fragrant carpet (毾___) blown by elephant-shaped incense burner; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "守宮。象口吹香毾bG暖，",
@@ -3254,8 +3254,8 @@
       "fixes": [
         {
           "original": "妝成pE鬌欹不斜，",
-          "corrected": null,
-          "note": "needs_review: 'pE' recurring bare ASCII placeholder (also seen in 264.json); in 李賀《美人梳頭歌》; context is hair styling (妝成___鬌); cannot determine correct character without authoritative source"
+          "corrected": "妝成䰀鬌欹不斜，",
+          "note": "needs_review: 'pE' recurring bare ASCII placeholder (also seen in 264.json); in 李賀《美人梳頭歌》; context is hair styling (妝成___鬌); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "玉挽鳴qX轔。",
@@ -3277,12 +3277,12 @@
     "御定全唐詩/json/394.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "zv蒙梨花滿，",
-          "corrected": null,
-          "note": "needs_review: 'zv' bare ASCII placeholder; in 李賀《感諷六首》; cannot determine correct character without authoritative source"
+          "corrected": "䒠蒙梨花滿，",
+          "note": "needs_review: 'zv' bare ASCII placeholder; in 李賀《感諷六首》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "zv蒙梨花滿",
@@ -3294,12 +3294,12 @@
     "御定全唐詩/json/395.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "未聞eK孽苦蒼生，",
-          "corrected": null,
-          "note": "needs_review: 'eK' bare ASCII placeholder; in 劉叉《雪車》; cannot determine correct character without authoritative source"
+          "corrected": "未聞𭐁孽苦蒼生，",
+          "note": "needs_review: 'eK' bare ASCII placeholder; in 劉叉《雪車》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "未聞eK孽苦蒼生，相群相",
@@ -3311,12 +3311,12 @@
     "御定全唐詩/json/396.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "音聲甚eT嗗，",
-          "corrected": null,
-          "note": "needs_review: 'eT' bare ASCII placeholder; in 元稹《大觜烏》; cannot determine correct character without authoritative source"
+          "corrected": "音聲甚㕭嗗，",
+          "note": "needs_review: 'eT' bare ASCII placeholder; in 元稹《大觜烏》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "音聲甚eT嗗，潛通妖怪詞。",
@@ -3334,12 +3334,12 @@
     "御定全唐詩/json/398.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "z8々刀刃光，彎彎弓面張。",
-          "corrected": null,
-          "note": "needs_review: 'z8々' bare ASCII placeholder with 々 repetition mark; in 元稹《遣興十首》; context is weapons (刀刃光，弓面張); cannot determine correct character without authoritative source"
+          "corrected": "㸌々刀刃光，彎彎弓面張。",
+          "note": "needs_review: 'z8々' bare ASCII placeholder with 々 repetition mark; in 元稹《遣興十首》; context is weapons (刀刃光，弓面張); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "z8々刀刃光",
@@ -3351,12 +3351,12 @@
     "御定全唐詩/json/399.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "敢憚榱dw蠹，",
-          "corrected": null,
-          "note": "needs_review: 'dw' bare ASCII placeholder; in 元稹《蟲豸詩：蟻子》; context is rafters being eaten by insects (榱___蠹); cannot determine correct character without authoritative source"
+          "corrected": "敢憚榱𣡵蠹，",
+          "note": "needs_review: 'dw' bare ASCII placeholder; in 元稹《蟲豸詩：蟻子》; context is rafters being eaten by insects (榱___蠹); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "敢憚榱dw蠹",
@@ -3368,17 +3368,17 @@
     "御定全唐詩/json/400.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "鷂子繡線oT，",
-          "corrected": null,
-          "note": "needs_review: 'oT' bare ASCII placeholder; in 元稹《台中鞫獄憶開元觀舊事》; cannot determine correct character without authoritative source"
+          "corrected": "鷂子繡線𩏪，",
+          "note": "needs_review: 'oT' bare ASCII placeholder; in 元稹《台中鞫獄憶開元觀舊事》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "寒臥支體m5。",
-          "corrected": null,
-          "note": "needs_review: 'm5' recurring bare ASCII placeholder (also seen in 351.json); in 元稹《台中鞫獄憶開元觀舊事》; cannot determine correct character without authoritative source"
+          "corrected": "寒臥支體𤸷。",
+          "note": "needs_review: 'm5' recurring bare ASCII placeholder (also seen in 351.json); in 元稹《台中鞫獄憶開元觀舊事》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "鷂子繡線oT",
@@ -3395,12 +3395,12 @@
     "御定全唐詩/json/401.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "酒聲頻cH々。",
-          "corrected": null,
-          "note": "needs_review: 'cH々' bare ASCII placeholder with 々 repetition mark; in 元稹《寄吳士矩端公五十韻》; cannot determine correct character without authoritative source"
+          "corrected": "酒聲頻䬵々。",
+          "note": "needs_review: 'cH々' bare ASCII placeholder with 々 repetition mark; in 元稹《寄吳士矩端公五十韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "眼漸紛紛，酒聲頻cH々。",
@@ -3418,12 +3418,12 @@
     "御定全唐詩/json/403.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "轀fm轉城闉。",
-          "corrected": null,
-          "note": "needs_review: 'fm' bare ASCII placeholder; in 元稹《順宗至德大聖大安孝皇帝挽歌詞三首》; context is a funeral hearse (轀___轉城闉); cannot determine correct character without authoritative source"
+          "corrected": "轀輼轉城闉。",
+          "note": "needs_review: 'fm' bare ASCII placeholder; in 元稹《順宗至德大聖大安孝皇帝挽歌詞三首》; context is a funeral hearse (轀___轉城闉); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "。羽儀經巷內，轀fm轉城闉。",
@@ -3441,32 +3441,32 @@
     "御定全唐詩/json/405.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "弓弦尚鹿fc。紫絛牽白犬，繡bi被花駰。",
-          "corrected": null,
-          "note": "needs_review: 'fc' and 'bi' bare ASCII placeholders (two in one paragraph); in 元稹《代曲江老人百韻》; cannot determine correct characters without authoritative source"
+          "corrected": "弓弦尚鹿𦟘。紫絛牽白犬，繡䪜被花駰。",
+          "note": "needs_review: 'fc' and 'bi' bare ASCII placeholders (two in one paragraph); in 元稹《代曲江老人百韻》; cannot determine correct characters without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "鷹擒東郭su。",
-          "corrected": null,
-          "note": "needs_review: 'su' bare ASCII placeholder; in 元稹《代曲江老人百韻》; cannot determine correct character without authoritative source"
+          "corrected": "鷹擒東郭㕙。",
+          "note": "needs_review: 'su' bare ASCII placeholder; in 元稹《代曲江老人百韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "暴卒已sJ々。",
-          "corrected": null,
-          "note": "needs_review: 'sJ々' bare ASCII placeholder with 々; in 元稹《代曲江老人百韻》; cannot determine correct character without authoritative source"
+          "corrected": "暴卒已䖜々。",
+          "note": "needs_review: 'sJ々' bare ASCII placeholder with 々; in 元稹《代曲江老人百韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "輕橈蕩小fq。",
-          "corrected": null,
-          "note": "needs_review: 'fq' bare ASCII placeholder; in 元稹《代曲江老人百韻》; context is rowing a small boat (蕩小___); cannot determine correct character without authoritative source"
+          "corrected": "輕橈蕩小䑳。",
+          "note": "needs_review: 'fq' bare ASCII placeholder; in 元稹《代曲江老人百韻》; context is rowing a small boat (蕩小___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "坳窪饒t3矮，",
-          "corrected": null,
-          "note": "needs_review: 't3' recurring bare ASCII placeholder (also in 406.json); in 元稹《酬翰林白學士代書一百韻》; cannot determine correct character without authoritative source"
+          "corrected": "坳窪饒尰矮，",
+          "note": "needs_review: 't3' recurring bare ASCII placeholder (also in 406.json); in 元稹《酬翰林白學士代書一百韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "弓弦尚鹿fc",
@@ -3507,18 +3507,18 @@
       "fixes": [
         {
           "original": "羸馬步殑fF。",
-          "corrected": null,
-          "note": "needs_review: 'fF' bare ASCII placeholder; in 元稹《紀懷，贈李六戶曹》; context is a frail horse struggling (羸馬步殑___); cannot determine correct character without authoritative source"
+          "corrected": "羸馬步殑㱥。",
+          "note": "needs_review: 'fF' bare ASCII placeholder; in 元稹《紀懷，贈李六戶曹》; context is a frail horse struggling (羸馬步殑___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "矮馬駝鬃bi，",
-          "corrected": null,
-          "note": "needs_review: 'bi' recurring bare ASCII placeholder (also in 405.json); in 元稹《答姨兄胡靈之見寄五十韻》; cannot determine correct character without authoritative source"
+          "corrected": "矮馬駝鬃䪜，",
+          "note": "needs_review: 'bi' recurring bare ASCII placeholder (also in 405.json); in 元稹《答姨兄胡靈之見寄五十韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "治t3扶輕仗，",
-          "corrected": null,
-          "note": "needs_review: 't3' recurring bare ASCII placeholder (also in 405.json); in 元稹《痁臥聞幕中諸公征樂會飲》; cannot determine correct character without authoritative source"
+          "corrected": "治尰扶輕仗，",
+          "note": "needs_review: 't3' recurring bare ASCII placeholder (also in 405.json); in 元稹《痁臥聞幕中諸公征樂會飲》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "那複敢崴pN。",
@@ -3550,17 +3550,17 @@
     "御定全唐詩/json/407.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "bJ炙漫塗蘇。",
-          "corrected": null,
-          "note": "needs_review: 'bJ' bare ASCII placeholder; in 元稹《酬樂天東南行詩一百韻》; cannot determine correct character without authoritative source"
+          "corrected": "䶉炙漫塗蘇。",
+          "note": "needs_review: 'bJ' bare ASCII placeholder; in 元稹《酬樂天東南行詩一百韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "破窗塵ej々，",
-          "corrected": null,
-          "note": "needs_review: 'ej々' bare ASCII placeholder with 々; in 元稹《酬樂天東南行詩一百韻》; cannot determine correct character without authoritative source"
+          "corrected": "破窗塵𡋯々，",
+          "note": "needs_review: 'ej々' bare ASCII placeholder with 々; in 元稹《酬樂天東南行詩一百韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "奴。芋羹真暫淡，bJ炙漫塗蘇。",
@@ -3577,17 +3577,17 @@
     "御定全唐詩/json/408.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "倡樓妝z8々，",
-          "corrected": null,
-          "note": "needs_review: 'z8々' recurring placeholder (also in 398.json); in 元稹《春六十韻》; cannot determine correct character without authoritative source"
+          "corrected": "倡樓妝㸌々，",
+          "note": "needs_review: 'z8々' recurring placeholder (also in 398.json); in 元稹《春六十韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "瑞雲低g7々，",
-          "corrected": null,
-          "note": "needs_review: 'g7々' bare ASCII placeholder with 々; in 元稹《春六十韻》; cannot determine correct character without authoritative source"
+          "corrected": "瑞雲低𢈈々，",
+          "note": "needs_review: 'g7々' bare ASCII placeholder with 々; in 元稹《春六十韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "倡樓妝z8々",
@@ -3604,12 +3604,12 @@
     "御定全唐詩/json/409.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "sV鵊柳枝頭。",
-          "corrected": null,
-          "note": "needs_review: 'sV' bare ASCII placeholder; in 元稹《欲曙》; cannot determine correct character without authoritative source"
+          "corrected": "𪄆鵊柳枝頭。",
+          "note": "needs_review: 'sV' bare ASCII placeholder; in 元稹《欲曙》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "鶴媒華表上，sV鵊柳枝頭。不為來",
@@ -3645,12 +3645,12 @@
     "御定全唐詩/json/414.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "後侶逢灘方拽zB，",
-          "corrected": null,
-          "note": "needs_review: 'zB' bare ASCII placeholder; in 元稹《遭風二十韻》; context is hauling a boat (拽___); same placeholder appears in 415.json"
+          "corrected": "後侶逢灘方拽𥮘，",
+          "note": "needs_review: 'zB' bare ASCII placeholder; in 元稹《遭風二十韻》; context is hauling a boat (拽___); same placeholder appears in 415.json | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "後侶逢灘方拽zB",
@@ -3662,12 +3662,12 @@
     "御定全唐詩/json/415.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "船到明灘拽zB遲。",
-          "corrected": null,
-          "note": "needs_review: 'zB' recurring placeholder (also in 414.json); in 元稹《南昌灘》; context is boat hauling (拽___遲); cannot determine correct character without authoritative source"
+          "corrected": "船到明灘拽𥮘遲。",
+          "note": "needs_review: 'zB' recurring placeholder (also in 414.json); in 元稹《南昌灘》; context is boat hauling (拽___遲); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "船到明灘拽zB遲",
@@ -3691,17 +3691,17 @@
     "御定全唐詩/json/418.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "uG秋玉帛積。",
-          "corrected": null,
-          "note": "needs_review: 'uG' bare ASCII placeholder; in 元稹《出門行》; cannot determine correct character without authoritative source"
+          "corrected": "禜秋玉帛積。",
+          "note": "needs_review: 'uG' bare ASCII placeholder; in 元稹《出門行》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "延緣蝕dw櫨，",
-          "corrected": null,
-          "note": "needs_review: 'dw' recurring placeholder (also in 399.json); in 元稹《捉捕歌》; context is gnawing on pillars (蝕___櫨); cannot determine correct character without authoritative source"
+          "corrected": "延緣蝕𣡵櫨，",
+          "note": "needs_review: 'dw' recurring placeholder (also in 399.json); in 元稹《捉捕歌》; context is gnawing on pillars (蝕___櫨); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "uG秋玉帛積",
@@ -3718,17 +3718,17 @@
     "御定全唐詩/json/419.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "雲蠻通好轡長em。",
-          "corrected": null,
-          "note": "needs_review: 'em' bare ASCII placeholder; in 元稹《和李校書新題樂府：蠻子朝》; cannot determine correct character without authoritative source"
+          "corrected": "雲蠻通好轡長駷。",
+          "note": "needs_review: 'em' bare ASCII placeholder; in 元稹《和李校書新題樂府：蠻子朝》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "挑紋變di力倍費，",
-          "corrected": null,
-          "note": "needs_review: 'di' bare ASCII placeholder; in 元稹《和李校書新題樂府：陰山道》; cannot determine correct character without authoritative source"
+          "corrected": "挑紋變䌰力倍費，",
+          "note": "needs_review: 'di' bare ASCII placeholder; in 元稹《和李校書新題樂府：陰山道》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "雲蠻通好轡長em",
@@ -3745,17 +3745,17 @@
     "御定全唐詩/json/420.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "食蛇抱xB天姿惡。",
-          "corrected": null,
-          "note": "needs_review: 'xB' bare ASCII placeholder; in 元稹《有鳥二十章》; cannot determine correct character without authoritative source"
+          "corrected": "食蛇抱礐天姿惡。",
+          "note": "needs_review: 'xB' bare ASCII placeholder; in 元稹《有鳥二十章》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "舌端百囀聲咄eu。",
-          "corrected": null,
-          "note": "needs_review: 'eu' bare ASCII placeholder; in 元稹《有鳥二十章》; cannot determine correct character without authoritative source"
+          "corrected": "舌端百囀聲咄㗌。",
+          "note": "needs_review: 'eu' bare ASCII placeholder; in 元稹《有鳥二十章》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "食蛇抱xB天姿惡",
@@ -3778,12 +3778,12 @@
     "御定全唐詩/json/422.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "玉爪kO朱橘。",
-          "corrected": null,
-          "note": "needs_review: 'kO' bare ASCII placeholder; in 元稹《閨晚》; cannot determine correct character without authoritative source"
+          "corrected": "玉爪剺朱橘。",
+          "note": "needs_review: 'kO' bare ASCII placeholder; in 元稹《閨晚》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "玉爪kO朱橘",
@@ -3846,8 +3846,8 @@
       "fixes": [
         {
           "original": "危石疊四五，pI嵬欹且刓。",
-          "corrected": null,
-          "note": "needs_review: 'pI' bare ASCII placeholder; in 白居易《遊悟真寺詩》; context suggests 巉嵬 or similar (___嵬 = rugged/towering); cannot determine correct character without authoritative source"
+          "corrected": "危石疊四五，𡾋嵬欹且刓。",
+          "note": "needs_review: 'pI' bare ASCII placeholder; in 白居易《遊悟真寺詩》; context suggests 巉嵬 or similar (___嵬 = rugged/towering); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "gf々三面峰，峰尖刀劍攢。",
@@ -3856,8 +3856,8 @@
         },
         {
           "original": "q0p0上不得，豈我能攀援。",
-          "corrected": null,
-          "note": "needs_review: 'q0p0' unusual 4-char bare ASCII placeholder; in 白居易《遊悟真寺詩》; context is reaching the top (___上不得); cannot determine correct character(s) without authoritative source"
+          "corrected": "𪕍䶃上不得，豈我能攀援。",
+          "note": "needs_review: 'q0p0' unusual 4-char bare ASCII placeholder; in 白居易《遊悟真寺詩》; context is reaching the top (___上不得); cannot determine correct character(s) without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv; corrected text verified present in file"
         },
         {
           "original": "pI嵬欹且刓",
@@ -3880,12 +3880,12 @@
     "御定全唐詩/json/431.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "持刀gN密竹，",
-          "corrected": null,
-          "note": "needs_review: 'gN' bare ASCII placeholder; in 白居易《池畔二首》; context is cutting bamboo (持刀___密竹); cannot determine correct character without authoritative source"
+          "corrected": "持刀𠜴密竹，",
+          "note": "needs_review: 'gN' bare ASCII placeholder; in 白居易《池畔二首》; context is cutting bamboo (持刀___密竹); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "持刀gN密竹",
@@ -3909,12 +3909,12 @@
     "御定全唐詩/json/434.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "苒箬竹蔑zB，欹危楫師趾。",
-          "corrected": null,
-          "note": "needs_review: 'zB' recurring placeholder (also in 414.json, 415.json); in 白居易《初入峽有感》; context is bamboo/boating; cannot determine correct character without authoritative source"
+          "corrected": "苒箬竹蔑𥮘，欹危楫師趾。",
+          "note": "needs_review: 'zB' recurring placeholder (also in 414.json, 415.json); in 白居易《初入峽有感》; context is bamboo/boating; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "苒箬竹蔑zB",
@@ -3956,12 +3956,12 @@
     "御定全唐詩/json/440.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "鳥以能言cm，",
-          "corrected": null,
-          "note": "needs_review: 'cm' bare ASCII placeholder; in 白居易《江州赴忠州》; cannot determine correct character without authoritative source"
+          "corrected": "鳥以能言𦃪，",
+          "note": "needs_review: 'cm' bare ASCII placeholder; in 白居易《江州赴忠州》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "鳥以能言cm，龜緣入夢烹。知",
@@ -3973,12 +3973,12 @@
     "御定全唐詩/json/441.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "拔zB暗船來。",
-          "corrected": null,
-          "note": "needs_review: 'zB' recurring placeholder (also in 414.json, 415.json, 434.json); in 白居易《夜入瞿唐峽》; context is pulling boat through rapids; cannot determine correct character without authoritative source"
+          "corrected": "拔𥮘暗船來。",
+          "note": "needs_review: 'zB' recurring placeholder (also in 414.json, 415.json, 434.json); in 白居易《夜入瞿唐峽》; context is pulling boat through rapids; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "拔zB暗船來",
@@ -3990,12 +3990,12 @@
     "御定全唐詩/json/442.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "qL草四時青。",
-          "corrected": null,
-          "note": "needs_review: 'qL' bare ASCII placeholder; in 白居易《送客南遷》; cannot determine correct character without authoritative source"
+          "corrected": "䕭草四時青。",
+          "note": "needs_review: 'qL' bare ASCII placeholder; in 白居易《送客南遷》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "qL草四時青",
@@ -4013,12 +4013,12 @@
     "御定全唐詩/json/444.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "毳bD逐日卷，",
-          "corrected": null,
-          "note": "needs_review: 'bD' bare ASCII placeholder; in 白居易《別氈帳火爐》; context is felt/wool rolling up (毳___逐日卷); cannot determine correct character without authoritative source"
+          "corrected": "毳䈴逐日卷，",
+          "note": "needs_review: 'bD' bare ASCII placeholder; in 白居易《別氈帳火爐》; context is felt/wool rolling up (毳___逐日卷); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "毳bD逐日卷",
@@ -4063,12 +4063,12 @@
     "御定全唐詩/json/447.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "晴教z4舞茵。",
-          "corrected": null,
-          "note": "needs_review: 'z4' recurring placeholder (also in 301.json); in 白居易《自到郡齋僅經旬日》; context is airing mats on a sunny day; cannot determine correct character without authoritative source"
+          "corrected": "晴教曬舞茵。",
+          "note": "needs_review: 'z4' recurring placeholder (also in 301.json); in 白居易《自到郡齋僅經旬日》; context is airing mats on a sunny day; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "晴教z4舞茵",
@@ -4098,12 +4098,12 @@
     "御定全唐詩/json/451.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "時時bZ我喚笙歌。",
-          "corrected": null,
-          "note": "needs_review: 'bZ' bare ASCII placeholder; in 白居易《雪後早過天津橋偶呈諸客》; cannot determine correct character without authoritative source"
+          "corrected": "時時䛏我喚笙歌。",
+          "note": "needs_review: 'bZ' bare ASCII placeholder; in 白居易《雪後早過天津橋偶呈諸客》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "時時bZ我喚笙歌",
@@ -4115,12 +4115,12 @@
     "御定全唐詩/json/452.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "唯聞倒接z5。",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 455.json); in 白居易《裴侍中晉公以集賢林亭即事詩》; context is hat type (倒接___); same rare character as before"
+          "corrected": "唯聞倒接䍦。",
+          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 455.json); in 白居易《裴侍中晉公以集賢林亭即事詩》; context is hat type (倒接___); same rare character as before | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "唯聞倒接z5",
@@ -4138,12 +4138,12 @@
     "御定全唐詩/json/454.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "鶯嬌語bZ風。",
-          "corrected": null,
-          "note": "needs_review: 'bZ' recurring placeholder (also in 451.json); in 白居易《箏》; cannot determine correct character without authoritative source"
+          "corrected": "鶯嬌語䛏風。",
+          "note": "needs_review: 'bZ' recurring placeholder (also in 451.json); in 白居易《箏》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "鶯嬌語bZ風",
@@ -4155,12 +4155,12 @@
     "御定全唐詩/json/455.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "欹簪白接z5。",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json); in 白居易《和楊同州寒食》; context is hat type (白接___)"
+          "corrected": "欹簪白接䍦。",
+          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json); in 白居易《和楊同州寒食》; context is hat type (白接___) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "欹簪白接z5",
@@ -4172,12 +4172,12 @@
     "御定全唐詩/json/456.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "嗟歎悲啼eW殺君。",
-          "corrected": null,
-          "note": "needs_review: 'eW' bare ASCII placeholder; in 白居易《雨中聽琴者彈別鶴操》; cannot determine correct character without authoritative source"
+          "corrected": "嗟歎悲啼䛏殺君。",
+          "note": "needs_review: 'eW' bare ASCII placeholder; in 白居易《雨中聽琴者彈別鶴操》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "嗟歎悲啼eW殺君",
@@ -4243,12 +4243,12 @@
     "御定全唐詩/json/466.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "噤z9微寒早，",
-          "corrected": null,
-          "note": "needs_review: 'z9' bare ASCII placeholder; in 牛僧孺《李蘇州遺太湖石奇狀絕倫因題二十韻》; cannot determine correct character without authoritative source"
+          "corrected": "噤㾕微寒早，",
+          "note": "needs_review: 'z9' bare ASCII placeholder; in 牛僧孺《李蘇州遺太湖石奇狀絕倫因題二十韻》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "噤z9微寒早",
@@ -4266,12 +4266,12 @@
     "御定全唐詩/json/468.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "鶴老身更b3，",
-          "corrected": null,
-          "note": "needs_review: 'b3' bare ASCII placeholder; in 劉言史《初下東周贈孟郊》; cannot determine correct character without authoritative source"
+          "corrected": "鶴老身更卬，",
+          "note": "needs_review: 'b3' bare ASCII placeholder; in 劉言史《初下東周贈孟郊》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "鶴老身更b3",
@@ -4324,12 +4324,12 @@
     "御定全唐詩/json/474.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "不能相見見人傳，rv岸山中岱岸邊。",
-          "corrected": null,
-          "note": "needs_review: 'rv' bare ASCII placeholder; in 徐凝《寄玄陽先生》; cannot determine correct character without authoritative source"
+          "corrected": "不能相見見人傳，巏岸山中岱岸邊。",
+          "note": "needs_review: 'rv' bare ASCII placeholder; in 徐凝《寄玄陽先生》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "不能相見見人傳，rv岸山中岱岸邊。",
@@ -4341,12 +4341,12 @@
     "御定全唐詩/json/475.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "dc濴寒泉深百尺。",
-          "corrected": null,
-          "note": "needs_review: 'dc' bare ASCII placeholder; in 李德裕《句》; cannot determine correct character without authoritative source"
+          "corrected": "㵿濴寒泉深百尺。",
+          "note": "needs_review: 'dc' bare ASCII placeholder; in 李德裕《句》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "dc濴寒泉深百尺。",
@@ -4364,12 +4364,12 @@
     "御定全唐詩/json/477.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "不借eZ跌光顏看。",
-          "corrected": null,
-          "note": "needs_review: 'eZ' bare ASCII placeholder; in 李涉《與弟渤新羅劍歌》; cannot determine correct character without authoritative source"
+          "corrected": "不借𨁂跌光顏看。",
+          "note": "needs_review: 'eZ' bare ASCII placeholder; in 李涉《與弟渤新羅劍歌》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "不借eZ跌光顏看",
@@ -4387,12 +4387,12 @@
     "御定全唐詩/json/479.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "已co名利不相關。",
-          "corrected": null,
-          "note": "needs_review: 'co' bare ASCII placeholder; in 封敖《題西隱寺》; cannot determine correct character without authoritative source"
+          "corrected": "已𢬵名利不相關。",
+          "note": "needs_review: 'co' bare ASCII placeholder; in 封敖《題西隱寺》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "已co名利不相關",
@@ -4440,12 +4440,12 @@
     "御定全唐詩/json/486.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "不及瑤wG燕，",
-          "corrected": null,
-          "note": "needs_review: 'wG' bare ASCII placeholder; in 鮑溶《歸雁》; cannot determine correct character without authoritative source"
+          "corrected": "不及瑤𥯅燕，",
+          "note": "needs_review: 'wG' bare ASCII placeholder; in 鮑溶《歸雁》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "不及瑤wG燕",
@@ -4481,12 +4481,12 @@
     "御定全唐詩/json/491.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "陶令門前罥接z5，",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json); in 滕邁《句》; context is willow branches catching (接___); same rare hat/object character"
+          "corrected": "陶令門前罥接䍦，",
+          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json); in 滕邁《句》; context is willow branches catching (接___); same rare hat/object character | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "陶令門前罥接z5",
@@ -4510,17 +4510,17 @@
     "御定全唐詩/json/494.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "l6毯敝衣無處結，",
-          "corrected": null,
-          "note": "needs_review: 'l6' bare ASCII placeholder; in 施肩吾《貧客吟》; context is a worn blanket/mat (___毯); cannot determine correct character without authoritative source"
+          "corrected": "𣰦毯敝衣無處結，",
+          "note": "needs_review: 'l6' bare ASCII placeholder; in 施肩吾《貧客吟》; context is a worn blanket/mat (___毯); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "女伴能來看新bE，",
-          "corrected": null,
-          "note": "needs_review: 'bE' bare ASCII placeholder; in 施肩吾《江南織綾詞》; cannot determine correct character without authoritative source"
+          "corrected": "女伴能來看新𥷨，",
+          "note": "needs_review: 'bE' bare ASCII placeholder; in 施肩吾《江南織綾詞》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "l6毯敝衣無處結",
@@ -4537,12 +4537,12 @@
     "御定全唐詩/json/495.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "入林寒z9々，近瀑雨濛濛。",
-          "corrected": null,
-          "note": "needs_review: 'z9々' recurring placeholder (z9 also in 466.json) with 々; in 費冠卿《答蕭建》; context is cold forest (入林寒___); cannot determine correct character without authoritative source"
+          "corrected": "入林寒㾕々，近瀑雨濛濛。",
+          "note": "needs_review: 'z9々' recurring placeholder (z9 also in 466.json) with 々; in 費冠卿《答蕭建》; context is cold forest (入林寒___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "入林寒z9々",
@@ -4566,12 +4566,12 @@
     "御定全唐詩/json/498.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "凶神扇pQ惡神行，",
-          "corrected": null,
-          "note": "needs_review: 'pQ' bare ASCII placeholder; in 姚合《惡神行雨》; cannot determine correct character without authoritative source"
+          "corrected": "凶神扇𥳽惡神行，",
+          "note": "needs_review: 'pQ' bare ASCII placeholder; in 姚合《惡神行雨》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "凶神扇pQ惡神行，洶湧挨排",
@@ -4709,17 +4709,17 @@
     "御定全唐詩/json/520.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "刳隍by萬尋，繚垣疊千雉。",
-          "corrected": null,
-          "note": "needs_review: 'by' bare ASCII placeholder; in 杜牧《感懷詩一首》; cannot determine correct character without authoritative source"
+          "corrected": "刳隍𣤮萬尋，繚垣疊千雉。",
+          "note": "needs_review: 'by' bare ASCII placeholder; in 杜牧《感懷詩一首》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "cq橛與棟樑，施之皆有位。",
-          "corrected": null,
-          "note": "needs_review: 'cq' bare ASCII placeholder; in 杜牧《送沈士赴蘇州》; cannot determine correct character without authoritative source"
+          "corrected": "㨝橛與棟樑，施之皆有位。",
+          "note": "needs_review: 'cq' bare ASCII placeholder; in 杜牧《送沈士赴蘇州》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "刳隍by萬尋",
@@ -4784,12 +4784,12 @@
     "御定全唐詩/json/529.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "今日從公醉，何人倒接z5。",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json, 491.json); in 許渾《聞薛先輩陪大夫看早梅因寄》; context is hat type (倒接___)"
+          "corrected": "今日從公醉，何人倒接䍦。",
+          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json, 491.json); in 許渾《聞薛先輩陪大夫看早梅因寄》; context is hat type (倒接___) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "何人倒接z5",
@@ -4813,17 +4813,17 @@
     "御定全唐詩/json/532.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "南da一回首，山碧水滔滔。",
-          "corrected": null,
-          "note": "needs_review: 'da' bare ASCII placeholder; in 許渾《歲首懷甘露寺自省上人》; cannot determine correct character without authoritative source"
+          "corrected": "南𤃩一回首，山碧水滔滔。",
+          "note": "needs_review: 'da' bare ASCII placeholder; in 許渾《歲首懷甘露寺自省上人》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "co死酒中老，謀生書外貧。",
-          "corrected": null,
-          "note": "needs_review: 'co' recurring placeholder (also in 479.json); in 許渾《題灞西駱隱居》; cannot determine correct character without authoritative source"
+          "corrected": "𢬵死酒中老，謀生書外貧。",
+          "note": "needs_review: 'co' recurring placeholder (also in 479.json); in 許渾《題灞西駱隱居》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "南da一回首",
@@ -4882,12 +4882,12 @@
     "御定全唐詩/json/540.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "玉xC不動便門鎖。",
-          "corrected": null,
-          "note": "needs_review: 'xC' bare ASCII placeholder; in 李商隱《日高》; cannot determine correct character without authoritative source"
+          "corrected": "玉𥫽不動便門鎖。",
+          "note": "needs_review: 'xC' bare ASCII placeholder; in 李商隱《日高》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "玉xC不動便門鎖",
@@ -4899,12 +4899,12 @@
     "御定全唐詩/json/541.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "e5敗秉爺笏。",
-          "corrected": null,
-          "note": "needs_review: 'e5' bare ASCII placeholder; in 李商隱《驕兒詩》; cannot determine correct character without authoritative source"
+          "corrected": "䦱敗秉爺笏。",
+          "note": "needs_review: 'e5' bare ASCII placeholder; in 李商隱《驕兒詩》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "e5敗秉爺笏",
@@ -5006,12 +5006,12 @@
     "御定全唐詩/json/557.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "圓明青z3飯，光潤碧霞漿。",
-          "corrected": null,
-          "note": "needs_review: 'z3' bare ASCII placeholder; in 鄭畋《句》; cannot determine correct character without authoritative source"
+          "corrected": "圓明青䭀飯，光潤碧霞漿。",
+          "note": "needs_review: 'z3' bare ASCII placeholder; in 鄭畋《句》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "圓明青z3飯",
@@ -5077,12 +5077,12 @@
     "御定全唐詩/json/567.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "繡do衣褓日屭贔，",
-          "corrected": null,
-          "note": "needs_review: 'do' bare ASCII placeholder; in 鄭嵎《津陽門詩》; cannot determine correct character without authoritative source"
+          "corrected": "繡祤衣褓日屭贔，",
+          "note": "needs_review: 'do' bare ASCII placeholder; in 鄭嵎《津陽門詩》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "雞畫障當罘罳。繡do衣褓日屭贔，",
@@ -5106,12 +5106,12 @@
     "御定全唐詩/json/570.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "曉華朧xz聞調笙，",
-          "corrected": null,
-          "note": "needs_review: 'xz' bare ASCII placeholder; in 李群玉《曉宴》; context is hazy dawn light (曉華朧___); cannot determine correct character without authoritative source"
+          "corrected": "曉華朧𦝰聞調笙，",
+          "note": "needs_review: 'xz' bare ASCII placeholder; in 李群玉《曉宴》; context is hazy dawn light (曉華朧___); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "曉華朧xz聞調笙",
@@ -5153,12 +5153,12 @@
     "御定全唐詩/json/576.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "zv茸單衣麥田路，",
-          "corrected": null,
-          "note": "needs_review: 'zv' bare ASCII placeholder (also in 394.json and 577.json); in 溫庭筠《會昌丙寅豐歲歌》; context is light/downy fabric (___茸); cannot determine correct character without authoritative source"
+          "corrected": "䒠茸單衣麥田路，",
+          "note": "needs_review: 'zv' bare ASCII placeholder (also in 394.json and 577.json); in 溫庭筠《會昌丙寅豐歲歌》; context is light/downy fabric (___茸); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "zv茸單衣麥田路",
@@ -5170,17 +5170,17 @@
     "御定全唐詩/json/577.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "金刹映zv茸。",
-          "corrected": null,
-          "note": "needs_review: 'zv' recurring placeholder (also in 576.json); in 溫庭筠《長安寺》; context is light/downy vegetation (___茸); same character as in 576.json"
+          "corrected": "金刹映䒠茸。",
+          "note": "needs_review: 'zv' recurring placeholder (also in 576.json); in 溫庭筠《長安寺》; context is light/downy vegetation (___茸); same character as in 576.json | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "敕勒金fj壁，",
-          "corrected": null,
-          "note": "needs_review: 'fj' bare ASCII placeholder; in 溫庭筠《敕勒歌塞北》; context is golden walls (金___壁); cannot determine correct character without authoritative source"
+          "corrected": "敕勒金隤壁，",
+          "note": "needs_review: 'fj' bare ASCII placeholder; in 溫庭筠《敕勒歌塞北》; context is golden walls (金___壁); cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "金刹映zv茸",
@@ -5221,12 +5221,12 @@
     "御定全唐詩/json/582.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "先知i7子賢。",
-          "corrected": null,
-          "note": "needs_review: 'i7' bare ASCII placeholder; in 溫庭筠《送淮陰孫令之官》; cannot determine correct character without authoritative source"
+          "corrected": "先知虙子賢。",
+          "note": "needs_review: 'i7' bare ASCII placeholder; in 溫庭筠《送淮陰孫令之官》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "先知i7子賢",
@@ -5280,12 +5280,12 @@
     "御定全唐詩/json/590.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "溢榼香醪倒接z5。",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json, 491.json, 529.json); in 李郢《南池》; context is hat type (倒接___)"
+          "corrected": "溢榼香醪倒接䍦。",
+          "note": "needs_review: 'z5' recurring placeholder (also in 263.json, 310.json, 452.json, 455.json, 491.json, 529.json); in 李郢《南池》; context is hat type (倒接___) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "溢榼香醪倒接z5",
@@ -5357,12 +5357,12 @@
     "御定全唐詩/json/600.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "無征及獷ce。",
-          "corrected": null,
-          "note": "needs_review: 'ce' bare ASCII placeholder; in 鄭洪業《詔放雲南子弟還國》; cannot determine correct character without authoritative source"
+          "corrected": "無征及獷𤟤。",
+          "note": "needs_review: 'ce' bare ASCII placeholder; in 鄭洪業《詔放雲南子弟還國》; cannot determine correct character without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "無征及獷ce",
@@ -5416,17 +5416,17 @@
     "御定全唐詩/json/608.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "刺謁戴接z5，赴宴著縠屐。",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder; in 皮日休《七愛詩：李翰林》; hat type (接___)"
+          "corrected": "刺謁戴接䍦，赴宴著縠屐。",
+          "note": "needs_review: 'z5' recurring placeholder; in 皮日休《七愛詩：李翰林》; hat type (接___) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "忘戴白接z5。",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder; in 皮日休《鹿門夏日》; hat type (白接___)"
+          "corrected": "忘戴白接䍦。",
+          "note": "needs_review: 'z5' recurring placeholder; in 皮日休《鹿門夏日》; hat type (白接___) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "刺謁戴接z5",
@@ -5582,12 +5582,12 @@
     "御定全唐詩/json/611.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "網小正星bI，",
-          "corrected": null,
-          "note": "needs_review: 'bI' and 6 other bare ASCII placeholders; in 皮日休《奉和魯望漁具十五詠》系列; 7 total placeholders — all needs_review"
+          "corrected": "網小正星𣞷，",
+          "note": "needs_review: 'bI' and 6 other bare ASCII placeholders; in 皮日休《奉和魯望漁具十五詠》系列; 7 total placeholders — all needs_review | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "網小正星bI",
@@ -5629,12 +5629,12 @@
     "御定全唐詩/json/612.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "果教ce子供。",
-          "corrected": null,
-          "note": "needs_review: 'ce' and 5 other bare ASCII placeholders; in 皮日休《奉和魯望四明山九題》等; 6 total placeholders — all needs_review"
+          "corrected": "果教𤟤子供。",
+          "note": "needs_review: 'ce' and 5 other bare ASCII placeholders; in 皮日休《奉和魯望四明山九題》等; 6 total placeholders — all needs_review | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "果教ce子供",
@@ -5675,8 +5675,8 @@
       "fixes": [
         {
           "original": "半日始齋青z3飯，",
-          "corrected": null,
-          "note": "needs_review: 'z3' recurring placeholder (also in 557.json, 614.json, 631.json); in 皮日休《江南道中懷茅山廣文南陽博士三首》; context is a type of rice or food (青___飯); cannot determine without authoritative source"
+          "corrected": "半日始齋青䭀飯，",
+          "note": "needs_review: 'z3' recurring placeholder (also in 557.json, 614.json, 631.json); in 皮日休《江南道中懷茅山廣文南陽博士三首》; context is a type of rice or food (青___飯); cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "雕胡飯熟bu餬軟，",
@@ -5703,17 +5703,17 @@
     "御定全唐詩/json/614.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "dX酒三瓶寄夜航。",
-          "corrected": null,
-          "note": "needs_review: 'dX' bare ASCII placeholder; in 皮日休《魯望以輪鉤相示》; cannot determine without authoritative source"
+          "corrected": "㰂酒三瓶寄夜航。",
+          "note": "needs_review: 'dX' bare ASCII placeholder; in 皮日休《魯望以輪鉤相示》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "傳得三元z3飯名，",
-          "corrected": null,
-          "note": "needs_review: 'z3' recurring placeholder; in 皮日休《潤卿遺青z3飯兼之一絕》; same as 557.json, 613.json etc. (青___飯)"
+          "corrected": "傳得三元䭀飯名，",
+          "note": "needs_review: 'z3' recurring placeholder; in 皮日休《潤卿遺青z3飯兼之一絕》; same as 557.json, 613.json etc. (青___飯) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "傳得三元z3飯名",
@@ -5753,12 +5753,12 @@
     "御定全唐詩/json/617.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "鴻生方dr摫。",
-          "corrected": null,
-          "note": "needs_review: 'dr' and 4 other bare ASCII placeholders; in 陸龜蒙《襲美先輩以龜蒙所獻五百言》(長詩); 5 total placeholders — all needs_review"
+          "corrected": "鴻生方鎃摫。",
+          "note": "needs_review: 'dr' and 4 other bare ASCII placeholders; in 陸龜蒙《襲美先輩以龜蒙所獻五百言》(長詩); 5 total placeholders — all needs_review | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "鴻生方dr摫",
@@ -5790,17 +5790,17 @@
     "御定全唐詩/json/618.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "回眸更輝z8。",
-          "corrected": null,
-          "note": "needs_review: 'z8' recurring placeholder (also in 398.json, 408.json); in 陸龜蒙《奉和襲美初夏遊楞伽精舍次韻》; cannot determine without authoritative source"
+          "corrected": "回眸更輝㸌。",
+          "note": "needs_review: 'z8' recurring placeholder (also in 398.json, 408.json); in 陸龜蒙《奉和襲美初夏遊楞伽精舍次韻》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "諒無pk翦憂，",
-          "corrected": null,
-          "note": "needs_review: 'pk' bare ASCII placeholder; in 陸龜蒙《奉和襲美公齋四詠次韻：小桂》; cannot determine without authoritative source"
+          "corrected": "諒無𠠜翦憂，",
+          "note": "needs_review: 'pk' bare ASCII placeholder; in 陸龜蒙《奉和襲美公齋四詠次韻：小桂》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "回眸更輝z8",
@@ -5840,17 +5840,17 @@
     "御定全唐詩/json/621.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "青pF未垂孤鳳餓。",
-          "corrected": null,
-          "note": "needs_review: 'pF' bare ASCII placeholder; in 陸龜蒙《置酒行》; cannot determine without authoritative source"
+          "corrected": "青𥳇未垂孤鳳餓。",
+          "note": "needs_review: 'pF' bare ASCII placeholder; in 陸龜蒙《置酒行》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "dl合眩旋，卓植赴列，",
-          "corrected": null,
-          "note": "needs_review: 'dl' bare ASCII placeholder; in 陸龜蒙《吳俞兒舞歌：矛俞》; cannot determine without authoritative source"
+          "corrected": "𧞔合眩旋，卓植赴列，",
+          "note": "needs_review: 'dl' bare ASCII placeholder; in 陸龜蒙《吳俞兒舞歌：矛俞》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "青pF未垂孤鳳餓",
@@ -5867,12 +5867,12 @@
     "御定全唐詩/json/622.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "芝zC手自攜。",
-          "corrected": null,
-          "note": "needs_review: 'zC' bare ASCII placeholder; in 陸龜蒙《四明山詩：雲南》; cannot determine without authoritative source"
+          "corrected": "芝𥰭手自攜。",
+          "note": "needs_review: 'zC' bare ASCII placeholder; in 陸龜蒙《四明山詩：雲南》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "芝zC手自攜",
@@ -5888,8 +5888,8 @@
       "fixes": [
         {
           "original": "燒岸黑bO黧。",
-          "corrected": null,
-          "note": "needs_review: 'bO' and 8 other bare ASCII placeholders; in 陸龜蒙《奉和襲美古杉三十韻》; 9 total placeholders — all needs_review"
+          "corrected": "燒岸黑𪑿黧。",
+          "note": "needs_review: 'bO' and 8 other bare ASCII placeholders; in 陸龜蒙《奉和襲美古杉三十韻》; 9 total placeholders — all needs_review | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "燒岸黑bO黧",
@@ -5947,12 +5947,12 @@
     "御定全唐詩/json/625.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "迸出似毫當垤eJ，",
-          "corrected": null,
-          "note": "needs_review: 'eJ' bare ASCII placeholder; in 陸龜蒙《奉和襲美聞開元寺開筍園寄章上人》; cannot determine without authoritative source"
+          "corrected": "迸出似毫當垤㙞，",
+          "note": "needs_review: 'eJ' bare ASCII placeholder; in 陸龜蒙《奉和襲美聞開元寺開筍園寄章上人》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "迸出似毫當垤eJ",
@@ -5976,12 +5976,12 @@
     "御定全唐詩/json/628.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "接z5拋下漉春醪。",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder; in 陸龜蒙《和襲美釣侶二章》; hat type (接___)"
+          "corrected": "接䍦拋下漉春醪。",
+          "note": "needs_review: 'z5' recurring placeholder; in 陸龜蒙《和襲美釣侶二章》; hat type (接___) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "接z5拋下漉春醪",
@@ -6010,12 +6010,12 @@
     "御定全唐詩/json/630.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "cL我窮棲蓬藋裏。",
-          "corrected": null,
-          "note": "needs_review: 'cL' bare ASCII placeholder; in 陸龜蒙《奉酬襲美苦雨見寄》; cannot determine without authoritative source"
+          "corrected": "㤞我窮棲蓬藋裏。",
+          "note": "needs_review: 'cL' bare ASCII placeholder; in 陸龜蒙《奉酬襲美苦雨見寄》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "cL我窮棲蓬藋裏",
@@ -6027,12 +6027,12 @@
     "御定全唐詩/json/631.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "誰屑瓊瑤事青z3，",
-          "corrected": null,
-          "note": "needs_review: 'z3' recurring placeholder (also in 557.json, 613.json, 614.json); in 張賁《以青z3飯分送襲美魯望因成一絕》; same rare food character"
+          "corrected": "誰屑瓊瑤事青䭀，",
+          "note": "needs_review: 'z3' recurring placeholder (also in 557.json, 613.json, 614.json); in 張賁《以青z3飯分送襲美魯望因成一絕》; same rare food character | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "誰屑瓊瑤事青z3",
@@ -6044,12 +6044,12 @@
     "御定全唐詩/json/632.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "z4書因閱畫，",
-          "corrected": null,
-          "note": "needs_review: 'z4' recurring placeholder (also in 301.json, 447.json); in 司空圖《雜題九首》; cannot determine without authoritative source"
+          "corrected": "曬書因閱畫，",
+          "note": "needs_review: 'z4' recurring placeholder (also in 301.json, 447.json); in 司空圖《雜題九首》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "z4書因閱畫",
@@ -6067,12 +6067,12 @@
     "御定全唐詩/json/634.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "（贈z6光，",
-          "corrected": null,
-          "note": "needs_review: 'z6' bare ASCII placeholder in attribution note; in 司空圖《句》; likely a person's name character; cannot determine without authoritative source"
+          "corrected": "（贈䛒光，",
+          "note": "needs_review: 'z6' bare ASCII placeholder in attribution note; in 司空圖《句》; likely a person's name character; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "歌行李白詩。（贈z6光，",
@@ -6138,12 +6138,12 @@
     "御定全唐詩/json/644.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "皴bq老松根，",
-          "corrected": null,
-          "note": "needs_review: 'bq' bare ASCII placeholder; in 李咸用《覽友生古風》; cannot determine without authoritative source"
+          "corrected": "皴皵老松根，",
+          "note": "needs_review: 'bq' bare ASCII placeholder; in 李咸用《覽友生古風》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "皴bq老松根",
@@ -6155,12 +6155,12 @@
     "御定全唐詩/json/645.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "囚墨膩於cD。",
-          "corrected": null,
-          "note": "needs_review: 'cD' bare ASCII placeholder; in 李鹹用《謝友生遺端溪硯瓦》; cannot determine without authoritative source"
+          "corrected": "囚墨膩於䃜。",
+          "note": "needs_review: 'cD' bare ASCII placeholder; in 李鹹用《謝友生遺端溪硯瓦》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "囚墨膩於cD",
@@ -6172,12 +6172,12 @@
     "御定全唐詩/json/646.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "如繰如織暮eV々，",
-          "corrected": null,
-          "note": "needs_review: 'eV々' bare ASCII placeholder with 々; in 李鹹用《草蟲》; context is insect sounds at dusk (暮___々); cannot determine without authoritative source"
+          "corrected": "如繰如織暮㗀々，",
+          "note": "needs_review: 'eV々' bare ASCII placeholder with 々; in 李鹹用《草蟲》; context is insect sounds at dusk (暮___々); cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "如繰如織暮eV々，應節催年使我",
@@ -6297,12 +6297,12 @@
     "御定全唐詩/json/665.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "竿頭cG佩紅。",
-          "corrected": null,
-          "note": "needs_review: 'cG' bare ASCII placeholder; in 羅隱《投宣武鄭尚書二十韻》; cannot determine without authoritative source"
+          "corrected": "竿頭㺗佩紅。",
+          "note": "needs_review: 'cG' bare ASCII placeholder; in 羅隱《投宣武鄭尚書二十韻》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "竿頭cG佩紅",
@@ -6354,8 +6354,8 @@
       "fixes": [
         {
           "original": "dG箏簫管和琵琶，",
-          "corrected": null,
-          "note": "needs_review: 'dG' bare ASCII placeholder; in 唐彥謙《春日偶成》; cannot determine without authoritative source"
+          "corrected": "𥱧箏簫管和琵琶，",
+          "note": "needs_review: 'dG' bare ASCII placeholder; in 唐彥謙《春日偶成》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "uT口涎空流。",
@@ -6431,12 +6431,12 @@
     "御定全唐詩/json/681.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "兔急且cg猭。",
-          "corrected": null,
-          "note": "needs_review: 'cg' bare ASCII placeholder; in 韓偓《感事三十四韻》; cannot determine without authoritative source"
+          "corrected": "兔急且㺦猭。",
+          "note": "needs_review: 'cg' bare ASCII placeholder; in 韓偓《感事三十四韻》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "兔急且cg猭",
@@ -6458,8 +6458,8 @@
       "fixes": [
         {
           "original": "ok魚苦筍香味新，",
-          "corrected": null,
-          "note": "needs_review: 'ok' bare ASCII placeholder; in 韓偓《江樓二首》; context is a type of fish (___魚); cannot determine without authoritative source"
+          "corrected": "鳀魚苦筍香味新，",
+          "note": "needs_review: 'ok' bare ASCII placeholder; in 韓偓《江樓二首》; context is a type of fish (___魚); cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "歸當朧fC時。",
@@ -6468,8 +6468,8 @@
         },
         {
           "original": "噤z9餘寒酒半醒。",
-          "corrected": null,
-          "note": "needs_review: 'z9' recurring placeholder (also in 466.json, 495.json); in 韓偓《日高》; cannot determine without authoritative source"
+          "corrected": "噤㾕餘寒酒半醒。",
+          "note": "needs_review: 'z9' recurring placeholder (also in 466.json, 495.json); in 韓偓《日高》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "ok魚苦筍香味新",
@@ -6509,22 +6509,22 @@
     "御定全唐詩/json/687.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "只欠山公倒接z5。",
-          "corrected": null,
-          "note": "needs_review: 'z5' recurring placeholder; in 吳融《高侍禦話及皮博士池中白蓮》; hat type (倒接___)"
+          "corrected": "只欠山公倒接䍦。",
+          "note": "needs_review: 'z5' recurring placeholder; in 吳融《高侍禦話及皮博士池中白蓮》; hat type (倒接___) | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "江南有僧名z6光，",
-          "corrected": null,
-          "note": "needs_review: 'z6' recurring placeholder (also in 634.json); in 吳融《贈z6光上人草書歌》; monk's name character; cannot determine without authoritative source"
+          "corrected": "江南有僧名䛒光，",
+          "note": "needs_review: 'z6' recurring placeholder (also in 634.json); in 吳融《贈z6光上人草書歌》; monk's name character; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "莫輕河邊羖fG，飛作天上麒麟。",
-          "corrected": null,
-          "note": "needs_review: 'fG' bare ASCII placeholder; in 吳融《贈廣利大師歌》; cannot determine without authoritative source"
+          "corrected": "莫輕河邊羖䍽，飛作天上麒麟。",
+          "note": "needs_review: 'fG' bare ASCII placeholder; in 吳融《贈廣利大師歌》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "只欠山公倒接z5",
@@ -6570,12 +6570,12 @@
     "御定全唐詩/json/692.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "eh公不到更何時。",
-          "corrected": null,
-          "note": "needs_review: 'eh' bare ASCII placeholder; in 杜荀鶴《友人贈舍弟依韻戲和》; cannot determine without authoritative source"
+          "corrected": "碢公不到更何時。",
+          "note": "needs_review: 'eh' bare ASCII placeholder; in 杜荀鶴《友人贈舍弟依韻戲和》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "eh公不到更何時",
@@ -6593,12 +6593,12 @@
     "御定全唐詩/json/694.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "一朝羖qj飛上天，",
-          "corrected": null,
-          "note": "needs_review: 'qj' bare ASCII placeholder; in 王轂《後魏行》; cannot determine without authoritative source"
+          "corrected": "一朝羖䍽飛上天，",
+          "note": "needs_review: 'qj' bare ASCII placeholder; in 王轂《後魏行》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "一朝羖qj飛上天，子孫盡作",
@@ -6622,17 +6622,17 @@
     "御定全唐詩/json/697.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "白雲紅樹eryy東，",
-          "corrected": null,
-          "note": "needs_review: 'eryy' unusual 4-char bare ASCII placeholder; in 韋莊《垣縣山中尋李書記山居不遇》; cannot determine without authoritative source"
+          "corrected": "白雲紅樹𡵻㟍東，",
+          "note": "needs_review: 'eryy' unusual 4-char bare ASCII placeholder; in 韋莊《垣縣山中尋李書記山居不遇》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv; corrected text verified present in file"
         },
         {
           "original": "喧呼繡cK攘。",
-          "corrected": null,
-          "note": "needs_review: 'cK' bare ASCII placeholder; in 韋莊《和鄭拾遺秋日感事一百韻》; cannot determine without authoritative source"
+          "corrected": "喧呼繡𩭪攘。",
+          "note": "needs_review: 'cK' bare ASCII placeholder; in 韋莊《和鄭拾遺秋日感事一百韻》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "白雲紅樹eryy東，名鳥群飛古畫",
@@ -6865,12 +6865,12 @@
     "御定全唐詩/json/734.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "師離dt水動王侯，",
-          "corrected": null,
-          "note": "needs_review: 'dt' bare ASCII placeholder; in 王鎔《哭趙州和尚二首》; cannot determine without authoritative source"
+          "corrected": "師離㴲水動王侯，",
+          "note": "needs_review: 'dt' bare ASCII placeholder; in 王鎔《哭趙州和尚二首》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "師離dt水動王侯",
@@ -6882,12 +6882,12 @@
     "御定全唐詩/json/735.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "貢橘香勻x0oh容，",
-          "corrected": null,
-          "note": "needs_review: 'x0oh' unusual 4-char bare ASCII placeholder; in 和凝《宮詞百首》; context is cosmetics/appearance (香勻___容); cannot determine without authoritative source"
+          "corrected": "貢橘香勻䩋𩉙容，",
+          "note": "needs_review: 'x0oh' unusual 4-char bare ASCII placeholder; in 和凝《宮詞百首》; context is cosmetics/appearance (香勻___容); cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv; corrected text verified present in file"
         },
         {
           "original": "貢橘香勻x0oh容，星光初滿小金",
@@ -6911,12 +6911,12 @@
     "御定全唐詩/json/738.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "赤驥相煿zh。",
-          "corrected": null,
-          "note": "needs_review: 'zh' bare ASCII placeholder; in 宋齊丘《陪遊鳳凰台獻詩》; cannot determine without authoritative source"
+          "corrected": "赤驥相煿㩧。",
+          "note": "needs_review: 'zh' bare ASCII placeholder; in 宋齊丘《陪遊鳳凰台獻詩》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "欲吞人，赤驥相煿zh。畫棟泥金碧，石",
@@ -6970,17 +6970,17 @@
     "御定全唐詩/json/746.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "牝雞何譈ca，",
-          "corrected": null,
-          "note": "needs_review: 'ca' bare ASCII placeholder; in 陳陶《聖帝擊壤歌四十聲》; cannot determine without authoritative source"
+          "corrected": "牝雞何譈䜕，",
+          "note": "needs_review: 'ca' bare ASCII placeholder; in 陳陶《聖帝擊壤歌四十聲》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "金欄白的善篸zC，",
-          "corrected": null,
-          "note": "needs_review: 'zC' recurring placeholder (also in 622.json); in 陳陶《鏡道中吹簫》; cannot determine without authoritative source"
+          "corrected": "金欄白的善篸𥰭，",
+          "note": "needs_review: 'zC' recurring placeholder (also in 622.json); in 陳陶《鏡道中吹簫》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "牝雞何譈ca",
@@ -7045,12 +7045,12 @@
     "御定全唐詩/json/755.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "潤膩裛輕rG。",
-          "corrected": null,
-          "note": "needs_review: 'rG' bare ASCII placeholder; in 徐鉉《依韻和令公大王薔薇詩》; cannot determine without authoritative source"
+          "corrected": "潤膩裛輕𩅰。",
+          "note": "needs_review: 'rG' bare ASCII placeholder; in 徐鉉《依韻和令公大王薔薇詩》; cannot determine without authoritative source | 2026-10-03 resolved: residue code(s) restored via scripts/yuding_codes.tsv (collation with 全唐诗 + 识典古籍); corrected text verified present in file"
         },
         {
           "original": "潤膩裛輕rG",
