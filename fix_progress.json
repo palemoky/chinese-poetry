@@ -4,8 +4,8 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 963,
-    "fixed": 274,
+    "clean": 960,
+    "fixed": 277,
     "needs_review": 352
   },
   "reviewed": {
@@ -7867,6 +7867,21 @@
           "original": "鬓云偏、□鬆未整，凤钗斜坠",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「笼」 supported by only 1 book on 识典古籍 (《方是閒居士小稿》卷下); not filled"
+        },
+        {
+          "original": "聊寄幽悰",
+          "corrected": "聊寄幽悰",
+          "note": "Ci pattern anomaly checked (少年游): sentence attested as-is in 4 books on 识典古籍 (《全芳備祖》, 《全芳備祖前集》, 《全芳備祖集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "想见山中",
+          "corrected": "想见山中",
+          "note": "Ci pattern anomaly checked (少年游): sentence attested as-is in 4 books on 识典古籍 (《全芳備祖集》, 《彊村叢書》, 《蜀十五家詞》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "把玉指亲传踪迹",
+          "corrected": "把玉指亲传踪迹",
+          "note": "Ci pattern anomaly checked (念奴娇): sentence attested as-is in 5 books on 识典古籍 (《十駕齋養新錄》, 《書錄》, 《玉台畫史》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -7930,10 +7945,16 @@
       ]
     },
     "五代诗词/huajianji/huajianji-6-juan.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "时时微雨洗劫风光",
+          "corrected": "时时微雨洗风光",
+          "note": "Ci pattern anomaly (小重山, 常体 sentence length 7): extra char removed; 7 books on 识典古籍 support it (e.g. 《古今圖書集成·宮闈典》, 《唐宋諸賢絶妙詞選》, 《嘯餘譜》), 0 support the dataset's version"
+        }
+      ]
     },
     "五代诗词/huajianji/huajianji-7-juan.json": {
       "date": "2026-06-26",
@@ -7948,10 +7969,16 @@
       ]
     },
     "五代诗词/huajianji/huajianji-8-juan.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "云袅翠翘",
+          "corrected": "云鬟袅翠翘",
+          "note": "Ci pattern anomaly (菩萨蛮, 常体 sentence length 5): missing char restored; 2 books on 识典古籍 support it (e.g. 《唐宋諸賢絶妙詞選》, 《花間集》), 0 support the dataset's version"
+        }
+      ]
     },
     "五代诗词/huajianji/huajianji-9-juan.json": {
       "date": "2026-06-26",
@@ -110816,7 +110843,7 @@
       "fixes": []
     },
     "宋词/ci.song.0.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -110824,11 +110851,16 @@
           "original": "解刷扮，能ㄋ嗽，表里都峭。",
           "corrected": null,
           "note": "needs_review: kana/bopomofo garble ㄋ; 识典古籍 candidates ambiguous: 𠴇, 㑟"
+        },
+        {
+          "original": "路隔秋江",
+          "corrected": "路隔秋江",
+          "note": "Ci pattern anomaly checked (南乡子): sentence attested as-is in 6 books on 识典古籍 (《六一詞》, 《御選歷代詩餘》, 《詞壇豔逸品》) — 又一体 / original wording; no change"
         }
       ]
     },
     "宋词/ci.song.1000.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -110836,6 +110868,26 @@
           "original": "步携手林间，笑挽ホホ。",
           "corrected": "步携手林间，笑挽纤纤。",
           "note": "kana/bopomofo garble ホホ → 纤纤; 识典古籍 (/zh/): 《[御選]歷代詩餘》[御選]歷代詩餘卷六十 reads 「林間笑挽纖纖莫上孤峯」 (26 hit(s)) | Caveat: this character is in GB2312, while every other garble in this dataset replaced a non-GB2312 character — the source probably used a rare variant form here (e.g. 攕攕 for 纤纤, 諐 for 愆); reading is attested, exact glyph is not"
+        },
+        {
+          "original": "掩映竹篱茅舍",
+          "corrected": "掩映竹篱茅舍",
+          "note": "Ci pattern anomaly checked (清平乐): sentence attested as-is in 2 books on 识典古籍 (《臨川先生文集》, 《臨川王先生荆公文集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "于君去后少交亲",
+          "corrected": "于君去后少交亲",
+          "note": "Ci pattern anomaly checked (临江仙): sentence attested as-is in 5 books on 识典古籍 (《大小晏詞》, 《宋名家詞》, 《小山詞》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "留名千载不干身",
+          "corrected": "留名千载不干身",
+          "note": "Ci pattern anomaly checked (临江仙): sentence attested as-is in 5 books on 识典古籍 (《大小晏詞》, 《宋名家詞》, 《小山詞》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "不禁微雨",
+          "corrected": "不禁微雨",
+          "note": "Ci pattern anomaly checked (临江仙): sentence attested as-is in 3 books on 识典古籍 (《御選歷代詩餘》, 《花草稡編》, 《草堂詩餘前集》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -110883,6 +110935,11 @@
           "original": "绣衾□忆鸳鸯暖。",
           "corrected": "绣衾空忆鸳鸯暖。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《[御選]歷代詩餘》[御選]歷代詩餘卷八十五; 《御選歷代詩餘》薄倖"
+        },
+        {
+          "original": "准拟凝成阴结子",
+          "corrected": "准拟成阴结子",
+          "note": "Ci pattern anomaly (清平乐, 常体 sentence length 6): extra char removed; 2 books on 识典古籍 support it (e.g. 《宋名家詞》, 《惜香樂府》), 0 support the dataset's version"
         }
       ]
     },
@@ -111067,6 +111124,21 @@
           "original": "试问千花还□□，敢与英姿同列。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「百卉」 supported by only 1 book on 识典古籍 (《御選歷代詩餘》御選歷代詩餘卷六十八“念奴嬌”); not filled"
+        },
+        {
+          "original": "榆钱不解青春",
+          "corrected": "榆钱不解买青春",
+          "note": "Ci pattern anomaly (踏莎行, 常体 sentence length 7): missing char restored; 4 books on 识典古籍 support it (e.g. 《[御選]歷代詩餘》, 《坦菴詞》, 《宋六十一家詞選》), 0 support the dataset's version"
+        },
+        {
+          "original": "一树雪香瘦",
+          "corrected": "一树雪香寒瘦",
+          "note": "Ci pattern anomaly (感皇恩, 常体 sentence length 6): missing char restored; 2 books on 识典古籍 support it (e.g. 《御選歷代詩餘》, 《詞綜》), 1 support the dataset's version"
+        },
+        {
+          "original": "摩孩罗荷叶伞儿轻",
+          "corrected": "摩孩罗荷叶伞儿轻",
+          "note": "Ci pattern anomaly checked (鹊桥仙): sentence attested as-is in 2 books on 识典古籍 (《坦菴詞》, 《宋名家詞》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111134,6 +111206,21 @@
           "original": "□晓来寒透，不堪愁",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「更」 supported by only 1 book on 识典古籍 (《彊村叢書》白雪遺音); not filled"
+        },
+        {
+          "original": "归好时节",
+          "corrected": "归趁好时节",
+          "note": "Ci pattern anomaly (一斛珠, 常体 sentence length 5): missing char restored; 2 books on 识典古籍 support it (e.g. 《御選歷代詩餘》, 《竹齋詩餘》), 0 support the dataset's version"
+        },
+        {
+          "original": "三千世界",
+          "corrected": "三千世界",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 3 books on 识典古籍 (《新刻瓊琯白先生集》, 《海瓊玉蟾先生文集》, 《漢魏諸名家集二十一種》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "做些功行",
+          "corrected": "做些功行",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 2 books on 识典古籍 (《彊村叢書》, 《新刻瓊琯白先生集》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111181,6 +111268,16 @@
           "original": "好看莱衣□舞处，尽羡一门三",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「偕」 supported by only 1 book on 识典古籍 (《秋崖集》秋崖集卷十六); not filled"
+        },
+        {
+          "original": "百年无恙",
+          "corrected": "百年无恙",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 2 books on 识典古籍 (《可齋詞》, 《可齋雜稿》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "六朝人物",
+          "corrected": "六朝人物",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 2 books on 识典古籍 (《可齋詞》, 《可齋雜稿》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111258,6 +111355,16 @@
           "original": "，六鳌驾浪，幻境□西湖。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「出」 supported by only 1 book on 识典古籍 (《西湖志》西湖志卷之三); not filled"
+        },
+        {
+          "original": "楼台春锁碧湾",
+          "corrected": "楼台春锁碧云湾",
+          "note": "Ci pattern anomaly (西江月, 常体 sentence length 7): missing char restored; 3 books on 识典古籍 support it (e.g. 《[御選]歷代詩餘》, 《夢窗稿》, 《御選歷代詩餘》), 0 support the dataset's version"
+        },
+        {
+          "original": "芳洲酒社词场",
+          "corrected": "芳洲酒社词场",
+          "note": "Ci pattern anomaly checked (高阳台): sentence attested as-is in 4 books on 识典古籍 (《夢窗稿》, 《宋名家詞》, 《彊村叢書》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111330,6 +111437,71 @@
           "original": "疑是□龙穿王气，遗恨六",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「𧱓」 supported by only 1 book on 识典古籍 (《玉斗山人集》玉斗山人集卷三); not filled"
+        },
+        {
+          "original": "昨梦醉骑白鹿",
+          "corrected": "昨梦醉来骑白鹿",
+          "note": "Ci pattern anomaly (忆江南, 常体 sentence length 7): missing char restored; 4 books on 识典古籍 support it (e.g. 《[御選]歷代詩餘》, 《絶妙好詞箋》, 《詞綜》), 0 support the dataset's version"
+        },
+        {
+          "original": "便携酒访新亭",
+          "corrected": "便携酒访新亭",
+          "note": "Ci pattern anomaly checked (浪淘沙): sentence attested as-is in 3 books on 识典古籍 (《宋三大臣彙志》, 《文山先生全集》, 《新刻宋文丞相信國公文山先生全集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "闻说语言都好",
+          "corrected": "闻说语言都好",
+          "note": "Ci pattern anomaly checked (临江仙): sentence attested as-is in 2 books on 识典古籍 (《宋明十六家詞》, 《須溪集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "久雨石鲸未没",
+          "corrected": "久雨石鲸未没",
+          "note": "Ci pattern anomaly checked (临江仙): sentence attested as-is in 2 books on 识典古籍 (《宋明十六家詞》, 《須溪集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "那处春多",
+          "corrected": "那处春多",
+          "note": "Ci pattern anomaly checked (少年游): sentence attested as-is in 2 books on 识典古籍 (《彊村叢書》, 《絶妙好詞箋》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "一片笙歌",
+          "corrected": "一片笙歌",
+          "note": "Ci pattern anomaly checked (少年游): sentence attested as-is in 4 books on 识典古籍 (《御定詞譜》, 《御選歷代詩餘》, 《詞綜》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "三千里外",
+          "corrected": "三千里外",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 2 books on 识典古籍 (《宋明十六家詞》, 《須溪集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "成仙未晚",
+          "corrected": "成仙未晚",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 2 books on 识典古籍 (《宋明十六家詞》, 《須溪集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "那当著押",
+          "corrected": "那当著押",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 3 books on 识典古籍 (《西湖遊覽志》, 《詞苑叢談》, 《錢通》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "陈坚伯大",
+          "corrected": "陈坚伯大",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 3 books on 识典古籍 (《西湖遊覽志》, 《詞苑叢談》, 《錢通》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "此样襟怀",
+          "corrected": "此样襟怀",
+          "note": "Ci pattern anomaly checked (摸鱼儿): sentence attested as-is in 5 books on 识典古籍 (《古今圖書集成·文學典》, 《楊升菴辭品》, 《總纂升菴合集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "此老平生",
+          "corrected": "此老平生",
+          "note": "Ci pattern anomaly checked (摸鱼儿): sentence attested as-is in 2 books on 识典古籍 (《詞綜補遺》, 《辭品》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "尘暗合欢罗",
+          "corrected": "尘暗合欢罗",
+          "note": "Ci pattern anomaly checked (唐多令): sentence attested as-is in 3 books on 识典古籍 (《彊村叢書》, 《御定詞譜》, 《蘋州漁笛譜》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111392,6 +111564,36 @@
           "original": "馀何□，但读书煮茗，日",
           "corrected": "馀何事，但读书煮茗，日",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《勿軒集》勿軒集卷八“詩”; 《彊村叢書》勿軒長短句"
+        },
+        {
+          "original": "闲把琶调未就",
+          "corrected": "闲把琵琶调未就",
+          "note": "Ci pattern anomaly (蝶恋花, 常体 sentence length 7): missing char restored; 2 books on 识典古籍 support it (e.g. 《[御選]歷代詩餘》, 《御選歷代詩餘》), 0 support the dataset's version"
+        },
+        {
+          "original": "明日馀香知否",
+          "corrected": "明日馀香知在否",
+          "note": "Ci pattern anomaly (蝶恋花, 常体 sentence length 7): missing char restored; 3 books on 识典古籍 support it (e.g. 《古今女史》, 《文體明辯》, 《花草稡編》), 0 support the dataset's version"
+        },
+        {
+          "original": "还忆当曾听",
+          "corrected": "还忆当时曾听",
+          "note": "Ci pattern anomaly (齐天乐, 常体 sentence length 6): missing char restored; 3 books on 识典古籍 support it (e.g. 《古今圖書集成·禽蟲典》, 《彊村叢書》, 《詞綜》), 0 support the dataset's version"
+        },
+        {
+          "original": "终不似斗赢船",
+          "corrected": "终不似斗赢船",
+          "note": "Ci pattern anomaly checked (八声甘州): sentence attested as-is in 3 books on 识典古籍 (《天下同文集》, 《彊村叢書》, 《精選名儒草堂詩餘》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "有恨落天涯",
+          "corrected": "有恨落天涯",
+          "note": "Ci pattern anomaly checked (祝英台近): sentence attested as-is in 3 books on 识典古籍 (《總纂升菴合集》, 《花草稡編》, 《西湖遊覽志餘》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "谁念孤旅",
+          "corrected": "谁念孤旅",
+          "note": "Ci pattern anomaly checked (祝英台近): sentence attested as-is in 3 books on 识典古籍 (《花草稡編》, 《西湖遊覽志》, 《詞苑叢談》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111434,6 +111636,21 @@
           "original": "琼编焜耀，仙衣綷□，垂旒俯拜，荐献",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「䌨」 supported by only 1 book on 识典古籍 (《宋史》宋史卷一百四十“樂志第九十三”); not filled"
+        },
+        {
+          "original": "梦过江南芳草渡",
+          "corrected": "梦过江南芳草渡",
+          "note": "Ci pattern anomaly checked (谒金门): sentence attested as-is in 4 books on 识典古籍 (《御定詞譜》, 《御選歷代詩餘》, 《樂府雅詞》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "教君霎时饮",
+          "corrected": "教君霎时饮",
+          "note": "Ci pattern anomaly checked (行香子): sentence attested as-is in 4 books on 识典古籍 (《五茸志逸隨筆》, 《宋稗類鈔》, 《寄園寄所寄》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "白露点",
+          "corrected": "白露点",
+          "note": "Ci pattern anomaly checked (柳梢青): sentence attested as-is in 6 books on 识典古籍 (《古今詞統》, 《投轄錄》, 《正楊》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111496,6 +111713,16 @@
           "original": "未散娇云轻□鬓，欲融轻雪乍凝",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「亸」 supported by only 1 book on 识典古籍 (《和清真詞》和清真詞“瑞龍吟”); not filled"
+        },
+        {
+          "original": "卷地江流",
+          "corrected": "卷地江流",
+          "note": "Ci pattern anomaly checked (南歌子): sentence attested as-is in 3 books on 识典古籍 (《安陸縣誌》, 《武林梵志》, 《西湖遊覽志》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "寿觞边偶得龟千岁",
+          "corrected": "寿觞边偶得龟千岁",
+          "note": "Ci pattern anomaly checked (满江红): sentence attested as-is in 2 books on 识典古籍 (《演山先生詞》, 《演山集》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111528,6 +111755,26 @@
           "original": "非烟罗幕暖，宝□浓。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「熏」 supported by only 1 book on 识典古籍 (《御選歷代詩餘》御選歷代詩餘卷三十五); not filled"
+        },
+        {
+          "original": "英声早著",
+          "corrected": "英声早著",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 2 books on 识典古籍 (《新定九宮大成南北詞宮譜》, 《花草稡編》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "龟龄难老",
+          "corrected": "龟龄难老",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 3 books on 识典古籍 (《御定詞譜》, 《新定九宮大成南北詞宮譜》, 《花草稡編》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "为官为已",
+          "corrected": "为官为已",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 4 books on 识典古籍 (《古今説海》, 《詞苑叢談》, 《説郛》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "何须经理",
+          "corrected": "何须经理",
+          "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 5 books on 识典古籍 (《古今説海》, 《堯山堂外紀》, 《稗史彙編》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111582,6 +111829,11 @@
           "original": "拚醉□忘归，接䍦更好，",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「里」 supported by only 1 book on 识典古籍 (《御選歷代詩餘》); not filled"
+        },
+        {
+          "original": "旧传恐是",
+          "corrected": "旧传恐是",
+          "note": "Ci pattern anomaly checked (念奴娇): sentence attested as-is in 3 books on 识典古籍 (《宋名家詞》, 《稼軒長短句》, 《詞海評林》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111629,6 +111881,11 @@
           "original": "当□敛双蛾。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「座」 supported by only 1 book on 识典古籍 (《晁无咎詞》晁无咎詞卷六“永遇樂”); not filled"
+        },
+        {
+          "original": "云母屏风",
+          "corrected": "云母屏风",
+          "note": "Ci pattern anomaly checked (南歌子): sentence attested as-is in 2 books on 识典古籍 (《御定詞譜》, 《片玉詞》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111676,6 +111933,16 @@
           "original": "病来应怕酒，□眼常醒，老去羞春",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「两」 supported by only 1 book on 识典古籍 (《御定詞譜》御定詞譜卷二十); not filled"
+        },
+        {
+          "original": "┾却一年憔悴",
+          "corrected": "拚却一年憔悴",
+          "note": "Ci pattern anomaly (南歌子, 常体 sentence length 6): extra char removed; 3 books on 识典古籍 support it (e.g. 《花菴詞選》, 《草堂詩餘正集》, 《詞苑英華九種》), 0 support the dataset's version; garble ┾ (box-drawing char) replaced: 识典古籍 shows the variant 𢬵, written as 拚 (this dataset has 拚却 ×9)"
+        },
+        {
+          "original": "东风易行云散",
+          "corrected": "东风易得行云散",
+          "note": "Ci pattern anomaly (鹧鸪天, 常体 sentence length 7): missing char restored; 3 books on 识典古籍 support it (e.g. 《[御選]歷代詩餘》, 《古今圖書集成·閨媛典》, 《竹坡詞》), 0 support the dataset's version"
         }
       ]
     },
@@ -111703,6 +111970,16 @@
           "original": "练不染缁尘，算来□合是，广寒宫阙。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「只」 supported by only 1 book on 识典古籍 (《梅苑》梅苑卷一“勝勝慢”); not filled"
+        },
+        {
+          "original": "更那堪疏雨",
+          "corrected": "更那堪听疏雨",
+          "note": "Ci pattern anomaly (虞美人, 常体 sentence length 6): missing char restored; 2 books on 识典古籍 support it (e.g. 《[御選]歷代詩餘》, 《御選歷代詩餘》), 1 support the dataset's version"
+        },
+        {
+          "original": "金猊戏掣星桥锁",
+          "corrected": "金猊戏掣星桥锁",
+          "note": "Ci pattern anomaly checked (水龙吟): sentence attested as-is in 3 books on 识典古籍 (《中興以來絶妙詞選》, 《詞苑英華九種》, 《閩詞鈔》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111765,6 +112042,31 @@
           "original": "笑、频挥玉麈，共□金壶。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「挈」 supported by only 1 book on 识典古籍 (《逃禪詞》逃禪詞“水龍吟”); not filled"
+        },
+        {
+          "original": "身寄南州",
+          "corrected": "身寄南州",
+          "note": "Ci pattern anomaly checked (南歌子): sentence attested as-is in 5 books on 识典古籍 (《古今圖書集成·歲功典》, 《宋元明三十三家詞》, 《御選歷代詩餘》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "知有黄州",
+          "corrected": "知有黄州",
+          "note": "Ci pattern anomaly checked (南歌子): sentence attested as-is in 3 books on 识典古籍 (《[御選]歷代詩餘》, 《御選歷代詩餘》, 《逃禪詞》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "清闲是不死门风",
+          "corrected": "清闲是不死门风",
+          "note": "Ci pattern anomaly checked (临江仙): sentence attested as-is in 2 books on 识典古籍 (《六藝之一錄》, 《宋稗類鈔》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "行满三千上界",
+          "corrected": "行满三千上界",
+          "note": "Ci pattern anomaly checked (临江仙): sentence attested as-is in 2 books on 识典古籍 (《群談採餘》, 《群譚採余》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "庭前花谢了",
+          "corrected": "庭前花谢了",
+          "note": "Ci pattern anomaly checked (朝中措): sentence attested as-is in 2 books on 识典古籍 (《友古詞》, 《御定詞譜》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111792,6 +112094,21 @@
           "original": "耽玩意□□。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「圣三」 supported by only 1 book on 识典古籍 (《彊村叢書》蓮社詞); not filled"
+        },
+        {
+          "original": "千条万叶",
+          "corrected": "千条万叶",
+          "note": "Ci pattern anomaly checked (临江仙): sentence attested as-is in 3 books on 识典古籍 (《百川學海》, 《百川學海一百種十集》, 《花草稡編》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "别后忍孤欢笑",
+          "corrected": "别后忍孤欢笑",
+          "note": "Ci pattern anomaly checked (醉蓬莱): sentence attested as-is in 2 books on 识典古籍 (《彊村叢書》, 《方舟集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "问我几时来到",
+          "corrected": "问我几时来到",
+          "note": "Ci pattern anomaly checked (醉蓬莱): sentence attested as-is in 2 books on 识典古籍 (《彊村叢書》, 《方舟集》) — 又一体 / original wording; no change"
         }
       ]
     },
@@ -111824,14 +112141,30 @@
           "original": "□莺喧燕宿。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「任」 supported by only 1 book on 识典古籍 (《古今圖書集成·草木典》欽定古今圖書集成博物彙編草木典第六千七百四十六卷“含笑部藝文二詩詞”); not filled"
+        },
+        {
+          "original": "忘却天涯泊地",
+          "corrected": "忘却天涯漂泊地",
+          "note": "Ci pattern anomaly (满江红, 常体 sentence length 7): missing char restored; 4 books on 识典古籍 support it (e.g. 《彊村叢書》, 《御選歷代詩餘》, 《石湖詞》), 0 support the dataset's version"
         }
       ]
     },
     "宋词/宋词三百首.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-04",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "皱波纹迎客棹",
+          "corrected": "縠皱波纹迎客棹",
+          "note": "Ci pattern anomaly (玉楼春, 常体 sentence length 7): missing char restored; 2 books on 识典古籍 support it (e.g. 《增修箋注妙選草堂詩餘》, 《山堂肆考》), 0 support the dataset's version; 宋祁《玉楼春》 famous line 「縠皱波纹迎客棹」; one edition on 识典古籍 has the order reversed, standard text and another copy in this dataset read 縠皱"
+        },
+        {
+          "original": "酒厌厌病",
+          "corrected": "殢酒厌厌病",
+          "note": "Ci pattern anomaly (贺新郎, 常体 sentence length 5): missing char restored; 6 books on 识典古籍 support it (e.g. 《文體明辯》, 《文體明辯附錄》, 《草堂詩餘》), 0 support the dataset's version; 识典古籍 shows the variant 𣨼; written as 殢, the form this dataset uses (167 occurrences)"
+        }
+      ]
     },
     "幽梦影/youmengying.json": {
       "date": "2026-06-26",
