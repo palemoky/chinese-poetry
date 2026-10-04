@@ -4,9 +4,9 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 960,
+    "clean": 959,
     "fixed": 277,
-    "needs_review": 352
+    "needs_review": 353
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
@@ -7882,6 +7882,11 @@
           "original": "把玉指亲传踪迹",
           "corrected": "把玉指亲传踪迹",
           "note": "Ci pattern anomaly checked (念奴娇): sentence attested as-is in 5 books on 识典古籍 (《十駕齋養新錄》, 《書錄》, 《玉台畫史》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "┾只共、梅花幽独",
+          "corrected": null,
+          "note": "needs_review: box-drawing garble ┾; 识典古籍 candidates 晚/暝/数 tie"
         }
       ]
     },
@@ -110940,6 +110945,21 @@
           "original": "准拟凝成阴结子",
           "corrected": "准拟成阴结子",
           "note": "Ci pattern anomaly (清平乐, 常体 sentence length 6): extra char removed; 2 books on 识典古籍 support it (e.g. 《宋名家詞》, 《惜香樂府》), 0 support the dataset's version"
+        },
+        {
+          "original": "门前数十丘�岫枴�",
+          "corrected": "门前数十丘䆉稏",
+          "note": "GBK byte-shift garble: middle bytes decode to 稏; 识典古籍 reads 「数十丘𫁂䅉塍外」 (variant forms of 䆉稏); written as 䆉稏, the form used elsewhere in this dataset"
+        },
+        {
+          "original": "阕�匣岬茫�",
+          "corrected": null,
+          "note": "needs_review: GBK byte-shift garble; middle bytes decode to 会得, one leading char lost; no source found"
+        },
+        {
+          "original": "�稍�著意斟量过",
+          "corrected": null,
+          "note": "needs_review: GBK byte-shift garble (2 chars, partial bytes C9D4); no source found"
         }
       ]
     },
@@ -111062,6 +111082,11 @@
           "original": "但□□□□，啜其泣矣，又何",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「啜其泣矣」 supported by only 1 book on 识典古籍 (《稼軒長短句》稼軒長短句卷之五); not filled"
+        },
+        {
+          "original": "起来瞢�┒嗍薄�",
+          "corrected": null,
+          "note": "needs_review: GBK byte-shift garble; middle decodes to 多时; editions read 瞢腾/瞢总/瞢意 + 多时 — lost char undetermined"
         }
       ]
     },
@@ -111221,6 +111246,11 @@
           "original": "做些功行",
           "corrected": "做些功行",
           "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 2 books on 识典古籍 (《彊村叢書》, 《新刻瓊琯白先生集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "酒�璧臼欤�",
+          "corrected": "酒稻熟",
+          "note": "GBK byte-shift garble: middle bytes decode to 稻熟; 识典古籍 reads 「共乐酒稻熟，翁媪相将」"
         }
       ]
     },
@@ -111278,6 +111308,11 @@
           "original": "六朝人物",
           "corrected": "六朝人物",
           "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 2 books on 识典古籍 (《可齋詞》, 《可齋雜稿》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "接�奈蓿�",
+          "corrected": "接䍦无",
+          "note": "GBK byte-shift garble: middle bytes decode to 无; 识典古籍 editions read 接篱/接䍠 (= 接䍦, the 山公 cap); written as 䍦 as elsewhere in this dataset"
         }
       ]
     },
@@ -111365,6 +111400,11 @@
           "original": "芳洲酒社词场",
           "corrected": "芳洲酒社词场",
           "note": "Ci pattern anomaly checked (高阳台): sentence attested as-is in 4 books on 识典古籍 (《夢窗稿》, 《宋名家詞》, 《彊村叢書》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "author 赵希��",
+          "corrected": null,
+          "note": "needs_review: author name lost char; this 《霜天晓角》 is attributed to 刘克庄 in 《绝妙好词笺》 — attribution itself uncertain"
         }
       ]
     },
@@ -111502,6 +111542,11 @@
           "original": "尘暗合欢罗",
           "corrected": "尘暗合欢罗",
           "note": "Ci pattern anomaly checked (唐多令): sentence attested as-is in 3 books on 识典古籍 (《彊村叢書》, 《御定詞譜》, 《蘋州漁笛譜》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "赵必�� / 赵必□",
+          "corrected": "赵必𤩪",
+          "note": "author name: 识典古籍 lists 《覆瓿集》 [宋] 趙必𤩪 撰 (四庫全書本); 1 occurrences unified"
         }
       ]
     },
@@ -111594,6 +111639,11 @@
           "original": "谁念孤旅",
           "corrected": "谁念孤旅",
           "note": "Ci pattern anomaly checked (祝英台近): sentence attested as-is in 3 books on 识典古籍 (《花草稡編》, 《西湖遊覽志》, 《詞苑叢談》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "赵必�� / 赵必□",
+          "corrected": "赵必𤩪",
+          "note": "author name: 识典古籍 lists 《覆瓿集》 [宋] 趙必𤩪 撰 (四庫全書本); 31 occurrences unified"
         }
       ]
     },
@@ -111651,6 +111701,11 @@
           "original": "白露点",
           "corrected": "白露点",
           "note": "Ci pattern anomaly checked (柳梢青): sentence attested as-is in 6 books on 识典古籍 (《古今詞統》, 《投轄錄》, 《正楊》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "忒�山苛樱�",
+          "corrected": "忒煞娇劣",
+          "note": "GBK byte-shift garble: middle bytes decode to 娇劣, leading byte C9 = lead byte of 煞 (C9B7); 识典古籍 reads 「小鬟忒煞娇劣」"
         }
       ]
     },
@@ -111723,6 +111778,21 @@
           "original": "寿觞边偶得龟千岁",
           "corrected": "寿觞边偶得龟千岁",
           "note": "Ci pattern anomaly checked (满江红): sentence attested as-is in 2 books on 识典古籍 (《演山先生詞》, 《演山集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "忒�沙�儿",
+          "corrected": null,
+          "note": "needs_review: GBK byte-shift garble (bytes C9B3): lead C9 suggests 煞 (as in 忒煞娇劣), second char lead B3 unknown; no source found"
+        },
+        {
+          "original": "涧篱�怼�",
+          "corrected": null,
+          "note": "needs_review: GBK byte-shift garble; no source found"
+        },
+        {
+          "original": "管教�拍ァ�",
+          "corrected": null,
+          "note": "needs_review: GBK byte-shift garble; middle decodes to 磨; no source found"
         }
       ]
     },
@@ -111775,6 +111845,21 @@
           "original": "何须经理",
           "corrected": "何须经理",
           "note": "Ci pattern anomaly checked (沁园春): sentence attested as-is in 5 books on 识典古籍 (《古今説海》, 《堯山堂外紀》, 《稗史彙編》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "侵晨打�捌朐苹幔�",
+          "corrected": null,
+          "note": "needs_review: GBK byte-shift garble; middle decodes to 齐云会; editions read 打发, but leading byte B0 does not match 发 (B7A2) — B0-lead chars such as 扮 fit; undetermined"
+        },
+        {
+          "original": "╆环珮",
+          "corrected": null,
+          "note": "needs_review: box-drawing garble ╆; 识典古籍 single hits 锵/响"
+        },
+        {
+          "original": "孕雪┭香",
+          "corrected": null,
+          "note": "needs_review: box-drawing garble ┭; no source found"
         }
       ]
     },
@@ -111785,10 +111870,16 @@
       "fixes": []
     },
     "宋词/ci.song.21000.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-04",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "needs_review",
+      "fixes": [
+        {
+          "original": "冰�昀谩�",
+          "corrected": null,
+          "note": "needs_review: GBK byte-shift garble; middle decodes to 烂; editions read 冰彩烂, but leading byte EA does not match 彩 (B2CA); undetermined"
+        }
+      ]
     },
     "宋词/ci.song.3000.json": {
       "date": "2026-10-04",
@@ -111834,6 +111925,11 @@
           "original": "旧传恐是",
           "corrected": "旧传恐是",
           "note": "Ci pattern anomaly checked (念奴娇): sentence attested as-is in 3 books on 识典古籍 (《宋名家詞》, 《稼軒長短句》, 《詞海評林》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "底事教┾舍",
+          "corrected": "底事教拚舍",
+          "note": "box-drawing garble ┾ → 拚 (识典古籍: 拼/拚/𢬵; same garble as 田为 「┾却 → 拚却」)"
         }
       ]
     },
@@ -112146,6 +112242,11 @@
           "original": "忘却天涯泊地",
           "corrected": "忘却天涯漂泊地",
           "note": "Ci pattern anomaly (满江红, 常体 sentence length 7): missing char restored; 4 books on 识典古籍 support it (e.g. 《彊村叢書》, 《御選歷代詩餘》, 《石湖詞》), 0 support the dataset's version"
+        },
+        {
+          "original": "��鷃亦鵾鹏",
+          "corrected": "斥鷃亦鵾鹏",
+          "note": "lost char before 鷃: 识典古籍 《審齋詞》 (王千秋's own collection) reads 斥鷃"
         }
       ]
     },

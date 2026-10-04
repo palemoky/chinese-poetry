@@ -7,7 +7,7 @@
   ascii_residue    正文中混入的 ASCII 字母/数字（爬取残渣，如 z5、zB）
   cyrillic_greek   西里尔 / 希腊字母乱码
   kana_bopomofo    日文假名 / 注音符号乱码
-  box_drawing      制表符号乱码（┾ ╆ 等）
+  box_drawing      制表符号乱码（┾ ╆ 等）与 U+FFFD 替换符
   bare_pua         {...} 之外的私用区字符
   missing_char     □ 缺字
 
@@ -35,7 +35,7 @@ ZAYAN_TITLE = re.compile(r'[歌行吟引曲謠谣辭辞詞词句]')  # 歌行杂
 ASCII_RES = re.compile(r'[A-Za-z0-9]+')
 HANZI = re.compile(r'[\u3400-\u9fff\U00020000-\U0003ffff\ue000-\uf8ff□〇]')
 CYRILLIC_GREEK = re.compile(r'[Ѐ-ӿͰ-Ͽ]')
-BOX_DRAWING = re.compile(r'[\u2500-\u257f]')   # 制表符号乱码，如 ┾却 → 拚却
+BOX_DRAWING = re.compile(r'[\u2500-\u257f\ufffd]')   # 制表符号乱码与 U+FFFD 替换符（GBK 字节错位）
 KANA_BOPOMOFO = re.compile(r'[\u3040-\u30fa\u30fc-\u30ff\u3100-\u312f\u31a0-\u31bf]')  # 假名、注音乱码（不含标题分隔符・）
 PUA = re.compile(r'[-]')
 CI_DIRS = {'宋词', '五代诗词'}
