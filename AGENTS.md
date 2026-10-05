@@ -161,6 +161,37 @@ If neither source covers the poem, mark it `needs_review` — do not infer from 
 
 ---
 
+### Step 3b — Batch tools (dataset-wide, alternative to the per-file loop)
+
+Per-file review cannot scale to rare poems you do not recognize. These tools fix whole categories of defects with 识典古籍 as evidence, and leave every decision reviewable.
+
+| Tool | Purpose |
+|------|---------|
+| `scripts/check_structure.py` | Scan the whole dataset: garbles (Cyrillic/Greek, kana/bopomofo, box-drawing, U+FFFD, bare PUA, ASCII residue), `□` gaps, line-length and 词牌 anomalies. Report only. |
+| `scripts/twin_fix.py` | Collate 御定全唐詩 against 全唐诗/poet.tang.* and restore ASCII residue codes via `scripts/yuding_codes.tsv`. |
+| `scripts/shidian.py` + `scripts/shidian/search.mjs` | Evidence pipeline: `build` → search 识典古籍 → `analyze` → review `review.tsv` → `apply`. |
+
+```bash
+pip install opencc-python-reimplemented
+(cd scripts/shidian && npm install && npx playwright install chromium)
+W=/tmp/sd_kana                                   # work dir — never inside the data directories
+python3 scripts/shidian.py build --check kana_bopomofo --work $W
+node scripts/shidian/search.mjs $W/queries.json $W/results.jsonl   # add --cdp http://127.0.0.1:9333 to reuse an open browser
+python3 scripts/shidian.py analyze --work $W     # writes $W/review.tsv
+# review: decision column = accept / reject / verified / or type the correct text yourself
+python3 scripts/shidian.py apply --work $W --reviewer <model or handle> --date YYYY-MM-DD [--record-pending]
+```
+
+Rules built into `analyze` (learned the hard way — keep them if you change it):
+- **Garbles replaced a character outside GB2312.** Every confirmed 御定 residue code but one, and every kana/PUA garble, hides a non-GB2312 character, so GB2312 candidates are OCR noise and are dropped. Exceptions exist for edition variants (e.g. 纤纤 vs 攕攕) — flag them in the note.
+- **The same garble symbol or PUA code point can stand for different characters** in different files; each occurrence needs its own evidence.
+- **`□` gaps** are mostly lacunae in the base text. Filling one from another edition needs ≥2 independent books; if a book shows a box-like OCR char (`口 囗 丶 〇`) at the same spot, the source has the same gap — do not fill.
+- **Compare in simplified form** (`t2s` on both sides) so variants like 峯/峰 do not hide matches, but **write back with the dataset's own glyphs**: change only the inserted/deleted character, and use the form the dataset already uses (e.g. 搊 not 𫼝, 䕷 not 𧃲, 殢 not 𣨼).
+- **Line edits next to garbage are not line edits**: `noisy` status means the sentence touches a residue/garble — replace that token instead of inserting a character.
+- `missing_char` and `ascii_residue` are slow (thousands of queries); expect ~4 s per query, run overnight, and reruns resume where they stopped.
+
+---
+
 ### Step 4 — Fix and update progress
 
 1. **Edit the file**: change only the erroneous characters, nothing else.

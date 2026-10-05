@@ -171,37 +171,51 @@ def ci_tune(it):
     return re.split(r'[・·]', name)[-1] if name else ''
 
 
-def check_ci(ci_poems, report):
+def ci_anomalies(ci_poems):
+    """与同词牌主流体式相比总字数差 1~2 字、且该字数极少见的词。
+
+    逐首产出 dict：rel/idx/it/sents/tune/total/main_total/main_n/n_poems/count，
+    以及 bad = [(句序, 常体句长), ...]（句数与常体一致且只有 1~2 句不同时），否则为 None。
+    """
     groups = collections.defaultdict(list)
     for rel, idx, it, lines in ci_poems:
         sents = sentences(lines)
         if sents and '□' not in ''.join(lines):     # 缺字的另由 missing_char 处理
-            groups[ci_tune(it)].append((rel, idx, it, lines, sents))
+            groups[ci_tune(it)].append((rel, idx, it, sents))
     for tune, poems in groups.items():
         if len(poems) < 10:
             continue
-        totals = collections.Counter(sum(map(len, p[4])) for p in poems)
+        totals = collections.Counter(sum(map(len, p[3])) for p in poems)
         main_total, main_n = totals.most_common(1)[0]
         if main_n / len(poems) < 0.4:
             continue
         # 主流体式的句式（句长序列）
         main_sig = collections.Counter(
-            tuple(map(len, p[4])) for p in poems if sum(map(len, p[4])) == main_total
+            tuple(map(len, p[3])) for p in poems if sum(map(len, p[3])) == main_total
         ).most_common(1)[0][0]
-        for rel, idx, it, lines, sents in poems:
+        for rel, idx, it, sents in poems:
             total = sum(map(len, sents))
             diff = total - main_total
             if not diff or abs(diff) > 2 or totals[total] / len(poems) > 0.03:
                 continue
             sig = tuple(map(len, sents))
-            where = ''
+            bad = None
             if len(sig) == len(main_sig):
-                bad = [i for i, (a, b) in enumerate(zip(sig, main_sig)) if a != b]
-                if len(bad) <= 2:
-                    where = '；'.join(f'「{sents[i]}」{sig[i]}字(常体{main_sig[i]})' for i in bad)
-            report('ci_pattern', rel, idx, it, where or '',
-                   detail=f'{tune} 共{total}字，常体{main_total}字'
-                          f'（{main_n}/{len(poems)}首），本字数仅{totals[total]}首')
+                bad = [(i, main_sig[i]) for i, (a, b) in enumerate(zip(sig, main_sig)) if a != b]
+                if len(bad) > 2:
+                    bad = None
+            yield dict(rel=rel, idx=idx, it=it, sents=sents, tune=tune, total=total,
+                       main_total=main_total, main_n=main_n, n_poems=len(poems),
+                       count=totals[total], bad=bad)
+
+
+def check_ci(ci_poems, report):
+    for a in ci_anomalies(ci_poems):
+        sents = a['sents']
+        where = '；'.join(f'「{sents[i]}」{len(sents[i])}字(常体{n})' for i, n in a['bad'] or [])
+        report('ci_pattern', a['rel'], a['idx'], a['it'], where,
+               detail=f"{a['tune']} 共{a['total']}字，常体{a['main_total']}字"
+                      f"（{a['main_n']}/{a['n_poems']}首），本字数仅{a['count']}首")
 
 
 def main():

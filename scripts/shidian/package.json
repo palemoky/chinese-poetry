@@ -1,0 +1,9 @@
+{
+  "name": "shidian-search",
+  "private": true,
+  "description": "Batch full-text search on shidianguji.com for scripts/shidian.py",
+  "type": "module",
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}

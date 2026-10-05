@@ -2,3 +2,5 @@
 .pyenv
 __pycache__
 .pytest_cache
+# scripts/shidian 依赖
+node_modules/
