@@ -256,14 +256,16 @@ def analyze_token(it, res):
             if gap and BOXLIKE & set(cand):
                 lacuna.add(book)
                 continue
-            if not gap and (in_gb2312(cand) or any(in_gb2312(c) for c in cand)):
-                continue                    # 乱码的原字都在 GB2312 之外，GB2312 内的候选多为 OCR 误识
             votes[cand] += 1
             books[cand].add(book)
             srcs[cand].add(src)
             ctxlen[cand] = max(ctxlen.get(cand, 0), best[1])
-    cands = sorted(votes, key=lambda c: (-len(books[c]), -ctxlen[c], -votes[c]))
-    it['candidates'] = [dict(text=c, books=len(books[c]), hits=votes[c], ctx=ctxlen[c], sources=sorted(srcs[c])[:3]) for c in cands[:4]]
+    # 乱码的原字绝大多数在 GB2312 之外，GB2312 内的候选多为 OCR 误识：排在后面，且须更强证据
+    gb = {c: (not gap) and any(in_gb2312(ch) for ch in c) for c in votes}
+    cands = sorted(votes, key=lambda c: (gb[c], -len(books[c]), -ctxlen[c], -votes[c]))
+    cands = [c for c in cands if not gb[c] or (len(books[c]) >= 2 and ctxlen[c] >= 6)]
+    it['candidates'] = [dict(text=c, books=len(books[c]), hits=votes[c], ctx=ctxlen[c], gb2312=gb[c],
+                             sources=sorted(srcs[c])[:3]) for c in cands[:4]]
     it['lacuna_books'] = sorted(lacuna)
     top = it['candidates'][0] if cands else None
     second = it['candidates'][1] if len(cands) > 1 else None
