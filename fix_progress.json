@@ -5,8 +5,8 @@
     "total_files": 1589,
     "reviewed": 1589,
     "clean": 960,
-    "fixed": 276,
-    "needs_review": 353
+    "fixed": 278,
+    "needs_review": 351
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
@@ -529,7 +529,7 @@
       "fixes": []
     },
     "御定全唐詩/json/806.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -582,6 +582,11 @@
           "original": "花上黃鶯子，eX々聲可憐美人顏似玉，對此弄鳴弦。",
           "corrected": "花上黃鶯子，𠴨々聲可憐美人顏似玉，對此弄鳴弦。",
           "note": "Crawl residue restored via code table scripts/yuding_codes.tsv (twin_fix.py)"
+        },
+        {
+          "original": "眾喔咿斯",
+          "corrected": "眾喔咿斯",
+          "note": "[shi_line_length] attested as-is in 2 books on 识典古籍 (寒山子詩集, 御定全唐詩); no change"
         }
       ]
     },
@@ -1774,7 +1779,7 @@
       "fixes": []
     },
     "御定全唐詩/json/765.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -1785,8 +1790,8 @@
         },
         {
           "original": "朽索何足擬。苟非dJ之為，胡可力行此",
-          "corrected": null,
-          "note": "needs_review: crawl residue \"dJ\"; no matching passage found on 识典古籍"
+          "corrected": "朽索何足擬。苟非綸之為，胡可力行此",
+          "note": "needs_review: crawl residue \"dJ\"; no matching passage found on 识典古籍 | resolved 2026-10-05: Crawl residue \"dJ\" → 綸; 识典古籍 (found via shi_line_length check, ≥2 books: 《夔州府志》《蜀中廣記》)"
         }
       ]
     },
@@ -3291,7 +3296,7 @@
       "fixes": []
     },
     "御定全唐詩/json/393.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -3312,8 +3317,8 @@
         },
         {
           "original": "春戲草苑，玉挽鳴qX轔。綠網縋金鈴，",
-          "corrected": null,
-          "note": "needs_review: crawl residue \"qX\"; no matching passage found on 识典古籍"
+          "corrected": "春戲草苑，玉挽鳴𨏈轔。綠網縋金鈴，",
+          "note": "needs_review: crawl residue \"qX\"; no matching passage found on 识典古籍 | resolved 2026-10-05: Crawl residue \"qX\" → 𨏈; 识典古籍 (found via shi_line_length check, ≥2 books: 《李長吉歌詩》《歌詩編》)"
         }
       ]
     },
@@ -3549,7 +3554,7 @@
       ]
     },
     "御定全唐詩/json/406.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -3592,6 +3597,11 @@
           "original": "如在手，那複敢崴pN。",
           "corrected": null,
           "note": "needs_review: crawl residue \"pN\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "那複敢崴",
+          "corrected": "那複敢崴",
+          "note": "[shi_line_length] attested as-is in 3 books on 识典古籍 (唐詩紀事, 唐詩類苑, 詩雋類函); no change"
         }
       ]
     },
@@ -5594,7 +5604,7 @@
       ]
     },
     "御定全唐詩/json/610.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -5657,6 +5667,11 @@
           "original": "移時卻cs下，細碎衡與嵩。",
           "corrected": null,
           "note": "needs_review: crawl residue \"cs\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "不敢攜一",
+          "corrected": "不敢攜一",
+          "note": "[shi_line_length] attested as-is in 5 books on 识典古籍 (吳都文粹, 唐詩類苑, 松陵集); no change"
         }
       ]
     },
@@ -8548,7 +8563,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.15000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -8570,7 +8585,7 @@
       ]
     },
     "全唐诗/poet.song.122000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -8638,10 +8653,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.158000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-05",
+      "reviewer": "claude-opus-5-5",
       "status": "clean",
-      "fixes": []
+      "fixes": [
+        {
+          "original": "又不見大椿視朝菌",
+          "corrected": "又不見大椿視朝菌",
+          "note": "[shi_line_length] attested as-is in 2 books on 识典古籍 (攻媿先生文集, 攻媿集); no change"
+        }
+      ]
     },
     "全唐诗/poet.song.159000.json": {
       "date": "2026-06-26",
@@ -8674,7 +8695,7 @@
       ]
     },
     "全唐诗/poet.song.161000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "clean",
       "fixes": [
@@ -8980,7 +9001,7 @@
       ]
     },
     "全唐诗/poet.song.189000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "clean",
       "fixes": [
@@ -9525,7 +9546,7 @@
       ]
     },
     "全唐诗/poet.song.23000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -9857,7 +9878,7 @@
       ]
     },
     "全唐诗/poet.song.254000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -9920,7 +9941,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.30000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -9933,6 +9954,11 @@
           "original": "浯溪僻□地，自爾聞正聲。",
           "corrected": "浯溪僻南地，自爾聞正聲。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 3 independent books on 识典古籍 agree, e.g. 《宋詩紀事補遺》宋詩紀事補遺卷十八; 《廣湖南考古略》廣湖南考古略卷十八"
+        },
+        {
+          "original": "徐步畫展廊修",
+          "corrected": "徐步畫廊修",
+          "note": "[shi_line_length] 徐步畫展廊修 → 徐步畫廊修; 识典古籍 (3 books, e.g. [民國]洋縣誌, 宋詩紀事)"
         }
       ]
     },
@@ -10156,7 +10182,7 @@
       ]
     },
     "全唐诗/poet.song.55000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "clean",
       "fixes": [
@@ -10164,11 +10190,16 @@
           "original": "萬言萬當不如一默",
           "corrected": "萬言萬當不如一默",
           "note": "Line-length anomaly checked: irregular line is attested as-is in 7 books on 识典古籍 (《四友齋叢説》, 《宋文鑑》, 《山谷内集詩注》); no change"
+        },
+        {
+          "original": "百戰百勝不如一忍",
+          "corrected": "百戰百勝不如一忍",
+          "note": "[shi_line_length] attested as-is in 2 books on 识典古籍 (居家必備, 永樂大典); no change"
         }
       ]
     },
     "全唐诗/poet.song.56000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "clean",
       "fixes": [
@@ -10498,7 +10529,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.79000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -10539,7 +10570,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.83000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "clean",
       "fixes": [
@@ -10649,7 +10680,7 @@
       ]
     },
     "全唐诗/poet.song.92000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
       "status": "clean",
       "fixes": [
@@ -113243,9 +113274,9 @@
       "fixes": []
     },
     "御定全唐詩/json/125.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "至滑州隔河望黎陽憶丁三",
@@ -113269,8 +113300,8 @@
         },
         {
           "original": "地多齊後w9，人帶荊州癭。徒",
-          "corrected": null,
-          "note": "needs_review: crawl residue \"w9\"; no matching passage found on 识典古籍"
+          "corrected": "地多齊後㿉，人帶荊州癭。徒",
+          "note": "needs_review: crawl residue \"w9\"; no matching passage found on 识典古籍 | resolved 2026-10-05: Crawl residue \"w9\" → 㿉; 识典古籍 (found via shi_line_length check, ≥2 books: 《唐詩所》《王摩詰文集》《詩雋類函》)"
         },
         {
           "original": "隔河望黎陽憶丁三",
@@ -113465,9 +113496,9 @@
       "fixes": []
     },
     "御定全唐詩/json/150.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "雲色常霮zw",
@@ -113476,8 +113507,8 @@
         },
         {
           "original": "自歸飛，雲閑獨容cV。",
-          "corrected": null,
-          "note": "needs_review: crawl residue \"cV\"; 识典古籍 candidates ambiguous: 潏, 㵝"
+          "corrected": "自歸飛，雲閑獨容裔。",
+          "note": "needs_review: crawl residue \"cV\"; 识典古籍 candidates ambiguous: 潏, 㵝 | resolved 2026-10-05: Crawl residue \"cV\" → 裔; 识典古籍 (found via shi_line_length check, ≥2 books: 《劉文房集》《唐詩類苑》)"
         }
       ]
     },
