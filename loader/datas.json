@@ -47,12 +47,6 @@
             "path": "幽梦影/youmengying.json",
             "tag": "content"
         },
-        "yudingquantangshi": {
-            "name": "御定全唐詩",
-            "id": 7,
-            "path": "御定全唐詩/json/",
-            "tag": "paragraphs"
-        },
         "caocao": {
             "name": "曹操诗集",
             "id": 8,
