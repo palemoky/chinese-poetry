@@ -116,7 +116,9 @@ Typo detection requires assessing your own confidence before acting. Apply the f
 
 You can name the work, author, and the correct line from your training data. Fix the character and cite the source in the `note` field.
 
-Example: "枫叶荻花秋索索" → you recognize《琵琶行》by 白居易，the correct line is "秋瑟瑟". Fix it.
+Example: a line reads "床前明月关" → you recognize 李白《静夜思》, the line is "床前明月光" in every edition. Fix it.
+
+**Textbook wording ≠ correct wording.** Many lines you "know" come from modern anthologies that changed the old text. 白居易《琵琶引》 reads "枫叶荻花秋**索索**" in 《全唐诗》 and Song-era sources (黄庭坚《山谷外集诗注》, 《舆地纪胜》); the familiar "秋瑟瑟" comes from Ming–Qing anthologies. That is an edition variant (异文), not a typo — do not change it. Fix only when the dataset's reading is attested in **no** edition; when in doubt, check 识典古籍 for older editions and mark `needs_review`.
 
 **Tier 2 — Mark `needs_review`, do not fix**
 
@@ -130,7 +132,7 @@ The threshold in plain terms: **if you are not willing to stake your confidence 
 
 Common typo patterns when Tier 1 applies:
 - Look-alike (形近字): 日/曰，己/已/巳，戊/戌/戍，土/士，末/未
-- Sound-alike (音近字): 关/光，索索/瑟瑟
+- Sound-alike (音近字): 关/光
 
 #### 2d. Do not change
 
