@@ -183,7 +183,7 @@ python3 scripts/shidian.py apply --work $W --reviewer <model or handle> --date Y
 ```
 
 Rules built into `analyze` (learned the hard way — keep them if you change it):
-- **Garbles replaced a character outside GB2312.** Every confirmed 御定 residue code but one, and every kana/PUA garble, hides a non-GB2312 character, so GB2312 candidates are OCR noise and are dropped. Exceptions exist for edition variants (e.g. 纤纤 vs 攕攕) — flag them in the note.
+- **Garbles almost always replaced a character outside GB2312.** Use this to rank candidates: non-GB2312 candidates first; a GB2312 candidate (often OCR noise) is accepted only with ≥2 books and ≥6 characters of matching context. Confirmed exceptions: 裔、綸、撲、峰、楹 — and edition variants such as 纤纤 vs 攕攕; flag these in the note.
 - **The same garble symbol or PUA code point can stand for different characters** in different files; each occurrence needs its own evidence.
 - **`□` gaps** are mostly lacunae in the base text. Filling one from another edition needs ≥2 independent books; if a book shows a box-like OCR char (`口 囗 丶 〇`) at the same spot, the source has the same gap — do not fill.
 - **Compare in simplified form** (`t2s` on both sides) so variants like 峯/峰 do not hide matches, but **write back with the dataset's own glyphs**: change only the inserted/deleted character, and use the form the dataset already uses (e.g. 搊 not 𫼝, 䕷 not 𧃲, 殢 not 𣨼).
