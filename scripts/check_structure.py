@@ -29,7 +29,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKIP = {'author', 'rank', 'settings', '表面结构字', 'error', 'fix_progress'}
-SKIP_DIRS = {'loader', 'strains', 'images', 'rank', 'error', 'scripts', '.git', '.claude'}
+SKIP_DIRS = {'loader', 'strains', 'images', 'rank', 'error', 'scripts', 'docs', '.git', '.claude', '.github'}
 
 SENT_SPLIT = re.compile(r'[，。！？；、,!?;：:]')
 NOTE = re.compile(r'（[^）]*）|\([^)]*\)')           # 夹注，如（一作……）

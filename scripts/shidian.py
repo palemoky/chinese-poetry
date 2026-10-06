@@ -362,8 +362,9 @@ def recompute_stats(progress):
     st = progress.setdefault('stats', {})
     statuses = collections.Counter(e.get('status') for e in progress['reviewed'].values())
     st['reviewed'] = len(progress['reviewed'])
-    for k in ('clean', 'fixed', 'needs_review'):
+    for k in ('clean', 'fixed', 'needs_review', 'out_of_scope'):
         st[k] = statuses.get(k, 0)
+    st['in_scope_files'] = st['reviewed'] - st['out_of_scope']
 
 
 def cmd_apply(args):

@@ -21,7 +21,7 @@ import os, json, re
 
 ROOT = os.path.dirname(os.path.abspath('fix_progress.json'))
 SKIP = {'author', 'rank', 'settings', '表面结构字', 'error', 'fix_progress'}
-SKIP_DIRS = {'loader', 'strains', 'images', 'rank', '.git', '.claude'}
+SKIP_DIRS = {'loader', 'strains', 'images', 'rank', 'error', 'scripts', 'docs', '.git', '.claude', '.github'}  # 全唐诗/error is out of scope
 CYRILLIC_GREEK = re.compile(r'[Ѐ-ӿͰ-Ͽ]')
 
 # Build full file list (alphabetical)
@@ -230,8 +230,9 @@ Status values:
 - `clean` — no issues found
 - `fixed` — issues found and corrected
 - `needs_review` — suspicious but not corrected; include details in `fixes` with `corrected: null`
+- `out_of_scope` — not part of the published dataset (currently all of `全唐诗/error/`, records the upstream project flagged as defective and `loader/datas.json` excludes); kept for reference, not counted as pending
 
-Also increment the top-level `stats` counters (`reviewed`, `clean`, `fixed`, `needs_review`).
+Also update the top-level `stats` counters (`reviewed`, `clean`, `fixed`, `needs_review`, `out_of_scope`, `in_scope_files`). The batch tools recompute them from file statuses automatically.
 
 ---
 
@@ -241,6 +242,6 @@ After the batch, summarize:
 - Files processed and their status
 - Total characters fixed
 - Any `needs_review` items with the suspect text and your reasoning
-- Overall progress: X / 1589 files reviewed
+- Overall progress: X in-scope files still `needs_review` (see `stats.in_scope_files` in `fix_progress.json`)
 
 **Do not commit.** The maintainer will review and commit manually.
