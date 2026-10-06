@@ -5,7 +5,7 @@
     "total_files": 1589,
     "reviewed": 1589,
     "clean": 410,
-    "fixed": 732,
+    "fixed": 733,
     "needs_review": 134,
     "out_of_scope": 313,
     "in_scope_files": 1276
@@ -127049,6 +127049,18 @@
           "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
+    },
+    "宋词/author.song.json": {
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[author table] 程、洪、可、李好古 1、李好古 2、李氏 1、李氏 2、刘镇 1、刘镇 2、陆、毛、牟、倪、潘、蒲寿、丘、阳居士、王庭、王炎 1、王炎 2、魏之、吴氏 1、吴氏 2、吴氏 3、吴淑姬 1、吴淑姬 2、奚？、谢、杨适 1、杨适 2、姚述尧 1、姚述尧 2、虞、曾原、张生 1、张生 2、赵崇、赵令、朱颜、刘子、曹",
+          "corrected": "[author table] 程珌、洪瑹、可旻、李好古1、李好古2、李氏1、李氏2、刘镇1、刘镇2、陆叡、毛珝、牟巘、倪偁、潘牥、蒲寿宬、丘崈、鮦阳居士、王庭珪、王炎1、王炎2、魏掞之、吴氏1、吴氏2、吴氏3、吴淑姬1、吴淑姬2、奚岊、谢薖、杨适1、杨适2、姚述尧1、姚述尧2、虞㠭、曾原郕、张生1、张生2、赵崇嶓、赵令畤、朱晞颜、刘子翬、曹邍",
+          "note": "Author names truncated by lost rare characters (程→程珌, 丘→丘崈, 赵令→赵令畤, 曹→曹邍 …) restored by matching the poems' author field (description checked where present); homonym numbering unified to the poems' form (李好古 1 → 李好古1); 2 empty duplicate entries dropped. 19 poem authors (韩淲, 张鎡, 陈瓘 …) still have no table entry."
+        }
+      ],
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5"
     }
   }
 }

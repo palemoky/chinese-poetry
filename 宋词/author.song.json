@@ -311,11 +311,6 @@
   }, 
   {
     "description": "--", 
-    "name": "曹", 
-    "short_description": ""
-  }, 
-  {
-    "description": "--", 
     "name": "曹宰", 
     "short_description": ""
   }, 
@@ -691,7 +686,7 @@
   }, 
   {
     "description": "--(1164－1242) 字怀古，号水，遗民，休宁 (今属安徽) 人。绍熙四年 (1193) 进士。历官翰林学士、知制诰、宝文阁学士、知福州兼福建安抚使。有《水集》、《水词》。", 
-    "name": "程", 
+    "name": "程珌", 
     "short_description": ""
   }, 
   {
@@ -1556,7 +1551,7 @@
   }, 
   {
     "description": "--字叔，号空同词客。有《空同词》。", 
-    "name": "洪", 
+    "name": "洪瑹", 
     "short_description": null
   }, 
   {
@@ -2091,7 +2086,7 @@
   }, 
   {
     "description": "--", 
-    "name": "可", 
+    "name": "可旻", 
     "short_description": null
   }, 
   {
@@ -2221,12 +2216,12 @@
   }, 
   {
     "description": "--", 
-    "name": "李好古 1", 
+    "name": "李好古1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "李好古 2", 
+    "name": "李好古2", 
     "short_description": null
   }, 
   {
@@ -2416,12 +2411,12 @@
   }, 
   {
     "description": "--", 
-    "name": "李氏 1", 
+    "name": "李氏1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "李氏 2", 
+    "name": "李氏2", 
     "short_description": null
   }, 
   {
@@ -3066,12 +3061,12 @@
   }, 
   {
     "description": "--", 
-    "name": "刘镇 1", 
+    "name": "刘镇1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "刘镇 2", 
+    "name": "刘镇2", 
     "short_description": null
   }, 
   {
@@ -3097,11 +3092,6 @@
   {
     "description": "--", 
     "name": "刘子寰", 
-    "short_description": null
-  }, 
-  {
-    "description": "--", 
-    "name": "刘子", 
     "short_description": null
   }, 
   {
@@ -3201,7 +3191,7 @@
   }, 
   {
     "description": "--", 
-    "name": "陆", 
+    "name": "陆叡", 
     "short_description": null
   }, 
   {
@@ -3356,7 +3346,7 @@
   }, 
   {
     "description": "--", 
-    "name": "毛", 
+    "name": "毛珝", 
     "short_description": null
   }, 
   {
@@ -3421,7 +3411,7 @@
   }, 
   {
     "description": "--", 
-    "name": "牟", 
+    "name": "牟巘", 
     "short_description": null
   }, 
   {
@@ -3456,7 +3446,7 @@
   }, 
   {
     "description": "--", 
-    "name": "倪", 
+    "name": "倪偁", 
     "short_description": null
   }, 
   {
@@ -3506,7 +3496,7 @@
   }, 
   {
     "description": "--(1205－1246) 字庭坚，号紫岩，初名公筠，福州富沙 (今属福建) 人。端平二年 (1235) 进士。历太学正，通判潭州。著有《紫岩集》。今有辑本《紫岩词》。", 
-    "name": "潘", 
+    "name": "潘牥", 
     "short_description": null
   }, 
   {
@@ -3606,7 +3596,7 @@
   }, 
   {
     "description": "--", 
-    "name": "蒲寿", 
+    "name": "蒲寿宬", 
     "short_description": null
   }, 
   {
@@ -3671,7 +3661,7 @@
   }, 
   {
     "description": "--", 
-    "name": "丘", 
+    "name": "丘崈", 
     "short_description": null
   }, 
   {
@@ -4356,7 +4346,7 @@
   }, 
   {
     "description": "--", 
-    "name": "阳居士", 
+    "name": "鮦阳居士", 
     "short_description": null
   }, 
   {
@@ -4661,7 +4651,7 @@
   }, 
   {
     "description": "--", 
-    "name": "王庭", 
+    "name": "王庭珪", 
     "short_description": null
   }, 
   {
@@ -4696,12 +4686,12 @@
   }, 
   {
     "description": "--", 
-    "name": "王炎 1", 
+    "name": "王炎1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "王炎 2", 
+    "name": "王炎2", 
     "short_description": null
   }, 
   {
@@ -4906,7 +4896,7 @@
   }, 
   {
     "description": "--", 
-    "name": "魏之", 
+    "name": "魏掞之", 
     "short_description": null
   }, 
   {
@@ -5106,17 +5096,17 @@
   }, 
   {
     "description": "--", 
-    "name": "吴氏 1", 
+    "name": "吴氏1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "吴氏 2", 
+    "name": "吴氏2", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "吴氏 3", 
+    "name": "吴氏3", 
     "short_description": null
   }, 
   {
@@ -5141,12 +5131,12 @@
   }, 
   {
     "description": "--", 
-    "name": "吴淑姬 1", 
+    "name": "吴淑姬1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "吴淑姬 2", 
+    "name": "吴淑姬2", 
     "short_description": null
   }, 
   {
@@ -5226,7 +5216,7 @@
   }, 
   {
     "description": "--", 
-    "name": "奚？", 
+    "name": "奚岊", 
     "short_description": null
   }, 
   {
@@ -5331,7 +5321,7 @@
   }, 
   {
     "description": "--(？－1116) 字幼，号竹友，抚州临川 (今江西抚州) 人。逸之从弟。有《竹友词》。", 
-    "name": "谢", 
+    "name": "谢薖", 
     "short_description": null
   }, 
   {
@@ -5746,12 +5736,12 @@
   }, 
   {
     "description": "--", 
-    "name": "杨适 1", 
+    "name": "杨适1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "杨适 2", 
+    "name": "杨适2", 
     "short_description": null
   }, 
   {
@@ -5826,12 +5816,12 @@
   }, 
   {
     "description": "--", 
-    "name": "姚述尧 1", 
+    "name": "姚述尧1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "姚述尧 2", 
+    "name": "姚述尧2", 
     "short_description": null
   }, 
   {
@@ -6071,7 +6061,7 @@
   }, 
   {
     "description": "--", 
-    "name": "虞", 
+    "name": "虞㠭", 
     "short_description": null
   }, 
   {
@@ -6251,7 +6241,7 @@
   }, 
   {
     "description": "--", 
-    "name": "曾原", 
+    "name": "曾原郕", 
     "short_description": null
   }, 
   {
@@ -6506,12 +6496,12 @@
   }, 
   {
     "description": "--", 
-    "name": "张生 1", 
+    "name": "张生1", 
     "short_description": null
   }, 
   {
     "description": "--", 
-    "name": "张生 2", 
+    "name": "张生2", 
     "short_description": null
   }, 
   {
@@ -6731,7 +6721,7 @@
   }, 
   {
     "description": "--", 
-    "name": "赵崇", 
+    "name": "赵崇嶓", 
     "short_description": null
   }, 
   {
@@ -6806,7 +6796,7 @@
   }, 
   {
     "description": "--(1051－1134) 初字景贶，苏轼改为德麟，自号聊复翁。涿郡 (今河北蓟县) 人。燕王德昭玄孙。元中，签书颍州公事，坐与苏轼交通，罚金，入党籍。后官右朝请大夫，改右监门卫大将军，营州防御使，迁洪州观察使。绍兴初，袭封安定郡王，同知行在大宗正事。著有《侯鲭录》、《聊复集》。词以婉柔胜，有赵万里辑本。", 
-    "name": "赵令", 
+    "name": "赵令畤", 
     "short_description": null
   }, 
   {
@@ -7391,7 +7381,7 @@
   }, 
   {
     "description": "--", 
-    "name": "朱颜", 
+    "name": "朱晞颜", 
     "short_description": null
   }, 
   {
@@ -7671,7 +7661,7 @@
   }, 
   {
     "description": "--(1101-1147) 字彦冲，号屏山，一号病翁，建州崇安 (今属福建) 人。父场死于靖康之难，以荫补承务郎，通判兴化军。辞归武夷山，专事讲学。学者称为屏山先生。有《屏山集》。", 
-    "name": "刘子", 
+    "name": "刘子翬", 
     "short_description": null
   }, 
   {
@@ -7716,7 +7706,7 @@
   }, 
   {
     "description": "--字择可，号松山，贾似道门客。有赵万里辑《松山词》。", 
-    "name": "曹", 
+    "name": "曹邍", 
     "short_description": null
   }, 
   {
