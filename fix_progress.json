@@ -4,8 +4,8 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 804,
-    "fixed": 435,
+    "clean": 734,
+    "fixed": 505,
     "needs_review": 350
   },
   "reviewed": {
@@ -53,10 +53,16 @@
       "fixes": []
     },
     "御定全唐詩/json/770.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "更得孤卿老書劄",
+          "corrected": "更得孤卿老書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.42000.json) reads 「更得孤卿老書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/771.json": {
       "date": "2026-06-27",
@@ -453,6 +459,11 @@
           "original": "言拜舜禹，舉颿淩鬥牛。——韓愈\",\n",
           "corrected": "言拜舜禹，舉颿淩斗牛。——韓愈\",\n",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "陰焰颭犀劄",
+          "corrected": "陰焰颭犀札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.43000.json) reads 「陰燄颭犀札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -652,6 +663,11 @@
           "original": "憐高幡幟，極目平升鬥。\",\n    ",
           "corrected": "憐高幡幟，極目平升斗。\",\n    ",
           "note": "Simplified→traditional conversion error: 升鬥 → 升斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "能射穿七劄",
+          "corrected": "能射穿七札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.44000.json) reads 「能射穿七札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -744,6 +760,16 @@
           "original": "風回松竹動，人息鬥牛寒。此後思良集，",
           "corrected": "風回松竹動，人息斗牛寒。此後思良集，",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "蒼蒼與水準",
+          "corrected": "蒼蒼與水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.44000.json) reads 「蒼蒼與水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "書劄轉悠哉",
+          "corrected": "書札轉悠哉",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.44000.json) reads 「書札轉悠哉」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -778,11 +804,16 @@
           "original": "春歸華柳發，世故陵穀變。擾擾陌上心，",
           "corrected": "春歸華柳發，世故陵谷變。擾擾陌上心，",
           "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "乍削柳枝聊代劄",
+          "corrected": "乍削柳枝聊代札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.44000.json) reads 「乍削柳枝聊代札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/816.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -795,6 +826,16 @@
           "original": "霜剪荍y9心",
           "corrected": "霜剪荍𦾾心",
           "note": "Crawl residue \"y9\" → 𦾾: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "擲劄成柳枝",
+          "corrected": "擲札成柳枝",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.44000.json) reads 「擲札成柳枝」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "止水準香砌",
+          "corrected": "止水平香砌",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.44000.json) reads 「止水平香砌」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -948,7 +989,7 @@
       ]
     },
     "御定全唐詩/json/830.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -996,6 +1037,11 @@
           "original": "交。霜椑如蜜裹，□□似鹽苞。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「風栗」 supported by only 1 book on 识典古籍 (《禪月集》禪月集卷十“五言律詩三十一首”); not filled"
+        },
+        {
+          "original": "泥牆劄祖碑",
+          "corrected": "泥牆札祖碑",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.45000.json) reads 「泥牆札祖碑」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -1109,10 +1155,16 @@
       ]
     },
     "御定全唐詩/json/839.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "若有東來劄",
+          "corrected": "若有東來札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.46000.json) reads 「若有東來札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/840.json": {
       "date": "2026-06-27",
@@ -1133,10 +1185,16 @@
       "fixes": []
     },
     "御定全唐詩/json/842.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "珍重竺幹師",
+          "corrected": "珍重竺乾師",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.46000.json) reads 「珍重竺乾師」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/853.json": {
       "date": "2026-10-06",
@@ -1157,6 +1215,11 @@
           "original": "戚咸自貽。何不若範蠡，扁舟無還期。\"",
           "corrected": "戚咸自貽。何不若范蠡，扁舟無還期。\"",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "片劄降聊城",
+          "corrected": "片札降聊城",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.47000.json) reads 「片札降聊城」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -1185,10 +1248,16 @@
       "fixes": []
     },
     "御定全唐詩/json/848.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "有時開禦劄",
+          "corrected": "有時開禦札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.47000.json) reads 「有時開御札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/849.json": {
       "date": "2026-06-27",
@@ -1249,10 +1318,16 @@
       "fixes": []
     },
     "御定全唐詩/json/846.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "回劄應緘十色箋",
+          "corrected": "回札應緘十色箋",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.46000.json) reads 「迴札應緘十色牋」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/847.json": {
       "date": "2026-10-03",
@@ -1826,14 +1901,24 @@
       "fixes": []
     },
     "御定全唐詩/json/883.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "王季友1",
           "corrected": null,
           "note": "Author field of no#7 《青出藍》 and no#8 《皇帝移晦日為中和節》: trailing '1' in '王季友1'. Likely an ASCII placeholder code or disambiguation suffix; '1' does not appear in the historical poet's name. Requires verification against physical edition."
+        },
+        {
+          "original": "夜含星斗分幹象",
+          "corrected": "夜含星斗分乾象",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.48000.json) reads 「夜含星斗分乾象」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "人馬曉來兼手劄",
+          "corrected": "人馬曉來兼手札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.48000.json) reads 「人馬曉來兼手札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -1891,6 +1976,11 @@
           "original": "思共攀陟，東南看鬥牛。\"\n     ",
           "corrected": "思共攀陟，東南看斗牛。\"\n     ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "署祝紆禦劄",
+          "corrected": "署祝紆禦札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.49000.json) reads 「署祝紆御札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -1996,7 +2086,7 @@
       ]
     },
     "御定全唐詩/json/765.json": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -2009,6 +2099,11 @@
           "original": "朽索何足擬。苟非dJ之為，胡可力行此",
           "corrected": "朽索何足擬。苟非綸之為，胡可力行此",
           "note": "needs_review: crawl residue \"dJ\"; no matching passage found on 识典古籍 | resolved 2026-10-05: Crawl residue \"dJ\" → 綸; 识典古籍 (found via shi_line_length check, ≥2 books: 《夔州府志》《蜀中廣記》)"
+        },
+        {
+          "original": "葉葉幹紅飛",
+          "corrected": "葉葉乾紅飛",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.42000.json) reads 「葉葉乾紅飛」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2149,7 +2244,7 @@
       ]
     },
     "御定全唐詩/json/264.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -2167,6 +2262,11 @@
           "original": "登略彴橋，況榜龍fp船。",
           "corrected": null,
           "note": "needs_review: crawl residue \"fp\"; 识典古籍 candidates ambiguous: 舺"
+        },
+        {
+          "original": "虛室留舊劄",
+          "corrected": "虛室留舊札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.13000.json) reads 「虛室留舊札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2200,14 +2300,19 @@
       "fixes": []
     },
     "御定全唐詩/json/268.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "cB々吠聲曉，洞府有仙厖。",
           "corrected": null,
           "note": "needs_review: 'cB々' appears to be a bare ASCII placeholder for a rare/unencoded character; in 耿湋《送葉尊師歸處州》no.109; cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "塵劄在空床",
+          "corrected": "塵札在空床",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.13000.json) reads 「塵札在空牀」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2242,6 +2347,16 @@
           "original": "  \"不學鑄金思範蠡，乞言猶許上丹墀",
           "corrected": "  \"不學鑄金思范蠡，乞言猶許上丹墀",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "季劄是鄉人",
+          "corrected": "季札是鄉人",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.14000.json) reads 「季札是鄉人」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "今征草澤臣",
+          "corrected": "今徵草澤臣",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.14000.json) reads 「今徴草澤臣」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2366,6 +2481,11 @@
           "original": "月逢殷浩，緣江送範雲。\",\n    ",
           "corrected": "月逢殷浩，緣江送范雲。\",\n    ",
           "note": "Simplified→traditional conversion error: 範雲 → 范雲 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "新荷共水準",
+          "corrected": "新荷共水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.15000.json) reads 「新荷共水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2605,7 +2725,7 @@
       ]
     },
     "御定全唐詩/json/310.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -2648,6 +2768,11 @@
           "original": "程。放石試淺深，eg壁蛇鳥驚。",
           "corrected": "程。放石試淺深，䃂壁蛇鳥驚。",
           "note": "Crawl residue \"eg\" → 䃂; 识典古籍 (/zh/): 《唐詩類苑》唐詩類苑卷第三十一 reads 「石試淺深䃂壁蛇鳥驚」 (8 hit(s))"
+        },
+        {
+          "original": "聞哭竺幹師",
+          "corrected": "聞哭竺乾師",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.16000.json) reads 「聞哭竺乾師」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2702,6 +2827,11 @@
           "original": "岑。恩偏不敢去，範蠡畏熔金。\"\n  ",
           "corrected": "岑。恩偏不敢去，范蠡畏熔金。\"\n  ",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "雅言書一劄",
+          "corrected": "雅言書一札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.16000.json) reads 「雅言書一札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2778,6 +2908,11 @@
           "original": " \"送君當歲暮，鬥酒破離顏。車騎擁寒",
           "corrected": " \"送君當歲暮，斗酒破離顏。車騎擁寒",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "書劄訪沈冥",
+          "corrected": "書札訪沈冥",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.17000.json) reads 「書札訪沈冥」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2794,13 +2929,19 @@
       ]
     },
     "御定全唐詩/json/326.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "賓筵征稷嗣",
+          "corrected": "賓筵徵稷嗣",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.17000.json) reads 「賓筵徴稷嗣」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/327.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -2813,6 +2954,11 @@
           "original": "山祔禮崇。從龍開ek路，合璧向方中。",
           "corrected": "山祔禮崇。從龍開𡑞路，合璧向方中。",
           "note": "Crawl residue \"ek\" → 𡑞; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷三百二十七“權德輿” reads 「崇從龍開𡑞路合璧向」 (5 hit(s))"
+        },
+        {
+          "original": "瑤瑟韻清征",
+          "corrected": "瑤瑟韻清徵",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.17000.json) reads 「瑤瑟韻清徴」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2849,10 +2995,16 @@
       ]
     },
     "御定全唐詩/json/329.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "琴瑟諧宮征",
+          "corrected": "琴瑟諧宮徵",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.17000.json) reads 「琴瑟諧宮徴」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/330.json": {
       "date": "2026-06-26",
@@ -2901,6 +3053,16 @@
           "original": "e\": \"清明日後土祠送田徹\",\n ",
           "corrected": "e\": \"清明日后土祠送田徹\",\n ",
           "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "征歌物更妍",
+          "corrected": "徵歌物更妍",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.17000.json) reads 「徴歌物更妍」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "清商怨征聲何切",
+          "corrected": "清商怨徵聲何切",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.17000.json) reads 「清商怨徴聲何切」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2954,7 +3116,7 @@
       ]
     },
     "御定全唐詩/json/337.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -2977,6 +3139,16 @@
           "original": "今聖政初，恩澤完vr狘。胡為不自暇，",
           "corrected": "今聖政初，恩澤完䎉狘。胡為不自暇，",
           "note": "Crawl residue \"vr\" → 䎉; 识典古籍 (/zh/): 《唐宋四家詩選》韓詩卷二 reads 「初恩澤完䎉狘胡為不」 (3 hit(s))"
+        },
+        {
+          "original": "書劄何翩翩",
+          "corrected": "書札何翩翩",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.17000.json) reads 「書札何翩翩」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "征租聚異物",
+          "corrected": "徵租聚異物",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.17000.json) reads 「徴租聚異物」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -2987,7 +3159,7 @@
       "fixes": []
     },
     "御定全唐詩/json/339.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -3020,11 +3192,16 @@
           "original": "齒牙嚼齧舌齶反，電光䃸磹赬目fu，頊冥收威避玄根，",
           "corrected": "齒牙嚼齧舌齶反，電光䃸磹赬目䁔，頊冥收威避玄根，",
           "note": "Crawl residue restored via code table scripts/yuding_codes.tsv (twin_fix.py)"
+        },
+        {
+          "original": "上書求詔征",
+          "corrected": "上書求詔徵",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「上書求詔徴」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/340.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -3047,6 +3224,16 @@
           "original": "詎可陵崆uu",
           "corrected": "詎可陵崆㟅",
           "note": "Crawl residue \"uu\" → 㟅: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "兩以諫官征不起",
+          "corrected": "兩以諫官徵不起",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「兩以諫官徴不起」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "憶昔初蒙博士征",
+          "corrected": "憶昔初蒙博士徵",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「憶昔初蒙博士徴」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -3068,7 +3255,7 @@
       ]
     },
     "御定全唐詩/json/342.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -3096,6 +3283,11 @@
           "original": "不危。我亦平行蹋y槱e，",
           "corrected": "不危。我亦平行蹋𠿕槱e，",
           "note": "Crawl residue \"y\" → 𠿕; 识典古籍 (/zh/): 《五百家注昌黎文集》五百家注昌黎文集卷七 reads 「亦平行蹋𠿕槱」 (9 hit(s))"
+        },
+        {
+          "original": "曲江汀瀅水準杯",
+          "corrected": "曲江汀瀅水平杯",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「曲江汀瀅水平盃」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -3164,7 +3356,7 @@
       "fixes": []
     },
     "御定全唐詩/json/349.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -3177,6 +3369,11 @@
           "original": "nNvF一席眠還坐，蛙噪",
           "corrected": null,
           "note": "needs_review: crawl residue \"nNvF\"; 识典古籍 candidates ambiguous: 薩藭"
+        },
+        {
+          "original": "白黑蒼然發到眉",
+          "corrected": "白黑蒼然髮到眉",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「白黑蒼然髪到眉」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -3285,7 +3482,7 @@
       ]
     },
     "御定全唐詩/json/352.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -3298,6 +3495,11 @@
           "original": "怨鴻鵠，環洲凋蘭mL。暮景回西岑，北",
           "corrected": null,
           "note": "needs_review: crawl residue \"mL\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "齒疏發就種",
+          "corrected": "齒疏髮就種",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「齒疎髪就種」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -3319,10 +3521,21 @@
       ]
     },
     "御定全唐詩/json/354.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "水準苗漠漠",
+          "corrected": "水平苗漠漠",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「水平苗漠漠」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "森然就筆劄",
+          "corrected": "森然就筆札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「森然就筆札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/355.json": {
       "date": "2026-10-06",
@@ -3333,6 +3546,21 @@
           "original": "矢。今朝會荊巒，鬥酒相宴喜。\",\n ",
           "corrected": "矢。今朝會荊巒，斗酒相宴喜。\",\n ",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "玉劄工紬繹",
+          "corrected": "玉札工紬繹",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「玉札工紬繹」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "發稀冠自偏",
+          "corrected": "髮稀冠自偏",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「髪稀冠自偏」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "酣暢浹肌發",
+          "corrected": "酣暢浹肌髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「酣暢浹肌髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -3349,16 +3577,33 @@
       "fixes": []
     },
     "御定全唐詩/json/358.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "發少嫌梳利",
+          "corrected": "髮少嫌梳利",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「髪少嫌梳利」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "書劄不如詩",
+          "corrected": "書札不如詩",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「書札不如詩」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/359.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "初服已驚玄發長",
+          "corrected": "初服已驚玄髮長",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.19000.json) reads 「初服已驚玄髪長」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/360.json": {
       "date": "2026-10-06",
@@ -3593,10 +3838,16 @@
       "fixes": []
     },
     "御定全唐詩/json/383.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "書劄與詩文",
+          "corrected": "書札與詩文",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.20000.json) reads 「書札與詩文」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/384.json": {
       "date": "2026-06-26",
@@ -3971,7 +4222,7 @@
       ]
     },
     "御定全唐詩/json/406.json": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -4019,6 +4270,11 @@
           "original": "那複敢崴",
           "corrected": "那複敢崴",
           "note": "[shi_line_length] attested as-is in 3 books on 识典古籍 (唐詩紀事, 唐詩類苑, 詩雋類函); no change"
+        },
+        {
+          "original": "弢弓思徹劄",
+          "corrected": "弢弓思徹札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.21000.json) reads 「弢弓思徹札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -4112,10 +4368,21 @@
       "fixes": []
     },
     "御定全唐詩/json/413.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "塵壁暗埋悲舊劄",
+          "corrected": "塵壁暗埋悲舊札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.21000.json) reads 「塵壁暗埋悲舊札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "親情書劄相安慰",
+          "corrected": "親情書札相安慰",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.21000.json) reads 「親情書札相安慰」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/414.json": {
       "date": "2026-10-03",
@@ -4191,7 +4458,7 @@
       ]
     },
     "御定全唐詩/json/419.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4214,6 +4481,11 @@
           "original": "挑紋變di力倍費",
           "corrected": "挑紋變䌰力倍費",
           "note": "Crawl residue \"di\" → 䌰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "惉滯難令季劄辨",
+          "corrected": "惉滯難令季札辨",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.21000.json) reads 「惉滯難令季札辨」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -4268,7 +4540,7 @@
       ]
     },
     "御定全唐詩/json/423.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -4281,6 +4553,11 @@
           "original": "消梨拋五遍，娑葛fg三台。已許尊前倒",
           "corrected": null,
           "note": "needs_review: crawl residue \"fg\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "書劄不如詩",
+          "corrected": "書札不如詩",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「書札不如詩」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -4331,10 +4608,16 @@
       ]
     },
     "御定全唐詩/json/428.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "昆明春水準",
+          "corrected": "昆明春水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.22000.json) reads 「昆明春水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/429.json": {
       "date": "2026-10-03",
@@ -4397,16 +4680,28 @@
       ]
     },
     "御定全唐詩/json/432.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "開緘見手劄",
+          "corrected": "開緘見手札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.22000.json) reads 「開緘見手札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/433.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "況念夭劄時",
+          "corrected": "況念夭札時",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.22000.json) reads 「況念夭札時」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/434.json": {
       "date": "2026-10-06",
@@ -4443,10 +4738,16 @@
       ]
     },
     "御定全唐詩/json/436.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "策目穿如劄",
+          "corrected": "策目穿如札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.22000.json) reads 「策目穿如札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/437.json": {
       "date": "2026-06-26",
@@ -4501,7 +4802,7 @@
       ]
     },
     "御定全唐詩/json/442.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4514,6 +4815,11 @@
           "original": "qL草四時青",
           "corrected": "䕭草四時青",
           "note": "Crawl residue \"qL\" → 䕭: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "私心事竺幹",
+          "corrected": "私心事竺乾",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.23000.json) reads 「私心事竺乾」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -4542,17 +4848,28 @@
           "original": "唯變市朝，兼亦遷陵穀。\",\n    ",
           "corrected": "唯變市朝，兼亦遷陵谷。\",\n    ",
           "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "稻水準漠漠",
+          "corrected": "稻水平漠漠",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.23000.json) reads 「稻水平漠漠」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/445.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "此是竺幹教",
+          "corrected": "此是竺乾教",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.23000.json) reads 「此是竺乾教」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/446.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -4575,6 +4892,21 @@
           "original": "fq背蕭蕭聞雨滴",
           "corrected": "䑳背蕭蕭聞雨滴",
           "note": "Crawl residue \"fq\" → 䑳: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "亂峰圍繞水準鋪",
+          "corrected": "亂峰圍繞水平鋪",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.23000.json) reads 「亂峰圍繞水平鋪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "鋪碧水準流",
+          "corrected": "鋪碧水平流",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.23000.json) reads 「鋪碧水平流」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "水準流",
+          "corrected": "水平流",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.23000.json) reads 「水平流」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -4669,10 +5001,16 @@
       ]
     },
     "御定全唐詩/json/453.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "聞于竺幹師",
+          "corrected": "聞于竺乾師",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.24000.json) reads 「聞於竺乾師」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/454.json": {
       "date": "2026-10-03",
@@ -4732,10 +5070,16 @@
       "fixes": []
     },
     "御定全唐詩/json/458.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "竺幹師是古先生",
+          "corrected": "竺乾師是古先生",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.24000.json) reads 「竺乾師是古先生」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/459.json": {
       "date": "2026-06-26",
@@ -5039,10 +5383,16 @@
       "fixes": []
     },
     "御定全唐詩/json/489.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "書劄通相思",
+          "corrected": "書札通相思",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.26000.json) reads 「書札通相思」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/490.json": {
       "date": "2026-06-26",
@@ -5183,10 +5533,21 @@
       "fixes": []
     },
     "御定全唐詩/json/503.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "要傳書劄去",
+          "corrected": "要傳書札去",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.27000.json) reads 「要傳書札去」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "書劄何因寄北軍",
+          "corrected": "書札何因寄北軍",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.27000.json) reads 「書札何因寄北軍」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/504.json": {
       "date": "2026-06-26",
@@ -5219,10 +5580,16 @@
       "fixes": []
     },
     "御定全唐詩/json/509.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "何人寄書劄",
+          "corrected": "何人寄書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.27000.json) reads 「何人寄書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/510.json": {
       "date": "2026-06-26",
@@ -5303,7 +5670,7 @@
       "fixes": []
     },
     "御定全唐詩/json/520.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -5326,6 +5693,26 @@
           "original": "cq橛與棟樑，施之皆",
           "corrected": "㨝橛與棟樑，施之皆",
           "note": "Crawl residue \"cq\" → 㨝; 识典古籍 (/zh/): 《唐詩》唐詩卷四百九十九 reads 「者細一指㨝橛與棟樑」 (4 hit(s))"
+        },
+        {
+          "original": "壯發綠緌緌",
+          "corrected": "壯髮綠緌緌",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「壯髪綠緌緌」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "吏發已如絲",
+          "corrected": "吏髮已如絲",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「吏髪已如絲」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "蕭蕭玄發抽",
+          "corrected": "蕭蕭玄髮抽",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「蕭蕭玄髪抽」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "喃喃送君劄",
+          "corrected": "喃喃送君札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「喃喃送君札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -5360,14 +5747,30 @@
           "original": "  \"惆悵無因見範蠡，參差煙樹五湖東",
           "corrected": "  \"惆悵無因見范蠡，參差煙樹五湖東",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "毛欺皇后發",
+          "corrected": "毛欺皇后髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「毛欺皇后髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "斜倚玉窗鸞發女",
+          "corrected": "斜倚玉窗鸞髮女",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「斜倚玉窓鸞髪女」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/523.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "發短梳未足",
+          "corrected": "髮短梳未足",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「髪短梳未足」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/524.json": {
       "date": "2026-10-06",
@@ -5382,10 +5785,26 @@
       ]
     },
     "御定全唐詩/json/525.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "嗟君發似絲",
+          "corrected": "嗟君髮似絲",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「嗟君髪似絲」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "何人初發白",
+          "corrected": "何人初髮白",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「何人初髪白」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "媚發輕垂額",
+          "corrected": "媚髮輕垂額",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「媚髪輕垂額」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/526.json": {
       "date": "2026-10-06",
@@ -5396,6 +5815,11 @@
           "original": "  \"他歲若教如範蠡，也應須入五湖煙",
           "corrected": "  \"他歲若教如范蠡，也應須入五湖煙",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "玄發盡驚為客換",
+          "corrected": "玄髮盡驚為客換",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「玄髪盡驚爲客換」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -5406,10 +5830,16 @@
       "fixes": []
     },
     "御定全唐詩/json/528.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "清鏡曉看發",
+          "corrected": "清鏡曉看髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「清鏡曉看髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/529.json": {
       "date": "2026-10-03",
@@ -5435,10 +5865,16 @@
       "fixes": []
     },
     "御定全唐詩/json/531.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "黃發竟無成",
+          "corrected": "黃髮竟無成",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「黃髪竟無成」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/532.json": {
       "date": "2026-10-03",
@@ -5488,6 +5924,11 @@
           "original": "虞世，獨倚江樓笑範增。\"\n     ",
           "corrected": "虞世，獨倚江樓笑范增。\"\n     ",
           "note": "Simplified→traditional conversion error: 範增 → 范增 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "紫荷飛盡發皤皤",
+          "corrected": "紫荷飛盡髮皤皤",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.29000.json) reads 「紫荷飛盡髪皤皤」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -5505,6 +5946,11 @@
           "original": "       \"綠發監州丹府歸，還家",
           "corrected": "       \"綠髮監州丹府歸，還家",
           "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "玄發盡驚為客換",
+          "corrected": "玄髮盡驚為客換",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「玄髪盡驚爲客換」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -5556,11 +6002,26 @@
           "original": "  \"賒取松醪一鬥酒，與君相伴灑煩襟",
           "corrected": "  \"賒取松醪一斗酒，與君相伴灑煩襟",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "尖發誰非怨別人",
+          "corrected": "尖髮誰非怨別人",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.29000.json) reads 「尖髪誰非怨別人」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "蕭蕭發彩涼",
+          "corrected": "蕭蕭髮彩涼",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.29000.json) reads 「蕭蕭髪彩涼」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "曉出揲雲發",
+          "corrected": "曉出揲雲髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.29000.json) reads 「曉出揲雲髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/541.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -5573,6 +6034,16 @@
           "original": "e5敗秉爺笏",
           "corrected": "䦱敗秉爺笏",
           "note": "Crawl residue \"e5\" → 䦱: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "鄒顛蓐發軟",
+          "corrected": "鄒顛蓐髮軟",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.29000.json) reads 「鄒颠蓐髪軟」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "發綠齒尚齊",
+          "corrected": "髮綠齒尚齊",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.29000.json) reads 「髪綠齒尚齊」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -5597,6 +6068,11 @@
           "original": "       \"白發麻衣破，還譙別弟",
           "corrected": "       \"白髮麻衣破，還譙別弟",
           "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "穿發白蒿簪",
+          "corrected": "穿髮白蒿簪",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.30000.json) reads 「穿髪白蒿簪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -5661,16 +6137,33 @@
       "fixes": []
     },
     "御定全唐詩/json/553.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "書劄寄無由",
+          "corrected": "書札寄無由",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.30000.json) reads 「書札寄無由」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "朝夕欲征黃霸還",
+          "corrected": "朝夕欲徵黃霸還",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.30000.json) reads 「朝夕欲徴黃霸還」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/554.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "為予書劄頻",
+          "corrected": "為予書札頻",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.30000.json) reads 「爲予書札頻」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/555.json": {
       "date": "2026-10-06",
@@ -5698,6 +6191,11 @@
           "original": "海雲冒營丘。慚無鬥酒瀉，敢望禦重裘。",
           "corrected": "海雲冒營丘。慚無斗酒瀉，敢望禦重裘。",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "獨禮竺幹公",
+          "corrected": "獨禮竺乾公",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.30000.json) reads 「獨禮竺乾公」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -5870,14 +6368,35 @@
           "original": "       \"鬥牛初過伏，菡萏欲香",
           "corrected": "       \"斗牛初過伏，菡萏欲香",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "書劄若為傳",
+          "corrected": "書札若為傳",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.31000.json) reads 「書札若爲傳」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "欲憑將一劄",
+          "corrected": "欲憑將一札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.31000.json) reads 「欲憑將一札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/573.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "數行望外劄",
+          "corrected": "數行望外札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.31000.json) reads 「數行望外札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "便寄相思劄",
+          "corrected": "便寄相思札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.31000.json) reads 「便寄相思札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/574.json": {
       "date": "2026-10-06",
@@ -6027,20 +6546,52 @@
           "original": "想當戰國開時有，範蠡扁舟祗此中。\"\n",
           "corrected": "想當戰國開時有，范蠡扁舟祗此中。\"\n",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "空將鶴發期",
+          "corrected": "空將鶴髮期",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.32000.json) reads 「空將鶴髪期」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/588.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "莫惜閑書劄",
+          "corrected": "莫惜閑書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.32000.json) reads 「莫惜閑書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "此去勤書劄",
+          "corrected": "此去勤書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.32000.json) reads 「此去勤書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/589.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "盈征瑞不愆",
+          "corrected": "盈徵瑞不愆",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.32000.json) reads 「盈徴瑞不愆」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "內殿頻征入",
+          "corrected": "內殿頻徵入",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.32000.json) reads 「內殿頻徴入」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "免教垂素發",
+          "corrected": "免教垂素髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.32000.json) reads 「免教垂素髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/590.json": {
       "date": "2026-10-03",
@@ -6066,28 +6617,55 @@
       "fixes": []
     },
     "御定全唐詩/json/592.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "驅囚繞廊屋，bb々如牛羊。",
           "corrected": null,
           "note": "needs_review: 'bb々' bare ASCII placeholder with 々; in 曹鄴《奉命齊州推事畢寄本府尚書》; context is prisoners herded (___々如牛羊); cannot determine correct character without authoritative source"
+        },
+        {
+          "original": "到城鬢似發",
+          "corrected": "到城鬢似髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.32000.json) reads 「到城鬢似髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "不見昨日發",
+          "corrected": "不見昨日髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.32000.json) reads 「不見昨日髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/593.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "得見齒發暮",
+          "corrected": "得見齒髮暮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「得見齒髪暮」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "齒發老未衰",
+          "corrected": "齒髮老未衰",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「齒髪老未衰」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/594.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "發白為吟詩",
+          "corrected": "髮白為吟詩",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「髪白爲吟詩」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/595.json": {
       "date": "2026-06-26",
@@ -6096,10 +6674,16 @@
       "fixes": []
     },
     "御定全唐詩/json/596.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "為君玄發衰",
+          "corrected": "為君玄髮衰",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「爲君玄髪衰」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/597.json": {
       "date": "2026-10-06",
@@ -6162,14 +6746,25 @@
           "original": "  \"三尺晶熒射鬥牛，豈隨凡手報冤讎",
           "corrected": "  \"三尺晶熒射斗牛，豈隨凡手報冤讎",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "鶴發半垂龍節在",
+          "corrected": "鶴髮半垂龍節在",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「鶴髪半垂龍節在」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/603.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "衰發暗添頭",
+          "corrected": "衰髮暗添頭",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「衰髪暗添頭」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/604.json": {
       "date": "2026-10-06",
@@ -6240,11 +6835,26 @@
           "original": " \"退歸舊隱來，鬥酒入茅茨。雞黍匪家",
           "corrected": " \"退歸舊隱來，斗酒入茅茨。雞黍匪家",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "歲雖有劄瘥",
+          "corrected": "歲雖有札瘥",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「歲雖有札瘥」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "況當劄瘥年",
+          "corrected": "況當札瘥年",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「況當札瘥年」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "傴傴黃發媼",
+          "corrected": "傴傴黃髮媼",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「傴傴黃髪媼」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/609.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -6312,11 +6922,16 @@
           "original": "或若虹，耀影或如wH。",
           "corrected": null,
           "note": "needs_review: crawl residue \"wH\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "有以傭筆劄",
+          "corrected": "有以傭筆札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「有以傭筆札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/610.json": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -6384,11 +6999,21 @@
           "original": "不敢攜一",
           "corrected": "不敢攜一",
           "note": "[shi_line_length] attested as-is in 5 books on 识典古籍 (吳都文粹, 唐詩類苑, 松陵集); no change"
+        },
+        {
+          "original": "散發抵泉流",
+          "corrected": "散髮抵泉流",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「散髪抵泉流」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "野飯調石發",
+          "corrected": "野飯調石髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「野飯調石髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/611.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6431,6 +7056,11 @@
           "original": "著筣笓，竅中維艒fR。",
           "corrected": "著筣笓，竅中維艒䑿。",
           "note": "Crawl residue \"fR\" → 䑿; 识典古籍 (/zh/): 《周松靄遺書》杜詩雙聲疊韻譜括略卷之一“古詩” reads 「竅中維艒䑿多逢沙鳥」 (9 hit(s))"
+        },
+        {
+          "original": "水煮石發氣",
+          "corrected": "水煮石髮氣",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「水煮石髪氣」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -6477,7 +7107,7 @@
       ]
     },
     "御定全唐詩/json/613.json": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -6505,11 +7135,16 @@
           "original": "相問，正滯江南為eE魚。",
           "corrected": "相問，正滯江南為鮸魚。",
           "note": "needs_review: crawl residue \"eE\"; no matching passage found on 识典古籍 | resolved 2026-10-05: [ascii_residue] eE → 鮸; 识典古籍 (4 books, e.g. 《全唐詩》第九函第九册卷六, 《唐音戊籤》戊籤七十二皮日休之八“七言律詩三”)"
+        },
+        {
+          "original": "裹發偏宜白麵郎",
+          "corrected": "裹髮偏宜白麵郎",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「裹髪偏宜白面郎」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/614.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6532,6 +7167,11 @@
           "original": "明朝有物充君信，dX酒三瓶寄夜航。",
           "corrected": "明朝有物充君信，㰂酒三瓶寄夜航。",
           "note": "Crawl residue \"dX\" → 㰂; 识典古籍 (/zh/): 《中吳紀聞》中吴紀聞卷四“太公避地處” reads 「物充君信㰂酒三瓶寄」 (8 hit(s))"
+        },
+        {
+          "original": "數行玉劄存心久",
+          "corrected": "數行玉札存心久",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「數行玉札存心久」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -6542,7 +7182,7 @@
       "fixes": []
     },
     "御定全唐詩/json/616.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -6555,11 +7195,16 @@
           "original": "eQ蠃時時上幾案，蛙",
           "corrected": null,
           "note": "needs_review: crawl residue \"eQ\"; 识典古籍 candidates ambiguous: 𣡗, 𧓎"
+        },
+        {
+          "original": "若得劄玉冊",
+          "corrected": "若得札玉冊",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「若得札玉冊」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/617.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6592,6 +7237,16 @@
           "original": "好問如除t9",
           "corrected": "好問如除㾓",
           "note": "Crawl residue \"t9\" → 㾓: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "盡以易紙劄",
+          "corrected": "盡以易紙札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「盡以易紙札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "門前煙水準",
+          "corrected": "門前煙水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「門前煙水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -6653,11 +7308,16 @@
           "original": "       \"後土亦沈醉，奸臣空浩",
           "corrected": "       \"后土亦沈醉，奸臣空浩",
           "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "但宜窺玉劄",
+          "corrected": "但宜窺玉札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「但宜窺玉札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/621.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6680,11 +7340,21 @@
           "original": "dl合眩旋",
           "corrected": "𧞔合眩旋",
           "note": "Crawl residue \"dl\" → 𧞔: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "石有發兮盡累",
+          "corrected": "石有髮兮盡累",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「石有髪兮盡纍」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "可夭劄迷冥",
+          "corrected": "可夭札迷冥",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「可夭札迷冥」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/622.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6697,6 +7367,11 @@
           "original": "芝zC手自攜",
           "corrected": "芝𥰭手自攜",
           "note": "Crawl residue \"zC\" → 𥰭: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "散發還同阮",
+          "corrected": "散髮還同阮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「散髪還同阮」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -6769,7 +7444,7 @@
       "fixes": []
     },
     "御定全唐詩/json/625.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6782,6 +7457,11 @@
           "original": "迸出似毫當垤eJ",
           "corrected": "迸出似毫當垤㙞",
           "note": "Crawl residue \"eJ\" → 㙞: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "不信人間發解華",
+          "corrected": "不信人間髮解華",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「不信人間髪解華」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -6804,7 +7484,7 @@
       "fixes": []
     },
     "御定全唐詩/json/628.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6817,6 +7497,11 @@
           "original": "接z5拋下漉春醪",
           "corrected": "接䍦拋下漉春醪",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "亦有春愁鶴發翁",
+          "corrected": "亦有春愁鶴髮翁",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「亦有春愁鶴髪翁」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -6856,6 +7541,11 @@
           "original": "暑。年華如飛鴻，鬥酒幸且舉。\"\n  ",
           "corrected": "暑。年華如飛鴻，斗酒幸且舉。\"\n  ",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "一夕發欲白",
+          "corrected": "一夕髮欲白",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「一夕髪欲白」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -6882,7 +7572,7 @@
       ]
     },
     "御定全唐詩/json/632.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6895,6 +7585,11 @@
           "original": "z4書因閱畫",
           "corrected": "曬書因閱畫",
           "note": "Crawl residue \"z4\" → 曬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "容發不相饒",
+          "corrected": "容髮不相饒",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「容髪不相饒」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -6940,16 +7635,28 @@
       "fixes": []
     },
     "御定全唐詩/json/638.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "書劄寄何人",
+          "corrected": "書札寄何人",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.35000.json) reads 「書札寄何人」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/639.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "鶴發他鄉老",
+          "corrected": "鶴髮他鄉老",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.35000.json) reads 「鶴髪他鄉老」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/640.json": {
       "date": "2026-10-06",
@@ -6960,14 +7667,25 @@
           "original": "閒氣，惱亂司空犯鬥牛。\"\n     ",
           "corrected": "閒氣，惱亂司空犯斗牛。\"\n     ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "大篆龍蛇隨筆劄",
+          "corrected": "大篆龍蛇隨筆札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.35000.json) reads 「大篆龍蛇隨筆札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/641.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "玉童私地誇書劄",
+          "corrected": "玉童私地誇書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.35000.json) reads 「玉童私地誇書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/642.json": {
       "date": "2026-06-27",
@@ -6982,7 +7700,7 @@
       "fixes": []
     },
     "御定全唐詩/json/644.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6995,6 +7713,11 @@
           "original": "皴bq老松根",
           "corrected": "皴皵老松根",
           "note": "Crawl residue \"bq\" → 皵: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "白盡征人發",
+          "corrected": "白盡征人髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.35000.json) reads 「白盡征人髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -7050,16 +7773,28 @@
       ]
     },
     "御定全唐詩/json/648.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "新發早年生",
+          "corrected": "新髮早年生",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.36000.json) reads 「新髪早年生」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/649.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "相思有書劄",
+          "corrected": "相思有書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.36000.json) reads 「相思有書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/650.json": {
       "date": "2026-10-06",
@@ -7074,10 +7809,26 @@
       ]
     },
     "御定全唐詩/json/651.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "不覺鏡中新發生",
+          "corrected": "不覺鏡中新髮生",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.36000.json) reads 「不覺鏡中新髪生」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "卻容鶴發還蝸舍",
+          "corrected": "卻容鶴髮還蝸舍",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.36000.json) reads 「却容鶴髪還蝸舍」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "須判素發侮流年",
+          "corrected": "須判素髮侮流年",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.36000.json) reads 「須判素髪侮流年」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/652.json": {
       "date": "2026-06-27",
@@ -7112,6 +7863,11 @@
           "original": "itle\": \"後土廟\",\n    ",
           "corrected": "itle\": \"后土廟\",\n    ",
           "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "幾度撩人惡發來",
+          "corrected": "幾度撩人惡髮來",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.36000.json) reads 「幾度撩人惡髪來」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -7146,10 +7902,16 @@
       "fixes": []
     },
     "御定全唐詩/json/661.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "水梳苔發直",
+          "corrected": "水梳苔髮直",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.36000.json) reads 「水梳苔髪直」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/662.json": {
       "date": "2026-10-06",
@@ -7176,7 +7938,7 @@
       "fixes": []
     },
     "御定全唐詩/json/665.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -7189,6 +7951,11 @@
           "original": "竿頭cG佩紅",
           "corrected": "竿頭㺗佩紅",
           "note": "Crawl residue \"cG\" → 㺗: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "願剃發和須",
+          "corrected": "願剃髮和須",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.37000.json) reads 「願剃髪和鬚」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -7673,11 +8440,16 @@
           "original": "     \"笑他範蠡貪婪甚，相罷金多",
           "corrected": "     \"笑他范蠡貪婪甚，相罷金多",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "金門幾欲征",
+          "corrected": "金門幾欲徵",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.39000.json) reads 「金門幾欲徴」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/709.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -7685,6 +8457,21 @@
           "original": "秀，一一排雲上泬。疊嶂出關分二陝",
           "corrected": "秀，一一排雲上泬㵳。疊嶂出關分二陝",
           "note": "Bare PUA U+E41D → 㵳; 识典古籍 (/zh/): 《唐詩贯珠》卷三十九 reads 「排雲上泬㵳疊嶂出關」 (1 hit(s))"
+        },
+        {
+          "original": "獨逃征詔臥三峰",
+          "corrected": "獨逃徵詔臥三峰",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.39000.json) reads 「獨逃徴詔臥三峰」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "紫殿幾征王佐業",
+          "corrected": "紫殿幾徵王佐業",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.39000.json) reads 「紫殿幾徴王佐業」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "且隨征令過瀟湘",
+          "corrected": "且隨徵令過瀟湘",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.39000.json) reads 「且隨徴令過瀟湘」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -7725,10 +8512,16 @@
       "fixes": []
     },
     "御定全唐詩/json/715.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "丹詔征來早為遲",
+          "corrected": "丹詔徵來早為遲",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.40000.json) reads 「丹詔徴來早爲遲」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/716.json": {
       "date": "2026-10-06",
@@ -7767,10 +8560,16 @@
       "fixes": []
     },
     "御定全唐詩/json/721.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "笑就漢廷征",
+          "corrected": "笑就漢廷徵",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.40000.json) reads 「笑就漢廷徴」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/722.json": {
       "date": "2026-06-27",
@@ -7803,10 +8602,16 @@
       "fixes": []
     },
     "御定全唐詩/json/727.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "山根到水準",
+          "corrected": "山根到水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.40000.json) reads 「山根到水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/728.json": {
       "date": "2026-10-06",
@@ -7822,6 +8627,11 @@
           "original": "\": \"三代門：後稷\",\n     ",
           "corrected": "\": \"三代門：后稷\",\n     ",
           "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "靈公徒認征舒面",
+          "corrected": "靈公徒認徵舒面",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.40000.json) reads 「靈公徒認徴舒面」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -7955,10 +8765,16 @@
       "fixes": []
     },
     "御定全唐詩/json/742.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "水準舟靜浪聲齊",
+          "corrected": "水平舟靜浪聲齊",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.41000.json) reads 「水平舟靜浪聲齊」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/743.json": {
       "date": "2026-06-27",
@@ -8075,13 +8891,19 @@
       "fixes": []
     },
     "御定全唐詩/json/754.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "殷勤書劄寄相思",
+          "corrected": "殷勤書札寄相思",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.42000.json) reads 「殷勤書札寄相思」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/755.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -8094,6 +8916,11 @@
           "original": "潤膩裛輕rG",
           "corrected": "潤膩裛輕𩅰",
           "note": "Crawl residue \"rG\" → 𩅰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "時時寄書劄",
+          "corrected": "時時寄書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.42000.json) reads 「時時寄書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -113547,6 +114374,11 @@
           "original": "人知我心。君有數鬥酒，\",\n    ",
           "corrected": "人知我心。君有數斗酒，\",\n    ",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "翩翩秉書劄",
+          "corrected": "翩翩秉書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.1000.json) reads 「翩翩秉書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -113772,6 +114604,11 @@
           "original": "牢落山川意，蕭疏鬆柏陰。破牆時直上，",
           "corrected": "牢落山川意，蕭疏松柏陰。破牆時直上，",
           "note": "Simplified→traditional conversion error: 鬆柏 → 松柏 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "袖中一劄書",
+          "corrected": "袖中一札書",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.2000.json) reads 「袖中一札書」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -113883,10 +114720,16 @@
       ]
     },
     "御定全唐詩/json/060.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "紳兼束發新",
+          "corrected": "紳兼束髮新",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.3000.json) reads 「紳兼束髪新」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/061.json": {
       "date": "2026-06-26",
@@ -113895,10 +114738,16 @@
       "fixes": []
     },
     "御定全唐詩/json/062.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "雲天斷書劄",
+          "corrected": "雲天斷書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.3000.json) reads 「雲天斷書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/063.json": {
       "date": "2026-10-06",
@@ -113918,10 +114767,16 @@
       ]
     },
     "御定全唐詩/json/064.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "長橋壓水準",
+          "corrected": "長橋壓水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.3000.json) reads 「長橋壓水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/065.json": {
       "date": "2026-06-26",
@@ -113950,6 +114805,11 @@
           "original": "le\": \"則天皇後挽歌二首\",\n ",
           "corrected": "le\": \"則天皇后挽歌二首\",\n ",
           "note": "Simplified→traditional conversion error: 皇後 → 皇后 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "束發事文場",
+          "corrected": "束髮事文場",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.3000.json) reads 「束髪事文場」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -113996,10 +114856,16 @@
       ]
     },
     "御定全唐詩/json/074.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "至言題睿劄",
+          "corrected": "至言題睿札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「至言題睿札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/075.json": {
       "date": "2026-06-26",
@@ -114042,7 +114908,7 @@
       ]
     },
     "御定全唐詩/json/078.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114050,14 +114916,25 @@
           "original": "凝滯蘅vK岸",
           "corrected": "凝滯蘅𦶜岸",
           "note": "Crawl residue \"vK\" → 𦶜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "共此傷年發",
+          "corrected": "共此傷年髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「共此傷年髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/079.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "壯士發沖冠",
+          "corrected": "壯士髮沖冠",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「壯士髪衝冠」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/080.json": {
       "date": "2026-10-03",
@@ -114084,7 +114961,7 @@
       ]
     },
     "御定全唐詩/json/082.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114092,6 +114969,11 @@
           "original": "北堂紅草盛zv茸",
           "corrected": "北堂紅草盛䒠茸",
           "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "散發臥秋風",
+          "corrected": "散髮臥秋風",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「散髪臥秋風」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114154,6 +115036,26 @@
           "original": "蛤伺陰兔，蛟龍望鬥牛。\",\n    ",
           "corrected": "蛤伺陰兔，蛟龍望斗牛。\",\n    ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "容發徂邊歲",
+          "corrected": "容髮徂邊歲",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「容髪徂邊歲」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "歡愉及玄發",
+          "corrected": "歡愉及玄髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「歡愉及玄髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "發白思益壯",
+          "corrected": "髮白思益壯",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「髪白思益壯」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "寒沙際水準",
+          "corrected": "寒沙際水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「寒沙際水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114171,14 +115073,30 @@
           "original": "       \"鬥酒貽朋愛，躊躕出禦",
           "corrected": "       \"斗酒貽朋愛，躊躕出禦",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "來承聖劄歸",
+          "corrected": "來承聖札歸",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「來承聖札歸」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/088.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "朝發鏡前衰",
+          "corrected": "朝髮鏡前衰",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「朝髪鏡前衰」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "鏡中星發變",
+          "corrected": "鏡中星髮變",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「鏡中星髪變」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/089.json": {
       "date": "2026-06-26",
@@ -114199,10 +115117,16 @@
       "fixes": []
     },
     "御定全唐詩/json/092.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "肆覽飛宸劄",
+          "corrected": "肆覽飛宸札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.4000.json) reads 「肆覽飛宸札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/093.json": {
       "date": "2026-06-26",
@@ -114217,7 +115141,7 @@
       "fixes": []
     },
     "御定全唐詩/json/095.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114230,6 +115154,11 @@
           "original": "k3k4縈海若，霹靂耿天",
           "corrected": "䬓䬔縈海若，霹靂耿天",
           "note": "Crawl residue \"k3k4\" → 䬓䬔; 识典古籍 (/zh/): 《丹鉛總錄》丹鉛摘録卷十明楊慎撰 reads 「雲逐鬥樞䬓䬔縈海若霹」 (8 hit(s))"
+        },
+        {
+          "original": "為君鑒玄發",
+          "corrected": "為君鑒玄髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「爲君鑒玄髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114252,10 +115181,16 @@
       ]
     },
     "御定全唐詩/json/098.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "箋劄來宸禁",
+          "corrected": "箋札來宸禁",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「牋札來宸禁」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/099.json": {
       "date": "2026-10-06",
@@ -114266,6 +115201,11 @@
           "original": "重光。太原刻頌，後土疏場。\",\n  ",
           "corrected": "重光。太原刻頌，后土疏場。\",\n  ",
           "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "愁坐變容發",
+          "corrected": "愁坐變容髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「愁坐變容髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114330,10 +115270,16 @@
       "fixes": []
     },
     "御定全唐詩/json/108.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "飛文瑤劄降",
+          "corrected": "飛文瑤札降",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「飛文瑤札降」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/109.json": {
       "date": "2026-06-26",
@@ -114348,10 +115294,16 @@
       "fixes": []
     },
     "御定全唐詩/json/111.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "獻賦紆天劄",
+          "corrected": "獻賦紆天札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「獻賦紆天札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/112.json": {
       "date": "2026-10-03",
@@ -114398,6 +115350,11 @@
           "original": "故鄉可憶處，遙指鬥牛西。\"\n    ",
           "corrected": "故鄉可憶處，遙指斗牛西。\"\n    ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "未應悲晚發",
+          "corrected": "未應悲晚髮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「未應悲晚髪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114422,6 +115379,11 @@
           "original": "壁餘鴻雁，紗窗宿鬥牛。更疑天路近，夢",
           "corrected": "壁餘鴻雁，紗窗宿斗牛。更疑天路近，夢",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "篋中緘聖劄",
+          "corrected": "篋中緘聖札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「篋中緘聖札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114521,6 +115483,26 @@
           "original": "與群物齊。分地依後稷，用天信重黎。\"",
           "corrected": "與群物齊。分地依后稷，用天信重黎。\"",
           "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "領上發未梳",
+          "corrected": "領上髮未梳",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「領上髪未梳」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "發亂不能整",
+          "corrected": "髮亂不能整",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「髪亂不能整」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "散發時未簪",
+          "corrected": "散髮時未簪",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「散髪時未簪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "散發不冠帶",
+          "corrected": "散髮不冠帶",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.5000.json) reads 「散髪不冠帶」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114533,6 +115515,11 @@
           "original": "       \"空穀歸人少，青山背日",
           "corrected": "       \"空谷歸人少，青山背日",
           "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "自憐黃發暮",
+          "corrected": "自憐黃髮暮",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.6000.json) reads 「自憐黃髪暮」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114543,16 +115530,28 @@
       "fixes": []
     },
     "御定全唐詩/json/128.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "崆峒散發何人",
+          "corrected": "崆峒散髮何人",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.6000.json) reads 「崆峒散髪何人」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/129.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "散發窗中曾不簪",
+          "corrected": "散髮窗中曾不簪",
+          "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.6000.json) reads 「散髪窗中曾不簪」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/130.json": {
       "date": "2026-10-06",
@@ -114592,6 +115591,11 @@
           "original": "草，羸馬詰朝鳴。鬥酒對寒食，雜花宜晚",
           "corrected": "草，羸馬詰朝鳴。斗酒對寒食，雜花宜晚",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "我有一書劄",
+          "corrected": "我有一書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.6000.json) reads 「我有一書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114666,6 +115670,11 @@
           "original": "子，慧見息諸苦。落發自南州，燕居在西",
           "corrected": "子，慧見息諸苦。落髮自南州，燕居在西",
           "note": "Simplified→traditional conversion error: 落發 → 落髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "幹象變台衡",
+          "corrected": "乾象變台衡",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.6000.json) reads 「乾象變台衡」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114726,6 +115735,11 @@
           "original": "里無歸信，傷心看鬥牛。\"\n     ",
           "corrected": "里無歸信，傷心看斗牛。\"\n     ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "直上江水準",
+          "corrected": "直上江水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.6000.json) reads 「直上江水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -114759,10 +115773,16 @@
       ]
     },
     "御定全唐詩/json/147.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "空憐江水準",
+          "corrected": "空憐江水平",
+          "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.7000.json) reads 「空憐江水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/148.json": {
       "date": "2026-06-26",
@@ -114784,6 +115804,11 @@
           "original": " \"扁舟伊獨往，鬥酒君自適。滄洲不可",
           "corrected": " \"扁舟伊獨往，斗酒君自適。滄洲不可",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "他時書一劄",
+          "corrected": "他時書一札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.7000.json) reads 「他時書一札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115038,7 +116063,7 @@
       "fixes": []
     },
     "御定全唐詩/json/171.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -115046,6 +116071,11 @@
           "original": "蕭曹安zj屼",
           "corrected": "蕭曹安𡸣屼",
           "note": "Crawl residue \"zj\" → 𡸣: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "且寄一書劄",
+          "corrected": "且寄一書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.8000.json) reads 「且寄一書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115168,6 +116198,11 @@
           "original": "覽幽意多。積雪照空穀，悲風鳴森柯。\"",
           "corrected": "覽幽意多。積雪照空谷，悲風鳴森柯。\"",
           "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "空傳一書劄",
+          "corrected": "空傳一書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.8000.json) reads 「空傳一書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115200,10 +116235,16 @@
       "fixes": []
     },
     "御定全唐詩/json/184.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "足系一書劄",
+          "corrected": "足系一書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.8000.json) reads 「足繫一書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/185.json": {
       "date": "2026-10-06",
@@ -115224,22 +116265,40 @@
       "fixes": []
     },
     "御定全唐詩/json/187.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "傷離枉芳劄",
+          "corrected": "傷離枉芳札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「傷離枉芳札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/188.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "書劄何由申",
+          "corrected": "書札何由申",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「書札何由申」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/189.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "忽枉別離劄",
+          "corrected": "忽枉別離札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「忽枉別離札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/190.json": {
       "date": "2026-10-06",
@@ -115250,6 +116309,21 @@
           "original": "忽逢翰林友，歡樂鬥酒前。\",\n   ",
           "corrected": "忽逢翰林友，歡樂斗酒前。\",\n   ",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "幸蒙相思劄",
+          "corrected": "幸蒙相思札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「幸蒙相思札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "常緘素劄去",
+          "corrected": "常緘素札去",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「常緘素札去」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "時風重書劄",
+          "corrected": "時風重書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「時風重書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115325,6 +116399,16 @@
           "original": "       \"鬥酒取一醉，孤琴為君",
           "corrected": "       \"斗酒取一醉，孤琴為君",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "書劄徒滿篋",
+          "corrected": "書札徒滿篋",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「書札徒滿篋」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "書劄凡幾封",
+          "corrected": "書札凡幾封",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「書札凡幾封」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115382,10 +116466,16 @@
       "fixes": []
     },
     "御定全唐詩/json/205.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "去劄頻逢信",
+          "corrected": "去札頻逢信",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「去札頻逢信」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/206.json": {
       "date": "2026-06-26",
@@ -115426,14 +116516,25 @@
           "original": "樓多古今，陳事滿陵穀。\",\n    ",
           "corrected": "樓多古今，陳事滿陵谷。\",\n    ",
           "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "劄翰起涼溫",
+          "corrected": "札翰起涼溫",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「札翰起涼溫」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/212.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "劄翰忽相鮮",
+          "corrected": "札翰忽相鮮",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「札翰忽相鮮」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/213.json": {
       "date": "2026-10-06",
@@ -115517,6 +116618,16 @@
           "original": "東風吹春冰，泱莽後土濕。\",\n   ",
           "corrected": "東風吹春冰，泱莽后土濕。\",\n   ",
           "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "劄翰時相投",
+          "corrected": "札翰時相投",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「札翰時相投」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "幹元元年春",
+          "corrected": "乾元元年春",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「乾元元年春」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115558,6 +116669,11 @@
           "original": "四顧俯層巔，澹然川穀開。\",\n   ",
           "corrected": "四顧俯層巔，澹然川谷開。\",\n   ",
           "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "書劄到天垠",
+          "corrected": "書札到天垠",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「書札到天垠」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115590,10 +116706,26 @@
       ]
     },
     "御定全唐詩/json/223.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "筆劄枉所申",
+          "corrected": "筆札枉所申",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「筆札枉所申」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "禦劄早流傳",
+          "corrected": "禦札早流傳",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「御札早流傳」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "開緘書劄光",
+          "corrected": "開緘書札光",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「開緘書札光」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/224.json": {
       "date": "2026-10-05",
@@ -115642,10 +116774,16 @@
       "fixes": []
     },
     "御定全唐詩/json/228.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "幾回書劄待潛夫",
+          "corrected": "幾回書札待潛夫",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.11000.json) reads 「幾回書札待潛夫」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/229.json": {
       "date": "2026-06-26",
@@ -115674,14 +116812,25 @@
           "original": "     \"滄江白發愁看汝，來歲如今",
           "corrected": "     \"滄江白髮愁看汝，來歲如今",
           "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "鄰舍煩書劄",
+          "corrected": "鄰舍煩書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.11000.json) reads 「鄰舍煩書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/232.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "童稚頻書劄",
+          "corrected": "童稚頻書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.11000.json) reads 「童稚頻書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/233.json": {
       "date": "2026-10-06",
@@ -115692,6 +116841,16 @@
           "original": "悲公子，鰕菜忘歸範蠡船。\"\n    ",
           "corrected": "悲公子，鰕菜忘歸范蠡船。\"\n    ",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "次第尋書劄",
+          "corrected": "次第尋書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.11000.json) reads 「次第尋書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "會面思來劄",
+          "corrected": "會面思來札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.11000.json) reads 「會面思來札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115751,6 +116910,26 @@
           "original": "去，威仍出閫行。鬥牛移八座，日月送雙",
           "corrected": "去，威仍出閫行。斗牛移八座，日月送雙",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "將征任土貢",
+          "corrected": "將徵任土貢",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「將徴任土貢」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "征君臥幾年",
+          "corrected": "徵君臥幾年",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「徴君臥幾年」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "願征黃霸入",
+          "corrected": "願徵黃霸入",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「願徴黃霸入」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "紫誥征黃晚",
+          "corrected": "紫誥徵黃晚",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「紫誥徴黃晚」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115824,7 +117003,7 @@
       ]
     },
     "御定全唐詩/json/241.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -115832,6 +117011,26 @@
           "original": "峰gH生回溝",
           "corrected": "峰𡻮生回溝",
           "note": "Crawl residue \"gH\" → 𡻮: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "往在幹元初",
+          "corrected": "往在乾元初",
+          "note": "Conversion error 幹 → 乾: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「往在乾元初」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "征斂又可悲",
+          "corrected": "徵斂又可悲",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「徴斂又可悲」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "今彼征斂者",
+          "corrected": "今彼徵斂者",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「今彼徴斂者」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "征斂何時足",
+          "corrected": "徵斂何時足",
+          "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「徴斂何時足」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115848,10 +117047,16 @@
       "fixes": []
     },
     "御定全唐詩/json/244.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "聽歌吳季劄",
+          "corrected": "聽歌吳季札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「聽歌吳季札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        }
+      ]
     },
     "御定全唐詩/json/245.json": {
       "date": "2026-10-03",
@@ -115889,11 +117094,16 @@
           "original": " \"與物無親疏，鬥酒勝竹帛。何必用自",
           "corrected": " \"與物無親疏，斗酒勝竹帛。何必用自",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "翩翩秉書劄",
+          "corrected": "翩翩秉書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.1000.json) reads 「翩翩秉書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
     "御定全唐詩/json/247.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -115901,6 +117111,11 @@
           "original": "mH々葉成幄",
           "corrected": "䔿々葉成幄",
           "note": "Crawl residue \"mH\" → 䔿: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "莫道無書劄",
+          "corrected": "莫道無書札",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「莫道無書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
@@ -115947,6 +117162,11 @@
           "original": "師賦出車。因知越範蠡，湖海意何如。\"",
           "corrected": "師賦出車。因知越范蠡，湖海意何如。\"",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "飛劄謝三守",
+          "corrected": "飛札謝三守",
+          "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.13000.json) reads 「飛札謝三守」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
         }
       ]
     },
