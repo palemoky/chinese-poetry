@@ -4,8 +4,8 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 413,
-    "fixed": 729,
+    "clean": 410,
+    "fixed": 732,
     "needs_review": 134,
     "out_of_scope": 313,
     "in_scope_files": 1276
@@ -1994,10 +1994,16 @@
       ]
     },
     "曹操诗集/caocao.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[notes] inline variant notes 4, block notes 0 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        }
+      ]
     },
     "御定全唐詩/json/900.json": {
       "date": "2026-06-27",
@@ -14318,10 +14324,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.35000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[notes] inline variant notes 0, block notes 1 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        }
+      ]
     },
     "全唐诗/poet.song.36000.json": {
       "date": "2026-06-26",
@@ -15800,6 +15812,11 @@
           "original": "畢逋撥刺月銜城",
           "corrected": "畢逋撥剌月銜城",
           "note": "Twin collation: 刺 → 剌; the other source (御定全唐詩) and 2 books on 识典古籍 read 剌 (e.g. 《全唐詩鈔》全唐詩鈔補遺卷七, 《唐詩》唐詩卷一百九十三), none support 刺"
+        },
+        {
+          "original": "[notes] inline variant notes 2, block notes 0 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -16384,6 +16401,11 @@
           "original": "清天矢萬艘",
           "corrected": "青天矢萬艘",
           "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 4 books on 识典古籍 read 青 (e.g. 《古逸叢書二十六種》杜工部草堂詩箋卷一, 《唐人五言排律選》唐人五言排律選卷六), none support 清"
+        },
+        {
+          "original": "[notes] inline variant notes 8, block notes 0 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -16803,6 +16825,11 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[notes] inline variant notes 1, block notes 0 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -19648,6 +19675,11 @@
           "original": "江雪過竹籬",
           "corrected": "江雲過竹籬",
           "note": "Twin collation: 雪 → 雲; the other source (御定全唐詩) and 5 books on 识典古籍 read 雲 (e.g. 《唐詩》唐詩卷六百三十三, 《唐音戊籤》戊籤餘三十四李中之二 唐音統籤卷), none support 雪"
+        },
+        {
+          "original": "[notes] inline variant notes 1, block notes 0 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -20543,6 +20575,11 @@
           "original": "[formatting] dup_punct 3",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[notes] inline variant notes 57, block notes 223 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -20565,6 +20602,11 @@
           "original": "[formatting] dup_punct 2",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[notes] inline variant notes 141, block notes 352 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -20582,14 +20624,25 @@
           "original": "[formatting] dup_punct 4",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[notes] inline variant notes 219, block notes 334 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
     "全唐诗/poet.tang.53000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[notes] inline variant notes 65, block notes 456 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        }
+      ]
     },
     "全唐诗/poet.tang.55000.json": {
       "date": "2026-10-06",
@@ -20610,6 +20663,11 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[notes] inline variant notes 218, block notes 320 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -20622,6 +20680,11 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[notes] inline variant notes 23, block notes 101 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -21058,6 +21121,11 @@
           "original": "零落殘雪片",
           "corrected": "零落殘雲片",
           "note": "Twin collation: 雪 → 雲; the other source (御定全唐詩) and 5 books on 识典古籍 read 雲 (e.g. 《全唐詩》第三函第六册卷八, 《文苑英華》一百五十五), none support 雪"
+        },
+        {
+          "original": "[notes] inline variant notes 3, block notes 0 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
@@ -21276,7 +21344,7 @@
       ]
     },
     "全唐诗/poet.tang.54000.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -21289,11 +21357,16 @@
           "original": "「鸞」字離作「、鳥」二字，與「",
           "corrected": "「鸞」字離作「龻、鳥」二字，與「",
           "note": "Bare PUA U+E864 → 龻; GB18030-2005 standard mapping: PUA U+E864 (GBK FEA0) = U+9FBB 龻 (component of 鸞, as the note describes)"
+        },
+        {
+          "original": "[notes] inline variant notes 991, block notes 285 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
     "全唐诗/poet.tang.56000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -21311,6 +21384,11 @@
           "original": "道貴珠玉",
           "corrected": "道不貴珠玉",
           "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「道不貴珠玉」 (e.g. 《無上黃籙大齋立成儀》, 《道門通教必用集》), none read the dataset's version"
+        },
+        {
+          "original": "[notes] inline variant notes 36, block notes 428 in paragraphs",
+          "corrected": "[notes] moved to the notes field",
+          "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
         }
       ]
     },
