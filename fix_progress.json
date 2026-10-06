@@ -4,13 +4,13 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 959,
-    "fixed": 280,
+    "clean": 804,
+    "fixed": 435,
     "needs_review": 350
   },
   "reviewed": {
     "御定全唐詩/json/768.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -38,6 +38,11 @@
           "original": "其寢斯安，□□□分。我既考落，以",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「宮室以」 supported by only 1 book on 识典古籍 (《古今圖書集成·經籍典》欽定古今圖書集成理學彙編經籍典第七千一百零七卷“詩經部藝文四詩”); not filled"
+        },
+        {
+          "original": "朱衫巧妝飾。長安鬥酒十千酤，\",\n ",
+          "corrected": "朱衫巧妝飾。長安斗酒十千酤，\",\n ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -60,10 +65,16 @@
       "fixes": []
     },
     "御定全唐詩/json/772.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"川穀留雲氣，鵜鶘傍釣",
+          "corrected": "       \"川谷留雲氣，鵜鶘傍釣",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/773.json": {
       "date": "2026-06-27",
@@ -72,10 +83,16 @@
       "fixes": []
     },
     "御定全唐詩/json/774.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"好同範蠡扁舟興，高掛一帆",
+          "corrected": "     \"好同范蠡扁舟興，高掛一帆",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/775.json": {
       "date": "2026-06-27",
@@ -211,10 +228,16 @@
       "fixes": []
     },
     "御定全唐詩/json/787.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "沼疑河漢，蕭條見鬥牛。煙生知岸近，水",
+          "corrected": "沼疑河漢，蕭條見斗牛。煙生知岸近，水",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/788.json": {
       "date": "2026-10-03",
@@ -267,7 +290,7 @@
       "fixes": []
     },
     "御定全唐詩/json/791.json": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -425,6 +448,11 @@
           "original": "投奅鬧eGcP",
           "corrected": "投奅鬧䃔䃧",
           "note": "Crawl residue \"eGcP\" → 䃔䃧 via code table (eG/cP verified in 皮日休 「叩之虛䃔䃧」 on 识典古籍, 2 books)"
+        },
+        {
+          "original": "言拜舜禹，舉颿淩鬥牛。——韓愈\",\n",
+          "corrected": "言拜舜禹，舉颿淩斗牛。——韓愈\",\n",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -435,7 +463,7 @@
       "fixes": []
     },
     "御定全唐詩/json/793.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -458,6 +486,11 @@
           "original": "吟久菊□多。秋草分杉露，",
           "corrected": "吟久菊英多。秋草分杉露，",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《古詩鏡》唐詩鏡卷五十二; 《唐詩類苑》唐詩類苑卷第三十六"
+        },
+        {
+          "original": "文星今夜聚，應在鬥牛間。——皮日休\"",
+          "corrected": "文星今夜聚，應在斗牛間。——皮日休\"",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -510,10 +543,16 @@
       "fixes": []
     },
     "御定全唐詩/json/802.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "年。黃河清有日，白發黑無緣。\",\n ",
+          "corrected": "年。黃河清有日，白髮黑無緣。\",\n ",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/803.json": {
       "date": "2026-06-27",
@@ -528,13 +567,19 @@
       "fixes": []
     },
     "御定全唐詩/json/805.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"白發愁偏覺，歸心夢獨",
+          "corrected": "       \"白髮愁偏覺，歸心夢獨",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/806.json": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -592,6 +637,21 @@
           "original": "眾喔咿斯",
           "corrected": "眾喔咿斯",
           "note": "[shi_line_length] attested as-is in 2 books on 识典古籍 (寒山子詩集, 御定全唐詩); no change"
+        },
+        {
+          "original": "    \"瑞草聯溪穀，老松枕嵯峨。可",
+          "corrected": "    \"瑞草聯溪谷，老松枕嵯峨。可",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"田家避暑月，鬥酒共誰歡。雜雜排山",
+          "corrected": " \"田家避暑月，斗酒共誰歡。雜雜排山",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "憐高幡幟，極目平升鬥。\",\n    ",
+          "corrected": "憐高幡幟，極目平升斗。\",\n    ",
+          "note": "Simplified→traditional conversion error: 升鬥 → 升斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -676,19 +736,31 @@
       "fixes": []
     },
     "御定全唐詩/json/813.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "風回松竹動，人息鬥牛寒。此後思良集，",
+          "corrected": "風回松竹動，人息斗牛寒。此後思良集，",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/814.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"幽石叢圭片，孤鬆動雪枝。頃曾聽道",
+          "corrected": " \"幽石叢圭片，孤松動雪枝。頃曾聽道",
+          "note": "Simplified→traditional conversion error: 孤鬆 → 孤松 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/815.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -701,6 +773,11 @@
           "original": "應思石de訪春泉",
           "corrected": "應思石瀃訪春泉",
           "note": "Crawl residue \"de\" → 瀃: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "春歸華柳發，世故陵穀變。擾擾陌上心，",
+          "corrected": "春歸華柳發，世故陵谷變。擾擾陌上心，",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -781,37 +858,65 @@
       "fixes": []
     },
     "御定全唐詩/json/825.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "古丘，不見江河變陵穀。\"\n     ",
+          "corrected": "古丘，不見江河變陵谷。\"\n     ",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "窗向月明。他時隨範蠡，一棹五湖清。\"",
+          "corrected": "窗向月明。他時隨范蠡，一棹五湖清。\"",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/826.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "負米無遠近，所希升鬥歸。為人無貴賤，",
+          "corrected": "負米無遠近，所希升斗歸。為人無貴賤，",
+          "note": "Simplified→traditional conversion error: 升鬥 → 升斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/827.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "n5々數片帆",
           "corrected": null,
           "note": "貫休《上馮使君五首》(no#27, 4th stanza): 'n5' in '...茶煮桃花水。n5々數片帆，去去殊未已。' ASCII placeholder code for an unrepresentable character. The '々' iteration mark following suggests the character was reduplicated (same char twice). Requires verification against physical edition."
+        },
+        {
+          "original": "功。代天複代天，後稷何所從。\"\n  ",
+          "corrected": "功。代天複代天，后稷何所從。\"\n  ",
+          "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/828.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "天步艱難日，深藏溪穀空長歎。偶出重圍",
+          "corrected": "天步艱難日，深藏溪谷空長歎。偶出重圍",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/829.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -834,6 +939,11 @@
           "original": "旅墳孤fb嶽，羸僕泣如兒。",
           "corrected": "旅墳孤骹嶽，羸僕泣如兒。",
           "note": "Crawl residue \"fb\" → 骹; 识典古籍 (/zh/): 《禪月集》卷七 reads 「知旅墳孤骹嶽羸僕泣」 (3 hit(s))"
+        },
+        {
+          "original": "明。黃金燒欲盡，白發火邊生。\",\n ",
+          "corrected": "明。黃金燒欲盡，白髮火邊生。\",\n ",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -890,10 +1000,16 @@
       ]
     },
     "御定全唐詩/json/831.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "微微蜃蛤腥。因思範蠡輩，未免亦飄零。",
+          "corrected": "微微蜃蛤腥。因思范蠡輩，未免亦飄零。",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/832.json": {
       "date": "2026-10-03",
@@ -952,10 +1068,16 @@
       "fixes": []
     },
     "御定全唐詩/json/836.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "雪林。多傍松風梳綠發，\",\n    ",
+          "corrected": "雪林。多傍松風梳綠髮，\",\n    ",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/837.json": {
       "date": "2026-06-27",
@@ -1017,7 +1139,7 @@
       "fixes": []
     },
     "御定全唐詩/json/853.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -1030,6 +1152,11 @@
           "original": "瑤草多zv茸",
           "corrected": "瑤草多䒠茸",
           "note": "Crawl residue \"zv\" → 䒠: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "戚咸自貽。何不若範蠡，扁舟無還期。\"",
+          "corrected": "戚咸自貽。何不若范蠡，扁舟無還期。\"",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -1088,14 +1215,24 @@
       "fixes": []
     },
     "御定全唐詩/json/843.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "喜z6公自武陵至",
           "corrected": null,
           "note": "齊己《喜z6公自武陵至》(no#59): 'z6' in the poem title. Same ASCII placeholder code appearing in 837.json (貫休) and 840.json (齊己). Likely a monk's name with an unrepresentable character. Requires verification against physical edition."
+        },
+        {
+          "original": "       \"範蠡東浮闊，靈均北泛",
+          "corrected": "       \"范蠡東浮闊，靈均北泛",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "寒澄七百年。未聞陵穀變，終與姓名傳。",
+          "corrected": "寒澄七百年。未聞陵谷變，終與姓名傳。",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -1182,10 +1319,16 @@
       "fixes": []
     },
     "御定全唐詩/json/863.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "itle\": \"後土夫人\",\n   ",
+          "corrected": "itle\": \"后土夫人\",\n   ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/864.json": {
       "date": "2026-06-27",
@@ -1419,10 +1562,31 @@
       "fixes": []
     },
     "蒙学/tangshisanbaishou.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "   \"廬山秀出南鬥傍，屏風九疊雲錦",
+          "corrected": "   \"廬山秀出南斗傍，屏風九疊雲錦",
+          "note": "Simplified→traditional conversion error: 南鬥 → 南斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "夜轉西壑，隔山望南鬥。\",\n    ",
+          "corrected": "夜轉西壑，隔山望南斗。\",\n    ",
+          "note": "Simplified→traditional conversion error: 南鬥 → 南斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "     \"明月鬆間照，清泉石上流。",
+          "corrected": "     \"明月松間照，清泉石上流。",
+          "note": "Simplified→traditional conversion error: 鬆間 → 松間 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "半人家，北斗闌干南鬥斜。\",\n   ",
+          "corrected": "半人家，北斗闌干南斗斜。\",\n   ",
+          "note": "Simplified→traditional conversion error: 南鬥 → 南斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "蒙学/shenglvqimeng.json": {
       "date": "2026-06-27",
@@ -1449,10 +1613,21 @@
       "fixes": []
     },
     "蒙学/qianjiashi.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "壁餘鴻雁，紗窗宿鬥牛。\",\n    ",
+          "corrected": "壁餘鴻雁，紗窗宿斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "     \"劍留南鬥近，書寄北風遙。",
+          "corrected": "     \"劍留南斗近，書寄北風遙。",
+          "note": "Simplified→traditional conversion error: 南鬥 → 南斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "水墨唐诗/shuimotangshi.json": {
       "date": "2026-06-27",
@@ -1479,10 +1654,26 @@
       "fixes": []
     },
     "蒙学/guwenguanzhi.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "玉之精。不然，生長鬆之千尺，產靈芝而",
+          "corrected": "玉之精。不然，生長松之千尺，產靈芝而",
+          "note": "Simplified→traditional conversion error: 長鬆 → 長松 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "北風起，劍氣衝而南鬥平。喑嗚則山嶽崩",
+          "corrected": "北風起，劍氣衝而南斗平。喑嗚則山嶽崩",
+          "note": "Simplified→traditional conversion error: 南鬥 → 南斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "景翳翳以將入，撫孤鬆而盤桓。\",\n ",
+          "corrected": "景翳翳以將入，撫孤松而盤桓。\",\n ",
+          "note": "Simplified→traditional conversion error: 孤鬆 → 孤松 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "楚辞/chuci.json": {
       "date": "2026-06-27",
@@ -1687,14 +1878,19 @@
       ]
     },
     "御定全唐詩/json/887.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "崔融2",
           "corrected": null,
           "note": "Author field of no#14 《題惠聚寺》: trailing '2' in '崔融2'. Same pattern as '李瀚2' (881.json) and '王季友1' (883.json). Digit not part of the historical poet's name. Requires verification against physical edition."
+        },
+        {
+          "original": "思共攀陟，東南看鬥牛。\"\n     ",
+          "corrected": "思共攀陟，東南看斗牛。\"\n     ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -1738,19 +1934,24 @@
       "fixes": []
     },
     "御定全唐詩/json/881.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "李瀚2",
           "corrected": null,
           "note": "Author field of no#1 《蒙求》: trailing '2' in '李瀚2'. Likely an ASCII placeholder code for a character in the author's name, or a disambiguation suffix. 李瀚 (Tang dynasty) wrote 《蒙求》; no digit appears in his historical name. Requires verification against physical edition."
+        },
+        {
+          "original": "自賣。仲連蹈海，範蠡泛湖。文寶緝柳，",
+          "corrected": "自賣。仲連蹈海，范蠡泛湖。文寶緝柳，",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/882.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -1768,6 +1969,11 @@
           "original": "先。式備犧象，用□牲牷。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「潔」 supported by only 1 book on 识典古籍 (《麗句集》麗句集); not filled"
+        },
+        {
+          "original": "臥見高原燒，閑尋空穀泉。土膏消臘後，",
+          "corrected": "臥見高原燒，閑尋空谷泉。土膏消臘後，",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -1778,10 +1984,16 @@
       "fixes": []
     },
     "御定全唐詩/json/764.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"劍氣徒勞望鬥牛，故人別後阻仙舟",
+          "corrected": "  \"劍氣徒勞望斗牛，故人別後阻仙舟",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/765.json": {
       "date": "2026-10-05",
@@ -1801,10 +2013,16 @@
       ]
     },
     "御定全唐詩/json/766.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "且放歡情入醉鄉。範蠡扁舟終去相，\",",
+          "corrected": "且放歡情入醉鄉。范蠡扁舟終去相，\",",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/767.json": {
       "date": "2026-06-27",
@@ -1896,10 +2114,16 @@
       "fixes": []
     },
     "御定全唐詩/json/261.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"莊周萬物外，範蠡五湖間。人傳訪道",
+          "corrected": " \"莊周萬物外，范蠡五湖間。人傳訪道",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/262.json": {
       "date": "2026-06-26",
@@ -1947,7 +2171,7 @@
       ]
     },
     "御定全唐詩/json/265.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -1955,6 +2179,11 @@
           "original": "頭髻pE鬌手爪長",
           "corrected": "頭髻䰀鬌手爪長",
           "note": "Crawl residue \"pE\" → 䰀: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "     \"忽聞鬥酒初決絕，日暮浮雲",
+          "corrected": "     \"忽聞斗酒初決絕，日暮浮雲",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -1995,10 +2224,26 @@
       "fixes": []
     },
     "御定全唐詩/json/271.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "青。軒黃曾舉樂，範蠡幾揚舲。\",\n ",
+          "corrected": "青。軒黃曾舉樂，范蠡幾揚舲。\",\n ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "劍曾埋獄，司空問鬥牛。希垂拂拭惠，感",
+          "corrected": "劍曾埋獄，司空問斗牛。希垂拂拭惠，感",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "  \"不學鑄金思範蠡，乞言猶許上丹墀",
+          "corrected": "  \"不學鑄金思范蠡，乞言猶許上丹墀",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/272.json": {
       "date": "2026-10-03",
@@ -2018,10 +2263,21 @@
       ]
     },
     "御定全唐詩/json/273.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "笑聽猿狖，搖鞭望鬥牛。\",\n    ",
+          "corrected": "笑聽猿狖，搖鞭望斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"團團聚鄰曲，鬥酒相與斟。樵歌野田",
+          "corrected": " \"團團聚鄰曲，斗酒相與斟。樵歌野田",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/274.json": {
       "date": "2026-06-26",
@@ -2078,10 +2334,16 @@
       "fixes": []
     },
     "御定全唐詩/json/283.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "松掩落暉，白雲竟空穀。\",\n    ",
+          "corrected": "松掩落暉，白雲竟空谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/284.json": {
       "date": "2026-06-26",
@@ -2096,10 +2358,16 @@
       ]
     },
     "御定全唐詩/json/285.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "月逢殷浩，緣江送範雲。\",\n    ",
+          "corrected": "月逢殷浩，緣江送范雲。\",\n    ",
+          "note": "Simplified→traditional conversion error: 範雲 → 范雲 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/286.json": {
       "date": "2026-06-26",
@@ -2235,7 +2503,7 @@
       "fixes": []
     },
     "御定全唐詩/json/301.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -2248,6 +2516,11 @@
           "original": "聞晴z4曝舊芳茵",
           "corrected": "聞晴曬曝舊芳茵",
           "note": "Crawl residue \"z4\" → 曬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "片明，照見離人白頭發。\"\n     ",
+          "corrected": "片明，照見離人白頭髮。\"\n     ",
+          "note": "Simplified→traditional conversion error: 頭發 → 頭髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -2282,7 +2555,7 @@
       "fixes": []
     },
     "御定全唐詩/json/307.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -2305,6 +2578,11 @@
           "original": "嵯rU滿山響",
           "corrected": "嵯𤄓滿山響",
           "note": "Crawl residue \"rU\" → 𤄓: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "醴降華幡，掛冠守空穀。\",\n    ",
+          "corrected": "醴降華幡，掛冠守空谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -2315,10 +2593,16 @@
       "fixes": []
     },
     "御定全唐詩/json/309.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "風吹桐竹更無雨，白發病人心到家。\"\n",
+          "corrected": "風吹桐竹更無雨，白髮病人心到家。\"\n",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/310.json": {
       "date": "2026-10-03",
@@ -2398,16 +2682,28 @@
       "fixes": []
     },
     "御定全唐詩/json/316.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"鬥酒上河梁，驚魂去越",
+          "corrected": "       \"斗酒上河梁，驚魂去越",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/317.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "岑。恩偏不敢去，範蠡畏熔金。\"\n  ",
+          "corrected": "岑。恩偏不敢去，范蠡畏熔金。\"\n  ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/318.json": {
       "date": "2026-06-26",
@@ -2428,16 +2724,28 @@
       "fixes": []
     },
     "御定全唐詩/json/321.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "搔首望良覿，為君華發生。\"\n    ",
+          "corrected": "搔首望良覿，為君華髮生。\"\n    ",
+          "note": "Simplified→traditional conversion error: 華發 → 華髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/322.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "終結方外期，不待華發生。\"\n    ",
+          "corrected": "終結方外期，不待華髮生。\"\n    ",
+          "note": "Simplified→traditional conversion error: 華發 → 華髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/323.json": {
       "date": "2026-10-03",
@@ -2457,16 +2765,33 @@
       ]
     },
     "御定全唐詩/json/324.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"津亭風雪霽，鬥酒留征棹。星傳指湘",
+          "corrected": " \"津亭風雪霽，斗酒留征棹。星傳指湘",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"送君當歲暮，鬥酒破離顏。車騎擁寒",
+          "corrected": " \"送君當歲暮，斗酒破離顏。車騎擁寒",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/325.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "向非張茂先，孰辨鬥牛光。\",\n   ",
+          "corrected": "向非張茂先，孰辨斗牛光。\",\n   ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/326.json": {
       "date": "2026-06-26",
@@ -2492,7 +2817,7 @@
       ]
     },
     "御定全唐詩/json/328.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -2515,6 +2840,11 @@
           "original": "fT睇呈巧笑",
           "corrected": "𥊑睇呈巧笑",
           "note": "Crawl residue \"fT\" → 𥊑: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "     \"十千鬥酒不知貴，半醉留賓",
+          "corrected": "     \"十千斗酒不知貴，半醉留賓",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -2543,7 +2873,7 @@
       "fixes": []
     },
     "御定全唐詩/json/333.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -2566,6 +2896,11 @@
           "original": "不同年，叔侄朱門rV槊連。鳳沼九重相",
           "corrected": null,
           "note": "needs_review: crawl residue \"rV\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "e\": \"清明日後土祠送田徹\",\n ",
+          "corrected": "e\": \"清明日后土祠送田徹\",\n ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -2582,7 +2917,7 @@
       "fixes": []
     },
     "御定全唐詩/json/336.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -2610,6 +2945,11 @@
           "original": "累若盆罌，或揭若bB豆。",
           "corrected": "累若盆罌，或揭若㽅豆。",
           "note": "Crawl residue \"bB\" → 㽅; 识典古籍 (/zh/): 《唐詩選》五言古體詩一卷（三） reads 「罌或揭若㽅豆或覆若」 (2 hit(s))"
+        },
+        {
+          "original": "煥掘寶劍，冤氛消鬥牛。\",\n    ",
+          "corrected": "煥掘寶劍，冤氛消斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -2777,10 +3117,16 @@
       ]
     },
     "御定全唐詩/json/344.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "詩。自然無不可，範蠡爾其誰。\"\n  ",
+          "corrected": "詩。自然無不可，范蠡爾其誰。\"\n  ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/345.json": {
       "date": "2026-10-03",
@@ -2835,7 +3181,7 @@
       ]
     },
     "御定全唐詩/json/350.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -2868,6 +3214,11 @@
           "original": "苞枿ba矣，惟恨之蟠。彌",
           "corrected": null,
           "note": "needs_review: crawl residue \"ba\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "枯以肉，勍者羸。後土蕩，玄穹彌。合之",
+          "corrected": "枯以肉，勍者羸。后土蕩，玄穹彌。合之",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -2974,10 +3325,16 @@
       "fixes": []
     },
     "御定全唐詩/json/355.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "矢。今朝會荊巒，鬥酒相宴喜。\",\n ",
+          "corrected": "矢。今朝會荊巒，斗酒相宴喜。\",\n ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/356.json": {
       "date": "2026-06-26",
@@ -3004,10 +3361,16 @@
       "fixes": []
     },
     "御定全唐詩/json/360.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "在三楚，文星今向鬥牛明。\"\n    ",
+          "corrected": "在三楚，文星今向斗牛明。\"\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/361.json": {
       "date": "2026-06-26",
@@ -3016,10 +3379,16 @@
       "fixes": []
     },
     "御定全唐詩/json/362.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "寄，遙持造物權。鬥牛添氣色，井絡靜氛",
+          "corrected": "寄，遙持造物權。斗牛添氣色，井絡靜氛",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/363.json": {
       "date": "2026-06-26",
@@ -3098,10 +3467,16 @@
       "fixes": []
     },
     "御定全唐詩/json/373.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "士心是劍，為君射鬥牛。\",\n    ",
+          "corrected": "士心是劍，為君射斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/374.json": {
       "date": "2026-10-03",
@@ -3121,7 +3496,7 @@
       ]
     },
     "御定全唐詩/json/375.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -3134,6 +3509,11 @@
           "original": "閑未得閒，眾誚瞋bF々。",
           "corrected": null,
           "note": "needs_review: crawl residue \"bF\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "       \"空穀聳視聽，幽湍澤心",
+          "corrected": "       \"空谷聳視聽，幽湍澤心",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -3173,10 +3553,21 @@
       ]
     },
     "御定全唐詩/json/380.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"借車載傢俱，傢俱少於車。借者莫",
+          "corrected": " \"借車載家俱，傢俱少於車。借者莫",
+          "note": "Simplified→traditional conversion error: 傢 → 家 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "    \"借車載傢俱，傢俱少於車。",
+          "corrected": "    \"借車載家俱，傢俱少於車。",
+          "note": "Simplified→traditional conversion error: 傢 → 家 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/381.json": {
       "date": "2026-10-03",
@@ -3243,10 +3634,16 @@
       "fixes": []
     },
     "御定全唐詩/json/388.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "岸高於屋，斯須變溪穀。\",\n    ",
+          "corrected": "岸高於屋，斯須變溪谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/389.json": {
       "date": "2026-10-04",
@@ -3345,7 +3742,7 @@
       ]
     },
     "御定全唐詩/json/395.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -3358,6 +3755,11 @@
           "original": "未聞eK孽苦蒼生，相群相",
           "corrected": "未聞𭐁孽苦蒼生，相群相",
           "note": "Crawl residue \"eK\" → 𭐁; 识典古籍 (/zh/): 《唐詩類苑》卷七 reads 「之德未聞𭐁孽苦蒼生」 (4 hit(s))"
+        },
+        {
+          "original": "不讀關雎篇，安知後妃德。\"\n    ",
+          "corrected": "不讀關雎篇，安知后妃德。\"\n    ",
+          "note": "Simplified→traditional conversion error: 後妃 → 后妃 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -3446,7 +3848,7 @@
       ]
     },
     "御定全唐詩/json/401.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -3459,6 +3861,11 @@
           "original": "眼漸紛紛，酒聲頻cH々。",
           "corrected": "眼漸紛紛，酒聲頻䬵々。",
           "note": "Crawl residue \"cH\" → 䬵; 识典古籍 (/zh/): 《元氏長慶集》元氏長慶集卷第六“寄吳士矩端公五十韻” reads 「紛酒聲頻䬵」 (10 hit(s))"
+        },
+        {
+          "original": "桃，結念安期棗。綠發幸未改，丹誠自能",
+          "corrected": "桃，結念安期棗。綠髮幸未改，丹誠自能",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -3492,7 +3899,7 @@
       "fixes": []
     },
     "御定全唐詩/json/405.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -3555,6 +3962,11 @@
           "original": "禮天地，東野辟原勻。",
           "corrected": null,
           "note": "needs_review: bare PUA U+E4C3; no matching passage on 识典古籍; no standard GB18030 mapping (user-defined area)"
+        },
+        {
+          "original": "占。赤誠祈皓鶴，綠發代青縑。\",\n ",
+          "corrected": "占。赤誠祈皓鶴，綠髮代青縑。\",\n ",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -3873,10 +4285,26 @@
       ]
     },
     "御定全唐詩/json/424.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "歸白雲外，飲水臥空穀。不能隨眾人，斂",
+          "corrected": "歸白雲外，飲水臥空谷。不能隨眾人，斂",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "光納日月，紫氣排鬥牛。\",\n    ",
+          "corrected": "光納日月，紫氣排斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "樂與眾同。皇天與後土，所感無不通。\"",
+          "corrected": "樂與眾同。皇天與后土，所感無不通。\"",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/425.json": {
       "date": "2026-06-26",
@@ -3891,10 +4319,16 @@
       "fixes": []
     },
     "御定全唐詩/json/427.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "一置高山一沉水。陵穀雖遷碑獨存，\",",
+          "corrected": "一置高山一沉水。陵谷雖遷碑獨存，\",",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/428.json": {
       "date": "2026-06-26",
@@ -3941,7 +4375,7 @@
       "fixes": []
     },
     "御定全唐詩/json/431.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -3954,6 +4388,11 @@
           "original": "持刀gN密竹",
           "corrected": "持刀𠜴密竹",
           "note": "Crawl residue \"gN\" → 𠜴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "空走日月，世界遷陵穀。我生寄其間，孰",
+          "corrected": "空走日月，世界遷陵谷。我生寄其間，孰",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -3970,7 +4409,7 @@
       "fixes": []
     },
     "御定全唐詩/json/434.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -3983,14 +4422,25 @@
           "original": "苒箬竹蔑zB",
           "corrected": "苒箬竹蔑𥮘",
           "note": "Crawl residue \"zB\" → 𥮘: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "暗澹緋衫故，斕斑白發新。\",\n   ",
+          "corrected": "暗澹緋衫故，斕斑白髮新。\",\n   ",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/435.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "相逢即身老。且傾鬥酒慰羈愁，\",\n ",
+          "corrected": "相逢即身老。且傾斗酒慰羈愁，\",\n ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/436.json": {
       "date": "2026-06-26",
@@ -4074,7 +4524,7 @@
       "fixes": []
     },
     "御定全唐詩/json/444.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4087,6 +4537,11 @@
           "original": "毳bD逐日卷",
           "corrected": "毳䈴逐日卷",
           "note": "Crawl residue \"bD\" → 䈴: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "唯變市朝，兼亦遷陵穀。\",\n    ",
+          "corrected": "唯變市朝，兼亦遷陵谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -4124,7 +4579,7 @@
       ]
     },
     "御定全唐詩/json/447.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4137,6 +4592,16 @@
           "original": "晴教z4舞茵",
           "corrected": "晴教曬舞茵",
           "note": "Crawl residue \"z4\" → 曬: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "緣衰病，莫作陶潛範蠡看。\",\n   ",
+          "corrected": "緣衰病，莫作陶潛范蠡看。\",\n   ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "鏡湖。莫泛扁舟尋範蠡，\",\n    ",
+          "corrected": "鏡湖。莫泛扁舟尋范蠡，\",\n    ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -4153,10 +4618,16 @@
       "fixes": []
     },
     "御定全唐詩/json/450.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "靜銷戎馬，城高逼鬥牛。平河七百里，沃",
+          "corrected": "靜銷戎馬，城高逼斗牛。平河七百里，沃",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/451.json": {
       "date": "2026-10-03",
@@ -4176,7 +4647,7 @@
       ]
     },
     "御定全唐詩/json/452.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4189,6 +4660,11 @@
           "original": "唯聞倒接z5",
           "corrected": "唯聞倒接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "二疏官秩卑。乘舟範蠡懼，辟谷留侯饑。",
+          "corrected": "二疏官秩卑。乘舟范蠡懼，辟谷留侯饑。",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -4379,10 +4855,16 @@
       "fixes": []
     },
     "御定全唐詩/json/473.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "邊。頒條信徒爾，華發生蒼然。\",\n ",
+          "corrected": "邊。頒條信徒爾，華髮生蒼然。\",\n ",
+          "note": "Simplified→traditional conversion error: 華發 → 華髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/474.json": {
       "date": "2026-10-03",
@@ -4402,7 +4884,7 @@
       ]
     },
     "御定全唐詩/json/475.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4415,6 +4897,11 @@
           "original": "dc濴寒泉深百尺。",
           "corrected": "㵿濴寒泉深百尺。",
           "note": "Crawl residue \"dc\" → 㵿; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷四百七十五“李德裕” reads 「輩毀尖新㵿濴寒泉深」 (1 hit(s))"
+        },
+        {
+          "original": "是歸星渚，先求曆鬥牛。還疑煙雨霽，仿",
+          "corrected": "是歸星渚，先求曆斗牛。還疑煙雨霽，仿",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -4425,7 +4912,7 @@
       "fixes": []
     },
     "御定全唐詩/json/477.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4438,6 +4925,11 @@
           "original": "不借eZ跌光顏看",
           "corrected": "不借𨁂跌光顏看",
           "note": "Crawl residue \"eZ\" → 𨁂: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "     \"不期陵穀遷朝市，今日遼東",
+          "corrected": "     \"不期陵谷遷朝市，今日遼東",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -4477,10 +4969,16 @@
       "fixes": []
     },
     "御定全唐詩/json/482.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "拂雲今得地，莫隨陵穀改深根。\"\n  ",
+          "corrected": "拂雲今得地，莫隨陵谷改深根。\"\n  ",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/483.json": {
       "date": "2026-06-26",
@@ -4495,13 +4993,19 @@
       "fixes": []
     },
     "御定全唐詩/json/485.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "人逃名子，鶴發臥空穀。野言得真風，山",
+          "corrected": "人逃名子，鶴發臥空谷。野言得真風，山",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/486.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4514,6 +5018,11 @@
           "original": "不及瑤wG燕",
           "corrected": "不及瑤𥯅燕",
           "note": "Crawl residue \"wG\" → 𥯅: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "       \"空穀亦堪隱，下田非懶",
+          "corrected": "       \"空谷亦堪隱，下田非懶",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -4656,10 +5165,16 @@
       "fixes": []
     },
     "御定全唐詩/json/501.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "影明苔蘚，鴻聲傍鬥牛。猶分省署直，何",
+          "corrected": "影明苔蘚，鴻聲傍斗牛。猶分省署直，何",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/502.json": {
       "date": "2026-06-26",
@@ -4728,10 +5243,16 @@
       "fixes": []
     },
     "御定全唐詩/json/513.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"今宵倍欲悲陵穀，銅柱分明在水中",
+          "corrected": "  \"今宵倍欲悲陵谷，銅柱分明在水中",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/514.json": {
       "date": "2026-06-26",
@@ -4746,16 +5267,28 @@
       "fixes": []
     },
     "御定全唐詩/json/516.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "聲厭避秦。幾時逢範蠡，處處是通津。\"",
+          "corrected": "聲厭避秦。幾時逢范蠡，處處是通津。\"",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/517.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "台榭滿春風。名歸範蠡五湖上，\",\n ",
+          "corrected": "台榭滿春風。名歸范蠡五湖上，\",\n ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/518.json": {
       "date": "2026-06-26",
@@ -4797,7 +5330,7 @@
       ]
     },
     "御定全唐詩/json/521.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4810,14 +5343,25 @@
           "original": "郊宮為近侍，分明羽林槍。",
           "corrected": "郊宮為近侍，分明㩳羽林槍。",
           "note": "Bare PUA U+E82A → 㩳; 识典古籍 (/zh/): 《唐詩類苑》卷一百三十一 reads 「近侍分明㩳」 (14 hit(s))"
+        },
+        {
+          "original": "貴家。游騎偶同人鬥酒，\",\n    ",
+          "corrected": "貴家。游騎偶同人斗酒，\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/522.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"惆悵無因見範蠡，參差煙樹五湖東",
+          "corrected": "  \"惆悵無因見范蠡，參差煙樹五湖東",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/523.json": {
       "date": "2026-06-26",
@@ -4826,10 +5370,16 @@
       "fixes": []
     },
     "御定全唐詩/json/524.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "金馬，星劍光芒射鬥牛。筆落青山飄古韻",
+          "corrected": "金馬，星劍光芒射斗牛。筆落青山飄古韻",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/525.json": {
       "date": "2026-06-26",
@@ -4838,10 +5388,16 @@
       "fixes": []
     },
     "御定全唐詩/json/526.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"他歲若教如範蠡，也應須入五湖煙",
+          "corrected": "  \"他歲若教如范蠡，也應須入五湖煙",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/527.json": {
       "date": "2026-06-26",
@@ -4924,22 +5480,45 @@
       "fixes": []
     },
     "御定全唐詩/json/535.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "虞世，獨倚江樓笑範增。\"\n     ",
+          "corrected": "虞世，獨倚江樓笑范增。\"\n     ",
+          "note": "Simplified→traditional conversion error: 範增 → 范增 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/536.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"他歲若教如範蠡，也應須入五湖煙",
+          "corrected": "  \"他歲若教如范蠡，也應須入五湖煙",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "       \"綠發監州丹府歸，還家",
+          "corrected": "       \"綠髮監州丹府歸，還家",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/537.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "沈。朱顏常似渥，綠發已如尋。\",\n ",
+          "corrected": "沈。朱顏常似渥，綠髮已如尋。\",\n ",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/538.json": {
       "date": "2026-06-26",
@@ -4954,7 +5533,7 @@
       "fixes": []
     },
     "御定全唐詩/json/540.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -4967,6 +5546,16 @@
           "original": "玉xC不動便門鎖",
           "corrected": "玉𥫽不動便門鎖",
           "note": "Crawl residue \"xC\" → 𥫽: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "聯句，每到城東憶範雲。\"\n     ",
+          "corrected": "聯句，每到城東憶范雲。\"\n     ",
+          "note": "Simplified→traditional conversion error: 範雲 → 范雲 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "  \"賒取松醪一鬥酒，與君相伴灑煩襟",
+          "corrected": "  \"賒取松醪一斗酒，與君相伴灑煩襟",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -5000,10 +5589,16 @@
       "fixes": []
     },
     "御定全唐詩/json/544.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"白發麻衣破，還譙別弟",
+          "corrected": "       \"白髮麻衣破，還譙別弟",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/545.json": {
       "date": "2026-06-26",
@@ -5078,19 +5673,36 @@
       "fixes": []
     },
     "御定全唐詩/json/555.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "難。心事何人識，鬥牛應數看。\"\n  ",
+          "corrected": "難。心事何人識，斗牛應數看。\"\n  ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "       \"鬥酒故人同，長歌起北",
+          "corrected": "       \"斗酒故人同，長歌起北",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/556.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "海雲冒營丘。慚無鬥酒瀉，敢望禦重裘。",
+          "corrected": "海雲冒營丘。慚無斗酒瀉，敢望禦重裘。",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/557.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -5108,6 +5720,11 @@
           "original": "靈王子，吹笙溯泬。六宮攀不住，三",
           "corrected": "靈王子，吹笙溯泬㵳。六宮攀不住，三",
           "note": "Bare PUA U+E41D → 㵳; 识典古籍 (/zh/): 《唐詩選》雜五言體詩一卷（二） reads 「吹笙溯泬㵳六宮攀不」 (2 hit(s))"
+        },
+        {
+          "original": "所歸。勾踐豈能容範蠡，\",\n    ",
+          "corrected": "所歸。勾踐豈能容范蠡，\",\n    ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -5183,19 +5800,41 @@
       ]
     },
     "御定全唐詩/json/568.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "公龍泉姿，其氣在鬥牛。南冠束秀髮，白",
+          "corrected": "公龍泉姿，其氣在斗牛。南冠束秀髮，白",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "力似風鵬，誰能算升鬥。\",\n    ",
+          "corrected": "力似風鵬，誰能算升斗。\",\n    ",
+          "note": "Simplified→traditional conversion error: 升鬥 → 升斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/569.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "欲尋河漢，因之犯鬥牛。九霄身自致，何",
+          "corrected": "欲尋河漢，因之犯斗牛。九霄身自致，何",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "欲浮闌下艇，一到鬥牛星。\"\n    ",
+          "corrected": "欲浮闌下艇，一到斗牛星。\"\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/570.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -5208,6 +5847,11 @@
           "original": "曉華朧xz聞調笙",
           "corrected": "曉華朧𦝰聞調笙",
           "note": "Crawl residue \"xz\" → 𦝰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "蒙雪滿林。請君三鬥酒，醉臥白羅岑。\"",
+          "corrected": "蒙雪滿林。請君三斗酒，醉臥白羅岑。\"",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -5218,10 +5862,16 @@
       "fixes": []
     },
     "御定全唐詩/json/572.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"鬥牛初過伏，菡萏欲香",
+          "corrected": "       \"斗牛初過伏，菡萏欲香",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/573.json": {
       "date": "2026-06-26",
@@ -5230,10 +5880,16 @@
       "fixes": []
     },
     "御定全唐詩/json/574.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "相就宿，夜深開戶鬥牛斜。\"\n    ",
+          "corrected": "相就宿，夜深開戶斗牛斜。\"\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/575.json": {
       "date": "2026-06-26",
@@ -5286,10 +5942,16 @@
       ]
     },
     "御定全唐詩/json/578.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"誰解乘舟尋範蠡，五湖煙水獨忘機",
+          "corrected": "  \"誰解乘舟尋范蠡，五湖煙水獨忘機",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/579.json": {
       "date": "2026-06-26",
@@ -5304,10 +5966,16 @@
       "fixes": []
     },
     "御定全唐詩/json/581.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "    \"高閣過空穀，孤竿隔古岡。潭",
+          "corrected": "    \"高閣過空谷，孤竿隔古岡。潭",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/582.json": {
       "date": "2026-10-03",
@@ -5351,10 +6019,16 @@
       "fixes": []
     },
     "御定全唐詩/json/587.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "想當戰國開時有，範蠡扁舟祗此中。\"\n",
+          "corrected": "想當戰國開時有，范蠡扁舟祗此中。\"\n",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/588.json": {
       "date": "2026-06-26",
@@ -5428,10 +6102,16 @@
       "fixes": []
     },
     "御定全唐詩/json/597.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"後羿遍尋無覓處，誰知",
+          "corrected": "       \"后羿遍尋無覓處，誰知",
+          "note": "Simplified→traditional conversion error: 後羿 → 后羿 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/598.json": {
       "date": "2026-06-26",
@@ -5474,10 +6154,16 @@
       "fixes": []
     },
     "御定全唐詩/json/602.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"三尺晶熒射鬥牛，豈隨凡手報冤讎",
+          "corrected": "  \"三尺晶熒射斗牛，豈隨凡手報冤讎",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/603.json": {
       "date": "2026-06-26",
@@ -5486,7 +6172,7 @@
       "fixes": []
     },
     "御定全唐詩/json/604.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -5494,6 +6180,16 @@
           "original": "沉葭菼，帆來映泬。浮生自多事，無",
           "corrected": "沉葭菼，帆來映泬㵳。浮生自多事，無",
           "note": "Bare PUA U+E41D → 㵳; 识典古籍 (/zh/): 《佩文齋咏物詩選》佩文齋咏物詩選“佛寺類” reads 「帆來映泬㵳浮生自多」 (6 hit(s))"
+        },
+        {
+          "original": "       \"落發在王畿，承恩著紫",
+          "corrected": "       \"落髮在王畿，承恩著紫",
+          "note": "Simplified→traditional conversion error: 落發 → 落髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "方驚滯極邊。水隨空穀轉，山向夕陽偏。",
+          "corrected": "方驚滯極邊。水隨空谷轉，山向夕陽偏。",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -5516,7 +6212,7 @@
       "fixes": []
     },
     "御定全唐詩/json/608.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -5539,6 +6235,11 @@
           "original": "忘戴白接z5",
           "corrected": "忘戴白接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": " \"退歸舊隱來，鬥酒入茅茨。雞黍匪家",
+          "corrected": " \"退歸舊隱來，斗酒入茅茨。雞黍匪家",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -5939,10 +6640,21 @@
       ]
     },
     "御定全唐詩/json/620.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "共薦皋盧，何勞傾鬥酒。\"\n     ",
+          "corrected": "共薦皋盧，何勞傾斗酒。\"\n     ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "       \"後土亦沈醉，奸臣空浩",
+          "corrected": "       \"后土亦沈醉，奸臣空浩",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/621.json": {
       "date": "2026-10-03",
@@ -5989,7 +6701,7 @@
       ]
     },
     "御定全唐詩/json/623.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -6042,6 +6754,11 @@
           "original": "水喧揌紫芡，村響yw香粳。",
           "corrected": null,
           "note": "needs_review: crawl residue \"yw\"; 识典古籍 candidates ambiguous: 礧, 𦥥"
+        },
+        {
+          "original": "已覺寒松伏，偏宜後土疲。好邀清嘯傲，",
+          "corrected": "已覺寒松伏，偏宜后土疲。好邀清嘯傲，",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -6069,10 +6786,16 @@
       ]
     },
     "御定全唐詩/json/626.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "靈方在，待取歸時綠發生。\"\n    ",
+          "corrected": "靈方在，待取歸時綠髮生。\"\n    ",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/627.json": {
       "date": "2026-06-26",
@@ -6115,7 +6838,7 @@
       ]
     },
     "御定全唐詩/json/630.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6128,6 +6851,11 @@
           "original": "cL我窮棲蓬藋裏",
           "corrected": "㤞我窮棲蓬藋裏",
           "note": "Crawl residue \"cL\" → 㤞: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "暑。年華如飛鴻，鬥酒幸且舉。\"\n  ",
+          "corrected": "暑。年華如飛鴻，斗酒幸且舉。\"\n  ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -6224,10 +6952,16 @@
       "fixes": []
     },
     "御定全唐詩/json/640.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "閒氣，惱亂司空犯鬥牛。\"\n     ",
+          "corrected": "閒氣，惱亂司空犯斗牛。\"\n     ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/641.json": {
       "date": "2026-06-27",
@@ -6282,7 +7016,7 @@
       ]
     },
     "御定全唐詩/json/646.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6295,14 +7029,25 @@
           "original": "如繰如織暮eV々，應節催年使我",
           "corrected": "如繰如織暮㗀々，應節催年使我",
           "note": "Crawl residue \"eV\" → 㗀; 识典古籍 (/zh/): 《唐李推官披沙集》唐李推官披沙集卷第六“草蟲” reads 「繰如織暮㗀」 (8 hit(s))"
+        },
+        {
+          "original": "旅腸。一棹寒波思範蠡，\",\n    ",
+          "corrected": "旅腸。一棹寒波思范蠡，\",\n    ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/647.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"不知範蠡乘舟後，更有功臣",
+          "corrected": "     \"不知范蠡乘舟後，更有功臣",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/648.json": {
       "date": "2026-06-27",
@@ -6317,10 +7062,16 @@
       "fixes": []
     },
     "御定全唐詩/json/650.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "思深苦，思苦神勞華發生。自學古賢修靜",
+          "corrected": "思深苦，思苦神勞華髮生。自學古賢修靜",
+          "note": "Simplified→traditional conversion error: 華發 → 華髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/651.json": {
       "date": "2026-06-27",
@@ -6353,16 +7104,28 @@
       "fixes": []
     },
     "御定全唐詩/json/656.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "itle\": \"後土廟\",\n    ",
+          "corrected": "itle\": \"后土廟\",\n    ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/657.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"大昴分光降鬥牛，興唐宗社作諸侯",
+          "corrected": "  \"大昴分光降斗牛，興唐宗社作諸侯",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/658.json": {
       "date": "2026-06-27",
@@ -6389,10 +7152,16 @@
       "fixes": []
     },
     "御定全唐詩/json/662.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "東甌，夜渡江山瞻鬥牛。\",\n    ",
+          "corrected": "東甌，夜渡江山瞻斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/663.json": {
       "date": "2026-06-27",
@@ -6466,7 +7235,7 @@
       "fixes": []
     },
     "御定全唐詩/json/671.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -6489,6 +7258,11 @@
           "original": "銜杯動遐思，uT口涎空流。封緘托",
           "corrected": null,
           "note": "needs_review: crawl residue \"uT\"; no matching passage found on 识典古籍"
+        },
+        {
+          "original": "人胡不紉，幽香藹空穀。\",\n    ",
+          "corrected": "人胡不紉，幽香藹空谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -6541,13 +7315,19 @@
       "fixes": []
     },
     "御定全唐詩/json/680.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "旅訝簪裾，野老悲陵穀。\",\n    ",
+          "corrected": "旅訝簪裾，野老悲陵谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/681.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6560,6 +7340,11 @@
           "original": "兔急且cg猭",
           "corrected": "兔急且㺦猭",
           "note": "Crawl residue \"cg\" → 㺦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "  \"眼看朝市成陵穀，始信昆明是劫灰",
+          "corrected": "  \"眼看朝市成陵谷，始信昆明是劫灰",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -6613,10 +7398,16 @@
       "fixes": []
     },
     "御定全唐詩/json/685.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "著通鳴鶴，津應接鬥牛。回風還瀲瀲，和",
+          "corrected": "著通鳴鶴，津應接斗牛。回風還瀲瀲，和",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/686.json": {
       "date": "2026-06-27",
@@ -6714,7 +7505,7 @@
       "fixes": []
     },
     "御定全唐詩/json/694.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6727,6 +7518,11 @@
           "original": "一朝羖qj飛上天，子孫盡作",
           "corrected": "一朝羖䍽飛上天，子孫盡作",
           "note": "Crawl residue \"qj\" → 䍽; 识典古籍 (/zh/): 《唐文粹》文粹卷第十二古樂三“後魏行” reads 「畏一朝羖䍽飛上天子」 (11 hit(s))"
+        },
+        {
+          "original": "年。童顏終不改，綠發尚依然。\",\n ",
+          "corrected": "年。童顏終不改，綠髮尚依然。\",\n ",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -6737,13 +7533,19 @@
       "fixes": []
     },
     "御定全唐詩/json/696.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "   \"欲問向來陵穀事，野桃無語淚花",
+          "corrected": "   \"欲問向來陵谷事，野桃無語淚花",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/697.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6766,14 +7568,35 @@
           "original": "侈彤襜亂，喧呼繡cK攘。但聞爭曳組，",
           "corrected": "侈彤襜亂，喧呼繡𩭪攘。但聞爭曳組，",
           "note": "Crawl residue \"cK\" → 𩭪; 识典古籍 (/zh/): 《唐詩》唐詩卷六百二十二 reads 「亂喧呼繡𩭪攘但聞爭」 (6 hit(s))"
+        },
+        {
+          "original": "  \"曾向五湖期範蠡，爾來空闊久相忘",
+          "corrected": "  \"曾向五湖期范蠡，爾來空闊久相忘",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/698.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "章句客，庾家樓在鬥牛邊。\"\n    ",
+          "corrected": "章句客，庾家樓在斗牛邊。\"\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "   \"琵琶洲近鬥牛星，鸞鳳曾於此放",
+          "corrected": "   \"琵琶洲近斗牛星，鸞鳳曾於此放",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "不應雙劍氣，長在鬥牛傍。\"\n    ",
+          "corrected": "不應雙劍氣，長在斗牛傍。\"\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/699.json": {
       "date": "2026-06-27",
@@ -6794,10 +7617,16 @@
       "fixes": []
     },
     "御定全唐詩/json/702.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "tle\": \"經範蠡舊居\",\n   ",
+          "corrected": "tle\": \"經范蠡舊居\",\n   ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/703.json": {
       "date": "2026-06-27",
@@ -6818,10 +7647,16 @@
       "fixes": []
     },
     "御定全唐詩/json/706.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "五級淩虛塔，三生落發師。都僧須有托，",
+          "corrected": "五級淩虛塔，三生落髮師。都僧須有托，",
+          "note": "Simplified→traditional conversion error: 落發 → 落髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/707.json": {
       "date": "2026-06-27",
@@ -6830,10 +7665,16 @@
       "fixes": []
     },
     "御定全唐詩/json/708.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"笑他範蠡貪婪甚，相罷金多",
+          "corrected": "     \"笑他范蠡貪婪甚，相罷金多",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/709.json": {
       "date": "2026-10-03",
@@ -6860,10 +7701,16 @@
       "fixes": []
     },
     "御定全唐詩/json/712.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "自憐非劍氣，空向鬥牛星。\",\n   ",
+          "corrected": "自憐非劍氣，空向斗牛星。\",\n   ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/713.json": {
       "date": "2026-06-27",
@@ -6884,10 +7731,16 @@
       "fixes": []
     },
     "御定全唐詩/json/716.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "頻見此輪滿，即應華發生。\",\n   ",
+          "corrected": "頻見此輪滿，即應華髮生。\",\n   ",
+          "note": "Simplified→traditional conversion error: 華發 → 華髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/717.json": {
       "date": "2026-06-27",
@@ -6956,10 +7809,21 @@
       "fixes": []
     },
     "御定全唐詩/json/728.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "本由農，曠古誰高後稷功。\",\n   ",
+          "corrected": "本由農，曠古誰高后稷功。\",\n   ",
+          "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "\": \"三代門：後稷\",\n     ",
+          "corrected": "\": \"三代門：后稷\",\n     ",
+          "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/729.json": {
       "date": "2026-06-27",
@@ -6986,10 +7850,16 @@
       "fixes": []
     },
     "御定全唐詩/json/733.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "寥廓風塵遠，杳冥川穀深。\",\n   ",
+          "corrected": "寥廓風塵遠，杳冥川谷深。\",\n   ",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/734.json": {
       "date": "2026-10-03",
@@ -7032,10 +7902,16 @@
       "fixes": []
     },
     "御定全唐詩/json/737.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"綠發童顏羽服輕，天臺",
+          "corrected": "       \"綠髮童顏羽服輕，天臺",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/738.json": {
       "date": "2026-10-03",
@@ -7061,10 +7937,16 @@
       "fixes": []
     },
     "御定全唐詩/json/740.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "   \"一莖兩莖華發生，千枝萬枝梨花",
+          "corrected": "   \"一莖兩莖華髮生，千枝萬枝梨花",
+          "note": "Simplified→traditional conversion error: 華發 → 華髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/741.json": {
       "date": "2026-06-27",
@@ -7091,7 +7973,7 @@
       "fixes": []
     },
     "御定全唐詩/json/745.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -7099,11 +7981,21 @@
           "original": "齊宇宙。書劍忽若□，青雲日方晝。",
           "corrected": "齊宇宙。書劍忽若闕，青雲日方晝。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《古今圖書集成·考工典》欽定古今圖書集成曆象彙編曆法典第九千八百四十八九千八百四十八億卷“閣部藝文二詩”; 《文苑英華》三百十四"
+        },
+        {
+          "original": "鶴，飄舉此江岫。陵穀空靄然，人樵已雛",
+          "corrected": "鶴，飄舉此江岫。陵谷空靄然，人樵已雛",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "    \"歲星臨鬥牛，水國嘉祥至。不",
+          "corrected": "    \"歲星臨斗牛，水國嘉祥至。不",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/746.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -7126,6 +8018,11 @@
           "original": "金欄白的善篸zC",
           "corrected": "金欄白的善篸𥰭",
           "note": "Crawl residue \"zC\" → 𥰭: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "多少嘉謨奏風俗，鬥牛孤劍在平津。\"\n",
+          "corrected": "多少嘉謨奏風俗，斗牛孤劍在平津。\"\n",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -8482,7 +9379,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.146000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -8500,6 +9397,11 @@
           "original": "向千年，又見神州□□索。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「暗戎」 supported by only 1 book on 识典古籍 (《平庵悔稿》卷三); not filled"
+        },
+        {
+          "original": "  \"僞王亂領出深穀，長史捷布登前墀",
+          "corrected": "  \"僞王亂領出深谷，長史捷布登前墀",
+          "note": "Simplified→traditional conversion error: 深穀 → 深谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -8572,10 +9474,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.153000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "易身營，除一君猶鬢發青。\",\n   ",
+          "corrected": "易身營，除一君猶鬢髮青。\",\n   ",
+          "note": "Simplified→traditional conversion error: 鬢發 → 鬢髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "全唐诗/poet.song.154000.json": {
       "date": "2026-06-26",
@@ -8930,10 +9838,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.180000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "先焦額，欲雨香非後土龍。\",\n   ",
+          "corrected": "先焦額，欲雨香非后土龍。\",\n   ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "全唐诗/poet.song.181000.json": {
       "date": "2026-10-04",
@@ -9034,7 +9948,7 @@
       ]
     },
     "全唐诗/poet.song.19000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -9047,6 +9961,11 @@
           "original": "昂寫峭壁，雕虎長□□清風。",
           "corrected": "昂寫峭壁，雕虎長嘯來清風。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 5 independent books on 识典古籍 agree, e.g. 《古今圖書集成·山川典》欽定古今圖書集成方輿彙編山川典第二千四百一十一卷“武夷山部藝文三詩”; 《武夷山志》卷之二十二"
+        },
+        {
+          "original": "     \"何須白發喧歌板，自有黄花",
+          "corrected": "     \"何須白髮喧歌板，自有黄花",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -9264,10 +10183,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.213000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"白發竝相議，一斥踰三",
+          "corrected": "       \"白髮竝相議，一斥踰三",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "全唐诗/poet.song.214000.json": {
       "date": "2026-06-26",
@@ -10091,10 +11016,16 @@
       ]
     },
     "全唐诗/poet.song.40000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"青衫白發病參軍，旋糴黄粱",
+          "corrected": "     \"青衫白髮病參軍，旋糴黄粱",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "全唐诗/poet.song.41000.json": {
       "date": "2026-06-26",
@@ -11269,10 +12200,21 @@
       "fixes": []
     },
     "全唐诗/poet.tang.55000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "    \"入門通後土，正眼密呈珠。\"",
+          "corrected": "    \"入門通后土，正眼密呈珠。\"",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"入門如電拂，後土合知無。\",\n ",
+          "corrected": " \"入門如電拂，后土合知無。\",\n ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "全唐诗/poet.tang.57000.json": {
       "date": "2026-06-26",
@@ -11299,7 +12241,7 @@
       "fixes": []
     },
     "全唐诗/poet.tang.28000.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -11317,6 +12259,11 @@
           "original": "郊宮爲近侍，分明羽林槍。",
           "corrected": "郊宮爲近侍，分明㩳羽林槍。",
           "note": "Bare PUA U+E829 → 㩳; 识典古籍 (/zh/): 《唐詩類苑》卷一百三十一 reads 「近侍分明㩳」 (14 hit(s))"
+        },
+        {
+          "original": "       \"範蠡清塵何寂寞，好風",
+          "corrected": "       \"范蠡清塵何寂寞，好風",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -112326,7 +113273,7 @@
       "fixes": []
     },
     "御定全唐詩/json/001.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112334,6 +113281,11 @@
           "original": "翠濤過玉z1",
           "corrected": "翠濤過玉䪥",
           "note": "Crawl residue \"z1\" → 䪥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "跡，補闕興洪志。川穀猶舊途，郡國開新",
+          "corrected": "跡，補闕興洪志。川谷猶舊途，郡國開新",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -112380,7 +113332,7 @@
       "fixes": []
     },
     "御定全唐詩/json/008.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112388,6 +113340,11 @@
           "original": "泣淚滴煙rG",
           "corrected": "泣淚滴煙𩅰",
           "note": "Crawl residue \"rG\" → 𩅰: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "       \"鬥牛無孛兮民無欺，吳",
+          "corrected": "       \"斗牛無孛兮民無欺，吳",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -112398,10 +113355,16 @@
       "fixes": []
     },
     "御定全唐詩/json/010.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "磬，肅唱和鳴。皇皇後祖，來我思成。\"",
+          "corrected": "磬，肅唱和鳴。皇皇后祖，來我思成。\"",
+          "note": "Simplified→traditional conversion error: 皇後 → 皇后 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/011.json": {
       "date": "2026-10-03",
@@ -112416,16 +113379,43 @@
       ]
     },
     "御定全唐詩/json/012.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"烈山有子，後土有臣。播種百穀，",
+          "corrected": "  \"烈山有子，后土有臣。播種百穀，",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "       \"後土凝德，神功協契。",
+          "corrected": "       \"后土凝德，神功協契。",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "重光。太原刻頌，後土疏場。\",\n  ",
+          "corrected": "重光。太原刻頌，后土疏場。\",\n  ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/013.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"玄王貽緒，後稷謀孫。肇禋九廟，",
+          "corrected": "  \"玄王貽緒，后稷謀孫。肇禋九廟，",
+          "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "磬，肅唱和鳴。皇皇後祖，來我思成。\"",
+          "corrected": "磬，肅唱和鳴。皇皇后祖，來我思成。\"",
+          "note": "Simplified→traditional conversion error: 皇後 → 皇后 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/014.json": {
       "date": "2026-06-26",
@@ -112446,7 +113436,7 @@
       ]
     },
     "御定全唐詩/json/016.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112454,11 +113444,16 @@
           "original": "黍稷馨，醴z0清。牲牷潔，金石",
           "corrected": "黍稷馨，醴𨣧清。牲牷潔，金石",
           "note": "Crawl residue \"z0\" → 𨣧; 识典古籍 (/zh/): 《御定全唐詩》御定全唐詩卷十六“郊廟歌辭” reads 「黍稷馨醴𨣧清牲牷潔」 (2 hit(s))"
+        },
+        {
+          "original": "       \"後稷累德，公劉創基。",
+          "corrected": "       \"后稷累德，公劉創基。",
+          "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/017.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112466,6 +113461,11 @@
           "original": "屈rH猛",
           "corrected": "屈𧹁猛",
           "note": "Crawl residue \"rH\" → 𧹁: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "枯以肉，勍者羸。後土蕩，玄穹彌。合之",
+          "corrected": "枯以肉，勍者羸。后土蕩，玄穹彌。合之",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -112476,7 +113476,7 @@
       "fixes": []
     },
     "御定全唐詩/json/019.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112484,6 +113484,11 @@
           "original": "青pF未垂孤鳳餓",
           "corrected": "青𥳇未垂孤鳳餓",
           "note": "Crawl residue \"pF\" → 𥳇: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "聲厭避秦。幾時逢範蠡，處處是通津。\"",
+          "corrected": "聲厭避秦。幾時逢范蠡，處處是通津。\"",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -112512,7 +113517,7 @@
       ]
     },
     "御定全唐詩/json/023.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112520,17 +113525,33 @@
           "original": "含情傲慰心目",
           "corrected": "含情傲睨慰心目",
           "note": "宋之問《綠竹引》; missing 睨, matches 全唐诗/poet.tang.3000.json and standard text"
+        },
+        {
+          "original": "負米無遠近，所希升鬥歸。為人無貴賤，",
+          "corrected": "負米無遠近，所希升斗歸。為人無貴賤，",
+          "note": "Simplified→traditional conversion error: 升鬥 → 升斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/024.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "結。炎雲如煙火，溪穀將恐竭。\",\n ",
+          "corrected": "結。炎雲如煙火，溪谷將恐竭。\",\n ",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "人知我心。君有數鬥酒，\",\n    ",
+          "corrected": "人知我心。君有數斗酒，\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/025.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112538,6 +113559,11 @@
           "original": "頭上何所有，翠微zc葉垂鬢唇。背後何",
           "corrected": "頭上何所有，翠微㔩葉垂鬢唇。背後何",
           "note": "Crawl residue \"zc\" → 㔩; 识典古籍 (/zh/): 《杜甫集》分門集注杜工部詩卷第三“節序” reads 「所有翠微㔩葉垂鬢唇」 (4 hit(s))"
+        },
+        {
+          "original": " \"川源饒毒霧，溪穀多淫雨。行潦四時",
+          "corrected": " \"川源饒毒霧，溪谷多淫雨。行潦四時",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -112630,16 +113656,28 @@
       "fixes": []
     },
     "御定全唐詩/json/035.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "管含秦鳳，仙姿麗鬥牛。形言防處逸，粹",
+          "corrected": "管含秦鳳，仙姿麗斗牛。形言防處逸，粹",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/036.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "野通淮泗，星躔應鬥牛。玉牒巨集圖表，",
+          "corrected": "野通淮泗，星躔應斗牛。玉牒巨集圖表，",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/037.json": {
       "date": "2026-06-26",
@@ -112648,10 +113686,16 @@
       "fixes": []
     },
     "御定全唐詩/json/038.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"何言陵穀徙，翻驚鄰笛悲。",
+          "corrected": "     \"何言陵谷徙，翻驚鄰笛悲。",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/039.json": {
       "date": "2026-06-26",
@@ -112678,10 +113722,16 @@
       ]
     },
     "御定全唐詩/json/042.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"空穀歸人少，青山背日",
+          "corrected": "       \"空谷歸人少，青山背日",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/043.json": {
       "date": "2026-06-26",
@@ -112714,10 +113764,16 @@
       ]
     },
     "御定全唐詩/json/047.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "牢落山川意，蕭疏鬆柏陰。破牆時直上，",
+          "corrected": "牢落山川意，蕭疏松柏陰。破牆時直上，",
+          "note": "Simplified→traditional conversion error: 鬆柏 → 松柏 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/048.json": {
       "date": "2026-06-26",
@@ -112750,10 +113806,21 @@
       "fixes": []
     },
     "御定全唐詩/json/053.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "le\": \"則天皇後挽歌\",\n   ",
+          "corrected": "le\": \"則天皇后挽歌\",\n   ",
+          "note": "Simplified→traditional conversion error: 皇後 → 皇后 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "舟淩石鯨度，槎拂鬥牛回。\",\n   ",
+          "corrected": "舟淩石鯨度，槎拂斗牛回。\",\n   ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/054.json": {
       "date": "2026-06-26",
@@ -112768,22 +113835,40 @@
       "fixes": []
     },
     "御定全唐詩/json/056.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "傾影赴前除。共嗟陵穀遠，俄視化城虛。",
+          "corrected": "傾影赴前除。共嗟陵谷遠，俄視化城虛。",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/057.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "西京全盛時，汾陰後土親祭祠。\",\n ",
+          "corrected": "西京全盛時，汾陰后土親祭祠。\",\n ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/058.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"平生何以樂，鬥酒夜相逢。曲中驚別",
+          "corrected": " \"平生何以樂，斗酒夜相逢。曲中驚別",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/059.json": {
       "date": "2026-10-04",
@@ -112816,7 +113901,7 @@
       "fixes": []
     },
     "御定全唐詩/json/063.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112824,6 +113909,11 @@
           "original": "驚cb透煙霞",
           "corrected": "驚𤢹透煙霞",
           "note": "Crawl residue \"cb\" → 𤢹: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": " \"川原饒毒霧，溪穀多霪雨。行潦四時",
+          "corrected": " \"川原饒毒霧，溪谷多霪雨。行潦四時",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -112852,10 +113942,16 @@
       "fixes": []
     },
     "御定全唐詩/json/068.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "le\": \"則天皇後挽歌二首\",\n ",
+          "corrected": "le\": \"則天皇后挽歌二首\",\n ",
+          "note": "Simplified→traditional conversion error: 皇後 → 皇后 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/069.json": {
       "date": "2026-06-26",
@@ -112864,10 +113960,16 @@
       "fixes": []
     },
     "御定全唐詩/json/070.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "le\": \"汾陰後土祠作\",\n   ",
+          "corrected": "le\": \"汾陰后土祠作\",\n   ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/071.json": {
       "date": "2026-06-26",
@@ -112918,10 +114020,26 @@
       ]
     },
     "御定全唐詩/json/077.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"川原繞毒霧，溪穀多淫雨。行潦四時",
+          "corrected": " \"川原繞毒霧，溪谷多淫雨。行潦四時",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "坐曆山川險，籲嗟陵穀遷。長吟空抱膝，",
+          "corrected": "坐曆山川險，籲嗟陵谷遷。長吟空抱膝，",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"去去訪林泉，空穀有遺賢。言投爵裏",
+          "corrected": " \"去去訪林泉，空谷有遺賢。言投爵裏",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/078.json": {
       "date": "2026-10-03",
@@ -112996,13 +114114,24 @@
       "fixes": []
     },
     "御定全唐詩/json/085.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "  \"玄王貽緒，後稷謀孫。肇禋九廟，",
+          "corrected": "  \"玄王貽緒，后稷謀孫。肇禋九廟，",
+          "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "磬，肅唱和鳴。皇皇後祖，來我思成。\"",
+          "corrected": "磬，肅唱和鳴。皇皇后祖，來我思成。\"",
+          "note": "Simplified→traditional conversion error: 皇後 → 皇后 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/086.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113010,11 +114139,26 @@
           "original": "娥眉fT睩共灰塵",
           "corrected": "娥眉𥊑睩共灰塵",
           "note": "Crawl residue \"fT\" → 𥊑: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "洄洑，潭生水落移陵穀。雲間墜翮散泥沙",
+          "corrected": "洄洑，潭生水落移陵谷。雲間墜翮散泥沙",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "價。百金誰見許，鬥酒難為貰。\",\n ",
+          "corrected": "價。百金誰見許，斗酒難為貰。\",\n ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "蛤伺陰兔，蛟龍望鬥牛。\",\n    ",
+          "corrected": "蛤伺陰兔，蛟龍望斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/087.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113022,6 +114166,11 @@
           "original": "昔日接z5倒",
           "corrected": "昔日接䍦倒",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "       \"鬥酒貽朋愛，躊躕出禦",
+          "corrected": "       \"斗酒貽朋愛，躊躕出禦",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -113109,10 +114258,16 @@
       "fixes": []
     },
     "御定全唐詩/json/099.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "重光。太原刻頌，後土疏場。\",\n  ",
+          "corrected": "重光。太原刻頌，后土疏場。\",\n  ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/100.json": {
       "date": "2026-06-26",
@@ -113235,10 +114390,16 @@
       "fixes": []
     },
     "御定全唐詩/json/116.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "故鄉可憶處，遙指鬥牛西。\"\n    ",
+          "corrected": "故鄉可憶處，遙指斗牛西。\"\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/117.json": {
       "date": "2026-10-03",
@@ -113253,16 +114414,28 @@
       ]
     },
     "御定全唐詩/json/118.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "壁餘鴻雁，紗窗宿鬥牛。更疑天路近，夢",
+          "corrected": "壁餘鴻雁，紗窗宿斗牛。更疑天路近，夢",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/119.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "交鞍馬前。與酤一鬥酒，恰用十千錢。\"",
+          "corrected": "交鞍馬前。與酤一斗酒，恰用十千錢。\"",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/120.json": {
       "date": "2026-06-26",
@@ -113295,7 +114468,7 @@
       "fixes": []
     },
     "御定全唐詩/json/125.json": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113333,14 +114506,35 @@
           "original": "丁田家有贈",
           "corrected": "丁㝢田家有贈",
           "note": "Bare PUA U+E7A6 → 㝢; 王維《丁㝢田家有贈》: same reasoning as 《至滑州隔河望黎陽憶丁三㝢》 (全唐诗 twin: 丁宇; common: 丁寓) — inferred"
+        },
+        {
+          "original": "朝京師。須憶今日鬥酒別，\"\n    ",
+          "corrected": "朝京師。須憶今日斗酒別，\"\n    ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "裏。有時農事閑，鬥酒呼鄰里。\",\n ",
+          "corrected": "裏。有時農事閑，斗酒呼鄰里。\",\n ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "與群物齊。分地依後稷，用天信重黎。\"",
+          "corrected": "與群物齊。分地依后稷，用天信重黎。\"",
+          "note": "Simplified→traditional conversion error: 後稷 → 后稷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/126.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"空穀歸人少，青山背日",
+          "corrected": "       \"空谷歸人少，青山背日",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/127.json": {
       "date": "2026-06-26",
@@ -113361,19 +114555,31 @@
       "fixes": []
     },
     "御定全唐詩/json/130.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "無限，河漢三更看鬥牛。\"\n     ",
+          "corrected": "無限，河漢三更看斗牛。\"\n     ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/131.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "    \"路向榮川穀，晴來望盡通。細",
+          "corrected": "    \"路向榮川谷，晴來望盡通。細",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/132.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113381,14 +114587,35 @@
           "original": "左手正接z5",
           "corrected": "左手正接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "草，羸馬詰朝鳴。鬥酒對寒食，雜花宜晚",
+          "corrected": "草，羸馬詰朝鳴。斗酒對寒食，雜花宜晚",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/133.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"別離鬥酒心相許，落日青郊",
+          "corrected": "     \"別離斗酒心相許，落日青郊",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "死生齊一貫，只應鬥酒任蒼蒼。\"\n  ",
+          "corrected": "死生齊一貫，只應斗酒任蒼蒼。\"\n  ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "詞林兩京客。故人鬥酒安陵橋，\",\n ",
+          "corrected": "詞林兩京客。故人斗酒安陵橋，\",\n ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/134.json": {
       "date": "2026-06-26",
@@ -113403,7 +114630,7 @@
       "fixes": []
     },
     "御定全唐詩/json/136.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113411,6 +114638,11 @@
           "original": "冪zx疏蒿下",
           "corrected": "冪䍥疏蒿下",
           "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "早。雷雨杳冥冥，川穀漫浩浩。\",\n ",
+          "corrected": "早。雷雨杳冥冥，川谷漫浩浩。\",\n ",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -113421,7 +114653,7 @@
       "fixes": []
     },
     "御定全唐詩/json/138.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113429,6 +114661,11 @@
           "original": "析ds增廣運",
           "corrected": "析㯕增廣運",
           "note": "Crawl residue \"ds\" → 㯕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "子，慧見息諸苦。落發自南州，燕居在西",
+          "corrected": "子，慧見息諸苦。落髮自南州，燕居在西",
+          "note": "Simplified→traditional conversion error: 落發 → 落髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -113439,10 +114676,16 @@
       "fixes": []
     },
     "御定全唐詩/json/140.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "樓多古今，陳事滿陵穀。\",\n    ",
+          "corrected": "樓多古今，陳事滿陵谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/141.json": {
       "date": "2026-10-04",
@@ -113457,10 +114700,16 @@
       ]
     },
     "御定全唐詩/json/142.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"新知偶相訪，鬥酒情依然。一宿阻長",
+          "corrected": " \"新知偶相訪，斗酒情依然。一宿阻長",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/143.json": {
       "date": "2026-06-26",
@@ -113469,10 +114718,16 @@
       "fixes": []
     },
     "御定全唐詩/json/144.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "里無歸信，傷心看鬥牛。\"\n     ",
+          "corrected": "里無歸信，傷心看斗牛。\"\n     ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/145.json": {
       "date": "2026-10-03",
@@ -113487,7 +114742,7 @@
       ]
     },
     "御定全唐詩/json/146.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113495,6 +114750,11 @@
           "original": "豗cI浪始聞",
           "corrected": "豗𢟸浪始聞",
           "note": "Crawl residue \"cI\" → 𢟸: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "蕭北風至。故人有鬥酒，是夜共君醉。\"",
+          "corrected": "蕭北風至。故人有斗酒，是夜共君醉。\"",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -113511,10 +114771,21 @@
       "fixes": []
     },
     "御定全唐詩/json/149.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "辭。憐君不得意，川穀自逶迤。\"\n  ",
+          "corrected": "辭。憐君不得意，川谷自逶迤。\"\n  ",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"扁舟伊獨往，鬥酒君自適。滄洲不可",
+          "corrected": " \"扁舟伊獨往，斗酒君自適。滄洲不可",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/150.json": {
       "date": "2026-10-05",
@@ -113534,16 +114805,38 @@
       ]
     },
     "御定全唐詩/json/151.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "古木。嘲哳相呼響空穀，\",\n    ",
+          "corrected": "古木。嘲哳相呼響空谷，\",\n    ",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "悵別柳條新。殷勤鬥酒城陰暮，\",\n ",
+          "corrected": "悵別柳條新。殷勤斗酒城陰暮，\",\n ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "   \"沙鳥不知陵穀變，朝飛暮去弋陽",
+          "corrected": "   \"沙鳥不知陵谷變，朝飛暮去弋陽",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/152.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "名高清遠峽，文聚鬥牛津。\",\n   ",
+          "corrected": "名高清遠峽，文聚斗牛津。\",\n   ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/153.json": {
       "date": "2026-06-26",
@@ -113552,10 +114845,16 @@
       "fixes": []
     },
     "御定全唐詩/json/154.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "因。且盡登臨意，鬥酒歡相親。\"\n  ",
+          "corrected": "因。且盡登臨意，斗酒歡相親。\"\n  ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/155.json": {
       "date": "2026-06-26",
@@ -113570,25 +114869,43 @@
       "fixes": []
     },
     "御定全唐詩/json/157.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "跡，精爽如可遇。鬥酒將酹君，悲風白楊",
+          "corrected": "跡，精爽如可遇。斗酒將酹君，悲風白楊",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/158.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "有二絲。漁父尚知溪穀暗，\",\n   ",
+          "corrected": "有二絲。漁父尚知溪谷暗，\",\n   ",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/159.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "鞅，設我園中葵。鬥酒須寒興，明朝難重",
+          "corrected": "鞅，設我園中葵。斗酒須寒興，明朝難重",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/160.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113596,20 +114913,52 @@
           "original": "時唱接z5歌",
           "corrected": "時唱接䍦歌",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "    \"高岸迷陵穀，新聲滿棹歌。猶",
+          "corrected": "    \"高岸迷陵谷，新聲滿棹歌。猶",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "氣今何在，相思望鬥牛。\"\n     ",
+          "corrected": "氣今何在，相思望斗牛。\"\n     ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "忍窺河漢，迢迢問鬥牛。\"\n     ",
+          "corrected": "忍窺河漢，迢迢問斗牛。\"\n     ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/161.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "覆，交道方嶮巇。鬥酒強然諾，寸心終自",
+          "corrected": "覆，交道方嶮巇。斗酒強然諾，寸心終自",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "     \"中有綠發翁，披雲臥松雪。",
+          "corrected": "     \"中有綠髮翁，披雲臥松雪。",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/162.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "翼骨。嘶青雲，振綠發，\",\n    ",
+          "corrected": "翼骨。嘶青雲，振綠髮，\",\n    ",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/163.json": {
       "date": "2026-06-26",
@@ -113636,7 +114985,7 @@
       "fixes": []
     },
     "御定全唐詩/json/166.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113644,6 +114993,11 @@
           "original": "倒著接z5花下迷",
           "corrected": "倒著接䍦花下迷",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "人知我心。君有數鬥酒，\",\n    ",
+          "corrected": "人知我心。君有數斗酒，\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -113696,10 +115050,16 @@
       ]
     },
     "御定全唐詩/json/172.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"鬥酒烹黃雞，一餐感素",
+          "corrected": "       \"斗酒烹黃雞，一餐感素",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/173.json": {
       "date": "2026-06-26",
@@ -113714,25 +115074,53 @@
       "fixes": []
     },
     "御定全唐詩/json/175.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"明日鬥酒別，惆悵清路塵。",
+          "corrected": "     \"明日斗酒別，惆悵清路塵。",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "       \"鬥酒勿為薄，寸心貴不",
+          "corrected": "       \"斗酒勿為薄，寸心貴不",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/176.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"群花散芳園，鬥酒開離顏。樂酣相顧",
+          "corrected": " \"群花散芳園，斗酒開離顏。樂酣相顧",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/177.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"鬥酒滿四筵，歌嘯宛溪",
+          "corrected": "       \"斗酒滿四筵，歌嘯宛溪",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "       \"鬥酒渭城邊，壚頭醉不",
+          "corrected": "       \"斗酒渭城邊，壚頭醉不",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/178.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113740,14 +115128,30 @@
           "original": "全勝白接z5",
           "corrected": "全勝白接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": " \"酬中都小吏攜鬥酒雙魚於逆旅見贈\"",
+          "corrected": " \"酬中都小吏攜斗酒雙魚於逆旅見贈\"",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/179.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "白笴夜長嘯，爽然溪穀寒。魚龍動陂水，",
+          "corrected": "白笴夜長嘯，爽然溪谷寒。魚龍動陂水，",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"偶然值青童，綠發雙雲鬟。笑我晚學",
+          "corrected": " \"偶然值青童，綠髮雙雲鬟。笑我晚學",
+          "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/180.json": {
       "date": "2026-06-26",
@@ -113756,13 +115160,19 @@
       "fixes": []
     },
     "御定全唐詩/json/181.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "覽幽意多。積雪照空穀，悲風鳴森柯。\"",
+          "corrected": "覽幽意多。積雪照空谷，悲風鳴森柯。\"",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/182.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113770,6 +115180,16 @@
           "original": "還應倒接z5",
           "corrected": "還應倒接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "嶺礙河漢，連峰橫鬥牛。\",\n    ",
+          "corrected": "嶺礙河漢，連峰橫斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"高松來好月，空穀宜清秋。溪深古雪",
+          "corrected": " \"高松來好月，空谷宜清秋。溪深古雪",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -113786,10 +115206,16 @@
       "fixes": []
     },
     "御定全唐詩/json/185.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "河從中來，白雲漲川穀。\",\n    ",
+          "corrected": "河從中來，白雲漲川谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/186.json": {
       "date": "2026-06-26",
@@ -113816,10 +115242,16 @@
       "fixes": []
     },
     "御定全唐詩/json/190.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "忽逢翰林友，歡樂鬥酒前。\",\n   ",
+          "corrected": "忽逢翰林友，歡樂斗酒前。\",\n   ",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/191.json": {
       "date": "2026-06-26",
@@ -113828,10 +115260,16 @@
       "fixes": []
     },
     "御定全唐詩/json/192.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "漲暮渾渾。草木盈川穀，澶漫一平吞。\"",
+          "corrected": "漲暮渾渾。草木盈川谷，澶漫一平吞。\"",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/193.json": {
       "date": "2026-06-26",
@@ -113864,7 +115302,7 @@
       "fixes": []
     },
     "御定全唐詩/json/198.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113872,6 +115310,21 @@
           "original": "gg山昨夜雷",
           "corrected": "𡷛山昨夜雷",
           "note": "Crawl residue \"gg\" → 𡷛: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "驟雨鳴淅瀝，颼飀溪穀寒。碧潭千餘尺，",
+          "corrected": "驟雨鳴淅瀝，颼飀溪谷寒。碧潭千餘尺，",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "欲閒心魂。日色隱空穀，蟬聲喧暮村。\"",
+          "corrected": "欲閒心魂。日色隱空谷，蟬聲喧暮村。\"",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "       \"鬥酒取一醉，孤琴為君",
+          "corrected": "       \"斗酒取一醉，孤琴為君",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -113882,7 +115335,7 @@
       "fixes": []
     },
     "御定全唐詩/json/200.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -113890,6 +115343,11 @@
           "original": "千杯倒接z5",
           "corrected": "千杯倒接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "       \"鬥酒渭城邊，壚頭耐醉",
+          "corrected": "       \"斗酒渭城邊，壚頭耐醉",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -113906,10 +115364,16 @@
       "fixes": []
     },
     "御定全唐詩/json/203.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "泊隨煙火，迷途視鬥牛。今宵越鄉意，還",
+          "corrected": "泊隨煙火，迷途視斗牛。今宵越鄉意，還",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/204.json": {
       "date": "2026-06-26",
@@ -113954,10 +115418,16 @@
       "fixes": []
     },
     "御定全唐詩/json/211.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "樓多古今，陳事滿陵穀。\",\n    ",
+          "corrected": "樓多古今，陳事滿陵谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/212.json": {
       "date": "2026-06-26",
@@ -113966,25 +115436,43 @@
       "fixes": []
     },
     "御定全唐詩/json/213.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"鬥酒相留醉複醒，悲歌",
+          "corrected": "       \"斗酒相留醉複醒，悲歌",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/214.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "天地莊生馬，江湖範蠡舟。逍遙堪自樂，",
+          "corrected": "天地莊生馬，江湖范蠡舟。逍遙堪自樂，",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/215.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "極臨滄海，天遙過鬥牛。精誠如可諒，他",
+          "corrected": "極臨滄海，天遙過斗牛。精誠如可諒，他",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/216.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114002,11 +115490,16 @@
           "original": "頭上何所有，翠微zc葉垂鬢唇。背後何",
           "corrected": "頭上何所有，翠微㔩葉垂鬢唇。背後何",
           "note": "Crawl residue \"zc\" → 㔩; 识典古籍 (/zh/): 《杜甫集》分門集注杜工部詩卷第三“節序” reads 「所有翠微㔩葉垂鬢唇」 (4 hit(s))"
+        },
+        {
+          "original": "未曾見白日，泥汙後土何時幹。\"\n  ",
+          "corrected": "未曾見白日，泥汙后土何時幹。\"\n  ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/217.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114014,26 +115507,59 @@
           "original": "揭gG怪石走",
           "corrected": "揭𡿗怪石走",
           "note": "Crawl residue \"gG\" → 𡿗: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "弦，自爾無寧歲。川穀血橫流，豺狼沸相",
+          "corrected": "弦，自爾無寧歲。川谷血橫流，豺狼沸相",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "東風吹春冰，泱莽後土濕。\",\n   ",
+          "corrected": "東風吹春冰，泱莽后土濕。\",\n   ",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/218.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "代有佳人，幽居在空穀。自雲良家子，零",
+          "corrected": "代有佳人，幽居在空谷。自雲良家子，零",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/219.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "出遮我留，仍嗔問升鬥。\"\n     ",
+          "corrected": "出遮我留，仍嗔問升斗。\"\n     ",
+          "note": "Simplified→traditional conversion error: 升鬥 → 升斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/220.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "大羽箭。褒公鄂公毛發動，\",\n   ",
+          "corrected": "大羽箭。褒公鄂公毛髮動，\",\n   ",
+          "note": "Simplified→traditional conversion error: 毛發 → 毛髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "四顧俯層巔，澹然川穀開。\",\n   ",
+          "corrected": "四顧俯層巔，澹然川谷開。\",\n   ",
+          "note": "Simplified→traditional conversion error: 川穀 → 川谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/221.json": {
       "date": "2026-06-26",
@@ -114042,7 +115568,7 @@
       "fixes": []
     },
     "御定全唐詩/json/222.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114055,6 +115581,11 @@
           "original": "排鐵騎，清旭散錦eL。賊臣表逆節，相",
           "corrected": "排鐵騎，清旭散錦𩦺。賊臣表逆節，相",
           "note": "Crawl residue \"eL\" → 𩦺; 识典古籍 (/zh/): 《唐詩類苑》唐詩類苑卷第一百二十七 reads 「清旭散錦𩦺賊臣表逆」 (7 hit(s))"
+        },
+        {
+          "original": "明主正郁陶。憶昔範增碎玉鬥，\"\n  ",
+          "corrected": "明主正郁陶。憶昔范增碎玉鬥，\"\n  ",
+          "note": "Simplified→traditional conversion error: 範增 → 范增 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -114093,10 +115624,16 @@
       "fixes": []
     },
     "御定全唐詩/json/226.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "       \"範蠡舟偏小，王喬鶴不",
+          "corrected": "       \"范蠡舟偏小，王喬鶴不",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/227.json": {
       "date": "2026-06-26",
@@ -114129,10 +115666,16 @@
       ]
     },
     "御定全唐詩/json/231.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"滄江白發愁看汝，來歲如今",
+          "corrected": "     \"滄江白髮愁看汝，來歲如今",
+          "note": "Simplified→traditional conversion error: 白發 → 白髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/232.json": {
       "date": "2026-06-26",
@@ -114141,22 +115684,40 @@
       "fixes": []
     },
     "御定全唐詩/json/233.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "悲公子，鰕菜忘歸範蠡船。\"\n    ",
+          "corrected": "悲公子，鰕菜忘歸范蠡船。\"\n    ",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/234.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "身。皇天無老眼，空穀滯斯人。\",\n ",
+          "corrected": "身。皇天無老眼，空谷滯斯人。\",\n ",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/235.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "目連江漢，西南浸鬥牛。\",\n    ",
+          "corrected": "目連江漢，西南浸斗牛。\",\n    ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/236.json": {
       "date": "2026-06-26",
@@ -114165,19 +115726,36 @@
       "fixes": []
     },
     "御定全唐詩/json/237.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"美人深別意，鬥酒少留歡。明發將何",
+          "corrected": " \"美人深別意，斗酒少留歡。明發將何",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "       \"鬥酒百花裏，情人一笑",
+          "corrected": "       \"斗酒百花裏，情人一笑",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/238.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "去，威仍出閫行。鬥牛移八座，日月送雙",
+          "corrected": "去，威仍出閫行。斗牛移八座，日月送雙",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/239.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114185,6 +115763,16 @@
           "original": "未勝杯前倒接z5",
           "corrected": "未勝杯前倒接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "       \"鬥酒忘言良夜深，紅萱",
+          "corrected": "       \"斗酒忘言良夜深，紅萱",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "自憐非劍氣，空向鬥牛星。\",\n   ",
+          "corrected": "自憐非劍氣，空向斗牛星。\",\n   ",
+          "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -114278,7 +115866,7 @@
       ]
     },
     "御定全唐詩/json/246.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114286,6 +115874,21 @@
           "original": "虎臣□激昂，□□□禦侮",
           "corrected": "虎臣頗激昂，□□□禦侮",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 3 independent books on 识典古籍 agree, e.g. 《古今圖書集成·山川典》欽定古今圖書集成方輿彙編山川典第二千二百八十八卷“嵩山部藝文三詩”; 《唐詩所》卷十五"
+        },
+        {
+          "original": "輪大如盤，金波入空穀。\",\n    ",
+          "corrected": "輪大如盤，金波入空谷。\",\n    ",
+          "note": "Simplified→traditional conversion error: 空穀 → 空谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "結。炎雲如煙火，溪穀將恐竭。\",\n ",
+          "corrected": "結。炎雲如煙火，溪谷將恐竭。\",\n ",
+          "note": "Simplified→traditional conversion error: 溪穀 → 溪谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": " \"與物無親疏，鬥酒勝竹帛。何必用自",
+          "corrected": " \"與物無親疏，斗酒勝竹帛。何必用自",
+          "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
@@ -114326,7 +115929,7 @@
       "fixes": []
     },
     "御定全唐詩/json/252.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -114339,14 +115942,25 @@
           "original": "冪zx溪邊草",
           "corrected": "冪䍥溪邊草",
           "note": "Crawl residue \"zx\" → 䍥: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "師賦出車。因知越範蠡，湖海意何如。\"",
+          "corrected": "師賦出車。因知越范蠡，湖海意何如。\"",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
         }
       ]
     },
     "御定全唐詩/json/253.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": " \"伍胥既仗劍，範蠡亦乘流。歌竟鼓楫",
+          "corrected": " \"伍胥既仗劍，范蠡亦乘流。歌竟鼓楫",
+          "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     },
     "御定全唐詩/json/254.json": {
       "date": "2026-06-26",
@@ -114373,10 +115987,16 @@
       "fixes": []
     },
     "御定全唐詩/json/258.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "     \"仍親後土祭，更理晉陽兵。",
+          "corrected": "     \"仍親后土祭，更理晉陽兵。",
+          "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        }
+      ]
     }
   }
 }
