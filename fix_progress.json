@@ -5,8 +5,8 @@
     "total_files": 1589,
     "reviewed": 1589,
     "clean": 410,
-    "fixed": 733,
-    "needs_review": 134,
+    "fixed": 754,
+    "needs_review": 113,
     "out_of_scope": 313,
     "in_scope_files": 1276
   },
@@ -762,12 +762,12 @@
     "御定全唐詩/json/808.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "緣崖藤冪zx / 摧殘廣脅gJ",
-          "corrected": null,
-          "note": "Two ASCII placeholder codes found: (1) 慧宣《秋日遊東山寺尋殊曹二法師》(no#3): 'zx' in '緣崖藤冪zx'; (2) 義淨《與無行禪師同游鷲嶺…》(no#22): 'gJ' in '摧殘廣脅gJ'. Both are encoding artifacts for characters unrepresentable in the source encoding system. Requires verification against physical edition."
+          "corrected": "緣崖藤冪䍥 / 摧殘廣脅楹",
+          "note": "Two ASCII placeholder codes found: (1) 慧宣《秋日遊東山寺尋殊曹二法師》(no#3): 'zx' in '緣崖藤冪zx'; (2) 義淨《與無行禪師同游鷲嶺…》(no#22): 'gJ' in '摧殘廣脅gJ'. Both are encoding artifacts for characters unrepresentable in the source encoding system. Requires verification against physical edition. | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "緣崖藤冪zx",
@@ -1280,12 +1280,12 @@
     "御定全唐詩/json/837.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "z6光大師草書歌",
-          "corrected": null,
-          "note": "貫休《z6光大師草書歌》(no#35): 'z6' appears in the poem title itself as an ASCII placeholder code (letter+digit). Requires verification against physical edition to identify the correct character."
+          "corrected": "䛒光大師草書歌",
+          "note": "貫休《z6光大師草書歌》(no#35): 'z6' appears in the poem title itself as an ASCII placeholder code (letter+digit). Requires verification against physical edition to identify the correct character. | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "黃昏風雨黑如盤",
@@ -1331,12 +1331,12 @@
     "御定全唐詩/json/840.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "送靈z6上人遊五台",
-          "corrected": null,
-          "note": "齊己《送靈z6上人遊五台》(no#18): 'z6' appears in the poem title as an ASCII placeholder code (letter+digit). Same code also seen in 837.json no#35 title '貫休《z6光大師草書歌》'. Requires verification against physical edition."
+          "corrected": "送靈䛒上人遊五台",
+          "note": "齊己《送靈z6上人遊五台》(no#18): 'z6' appears in the poem title as an ASCII placeholder code (letter+digit). Same code also seen in 837.json no#35 title '貫休《z6光大師草書歌》'. Requires verification against physical edition. | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "無來又來年",
@@ -1476,12 +1476,12 @@
     "御定全唐詩/json/843.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "喜z6公自武陵至",
-          "corrected": null,
-          "note": "齊己《喜z6公自武陵至》(no#59): 'z6' in the poem title. Same ASCII placeholder code appearing in 837.json (貫休) and 840.json (齊己). Likely a monk's name with an unrepresentable character. Requires verification against physical edition."
+          "corrected": "喜䛒公自武陵至",
+          "note": "齊己《喜z6公自武陵至》(no#59): 'z6' in the poem title. Same ASCII placeholder code appearing in 837.json (貫休) and 840.json (齊己). Likely a monk's name with an unrepresentable character. Requires verification against physical edition. | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "       \"範蠡東浮闊，靈均北泛",
@@ -1608,14 +1608,14 @@
       "fixes": []
     },
     "御定全唐詩/json/865.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
       "fixes": [
         {
           "original": "author: 趙z7",
-          "corrected": null,
-          "note": "no#29 《獻高駢》: author field is '趙z7'. 'z7' is an ASCII placeholder code (letter + digit) in the author's name. Requires verification against physical edition to recover the missing character."
+          "corrected": "author: 趙𤰳",
+          "note": "no#29 《獻高駢》: author field is '趙z7'. 'z7' is an ASCII placeholder code (letter + digit) in the author's name. Requires verification against physical edition to recover the missing character. | 2026-10-06 resolved: Author residue code z7 → 𤰳 (全唐诗 twin reads 趙𤰳《獻高駢》)"
         }
       ]
     },
@@ -2014,12 +2014,12 @@
     "御定全唐詩/json/899.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "一庭紅fQ簌",
-          "corrected": null,
-          "note": "no#11 無名氏《後庭宴》: 'fQ' in '一庭紅fQ簌'. ASCII placeholder code (letter + digit). Requires verification against physical edition."
+          "corrected": "一庭紅撲簌",
+          "note": "no#11 無名氏《後庭宴》: 'fQ' in '一庭紅fQ簌'. ASCII placeholder code (letter + digit). Requires verification against physical edition. | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "樹綠低迷，一庭紅fQ簌。",
@@ -2054,12 +2054,12 @@
     "御定全唐詩/json/896.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "歐陽彬2",
-          "corrected": null,
-          "note": "no#35 《生查子》: author field reads '歐陽彬2'. Trailing digit '2' may be a disambiguation suffix or encoding artifact. Historical poet name is 歐陽彬. Requires verification against physical edition."
+          "corrected": "歐陽彬2",
+          "note": "no#35 《生查子》: author field reads '歐陽彬2'. Trailing digit '2' may be a disambiguation suffix or encoding artifact. Historical poet name is 歐陽彬. Requires verification against physical edition. | 2026-10-06 resolved: trailing digit is the dataset's homonym-disambiguation convention (cf. 李好古1/李好古2 in 宋词), not a garble"
         },
         {
           "original": "吟跫斷續漏頻移",
@@ -2177,7 +2177,7 @@
     "御定全唐詩/json/891.json": {
       "date": "2026-10-03",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "翠鳳寶釵垂s4zy",
@@ -2186,8 +2186,8 @@
         },
         {
           "original": "張曙2",
-          "corrected": null,
-          "note": "Author field of no#34 《浣溪沙》: trailing '2' in '張曙2'. Same pattern as '李瀚2' (881.json), '王季友1' (883.json), '崔融2' (887.json). Digit not part of historical poet's name. Requires verification against physical edition."
+          "corrected": "張曙2",
+          "note": "Author field of no#34 《浣溪沙》: trailing '2' in '張曙2'. Same pattern as '李瀚2' (881.json), '王季友1' (883.json), '崔融2' (887.json). Digit not part of historical poet's name. Requires verification against physical edition. | 2026-10-06 resolved: trailing digit is the dataset's homonym-disambiguation convention (cf. 李好古1/李好古2 in 宋词), not a garble"
         },
         {
           "original": "香玉，翠鳳寶釵垂s4zy。鈿筐交勝金粟，",
@@ -2210,12 +2210,12 @@
     "御定全唐詩/json/883.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "王季友1",
-          "corrected": null,
-          "note": "Author field of no#7 《青出藍》 and no#8 《皇帝移晦日為中和節》: trailing '1' in '王季友1'. Likely an ASCII placeholder code or disambiguation suffix; '1' does not appear in the historical poet's name. Requires verification against physical edition."
+          "corrected": "王季友1",
+          "note": "Author field of no#7 《青出藍》 and no#8 《皇帝移晦日為中和節》: trailing '1' in '王季友1'. Likely an ASCII placeholder code or disambiguation suffix; '1' does not appear in the historical poet's name. Requires verification against physical edition. | 2026-10-06 resolved: trailing digit is the dataset's homonym-disambiguation convention (cf. 李好古1/李好古2 in 宋词), not a garble"
         },
         {
           "original": "夜含星斗分幹象",
@@ -2272,12 +2272,12 @@
     "御定全唐詩/json/887.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "崔融2",
-          "corrected": null,
-          "note": "Author field of no#14 《題惠聚寺》: trailing '2' in '崔融2'. Same pattern as '李瀚2' (881.json) and '王季友1' (883.json). Digit not part of the historical poet's name. Requires verification against physical edition."
+          "corrected": "崔融2",
+          "note": "Author field of no#14 《題惠聚寺》: trailing '2' in '崔融2'. Same pattern as '李瀚2' (881.json) and '王季友1' (883.json). Digit not part of the historical poet's name. Requires verification against physical edition. | 2026-10-06 resolved: trailing digit is the dataset's homonym-disambiguation convention (cf. 李好古1/李好古2 in 宋词), not a garble"
         },
         {
           "original": "思共攀陟，東南看鬥牛。\"\n     ",
@@ -2338,12 +2338,12 @@
     "御定全唐詩/json/881.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "李瀚2",
-          "corrected": null,
-          "note": "Author field of no#1 《蒙求》: trailing '2' in '李瀚2'. Likely an ASCII placeholder code for a character in the author's name, or a disambiguation suffix. 李瀚 (Tang dynasty) wrote 《蒙求》; no digit appears in his historical name. Requires verification against physical edition."
+          "corrected": "李瀚2",
+          "note": "Author field of no#1 《蒙求》: trailing '2' in '李瀚2'. Likely an ASCII placeholder code for a character in the author's name, or a disambiguation suffix. 李瀚 (Tang dynasty) wrote 《蒙求》; no digit appears in his historical name. Requires verification against physical edition. | 2026-10-06 resolved: trailing digit is the dataset's homonym-disambiguation convention (cf. 李好古1/李好古2 in 宋词), not a garble"
         },
         {
           "original": "自賣。仲連蹈海，範蠡泛湖。文寶緝柳，",
@@ -2405,12 +2405,12 @@
     "御定全唐詩/json/765.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "苟非dJ之為",
-          "corrected": null,
-          "note": "王周《志峽船具詩：百丈》(no#42) contains 'dJ' as an apparent placeholder for an unrepresentable character. The poem discusses rope/cable (百丈) used to pull boats through gorges. Likely a two-character code from the same encoding system seen in 761.json (h-codes). Requires expert verification against a physical edition."
+          "corrected": "苟非綸之為",
+          "note": "王周《志峽船具詩：百丈》(no#42) contains 'dJ' as an apparent placeholder for an unrepresentable character. The poem discusses rope/cable (百丈) used to pull boats through gorges. Likely a two-character code from the same encoding system seen in 761.json (h-codes). Requires expert verification against a physical edition. | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "朽索何足擬。苟非dJ之為，胡可力行此",
@@ -2600,8 +2600,8 @@
       "fixes": [
         {
           "original": "頭髻pE鬌手爪長",
-          "corrected": null,
-          "note": "needs_review: 'pE' appears to be an ASCII placeholder for a rare character in 顧況《宜城放琴客歌》; likely a hair-style character; cannot determine correct char"
+          "corrected": "(resolved: residue code no longer present; restored via scripts/yuding_codes.tsv)",
+          "note": "needs_review: 'pE' appears to be an ASCII placeholder for a rare character in 顧況《宜城放琴客歌》; likely a hair-style character; cannot determine correct char | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "況榜龍fp船",
@@ -3886,12 +3886,12 @@
     "御定全唐詩/json/339.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "fI池波風肉陵屯，",
-          "corrected": null,
-          "note": "needs_review: 'fI' bare ASCII placeholder; in 韓愈《陸渾山火和皇甫湜用其韻》; cannot determine correct character without authoritative source"
+          "corrected": "(resolved: residue code no longer present; restored via scripts/yuding_codes.tsv)",
+          "note": "needs_review: 'fI' bare ASCII placeholder; in 韓愈《陸渾山火和皇甫湜用其韻》; cannot determine correct character without authoritative source | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "電光ze磹赬目fu，",
@@ -4002,7 +4002,7 @@
     "御定全唐詩/json/342.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "雷霆逼颶f2。",
@@ -4011,8 +4011,8 @@
         },
         {
           "original": "我亦平行蹋y槱e，",
-          "corrected": null,
-          "note": "needs_review: 'y' and 'e' bare ASCII placeholders surrounding 槱; in 韓愈《記夢》; cannot determine correct characters without authoritative source"
+          "corrected": "(resolved: residue code no longer present; restored via scripts/yuding_codes.tsv)",
+          "note": "needs_review: 'y' and 'e' bare ASCII placeholders surrounding 槱; in 韓愈《記夢》; cannot determine correct characters without authoritative source | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "雷霆逼颶f2",
@@ -4893,7 +4893,7 @@
     "御定全唐詩/json/393.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "妝成pE鬌欹不斜，",
@@ -4902,8 +4902,8 @@
         },
         {
           "original": "玉挽鳴qX轔。",
-          "corrected": null,
-          "note": "needs_review: 'qX' bare ASCII placeholder; in 李賀《出城別張又新酬李漢》; cannot determine correct character without authoritative source"
+          "corrected": "玉挽鳴𨏈轔。",
+          "note": "needs_review: 'qX' bare ASCII placeholder; in 李賀《出城別張又新酬李漢》; cannot determine correct character without authoritative source | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "妝成pE鬌欹不斜",
@@ -6083,12 +6083,12 @@
     "御定全唐詩/json/446.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "泛小fq二首》] 水一塘，fq一隻。fq頭漾漾知風起，fq背蕭蕭聞雨滴。",
-          "corrected": null,
-          "note": "needs_review: 'fq' recurring placeholder (also in 405.json); in 白居易《泛小fq二首》; appears 4 times including in poem title; context is a small boat; cannot determine correct character without authoritative source"
+          "corrected": "(resolved: residue code no longer present; restored via scripts/yuding_codes.tsv)",
+          "note": "needs_review: 'fq' recurring placeholder (also in 405.json); in 白居易《泛小fq二首》; appears 4 times including in poem title; context is a small boat; cannot determine correct character without authoritative source | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "fq一隻",
@@ -8045,6 +8045,11 @@
           "original": "來年空仰望",
           "corrected": "隔年空仰望",
           "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 7 books on 识典古籍 read 隔 (e.g. 《中晚唐九家詩》卷七, 《全唐詩》第九函第二册卷四), none support 來"
+        },
+        {
+          "original": "知古齋主精校",
+          "corrected": "(removed)",
+          "note": "Non-poem paragraphs removed: data-entry signature 「知古齋主精校2000。01。22。」 and stray letter"
         }
       ]
     },
@@ -9171,7 +9176,7 @@
     "御定全唐詩/json/613.json": {
       "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "半日始齋青z3飯，",
@@ -9180,8 +9185,8 @@
         },
         {
           "original": "雕胡飯熟bu餬軟，",
-          "corrected": null,
-          "note": "needs_review: 'bu' bare ASCII placeholder; in 皮日休《魯望以躬掇野蔬兼示雅什》; cannot determine without authoritative source"
+          "corrected": "雕胡飯熟𩝊餬軟，",
+          "note": "needs_review: 'bu' bare ASCII placeholder; in 皮日休《魯望以躬掇野蔬兼示雅什》; cannot determine without authoritative source | 2026-10-06 resolved: code(s) restored via code table"
         },
         {
           "original": "半日始齋青z3飯",
@@ -10268,14 +10273,19 @@
       ]
     },
     "御定全唐詩/json/668.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "j",
           "corrected": null,
           "note": "needs_review: entire paragraph content is just 'j' — clearly a corrupt/truncated entry; in 高蟾《句》; the actual poem content is missing"
+        },
+        {
+          "original": "知古齋主精校2000。01。22。 / j",
+          "corrected": "(removed)",
+          "note": "Non-poem paragraphs removed: data-entry signature 「知古齋主精校2000。01。22。」 and stray letter"
         }
       ]
     },
@@ -12204,14 +12214,14 @@
       "fixes": []
     },
     "五代诗词/huajianji/huajianji-3-juan.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "马骄泥软绵连乾",
-          "corrected": null,
-          "note": "needs_review: 薛昭蕴《喜迁莺·清明节》。Note explains '锦连乾--马的饰物' but poem text has '绵连乾'; 绵/锦 mismatch between annotation and poem text. If note is correct, '绵' may be a typo for '锦'."
+          "corrected": "马骄泥软锦连乾",
+          "note": "needs_review: 薛昭蕴《喜迁莺·清明节》。Note explains '锦连乾--马的饰物' but poem text has '绵连乾'; 绵/锦 mismatch between annotation and poem text. If note is correct, '绵' may be a typo for '锦'. | 2026-10-06 resolved: 薛昭蕴《喜迁莺》: 「锦连乾」（马饰），本条注释亦作「锦连乾」 (Tier 1)"
         }
       ]
     },
@@ -12222,19 +12232,19 @@
       "fixes": []
     },
     "五代诗词/huajianji/huajianji-5-juan.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "绿云高绾，金族小蜻蜓",
-          "corrected": null,
-          "note": "needs_review: 张泌《江城子·浣花溪上见卿卿》。Note explains '金蝉--金制蜻蜓形状的头饰' but poem text has '金族'. Note references '金蝉' which does not appear in poem text; '族' may be a typo for '蝉' or another character. Authoritative source needed."
+          "corrected": "绿云高绾，金簇小蜻蜓",
+          "note": "needs_review: 张泌《江城子·浣花溪上见卿卿》。Note explains '金蝉--金制蜻蜓形状的头饰' but poem text has '金族'. Note references '金蝉' which does not appear in poem text; '族' may be a typo for '蝉' or another character. Authoritative source needed. | 2026-10-06 resolved: 张泌《江城子》: 「绿云高绾，金簇小蜻蜓」 (Tier 1)"
         },
         {
           "original": "咋夜雨霏霏",
-          "corrected": null,
-          "note": "needs_review: 毛文锡《醉花间·休相问》。'咋夜' is non-standard; classical form would be '昨夜'. '咋' and '昨' look similar and this may be a typo/OCR error. Authoritative source needed to confirm."
+          "corrected": "昨夜雨霏霏",
+          "note": "needs_review: 毛文锡《醉花间·休相问》。'咋夜' is non-standard; classical form would be '昨夜'. '咋' and '昨' look similar and this may be a typo/OCR error. Authoritative source needed to confirm. | 2026-10-06 resolved: 毛文锡《醉花间》: 「昨夜雨霏霏」 (Tier 1)"
         }
       ]
     },
@@ -12251,14 +12261,14 @@
       ]
     },
     "五代诗词/huajianji/huajianji-7-juan.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "漠漠秋云淡，红耦香侵槛",
-          "corrected": null,
-          "note": "needs_review: 顾敻《醉公子·漠漠秋云淡》。'红耦' likely should be '红藕' (red lotus) — 耦 (pair/plowing) makes no semantic sense with 香 (fragrance) and 槛 (railing near water); '红藕香' is a well-attested poetic phrase. Authoritative source needed to confirm."
+          "corrected": "漠漠秋云淡，红藕香侵槛",
+          "note": "needs_review: 顾敻《醉公子·漠漠秋云淡》。'红耦' likely should be '红藕' (red lotus) — 耦 (pair/plowing) makes no semantic sense with 香 (fragrance) and 槛 (railing near water); '红藕香' is a well-attested poetic phrase. Authoritative source needed to confirm. | 2026-10-06 resolved: 顾敻《醉公子》: 「红藕香侵槛」 (Tier 1)"
         }
       ]
     },
@@ -12275,14 +12285,14 @@
       ]
     },
     "五代诗词/huajianji/huajianji-9-juan.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "姣绡雾縠笼香雪",
-          "corrected": null,
-          "note": "needs_review: 魏承班《渔歌子·柳如眉》。Poem text reads '姣绡' but note 1 explicitly glosses '蛟绡--鲛绡：即鲛绡，相传为鲛人所织的绡', indicating intended character is 蛟 (or 鲛). '姣' (beautiful) vs '蛟/鲛' (mythological sea creature) is a known look-alike substitution. Authoritative source needed to confirm."
+          "corrected": "鲛绡雾縠笼香雪",
+          "note": "needs_review: 魏承班《渔歌子·柳如眉》。Poem text reads '姣绡' but note 1 explicitly glosses '蛟绡--鲛绡：即鲛绡，相传为鲛人所织的绡', indicating intended character is 蛟 (or 鲛). '姣' (beautiful) vs '蛟/鲛' (mythological sea creature) is a known look-alike substitution. Authoritative source needed to confirm. | 2026-10-06 resolved: 魏承班《渔歌子》: 「鲛绡雾縠笼香雪」，本条注释亦释「鲛绡」 (Tier 1)"
         }
       ]
     },
@@ -124901,6 +124911,11 @@
           "original": "崆峒散發何人",
           "corrected": "崆峒散髮何人",
           "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.6000.json) reads 「崆峒散髪何人」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "知古齋主精校2000。01。22。",
+          "corrected": "(removed)",
+          "note": "Non-poem paragraphs removed: data-entry signature 「知古齋主精校2000。01。22。」 and stray letter"
         }
       ]
     },
@@ -126988,6 +127003,11 @@
           "original": "于萬期年",
           "corrected": "于萬斯年",
           "note": "Twin collation: 期 → 斯; the other source (全唐诗) and 2 books on 识典古籍 read 斯 (e.g. 《御製律呂正義後編》卷一百零三, 《樂府詩集》樂府詩集卷十一“郊廟歌辭”), none support 期"
+        },
+        {
+          "original": "author: 蘇",
+          "corrected": "author: 蘇㝢",
+          "note": "Author PUA U+E7A6 → 㝢 (全唐诗 twin reads 蘇寓; same PUA was confirmed as 㝢 in 王維《丁㝢田家有贈》)"
         }
       ]
     },
