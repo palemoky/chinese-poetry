@@ -8,10 +8,14 @@
   cyrillic_greek   西里尔 / 希腊字母乱码
   kana_bopomofo    日文假名 / 注音符号乱码
   box_drawing      制表符号乱码（┾ ╆ 等）与 U+FFFD 替换符
+  dup_punct        重复标点（？。 ！。 。。 ，， 、、）
+  half_width_punct 紧邻汉字的半角 , ; : !
   bare_pua         {...} 之外的私用区字符
   missing_char     □ 缺字
 
 用法：
+  python3 scripts/check_structure.py --baseline scripts/check_baseline.json   # CI：乱码类数量不得增加
+  python3 scripts/check_structure.py --write-baseline scripts/check_baseline.json   # 修复后更新基线
   python3 scripts/check_structure.py                 # 打印汇总
   python3 scripts/check_structure.py --out r.jsonl   # 同时输出逐条明细（JSON Lines）
   python3 scripts/check_structure.py --only ci_pattern --show 20
@@ -36,10 +40,17 @@ ASCII_RES = re.compile(r'[A-Za-z0-9]+')
 HANZI = re.compile(r'[\u3400-\u9fff\U00020000-\U0003ffff\ue000-\uf8ff□〇]')
 CYRILLIC_GREEK = re.compile(r'[Ѐ-ӿͰ-Ͽ]')
 BOX_DRAWING = re.compile(r'[\u2500-\u257f\ufffd]')   # 制表符号乱码与 U+FFFD 替换符（GBK 字节错位）
+DUP_PUNCT = re.compile(r'？。|！。|。。|，，|、、')                 # 已规整过的重复标点
+HALF_PUNCT = re.compile(r'(?<=[\u4e00-\u9fff])[,;:!]|[,;:!](?=[\u4e00-\u9fff])')   # 紧邻汉字的半角标点
 KANA_BOPOMOFO = re.compile(r'[\u3040-\u30fa\u30fc-\u30ff\u3100-\u312f\u31a0-\u31bf]')  # 假名、注音乱码（不含标题分隔符・）
 PUA = re.compile(r'[-]')
 CI_DIRS = {'宋词', '五代诗词'}
 SHI_DIRS = {'全唐诗', '御定全唐詩', '水墨唐诗', '曹操诗集', '纳兰性德'}  # 元曲有衬字，不做字数检查
+
+
+# 这些检查项一旦增加即视为退化（CI 失败）；缺字、字数异常等多为底本原貌，仅作提示
+STRICT = ('bad_json', 'cyrillic_greek', 'kana_bopomofo', 'box_drawing', 'bare_pua', 'ascii_residue',
+          'dup_punct', 'half_width_punct')
 
 
 def iter_files():
@@ -92,7 +103,8 @@ def check_chars(rel, idx, it, lines, report):
     for line in lines:
         body = FOOTNOTE.sub('', PLACEHOLDER.sub('', line))
         for kind, rx in (('cyrillic_greek', CYRILLIC_GREEK), ('kana_bopomofo', KANA_BOPOMOFO),
-                         ('box_drawing', BOX_DRAWING), ('bare_pua', PUA), ('ascii_residue', ASCII_RES)):
+                         ('box_drawing', BOX_DRAWING), ('bare_pua', PUA), ('ascii_residue', ASCII_RES),
+                         ('dup_punct', DUP_PUNCT), ('half_width_punct', HALF_PUNCT)):
             for m in rx.finditer(body):
                 report(kind, rel, idx, it, line, token=m.group())
         if '□' in line:
@@ -223,6 +235,8 @@ def main():
     ap.add_argument('--out', help='逐条明细输出路径（.jsonl）')
     ap.add_argument('--only', help='只显示某类检查')
     ap.add_argument('--show', type=int, default=5, help='每类展示的样例数')
+    ap.add_argument('--baseline', help='与基线比较：STRICT 类检查的数量若增加则以非零状态退出（用于 CI）')
+    ap.add_argument('--write-baseline', help='把当前各类数量写为基线')
     args = ap.parse_args()
 
     findings = []
@@ -284,6 +298,24 @@ def main():
             elif f.get('cross') == 'same':
                 extra += ' | 另一来源相同'
             print(f"   {f['file']}#{f['index']} {f['poem']} {f['text']}{extra}")
+
+    counts = {k: len(v) for k, v in sorted(by_kind.items())}
+    if args.write_baseline:
+        with open(args.write_baseline, 'w', encoding='utf-8') as fp:
+            json.dump(counts, fp, ensure_ascii=False, indent=2)
+            fp.write('\n')
+        print(f'\nbaseline written: {args.write_baseline}')
+    if args.baseline:
+        with open(args.baseline, encoding='utf-8') as fp:
+            base = json.load(fp)
+        worse = {k: (base.get(k, 0), counts.get(k, 0)) for k in STRICT if counts.get(k, 0) > base.get(k, 0)}
+        better = {k: (base.get(k, 0), counts.get(k, 0)) for k in base if counts.get(k, 0) < base[k]}
+        if better:
+            print('\n已减少（可用 --write-baseline 更新基线）：' + '，'.join(f'{k} {a}→{b}' for k, (a, b) in better.items()))
+        if worse:
+            print('\n::error::以下检查项比基线增加，请修正后再提交：' + '，'.join(f'{k} {a}→{b}' for k, (a, b) in worse.items()))
+            return 1
+        print('\n与基线比较：没有新增问题')
     return 0
 
 

@@ -1,0 +1,35 @@
+name: Data quality
+
+# 全库质检：乱码、私用区字符、编码残渣、重复/半角标点等数量不得比基线增加。
+# 只在本地运行 scripts/check_structure.py，不访问任何外部网站。
+# 修复问题后数量减少时，请运行
+#   python3 scripts/check_structure.py --write-baseline scripts/check_baseline.json
+# 并提交更新后的基线。
+
+on:
+  push:
+    paths:
+      - '**.json'
+      - 'scripts/check_structure.py'
+      - 'scripts/check_baseline.json'
+      - '.github/workflows/data-quality.yml'
+  pull_request:
+    paths:
+      - '**.json'
+      - 'scripts/check_structure.py'
+      - 'scripts/check_baseline.json'
+      - '.github/workflows/data-quality.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+      - name: Check data against baseline
+        run: python3 scripts/check_structure.py --show 3 --baseline scripts/check_baseline.json
