@@ -6,10 +6,12 @@
 
   python3 scripts/collate.py plan    --dir 宋词 --work ~/.cache/chinese-poetry/songci
   node   scripts/shidian/search.mjs  <work>/queries.json <work>/results.jsonl --limit 1200
-  python3 scripts/collate.py analyze --work <work>          # 只判定检索已全部完成的作品
+  python3 scripts/collate.py analyze --work <work> --applied docs/宋词对勘.applied.json   # 只判定检索已全部完成的作品
   # 审核 <work>/review.tsv 的 decision 列（accept / reject / 自填正确句子）
-  python3 scripts/collate.py apply   --work <work> --reviewer <名字> --date YYYY-MM-DD
-  python3 scripts/collate.py report  --work <work> --doc docs/宋词对勘.md
+  python3 scripts/collate.py apply   --work <work> --applied docs/宋词对勘.applied.json --reviewer <名字> --date YYYY-MM-DD
+  python3 scripts/collate.py report  --work <work> --applied docs/宋词对勘.applied.json --doc docs/宋词对勘.md
+
+检索与分析由 .github/workflows/collate-songci.yml 每天定时运行；审核表从该 workflow 的 artifact 下载。
   python3 scripts/collate.py next    --work <work>          # 显示下一步要运行的命令
 
 判定规则：
@@ -119,6 +121,16 @@ def cmd_plan(args):
 
 # ---------------------------------------------------------------- analyze
 
+def applied_path(args):
+    """已处理（写回或否决）的句子清单。放在仓库里（--applied），自动检索与人工审核才能共用。"""
+    return args.applied or os.path.join(args.work, 'applied.json')
+
+
+def load_applied(args):
+    path = applied_path(args)
+    return set(json.load(open(path, encoding='utf-8'))) if os.path.exists(path) else set()
+
+
 def load_results(work):
     res = {}
     path = os.path.join(work, 'results.jsonl')
@@ -152,7 +164,7 @@ def cmd_analyze(args):
     norm = norm_factory(args.work)
     poems = json.load(open(os.path.join(args.work, 'poems.json'), encoding='utf-8'))
     res = load_results(args.work)
-    applied = set(json.load(open(os.path.join(args.work, 'applied.json')))) if os.path.exists(os.path.join(args.work, 'applied.json')) else set()
+    applied = load_applied(args)
     rows, stat = [], collections.Counter()
     for p in poems:
         if not all(q in res for q in p['queries']):
@@ -203,8 +215,7 @@ def cmd_analyze(args):
 # ---------------------------------------------------------------- apply
 
 def cmd_apply(args):
-    path_applied = os.path.join(args.work, 'applied.json')
-    applied = set(json.load(open(path_applied))) if os.path.exists(path_applied) else set()
+    applied = load_applied(args)
     rows = list(csv.DictReader(open(os.path.join(args.work, 'review.tsv'), encoding='utf-8'), delimiter='\t'))
     progress_path = os.path.join(ROOT, 'fix_progress.json')
     progress = json.load(open(progress_path, encoding='utf-8'))
@@ -240,7 +251,9 @@ def cmd_apply(args):
         n += 1
     sd.recompute_stats(progress)
     open(progress_path, 'w', encoding='utf-8').write(json.dumps(progress, ensure_ascii=False, indent=2))
-    json.dump(sorted(applied), open(path_applied, 'w'), ensure_ascii=False)
+    with open(applied_path(args), 'w', encoding='utf-8') as fp:
+        json.dump(sorted(applied), fp, ensure_ascii=False, indent=0)
+        fp.write('\n')
     print(f'applied {n} corrections; {len(applied)} items closed in total')
 
 
@@ -249,7 +262,7 @@ def cmd_apply(args):
 def cmd_report(args):
     plan = json.load(open(os.path.join(args.work, 'plan.json')))
     state = json.load(open(os.path.join(args.work, 'state.json'))) if os.path.exists(os.path.join(args.work, 'state.json')) else {}
-    applied = len(json.load(open(os.path.join(args.work, 'applied.json')))) if os.path.exists(os.path.join(args.work, 'applied.json')) else 0
+    applied = len(load_applied(args))
     qd = state.get('queries_done', 0)
     table = '\n'.join([
         '| 项目 | 数值 |', '|------|------|',
@@ -281,11 +294,11 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest='cmd', required=True)
     p = sub.add_parser('plan'); p.add_argument('--dir', required=True); p.add_argument('--work', required=True)
-    p = sub.add_parser('analyze'); p.add_argument('--work', required=True)
-    p = sub.add_parser('apply'); p.add_argument('--work', required=True)
+    p = sub.add_parser('analyze'); p.add_argument('--work', required=True); p.add_argument('--applied')
+    p = sub.add_parser('apply'); p.add_argument('--work', required=True); p.add_argument('--applied')
     p.add_argument('--reviewer', required=True); p.add_argument('--date', required=True)
     p = sub.add_parser('report'); p.add_argument('--work', required=True); p.add_argument('--doc', required=True)
-    p.add_argument('--date')
+    p.add_argument('--date'); p.add_argument('--applied')
     p = sub.add_parser('next'); p.add_argument('--work', required=True)
     args = ap.parse_args()
     args.work = os.path.expanduser(args.work)

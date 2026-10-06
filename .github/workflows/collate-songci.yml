@@ -1,0 +1,87 @@
+# 宋词对勘：每天定时检索识典古籍一批、分析，并上传审核表。说明见 docs/宋词对勘.md。
+# 检索结果缓存（work 目录）通过 actions/cache 在各次运行之间延续；审核与写回由人在本地完成。
+name: Collate 宋词
+
+on:
+  schedule:
+    - cron: '0 19 * * *'        # 每天北京时间 03:00（GitHub 定时任务可能延迟数十分钟）
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '本次检索条数（每条约 4 秒）'
+        default: '1200'
+
+concurrency:
+  group: collate-songci         # 同一时间只运行一次，避免并发访问识典古籍
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  W: /home/runner/collate-work  # 放在仓库外：检索结果缓存会有数百 MB
+  APPLIED: docs/宋词对勘.applied.json
+
+jobs:
+  collate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: scripts/shidian/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          pip install opencc-python-reimplemented
+          cd scripts/shidian && npm ci && npx playwright install --with-deps chromium
+
+      - name: Restore work directory
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.W }}
+          key: collate-songci-${{ github.run_id }}
+          restore-keys: collate-songci-
+
+      # 每次按当前数据重新生成检索计划：已写回的修正会反映到句子里，检索结果按检索词复用
+      - name: Plan
+        run: python3 scripts/collate.py plan --dir 宋词 --work "$W"
+
+      - name: Search 识典古籍
+        run: node scripts/shidian/search.mjs "$W/queries.json" "$W/results.jsonl" --limit "${{ inputs.limit || '1200' }}"
+
+      # 检索中途失败或超时也保存已取得的结果，下次从断点继续
+      - name: Save work directory
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.W }}
+          key: collate-songci-${{ github.run_id }}
+
+      - name: Analyze
+        run: |
+          python3 scripts/collate.py analyze --work "$W" --applied "$APPLIED"
+          cp docs/宋词对勘.md "$RUNNER_TEMP/doc.md"
+          {
+            echo '## 宋词对勘进度'
+            python3 scripts/collate.py report --work "$W" --applied "$APPLIED" --doc "$RUNNER_TEMP/doc.md" --date "$(TZ=Asia/Shanghai date +%F)"
+            echo
+            echo "待审核疑似错字：$(($(wc -l < "$W/review.tsv") - 1)) 处，见 artifact \`collate-songci-review\`。"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload review table
+        uses: actions/upload-artifact@v4
+        with:
+          name: collate-songci-review
+          path: |
+            ${{ env.W }}/review.tsv
+            ${{ env.W }}/state.json
+            ${{ env.W }}/plan.json
+          retention-days: 30
