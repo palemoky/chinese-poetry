@@ -5,8 +5,8 @@
     "total_files": 1589,
     "reviewed": 1589,
     "clean": 404,
-    "fixed": 760,
-    "needs_review": 113,
+    "fixed": 769,
+    "needs_review": 104,
     "out_of_scope": 313,
     "in_scope_files": 1276
   },
@@ -2358,9 +2358,9 @@
       ]
     },
     "御定全唐詩/json/882.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "講藝遵先fN",
@@ -2374,8 +2374,8 @@
         },
         {
           "original": "先。式備犧象，用□牲牷。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「潔」 supported by only 1 book on 识典古籍 (《麗句集》麗句集); not filled"
+          "corrected": "先。式備犧象，用潔牲牷。",
+          "note": "needs_review: lacuna □ — candidate 「潔」 supported by only 1 book on 识典古籍 (《麗句集》麗句集); not filled | 2026-10-07 resolved: [missing_char] □ → 潔; 识典古籍 3 books (e.g. 《初學記》初學記卷十三“禮部上”, 《御定淵鑑類函》御定淵鑑類函卷一百六十九“宗廟一”) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "臥見高原燒，閑尋空穀泉。土膏消臘後，",
@@ -2483,7 +2483,7 @@
       "fixes": []
     },
     "御定全唐詩/json/761.json": {
-      "date": "2026-10-05",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -2526,6 +2526,11 @@
           "original": "缶圀及曌hE，作史難詳備。唐",
           "corrected": null,
           "note": "needs_review: crawl residue \"hE\"; 识典古籍 candidates ambiguous: 曌"
+        },
+        {
+          "original": "意。𩅦莔𩅔𧟨僻，h4昷𠅨㷏異。",
+          "corrected": "意。𩅦莔𩅔𧟨僻，壾昷𠅨㷏異。",
+          "note": "[ascii_residue] h4 → 壾; 识典古籍 2 books (e.g. 《五代詩話》五代詩話卷六, 《全閩詩話》卷一（二）) — extended search (short contexts + title), authorized access"
         }
       ]
     },
@@ -2594,7 +2599,7 @@
       ]
     },
     "御定全唐詩/json/264.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -2610,8 +2615,8 @@
         },
         {
           "original": "登略彴橋，況榜龍fp船。",
-          "corrected": null,
-          "note": "needs_review: crawl residue \"fp\"; 识典古籍 candidates ambiguous: 舺"
+          "corrected": "登略彴橋，況榜龍舺船。",
+          "note": "needs_review: crawl residue \"fp\"; 识典古籍 candidates ambiguous: 舺 | 2026-10-07 resolved: [ascii_residue] fp → 舺; 识典古籍 2 books (e.g. 《唐人百家詩》顧逋翁詩集卷一, 《唐詩百名家全集》顧逋翁詩集卷一) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "虛室留舊劄",
@@ -5593,7 +5598,7 @@
       ]
     },
     "御定全唐詩/json/423.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -5604,8 +5609,8 @@
         },
         {
           "original": "消梨拋五遍，娑葛fg三台。已許尊前倒",
-          "corrected": null,
-          "note": "needs_review: crawl residue \"fg\"; no matching passage found on 识典古籍"
+          "corrected": "消梨拋五遍，娑葛溘三台。已許尊前倒",
+          "note": "needs_review: crawl residue \"fg\"; no matching passage found on 识典古籍 | 2026-10-07 resolved: [ascii_residue] fg → 溘; 识典古籍 2 books (e.g. 《唐詩》唐詩卷三百四十, 《歲時雜咏》𡻕時雜咏卷十九宋蒲積中編) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "書劄不如詩",
@@ -9660,7 +9665,7 @@
       ]
     },
     "御定全唐詩/json/629.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -9671,8 +9676,8 @@
         },
         {
           "original": "且將絲wf系蘭舟，醉下煙汀",
-          "corrected": null,
-          "note": "needs_review: crawl residue \"wf\"; no matching passage found on 识典古籍"
+          "corrected": "且將絲䋏系蘭舟，醉下煙汀",
+          "note": "needs_review: crawl residue \"wf\"; no matching passage found on 识典古籍 | 2026-10-07 resolved: [ascii_residue] wf → 䋏; 识典古籍 5 books (e.g. 《唐甫里先生文集》唐甫里先生文集卷之十二“七言絶句詩”, 《唐絶增奇 唐絶搜奇》唐絶搜奇一卷) — extended search (short contexts + title), authorized access"
         }
       ]
     },
@@ -11467,7 +11472,7 @@
       "fixes": []
     },
     "元曲/yuanqu.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -12113,8 +12118,8 @@
         },
         {
           "original": "我如今挣?，将拄仗按拿",
-          "corrected": null,
-          "note": "needs_review: half-width ? stands for a lost character (encoding failure)"
+          "corrected": "我如今挣𬮱，将拄仗按拿",
+          "note": "needs_review: half-width ? stands for a lost character (encoding failure) | 2026-10-07 resolved: 「挣𬮱」：《永乐大典》《永乐大典戏文三种》（他本 OCR 作 闺/闽）"
         },
         {
           "original": "[lacuna marker] 囗 ×7",
@@ -12124,7 +12129,7 @@
       ]
     },
     "宋词/ci.song.13000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -12160,18 +12165,18 @@
         },
         {
           "original": "只守伯禽法，□野万云烟。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「𬳶」 supported by only 1 book on 识典古籍 (《鶴山先生大全文集》重校鶴山先生大全文集卷之九十四“長短句”); not filled"
+          "corrected": "只守伯禽法，𬳶野万云烟。",
+          "note": "needs_review: lacuna □ — candidate 「𬳶」 supported by only 1 book on 识典古籍 (《鶴山先生大全文集》重校鶴山先生大全文集卷之九十四“長短句”); not filled | 2026-10-07 resolved: [missing_char] □ → 𬳶; 识典古籍 3 books (e.g. 《鶴山先生大全文集》重校鶴山先生大全文集卷之九十四“長短句”, 《鶴山長短句》鶴山長短句一卷) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "银花斜□紫金鞭。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「亸」 supported by only 1 book on 识典古籍 (《鶴山先生大全文集》重校鶴山先生大全文集卷之九十四“長短句”); not filled"
+          "corrected": "银花斜亸紫金鞭。",
+          "note": "needs_review: lacuna □ — candidate 「亸」 supported by only 1 book on 识典古籍 (《鶴山先生大全文集》重校鶴山先生大全文集卷之九十四“長短句”); not filled | 2026-10-07 resolved: [missing_char] □ → 亸; 识典古籍 3 books (e.g. 《詞綜補遺》卷七, 《鶴山先生大全文集》重校鶴山先生大全文集卷之九十四“長短句”) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "弟酪，触处言鲭义□，相对只翁卿。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「䐑」 supported by only 1 book on 识典古籍 (《鶴山先生大全文集》重校鶴山先生大全文集卷之九十六“長短句”); not filled"
+          "corrected": "弟酪，触处言鲭义䐑，相对只翁卿。",
+          "note": "needs_review: lacuna □ — candidate 「䐑」 supported by only 1 book on 识典古籍 (《鶴山先生大全文集》重校鶴山先生大全文集卷之九十六“長短句”); not filled | 2026-10-07 resolved: [missing_char] □ → 䐑; 识典古籍 3 books (e.g. 《鶴山先生大全文集》重校鶴山先生大全文集卷之九十六“長短句”, 《鶴山長短句》鶴山長短句一卷) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "鬓云偏、□鬆未整，凤钗斜坠",
@@ -13767,7 +13772,7 @@
       ]
     },
     "全唐诗/poet.song.223000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -13868,8 +13873,8 @@
         },
         {
           "original": "身曾五□貴，心自一鷗閒。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「馬」 supported by only 1 book on 识典古籍 (《本堂集》本堂集卷九十“挽辭”); not filled"
+          "corrected": "身曾五馬貴，心自一鷗閒。",
+          "note": "needs_review: lacuna □ — candidate 「馬」 supported by only 1 book on 识典古籍 (《本堂集》本堂集卷九十“挽辭”); not filled | 2026-10-07 resolved: [missing_char] □ → 馬; 识典古籍 2 books (e.g. 《剡源鄉志》卷九, 《本堂集》本堂集卷九十“挽辭”) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "望雲飛老□，聊聒薤歌人。",
@@ -13960,14 +13965,14 @@
       ]
     },
     "全唐诗/poet.song.230000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "不信衆芳□寂寞，天香流出滿",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「俱」 supported by only 1 book on 识典古籍 (《文翰類選大成》卷八十二); not filled"
+          "corrected": "不信衆芳俱寂寞，天香流出滿",
+          "note": "needs_review: lacuna □ — candidate 「俱」 supported by only 1 book on 识典古籍 (《文翰類選大成》卷八十二); not filled | 2026-10-07 resolved: [missing_char] □ → 俱; 识典古籍 2 books (e.g. 《文翰類選大成》卷八十二, 《羅山林先生集》羅山林先生詩集卷第七十三) — extended search (short contexts + title), authorized access"
         }
       ]
     },
@@ -14077,9 +14082,9 @@
       ]
     },
     "全唐诗/poet.song.24000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "下今與古，武庫千矛鏦。",
@@ -14098,8 +14103,8 @@
         },
         {
           "original": "中有釣魚郎，扁舟□寂寞。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「耳」 supported by only 1 book on 识典古籍 (《續修嚴州府志》卷二十一); not filled"
+          "corrected": "中有釣魚郎，扁舟甘寂寞。",
+          "note": "needs_review: lacuna □ — candidate 「耳」 supported by only 1 book on 识典古籍 (《續修嚴州府志》卷二十一); not filled | 2026-10-07 resolved: [missing_char] □ → 甘; 识典古籍 2 books (e.g. 《壽昌縣志》卷二, 《新修壽昌縣志》新修壽昌縣志卷之十一) — extended search (short contexts + title), authorized access"
         }
       ]
     },
@@ -14703,9 +14708,9 @@
       "fixes": []
     },
     "全唐诗/poet.song.34000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "縱橫指顧皆舊物，撫事慨時驚呼。",
@@ -14719,8 +14724,8 @@
         },
         {
           "original": "帝鑿混沌，虛空之□羅日星。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「上」 supported by only 1 book on 识典古籍 (《江華縣誌》卷一); not filled"
+          "corrected": "帝鑿混沌，虛空之上羅日星。",
+          "note": "needs_review: lacuna □ — candidate 「上」 supported by only 1 book on 识典古籍 (《江華縣誌》卷一); not filled | 2026-10-07 resolved: [missing_char] □ → 上; 识典古籍 2 books (e.g. 《江華縣誌》卷一, 《湖南通志》卷十九) — extended search (short contexts + title), authorized access"
         }
       ]
     },
@@ -15122,14 +15127,14 @@
       ]
     },
     "全唐诗/poet.song.93000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "棄捐碩果□不食，正音鏗鏘不",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「人」 supported by only 1 book on 识典古籍 (《東萊詩集》東萊詩集卷十宋吕本中撰“離行在即事三首”); not filled"
+          "corrected": "棄捐碩果人不食，正音鏗鏘不",
+          "note": "needs_review: lacuna □ — candidate 「人」 supported by only 1 book on 识典古籍 (《東萊詩集》東萊詩集卷十宋吕本中撰“離行在即事三首”); not filled | 2026-10-07 resolved: [missing_char] □ → 人; 识典古籍 2 books (e.g. 《東萊先生詩集》卷十, 《東萊詩集》東萊詩集卷十宋吕本中撰“離行在即事三首”) — extended search (short contexts + title), authorized access"
         }
       ]
     },
@@ -20452,9 +20457,9 @@
       ]
     },
     "全唐诗/poet.tang.48000.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "肇迹□水，成功坂泉。",
@@ -20463,8 +20468,8 @@
         },
         {
           "original": "式備犧象，用□牲牷。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「潔」 supported by only 1 book on 识典古籍 (《麗句集》麗句集); not filled"
+          "corrected": "式備犧象，用潔牲牷。",
+          "note": "needs_review: lacuna □ — candidate 「潔」 supported by only 1 book on 识典古籍 (《麗句集》麗句集); not filled | 2026-10-07 resolved: [missing_char] □ → 潔; 识典古籍 3 books (e.g. 《初學記》初學記卷十三“禮部上”, 《御定淵鑑類函》御定淵鑑類函卷一百六十九“宗廟一”) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "㳷用祕功",
@@ -121617,9 +121622,9 @@
       ]
     },
     "宋词/ci.song.11000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "□小隐，寻幽约。",
@@ -121733,18 +121738,18 @@
         },
         {
           "original": "但□□□□，啜其泣矣，又何",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「啜其泣矣」 supported by only 1 book on 识典古籍 (《稼軒長短句》稼軒長短句卷之五); not filled"
+          "corrected": "但啜其泣矣，啜其泣矣，又何",
+          "note": "needs_review: lacuna □ — candidate 「啜其泣矣」 supported by only 1 book on 识典古籍 (《稼軒長短句》稼軒長短句卷之五); not filled | 2026-10-07 resolved: [missing_char] □□□□ → 啜其泣矣; 识典古籍 2 books (e.g. 《稼軒詞》稼軒詞卷二“滿江紅”, 《稼軒長短句》稼軒長短句卷之五) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "起来瞢�┒嗍薄�",
-          "corrected": null,
-          "note": "needs_review: GBK byte-shift garble; middle decodes to 多时; editions read 瞢腾/瞢总/瞢意 + 多时 — lost char undetermined"
+          "corrected": "起来瞢𩮰多时。",
+          "note": "needs_review: GBK byte-shift garble; middle decodes to 多时; editions read 瞢腾/瞢总/瞢意 + 多时 — lost char undetermined | 2026-10-07 resolved: 程垓「起来瞢𩮰多时」：《书舟词》（作者本集）、《御选历代诗余》；GBK 错位中间字还原为「多时」，末字节为「。」"
         }
       ]
     },
     "宋词/ci.song.12000.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -121800,8 +121805,8 @@
         },
         {
           "original": "试问千花还□□，敢与英姿同列。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「百卉」 supported by only 1 book on 识典古籍 (《御選歷代詩餘》御選歷代詩餘卷六十八“念奴嬌”); not filled"
+          "corrected": "试问千花还百卉，敢与英姿同列。",
+          "note": "needs_review: lacuna □ — candidate 「百卉」 supported by only 1 book on 识典古籍 (《御選歷代詩餘》御選歷代詩餘卷六十八“念奴嬌”); not filled | 2026-10-07 resolved: [missing_char] □□ → 百卉; 识典古籍 2 books (e.g. 《[御選]歷代詩餘》[御選]歷代詩餘卷六十八, 《御選歷代詩餘》御選歷代詩餘卷六十八“念奴嬌”) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "榆钱不解青春",
@@ -121826,7 +121831,7 @@
       ]
     },
     "宋词/ci.song.14000.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -121882,8 +121887,8 @@
         },
         {
           "original": "把蛛丝鹊喜，意□占卜。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「中」 supported by only 1 book on 识典古籍 (《御選歷代詩餘》御選歷代詩餘卷五十六); not filled"
+          "corrected": "把蛛丝鹊喜，意中占卜。",
+          "note": "needs_review: lacuna □ — candidate 「中」 supported by only 1 book on 识典古籍 (《御選歷代詩餘》御選歷代詩餘卷五十六); not filled | 2026-10-07 resolved: [missing_char] □ → 中; 识典古籍 2 books (e.g. 《[御選]歷代詩餘》[御選]歷代詩餘卷五十六, 《御選歷代詩餘》御選歷代詩餘卷五十六) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "□晓来寒透，不堪愁",
@@ -122351,7 +122356,7 @@
       ]
     },
     "宋词/ci.song.19000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122412,13 +122417,13 @@
         },
         {
           "original": "rhythmic: 红",
-          "corrected": null,
-          "note": "needs_review: tune name truncated (a rare character was probably lost, as with 大→大酺); 无名氏「粉香尤嫩，衾寒可惯」— tune not identified"
+          "corrected": "rhythmic\": \"鞓红",
+          "note": "needs_review: tune name truncated (a rare character was probably lost, as with 大→大酺); 无名氏「粉香尤嫩，衾寒可惯」— tune not identified | 2026-10-07 resolved: 词牌「鞓红」：《词苑萃编》「无名氏鞓红词云：粉香尤嫩」；「鞓」为生僻字丢失"
         }
       ]
     },
     "宋词/ci.song.2000.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122449,8 +122454,8 @@
         },
         {
           "original": "与一口、管教�拍ァ�",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ァ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "与一口、管教琢磨。",
+          "note": "needs_review: kana/bopomofo garble ァ; no matching passage found on 识典古籍 (shidianguji.com) | 2026-10-07 resolved: 黄庭坚「管教琢磨」：《山谷集》（作者本集）；中间字还原为「磨」，末字节为「。」"
         },
         {
           "original": "□□除书，远带天香剩",
@@ -122489,8 +122494,8 @@
         },
         {
           "original": "忒�沙�儿",
-          "corrected": null,
-          "note": "needs_review: GBK byte-shift garble (bytes C9B3): lead C9 suggests 煞 (as in 忒煞娇劣), second char lead B3 unknown; no source found"
+          "corrected": "只为俺、忒煞雏儿。",
+          "note": "needs_review: GBK byte-shift garble (bytes C9B3): lead C9 suggests 煞 (as in 忒煞娇劣), second char lead B3 unknown; no source found | 2026-10-07 resolved: 向滈「忒煞雏儿」：《唐宋八家词》；GBK 字节吻合（煞 C9B7、雏 B3FB 错位即「沙」C9B3）"
         },
         {
           "original": "涧篱�怼�",
@@ -122510,7 +122515,7 @@
       ]
     },
     "宋词/ci.song.20000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122566,8 +122571,8 @@
         },
         {
           "original": "╆环珮",
-          "corrected": null,
-          "note": "needs_review: box-drawing garble ╆; 识典古籍 single hits 锵/响"
+          "corrected": "尽道九天麟坠，锵环珮",
+          "note": "needs_review: box-drawing garble ╆; 识典古籍 single hits 锵/响 | 2026-10-07 resolved: 「锵环佩」：《遗山先生新乐府》三种版本"
         },
         {
           "original": "孕雪┭香",
@@ -122583,19 +122588,19 @@
       "fixes": []
     },
     "宋词/ci.song.21000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-sonnet-4-6",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "冰�昀谩�",
-          "corrected": null,
-          "note": "needs_review: GBK byte-shift garble; middle decodes to 烂; editions read 冰彩烂, but leading byte EA does not match 彩 (B2CA); undetermined"
+          "corrected": "兔魄呈祥冰彩烂。",
+          "note": "needs_review: GBK byte-shift garble; middle decodes to 烂; editions read 冰彩烂, but leading byte EA does not match 彩 (B2CA); undetermined | 2026-10-07 resolved: 「冰彩烂」：《遗山先生新乐府》两种版本；中间字还原为「烂」"
         }
       ]
     },
     "宋词/ci.song.3000.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122621,13 +122626,13 @@
         },
         {
           "original": "金章都莫问，醉中□送揶揄鬼。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「聊」 supported by only 1 book on 识典古籍 (《山中白雲詞》山中白雲詞卷五); not filled"
+          "corrected": "金章都莫问，醉中聊送揶揄鬼。",
+          "note": "needs_review: lacuna □ — candidate 「聊」 supported by only 1 book on 识典古籍 (《山中白雲詞》山中白雲詞卷五); not filled | 2026-10-07 resolved: [missing_char] □ → 聊; 识典古籍 2 books (e.g. 《山中白雲詞》山中白雲詞卷五, 《御選歷代詩餘》御選歷代詩餘卷五十六) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "看□□、倒影窥妆，玉润",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「亭亭」 supported by only 1 book on 识典古籍 (《御定詞譜》御定詞譜卷二十五); not filled"
+          "corrected": "看亭亭、倒影窥妆，玉润",
+          "note": "needs_review: lacuna □ — candidate 「亭亭」 supported by only 1 book on 识典古籍 (《御定詞譜》御定詞譜卷二十五); not filled | 2026-10-07 resolved: [missing_char] □□ → 亭亭; 识典古籍 2 books (e.g. 《[御選]歷代詩餘》[御選]歷代詩餘卷六十三, 《御定詞譜》御定詞譜卷二十五) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "拚醉□忘归，接䍦更好，",
@@ -122739,7 +122744,7 @@
       ]
     },
     "宋词/ci.song.5000.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122765,8 +122770,8 @@
         },
         {
           "original": "绿蓑冲瞑□，艇子摇双桨。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「色」 supported by only 1 book on 识典古籍 (《[御選]歷代詩餘》[御選]歷代詩餘卷四十七); not filled"
+          "corrected": "绿蓑冲瞑色，艇子摇双桨。",
+          "note": "needs_review: lacuna □ — candidate 「色」 supported by only 1 book on 识典古籍 (《[御選]歷代詩餘》[御選]歷代詩餘卷四十七); not filled | 2026-10-07 resolved: [missing_char] □ → 色; 识典古籍 3 books (e.g. 《[御選]歷代詩餘》[御選]歷代詩餘卷四十七, 《宋名家詞》石林詞) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "白纻红裙香□□，折花闹调客。",
@@ -122775,8 +122780,8 @@
         },
         {
           "original": "遥想建章宫阙，□熏风、月寒清晓。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「度」 supported by only 1 book on 识典古籍 (《悦心集》卷二); not filled"
+          "corrected": "遥想建章宫阙，度熏风、月寒清晓。",
+          "note": "needs_review: lacuna □ — candidate 「度」 supported by only 1 book on 识典古籍 (《悦心集》卷二); not filled | 2026-10-07 resolved: [missing_char] □ → 度; 识典古籍 2 books (e.g. 《御選歷代詩餘》, 《御選歷代詩餘》御選歷代詩餘卷七十四) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "病来应怕酒，□眼常醒，老去羞春",
@@ -122843,7 +122848,7 @@
       ]
     },
     "宋词/ci.song.7000.json": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122884,8 +122889,8 @@
         },
         {
           "original": "□去。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「君」 supported by only 1 book on 识典古籍 (《友古詞》友古詞“水調歌頭”); not filled"
+          "corrected": "君去。",
+          "note": "needs_review: lacuna □ — candidate 「君」 supported by only 1 book on 识典古籍 (《友古詞》友古詞“水調歌頭”); not filled | 2026-10-07 resolved: [missing_char] □ → 君; 识典古籍 2 books (e.g. 《友古詞》友古詞“水調歌頭”, 《宋名家詞》友古詞) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "鬓云侧畔□眉角。",
@@ -122987,9 +122992,9 @@
       ]
     },
     "宋词/ci.song.9000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-07",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "け然一饱西窗下",
@@ -123013,8 +123018,8 @@
         },
         {
           "original": "□莺喧燕宿。",
-          "corrected": null,
-          "note": "needs_review: lacuna □ — candidate 「任」 supported by only 1 book on 识典古籍 (《古今圖書集成·草木典》欽定古今圖書集成博物彙編草木典第六千七百四十六卷“含笑部藝文二詩詞”); not filled"
+          "corrected": "任莺喧燕宿。",
+          "note": "needs_review: lacuna □ — candidate 「任」 supported by only 1 book on 识典古籍 (《古今圖書集成·草木典》欽定古今圖書集成博物彙編草木典第六千七百四十六卷“含笑部藝文二詩詞”); not filled | 2026-10-07 resolved: [missing_char] □ → 任; 识典古籍 2 books (e.g. 《[御選]歷代詩餘》[御選]歷代詩餘卷七十九, 《古今圖書集成·草木典》欽定古今圖書集成博物彙編草木典第六千七百四十六卷“含笑部藝文二詩詞”) — extended search (short contexts + title), authorized access"
         },
         {
           "original": "忘却天涯泊地",

@@ -1,9 +1,9 @@
 {
-  "ascii_residue": 66,
+  "ascii_residue": 62,
   "bare_pua": 13,
-  "box_drawing": 20,
-  "ci_pattern": 311,
-  "kana_bopomofo": 16,
-  "missing_char": 4598,
-  "shi_line_length": 229
+  "box_drawing": 10,
+  "ci_pattern": 319,
+  "kana_bopomofo": 15,
+  "missing_char": 4579,
+  "shi_line_length": 226
 }
