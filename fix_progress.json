@@ -4,8 +4,8 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 410,
-    "fixed": 754,
+    "clean": 404,
+    "fixed": 760,
     "needs_review": 113,
     "out_of_scope": 313,
     "in_scope_files": 1276
@@ -11244,10 +11244,16 @@
       ]
     },
     "御定全唐詩/json/739.json": {
-      "date": "2026-06-27",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[lacuna marker] 囗 ×1",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        }
+      ]
     },
     "御定全唐詩/json/740.json": {
       "date": "2026-10-06",
@@ -12109,6 +12115,11 @@
           "original": "我如今挣?，将拄仗按拿",
           "corrected": null,
           "note": "needs_review: half-width ? stands for a lost character (encoding failure)"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×7",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -12596,10 +12607,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.124000.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[lacuna marker] 囗 ×1",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        }
+      ]
     },
     "全唐诗/poet.song.125000.json": {
       "date": "2026-10-04",
@@ -12619,10 +12636,16 @@
       ]
     },
     "全唐诗/poet.song.126000.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[lacuna marker] 囗 ×1",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        }
+      ]
     },
     "全唐诗/poet.song.127000.json": {
       "date": "2026-06-26",
@@ -12846,10 +12869,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.152000.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[lacuna marker] 囗 ×1",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        }
+      ]
     },
     "全唐诗/poet.song.153000.json": {
       "date": "2026-10-06",
@@ -12978,7 +13007,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.16000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -12986,6 +13015,11 @@
           "original": "引領一望雲淋𩅰𩅰",
           "corrected": "引領一望雲𩅰𩅰",
           "note": "Line-length anomaly (7-char poem): extra char removed; 3 books on 识典古籍 read 「引領一望雲𩅰𩅰」 (e.g. 《鐔津文集》, 《鐔津集》, 《镡津文集》), none read the dataset's version"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×1",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -13264,6 +13298,11 @@
           "original": "[formatting] half_width 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×5",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -14529,13 +14568,19 @@
       "fixes": []
     },
     "全唐诗/poet.song.53000.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[lacuna marker] 囗 ×2",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        }
+      ]
     },
     "全唐诗/poet.song.54000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -14543,6 +14588,11 @@
           "original": "又如悞入桃源滸，□□恐有先秦民。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「源頭」 supported by only 1 book on 识典古籍 (《韶州府志》卷之十五); not filled"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×6",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -14714,7 +14764,7 @@
       ]
     },
     "全唐诗/poet.song.50000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -14732,6 +14782,11 @@
           "original": "何事青□正雙鬂，擬將漁釣",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「絲」 supported by only 1 book on 识典古籍 (《西塘集》西塘集卷九); not filled"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×13",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -15120,10 +15175,16 @@
       ]
     },
     "全唐诗/poet.song.99000.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[lacuna marker] 囗 ×2",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        }
+      ]
     },
     "全唐诗/poet.tang.0.json": {
       "date": "2026-10-06",
@@ -15610,6 +15671,11 @@
           "original": "欲歡卑棲去",
           "corrected": "欲歎卑棲去",
           "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 6 books on 识典古籍 read 歎 (e.g. 《古今圖書集成·家範典》欽定古今圖書集成明倫彙編家範典第四千零五卷“叔姪部藝文二詩詞”, 《唐詩品匯》五言排律卷七), none support 歡"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×20",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -15827,6 +15893,11 @@
           "original": "[notes] inline variant notes 2, block notes 0 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[lacuna marker] 囗 ×22",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -15964,6 +16035,11 @@
           "original": "願我覺衰早",
           "corrected": "顧我覺衰早",
           "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 4 books on 识典古籍 read 顧 (e.g. 《唐盧户部詩集》唐盧户部詩集卷第三, 《唐詩百名家全集》盧户部詩集卷三), none support 願"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×23",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -16437,7 +16513,7 @@
       ]
     },
     "全唐诗/poet.song.76000.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -16450,6 +16526,11 @@
           "original": "永媿山赤頭璨，不令姓",
           "corrected": "永媿𡷗山赤頭璨，不令姓",
           "note": "Bare PUA U+E066 → 𡷗; 识典古籍 (/zh/): 《石門文字禪》石門文字禪卷第十一“七言律詩” reads 「一斑永媿𡷗山赤頭璨」 (6 hit(s))"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×2",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -16626,6 +16707,11 @@
           "original": "自願音韻乖",
           "corrected": "自顧音韻乖",
           "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 8 books on 识典古籍 read 顧 (e.g. 《唐人六集》王建詩卷一, 《唐人百家詩》王建詩集卷四), none support 願"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×4",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -16703,6 +16789,11 @@
           "original": "留此示津粱",
           "corrected": "留此示津梁",
           "note": "Twin collation: 粱 → 梁; the other source (御定全唐詩) and 3 books on 识典古籍 read 梁 (e.g. 《御定全唐詩》御定全唐詩卷三百十二“劉迥”, 《敕修浙江通志》敕修浙江通志卷二百七十一), none support 粱"
+        },
+        {
+          "original": "[lacuna marker] 囗 ×4",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
@@ -16840,6 +16931,11 @@
           "original": "[notes] inline variant notes 1, block notes 0 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[lacuna marker] 囗 ×21",
+          "corrected": "[lacuna marker] □",
+          "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
         }
       ]
     },
