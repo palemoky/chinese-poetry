@@ -65,6 +65,7 @@
 - [`scripts/check_structure.py`](scripts/check_structure.py)：全库质检（乱码、缺字、诗句与词牌字数异常），只报告不修改。
 - [`scripts/twin_fix.py`](scripts/twin_fix.py)：全唐诗 ↔ 御定全唐詩 对勘还原残渣。
 - [`scripts/shidian.py`](scripts/shidian.py)：以识典古籍批量检索为证据，生成审核表，人工确认后写回。
+- [`scripts/collate.py`](scripts/collate.py)：整部合集逐句与古籍对勘，低频分批长期运行。宋词对勘正在进行中，进度与参与方式见 [`docs/宋词对勘.md`](docs/宋词对勘.md)。
 - 参与修正请阅读 [`AGENTS.md`](AGENTS.md)（适用于人工与 AI 贡献者）。
 
 ## 高频词分析图

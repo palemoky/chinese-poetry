@@ -171,6 +171,7 @@ Per-file review cannot scale to rare poems you do not recognize. These tools fix
 |------|---------|
 | `scripts/check_structure.py` | Scan the whole dataset: garbles (Cyrillic/Greek, kana/bopomofo, box-drawing, U+FFFD, bare PUA, ASCII residue), `□` gaps, line-length and 词牌 anomalies. Report only. |
 | `scripts/twin_fix.py` | Collate 御定全唐詩 against 全唐诗/poet.tang.* and restore ASCII residue codes via `scripts/yuding_codes.tsv`. |
+| `scripts/collate.py` | Whole-corpus, sentence-by-sentence collation against 识典古籍, run in small daily batches (`search.mjs --limit`). 宋词 is in progress — see `docs/宋词对勘.md`. |
 | `scripts/shidian.py` + `scripts/shidian/search.mjs` | Evidence pipeline: `build` → search 识典古籍 → `analyze` → review `review.tsv` → `apply`. |
 
 ```bash
