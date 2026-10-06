@@ -121638,7 +121638,7 @@
       ]
     },
     "宋词/ci.song.12000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -121711,11 +121711,16 @@
           "original": "摩孩罗荷叶伞儿轻",
           "corrected": "摩孩罗荷叶伞儿轻",
           "note": "Ci pattern anomaly checked (鹊桥仙): sentence attested as-is in 2 books on 识典古籍 (《坦菴詞》, 《宋名家詞》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "rhythmic: 霜天晓月",
+          "corrected": "rhythmic: 霜天晓角",
+          "note": "Tune name typo in the canonical part (no such tune; one character off the standard name)"
         }
       ]
     },
     "宋词/ci.song.14000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -121798,11 +121803,16 @@
           "original": "酒�璧臼欤�",
           "corrected": "酒稻熟",
           "note": "GBK byte-shift garble: middle bytes decode to 稻熟; 识典古籍 reads 「共乐酒稻熟，翁媪相将」"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
         }
       ]
     },
     "宋词/ci.song.15000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -121860,6 +121870,16 @@
           "original": "接�奈蓿�",
           "corrected": "接䍦无",
           "note": "GBK byte-shift garble: middle bytes decode to 无; 识典古籍 editions read 接篱/接䍠 (= 接䍦, the 山公 cap); written as 䍦 as elsewhere in this dataset"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
         }
       ]
     },
@@ -121956,7 +121976,7 @@
       ]
     },
     "宋词/ci.song.17000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122094,6 +122114,26 @@
           "original": "赵必�� / 赵必□",
           "corrected": "赵必𤩪",
           "note": "author name: 识典古籍 lists 《覆瓿集》 [宋] 趙必𤩪 撰 (四庫全書本); 1 occurrences unified"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
         }
       ]
     },
@@ -122196,6 +122236,11 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "rhythmic: 杨州慢",
+          "corrected": "rhythmic: 扬州慢",
+          "note": "Tune name typo in the canonical part (no such tune; one character off the standard name)"
         }
       ]
     },
@@ -122258,11 +122303,16 @@
           "original": "忒�山苛樱�",
           "corrected": "忒煞娇劣",
           "note": "GBK byte-shift garble: middle bytes decode to 娇劣, leading byte C9 = lead byte of 煞 (C9B7); 识典古籍 reads 「小鬟忒煞娇劣」"
+        },
+        {
+          "original": "rhythmic: 红",
+          "corrected": null,
+          "note": "needs_review: tune name truncated (a rare character was probably lost, as with 大→大酺); 无名氏「粉香尤嫩，衾寒可惯」— tune not identified"
         }
       ]
     },
     "宋词/ci.song.2000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122345,6 +122395,11 @@
           "original": "管教�拍ァ�",
           "corrected": null,
           "note": "needs_review: GBK byte-shift garble; middle decodes to 磨; no source found"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
         }
       ]
     },
@@ -122434,7 +122489,7 @@
       ]
     },
     "宋词/ci.song.3000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122482,11 +122537,46 @@
           "original": "底事教┾舍",
           "corrected": "底事教拚舍",
           "note": "box-drawing garble ┾ → 拚 (识典古籍: 拼/拚/𢬵; same garble as 田为 「┾却 → 拚却」)"
+        },
+        {
+          "original": "rhythmic: 百宝装・新燕过妆楼",
+          "corrected": "rhythmic: 百宝装・新雁过妆楼",
+          "note": "Tune name typo in the canonical part (no such tune; one character off the standard name)"
+        },
+        {
+          "original": "rhythmic: □□□・七娘子",
+          "corrected": "rhythmic: 七娘子",
+          "note": "Tune name: unknown alias part □□□ dropped, canonical name kept"
+        },
+        {
+          "original": "rhythmic: □□□・小重山",
+          "corrected": "rhythmic: 小重山",
+          "note": "Tune name: unknown alias part □□□ dropped, canonical name kept"
+        },
+        {
+          "original": "rhythmic: □□□・清商怨",
+          "corrected": "rhythmic: 清商怨",
+          "note": "Tune name: unknown alias part □□□ dropped, canonical name kept"
+        },
+        {
+          "original": "rhythmic: □□□・鹧鸪天",
+          "corrected": "rhythmic: 鹧鸪天",
+          "note": "Tune name: unknown alias part □□□ dropped, canonical name kept"
+        },
+        {
+          "original": "rhythmic: □□□・捣练子",
+          "corrected": "rhythmic: 捣练子",
+          "note": "Tune name: unknown alias part □□□ dropped, canonical name kept"
+        },
+        {
+          "original": "rhythmic: □□□・更漏子",
+          "corrected": "rhythmic: 更漏子",
+          "note": "Tune name: unknown alias part □□□ dropped, canonical name kept"
         }
       ]
     },
     "宋词/ci.song.4000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122534,11 +122624,16 @@
           "original": "云母屏风",
           "corrected": "云母屏风",
           "note": "Ci pattern anomaly checked (南歌子): sentence attested as-is in 2 books on 识典古籍 (《御定詞譜》, 《片玉詞》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
         }
       ]
     },
     "宋词/ci.song.5000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122591,11 +122686,16 @@
           "original": "东风易行云散",
           "corrected": "东风易得行云散",
           "note": "Ci pattern anomaly (鹧鸪天, 常体 sentence length 7): missing char restored; 3 books on 识典古籍 support it (e.g. 《[御選]歷代詩餘》, 《古今圖書集成·閨媛典》, 《竹坡詞》), 0 support the dataset's version"
+        },
+        {
+          "original": "rhythmic: 双",
+          "corrected": "rhythmic: 双鸂鶒",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
         }
       ]
     },
     "宋词/ci.song.6000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122628,11 +122728,16 @@
           "original": "金猊戏掣星桥锁",
           "corrected": "金猊戏掣星桥锁",
           "note": "Ci pattern anomaly checked (水龙吟): sentence attested as-is in 3 books on 识典古籍 (《中興以來絶妙詞選》, 《詞苑英華九種》, 《閩詞鈔》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "rhythmic: 人月圆令・人月园",
+          "corrected": "rhythmic: 人月圆令・人月圆",
+          "note": "Tune name typo in the canonical part (no such tune; one character off the standard name)"
         }
       ]
     },
     "宋词/ci.song.7000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122715,11 +122820,21 @@
           "original": "庭前花谢了",
           "corrected": "庭前花谢了",
           "note": "Ci pattern anomaly checked (朝中措): sentence attested as-is in 2 books on 识典古籍 (《友古詞》, 《御定詞譜》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "rhythmic: 倾杯令・杯倾乐",
+          "corrected": "rhythmic: 倾杯令・倾杯乐",
+          "note": "Tune name typo in the canonical part (no such tune; one character off the standard name)"
+        },
+        {
+          "original": "rhythmic: “僮至”念奴娇",
+          "corrected": "rhythmic: 念奴娇（title: 僮至）",
+          "note": "Tune name: subtitle moved out of the tune name"
         }
       ]
     },
     "宋词/ci.song.8000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -122757,6 +122872,11 @@
           "original": "问我几时来到",
           "corrected": "问我几时来到",
           "note": "Ci pattern anomaly checked (醉蓬莱): sentence attested as-is in 2 books on 识典古籍 (《彊村叢書》, 《方舟集》) — 又一体 / original wording; no change"
+        },
+        {
+          "original": "rhythmic: 钗头凤・撷坊词",
+          "corrected": "rhythmic: 钗头凤・撷芳词",
+          "note": "Tune name typo in the canonical part (no such tune; one character off the standard name)"
         }
       ]
     },
@@ -122803,7 +122923,7 @@
       ]
     },
     "宋词/宋词三百首.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -122816,6 +122936,11 @@
           "original": "酒厌厌病",
           "corrected": "殢酒厌厌病",
           "note": "Ci pattern anomaly (贺新郎, 常体 sentence length 5): missing char restored; 6 books on 识典古籍 support it (e.g. 《文體明辯》, 《文體明辯附錄》, 《草堂詩餘》), 0 support the dataset's version; 识典古籍 shows the variant 𣨼; written as 殢, the form this dataset uses (167 occurrences)"
+        },
+        {
+          "original": "rhythmic: 大",
+          "corrected": "rhythmic: 大酺",
+          "note": "Tune name: lost rare character restored (大酺 / 双鸂鶒, matched by text and 和作)"
         }
       ]
     },
