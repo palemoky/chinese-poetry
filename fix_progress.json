@@ -4,8 +4,8 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 536,
-    "fixed": 703,
+    "clean": 510,
+    "fixed": 729,
     "needs_review": 350
   },
   "reviewed": {
@@ -1773,7 +1773,7 @@
       "fixes": []
     },
     "御定全唐詩/json/876.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -1786,6 +1786,11 @@
           "original": "僕射，前為韋氏國yQ，後作公主邑丞。",
           "corrected": "僕射，前為韋氏國㸙，後作公主邑丞。",
           "note": "Crawl residue \"yQ\" → 㸙; 识典古籍 (/zh/): 《册府元龜》册府元龜卷四百八十二宋王欽若等撰“朋附” reads 「為韋氏國㸙後作公主」 (20 hit(s))"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -1813,10 +1818,16 @@
       "fixes": []
     },
     "论语/lunyu.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] question_mark 1; half_width 6",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "蒙学/zhuzijiaxun.json": {
       "date": "2026-06-27",
@@ -1911,16 +1922,28 @@
       ]
     },
     "水墨唐诗/shuimotangshi.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 11; whitespace 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "纳兰性德/纳兰性德诗集.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] question_mark 1; whitespace 29; half_width 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "蒙学/baijiaxing.json": {
       "date": "2026-06-27",
@@ -1957,10 +1980,16 @@
       ]
     },
     "楚辞/chuci.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] question_mark 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "曹操诗集/caocao.json": {
       "date": "2026-06-27",
@@ -2535,7 +2564,7 @@
       "fixes": []
     },
     "御定全唐詩/json/263.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -2548,6 +2577,11 @@
           "original": "惟將白接z5",
           "corrected": "惟將白接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -2636,10 +2670,16 @@
       ]
     },
     "御定全唐詩/json/269.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/270.json": {
       "date": "2026-10-06",
@@ -2730,10 +2770,16 @@
       ]
     },
     "御定全唐詩/json/274.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/275.json": {
       "date": "2026-10-06",
@@ -2982,10 +3028,16 @@
       "fixes": []
     },
     "御定全唐詩/json/295.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/296.json": {
       "date": "2026-06-26",
@@ -3100,10 +3152,16 @@
       "fixes": []
     },
     "御定全唐詩/json/304.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/305.json": {
       "date": "2026-06-26",
@@ -3280,6 +3338,11 @@
           "original": "亡情通道樞",
           "corrected": "亡情信道樞",
           "note": "Twin collation: 通 → 信; the other source (全唐诗) and 3 books on 识典古籍 read 信 (e.g. 《唐詩類苑》卷一百八十七, 《文苑英華》一百八十六), none support 通"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -3296,10 +3359,16 @@
       ]
     },
     "御定全唐詩/json/315.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/316.json": {
       "date": "2026-10-06",
@@ -3363,10 +3432,16 @@
       ]
     },
     "御定全唐詩/json/319.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/320.json": {
       "date": "2026-10-06",
@@ -3580,6 +3655,11 @@
           "original": "吹呼徹曙聞",
           "corrected": "歡呼徹曙聞",
           "note": "Twin collation: 吹 → 歡; the other source (全唐诗) and 6 books on 识典古籍 read 歡 (e.g. 《古今圖書集成·家範典》欽定古今圖書集成明倫彙編家範典第四千零三十三卷“外祖孫部藝文二詩”, 《古今圖書集成·歲功典》欽定古今圖書集成曆象彙編歲功典第六十六卷“七夕部藝文三”), none support 吹"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -3673,20 +3753,37 @@
           "original": "竹內催淅瀝",
           "corrected": "竹風催淅瀝",
           "note": "Twin collation: 內 → 風; the other source (全唐诗) and 2 books on 识典古籍 read 風 (e.g. 《唐詩》唐詩卷三百八十二, 《文苑英華》二百三十七), none support 內"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
     "御定全唐詩/json/334.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 3",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/335.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/336.json": {
       "date": "2026-10-06",
@@ -4404,14 +4501,25 @@
           "original": "來君回唱竹枝歌",
           "corrected": "爲君回唱竹枝歌",
           "note": "Twin collation: 來 → 爲; the other source (全唐诗) and 7 books on 识典古籍 read 爲 (e.g. 《劉夢得文集》劉夢得文集卷第九“楊柳枝詞”, 《劉賓客文集》劉賓客文集卷二十七), none support 來"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
     "御定全唐詩/json/366.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/367.json": {
       "date": "2026-06-26",
@@ -6702,6 +6810,11 @@
           "original": "來年擬待春消息",
           "corrected": "隔年擬待春消息",
           "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 6 books on 识典古籍 read 隔 (e.g. 《古今圖書集成·草木典》欽定古今圖書集成博物彙編草木典第六千八百三十六卷“梅部藝文三詩”, 《宋洪魏公進萬首唐人絶句》宋洪魏公進萬首唐人絶句卷之二十七), none support 來"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -6712,10 +6825,16 @@
       "fixes": []
     },
     "御定全唐詩/json/493.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/494.json": {
       "date": "2026-10-06",
@@ -6751,6 +6870,11 @@
           "original": "棲禪莫向苧羅山",
           "corrected": "棲禪莫向苧蘿山",
           "note": "Twin collation: 羅 → 蘿; the other source (全唐诗) and 2 books on 识典古籍 read 蘿 (e.g. 《唐詩》唐詩卷四百二十五, 《萬首唐人絶句》萬首唐人絶句卷三十四“七言”), none support 羅"
+        },
+        {
+          "original": "[formatting] dup_punct 4",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -7097,10 +7221,16 @@
       ]
     },
     "御定全唐詩/json/519.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/520.json": {
       "date": "2026-10-06",
@@ -7300,6 +7430,11 @@
           "original": "池邊秋蓼紅",
           "corrected": "池連秋蓼紅",
           "note": "Twin collation: 邊 → 連; the other source (全唐诗) and 5 books on 识典古籍 read 連 (e.g. 《丁卯詩集》丁卯詩集卷下“近體詩”, 《唐音戊籤》戊籤一杜牧之四“五言律詩二”), none support 邊"
+        },
+        {
+          "original": "[formatting] dup_punct 3",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -7605,10 +7740,16 @@
       ]
     },
     "御定全唐詩/json/542.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/543.json": {
       "date": "2026-10-06",
@@ -7619,6 +7760,11 @@
           "original": "章子掃藤陰",
           "corrected": "童子掃藤陰",
           "note": "Twin collation: 章 → 童; the other source (全唐诗) and 6 books on 识典古籍 read 童 (e.g. 《唐人百家詩》喻鳧詩集卷, 《唐詩》唐詩卷四百四十), none support 章"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -7676,6 +7822,11 @@
           "original": "讓當遊藝依仁日",
           "corrected": "方當遊藝依仁日",
           "note": "Twin collation: 讓 → 方; the other source (全唐诗) and 3 books on 识典古籍 read 方 (e.g. 《唐詩紀事》唐詩紀事卷第五十三“高璩”, 《唐詩類苑》唐詩類苑卷第一百五十七), none support 讓"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -7720,6 +7871,11 @@
           "original": "試上方坦望春野",
           "corrected": "試上方垣望春野",
           "note": "Twin collation: 坦 → 垣; the other source (全唐诗) and 3 books on 识典古籍 read 垣 (e.g. 《全唐詩》第九函第一册卷二, 《唐音戊籤》戊籤十四趙嘏之四“七言絶句一”), none support 坦"
+        },
+        {
+          "original": "[formatting] dup_punct 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -7732,6 +7888,11 @@
           "original": "汝須勤若事樵漁",
           "corrected": "汝須勤苦事樵漁",
           "note": "Twin collation: 若 → 苦; the other source (全唐诗) and 3 books on 识典古籍 read 苦 (e.g. 《唐音戊籤》戊籤十五“送弟”, 《御定全唐詩》御定全唐詩卷五百五十一“盧肇”), none support 若"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -7744,6 +7905,11 @@
           "original": "應隨思賚喜昭回",
           "corrected": "應隨恩賚喜昭回",
           "note": "Twin collation: 思 → 恩; the other source (全唐诗) and 4 books on 识典古籍 read 恩 (e.g. 《古今圖書集成·歲功典》欽定古今圖書集成曆象彙編歲功典第二十五卷, 《唐詩》唐詩卷二百六十九), none support 思"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -7778,6 +7944,11 @@
           "original": "為予書劄頻",
           "corrected": "為予書札頻",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.30000.json) reads 「爲予書札頻」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "[formatting] dup_punct 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -7839,6 +8010,11 @@
           "original": "所歸。勾踐豈能容範蠡，\",\n    ",
           "corrected": "所歸。勾踐豈能容范蠡，\",\n    ",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "[formatting] dup_punct 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -8149,6 +8325,11 @@
           "original": "相就宿，夜深開戶鬥牛斜。\"\n    ",
           "corrected": "相就宿，夜深開戶斗牛斜。\"\n    ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "[formatting] dup_punct 4",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -9560,7 +9741,7 @@
       "fixes": []
     },
     "御定全唐詩/json/634.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -9573,6 +9754,11 @@
           "original": "歌行李白詩。（贈z6光，",
           "corrected": "歌行李白詩。（贈䛒光，",
           "note": "Crawl residue \"z6\" → 䛒; 识典古籍 (/zh/): 《司空表聖詩集》戊籤七十四 司空圖之五 唐音統籤卷七百八“七言絶句三” reads 「李白詩贈䛒光」 (1 hit(s))"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -9681,6 +9867,11 @@
           "original": "報導麻姑玉蕊開",
           "corrected": "報道麻姑玉蕊開",
           "note": "Twin collation: 導 → 道; the other source (全唐诗) and 6 books on 识典古籍 read 道 (e.g. 《唐詩類苑》卷一百五十二, 《唐詩類苑》唐詩類苑卷第一百五十二), none support 導"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -11252,7 +11443,7 @@
       "fixes": []
     },
     "元曲/yuanqu.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -11885,6 +12076,21 @@
           "original": "州・听得那静鞭响ㄡㄡ聒聒，听得杖鼓鸣",
           "corrected": null,
           "note": "needs_review: kana/bopomofo garble ㄡㄡ; no matching passage found on 识典古籍 (shidianguji.com)"
+        },
+        {
+          "original": "[formatting] dup_punct 1038; half_width 11; garble_fixed 1; web_junk_removed 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "自古?。",
+          "corrected": null,
+          "note": "needs_review: half-width ? stands for a lost character (encoding failure)"
+        },
+        {
+          "original": "我如今挣?，将拄仗按拿",
+          "corrected": null,
+          "note": "needs_review: half-width ? stands for a lost character (encoding failure)"
         }
       ]
     },
@@ -12201,10 +12407,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.107000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "全唐诗/poet.song.108000.json": {
       "date": "2026-06-26",
@@ -12503,10 +12715,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.143000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] half_width 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "全唐诗/poet.song.144000.json": {
       "date": "2026-06-26",
@@ -12801,10 +13019,16 @@
       ]
     },
     "全唐诗/poet.song.164000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] half_width 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "全唐诗/poet.song.165000.json": {
       "date": "2026-06-26",
@@ -12896,7 +13120,7 @@
       ]
     },
     "全唐诗/poet.song.170000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -12904,6 +13128,11 @@
           "original": "翰麗昭回，閣下金□長紫苔。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「鋪」 supported by only 1 book on 识典古籍 (《永樂大典》永樂大典卷之六千七百【十八陽】“江”); not filled"
+        },
+        {
+          "original": "[formatting] half_width 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -13009,10 +13238,16 @@
       ]
     },
     "全唐诗/poet.song.182000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] half_width 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "全唐诗/poet.song.183000.json": {
       "date": "2026-10-04",
@@ -13043,10 +13278,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.185000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] half_width 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "全唐诗/poet.song.186000.json": {
       "date": "2026-06-26",
@@ -13124,10 +13365,16 @@
       "fixes": []
     },
     "全唐诗/poet.song.192000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] half_width 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "全唐诗/poet.song.193000.json": {
       "date": "2026-06-26",
@@ -14740,7 +14987,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.90000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -14748,6 +14995,11 @@
           "original": "□□跨巨浪，側足骨毛",
           "corrected": "石橋跨巨浪，側足骨毛",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《定海廳志》卷二十七; 《普陀山志》南海普陀山志卷之十一"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -14827,7 +15079,7 @@
       "fixes": []
     },
     "全唐诗/poet.song.98000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -14835,6 +15087,11 @@
           "original": "待得風頭風力□，梅花如雪月初圓",
           "corrected": "待得風頭風力健，梅花如雪月初圓",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《宋百家詩存》宋百家詩存卷十三; 《宋百家詩存》宋百家詩存𢎥第七"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -14925,6 +15182,11 @@
           "original": "空成百恨濃",
           "corrected": "空成萬恨濃",
           "note": "Twin collation: 百 → 萬; the other source (御定全唐詩) and 5 books on 识典古籍 read 萬 (e.g. 《唐文粹》唐文粹卷十二“詩丙”, 《孟東野詩集》孟東野詩集卷第一“樂府上”), none support 百"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -16534,6 +16796,11 @@
           "original": "顧我却興歡",
           "corrected": "顧我却興歎",
           "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 6 books on 识典古籍 read 歎 (e.g. 《五百家注音辯昌黎先生文集》卷二, 《御定全唐詩錄》御定全唐詩錄卷第四十六“韓愈”), none support 歡"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -18807,6 +19074,11 @@
           "original": "封門壯土泥",
           "corrected": "封門壯士泥",
           "note": "Twin collation: 土 → 士; the other source (御定全唐詩) and 4 books on 识典古籍 read 士 (e.g. 《御定全唐詩》御定全唐詩卷六百六十五, 《御定全唐詩錄》御定全唐詩錄卷第九十一“羅隱”), none support 土"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -19618,6 +19890,11 @@
           "original": "不如紅藥闌干曲",
           "corrected": "不知紅藥闌干曲",
           "note": "Twin collation: 如 → 知; the other source (御定全唐詩) and 6 books on 识典古籍 read 知 (e.g. 《三家宮詞》三家宫詞卷下“宋”, 《三家宮詞》宋), none support 如"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -19907,6 +20184,11 @@
           "original": "孤作鬢皤皤",
           "corrected": "孤坐鬢皤皤",
           "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 2 books on 识典古籍 read 坐 (e.g. 《唐詩》唐詩卷六百八十七, 《禪月集》禪月集卷第十三“五言律詩三十二首”), none support 作"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -20236,7 +20518,7 @@
       ]
     },
     "全唐诗/poet.tang.50000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -20254,11 +20536,16 @@
           "original": "貴主鳳樓開，故歲□更亂箭催。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「冬」 supported by only 1 book on 识典古籍 (《李嶠雜咏注、唐人選唐詩》李嶠雜咏注、唐人選唐詩); not filled"
+        },
+        {
+          "original": "[formatting] dup_punct 3",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
     "全唐诗/poet.tang.51000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -20271,11 +20558,16 @@
           "original": "亟卿拜樂卿爲上客",
           "corrected": "亟拜樂卿爲上客",
           "note": "Line-length anomaly (7-char poem): extra char removed; 3 books on 识典古籍 read 「亟拜樂卿爲上客」 (e.g. 《[康熙]日下舊聞》, 《古今圖書集成·職方典》, 《栲栳山人詩集》), none read the dataset's version"
+        },
+        {
+          "original": "[formatting] dup_punct 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
     "全唐诗/poet.tang.52000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -20283,6 +20575,11 @@
           "original": "友朋好合，如□瑟琴。",
           "corrected": "友朋好合，如鼓瑟琴。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 5 independent books on 识典古籍 agree, e.g. 《四書大全》中庸大全章句上; 《四書集注》中庸"
+        },
+        {
+          "original": "[formatting] dup_punct 4",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -20306,14 +20603,25 @@
           "original": " \"入門如電拂，後土合知無。\",\n ",
           "corrected": " \"入門如電拂，后土合知無。\",\n ",
           "note": "Simplified→traditional conversion error: 後土 → 后土 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
     "全唐诗/poet.tang.57000.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "全唐诗/poet.tang.6000.json": {
       "date": "2026-10-06",
@@ -121397,7 +121705,7 @@
       ]
     },
     "宋词/ci.song.18000.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -121490,6 +121798,11 @@
           "original": "赵必�� / 赵必□",
           "corrected": "赵必𤩪",
           "note": "author name: 识典古籍 lists 《覆瓿集》 [宋] 趙必𤩪 撰 (四庫全書本); 31 occurrences unified"
+        },
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -122114,10 +122427,16 @@
       ]
     },
     "幽梦影/youmengying.json": {
-      "date": "2026-06-26",
+      "date": "2026-10-06",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] whitespace 18",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: leading/trailing whitespace trimmed in content/comment fields"
+        }
+      ]
     },
     "御定全唐詩/json/001.json": {
       "date": "2026-10-06",
@@ -123729,6 +124048,11 @@
           "original": "錫宴觀群情",
           "corrected": "錫宴歡群情",
           "note": "Twin collation: 觀 → 歡; the other source (全唐诗) and 5 books on 识典古籍 read 歡 (e.g. 《唐詩紀事》唐詩紀事卷二十七“于逖”, 《唐詩紀事》唐詩紀事卷第二十七“李沁”), none support 觀"
+        },
+        {
+          "original": "[formatting] dup_punct 2",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
         }
       ]
     },
@@ -124314,10 +124638,16 @@
       ]
     },
     "御定全唐詩/json/143.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/144.json": {
       "date": "2026-10-06",
@@ -125982,10 +126312,16 @@
       ]
     },
     "御定全唐詩/json/242.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "[formatting] dup_punct 1",
+          "corrected": "[formatting] normalized",
+          "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        }
+      ]
     },
     "御定全唐詩/json/243.json": {
       "date": "2026-06-26",
