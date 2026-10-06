@@ -4,8 +4,8 @@
   "stats": {
     "total_files": 1589,
     "reviewed": 1589,
-    "clean": 565,
-    "fixed": 674,
+    "clean": 536,
+    "fixed": 703,
     "needs_review": 350
   },
   "reviewed": {
@@ -590,10 +590,16 @@
       "fixes": []
     },
     "御定全唐詩/json/801.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "報導不須鴉鳥亂",
+          "corrected": "報道不須鴉鳥亂",
+          "note": "Twin collation: 導 → 道; the other source (全唐诗) and 8 books on 识典古籍 read 道 (e.g. 《古今宫閨詩》卷七, 《名媛彙詩》卷八), none support 導"
+        }
+      ]
     },
     "御定全唐詩/json/802.json": {
       "date": "2026-10-06",
@@ -855,6 +861,11 @@
           "original": " \"幽石叢圭片，孤鬆動雪枝。頃曾聽道",
           "corrected": " \"幽石叢圭片，孤松動雪枝。頃曾聽道",
           "note": "Simplified→traditional conversion error: 孤鬆 → 孤松 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "堪愁又來年",
+          "corrected": "堪愁又隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 3 books on 识典古籍 read 隔 (e.g. 《唐僧弘秀集》唐僧弘秀集卷三“䕶國十首”, 《唐詩》唐詩卷六百六十五), none support 來"
         }
       ]
     },
@@ -897,6 +908,11 @@
           "original": "戎冠夜刺閨",
           "corrected": "戎寇夜刺閨",
           "note": "Twin collation: 冠 → 寇; the other source (全唐诗) and 4 books on 识典古籍 read 寇 (e.g. 《御定全唐詩》御定全唐詩卷八百十五“皎然”, 《杼山集》卷一), none support 冠"
+        },
+        {
+          "original": "報導山中去",
+          "corrected": "報道山中去",
+          "note": "Twin collation: 導 → 道; the other source (全唐诗) and 9 books on 识典古籍 read 道 (e.g. 《【康熙】常州府志》【康熙】常州府志卷三十一, 《唐詩别裁集引典備注》唐詩别裁集引典備注卷十二), none support 導"
         }
       ]
     },
@@ -928,7 +944,7 @@
       ]
     },
     "御定全唐詩/json/817.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -941,6 +957,11 @@
           "original": "石de清心胸",
           "corrected": "石瀃清心胸",
           "note": "Crawl residue \"de\" → 瀃: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "人靜片雲閑",
+          "corrected": "入靜片雲閑",
+          "note": "Twin collation: 人 → 入; the other source (全唐诗) and 7 books on 识典古籍 read 入 (e.g. 《古今禪藻集》古今禪藻集卷四“唐”, 《唐三高僧詩集》杼山集卷三), none support 人"
         }
       ]
     },
@@ -1018,6 +1039,11 @@
           "original": "負米無遠近，所希升鬥歸。為人無貴賤，",
           "corrected": "負米無遠近，所希升斗歸。為人無貴賤，",
           "note": "Simplified→traditional conversion error: 升鬥 → 升斗 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "倡狂曲江曲",
+          "corrected": "猖狂曲江曲",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 6 books on 识典古籍 read 猖 (e.g. 《唐三高僧詩集》禪月集卷一, 《宋洪魏公進萬首唐人絶句》萬首唐人絶句卷十), none support 倡"
         }
       ]
     },
@@ -1217,6 +1243,11 @@
           "original": "寂莫野花春",
           "corrected": "寂寞野花春",
           "note": "Twin collation: 莫 → 寞; the other source (全唐诗) and 3 books on 识典古籍 read 寞 (e.g. 《唐三高僧詩集》禪月集卷十六, 《唐詩》唐詩卷六百八十九), none support 莫"
+        },
+        {
+          "original": "歸來莫來年",
+          "corrected": "歸來莫隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 2 books on 识典古籍 read 隔 (e.g. 《御定全唐詩》御定全唐詩卷八百三十三“貫休”, 《禪月集》卷八), none support 來"
         }
       ]
     },
@@ -1258,6 +1289,11 @@
           "original": "黃昏風雨黑如盤",
           "corrected": "黃昏風雨黑如磐",
           "note": "Twin collation: 盤 → 磐; the other source (全唐诗) and 4 books on 识典古籍 read 磐 (e.g. 《劍筴》卷二十七, 《唐三高僧詩集》禪月集卷二十六), none support 盤"
+        },
+        {
+          "original": "白雪歸去幾裴回",
+          "corrected": "白雲歸去幾裴回",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 4 books on 识典古籍 read 雲 (e.g. 《唐詩貫珠》唐詩貫珠卷三十七, 《唐詩贯珠》卷三十七), none support 雪"
         }
       ]
     },
@@ -1291,14 +1327,19 @@
       ]
     },
     "御定全唐詩/json/840.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
         {
           "original": "送靈z6上人遊五台",
           "corrected": null,
           "note": "齊己《送靈z6上人遊五台》(no#18): 'z6' appears in the poem title as an ASCII placeholder code (letter+digit). Same code also seen in 837.json no#35 title '貫休《z6光大師草書歌》'. Requires verification against physical edition."
+        },
+        {
+          "original": "無來又來年",
+          "corrected": "無來又隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 4 books on 识典古籍 read 隔 (e.g. 《唐詩》唐詩卷六百九十九, 《御定全唐詩》御定全唐詩卷八百四十“寄華山司空圖”), none support 來"
         }
       ]
     },
@@ -1395,10 +1436,16 @@
       ]
     },
     "御定全唐詩/json/849.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "報導門前是衲僧",
+          "corrected": "報道門前是衲僧",
+          "note": "Twin collation: 導 → 道; the other source (全唐诗) and 5 books on 识典古籍 read 道 (e.g. 《增修詩話總龜》增修詩話總龜卷之十一“雅什門”, 《增修詩話總龜前集》增修詩話總龜前集卷十一), none support 導"
+        }
+      ]
     },
     "御定全唐詩/json/850.json": {
       "date": "2026-10-06",
@@ -1523,10 +1570,16 @@
       ]
     },
     "御定全唐詩/json/861.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "蓬萊通道無多路",
+          "corrected": "蓬萊信道無多路",
+          "note": "Twin collation: 通 → 信; the other source (全唐诗) and 5 books on 识典古籍 read 信 (e.g. 《五色綫》五色線卷上, 《歷代神仙通紀》第十五册), none support 通"
+        }
+      ]
     },
     "御定全唐詩/json/862.json": {
       "date": "2026-06-27",
@@ -1997,6 +2050,11 @@
           "original": "織腰束素長",
           "corrected": "纖腰束素長",
           "note": "Twin collation: 織 → 纖; the other source (全唐诗) and 5 books on 识典古籍 read 纖 (e.g. 《尊前集》卷下, 《御定詞譜》御定詞譜卷二), none support 織"
+        },
+        {
+          "original": "笑和嬌語太倡狂",
+          "corrected": "笑和嬌語太猖狂",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 5 books on 识典古籍 read 猖 (e.g. 《古今圖書集成·閨媛典》欽定古今圖書集成明倫彙編閨媛典第四千九百三十三卷“閨媛總部藝文十四詞”, 《御定全唐詩》御定全唐詩卷八百九十五), none support 倡"
         }
       ]
     },
@@ -2009,6 +2067,11 @@
           "original": "瞥地見時猶可哥",
           "corrected": "瞥地見時猶可可",
           "note": "Twin collation: 哥 → 可; the other source (全唐诗) and 3 books on 识典古籍 read 可 (e.g. 《御定全唐詩》御定全唐詩卷八百九十四, 《繡刻演劇六十種》琴心記卷上), none support 哥"
+        },
+        {
+          "original": "來年書",
+          "corrected": "隔年書",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 2 books on 识典古籍 read 隔 (e.g. 《御定全唐詩》御定全唐詩卷八百九十四, 《花間集》三), none support 來"
         }
       ]
     },
@@ -2338,6 +2401,11 @@
           "original": "欹枕高堂卷畫簾",
           "corrected": "欹枕高堂卷晝簾",
           "note": "Twin collation: 畫 → 晝; the other source (全唐诗) and 3 books on 识典古籍 read 晝 (e.g. 《唐百家詩》劉兼集, 《唐詩類苑》唐詩類苑卷第十), none support 畫"
+        },
+        {
+          "original": "倡狂亂打貔貅鼓",
+          "corrected": "猖狂亂打貔貅鼓",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 3 books on 识典古籍 read 猖 (e.g. 《唐百家詩》劉兼集, 《唐詩類苑》卷八), none support 倡"
         }
       ]
     },
@@ -2354,10 +2422,16 @@
       ]
     },
     "御定全唐詩/json/758.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "相思恨來年",
+          "corrected": "相思恨隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 9 books on 识典古籍 read 隔 (e.g. 《中晚唐詩》卷十二, 《十三唐人詩》卷十二), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/759.json": {
       "date": "2026-06-27",
@@ -2522,10 +2596,16 @@
       ]
     },
     "御定全唐詩/json/266.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "颶風晴汩起",
+          "corrected": "颶風晴汨起",
+          "note": "Twin collation: 汩 → 汨; the other source (全唐诗) and 4 books on 识典古籍 read 汨 (e.g. 《丹鉛總錄》卷二, 《唐詩百名家全集》顧逋翁詩集卷三), none support 汩"
+        }
+      ]
     },
     "御定全唐詩/json/267.json": {
       "date": "2026-06-26",
@@ -2641,6 +2721,11 @@
           "original": " \"團團聚鄰曲，鬥酒相與斟。樵歌野田",
           "corrected": " \"團團聚鄰曲，斗酒相與斟。樵歌野田",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "腸斷仙郎來年別",
+          "corrected": "腸斷仙郎隔年別",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 3 books on 识典古籍 read 隔 (e.g. 《全唐詩鈔》全唐詩鈔補遺卷七, 《唐詩百名家全集》戴叔倫詩集卷上), none support 來"
         }
       ]
     },
@@ -2689,6 +2774,11 @@
           "original": "形神遂疲苶",
           "corrected": "形神遂疲薾",
           "note": "Twin collation: 苶 → 薾; the other source (全唐诗) and 2 books on 识典古籍 read 薾 (e.g. 《唐詩類苑》卷二十四, 《唐詩類苑》唐詩類苑卷第二十四), none support 苶"
+        },
+        {
+          "original": "海鱗方潑剌",
+          "corrected": "海鱗方潑刺",
+          "note": "Twin collation: 剌 → 刺; the other source (全唐诗) and 2 books on 识典古籍 read 刺 (e.g. 《御定全唐詩》御定全唐詩卷二百七十八“盧綸”, 《御定駢字類編》御定駢字類編卷四十六“海（二）”), none support 剌"
         }
       ]
     },
@@ -2727,10 +2817,26 @@
       ]
     },
     "御定全唐詩/json/282.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "若樂身自當",
+          "corrected": "苦樂身自當",
+          "note": "Twin collation: 若 → 苦; the other source (全唐诗) and 4 books on 识典古籍 read 苦 (e.g. 《唐詩》唐詩卷二百七, 《御定全唐詩》御定全唐詩卷二百八十二“李益”), none support 若"
+        },
+        {
+          "original": "己須還複白",
+          "corrected": "已須還複白",
+          "note": "Twin collation: 己 → 已; the other source (全唐诗) and 2 books on 识典古籍 read 已 (e.g. 《御定全唐詩》御定全唐詩卷二百八十二“李益”, 《御定全唐詩》御定全唐詩卷十九“江南曲”), none support 己"
+        },
+        {
+          "original": "陰羅冒水綠",
+          "corrected": "陰蘿冒水綠",
+          "note": "Twin collation: 羅 → 蘿; the other source (全唐诗) and 5 books on 识典古籍 read 蘿 (e.g. 《唐詩二十六家》李益集卷上, 《唐詩品匯》唐詩拾遺卷二), none support 羅"
+        }
+      ]
     },
     "御定全唐詩/json/283.json": {
       "date": "2026-10-06",
@@ -2811,10 +2917,16 @@
       ]
     },
     "御定全唐詩/json/287.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "謝歸今即己",
+          "corrected": "謝歸今即已",
+          "note": "Twin collation: 己 → 已; the other source (全唐诗) and 2 books on 识典古籍 read 已 (e.g. 《唐文粹》唐文粹卷十六下“詩癸”, 《唐文粹》文粹卷第十六之下古調“南充謝郡客遊灃州留贈宇文中丞”), none support 己"
+        }
+      ]
     },
     "御定全唐詩/json/288.json": {
       "date": "2026-10-03",
@@ -2900,6 +3012,11 @@
           "original": "疾苦膚體連",
           "corrected": "疾若膚體連",
           "note": "Twin collation: 苦 → 若; the other source (全唐诗) and 7 books on 识典古籍 read 若 (e.g. 《唐人六集》王建詩卷一, 《唐詩》唐詩卷三百九十八), none support 苦"
+        },
+        {
+          "original": "聞善如己榮",
+          "corrected": "聞善如已榮",
+          "note": "Twin collation: 己 → 已; the other source (全唐诗) and 2 books on 识典古籍 read 已 (e.g. 《唐人百家詩》王建詩集卷四, 《百家唐詩》百家唐詩王建詩一卷), none support 己"
         }
       ]
     },
@@ -3129,6 +3246,11 @@
           "original": "又免生憂撓",
           "corrected": "又免生憂擾",
           "note": "Twin collation: 撓 → 擾; the other source (全唐诗) and 4 books on 识典古籍 read 擾 (e.g. 《唐詩類苑》卷六十, 《御定全唐詩》御定全唐詩卷十九“江南曲”), none support 撓"
+        },
+        {
+          "original": "願乞殘雪英",
+          "corrected": "願乞殘雲英",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 5 books on 识典古籍 read 雲 (e.g. 《古詩鏡》唐詩鏡卷三十五, 《唐詩類苑》唐詩類苑卷第三十一), none support 雪"
         }
       ]
     },
@@ -3153,6 +3275,11 @@
           "original": "得地又蓬時",
           "corrected": "得地又逢時",
           "note": "Twin collation: 蓬 → 逢; the other source (全唐诗) and 3 books on 识典古籍 read 逢 (e.g. 《唐詩觀瀾集》唐詩觀瀾集五卷, 《唐詩選》七言歌行卷三), none support 蓬"
+        },
+        {
+          "original": "亡情通道樞",
+          "corrected": "亡情信道樞",
+          "note": "Twin collation: 通 → 信; the other source (全唐诗) and 3 books on 识典古籍 read 信 (e.g. 《唐詩類苑》卷一百八十七, 《文苑英華》一百八十六), none support 通"
         }
       ]
     },
@@ -4107,6 +4234,11 @@
           "original": "寄言遷金子",
           "corrected": "寄言千金子",
           "note": "Twin collation: 遷 → 千; the other source (全唐诗) and 6 books on 识典古籍 read 千 (e.g. 《劉夢得文集》劉夢得文集卷第九“度桂嶺歌”, 《劉賓客文集》卷二十七), none support 遷"
+        },
+        {
+          "original": "通道不從時",
+          "corrected": "信道不從時",
+          "note": "Twin collation: 通 → 信; the other source (全唐诗) and 4 books on 识典古籍 read 信 (e.g. 《中晚唐詩》卷二, 《劉夢得文集》劉夢得文集卷第二“古詩”), none support 通"
         }
       ]
     },
@@ -4246,10 +4378,16 @@
       ]
     },
     "御定全唐詩/json/363.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "繭綸牽撥剌",
+          "corrected": "繭綸牽撥刺",
+          "note": "Twin collation: 剌 → 刺; the other source (全唐诗) and 4 books on 识典古籍 read 刺 (e.g. 《劉夢得文集》劉夢得外集卷第八“律詩”, 《劉賓客詩集》卷五), none support 剌"
+        }
+      ]
     },
     "御定全唐詩/json/364.json": {
       "date": "2026-06-26",
@@ -4504,10 +4642,21 @@
       ]
     },
     "御定全唐詩/json/384.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "遠望海西天",
+          "corrected": "還望海西天",
+          "note": "Twin collation: 遠 → 還; the other source (全唐诗) and 7 books on 识典古籍 read 還 (e.g. 《中晚唐詩》卷二十八, 《唐張司業詩集》唐張司業詩集卷二“五言律詩”), none support 遠"
+        },
+        {
+          "original": "多是來年回",
+          "corrected": "多是隔年回",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 4 books on 识典古籍 read 隔 (e.g. 《唐張司業詩集》唐張司業詩集卷三“五言排律”, 《唐詩類苑》卷四十五), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/385.json": {
       "date": "2026-10-06",
@@ -4719,10 +4868,16 @@
       ]
     },
     "御定全唐詩/json/397.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "但若寡歡娛",
+          "corrected": "但苦寡歡娛",
+          "note": "Twin collation: 若 → 苦; the other source (全唐诗) and 4 books on 识典古籍 read 苦 (e.g. 《元氏長慶集》元氏長慶集卷二“古詩”, 《元氏長慶集》元氏長慶集卷第二“苦雨”), none support 若"
+        }
+      ]
     },
     "御定全唐詩/json/398.json": {
       "date": "2026-10-06",
@@ -4818,10 +4973,16 @@
       ]
     },
     "御定全唐詩/json/402.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "資予養頑暝",
+          "corrected": "資予養頑瞑",
+          "note": "Twin collation: 暝 → 瞑; the other source (全唐诗) and 2 books on 识典古籍 read 瞑 (e.g. 《元氏長慶集》七, 《元氏長慶集》卷七), none support 暝"
+        }
+      ]
     },
     "御定全唐詩/json/403.json": {
       "date": "2026-10-06",
@@ -4846,10 +5007,16 @@
       ]
     },
     "御定全唐詩/json/404.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "影絕魂銷動來年",
+          "corrected": "影絕魂銷動隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 4 books on 识典古籍 read 隔 (e.g. 《元氏長慶集》九, 《元氏長慶集》元氏長慶集卷九“傷悼詩”), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/405.json": {
       "date": "2026-10-06",
@@ -5103,6 +5270,11 @@
           "original": "所驚身在古梁州",
           "corrected": "忽驚身在古梁州",
           "note": "Twin collation: 所 → 忽; the other source (全唐诗) and 6 books on 识典古籍 read 忽 (e.g. 《元氏長慶集》元氏長慶集卷十七“律詩”, 《元氏長慶集》元氏長慶集卷第十七“梁州夢”), none support 所"
+        },
+        {
+          "original": "不知名作罷歸園",
+          "corrected": "不如名作罷歸園",
+          "note": "Twin collation: 知 → 如; the other source (全唐诗) and 4 books on 识典古籍 read 如 (e.g. 《元氏長慶集》元氏長慶集卷十七, 《元氏長慶集》元氏長慶集卷第十七“韋居守晚歲常言退休之志), none support 知"
         }
       ]
     },
@@ -5273,6 +5445,11 @@
           "original": "吾民自有丘之禱",
           "corrected": "吾心自有丘之禱",
           "note": "Twin collation: 民 → 心; the other source (全唐诗) and 4 books on 识典古籍 read 心 (e.g. 《元氏長慶集》元氏長慶集卷二十五“樂府”, 《元氏長慶集》元氏長慶集卷第二十五“樂府”), none support 民"
+        },
+        {
+          "original": "颶風作兮晝夜倡狂",
+          "corrected": "颶風作兮晝夜猖狂",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 3 books on 识典古籍 read 猖 (e.g. 《元氏長慶集》元氏長慶集卷二十五“樂府”, 《元氏長慶集》元氏長慶集卷第二十五), none support 倡"
         }
       ]
     },
@@ -5318,6 +5495,11 @@
           "original": "書劄不如詩",
           "corrected": "書札不如詩",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.18000.json) reads 「書札不如詩」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "謾裏常州透額羅",
+          "corrected": "謾裹常州透額羅",
+          "note": "Twin collation: 裏 → 裹; the other source (全唐诗) and 6 books on 识典古籍 read 裹 (e.g. 《全唐詩話》全唐詩話卷之二“劉竈”, 《全唐詩话》全唐詩話卷之二“元𬓲”), none support 裏"
         }
       ]
     },
@@ -5391,6 +5573,11 @@
           "original": "門處有酒酤",
           "corrected": "門外有酒酤",
           "note": "Twin collation: 處 → 外; the other source (全唐诗) and 3 books on 识典古籍 read 外 (e.g. 《唐詩類苑》卷九十一, 《唐詩類苑》唐詩類苑卷第九十), none support 處"
+        },
+        {
+          "original": "封置通中枕",
+          "corrected": "對置通中枕",
+          "note": "Twin collation: 封 → 對; the other source (全唐诗) and 5 books on 识典古籍 read 對 (e.g. 《唐詩金粉》卷十, 《唐詩類苑》卷五十八), none support 封"
         }
       ]
     },
@@ -5494,6 +5681,11 @@
           "original": "開緘見手劄",
           "corrected": "開緘見手札",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.22000.json) reads 「開緘見手札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "含此來年恨",
+          "corrected": "含此隔年恨",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 7 books on 识典古籍 read 隔 (e.g. 《唐詩類苑》唐詩類苑卷第一百三十三, 《白居易集》白氏文集卷第九“和元九悼往”), none support 來"
         }
       ]
     },
@@ -5516,6 +5708,21 @@
           "original": "蒼茫兼葭水",
           "corrected": "蒼茫蒹葭水",
           "note": "Twin collation: 兼 → 蒹; the other source (全唐诗) and 7 books on 识典古籍 read 蒹 (e.g. 《唐詩類苑》卷九十二, 《御定全唐詩》御定全唐詩卷四百三十三“白居易”), none support 兼"
+        },
+        {
+          "original": "逝者來年聞",
+          "corrected": "逝者隔年聞",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 8 books on 识典古籍 read 隔 (e.g. 《全唐詩目》第二册（二）, 《古今事文類聚》古今事文類聚後集卷十三“人倫部”), none support 來"
+        },
+        {
+          "original": "夕雀俄斂冀",
+          "corrected": "夕雀俄斂翼",
+          "note": "Twin collation: 冀 → 翼; the other source (全唐诗) and 4 books on 识典古籍 read 翼 (e.g. 《全唐詩目》第二册（二）, 《唐詩類苑》卷九十二), none support 冀"
+        },
+        {
+          "original": "書多來年得",
+          "corrected": "書多隔年得",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 7 books on 识典古籍 read 隔 (e.g. 《全唐詩目》第二册（二）, 《唐詩》唐詩卷三百五十一), none support 來"
         }
       ]
     },
@@ -5577,14 +5784,25 @@
           "original": "策目穿如劄",
           "corrected": "策目穿如札",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.22000.json) reads 「策目穿如札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "桂恨來年攀",
+          "corrected": "桂恨隔年攀",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 4 books on 识典古籍 read 隔 (e.g. 《文苑英華》二百四十五, 《白居易集》白氏文集卷第十三“和鄭元及第後秋歸洛下閑居”), none support 來"
         }
       ]
     },
     "御定全唐詩/json/437.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "報導心空無可看",
+          "corrected": "報道心空無可看",
+          "note": "Twin collation: 導 → 道; the other source (全唐诗) and 6 books on 识典古籍 read 道 (e.g. 《唐詩類苑》唐詩類苑卷第七“天部”, 《宋洪魏公進萬首唐人絶句》萬首唐人絶句卷十八), none support 導"
+        }
+      ]
     },
     "御定全唐詩/json/438.json": {
       "date": "2026-06-26",
@@ -5662,6 +5880,16 @@
           "original": "四掖賜三臣",
           "corrected": "西掖賜三臣",
           "note": "Twin collation: 四 → 西; the other source (全唐诗) and 8 books on 识典古籍 read 西 (e.g. 《全唐詩目》第四册（二）, 《全芳備祖集》全芳備祖後集卷九“紀要”), none support 四"
+        },
+        {
+          "original": "何人通道是郎官",
+          "corrected": "何人信道是郎官",
+          "note": "Twin collation: 通 → 信; the other source (全唐诗) and 5 books on 识典古籍 read 信 (e.g. 《全唐詩目》第四册（二）, 《唐詩類苑》卷一百六十), none support 通"
+        },
+        {
+          "original": "如恨來年期",
+          "corrected": "如恨隔年期",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 7 books on 识典古籍 read 隔 (e.g. 《全唐詩目》第四册（二）, 《全芳備祖集》全芳備祖前集卷三“紀要”), none support 來"
         }
       ]
     },
@@ -5896,6 +6124,11 @@
           "original": "冥鴻羈絏斷",
           "corrected": "冥鴻羈緤斷",
           "note": "Twin collation: 絏 → 緤; the other source (全唐诗) and 4 books on 识典古籍 read 緤 (e.g. 《全唐詩目》第六册（二）, 《唐詩類苑》唐詩類苑卷第十四“歲時部”), none support 絏"
+        },
+        {
+          "original": "酒汩三丹田",
+          "corrected": "酒汨三丹田",
+          "note": "Twin collation: 汩 → 汨; the other source (全唐诗) and 6 books on 识典古籍 read 汨 (e.g. 《全唐詩目》第六册（二）, 《御定駢字類編》御定駢字類編卷一百四十三“丹（一）”), none support 汩"
         }
       ]
     },
@@ -5917,7 +6150,7 @@
       ]
     },
     "御定全唐詩/json/454.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -5930,6 +6163,11 @@
           "original": "鶯嬌語bZ風",
           "corrected": "鶯嬌語䛏風",
           "note": "Crawl residue \"bZ\" → 䛏: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "何人通道是書生",
+          "corrected": "何人信道是書生",
+          "note": "Twin collation: 通 → 信; the other source (全唐诗) and 6 books on 识典古籍 read 信 (e.g. 《御定全唐詩》御定全唐詩卷四百五十四“白居易”, 《御選唐宋詩醇》御選唐宋詩醇卷二十六), none support 通"
         }
       ]
     },
@@ -5992,16 +6230,28 @@
       ]
     },
     "御定全唐詩/json/459.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "似訝來年齋",
+          "corrected": "似訝隔年齋",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 4 books on 识典古籍 read 隔 (e.g. 《唐詩類苑》唐詩類苑卷第九“歲時部”, 《白居易集》白氏文集卷第六十九“和夢得洛中早春見贈七韻”), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/460.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "何人通道舊同群",
+          "corrected": "何人信道舊同群",
+          "note": "Twin collation: 通 → 信; the other source (全唐诗) and 5 books on 识典古籍 read 信 (e.g. 《全唐詩目》第一册（二）, 《御定全唐詩》御定全唐詩卷四百六十“白居易”), none support 通"
+        }
+      ]
     },
     "御定全唐詩/json/461.json": {
       "date": "2026-06-26",
@@ -6058,7 +6308,7 @@
       ]
     },
     "御定全唐詩/json/466.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6071,6 +6321,11 @@
           "original": "噤z9微寒早",
           "corrected": "噤㾕微寒早",
           "note": "Crawl residue \"z9\" → 㾕: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "映雪猶誤雪",
+          "corrected": "映雲猶誤雪",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 4 books on 识典古籍 read 雲 (e.g. 《全唐詩目》第九册, 《唐詩排律》唐詩排律卷第五), none support 雪"
         }
       ]
     },
@@ -6238,6 +6493,11 @@
           "original": "舜葬蒼梧直到今",
           "corrected": "舜葬蒼梧直至今",
           "note": "Twin collation: 到 → 至; the other source (全唐诗) and 2 books on 识典古籍 read 至 (e.g. 《宋洪魏公進萬首唐人絶句》宋洪魏公萬首唐人紀句卷之十四, 《御定全唐詩》御定全唐詩卷四百七十七“李涉”), none support 到"
+        },
+        {
+          "original": "報導花時也不閑",
+          "corrected": "報道花時也不閑",
+          "note": "Twin collation: 導 → 道; the other source (全唐诗) and 4 books on 识典古籍 read 道 (e.g. 《全唐詩目》第十册（二）, 《唐詩品彙》七言絶句卷之七“接武”), none support 導"
         }
       ]
     },
@@ -6424,7 +6684,7 @@
       "fixes": []
     },
     "御定全唐詩/json/491.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -6437,6 +6697,11 @@
           "original": "陶令門前罥接z5",
           "corrected": "陶令門前罥接䍦",
           "note": "Crawl residue \"z5\" → 䍦: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "來年擬待春消息",
+          "corrected": "隔年擬待春消息",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 6 books on 识典古籍 read 隔 (e.g. 《古今圖書集成·草木典》欽定古今圖書集成博物彙編草木典第六千八百三十六卷“梅部藝文三詩”, 《宋洪魏公進萬首唐人絶句》宋洪魏公進萬首唐人絶句卷之二十七), none support 來"
         }
       ]
     },
@@ -6481,6 +6746,11 @@
           "original": "小仙乘月擊蒼虯",
           "corrected": "小仙乘月繫蒼虯",
           "note": "Twin collation: 擊 → 繫; the other source (全唐诗) and 4 books on 识典古籍 read 繫 (e.g. 《唐詩》唐詩卷四百二十五, 《御定全唐詩》御定全唐詩卷四百九十四“施肩吾”), none support 擊"
+        },
+        {
+          "original": "棲禪莫向苧羅山",
+          "corrected": "棲禪莫向苧蘿山",
+          "note": "Twin collation: 羅 → 蘿; the other source (全唐诗) and 2 books on 识典古籍 read 蘿 (e.g. 《唐詩》唐詩卷四百二十五, 《萬首唐人絶句》萬首唐人絶句卷三十四“七言”), none support 羅"
         }
       ]
     },
@@ -6572,10 +6842,16 @@
       ]
     },
     "御定全唐詩/json/502.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "殘雪飛屋裏",
+          "corrected": "殘雲飛屋裏",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 5 books on 识典古籍 read 雲 (e.g. 《名物通》卷四, 《唐詩類苑》卷一百八十三), none support 雪"
+        }
+      ]
     },
     "御定全唐詩/json/503.json": {
       "date": "2026-10-06",
@@ -6601,6 +6877,16 @@
           "original": "道至心極盡",
           "corrected": "道至心機盡",
           "note": "Twin collation: 極 → 機; the other source (全唐诗) and 3 books on 识典古籍 read 機 (e.g. 《唐詩》唐詩卷六百六十二, 《御定全唐詩》御定全唐詩卷五百三“周賀”), none support 極"
+        },
+        {
+          "original": "重來又來年",
+          "corrected": "重來又隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 5 books on 识典古籍 read 隔 (e.g. 《周賀詩集》周賀詩集“同朱慶餘宿翊西上人房”, 《唐詩》唐詩卷六百六十二), none support 來"
+        },
+        {
+          "original": "過雨還山出",
+          "corrected": "過雨遠山出",
+          "note": "Twin collation: 還 → 遠; the other source (全唐诗) and 6 books on 识典古籍 read 遠 (e.g. 《古今禪藻集》古今禪藻集卷四“唐”, 《周賀詩集》周賀詩集“春日重至南除舊居”), none support 還"
         }
       ]
     },
@@ -6750,6 +7036,11 @@
           "original": "時馥留僧宿",
           "corrected": "時復留僧宿",
           "note": "Twin collation: 馥 → 復; the other source (全唐诗) and 6 books on 识典古籍 read 復 (e.g. 《唐詩類苑》卷九十三, 《文苑英華》文苑英華卷二百六十宋李昉等編“贈太祝張籍姚合”), none support 馥"
+        },
+        {
+          "original": "回期已來年",
+          "corrected": "回期已隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 5 books on 识典古籍 read 隔 (e.g. 《唐四十四家詩》朱慶餘詩集, 《唐詩》唐詩卷四百二十一), none support 來"
         }
       ]
     },
@@ -6855,6 +7146,11 @@
           "original": "喃喃送君劄",
           "corrected": "喃喃送君札",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「喃喃送君札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "已身不自曉",
+          "corrected": "己身不自曉",
+          "note": "Twin collation: 已 → 己; the other source (全唐诗) and 3 books on 识典古籍 read 己 (e.g. 《杜牧集》樊川文集第一“杜秋娘詩”, 《東萊集注類編觀瀾文甲集》卷六), none support 已"
         }
       ]
     },
@@ -6970,6 +7266,11 @@
           "original": "媚發輕垂額",
           "corrected": "媚髮輕垂額",
           "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.28000.json) reads 「媚髪輕垂額」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "家書到來年",
+          "corrected": "家書到隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 6 books on 识典古籍 read 隔 (e.g. 《唐詩類苑》卷一百十六, 《唐詩類苑》唐詩類苑卷第一百十六), none support 來"
         }
       ]
     },
@@ -7109,10 +7410,16 @@
       "fixes": []
     },
     "御定全唐詩/json/534.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "一墮西岩又來年",
+          "corrected": "一墮西岩又隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 5 books on 识典古籍 read 隔 (e.g. 《丁卯詩集》丁卯詩集卷上“近體詩”, 《丁卯集》丁卯集卷上“七言雜詩”), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/535.json": {
       "date": "2026-10-06",
@@ -7167,6 +7474,11 @@
           "original": "沈。朱顏常似渥，綠發已如尋。\",\n ",
           "corrected": "沈。朱顏常似渥，綠髮已如尋。\",\n ",
           "note": "Simplified→traditional conversion error: 綠發 → 綠髮 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "定系倡狂虜",
+          "corrected": "定系猖狂虜",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 8 books on 识典古籍 read 猖 (e.g. 《丁卯集》丁卯集卷下“五言雜詩”, 《唐人五言排律選》唐人五言排律選卷九), none support 倡"
         }
       ]
     },
@@ -7284,6 +7596,11 @@
           "original": "陛陑始創殷",
           "corrected": "陞陑始創殷",
           "note": "Twin collation: 陛 → 陞; the other source (全唐诗) and 5 books on 识典古籍 read 陞 (e.g. 《唐人百家詩》李商隱詩集卷下, 《御定全唐詩》御定全唐詩卷五百四十一“李商隱”), none support 陛"
+        },
+        {
+          "original": "同雪候稍愆",
+          "corrected": "同雲候稍愆",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 4 books on 识典古籍 read 雲 (e.g. 《唐人百家詩》李商隱詩集卷下, 《唐李義山詩集》卷四), none support 雪"
         }
       ]
     },
@@ -7407,10 +7724,16 @@
       ]
     },
     "御定全唐詩/json/551.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "汝須勤若事樵漁",
+          "corrected": "汝須勤苦事樵漁",
+          "note": "Twin collation: 若 → 苦; the other source (全唐诗) and 3 books on 识典古籍 read 苦 (e.g. 《唐音戊籤》戊籤十五“送弟”, 《御定全唐詩》御定全唐詩卷五百五十一“盧肇”), none support 若"
+        }
+      ]
     },
     "御定全唐詩/json/552.json": {
       "date": "2026-10-06",
@@ -7533,6 +7856,11 @@
           "original": "珠膏枉被煎",
           "corrected": "殊膏枉被煎",
           "note": "Twin collation: 珠 → 殊; the other source (全唐诗) and 4 books on 识典古籍 read 殊 (e.g. 《唐音戊籤》戊籤五十六薛能之三唐音統籤卷“五言排律”, 《御定全唐詩》御定全唐詩卷五百五十八“薛能”), none support 珠"
+        },
+        {
+          "original": "來年空仰望",
+          "corrected": "隔年空仰望",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 7 books on 识典古籍 read 隔 (e.g. 《中晚唐九家詩》卷七, 《全唐詩》第九函第二册卷四), none support 來"
         }
       ]
     },
@@ -7589,10 +7917,16 @@
       ]
     },
     "御定全唐詩/json/564.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "縈雪猶類網",
+          "corrected": "縈雲猶類網",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 7 books on 识典古籍 read 雲 (e.g. 《唐詩排律》唐詩排律卷第六“飛鴻響遠音”, 《唐詩類苑》卷一百九十八), none support 雪"
+        }
+      ]
     },
     "御定全唐詩/json/565.json": {
       "date": "2026-06-26",
@@ -7601,10 +7935,16 @@
       "fixes": []
     },
     "御定全唐詩/json/566.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "遠為隔歲期",
+          "corrected": "還為隔歲期",
+          "note": "Twin collation: 遠 → 還; the other source (全唐诗) and 4 books on 识典古籍 read 還 (e.g. 《唐詩紀事》唐詩紀事卷第五十八“韋蟾”, 《唐詩類苑》卷十九), none support 遠"
+        }
+      ]
     },
     "御定全唐詩/json/567.json": {
       "date": "2026-10-03",
@@ -7647,6 +7987,11 @@
           "original": "萬里胡天海寒秋",
           "corrected": "萬里胡天海塞秋",
           "note": "Twin collation: 寒 → 塞; the other source (全唐诗) and 3 books on 识典古籍 read 塞 (e.g. 《全唐詩》第九函第三册卷七, 《唐詩》唐詩卷四百五十六), none support 寒"
+        },
+        {
+          "original": "所思杳何知",
+          "corrected": "所思杳何如",
+          "note": "Twin collation: 知 → 如; the other source (全唐诗) and 6 books on 识典古籍 read 如 (e.g. 《中晚唐九家詩》卷八, 《唐人八家詩》李文山詩集卷上), none support 知"
         }
       ]
     },
@@ -7669,6 +8014,11 @@
           "original": "增在春波底",
           "corrected": "半在春波底",
           "note": "Twin collation: 增 → 半; the other source (全唐诗) and 7 books on 识典古籍 read 半 (e.g. 《咏物詩選》咏物詩選卷七, 《唐人百家詩》李群玉進詩表卷下), none support 增"
+        },
+        {
+          "original": "刀頭恐來年",
+          "corrected": "刀頭恐隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 5 books on 识典古籍 read 隔 (e.g. 《全唐詩》第九函第三册卷八, 《晚唐詩鈔》晚唐詩鈔卷第八), none support 來"
         }
       ]
     },
@@ -7701,6 +8051,16 @@
           "original": "一吟麗可風流極",
           "corrected": "一吟麗句風流極",
           "note": "Twin collation: 可 → 句; the other source (全唐诗) and 5 books on 识典古籍 read 句 (e.g. 《全唐詩》第九函第三册卷九, 《唐音戊籤》戊籤六李群玉之四“七言絶句”), none support 可"
+        },
+        {
+          "original": "紫雪白鶴去不返",
+          "corrected": "紫雲白鶴去不返",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 5 books on 识典古籍 read 雲 (e.g. 《宋洪魏公進萬首唐人絶句》萬首唐人絶句卷二十八, 《御定佩文齋咏物詩選》御定佩文齋咏物詩選卷七十七“洞類”), none support 雪"
+        },
+        {
+          "original": "織女佳期又來年",
+          "corrected": "織女佳期又隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 7 books on 识典古籍 read 隔 (e.g. 《全唐詩》第九函第三册卷九, 《唐詩》唐詩卷四百五十八), none support 來"
         }
       ]
     },
@@ -7740,6 +8100,11 @@
           "original": "難移萬雷根",
           "corrected": "難移萬里根",
           "note": "Twin collation: 雷 → 里; the other source (全唐诗) and 7 books on 识典古籍 read 里 (e.g. 《【乾隆】長沙府志》【乾隆】長沙府志卷四十七, 《二妙集》正文), none support 雷"
+        },
+        {
+          "original": "藥債來年還",
+          "corrected": "藥債隔年還",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 8 books on 识典古籍 read 隔 (e.g. 《唐詩類苑》卷九十三, 《唐詩類苑》唐詩類苑卷第九十三), none support 來"
         }
       ]
     },
@@ -8648,6 +9013,11 @@
           "original": "裹發偏宜白麵郎",
           "corrected": "裹髮偏宜白麵郎",
           "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「裹髪偏宜白面郎」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "莫道倡狂似禰衡",
+          "corrected": "莫道猖狂似禰衡",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 8 books on 识典古籍 read 猖 (e.g. 《【乾隆】襄陽府志》襄陽府志卷之三十五, 《全唐詩》第九函第九册卷六), none support 倡"
         }
       ]
     },
@@ -8680,6 +9050,16 @@
           "original": "數行玉劄存心久",
           "corrected": "數行玉札存心久",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.33000.json) reads 「數行玉札存心久」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "得得支公恐來年",
+          "corrected": "得得支公恐隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 4 books on 识典古籍 read 隔 (e.g. 《唐詩類苑》唐詩類苑卷第一百四十八, 《唐音戊籤》戊籤七十二皮日休之六“七言律詩一”), none support 來"
+        },
+        {
+          "original": "逍遙只恐逢雪將",
+          "corrected": "逍遙只恐逢雲將",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 3 books on 识典古籍 read 雲 (e.g. 《御定全唐詩》御定全唐詩卷六百十四“皮日休”, 《松陵集》松陵集卷八), none support 雪"
         }
       ]
     },
@@ -8987,6 +9367,16 @@
           "original": "草邑固應知",
           "corrected": "草色固應知",
           "note": "Twin collation: 邑 → 色; the other source (全唐诗) and 3 books on 识典古籍 read 色 (e.g. 《御定全唐詩》御定全唐詩卷六百二十三“陸龜蒙”, 《新刊古今歲時雜咏》卷三十九), none support 邑"
+        },
+        {
+          "original": "天地人醺酣",
+          "corrected": "天地入醺酣",
+          "note": "Twin collation: 人 → 入; the other source (全唐诗) and 8 books on 识典古籍 read 入 (e.g. 《全唐詩》第九函第十册卷七, 《唐甫里先生文集》唐甫里先生文集卷之四“五言古詩”), none support 人"
+        },
+        {
+          "original": "相違便來年",
+          "corrected": "相違便隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 8 books on 识典古籍 read 隔 (e.g. 《全唐詩》第九函第十册卷七, 《古今圖書集成·神異典》卷二百八十九), none support 來"
         }
       ]
     },
@@ -9067,6 +9457,11 @@
           "original": "亦有春愁鶴發翁",
           "corrected": "亦有春愁鶴髮翁",
           "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.34000.json) reads 「亦有春愁鶴髪翁」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "可能飛上紫雪端",
+          "corrected": "可能飛上紫雲端",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 2 books on 识典古籍 read 雲 (e.g. 《唐甫里先生文集》卷之十一“潤𡖖遣青䭀飯”, 《宋洪魏公進萬首唐人絶句》萬首唐人絶句卷三十三), none support 雪"
         }
       ]
     },
@@ -9202,6 +9597,11 @@
           "original": "須知淡澹聽",
           "corrected": "須知淡泊聽",
           "note": "Twin collation: 澹 → 泊; the other source (全唐诗) and 4 books on 识典古籍 read 泊 (e.g. 《唐音戊籤》戊籤三十九, 《御定全唐詩》御定全唐詩卷六百三十六“聶夷中”), none support 澹"
+        },
+        {
+          "original": "曉人寒銅覺",
+          "corrected": "曉入寒銅覺",
+          "note": "Twin collation: 人 → 入; the other source (全唐诗) and 6 books on 识典古籍 read 入 (e.g. 《唐詩百名家全集》孟東野詩卷三, 《孟東野詩集》孟東野詩集卷三“感興下”), none support 人"
         }
       ]
     },
@@ -9220,6 +9620,11 @@
           "original": "書劄寄何人",
           "corrected": "書札寄何人",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.35000.json) reads 「書札寄何人」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "縣封九華雲",
+          "corrected": "縣對九華雲",
+          "note": "Twin collation: 封 → 對; the other source (全唐诗) and 3 books on 识典古籍 read 對 (e.g. 《古今圖書集成·官常典》欽定古今圖書集成明倫彙編官常典第三千七百八十八卷“縣尉部藝文二詩”, 《唐詩類苑》卷五十一), none support 封"
         }
       ]
     },
@@ -9271,6 +9676,11 @@
           "original": "玉童私地誇書劄",
           "corrected": "玉童私地誇書札",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.35000.json) reads 「玉童私地誇書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "報導麻姑玉蕊開",
+          "corrected": "報道麻姑玉蕊開",
+          "note": "Twin collation: 導 → 道; the other source (全唐诗) and 6 books on 识典古籍 read 道 (e.g. 《唐詩類苑》卷一百五十二, 《唐詩類苑》唐詩類苑卷第一百五十二), none support 導"
         }
       ]
     },
@@ -9281,10 +9691,16 @@
       "fixes": []
     },
     "御定全唐詩/json/643.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "茅齋直拶白雪邊",
+          "corrected": "茅齋直拶白雲邊",
+          "note": "Twin collation: 雪 → 雲; the other source (全唐诗) and 7 books on 识典古籍 read 雲 (e.g. 《唐人百家詩》李山甫詩集卷, 《唐四十四家詩》李山甫詩集), none support 雪"
+        }
+      ]
     },
     "御定全唐詩/json/644.json": {
       "date": "2026-10-06",
@@ -9337,6 +9753,11 @@
           "original": "寒韻落淒淒",
           "corrected": "寒韻或淒淒",
           "note": "Twin collation: 落 → 或; the other source (全唐诗) and 7 books on 识典古籍 read 或 (e.g. 《六藝之一錄》六藝之一録卷三百八錢唐倪濤撰“歷代書論三十八”, 《古今圖書集成·字學典》欽定古今圖書集成理學彙編字學典第八千一百六十五卷“硯部藝文二詩”), none support 落"
+        },
+        {
+          "original": "此際若吟力",
+          "corrected": "此際苦吟力",
+          "note": "Twin collation: 若 → 苦; the other source (全唐诗) and 7 books on 识典古籍 read 苦 (e.g. 《唐人百家詩》唐李推官披沙集卷三, 《唐李推官披沙集》唐李推官披沙集卷第三“贈來進士鵬”), none support 若"
         }
       ]
     },
@@ -9425,6 +9846,11 @@
           "original": "相思有書劄",
           "corrected": "相思有書札",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.36000.json) reads 「相思有書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "穿羅引徑斜",
+          "corrected": "穿蘿引徑斜",
+          "note": "Twin collation: 羅 → 蘿; the other source (全唐诗) and 7 books on 识典古籍 read 蘿 (e.g. 《古唐選屑》卷之二十一, 《唐詩百名家全集》元英先生詩集卷五), none support 羅"
         }
       ]
     },
@@ -9541,6 +9967,11 @@
           "original": "此中槎客亦踟躊",
           "corrected": "此中槎客亦踟躕",
           "note": "Twin collation: 躊 → 躕; the other source (全唐诗) and 6 books on 识典古籍 read 躕 (e.g. 《唐四十四家詩》甲乙集卷第四, 《唐詩類苑》卷九十四), none support 躊"
+        },
+        {
+          "original": "來年違別成何事",
+          "corrected": "隔年違別成何事",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 5 books on 识典古籍 read 隔 (e.g. 《唐人八家詩》甲乙集卷四, 《唐詩類苑》卷一), none support 來"
         }
       ]
     },
@@ -9710,10 +10141,16 @@
       ]
     },
     "御定全唐詩/json/672.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "來年無計待春暉",
+          "corrected": "隔年無計待春暉",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 6 books on 识典古籍 read 隔 (e.g. 《[雍正]山西通志》山西通志卷二百二十六（一）, 《唐人百家詩》鹿門詩拾遺卷), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/673.json": {
       "date": "2026-06-27",
@@ -9970,6 +10407,11 @@
           "original": "為詩我語澀",
           "corrected": "為詩多語澀",
           "note": "Twin collation: 我 → 多; the other source (全唐诗) and 4 books on 识典古籍 read 多 (e.g. 《唐人四集》唐風集正文, 《唐風集》卷上), none support 我"
+        },
+        {
+          "original": "風波亦來年",
+          "corrected": "風波亦隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 3 books on 识典古籍 read 隔 (e.g. 《唐音戊籤》戊籤餘六唐音統籤卷七百五十六“五言律詩一”, 《御定全唐詩》御定全唐詩卷六百九十一“杜荀鶴”), none support 來"
         }
       ]
     },
@@ -10098,6 +10540,16 @@
           "original": "不應雙劍氣，長在鬥牛傍。\"\n    ",
           "corrected": "不應雙劍氣，長在斗牛傍。\"\n    ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "俱是來年人",
+          "corrected": "俱是隔年人",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 4 books on 识典古籍 read 隔 (e.g. 《古今圖書集成·歲功典》欽定古今圖書集成曆象彙編歲功典第九十五卷“除夕部藝文二”, 《才調集》咸陽懷古), none support 來"
+        },
+        {
+          "original": "憑高獨若吟",
+          "corrected": "憑高獨苦吟",
+          "note": "Twin collation: 若 → 苦; the other source (全唐诗) and 5 books on 识典古籍 read 苦 (e.g. 《古今圖書集成·歲功典》欽定古今圖書集成曆象彙編歲功典第七十八卷“重陽部藝文三”, 《古今圖書集成·考工典》欽定古今圖書集成曆象彙編曆法典第九千八百一十九九千八百一十九億卷“館驛部藝文二詩詞”), none support 若"
         }
       ]
     },
@@ -10134,6 +10586,11 @@
           "original": "tle\": \"經範蠡舊居\",\n   ",
           "corrected": "tle\": \"經范蠡舊居\",\n   ",
           "note": "Simplified→traditional conversion error: 範蠡 → 范蠡 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "可是當時少知已",
+          "corrected": "可是當時少知己",
+          "note": "Twin collation: 已 → 己; the other source (全唐诗) and 4 books on 识典古籍 read 己 (e.g. 《唐音戊籤》戊籤餘三十六張𧓍之二唐音統籤卷七百九十“七言絶句”, 《安嶽縣誌》卷七), none support 已"
         }
       ]
     },
@@ -10144,10 +10601,16 @@
       "fixes": []
     },
     "御定全唐詩/json/704.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "萍居恐來年",
+          "corrected": "萍居恐隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 6 books on 识典古籍 read 隔 (e.g. 《[雍正]湖廣通志》湖廣通志卷八十七, 《唐詩類苑》唐詩類苑卷第九十), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/705.json": {
       "date": "2026-06-27",
@@ -10319,6 +10782,11 @@
           "original": "良田本蕪穢",
           "corrected": "良由本蕪穢",
           "note": "Twin collation: 田 → 由; the other source (全唐诗) and 4 books on 识典古籍 read 由 (e.g. 《唐百家詩》苏拯集, 《唐詩》唐詩卷六百四十六), none support 田"
+        },
+        {
+          "original": "無以彰士德",
+          "corrected": "無以彰土德",
+          "note": "Twin collation: 士 → 土; the other source (全唐诗) and 6 books on 识典古籍 read 土 (e.g. 《唐百家詩》卷二十八, 《唐百家詩》苏拯集), none support 士"
         }
       ]
     },
@@ -10335,10 +10803,16 @@
       ]
     },
     "御定全唐詩/json/720.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "帆掛來年秋",
+          "corrected": "帆掛隔年秋",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 6 books on 识典古籍 read 隔 (e.g. 《中晚唐詩紀》卷三十三, 《唐詩》唐詩卷六百), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/721.json": {
       "date": "2026-10-06",
@@ -10690,10 +11164,16 @@
       ]
     },
     "御定全唐詩/json/748.json": {
-      "date": "2026-06-27",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "來年還是動相思",
+          "corrected": "隔年還是動相思",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 6 books on 识典古籍 read 隔 (e.g. 《亳州牡丹史》卷四, 《分門纂類唐歌詩》草木蟲魚類卷三), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/749.json": {
       "date": "2026-06-27",
@@ -14393,6 +14873,26 @@
           "original": "令行令儀",
           "corrected": "令色令儀",
           "note": "Twin collation: 行 → 色; the other source (御定全唐詩) and 3 books on 识典古籍 read 色 (e.g. 《全唐詩目》第三册, 《御製律呂正義後編》卷一百零四), none support 行"
+        },
+        {
+          "original": "咫尺輸光暮",
+          "corrected": "咫尺輪光暮",
+          "note": "Twin collation: 輸 → 輪; the other source (御定全唐詩) and 4 books on 识典古籍 read 輪 (e.g. 《古今圖書集成·歲功典》欽定古今圖書集成曆象彙編歲功典第七十四卷“季秋部藝文二”, 《唐詩類苑》卷十四), none support 輸"
+        },
+        {
+          "original": "路曲迴輸影",
+          "corrected": "路曲迴輪影",
+          "note": "Twin collation: 輸 → 輪; the other source (御定全唐詩) and 3 books on 识典古籍 read 輪 (e.g. 《唐詩紀事》唐詩紀事卷一“太宗”, 《唐詩紀事》唐詩紀事卷第一錢塘洪楩校“高宗”), none support 輸"
+        },
+        {
+          "original": "寒冰澈寶輸",
+          "corrected": "寒冰澈寶輪",
+          "note": "Twin collation: 輸 → 輪; the other source (御定全唐詩) and 5 books on 识典古籍 read 輪 (e.g. 《古今圖書集成·考工典》欽定古今圖書集成曆象彙編曆法典第九千九百七十五九千九百七十五億卷“鏡部藝文二詩詞”, 《唐詩所》卷四十四), none support 輸"
+        },
+        {
+          "original": "作當太微",
+          "corrected": "坐當太微",
+          "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 3 books on 识典古籍 read 坐 (e.g. 《全唐詩目》第三册, 《周詩遺軌》卷八), none support 作"
         }
       ]
     },
@@ -14557,6 +15057,56 @@
           "original": "車架已還宮",
           "corrected": "車駕已還宮",
           "note": "Twin collation: 架 → 駕; the other source (御定全唐詩) and 4 books on 识典古籍 read 駕 (e.g. 《杜工部集》卷十八, 《杜工部集》杜工部集卷之十八“附錄”), none support 架"
+        },
+        {
+          "original": "春宮驗討論",
+          "corrected": "春官驗討論",
+          "note": "Twin collation: 宮 → 官; the other source (御定全唐詩) and 7 books on 识典古籍 read 官 (e.g. 《刻杜少陵先生詩分類集注》刻杜少陵先生詩分類集注卷之八, 《唐詩類苑》卷四十六), none support 宮"
+        },
+        {
+          "original": "對書寄與淚潺湲",
+          "corrected": "封書寄與淚潺湲",
+          "note": "Twin collation: 對 → 封; the other source (御定全唐詩) and 8 books on 识典古籍 read 封 (e.g. 《分門集注杜工部詩》分門集注杜工部詩卷第八, 《唐詩貫珠》唐詩貫珠卷二十六), none support 對"
+        },
+        {
+          "original": "舊宮寧改漢",
+          "corrected": "舊官寧改漢",
+          "note": "Twin collation: 宮 → 官; the other source (御定全唐詩) and 8 books on 识典古籍 read 官 (e.g. 《唐詩類苑》唐詩類苑卷第九十三, 《彭縣誌》卷四十二（一）), none support 宮"
+        },
+        {
+          "original": "鎩翮再聊翩",
+          "corrected": "鎩翮再聯翩",
+          "note": "Twin collation: 聊 → 聯; the other source (御定全唐詩) and 9 books on 识典古籍 read 聯 (e.g. 《分門集注杜工部詩》卷十八, 《刻杜少陵先生詩分類集注》刻杜少陵先生詩分類集注卷之九), none support 聊"
+        },
+        {
+          "original": "猛士寒風飆",
+          "corrected": "猛士塞風飆",
+          "note": "Twin collation: 寒 → 塞; the other source (御定全唐詩) and 6 books on 识典古籍 read 塞 (e.g. 《古今圖書集成·禮儀典》欽定古今圖書集成經濟彙編禮儀典第八千九百一十八卷“弔哭部藝文二詩”, 《古逸叢書二十六種》杜工部草堂詩箋卷二十七), none support 寒"
+        },
+        {
+          "original": "金剎清楓外",
+          "corrected": "金剎青楓外",
+          "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 5 books on 识典古籍 read 青 (e.g. 《杜工部集》杜工部集卷之十七, 《杜甫集》分門集注杜工部詩卷第一“月”), none support 清"
+        },
+        {
+          "original": "冥心苦死灰",
+          "corrected": "冥心若死灰",
+          "note": "Twin collation: 苦 → 若; the other source (御定全唐詩) and 4 books on 识典古籍 read 若 (e.g. 《唐詩所》卷三十九, 《杜工部集》杜工部集卷第四十四“秋日荆南述懷三十韻”), none support 苦"
+        },
+        {
+          "original": "聞道和親人",
+          "corrected": "聞道和親入",
+          "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 4 books on 识典古籍 read 入 (e.g. 《唐李杜詩集》唐李杜詩集卷之十五, 《杜律韻集》杜律韻集卷一), none support 人"
+        },
+        {
+          "original": "爲人蒼梧廟",
+          "corrected": "爲入蒼梧廟",
+          "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 7 books on 识典古籍 read 入 (e.g. 《唐詩所》卷三十六, 《唐詩類苑》卷四十八), none support 人"
+        },
+        {
+          "original": "回首共悲歡",
+          "corrected": "回首共悲歎",
+          "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 2 books on 识典古籍 read 歎 (e.g. 《杜工部集》杜工部集卷第五十“逸詩拾遺”, 《杜甫集》分門集注杜工部詩卷第十二“述懷上”), none support 歡"
         }
       ]
     },
@@ -14759,6 +15309,21 @@
           "original": "三見江臯惠草鮮",
           "corrected": "三見江臯蕙草鮮",
           "note": "Twin collation: 惠 → 蕙; the other source (御定全唐詩) and 4 books on 识典古籍 read 蕙 (e.g. 《唐詩所》卷三十五, 《御定全唐詩》御定全唐詩卷二百四十七“獨孤及”), none support 惠"
+        },
+        {
+          "original": "念君輕世亂",
+          "corrected": "念君經世亂",
+          "note": "Twin collation: 輕 → 經; the other source (御定全唐詩) and 7 books on 识典古籍 read 經 (e.g. 《杜工部集》卷十八, 《杜工部集》杜工部集卷第五十“逸詩拾遺”), none support 輕"
+        },
+        {
+          "original": "竹館煙催瞑",
+          "corrected": "竹館煙催暝",
+          "note": "Twin collation: 瞑 → 暝; the other source (御定全唐詩) and 4 books on 识典古籍 read 暝 (e.g. 《古今圖書集成·宮闈典》欽定古今圖書集成明倫彙編宮闈典第三千零八十六卷“公主駙馬部藝文二詩”, 《唐詩類苑》卷四十四), none support 瞑"
+        },
+        {
+          "original": "欲歡卑棲去",
+          "corrected": "欲歎卑棲去",
+          "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 6 books on 识典古籍 read 歎 (e.g. 《古今圖書集成·家範典》欽定古今圖書集成明倫彙編家範典第四千零五卷“叔姪部藝文二詩詞”, 《唐詩品匯》五言排律卷七), none support 歡"
         }
       ]
     },
@@ -14911,6 +15476,66 @@
           "original": "當從庚中庶",
           "corrected": "當從庾中庶",
           "note": "Twin collation: 庚 → 庾; the other source (御定全唐詩) and 6 books on 识典古籍 read 庾 (e.g. 《唐四十四家詩》耿湋詩集, 《唐詩二十六家》耿湋集卷中), none support 庚"
+        },
+        {
+          "original": "雖在風塵裹",
+          "corrected": "雖在風塵裏",
+          "note": "Twin collation: 裹 → 裏; the other source (御定全唐詩) and 7 books on 识典古籍 read 裏 (e.g. 《二皇甫集》二皇甫集卷三“五言律詩”, 《唐皇甫冉詩集》唐皇甫冉詩集卷之三“五言律詩”), none support 裹"
+        },
+        {
+          "original": "一遇郎陵公",
+          "corrected": "一遇朗陵公",
+          "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 6 books on 识典古籍 read 朗 (e.g. 《唐皇甫冉詩集》唐皇甫冉詩集卷之四“五言排律”, 《唐詩二十六家》皇甫冉集卷中), none support 郎"
+        },
+        {
+          "original": "眠罷梳雪髻",
+          "corrected": "眠罷梳雲髻",
+          "note": "Twin collation: 雪 → 雲; the other source (御定全唐詩) and 4 books on 识典古籍 read 雲 (e.g. 《唐詩攬香集》唐詩攬香集卷六, 《御定全唐詩》御定全唐詩卷二百五十一“劉方平”), none support 雪"
+        },
+        {
+          "original": "遠師賦出車",
+          "corrected": "還師賦出車",
+          "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 2 books on 识典古籍 read 還 (e.g. 《御定全唐詩》御定全唐詩卷二百五十二“劉太真”, 《涇縣誌》卷三十二), none support 遠"
+        },
+        {
+          "original": "遠山自幽獨",
+          "corrected": "還山自幽獨",
+          "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 5 books on 识典古籍 read 還 (e.g. 《唐詩品匯》五言古詩卷十六, 《唐詩紀事》唐詩紀事卷第二十六“閻防”), none support 遠"
+        },
+        {
+          "original": "聊芳十載餘",
+          "corrected": "聯芳十載餘",
+          "note": "Twin collation: 聊 → 聯; the other source (御定全唐詩) and 6 books on 识典古籍 read 聯 (e.g. 《古詩鏡》唐詩鏡卷三十三, 《唐詩品匯》五言排律卷八), none support 聊"
+        },
+        {
+          "original": "日中遠賀之",
+          "corrected": "日中還賀之",
+          "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 6 books on 识典古籍 read 還 (e.g. 《唐詩所》卷四十, 《唐詩紀》盛唐第一百二唐詩紀一百六十二), none support 遠"
+        },
+        {
+          "original": "白雲和難牽",
+          "corrected": "白雪和難牽",
+          "note": "Twin collation: 雲 → 雪; the other source (御定全唐詩) and 8 books on 识典古籍 read 雪 (e.g. 《古今詩删》古今詩删卷十九, 《唐詩品匯》五言排律卷六), none support 雲"
+        },
+        {
+          "original": "縱醉遠須上山去",
+          "corrected": "縱醉還須上山去",
+          "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 8 books on 识典古籍 read 還 (e.g. 《古今圖書集成·山川典》欽定古今圖書集成方輿彙編山川典第二千二百三十三卷“山總部藝文二詩”, 《唐詩二十六家》秦隱君集卷一), none support 遠"
+        },
+        {
+          "original": "羞將舊物遠",
+          "corrected": "羞將舊物還",
+          "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 7 books on 识典古籍 read 還 (e.g. 《古今圖書集成·閨媛典》欽定古今圖書集成明倫彙編閨媛典第五千二百八十二卷“閨恨部藝文三詩”, 《才調集》卷二), none support 遠"
+        },
+        {
+          "original": "作起唯從心",
+          "corrected": "坐起唯從心",
+          "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 4 books on 识典古籍 read 坐 (e.g. 《古今圖書集成·家範典》欽定古今圖書集成明倫彙編家範典第三千九百四十五卷“父子部藝文二詩”, 《御定全唐詩》御定全唐詩卷二百六十四“顧况”), none support 作"
+        },
+        {
+          "original": "畢逋撥刺月銜城",
+          "corrected": "畢逋撥剌月銜城",
+          "note": "Twin collation: 刺 → 剌; the other source (御定全唐詩) and 2 books on 识典古籍 read 剌 (e.g. 《全唐詩鈔》全唐詩鈔補遺卷七, 《唐詩》唐詩卷一百九十三), none support 刺"
         }
       ]
     },
@@ -15028,6 +15653,26 @@
           "original": "未得辭羈旅",
           "corrected": "未得解羈旅",
           "note": "Twin collation: 辭 → 解; the other source (御定全唐詩) and 2 books on 识典古籍 read 解 (e.g. 《唐詩品彙》五言律詩卷之十四“餘響”, 《珊瑚網》珊瑚網卷四“法書題跋”), none support 辭"
+        },
+        {
+          "original": "朱檻人雲看鳥滅",
+          "corrected": "朱檻入雲看鳥滅",
+          "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 4 books on 识典古籍 read 入 (e.g. 《中晚唐詩叩彈集》中晚唐詩叩彈集卷十三, 《唐詩》唐詩卷二百四十八), none support 人"
+        },
+        {
+          "original": "悠然清蓮界",
+          "corrected": "悠然青蓮界",
+          "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 6 books on 识典古籍 read 青 (e.g. 《常州府志》常州府志卷之三十一, 《常郡八邑藝文志》卷九), none support 清"
+        },
+        {
+          "original": "興遠江海上",
+          "corrected": "興還江海上",
+          "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 5 books on 识典古籍 read 還 (e.g. 《唐盧户部詩集》唐盧户部詩集卷第二, 《御定全唐詩》御定全唐詩卷二百七十六“盧綸”), none support 遠"
+        },
+        {
+          "original": "願我覺衰早",
+          "corrected": "顧我覺衰早",
+          "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 4 books on 识典古籍 read 顧 (e.g. 《唐盧户部詩集》唐盧户部詩集卷第三, 《唐詩百名家全集》盧户部詩集卷三), none support 願"
         }
       ]
     },
@@ -15410,6 +16055,71 @@
           "original": "聞道洪何坼",
           "corrected": "聞道洪河坼",
           "note": "Twin collation: 何 → 河; the other source (御定全唐詩) and 6 books on 识典古籍 read 河 (e.g. 《御定全唐詩錄》御定全唐詩録卷三十一, 《杜工部詩集注解》讀書堂杜工部詩集注解卷之一), none support 何"
+        },
+        {
+          "original": "靜然本諸已",
+          "corrected": "靜然本諸己",
+          "note": "Twin collation: 已 → 己; the other source (御定全唐詩) and 4 books on 识典古籍 read 己 (e.g. 《唐詩類苑》唐詩類苑卷第五十, 《永樂大典》永樂大典卷之一萬一千【六姥】“府”), none support 已"
+        },
+        {
+          "original": "清冥信難致",
+          "corrected": "青冥信難致",
+          "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 5 books on 识典古籍 read 青 (e.g. 《[乾隆]西寧府新志》卷四十一, 《[雍正]甘肅通志》卷五十五), none support 清"
+        },
+        {
+          "original": "王命宮屬休",
+          "corrected": "王命官屬休",
+          "note": "Twin collation: 宮 → 官; the other source (御定全唐詩) and 9 books on 识典古籍 read 官 (e.g. 《御定全唐詩》御定全唐詩卷二百十六“杜甫”, 《御定全唐詩錄》御定全唐詩錄卷二十四), none support 宮"
+        },
+        {
+          "original": "頗覺聰明人",
+          "corrected": "頗覺聰明入",
+          "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 2 books on 识典古籍 read 入 (e.g. 《集千家注杜工部詩集》集千家注杜工部詩集卷四, 《黃氏補千家注紀年杜工部詩史》卷六), none support 人"
+        },
+        {
+          "original": "聊坳各盡墨",
+          "corrected": "聯坳各盡墨",
+          "note": "Twin collation: 聊 → 聯; the other source (御定全唐詩) and 2 books on 识典古籍 read 聯 (e.g. 《杜工部詩集》詩集卷十二, 《錦繡萬花谷》錦繡萬花谷後集卷二十九“奇怪”), none support 聊"
+        },
+        {
+          "original": "擁寒敗芝蘭",
+          "corrected": "擁塞敗芝蘭",
+          "note": "Twin collation: 寒 → 塞; the other source (御定全唐詩) and 9 books on 识典古籍 read 塞 (e.g. 《分門集注杜工部詩》卷十六, 《十八家詩鈔》卷八), none support 寒"
+        },
+        {
+          "original": "漢宮威儀重昭洗",
+          "corrected": "漢官威儀重昭洗",
+          "note": "Twin collation: 宮 → 官; the other source (御定全唐詩) and 9 books on 识典古籍 read 官 (e.g. 《分門集注杜工部詩》卷九, 《唐李杜詩集》唐李杜詩集卷之十二), none support 宮"
+        },
+        {
+          "original": "即親亦有故",
+          "corrected": "既親亦有故",
+          "note": "Twin collation: 即 → 既; the other source (御定全唐詩) and 7 books on 识典古籍 read 既 (e.g. 《分門集注杜工部詩》卷二十, 《文苑英華》二百六十九), none support 即"
+        },
+        {
+          "original": "願於韓蔡內",
+          "corrected": "顧於韓蔡內",
+          "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 4 books on 识典古籍 read 顧 (e.g. 《分隸偶存》分隸偶存卷下, 《御定佩文齋書畫譜》御定佩文齋書畫譜卷二十七“書家傳六”), none support 願"
+        },
+        {
+          "original": "童丱聊居諸",
+          "corrected": "童丱聯居諸",
+          "note": "Twin collation: 聊 → 聯; the other source (御定全唐詩) and 3 books on 识典古籍 read 聯 (e.g. 《杜工部集》杜工部集卷之八, 《杜工部集》杜工部集卷之八“古詩四十五首”), none support 聊"
+        },
+        {
+          "original": "己是安蒼黃",
+          "corrected": "已是安蒼黃",
+          "note": "Twin collation: 己 → 已; the other source (御定全唐詩) and 3 books on 识典古籍 read 已 (e.g. 《杜甫集》分門集注杜工部詩卷第十一“紀行 ”, 《杜詩分類全集》杜詩分類全集卷之一“五言古”), none support 己"
+        },
+        {
+          "original": "能吏逢聊璧",
+          "corrected": "能吏逢聯璧",
+          "note": "Twin collation: 聊 → 聯; the other source (御定全唐詩) and 8 books on 识典古籍 read 聯 (e.g. 《十八家詩鈔》十八家詩鈔卷十八, 《古逸叢書二十六種》杜工部草堂詩箋卷一), none support 聊"
+        },
+        {
+          "original": "清天矢萬艘",
+          "corrected": "青天矢萬艘",
+          "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 4 books on 识典古籍 read 青 (e.g. 《古逸叢書二十六種》杜工部草堂詩箋卷一, 《唐人五言排律選》唐人五言排律選卷六), none support 清"
         }
       ]
     },
@@ -15585,6 +16295,41 @@
           "original": "在家相見熱",
           "corrected": "在家相見熟",
           "note": "Twin collation: 熱 → 熟; the other source (御定全唐詩) and 7 books on 识典古籍 read 熟 (e.g. 《唐音》卷二下, 《唐音》唐音卷三元楊士弘撰), none support 熱"
+        },
+        {
+          "original": "怯對圓光裹",
+          "corrected": "怯對圓光裏",
+          "note": "Twin collation: 裹 → 裏; the other source (御定全唐詩) and 3 books on 识典古籍 read 裏 (e.g. 《唐詩類苑》卷八, 《文苑英華》一百八十六), none support 裹"
+        },
+        {
+          "original": "遊魚不過粱",
+          "corrected": "遊魚不過梁",
+          "note": "Twin collation: 粱 → 梁; the other source (御定全唐詩) and 2 books on 识典古籍 read 梁 (e.g. 《全唐詩鈔》卷四十八, 《唐百家詩》卷十四), none support 粱"
+        },
+        {
+          "original": "願我非工飲",
+          "corrected": "顧我非工飲",
+          "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 4 books on 识典古籍 read 顧 (e.g. 《唐百家詩》卷十四, 《唐詩類苑》卷一百三), none support 願"
+        },
+        {
+          "original": "水靜綺蘿香",
+          "corrected": "水靜綺羅香",
+          "note": "Twin collation: 蘿 → 羅; the other source (御定全唐詩) and 5 books on 识典古籍 read 羅 (e.g. 《古詩鏡》唐詩鏡卷三十三, 《唐詩品彙》唐詩品彙卷七十八“送歸中丞使新羅”), none support 蘿"
+        },
+        {
+          "original": "白髮常同歡",
+          "corrected": "白髮常同歎",
+          "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 5 books on 识典古籍 read 歎 (e.g. 《唐詩品彙》五言排律卷之八“接武中”, 《唐詩品彙》唐詩品彙卷七十八“送歸中丞使新羅”), none support 歡"
+        },
+        {
+          "original": "清冷玉澗泣",
+          "corrected": "清泠玉澗泣",
+          "note": "Twin collation: 冷 → 泠; the other source (御定全唐詩) and 5 books on 识典古籍 read 泠 (e.g. 《唐人六集》卷二十五, 《唐人百家詩》王建詩集卷四), none support 冷"
+        },
+        {
+          "original": "自願音韻乖",
+          "corrected": "自顧音韻乖",
+          "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 8 books on 识典古籍 read 顧 (e.g. 《唐人六集》王建詩卷一, 《唐人百家詩》王建詩集卷四), none support 願"
         }
       ]
     },
@@ -15632,6 +16377,36 @@
           "original": "魚水千里運",
           "corrected": "魚水千年運",
           "note": "Twin collation: 里 → 年; the other source (御定全唐詩) and 6 books on 识典古籍 read 年 (e.g. 《唐詩二十六家》武元衡集卷上, 《唐詩百名家全集》臨淮詩集卷二), none support 里"
+        },
+        {
+          "original": "色輕寒不動",
+          "corrected": "色經寒不動",
+          "note": "Twin collation: 輕 → 經; the other source (御定全唐詩) and 6 books on 识典古籍 read 經 (e.g. 《唐百家詩選》唐百家詩選卷十三“王建下六十八首”, 《御定全唐詩錄》御定全唐詩錄卷第五十五“王建”), none support 輕"
+        },
+        {
+          "original": "玉闕仙宮少此才",
+          "corrected": "玉闕仙官少此才",
+          "note": "Twin collation: 宮 → 官; the other source (御定全唐詩) and 5 books on 识典古籍 read 官 (e.g. 《唐人六集》王建詩卷五, 《唐詩百名家全集》王建詩集卷八), none support 宮"
+        },
+        {
+          "original": "與別諸候總不同",
+          "corrected": "與別諸侯總不同",
+          "note": "Twin collation: 候 → 侯; the other source (御定全唐詩) and 4 books on 识典古籍 read 侯 (e.g. 《御定全唐詩》御定全唐詩卷三百一“王建”, 《御定全唐詩錄》御定全唐詩錄卷五十六), none support 候"
+        },
+        {
+          "original": "初行竹裹唯通馬",
+          "corrected": "初行竹裏唯通馬",
+          "note": "Twin collation: 裹 → 裏; the other source (御定全唐詩) and 3 books on 识典古籍 read 裏 (e.g. 《古今圖書集成·考工典》欽定古今圖書集成曆象彙編曆法典第九千八百三十三九千八百三十三億卷“堂部藝文三詩詞”, 《唐詩類苑》卷一百六十二), none support 裹"
+        },
+        {
+          "original": "真興得津粱",
+          "corrected": "真興得津梁",
+          "note": "Twin collation: 粱 → 梁; the other source (御定全唐詩) and 4 books on 识典古籍 read 梁 (e.g. 《[雍正]浙江通志》浙江通志卷二百七十一, 《御定全唐詩》御定全唐詩卷三百十二“劉迥”), none support 粱"
+        },
+        {
+          "original": "留此示津粱",
+          "corrected": "留此示津梁",
+          "note": "Twin collation: 粱 → 梁; the other source (御定全唐詩) and 3 books on 识典古籍 read 梁 (e.g. 《御定全唐詩》御定全唐詩卷三百十二“劉迥”, 《敕修浙江通志》敕修浙江通志卷二百七十一), none support 粱"
         }
       ]
     },
@@ -15744,6 +16519,21 @@
           "original": "勤來得唔語",
           "corrected": "勤來得晤語",
           "note": "Twin collation: 唔 → 晤; the other source (御定全唐詩) and 5 books on 识典古籍 read 晤 (e.g. 《唐詩》唐詩卷二百七十三, 《唐韓昌黎集》唐韓昌黎集卷第二“古詩”), none support 唔"
+        },
+        {
+          "original": "率士蒙景福",
+          "corrected": "率土蒙景福",
+          "note": "Twin collation: 士 → 土; the other source (御定全唐詩) and 4 books on 识典古籍 read 土 (e.g. 《唐詩》唐詩卷二百三十四, 《御定全唐詩》御定全唐詩卷三百二十五“權德輿”), none support 士"
+        },
+        {
+          "original": "願謂汝童子",
+          "corrected": "顧謂汝童子",
+          "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 5 books on 识典古籍 read 顧 (e.g. 《别本韓文考異》别本韓文考異卷一“賦”, 《唐詩歸》唐詩歸卷之二十九), none support 願"
+        },
+        {
+          "original": "顧我却興歡",
+          "corrected": "顧我却興歎",
+          "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 6 books on 识典古籍 read 歎 (e.g. 《五百家注音辯昌黎先生文集》卷二, 《御定全唐詩錄》御定全唐詩錄卷第四十六“韓愈”), none support 歡"
         }
       ]
     },
@@ -15961,6 +16751,36 @@
           "original": "故譴髻鬟斜",
           "corrected": "故遣髻鬟斜",
           "note": "Twin collation: 譴 → 遣; the other source (御定全唐詩) and 9 books on 识典古籍 read 遣 (e.g. 《中晚唐詩》卷二, 《劉夢得文集》劉夢得外集卷第二“詩”), none support 譴"
+        },
+        {
+          "original": "冷然三尺別生風",
+          "corrected": "泠然三尺別生風",
+          "note": "Twin collation: 冷 → 泠; the other source (御定全唐詩) and 4 books on 识典古籍 read 泠 (e.g. 《中晚唐詩》卷三十六, 《中晚唐詩紀》卷十四), none support 冷"
+        },
+        {
+          "original": "清冷焚衆香",
+          "corrected": "清泠焚衆香",
+          "note": "Twin collation: 冷 → 泠; the other source (御定全唐詩) and 4 books on 识典古籍 read 泠 (e.g. 《增廣注釋音辯唐柳先生集》增廣注釋音辯唐柳先生集卷之四十三“古今詩”, 《增廣注釋音辯唐柳先生集》增廣注釋音辯唐柳先生集卷四十三), none support 冷"
+        },
+        {
+          "original": "誰願蠢蠕羣",
+          "corrected": "誰顧蠢蠕羣",
+          "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 7 books on 识典古籍 read 顧 (e.g. 《唐柳河東集》唐柳河東集卷第四十三“詩”, 《唐詩類苑》卷六十七), none support 願"
+        },
+        {
+          "original": "必在審已明",
+          "corrected": "必在審己明",
+          "note": "Twin collation: 已 → 己; the other source (御定全唐詩) and 2 books on 识典古籍 read 己 (e.g. 《劉夢得文集》劉夢得文集卷第六“送别詩”, 《御定全唐詩錄》御定全唐詩錄卷第三十八“劉禹錫”), none support 已"
+        },
+        {
+          "original": "白晝曛陽鳥",
+          "corrected": "白晝曛陽烏",
+          "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 4 books on 识典古籍 read 烏 (e.g. 《古今事文類聚》古今事文類聚續集卷十八“燈火部”, 《古今圖書集成·庶徵典》卷四百八十七（一）), none support 鳥"
+        },
+        {
+          "original": "郎吟孤憤平",
+          "corrected": "朗吟孤憤平",
+          "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 5 books on 识典古籍 read 朗 (e.g. 《劉夢得文集》劉夢得文集卷第一“古詩”, 《唐詩品彙》五言古詩卷之十九“接武”), none support 郎"
         }
       ]
     },
@@ -16128,6 +16948,26 @@
           "original": "虛護我何飽",
           "corrected": "虛獲我何飽",
           "note": "Twin collation: 護 → 獲; the other source (御定全唐詩) and 5 books on 识典古籍 read 獲 (e.g. 《五唐人詩集》孟東野集卷四, 《古今圖書集成·山川典》欽定古今圖書集成方輿彙編山川典第二千二百八十八卷“嵩山部藝文三詩”), none support 護"
+        },
+        {
+          "original": "初自寒垣銜苜蓿",
+          "corrected": "初自塞垣銜苜蓿",
+          "note": "Twin collation: 寒 → 塞; the other source (御定全唐詩) and 4 books on 识典古籍 read 塞 (e.g. 《劉夢得文集》劉夢得外集卷第六“律詩”, 《御定佩文齋咏物詩選》御定佩文齋咏物詩選卷四百五“馬類”), none support 寒"
+        },
+        {
+          "original": "領袖映千宮",
+          "corrected": "領袖映千官",
+          "note": "Twin collation: 宮 → 官; the other source (御定全唐詩) and 5 books on 识典古籍 read 官 (e.g. 《呂衡州文集》卷一, 《唐人百家詩》呂衡州詩集卷一), none support 宮"
+        },
+        {
+          "original": "樵採爲侵征虜墓",
+          "corrected": "樵採未侵征虜墓",
+          "note": "Twin collation: 爲 → 未; the other source (御定全唐詩) and 5 books on 识典古籍 read 未 (e.g. 《唐呂和叔文集》吕和叔文集卷第二“詩”, 《唐詩類苑》唐詩類苑卷第二十四), none support 爲"
+        },
+        {
+          "original": "永矣白雪適",
+          "corrected": "永矣白雲適",
+          "note": "Twin collation: 雪 → 雲; the other source (御定全唐詩) and 5 books on 识典古籍 read 雲 (e.g. 《五唐人詩集》孟東野集卷四, 《唐詩百名家全集》孟東野詩卷四), none support 雪"
         }
       ]
     },
@@ -16205,6 +17045,21 @@
           "original": "羞將開口論勳",
           "corrected": "羞將開閣論勳",
           "note": "Twin collation: 口 → 閣; the other source (御定全唐詩) and 3 books on 识典古籍 read 閣 (e.g. 《二張集》張燕公集卷二, 《古今圖書集成·戎政典》卷六十三), none support 口"
+        },
+        {
+          "original": "山瞑行人斷",
+          "corrected": "山暝行人斷",
+          "note": "Twin collation: 瞑 → 暝; the other source (御定全唐詩) and 4 books on 识典古籍 read 暝 (e.g. 《前唐十二家詩》盧照隣集卷下“五言絶句”, 《唐詩類苑》卷一百十), none support 瞑"
+        },
+        {
+          "original": "鳥弓望曉驚",
+          "corrected": "烏弓望曉驚",
+          "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 6 books on 识典古籍 read 烏 (e.g. 《全唐詩目》第九册, 《古今圖書集成·山川典》欽定古今圖書集成方輿彙編山川典第二千二百四十八卷“泰山部藝文六詩”), none support 鳥"
+        },
+        {
+          "original": "盤庚遷美士",
+          "corrected": "盤庚遷美土",
+          "note": "Twin collation: 士 → 土; the other source (御定全唐詩) and 6 books on 识典古籍 read 土 (e.g. 《全唐詩目》第九册, 《御定全唐詩》御定全唐詩卷四十五“杜易簡”), none support 士"
         }
       ]
     },
@@ -16277,6 +17132,26 @@
           "original": "蒼芩竦秋門",
           "corrected": "蒼岑竦秋門",
           "note": "Twin collation: 芩 → 岑; the other source (御定全唐詩) and 7 books on 识典古籍 read 岑 (e.g. 《唐詩類苑》唐詩類苑卷第一百十五, 《御定全唐詩》御定全唐詩卷三百九十二“李賀”), none support 芩"
+        },
+        {
+          "original": "冠豸獨屈蠖",
+          "corrected": "冠豸猶屈蠖",
+          "note": "Twin collation: 獨 → 猶; the other source (御定全唐詩) and 4 books on 识典古籍 read 猶 (e.g. 《五唐人詩集》孟東野集卷七, 《五唐人詩集》東野集卷七), none support 獨"
+        },
+        {
+          "original": "夫妻獨相瘡",
+          "corrected": "夫妻猶相瘡",
+          "note": "Twin collation: 獨 → 猶; the other source (御定全唐詩) and 6 books on 识典古籍 read 猶 (e.g. 《五唐人詩集》孟東野集卷九, 《五唐人詩集》東野集卷九), none support 獨"
+        },
+        {
+          "original": "可鄰光影最團圓",
+          "corrected": "可憐光影最團圓",
+          "note": "Twin collation: 鄰 → 憐; the other source (御定全唐詩) and 8 books on 识典古籍 read 憐 (e.g. 《中晚唐詩》卷二十八, 《中晚唐詩紀》卷一), none support 鄰"
+        },
+        {
+          "original": "宮入正靨黃",
+          "corrected": "宮人正靨黃",
+          "note": "Twin collation: 入 → 人; the other source (御定全唐詩) and 6 books on 识典古籍 read 人 (e.g. 《唐李長吉詩集》卷一, 《李賀歌詩編》歌詩編第一“同沈駙馬賦得御溝水”), none support 入"
         }
       ]
     },
@@ -16399,6 +17274,41 @@
           "original": "繞廊柴藤架",
           "corrected": "繞廊紫藤架",
           "note": "Twin collation: 柴 → 紫; the other source (御定全唐詩) and 7 books on 识典古籍 read 紫 (e.g. 《唐文粹》唐文粹卷十六下“詩癸”, 《唐詩類苑》唐詩類苑卷第一百二十七), none support 柴"
+        },
+        {
+          "original": "號呼鄰穀帛",
+          "corrected": "號呼憐穀帛",
+          "note": "Twin collation: 鄰 → 憐; the other source (御定全唐詩) and 2 books on 识典古籍 read 憐 (e.g. 《元氏長慶集》元氏長慶集卷三, 《元氏長慶集》元氏長慶集卷第三“茅舍”), none support 鄰"
+        },
+        {
+          "original": "長歌莫長歡",
+          "corrected": "長歌莫長歎",
+          "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 4 books on 识典古籍 read 歎 (e.g. 《元氏長慶集》元氏長慶集卷八“古體詩”, 《元氏長慶集》元氏長慶集卷第八“古體詩”), none support 歡"
+        },
+        {
+          "original": "華光獨冉冉",
+          "corrected": "華光猶冉冉",
+          "note": "Twin collation: 獨 → 猶; the other source (御定全唐詩) and 3 books on 识典古籍 read 猶 (e.g. 《西廂定本》卷首, 《西廂記》附錄), none support 獨"
+        },
+        {
+          "original": "兼亦狎鳥鳶",
+          "corrected": "兼亦狎烏鳶",
+          "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 7 books on 识典古籍 read 烏 (e.g. 《唐詩類苑》唐詩類苑卷第一百九十六, 《御定全唐詩錄》御定全唐詩錄卷第五十八“白居易”), none support 鳥"
+        },
+        {
+          "original": "長安多王候",
+          "corrected": "長安多王侯",
+          "note": "Twin collation: 候 → 侯; the other source (御定全唐詩) and 4 books on 识典古籍 read 侯 (e.g. 《唐詩類苑》卷一百二十一, 《白居易集》白氏文集卷第二“諷諭二”), none support 候"
+        },
+        {
+          "original": "良人近封候",
+          "corrected": "良人近封侯",
+          "note": "Twin collation: 候 → 侯; the other source (御定全唐詩) and 5 books on 识典古籍 read 侯 (e.g. 《唐文粹》文粹卷第十四上古調五“續古詩十首”, 《白居易集》白氏文集卷第二“諷諭二”), none support 候"
+        },
+        {
+          "original": "朱紫盡公候",
+          "corrected": "朱紫盡公侯",
+          "note": "Twin collation: 候 → 侯; the other source (御定全唐詩) and 2 books on 识典古籍 read 侯 (e.g. 《文粹》卷十九, 《文粹》卷十六下), none support 候"
         }
       ]
     },
@@ -16506,6 +17416,46 @@
           "original": "遠謫江州爲郡史",
           "corrected": "遠謫江州爲郡吏",
           "note": "Twin collation: 史 → 吏; the other source (御定全唐詩) and 3 books on 识典古籍 read 吏 (e.g. 《唐詩類苑》卷一百二十九, 《白居易集》白氏文集卷第十六“謫居”), none support 史"
+        },
+        {
+          "original": "慈鳥爾奚爲",
+          "corrected": "慈烏爾奚爲",
+          "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 8 books on 识典古籍 read 烏 (e.g. 《唐詩類苑》卷九十八, 《唐詩類苑》唐詩類苑卷第九十八), none support 鳥"
+        },
+        {
+          "original": "亦佐東諸候",
+          "corrected": "亦佐東諸侯",
+          "note": "Twin collation: 候 → 侯; the other source (御定全唐詩) and 4 books on 识典古籍 read 侯 (e.g. 《唐詩類苑》卷九十六, 《文苑英華》文苑英華卷二百五十八宋李昉等編“分司東都蒙襄陽李司徒相公書問因以奉寄”), none support 候"
+        },
+        {
+          "original": "就暖前檐作",
+          "corrected": "就暖前檐坐",
+          "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 4 books on 识典古籍 read 坐 (e.g. 《唐詩類苑》卷十一, 《唐詩類苑》唐詩類苑卷第十一), none support 作"
+        },
+        {
+          "original": "今朝日陽裹",
+          "corrected": "今朝日陽裏",
+          "note": "Twin collation: 裹 → 裏; the other source (御定全唐詩) and 4 books on 识典古籍 read 裏 (e.g. 《古今圖書集成·人事典》欽定古今圖書集成明倫彙編人事典第四千八百一十四卷“髮部藝文二詩”, 《御定全唐詩錄》御定全唐詩錄卷第六十“白居易”), none support 裹"
+        },
+        {
+          "original": "草木猶爲傷",
+          "corrected": "草木猶未傷",
+          "note": "Twin collation: 爲 → 未; the other source (御定全唐詩) and 5 books on 识典古籍 read 未 (e.g. 《御定全唐詩》御定全唐詩卷四百三十三“白居易”, 《白居易集》白氏文集卷第十“又一首”), none support 爲"
+        },
+        {
+          "original": "愁人鬢蹉跎",
+          "corrected": "愁入鬢蹉跎",
+          "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 6 books on 识典古籍 read 入 (e.g. 《唐詩類苑》卷七十九, 《御定全唐詩》御定全唐詩卷四百三十七“白居易”), none support 人"
+        },
+        {
+          "original": "貧室如懸磐",
+          "corrected": "貧室如懸磬",
+          "note": "Twin collation: 磐 → 磬; the other source (御定全唐詩) and 7 books on 识典古籍 read 磬 (e.g. 《全唐詩目》第四册（一）, 《御定全唐詩錄》御定全唐詩錄卷第六十三“白居易”), none support 磐"
+        },
+        {
+          "original": "寵辱斯須自不如",
+          "corrected": "寵辱斯須自不知",
+          "note": "Twin collation: 如 → 知; the other source (御定全唐詩) and 3 books on 识典古籍 read 知 (e.g. 《白居易集》白氏文集卷第十七“自題”, 《白氏長慶集》卷十七), none support 如"
         }
       ]
     },
@@ -16598,6 +17548,11 @@
           "original": "猶富強健時",
           "corrected": "猶當強健時",
           "note": "Twin collation: 富 → 當; the other source (御定全唐詩) and 4 books on 识典古籍 read 當 (e.g. 《白居易集》白氏文集卷第五十八“六十拜河南尹”, 《白氏長慶集》白氏長慶集卷第二十八), none support 富"
+        },
+        {
+          "original": "詠歡偶成詩",
+          "corrected": "詠歎偶成詩",
+          "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 7 books on 识典古籍 read 歎 (e.g. 《唐詩類苑》唐詩類苑卷第二十九“山部”, 《文苑英華》文苑英華卷二百二十七宋李昉等編“早冬遊至王屋自靈都抵陽臺上方望天壇偶”), none support 歡"
         }
       ]
     },
@@ -16732,6 +17687,36 @@
           "original": "五更三老待白日",
           "corrected": "五更三老侍白日",
           "note": "Twin collation: 待 → 侍; the other source (御定全唐詩) and 4 books on 识典古籍 read 侍 (e.g. 《唐人六集》卷十三, 《唐人六集》鮑溶詩卷二), none support 待"
+        },
+        {
+          "original": "海日爲分明",
+          "corrected": "海日未分明",
+          "note": "Twin collation: 爲 → 未; the other source (御定全唐詩) and 3 books on 识典古籍 read 未 (e.g. 《全唐詩目》第八册, 《唐詩紀事》唐詩紀事卷五十“封敖”), none support 爲"
+        },
+        {
+          "original": "聞輕醉象調",
+          "corrected": "聞經醉象調",
+          "note": "Twin collation: 輕 → 經; the other source (御定全唐詩) and 7 books on 识典古籍 read 經 (e.g. 《唐人百家詩》李衡公詩集卷一, 《唐詩》唐詩卷二百六十七), none support 輕"
+        },
+        {
+          "original": "龍樹雙輕海藏中",
+          "corrected": "龍樹雙經海藏中",
+          "note": "Twin collation: 輕 → 經; the other source (御定全唐詩) and 5 books on 识典古籍 read 經 (e.g. 《御定全唐詩》御定全唐詩卷四百七十五“李德裕”, 《會昌一品集》李衛公别集卷三“詩上并唱和酬答三十六首”), none support 輕"
+        },
+        {
+          "original": "直己憑蒼昊",
+          "corrected": "直已憑蒼昊",
+          "note": "Twin collation: 己 → 已; the other source (御定全唐詩) and 2 books on 识典古籍 read 已 (e.g. 《[康熙]無錫縣誌》卷三十三, 《御定全唐詩錄》御定全唐詩錄卷六十九), none support 己"
+        },
+        {
+          "original": "垂休翼厚生",
+          "corrected": "垂休冀厚生",
+          "note": "Twin collation: 翼 → 冀; the other source (御定全唐詩) and 9 books on 识典古籍 read 冀 (e.g. 《五唐人詩集》追昔遊集卷中, 《唐人百家詩》追昔遊詩集卷中), none support 翼"
+        },
+        {
+          "original": "迷路喜爲遠",
+          "corrected": "迷路喜未遠",
+          "note": "Twin collation: 爲 → 未; the other source (御定全唐詩) and 6 books on 识典古籍 read 未 (e.g. 《中晚唐詩》卷二十五, 《中晚唐詩紀》卷四十一), none support 爲"
         }
       ]
     },
@@ -16809,6 +17794,11 @@
           "original": "若柳嚲和風",
           "corrected": "弱柳嚲和風",
           "note": "Twin collation: 若 → 弱; the other source (御定全唐詩) and 3 books on 识典古籍 read 弱 (e.g. 《唐人百家詩》姚少監詩集卷八, 《姚少監詩集》姚少監詩集卷第八“游覽宴集五十首”), none support 若"
+        },
+        {
+          "original": "龜魚即絕跡",
+          "corrected": "龜魚既絕跡",
+          "note": "Twin collation: 即 → 既; the other source (御定全唐詩) and 4 books on 识典古籍 read 既 (e.g. 《唐詩紀事》唐詩紀事卷四十三“竇參”, 《唐詩紀事》唐詩紀事卷第四十三“舒元輿”), none support 即"
         }
       ]
     },
@@ -17008,6 +17998,46 @@
           "original": "淚欲溢爲榮",
           "corrected": "淚欲溢爲滎",
           "note": "Twin collation: 榮 → 滎; the other source (御定全唐詩) and 6 books on 识典古籍 read 滎 (e.g. 《唐李義山詩集》卷四, 《唐音戊籤》戊籤二李商隱之五“五言排律一”), none support 榮"
+        },
+        {
+          "original": "蘿薦誰教近",
+          "corrected": "羅薦誰教近",
+          "note": "Twin collation: 蘿 → 羅; the other source (御定全唐詩) and 4 books on 识典古籍 read 羅 (e.g. 《唐音戊籤》戊籤二李商隱之九“五言絶句”, 《御定佩文齋咏物詩選》御定佩文齋咏物詩選卷六“風類”), none support 蘿"
+        },
+        {
+          "original": "十三身襲富平候",
+          "corrected": "十三身襲富平侯",
+          "note": "Twin collation: 候 → 侯; the other source (御定全唐詩) and 2 books on 识典古籍 read 侯 (e.g. 《唐詩品彙》唐詩品彙卷八十八“籌筆驛”, 《李義山詩集》唐李義山詩集卷之五“七言律詩”), none support 候"
+        },
+        {
+          "original": "雕龍心己切",
+          "corrected": "雕龍心已切",
+          "note": "Twin collation: 己 → 已; the other source (御定全唐詩) and 2 books on 识典古籍 read 已 (e.g. 《李商隱詩集》李商隱詩集卷六, 《李義山集》卷下), none support 己"
+        },
+        {
+          "original": "徵人司陶鈞",
+          "corrected": "徵入司陶鈞",
+          "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 2 books on 识典古籍 read 入 (e.g. 《唐三家集》唐三家集卷一, 《玉谿生詩詳注》卷之一), none support 人"
+        },
+        {
+          "original": "鳥驚始獨棲",
+          "corrected": "烏驚始獨棲",
+          "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 4 books on 识典古籍 read 烏 (e.g. 《唐詩類苑》唐詩類苑卷第四“天部”, 《唐音戊籤》戊籤二李商隱之五“五言排律一”), none support 鳥"
+        },
+        {
+          "original": "月輸移枍詣",
+          "corrected": "月輪移枍詣",
+          "note": "Twin collation: 輸 → 輪; the other source (御定全唐詩) and 7 books on 识典古籍 read 輪 (e.g. 《唐詩》唐詩卷四百六十六, 《唐詩類苑》卷四十三), none support 輸"
+        },
+        {
+          "original": "獨繫孤舟寒草西",
+          "corrected": "猶繫孤舟寒草西",
+          "note": "Twin collation: 獨 → 猶; the other source (御定全唐詩) and 3 books on 识典古籍 read 猶 (e.g. 《唐音戊籤》戊籤十一, 《石倉歷代詩選》石倉歷代詩選卷一百二十三), none support 獨"
+        },
+        {
+          "original": "何物比清冷",
+          "corrected": "何物比清泠",
+          "note": "Twin collation: 冷 → 泠; the other source (御定全唐詩) and 4 books on 识典古籍 read 泠 (e.g. 《唐四十四家詩》喻凫詩集, 《唐詩》唐詩卷四百四十), none support 冷"
         }
       ]
     },
@@ -17100,6 +18130,16 @@
           "original": "曹木春更悲",
           "corrected": "草木春更悲",
           "note": "Twin collation: 曹 → 草; the other source (御定全唐詩) and 5 books on 识典古籍 read 草 (e.g. 《唐詩》唐詩卷二十八, 《唐詩類苑》卷三), none support 曹"
+        },
+        {
+          "original": "芝焚空歡息",
+          "corrected": "芝焚空歎息",
+          "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 6 books on 识典古籍 read 歎 (e.g. 《唐詩所》卷三十三, 《唐詩紀》初唐第九唐詩紀九), none support 歡"
+        },
+        {
+          "original": "終翼作良臣",
+          "corrected": "終冀作良臣",
+          "note": "Twin collation: 翼 → 冀; the other source (御定全唐詩) and 4 books on 识典古籍 read 冀 (e.g. 《古今圖書集成·經籍典》欽定古今圖書集成理學彙編經籍典第七千三百六十五卷“史學部藝文二詩”, 《唐詩類苑》卷六十七), none support 翼"
         }
       ]
     },
@@ -17197,6 +18237,11 @@
           "original": "舊葉雲千里",
           "corrected": "舊業雲千里",
           "note": "Twin collation: 葉 → 業; the other source (御定全唐詩) and 2 books on 识典古籍 read 業 (e.g. 《唐百家詩選》唐百家詩選卷十八“李郢十八首”, 《文苑英華》文苑英華卷二百二十四宋李昉等編“冬日送僧歸呉中舊居薛能”), none support 葉"
+        },
+        {
+          "original": "馬足車輸在處通",
+          "corrected": "馬足車輪在處通",
+          "note": "Twin collation: 輸 → 輪; the other source (御定全唐詩) and 4 books on 识典古籍 read 輪 (e.g. 《唐詩英華》唐詩英華卷十三, 《唐詩鼓吹》唐詩鼓吹卷二“元郝天挺注”), none support 輸"
         }
       ]
     },
@@ -17234,6 +18279,16 @@
           "original": "閑砧坐當林",
           "corrected": "閑砧坐當床",
           "note": "Twin collation: 林 → 床; the other source (御定全唐詩) and 6 books on 识典古籍 read 床 (e.g. 《全唐詩》第九函第四册卷三, 《唐人八家詩》長江集卷七), none support 林"
+        },
+        {
+          "original": "無處不知粱廣名",
+          "corrected": "無處不知梁廣名",
+          "note": "Twin collation: 粱 → 梁; the other source (御定全唐詩) and 4 books on 识典古籍 read 梁 (e.g. 《唐人八家詩》李文山詩集卷下, 《唐音戊籤》戊籤六李群玉之四“七言絶句”), none support 粱"
+        },
+        {
+          "original": "前日獨拘束",
+          "corrected": "前日猶拘束",
+          "note": "Twin collation: 獨 → 猶; the other source (御定全唐詩) and 6 books on 识典古籍 read 猶 (e.g. 《全唐詩》第九函第四册卷三, 《唐人八家詩》長江集卷七), none support 獨"
         }
       ]
     },
@@ -17301,6 +18356,11 @@
           "original": "綠窗江淚冷涓涓",
           "corrected": "綠窗紅淚冷涓涓",
           "note": "Twin collation: 江 → 紅; the other source (御定全唐詩) and 4 books on 识典古籍 read 紅 (e.g. 《全唐詩》第九函第七册卷一, 《古今圖書集成·家範典》欽定古今圖書集成明倫彙編家範典第四千零一十三卷“夫婦部藝文二詩詞”), none support 江"
+        },
+        {
+          "original": "相願不相疑",
+          "corrected": "相顧不相疑",
+          "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 8 books on 识典古籍 read 顧 (e.g. 《中晚唐詩》卷十五, 《十三唐人詩》十三唐人詩曹鄴卷), none support 願"
         }
       ]
     },
@@ -17483,6 +18543,16 @@
           "original": "正滯江南爲𩸃魚",
           "corrected": "正滯江南爲鮸魚",
           "note": "Twin collation: 𩸃 → 鮸; the other source (御定全唐詩) and 2 books on 识典古籍 read 鮸 (e.g. 《唐音戊籤》戊籤七十二皮日休之八“七言律詩三”, 《天台前集》天台前集卷中“遊天台山張祜”), none support 𩸃"
+        },
+        {
+          "original": "俯不媿粱糲",
+          "corrected": "俯不媿梁糲",
+          "note": "Twin collation: 粱 → 梁; the other source (御定全唐詩) and 4 books on 识典古籍 read 梁 (e.g. 《全唐詩》第九函第九册卷一, 《唐皮日休文藪》卷十), none support 粱"
+        },
+        {
+          "original": "王郎風姿盡列仙",
+          "corrected": "王朗風姿盡列仙",
+          "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 3 books on 识典古籍 read 朗 (e.g. 《古今圖書集成·歲功典》欽定古今圖書集成曆象彙編歲功典第九十九卷“寒夜文宴得泉字前人”, 《御定全唐詩》御定全唐詩卷六百十四“皮日休”), none support 郎"
         }
       ]
     },
@@ -17580,6 +18650,26 @@
           "original": "隴樹即堪攀",
           "corrected": "壟樹即堪攀",
           "note": "Twin collation: 隴 → 壟; the other source (御定全唐詩) and 5 books on 识典古籍 read 壟 (e.g. 《唐人百家詩》張喬詩集後跋, 《御定全唐詩》御定全唐詩卷八百十四“無可”), none support 隴"
+        },
+        {
+          "original": "誰鄰借笏趂朝參",
+          "corrected": "誰憐借笏趂朝參",
+          "note": "Twin collation: 鄰 → 憐; the other source (御定全唐詩) and 7 books on 识典古籍 read 憐 (e.g. 《全唐詩話》全唐詩話目錄卷五, 《司空表聖文集》司空表聖詩集), none support 鄰"
+        },
+        {
+          "original": "孤標百尺雲中見",
+          "corrected": "孤標百尺雪中見",
+          "note": "Twin collation: 雲 → 雪; the other source (御定全唐詩) and 5 books on 识典古籍 read 雪 (e.g. 《唐百家詩》李山甫集, 《唐詩》唐詩卷五百九十一), none support 雲"
+        },
+        {
+          "original": "白雲飛不盡",
+          "corrected": "白雪飛不盡",
+          "note": "Twin collation: 雲 → 雪; the other source (御定全唐詩) and 7 books on 识典古籍 read 雪 (e.g. 《唐人百家詩》李山甫詩集卷, 《唐百家詩》卷二十五), none support 雲"
+        },
+        {
+          "original": "半匙清粉攪潺湲",
+          "corrected": "半匙青粉攪潺湲",
+          "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 7 books on 识典古籍 read 青 (e.g. 《唐李推官披沙集》唐李推官披沙集卷第二“謝僧寄茶”, 《唐詩類苑》卷一百八十七), none support 清"
         }
       ]
     },
@@ -17712,6 +18802,11 @@
           "original": "羨君歸掉五諸侯",
           "corrected": "羨君歸棹五諸侯",
           "note": "Twin collation: 掉 → 棹; the other source (御定全唐詩) and 5 books on 识典古籍 read 棹 (e.g. 《唐摭言》卷十, 《唐音戊籤》戊籤餘四十二羅隱之五唐音統籤卷七百九十七“七言律詩三”), none support 掉"
+        },
+        {
+          "original": "封門壯土泥",
+          "corrected": "封門壯士泥",
+          "note": "Twin collation: 土 → 士; the other source (御定全唐詩) and 4 books on 识典古籍 read 士 (e.g. 《御定全唐詩》御定全唐詩卷六百六十五, 《御定全唐詩錄》御定全唐詩錄卷第九十一“羅隱”), none support 土"
         }
       ]
     },
@@ -17794,6 +18889,21 @@
           "original": "役役古田今",
           "corrected": "役役古由今",
           "note": "Twin collation: 田 → 由; the other source (御定全唐詩) and 2 books on 识典古籍 read 由 (e.g. 《唐詩類苑》卷一百十五, 《唐詩類苑》唐詩類苑卷第一百十五), none support 田"
+        },
+        {
+          "original": "燒殘宮樹有花開",
+          "corrected": "燒殘官樹有花開",
+          "note": "Twin collation: 宮 → 官; the other source (御定全唐詩) and 4 books on 识典古籍 read 官 (e.g. 《唐詩類苑》卷一百三十一, 《唐音戊籤》戊籤七十六鄭谷之六“七言絶句”), none support 宮"
+        },
+        {
+          "original": "唯有郎吟償晚景",
+          "corrected": "唯有朗吟償晚景",
+          "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 3 books on 识典古籍 read 朗 (e.g. 《唐人百家詩》雲壹編卷下, 《唐詩類苑》卷七十七), none support 郎"
+        },
+        {
+          "original": "唯有啼鳥伴夜碪",
+          "corrected": "唯有啼烏伴夜碪",
+          "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 5 books on 识典古籍 read 烏 (e.g. 《唐音戊籤》戊籤七十五韓偓之四“七言絶句”, 《御定全唐詩錄》御定全唐詩録卷九十三), none support 鳥"
         }
       ]
     },
@@ -17816,6 +18926,16 @@
           "original": "果粟樹將空",
           "corrected": "果栗樹將空",
           "note": "Twin collation: 粟 → 栗; the other source (御定全唐詩) and 4 books on 识典古籍 read 栗 (e.g. 《唐風集》卷上, 《御定全唐詩》御定全唐詩卷六百九十一“杜荀鶴”), none support 粟"
+        },
+        {
+          "original": "載士春栽樹",
+          "corrected": "載土春栽樹",
+          "note": "Twin collation: 士 → 土; the other source (御定全唐詩) and 2 books on 识典古籍 read 土 (e.g. 《唐風集》唐風集卷一“今體五言凡一百二十六首”, 《石倉歷代詩選》石倉歷代詩選卷七十八), none support 士"
+        },
+        {
+          "original": "一夜寒鴻來不住",
+          "corrected": "一夜塞鴻來不住",
+          "note": "Twin collation: 寒 → 塞; the other source (御定全唐詩) and 5 books on 识典古籍 read 塞 (e.g. 《唐四十四家詩》唐風集卷下, 《唐音戊籤》戊籤餘六杜荀鶴之五、唐音統籤卷、盧士衡後唐天成二年進士集一卷), none support 寒"
         }
       ]
     },
@@ -17868,6 +18988,21 @@
           "original": "至君經國墮前圖",
           "corrected": "致君經國墮前圖",
           "note": "Twin collation: 至 → 致; the other source (御定全唐詩) and 3 books on 识典古籍 read 致 (e.g. 《中晚唐詩》卷三十二, 《唐人百家詩》詩集卷二), none support 至"
+        },
+        {
+          "original": "若教陰郎長相似",
+          "corrected": "若教陰朗長相似",
+          "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 2 books on 识典古籍 read 朗 (e.g. 《御定全唐詩》御定全唐詩卷六百九十三“杜荀鶴”, 《萬首唐人絶句》萬首唐人絶句卷七十二“七言”), none support 郎"
+        },
+        {
+          "original": "郎吟應有趣",
+          "corrected": "朗吟應有趣",
+          "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 3 books on 识典古籍 read 朗 (e.g. 《御定佩文齋咏物詩選》御定佩文齋咏物詩選卷三百八十七“蘆葦類”, 《御定全唐詩》御定全唐詩卷七百一“王貞白”), none support 郎"
+        },
+        {
+          "original": "清泉抵石遠",
+          "corrected": "清泉抵石還",
+          "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 6 books on 识典古籍 read 還 (e.g. 《唐詩類苑》卷二十五, 《御定全唐詩》御定全唐詩卷七百二“張玭”), none support 遠"
         }
       ]
     },
@@ -17990,6 +19125,16 @@
           "original": "泠然魏輕馭",
           "corrected": "泠然委輕馭",
           "note": "Twin collation: 魏 → 委; the other source (御定全唐詩) and 7 books on 识典古籍 read 委 (e.g. 《唐詩紀事》唐詩紀事卷第十三“司馬承禎”, 《唐詩類苑》卷一百五十三), none support 魏"
+        },
+        {
+          "original": "命徒對旅櫬",
+          "corrected": "命徒封旅櫬",
+          "note": "Twin collation: 對 → 封; the other source (御定全唐詩) and 5 books on 识典古籍 read 封 (e.g. 《唐詩類苑》唐詩類苑卷第二十七“地部”, 《御定全唐詩》御定全唐詩卷七十六“徐彦伯”), none support 對"
+        },
+        {
+          "original": "白雲下彤闈",
+          "corrected": "白雪下彤闈",
+          "note": "Twin collation: 雲 → 雪; the other source (御定全唐詩) and 4 books on 识典古籍 read 雪 (e.g. 《唐詩所》卷三十一, 《唐詩紀事》唐詩紀事卷十“趙彦昭”), none support 雲"
         }
       ]
     },
@@ -18042,6 +19187,11 @@
           "original": "黃雀須訪挾彈人",
           "corrected": "黃雀須防挾彈人",
           "note": "Twin collation: 訪 → 防; the other source (御定全唐詩) and 3 books on 识典古籍 read 防 (e.g. 《古今圖書集成·經籍典》欽定古今圖書集成理學彙編經籍典第七千三百六十五卷“史學部藝文二詩”, 《唐音戊籤》戊籤一百十), none support 訪"
+        },
+        {
+          "original": "朱輪爲染酬恩血",
+          "corrected": "朱輪未染酬恩血",
+          "note": "Twin collation: 爲 → 未; the other source (御定全唐詩) and 7 books on 识典古籍 read 未 (e.g. 《[雍正]山西通志》山西通志卷二百二十六（一）, 《【乾隆】直隸絳州志》【乾隆】直隸絳州志卷十八), none support 爲"
         }
       ]
     },
@@ -18204,6 +19354,26 @@
           "original": "無心漸季路",
           "corrected": "無心慚季路",
           "note": "Twin collation: 漸 → 慚; the other source (御定全唐詩) and 5 books on 识典古籍 read 慚 (e.g. 《唐詩》唐詩卷六百三十四, 《御定全唐詩》御定全唐詩卷七百四十八“李中”), none support 漸"
+        },
+        {
+          "original": "漢道將何翼",
+          "corrected": "漢道將何冀",
+          "note": "Twin collation: 翼 → 冀; the other source (御定全唐詩) and 8 books on 识典古籍 read 冀 (e.g. 《古今圖書集成·文學典》, 《古詩類苑》卷八十三), none support 翼"
+        },
+        {
+          "original": "鳥鵲檻前聲",
+          "corrected": "烏鵲檻前聲",
+          "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 5 books on 识典古籍 read 烏 (e.g. 《唐詩排律》唐詩排律卷第七“劉闢”, 《唐詩紀事》唐詩紀事卷第四十八“劉闢”), none support 鳥"
+        },
+        {
+          "original": "借君郎鑒入崆峒",
+          "corrected": "借君朗鑒入崆峒",
+          "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 2 books on 识典古籍 read 朗 (e.g. 《御定全唐詩》御定全唐詩卷七百四十五“陳陶”, 《文苑英華》二百八十八), none support 郎"
+        },
+        {
+          "original": "江雪過竹籬",
+          "corrected": "江雲過竹籬",
+          "note": "Twin collation: 雪 → 雲; the other source (御定全唐詩) and 5 books on 识典古籍 read 雲 (e.g. 《唐詩》唐詩卷六百三十三, 《唐音戊籤》戊籤餘三十四李中之二 唐音統籤卷), none support 雪"
         }
       ]
     },
@@ -18351,6 +19521,26 @@
           "original": "醉得君主不解醒",
           "corrected": "醉得君王不解醒",
           "note": "Twin collation: 主 → 王; the other source (御定全唐詩) and 3 books on 识典古籍 read 王 (e.g. 《御定全唐詩》御定全唐詩卷七百六十七“孫元晏”, 《萬首唐人絶句》萬首唐人絶句卷六十“七言”), none support 主"
+        },
+        {
+          "original": "磐聲深小院",
+          "corrected": "磬聲深小院",
+          "note": "Twin collation: 磐 → 磬; the other source (御定全唐詩) and 5 books on 识典古籍 read 磬 (e.g. 《唐詩》唐詩卷六百四十, 《宋詩鈔》宋詩鈔卷二), none support 磐"
+        },
+        {
+          "original": "清磐出巖泉",
+          "corrected": "清磬出巖泉",
+          "note": "Twin collation: 磐 → 磬; the other source (御定全唐詩) and 6 books on 识典古籍 read 磬 (e.g. 《十三唐人詩》十三唐人詩孟貫卷, 《古今圖書集成·神異典》卷二百), none support 磐"
+        },
+        {
+          "original": "虛閣延秋磐",
+          "corrected": "虛閣延秋磬",
+          "note": "Twin collation: 磐 → 磬; the other source (御定全唐詩) and 3 books on 识典古籍 read 磬 (e.g. 《御定全唐詩》御定全唐詩卷七百六十三, 《文苑英華》二百三十九), none support 磐"
+        },
+        {
+          "original": "解脫清襦與別人",
+          "corrected": "解脫青襦與別人",
+          "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 3 books on 识典古籍 read 青 (e.g. 《唐詩》唐詩卷五百四十一, 《御定全唐詩》御定全唐詩卷七百六十七“孫元晏”), none support 清"
         }
       ]
     },
@@ -18423,6 +19613,11 @@
           "original": "驚起沙歐兩岸飛",
           "corrected": "驚起沙鷗兩岸飛",
           "note": "Twin collation: 歐 → 鷗; the other source (御定全唐詩) and 8 books on 识典古籍 read 鷗 (e.g. 《三家宮詞》三家宫詞卷中“蜀”, 《三家宮詞》宮詞), none support 歐"
+        },
+        {
+          "original": "不如紅藥闌干曲",
+          "corrected": "不知紅藥闌干曲",
+          "note": "Twin collation: 如 → 知; the other source (御定全唐詩) and 6 books on 识典古籍 read 知 (e.g. 《三家宮詞》三家宫詞卷下“宋”, 《三家宮詞》宋), none support 如"
         }
       ]
     },
@@ -18480,6 +19675,21 @@
           "original": "淮上青草歇",
           "corrected": "淮上春草歇",
           "note": "Twin collation: 青 → 春; the other source (御定全唐詩) and 5 books on 识典古籍 read 春 (e.g. 《唐詩》唐詩卷六百六十七, 《晝上人集》卷二), none support 青"
+        },
+        {
+          "original": "前車即落阬",
+          "corrected": "前車既落阬",
+          "note": "Twin collation: 即 → 既; the other source (御定全唐詩) and 4 books on 识典古籍 read 既 (e.g. 《寒山子詩集》寒山子詩集, 《寒山子詩集》寒山子詩集“五言類”), none support 即"
+        },
+        {
+          "original": "城頭鴟鳥拾羶腥",
+          "corrected": "城頭鴟烏拾羶腥",
+          "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 4 books on 识典古籍 read 烏 (e.g. 《唐僧弘秀集》卷二, 《唐四僧詩》唐四僧詩卷一“靈澈詩”), none support 鳥"
+        },
+        {
+          "original": "俗情對淺近",
+          "corrected": "俗情封淺近",
+          "note": "Twin collation: 對 → 封; the other source (御定全唐詩) and 6 books on 识典古籍 read 封 (e.g. 《吳興詩存初集》卷八, 《唐三高僧詩集》杼山集卷二), none support 對"
         }
       ]
     },
@@ -18682,6 +19892,21 @@
           "original": "牆將藥犬行",
           "corrected": "常將藥犬行",
           "note": "Twin collation: 牆 → 常; the other source (御定全唐詩) and 3 books on 识典古籍 read 常 (e.g. 《唐詩》唐詩卷六百八十九, 《御定全唐詩》御定全唐詩卷八百三十三“貫休”), none support 牆"
+        },
+        {
+          "original": "山策逐雪行",
+          "corrected": "山策逐雲行",
+          "note": "Twin collation: 雪 → 雲; the other source (御定全唐詩) and 6 books on 识典古籍 read 雲 (e.g. 《唐三高僧詩集》杼山集卷五, 《唐詩》唐詩卷六百七十), none support 雪"
+        },
+        {
+          "original": "可鄰重試者",
+          "corrected": "可憐重試者",
+          "note": "Twin collation: 鄰 → 憐; the other source (御定全唐詩) and 2 books on 识典古籍 read 憐 (e.g. 《唐詩》唐詩卷六百八十六, 《禪月集》卷十), none support 鄰"
+        },
+        {
+          "original": "孤作鬢皤皤",
+          "corrected": "孤坐鬢皤皤",
+          "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 2 books on 识典古籍 read 坐 (e.g. 《唐詩》唐詩卷六百八十七, 《禪月集》禪月集卷第十三“五言律詩三十二首”), none support 作"
         }
       ]
     },
@@ -18709,6 +19934,26 @@
           "original": "知君心出嶮巘間",
           "corrected": "知君心出嶮巇間",
           "note": "Twin collation: 巘 → 巇; the other source (御定全唐詩) and 2 books on 识典古籍 read 巇 (e.g. 《唐三高僧詩集》白蓮集卷九, 《白蓮集》白蓮集卷第九“送人入蜀”), none support 巘"
+        },
+        {
+          "original": "清吟孤作碧溪頭",
+          "corrected": "清吟孤坐碧溪頭",
+          "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 8 books on 识典古籍 read 坐 (e.g. 《全唐詩話》全唐詩話卷六“僧貫休”, 《全唐詩话》全唐詩話卷之六“僧貫休”), none support 作"
+        },
+        {
+          "original": "深竹杪聞殘磐盡",
+          "corrected": "深竹杪聞殘磬盡",
+          "note": "Twin collation: 磐 → 磬; the other source (御定全唐詩) and 2 books on 识典古籍 read 磬 (e.g. 《天台前集》天台前集别編“茅初成昇天謡秦時邑謡”, 《御定全唐詩》御定全唐詩卷八百三十七“貫休”), none support 磐"
+        },
+        {
+          "original": "雀靜如枯折",
+          "corrected": "雀靜知枯折",
+          "note": "Twin collation: 如 → 知; the other source (御定全唐詩) and 2 books on 识典古籍 read 知 (e.g. 《白蓮集》白蓮集卷二“寄鄭谷郎中”, 《白蓮集》白蓮集卷第二“禪庭蘆竹十二韵呈鄭谷郎中”), none support 如"
+        },
+        {
+          "original": "衣多作臥稜",
+          "corrected": "衣多坐臥稜",
+          "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 3 books on 识典古籍 read 坐 (e.g. 《御定全唐詩》御定全唐詩卷八百四十“寄華山司空圖”, 《白蓮集》三), none support 作"
         }
       ]
     },
@@ -18863,6 +20108,11 @@
           "original": "惡聞忘越事",
           "corrected": "惡聞亡越事",
           "note": "Twin collation: 忘 → 亡; the other source (御定全唐詩) and 2 books on 识典古籍 read 亡 (e.g. 《分門纂類唐歌詩》天地山川類一卷, 《永樂大典》永樂大典卷之二千二百六十七【六模】“湖”), none support 忘"
+        },
+        {
+          "original": "福士氓",
+          "corrected": "福土氓",
+          "note": "Twin collation: 士 → 土; the other source (御定全唐詩) and 5 books on 识典古籍 read 土 (e.g. 《五朝小説》五朝小説卷十六, 《前定錄》續前定録唐鍾輅撰“竇相易直”), none support 士"
         }
       ]
     },
@@ -18962,6 +20212,26 @@
           "original": "百村多候吏",
           "corrected": "百城多候吏",
           "note": "Twin collation: 村 → 城; the other source (御定全唐詩) and 5 books on 识典古籍 read 城 (e.g. 《唐王右丞詩集注説》卷五, 《唐詩類苑》卷四十九), none support 村"
+        },
+        {
+          "original": "潺湲俯瞑灣",
+          "corrected": "潺湲俯暝灣",
+          "note": "Twin collation: 瞑 → 暝; the other source (御定全唐詩) and 2 books on 识典古籍 read 暝 (e.g. 《唐詩紀事》唐詩紀事卷第十一“盧懷慎”, 《唐詩類苑》卷二十二), none support 瞑"
+        },
+        {
+          "original": "承明有三人",
+          "corrected": "承明有三入",
+          "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 6 books on 识典古籍 read 入 (e.g. 《唐詩所》卷三十一, 《唐詩紀事》唐詩紀事卷第二十二“裴耀卿”), none support 人"
+        },
+        {
+          "original": "一磐竹林外",
+          "corrected": "一磬竹林外",
+          "note": "Twin collation: 磐 → 磬; the other source (御定全唐詩) and 6 books on 识典古籍 read 磬 (e.g. 《唐詩所》卷四十五, 《唐詩紀事》唐詩紀事卷三十二“崔琮”), none support 磐"
+        },
+        {
+          "original": "備知輕濟道",
+          "corrected": "備知經濟道",
+          "note": "Twin collation: 輕 → 經; the other source (御定全唐詩) and 7 books on 识典古籍 read 經 (e.g. 《十二家唐詩》王摩詰集卷上, 《唐王右丞詩劉須溪校本》卷五), none support 輕"
         }
       ]
     },
@@ -19174,6 +20444,16 @@
           "original": "努立強加餐",
           "corrected": "努力強加餐",
           "note": "Twin collation: 立 → 力; the other source (御定全唐詩) and 2 books on 识典古籍 read 力 (e.g. 《全唐詩鈔》卷十六, 《御定全唐詩》御定全唐詩卷一百四十六“陶翰”), none support 立"
+        },
+        {
+          "original": "趺作檐前日",
+          "corrected": "趺坐檐前日",
+          "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 5 books on 识典古籍 read 坐 (e.g. 《前唐十二家詩》王摩詰集卷下“五言排律”, 《王右丞集箋注》王右丞集箋注卷十一“仁和趙殿成撰”), none support 作"
+        },
+        {
+          "original": "爵士封其新",
+          "corrected": "爵土封其新",
+          "note": "Twin collation: 士 → 土; the other source (御定全唐詩) and 7 books on 识典古籍 read 土 (e.g. 《儲光羲集》卷三, 《古今圖書集成·家範典》欽定古今圖書集成明倫彙編家範典第四千零三十八卷“姻婭部藝文二詩”), none support 士"
         }
       ]
     },
@@ -19281,6 +20561,36 @@
           "original": "砅厓轉石萬壑雷",
           "corrected": "砯厓轉石萬壑雷",
           "note": "Twin collation: 砅 → 砯; the other source (御定全唐詩) and 2 books on 识典古籍 read 砯 (e.g. 《李杜詩選》李詩選卷一, 《淵鑑類函》淵鑑類函卷三百三十九“州郡部六”), none support 砅"
+        },
+        {
+          "original": "暮笳吹寒月",
+          "corrected": "暮笳吹塞月",
+          "note": "Twin collation: 寒 → 塞; the other source (御定全唐詩) and 2 books on 识典古籍 read 塞 (e.g. 《御定全唐詩》御定全唐詩卷一百四十七“劉長卿”, 《文苑英華》三百), none support 寒"
+        },
+        {
+          "original": "白雲飄辭律",
+          "corrected": "白雪飄辭律",
+          "note": "Twin collation: 雲 → 雪; the other source (御定全唐詩) and 6 books on 识典古籍 read 雪 (e.g. 《劉文房集》卷三, 《劉隨州詩集》劉隨州文集卷第七“罷攝官後將還舊居留辭李侍御”), none support 雲"
+        },
+        {
+          "original": "寧翼少回鸞",
+          "corrected": "寧冀少回鸞",
+          "note": "Twin collation: 翼 → 冀; the other source (御定全唐詩) and 6 books on 识典古籍 read 冀 (e.g. 《劉隨州集》劉隨州集卷七“奉使新安自桐廬縣經嚴陵釣臺宿七里灘下寄”, 《劉隨州集》卷八), none support 翼"
+        },
+        {
+          "original": "孤飛遠懼鷹鸇搏",
+          "corrected": "孤飛還懼鷹鸇搏",
+          "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 7 books on 识典古籍 read 還 (e.g. 《劉隨州詩集》劉隨州文集卷第十“小鳥篇上裴尹”, 《劉隨州集》劉隨州集卷十“潁川留别司倉李萬”), none support 遠"
+        },
+        {
+          "original": "行縣擁諸候",
+          "corrected": "行縣擁諸侯",
+          "note": "Twin collation: 候 → 侯; the other source (御定全唐詩) and 4 books on 识典古籍 read 侯 (e.g. 《五唐人詩集》襄陽集卷一, 《孟襄陽集》孟襄陽集卷第一“遊覽”), none support 候"
+        },
+        {
+          "original": "願向平原笑",
+          "corrected": "顧向平原笑",
+          "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 8 books on 识典古籍 read 顧 (e.g. 《分類補注李太白詩》二, 《唐文粹》文粹卷第十四上古調五“古風十一首”), none support 願"
         }
       ]
     },
@@ -19428,6 +20738,16 @@
           "original": "欲渡誰相持",
           "corrected": "欲渡誰相待",
           "note": "Twin collation: 持 → 待; the other source (御定全唐詩) and 6 books on 识典古籍 read 待 (e.g. 《光州志》光州志附餘卷之九“詩”, 《古詩箋》五言詩卷十七), none support 持"
+        },
+        {
+          "original": "無事作悲苦",
+          "corrected": "無事坐悲苦",
+          "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 8 books on 识典古籍 read 坐 (e.g. 《分類補注李太白詩》分類補注李大白詩卷之二十四, 《分類補注李太白詩文》卷二十四), none support 作"
+        },
+        {
+          "original": "零落殘雪片",
+          "corrected": "零落殘雲片",
+          "note": "Twin collation: 雪 → 雲; the other source (御定全唐詩) and 5 books on 识典古籍 read 雲 (e.g. 《全唐詩》第三函第六册卷八, 《文苑英華》一百五十五), none support 雪"
         }
       ]
     },
@@ -19515,6 +20835,31 @@
           "original": "何似參禪理",
           "corrected": "何以參禪理",
           "note": "Twin collation: 似 → 以; the other source (御定全唐詩) and 6 books on 识典古籍 read 以 (e.g. 《丁卯詩集》丁卯詩集卷下“近體詩”, 《丁卯集箋注》卷四), none support 似"
+        },
+        {
+          "original": "笛吹孤戌月",
+          "corrected": "笛吹孤戍月",
+          "note": "Twin collation: 戌 → 戍; the other source (御定全唐詩) and 6 books on 识典古籍 read 戍 (e.g. 《唐詩類苑》卷一百十三, 《唐音戊籤》戊籤一杜牧之三“五言律詩一”), none support 戌"
+        },
+        {
+          "original": "戌旗長卷夕陽中",
+          "corrected": "戍旗長卷夕陽中",
+          "note": "Twin collation: 戌 → 戍; the other source (御定全唐詩) and 6 books on 识典古籍 read 戍 (e.g. 《唐詩類苑》唐詩類苑卷第二十六“地部”, 《杜牧集》樊川文集第四“題武關”), none support 戌"
+        },
+        {
+          "original": "戌遼雖咽切",
+          "corrected": "戍遼雖咽切",
+          "note": "Twin collation: 戌 → 戍; the other source (御定全唐詩) and 4 books on 识典古籍 read 戍 (e.g. 《唐人百家詩》樊川集卷五, 《唐詩類苑》卷一百三十八), none support 戌"
+        },
+        {
+          "original": "孤煙邨戌遠",
+          "corrected": "孤煙邨戍遠",
+          "note": "Twin collation: 戌 → 戍; the other source (御定全唐詩) and 5 books on 识典古籍 read 戍 (e.g. 《吳都文粹》吳都文粹卷十宋鄭虎臣編, 《唐人百家詩》樊川集卷六), none support 戌"
+        },
+        {
+          "original": "戌樓春帶雪",
+          "corrected": "戍樓春帶雪",
+          "note": "Twin collation: 戌 → 戍; the other source (御定全唐詩) and 4 books on 识典古籍 read 戍 (e.g. 《唐人百家詩》樊川集卷六, 《唐詩類苑》唐詩類苑卷第二十七“地部”), none support 戌"
         }
       ]
     },
@@ -19607,6 +20952,16 @@
           "original": "能說鷫鸘來換酒",
           "corrected": "能脫鷫鸘來換酒",
           "note": "Twin collation: 說 → 脫; the other source (御定全唐詩) and 5 books on 识典古籍 read 脫 (e.g. 《唐甫里先生文集》唐甫里先生文集卷之十二“七言絶句詩”, 《宋洪魏公進萬首唐人絶句》萬首唐人絶句卷三十三), none support 說"
+        },
+        {
+          "original": "敘事聊編盡殺青",
+          "corrected": "敘事聯編盡殺青",
+          "note": "Twin collation: 聊 → 聯; the other source (御定全唐詩) and 5 books on 识典古籍 read 聯 (e.g. 《全唐詩》第九函第十册卷十, 《晚唐詩鈔》卷十七), none support 聊"
+        },
+        {
+          "original": "騎人蓬萊清淺中",
+          "corrected": "騎入蓬萊清淺中",
+          "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 5 books on 识典古籍 read 入 (e.g. 《全唐詩》第九函第十册卷十三, 《唐甫里先生文集》唐甫里先生文集卷之十二“七言絶句詩”), none support 人"
         }
       ]
     },
@@ -19788,6 +21143,36 @@
           "original": "含聲歌扉舉",
           "corrected": "含聲歌扇舉",
           "note": "Twin collation: 扉 → 扇; the other source (御定全唐詩) and 6 books on 识典古籍 read 扇 (e.g. 《全唐詩鈔》卷二十五, 《唐人選唐詩》卷一), none support 扉"
+        },
+        {
+          "original": "秦皇即恃險",
+          "corrected": "秦皇既恃險",
+          "note": "Twin collation: 即 → 既; the other source (御定全唐詩) and 6 books on 识典古籍 read 既 (e.g. 《唐詩類苑》唐詩類苑卷第二十六“地部”, 《御定全唐詩》御定全唐詩卷一百九十一“韋應物”), none support 即"
+        },
+        {
+          "original": "人事即云泯",
+          "corrected": "人事既云泯",
+          "note": "Twin collation: 即 → 既; the other source (御定全唐詩) and 7 books on 识典古籍 read 既 (e.g. 《唐人六集》韋蘇州集卷六, 《唐詩類苑》唐詩類苑卷第一百七十七), none support 即"
+        },
+        {
+          "original": "舊堵今即葺",
+          "corrected": "舊堵今既葺",
+          "note": "Twin collation: 即 → 既; the other source (御定全唐詩) and 2 books on 识典古籍 read 既 (e.g. 《唐詩類苑》卷一百七十六, 《御定全唐詩》御定全唐詩卷一百九十二“韋應物”), none support 即"
+        },
+        {
+          "original": "豔雲凌空散",
+          "corrected": "豔雪凌空散",
+          "note": "Twin collation: 雲 → 雪; the other source (御定全唐詩) and 6 books on 识典古籍 read 雪 (e.g. 《丹鉛總錄》丹鉛摘録卷八明楊慎撰, 《丹鉛總錄》丹鉛總錄卷之十八), none support 雲"
+        },
+        {
+          "original": "道吏呼鳴騶",
+          "corrected": "導吏呼鳴騶",
+          "note": "Twin collation: 道 → 導; the other source (御定全唐詩) and 4 books on 识典古籍 read 導 (e.g. 《唐詩品彙》唐詩品彙卷十二“五言古詩十二”, 《唐詩所》卷十), none support 道"
+        },
+        {
+          "original": "猶自未對侯",
+          "corrected": "猶自未封侯",
+          "note": "Twin collation: 對 → 封; the other source (御定全唐詩) and 5 books on 识典古籍 read 封 (e.g. 《古今圖書集成·邊裔典》欽定古今圖書集成方輿彙編邊裔典第二千六百六十三卷“北方諸國總部藝文三詩”, 《唐詩類苑》卷四十一), none support 對"
         }
       ]
     },
@@ -121016,6 +122401,11 @@
           "original": "征客去來音信斷",
           "corrected": "征客近來音信斷",
           "note": "Twin collation: 去 → 近; the other source (全唐诗) and 3 books on 识典古籍 read 近 (e.g. 《唐詩紀事》唐詩紀事卷十三“崔液”, 《唐詩紀事》唐詩紀事卷第十三“張紘”), none support 去"
+        },
+        {
+          "original": "百草塞蟲鳴",
+          "corrected": "百草寒蟲鳴",
+          "note": "Twin collation: 塞 → 寒; the other source (全唐诗) and 6 books on 识典古籍 read 寒 (e.g. 《古今圖書集成·宮闈典》欽定古今圖書集成明倫彙編宮闈典第三千零三十一卷“皇后部藝文二詩”, 《唐詩類苑》卷一百四十), none support 塞"
         }
       ]
     },
@@ -121088,6 +122478,11 @@
           "original": "翩翩秉書劄",
           "corrected": "翩翩秉書札",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.1000.json) reads 「翩翩秉書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "倡狂曲江曲",
+          "corrected": "猖狂曲江曲",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 6 books on 识典古籍 read 猖 (e.g. 《唐三高僧詩集》禪月集卷一, 《宋洪魏公進萬首唐人絶句》萬首唐人絶句卷十), none support 倡"
         }
       ]
     },
@@ -121227,10 +122622,16 @@
       ]
     },
     "御定全唐詩/json/033.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "已複長望來年人",
+          "corrected": "已複長望隔年人",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 4 books on 识典古籍 read 隔 (e.g. 《唐詩紀事》唐詩紀事卷第三“陵敬”, 《唐詩類苑》唐詩類苑卷第二十一), none support 來"
+        }
+      ]
     },
     "御定全唐詩/json/034.json": {
       "date": "2026-06-26",
@@ -121493,6 +122894,11 @@
           "original": "舟淩石鯨度，槎拂鬥牛回。\",\n   ",
           "corrected": "舟淩石鯨度，槎拂斗牛回。\",\n   ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "報導欲封侯",
+          "corrected": "報道欲封侯",
+          "note": "Twin collation: 導 → 道; the other source (全唐诗) and 3 books on 识典古籍 read 道 (e.g. 《文苑英華》文苑英華卷三百二十九宋李昉等編“咏百舌劉孝綽”, 《詩宿》詩宿卷之二十七“昆蟲部”), none support 導"
         }
       ]
     },
@@ -121523,6 +122929,11 @@
           "original": "傾影赴前除。共嗟陵穀遠，俄視化城虛。",
           "corrected": "傾影赴前除。共嗟陵谷遠，俄視化城虛。",
           "note": "Simplified→traditional conversion error: 陵穀 → 陵谷 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "綺合青台靜且閑",
+          "corrected": "綺閣青台靜且閑",
+          "note": "Twin collation: 合 → 閣; the other source (全唐诗) and 3 books on 识典古籍 read 閣 (e.g. 《唐詩所》卷七, 《王子安集》王子安集卷之二“七言古詩”), none support 合"
         }
       ]
     },
@@ -121561,7 +122972,7 @@
       ]
     },
     "御定全唐詩/json/059.json": {
-      "date": "2026-10-04",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -121569,6 +122980,11 @@
           "original": "。願隨龍影度，橫□陣雲邊。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「闕」 supported by only 1 book on 识典古籍 (《唐詩類苑》卷七十三); not filled"
+        },
+        {
+          "original": "堯年韻士聲",
+          "corrected": "堯年韻土聲",
+          "note": "Twin collation: 士 → 土; the other source (全唐诗) and 7 books on 识典古籍 read 土 (e.g. 《古今圖書集成·樂律典》卷一百三十一, 《咏物詩選》咏物詩選卷五), none support 士"
         }
       ]
     },
@@ -121581,6 +122997,11 @@
           "original": "紳兼束發新",
           "corrected": "紳兼束髮新",
           "note": "Conversion error 發 → 髮: twin source 全唐诗 (全唐诗/poet.tang.3000.json) reads 「紳兼束髪新」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "阿合佇來翔",
+          "corrected": "阿閣佇來翔",
+          "note": "Twin collation: 合 → 閣; the other source (全唐诗) and 5 books on 识典古籍 read 閣 (e.g. 《古今圖書集成·禽蟲典》欽定古今圖書集成博物彙編禽蟲典第六千四百四十一卷“鳳凰部藝文二詩”, 《唐詩所》卷三十二), none support 合"
         }
       ]
     },
@@ -121593,6 +123014,16 @@
           "original": "睿律九韻開",
           "corrected": "睿律九韶開",
           "note": "Twin collation: 韻 → 韶; the other source (全唐诗) and 8 books on 识典古籍 read 韶 (e.g. 《[雍正]陝西通志》陜西通志卷九十七, 《唐詩二十六家》李嶠集卷下), none support 韻"
+        },
+        {
+          "original": "半空銀合斷",
+          "corrected": "半空銀閣斷",
+          "note": "Twin collation: 合 → 閣; the other source (全唐诗) and 4 books on 识典古籍 read 閣 (e.g. 《唐詩紀事》唐詩紀事卷第十“李嶠”, 《唐詩類苑》卷一百七十三), none support 合"
+        },
+        {
+          "original": "恭已忘自逸",
+          "corrected": "恭己忘自逸",
+          "note": "Twin collation: 已 → 己; the other source (全唐诗) and 4 books on 识典古籍 read 己 (e.g. 《唐詩選》雜五言體詩一卷（一）, 《御定全唐詩》御定全唐詩卷六十一“李嶠”), none support 已"
         }
       ]
     },
@@ -121642,6 +123073,11 @@
           "original": "交址枕南荒",
           "corrected": "交趾枕南荒",
           "note": "Twin collation: 址 → 趾; the other source (全唐诗) and 5 books on 识典古籍 read 趾 (e.g. 《前唐十二家詩》駱賓王集卷上, 《新刊駱子集注》新刊駱子集注卷之二), none support 址"
+        },
+        {
+          "original": "圖書玄扈合",
+          "corrected": "圖書玄扈閣",
+          "note": "Twin collation: 合 → 閣; the other source (全唐诗) and 5 books on 识典古籍 read 閣 (e.g. 《升菴先生文集》升菴先生文集卷五十五, 《唐詩所》卷十五), none support 合"
         }
       ]
     },
@@ -121769,7 +123205,7 @@
       "fixes": []
     },
     "御定全唐詩/json/076.json": {
-      "date": "2026-10-03",
+      "date": "2026-10-06",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -121777,6 +123213,11 @@
           "original": "vK若茂芳序",
           "corrected": "𦶜若茂芳序",
           "note": "Crawl residue \"vK\" → 𦶜: code table derived by collating 御定全唐詩 against 全唐诗/poet.tang.* (same 《全唐詩》 text); 御定 crawl dropped rare (Ext-A/B+) chars and left 2-char ASCII codes"
+        },
+        {
+          "original": "季代倡狂主",
+          "corrected": "季代猖狂主",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 4 books on 识典古籍 read 猖 (e.g. 《古今圖書集成·坤輿典》欽定古今圖書集成曆象彙編曆法典第六百八十一卷“冢墓部藝文二詩”, 《唐詩所》卷二十二), none support 倡"
         }
       ]
     },
@@ -121896,6 +123337,11 @@
           "original": "因數寄南音",
           "corrected": "因子寄南音",
           "note": "Twin collation: 數 → 子; the other source (全唐诗) and 3 books on 识典古籍 read 子 (e.g. 《唐詩品彙》唐詩品彙卷三“五言古詩三”, 《唐詩所》卷十), none support 數"
+        },
+        {
+          "original": "倡狂已複來",
+          "corrected": "猖狂已複來",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 6 books on 识典古籍 read 猖 (e.g. 《前唐十二家詩》陳子昂集卷上“五言古詩”, 《十二家唐詩》陳子昂集卷上), none support 倡"
         }
       ]
     },
@@ -122129,6 +123575,11 @@
           "original": "邊峰似夏雲",
           "corrected": "邊烽似夏雲",
           "note": "Twin collation: 峰 → 烽; the other source (全唐诗) and 6 books on 识典古籍 read 烽 (e.g. 《前唐十二家詩》沈佺期集卷下, 《古詩鏡》唐詩鏡卷四), none support 峰"
+        },
+        {
+          "original": "無問入倡狂",
+          "corrected": "無問入猖狂",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 5 books on 识典古籍 read 猖 (e.g. 《唐詩》唐詩卷四十五, 《唐詩紀》初唐第三十一唐詩紀三十一), none support 倡"
         }
       ]
     },
@@ -122427,10 +123878,16 @@
       ]
     },
     "御定全唐詩/json/120.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "空餘燕銜士",
+          "corrected": "空餘燕銜土",
+          "note": "Twin collation: 士 → 土; the other source (全唐诗) and 4 books on 识典古籍 read 土 (e.g. 《唐詩所》卷三十三, 《唐詩紀》盛唐第四十八唐詩紀一百八), none support 士"
+        }
+      ]
     },
     "御定全唐詩/json/121.json": {
       "date": "2026-06-26",
@@ -122568,6 +124025,11 @@
           "original": "不敢依先賢",
           "corrected": "不敢倚先賢",
           "note": "Twin collation: 依 → 倚; the other source (全唐诗) and 5 books on 识典古籍 read 倚 (e.g. 《三體唐詩》三體唐詩卷五宋周弼編, 《唐音》唐音卷四), none support 依"
+        },
+        {
+          "original": "沙平連白雲",
+          "corrected": "沙平連白雪",
+          "note": "Twin collation: 雲 → 雪; the other source (全唐诗) and 5 books on 识典古籍 read 雪 (e.g. 《十二家唐詩》王摩詰集卷下, 《唐詩品彙》唐詩拾遺卷之五“五言律詩”), none support 雲"
         }
       ]
     },
@@ -122580,6 +124042,11 @@
           "original": "新業出舊闌",
           "corrected": "新叢出舊闌",
           "note": "Twin collation: 業 → 叢; the other source (全唐诗) and 8 books on 识典古籍 read 叢 (e.g. 《全芳備祖集》全芳備祖後集卷十六“竹”, 《前唐十二家詩》王摩詰集卷下“五言排律”), none support 業"
+        },
+        {
+          "original": "鳥來遠語法",
+          "corrected": "鳥來還語法",
+          "note": "Twin collation: 遠 → 還; the other source (全唐诗) and 7 books on 识典古籍 read 還 (e.g. 《前唐十二家詩》王摩詰集卷下“五言排律”, 《王右丞集箋注》王右丞集箋注卷十一“仁和趙殿成撰”), none support 遠"
         }
       ]
     },
@@ -122785,6 +124252,11 @@
           "original": "演紛大鵬翥",
           "corrected": "繽紛大鵬翥",
           "note": "Twin collation: 演 → 繽; the other source (全唐诗) and 5 books on 识典古籍 read 繽 (e.g. 《丹徒縣誌》卷五十二, 《儲光羲集》卷四), none support 演"
+        },
+        {
+          "original": "日餘久淪汩",
+          "corrected": "日餘久淪汨",
+          "note": "Twin collation: 汩 → 汨; the other source (全唐诗) and 4 books on 识典古籍 read 汨 (e.g. 《唐儲光羲詩集》唐儲光羲詩集卷四“五言古詩”, 《唐詩所》卷十二), none support 汩"
         }
       ]
     },
@@ -122895,6 +124367,11 @@
           "original": "蕭北風至。故人有鬥酒，是夜共君醉。\"",
           "corrected": "蕭北風至。故人有斗酒，是夜共君醉。\"",
           "note": "Simplified→traditional conversion error: 鬥酒 → 斗酒 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "商歌調易若",
+          "corrected": "商歌調易苦",
+          "note": "Twin collation: 若 → 苦; the other source (全唐诗) and 6 books on 识典古籍 read 苦 (e.g. 《唐詩所》卷十四, 《御定全唐詩錄》御定全唐詩錄卷第十五“裴迪”), none support 若"
         }
       ]
     },
@@ -122907,6 +124384,11 @@
           "original": "空憐江水準",
           "corrected": "空憐江水平",
           "note": "Conversion error 準 → 平: twin source 全唐诗 (全唐诗/poet.tang.7000.json) reads 「空憐江水平」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "新年人獨遠",
+          "corrected": "新年人獨還",
+          "note": "Twin collation: 遠 → 還; the other source (全唐诗) and 5 books on 识典古籍 read 還 (e.g. 《劉隨州詩集》劉隨州文集卷第一“其二”, 《唐詩類苑》卷七十六), none support 遠"
         }
       ]
     },
@@ -123185,10 +124667,16 @@
       ]
     },
     "御定全唐詩/json/168.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "彼婦人之倡狂",
+          "corrected": "彼婦人之猖狂",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 4 books on 识典古籍 read 猖 (e.g. 《全唐詩》第三函第四册卷八, 《唐詩類苑》唐詩類苑卷第一百二十八), none support 倡"
+        }
+      ]
     },
     "御定全唐詩/json/169.json": {
       "date": "2026-10-03",
@@ -123613,6 +125101,11 @@
           "original": "書劄凡幾封",
           "corrected": "書札凡幾封",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.9000.json) reads 「書札凡幾封」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "拔剌飛鵝鶬",
+          "corrected": "拔刺飛鵝鶬",
+          "note": "Twin collation: 剌 → 刺; the other source (全唐诗) and 2 books on 识典古籍 read 刺 (e.g. 《唐詩紀事》唐詩紀事卷第二十三, 《岑嘉州集》岑嘉州集卷第一“五言古詩”), none support 剌"
         }
       ]
     },
@@ -123646,6 +125139,11 @@
           "original": "歸人爭流喧",
           "corrected": "歸人爭渡喧",
           "note": "Twin collation: 流 → 渡; the other source (全唐诗) and 7 books on 识典古籍 read 渡 (e.g. 《優古堂詩話》優古堂詩話“詩可以觀人”, 《岑參集》岑嘉州詩卷之三“五言長律”), none support 流"
+        },
+        {
+          "original": "歸期尚來年",
+          "corrected": "歸期尚隔年",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 7 books on 识典古籍 read 隔 (e.g. 《前唐十二家詩》岑嘉州集卷下“五言律詩”, 《唐百家詩選》唐百家詩選卷三“高適下十二首”), none support 來"
         }
       ]
     },
@@ -123745,6 +125243,11 @@
           "original": "劄翰起涼溫",
           "corrected": "札翰起涼溫",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「札翰起涼溫」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "汩沒嗟後時",
+          "corrected": "汨沒嗟後時",
+          "note": "Twin collation: 汩 → 汨; the other source (全唐诗) and 4 books on 识典古籍 read 汨 (e.g. 《唐詩品彙》五言古詩卷之十二“名家”, 《文苑英華》二百四十二), none support 汩"
         }
       ]
     },
@@ -123850,6 +125353,11 @@
           "original": "容思回林坰",
           "corrected": "客思回林坰",
           "note": "Twin collation: 容 → 客; the other source (全唐诗) and 7 books on 识典古籍 read 客 (e.g. 《分門集注杜工部詩》卷六, 《新編古今事文類聚》新編古今事文類聚前集十四), none support 容"
+        },
+        {
+          "original": "浮生有蕩汩",
+          "corrected": "浮生有蕩汨",
+          "note": "Twin collation: 汩 → 汨; the other source (全唐诗) and 6 books on 识典古籍 read 汨 (e.g. 《分門集注杜工部詩》卷四, 《唐詩紀》盛唐第七十二唐詩紀一百三十二), none support 汩"
         }
       ]
     },
@@ -123955,6 +125463,11 @@
           "original": "勢俗焚昆侖",
           "corrected": "勢欲焚昆侖",
           "note": "Twin collation: 俗 → 欲; the other source (全唐诗) and 8 books on 识典古籍 read 欲 (e.g. 《分門集注杜工部詩》分門集注杜工部詩卷第二十五, 《唐詩所》卷十八), none support 俗"
+        },
+        {
+          "original": "令人不得擲",
+          "corrected": "令入不得擲",
+          "note": "Twin collation: 人 → 入; the other source (全唐诗) and 9 books on 识典古籍 read 入 (e.g. 《古逸叢書二十六種》杜工部草堂詩箋卷二十八, 《杜工部詩説》杜工部詩説卷二“五言古體二”), none support 人"
         }
       ]
     },
@@ -123999,6 +125512,16 @@
           "original": "開緘書劄光",
           "corrected": "開緘書札光",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.10000.json) reads 「開緘書札光」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "胡馬何倡狂",
+          "corrected": "胡馬何猖狂",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 8 books on 识典古籍 read 猖 (e.g. 《唐李杜詩集》唐李杜詩集卷之九, 《杜工部集箋注》卷之八), none support 倡"
+        },
+        {
+          "original": "憐好彼克修",
+          "corrected": "鄰好彼克修",
+          "note": "Twin collation: 憐 → 鄰; the other source (全唐诗) and 6 books on 识典古籍 read 鄰 (e.g. 《唐李杜詩集》唐李杜詩集卷之九, 《杜詩闡》卷三十三), none support 憐"
         }
       ]
     },
@@ -124035,10 +125558,16 @@
       ]
     },
     "御定全唐詩/json/225.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "date": "2026-10-06",
+      "reviewer": "claude-opus-5-5",
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "胡羯漫倡狂",
+          "corrected": "胡羯漫猖狂",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 8 books on 识典古籍 read 猖 (e.g. 《分門集注杜工部詩》卷十八, 《刻杜少陵先生詩分類集注》刻杜少陵先生詩分類集注卷之九), none support 倡"
+        }
+      ]
     },
     "御定全唐詩/json/226.json": {
       "date": "2026-10-06",
@@ -124095,6 +125624,11 @@
           "original": "野飯謝麋新",
           "corrected": "野飯射麋新",
           "note": "Twin collation: 謝 → 射; the other source (全唐诗) and 7 books on 识典古籍 read 射 (e.g. 《唐詩類苑》卷一百六十二, 《杜工部集》卷十四), none support 謝"
+        },
+        {
+          "original": "船尾跳魚撥剌鳴",
+          "corrected": "船尾跳魚撥刺鳴",
+          "note": "Twin collation: 剌 → 刺; the other source (全唐诗) and 2 books on 识典古籍 read 刺 (e.g. 《集千家注批點杜工部詩集》卷十四, 《集千家注杜工部詩集》集千家注杜工部詩集卷十四), none support 剌"
         }
       ]
     },
@@ -124129,6 +125663,11 @@
           "original": "鄰舍煩書劄",
           "corrected": "鄰舍煩書札",
           "note": "Conversion error 劄 → 札: twin source 全唐诗 (全唐诗/poet.tang.11000.json) reads 「鄰舍煩書札」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "遠聞賓客過",
+          "corrected": "還聞賓客過",
+          "note": "Twin collation: 遠 → 還; the other source (全唐诗) and 4 books on 识典古籍 read 還 (e.g. 《唐詩類苑》卷一百六十, 《杜工部集》杜工部集卷之十六), none support 遠"
         }
       ]
     },
@@ -124197,6 +125736,11 @@
           "original": "目連江漢，西南浸鬥牛。\",\n    ",
           "corrected": "目連江漢，西南浸斗牛。\",\n    ",
           "note": "Simplified→traditional conversion error: 鬥牛 → 斗牛 (context-checked; e.g. 斗 dipper/constellation, 髮 hair, 谷 valley, 后 sovereign/earth deity, 范/松 names & pine)"
+        },
+        {
+          "original": "蹇步徒倡狂",
+          "corrected": "蹇步徒猖狂",
+          "note": "Twin collation: 倡 → 猖; the other source (全唐诗) and 5 books on 识典古籍 read 猖 (e.g. 《唐詩品匯》五言古詩卷十七, 《唐詩品彙》五言古詩卷之十七“羽翼”), none support 倡"
         }
       ]
     },
@@ -124261,6 +125805,11 @@
           "original": "舍毫問藥王",
           "corrected": "含毫問藥王",
           "note": "Twin collation: 舍 → 含; the other source (全唐诗) and 7 books on 识典古籍 read 含 (e.g. 《中興閒氣集》中興間氣集卷上“錢起”, 《中興間氣集》中興間氣集卷上“錢起”), none support 舍"
+        },
+        {
+          "original": "漢使來年多",
+          "corrected": "漢使隔年多",
+          "note": "Twin collation: 來 → 隔; the other source (全唐诗) and 5 books on 识典古籍 read 隔 (e.g. 《唐詩百名家全集》錢考功詩集卷五, 《唐詩類苑》卷五十二), none support 來"
         }
       ]
     },
@@ -124293,6 +125842,11 @@
           "original": "紫誥征黃晚",
           "corrected": "紫誥徵黃晚",
           "note": "Conversion error 征 → 徵: twin source 全唐诗 (全唐诗/poet.tang.12000.json) reads 「紫誥徴黃晚」; one-to-many simplified→traditional mapping (发/髮, 平/準, 征/徵, 干/乾, 札/劄)"
+        },
+        {
+          "original": "憐犬吠初服",
+          "corrected": "鄰犬吠初服",
+          "note": "Twin collation: 憐 → 鄰; the other source (全唐诗) and 2 books on 识典古籍 read 鄰 (e.g. 《唐詩類苑》卷一百二十九, 《錢仲文集》錢仲文集卷八“送丁著作佐台郡”), none support 憐"
         }
       ]
     },
