@@ -6,7 +6,7 @@
 //
 // 默认启动无头 Chromium；传 --cdp 时连接一个已打开的浏览器（例如你已登录的独立实例）。
 // 使用繁体显示（/zh/search），生僻字以常规字形呈现，不会变成类推简化字（如 搊 不会显示为 𫼝）。
-// 出错或超时的检索不记为完成，重跑时自动重试。
+// 出错、超时或页面未渲染出结果的检索不记为完成，重跑时自动重试。
 import fs from 'node:fs';
 import { chromium } from 'playwright';
 
@@ -25,12 +25,13 @@ const limit = Number(opt('--limit', 0));          // 0 = 不限
 const cdp = opt('--cdp');
 
 const queries = JSON.parse(fs.readFileSync(qfile, 'utf8'));
+const marker = '生成语料表格并进行分析';     // 结果片段的起点，只保存此后的部分
 const done = new Set();
 if (fs.existsSync(out)) {
   for (const line of fs.readFileSync(out, 'utf8').split('\n')) {
     if (!line) continue;
     const r = JSON.parse(line);
-    if (!r.err && r.text) done.add(r.q);
+    if (!r.err && r.text?.includes(marker)) done.add(r.q);   // 未渲染出结果的旧记录重新检索
   }
 }
 let todo = queries.filter(q => !done.has(q));
@@ -53,10 +54,10 @@ for (const q of todo) {
     await page.waitForTimeout(800);
     text = await page.evaluate(() => document.body.innerText);
     // 只保留结果片段部分（页头的分类、筛选项对分析无用），控制缓存体积
-    const marker = '生成语料表格并进行分析';
     const at = text.indexOf(marker);
     if (at >= 0) text = text.slice(at).slice(0, 12000);
     else if (/找到 0 条|共找到 0/.test(text)) text = marker + '\n(0 results)';
+    else err = 'no result list rendered';   // 限流、验证码或加载过慢：留待重试
   } catch (e) {
     err = String(e).slice(0, 200);
   }

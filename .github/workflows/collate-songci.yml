@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       limit:
-        description: '本次检索条数（每条约 4 秒）'
+        description: '本次检索条数（每条约 6 秒；超过 2000 条可能超出 4 小时时限）'
         default: '1200'
 
 concurrency:
@@ -57,14 +57,6 @@ jobs:
       - name: Search 识典古籍
         run: node scripts/shidian/search.mjs "$W/queries.json" "$W/results.jsonl" --limit "${{ inputs.limit || '1200' }}"
 
-      # 检索中途失败或超时也保存已取得的结果，下次从断点继续
-      - name: Save work directory
-        if: always()
-        uses: actions/cache/save@v6
-        with:
-          path: ${{ env.W }}
-          key: collate-songci-${{ github.run_id }}
-
       - name: Analyze
         run: |
           python3 scripts/collate.py analyze --work "$W" --applied "$APPLIED"
@@ -75,6 +67,15 @@ jobs:
             echo
             echo "待审核疑似错字：$(($(wc -l < "$W/review.tsv") - 1)) 处，见 artifact \`collate-songci-review\`。"
           } >> "$GITHUB_STEP_SUMMARY"
+
+      # 放在 Analyze 之后，才能把它生成的 variant_map.json 一并缓存（否则每次重新下载 Unihan）；
+      # 检索中途失败或超时也保存已取得的结果，下次从断点继续
+      - name: Save work directory
+        if: always()
+        uses: actions/cache/save@v6
+        with:
+          path: ${{ env.W }}
+          key: collate-songci-${{ github.run_id }}
 
       - name: Upload review table
         uses: actions/upload-artifact@v7

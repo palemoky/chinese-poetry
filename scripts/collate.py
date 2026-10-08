@@ -42,7 +42,8 @@ INTERCHANGEABLE = {frozenset(p) for p in (
     '連聯 閒間 閑間 閒閑 靄藹 蹤縱 晏宴 顛巔 資姿 身生 采採 彩綵 采彩 彫雕 遊游 修脩 沈沉 闇暗 惟唯 唯維 '
     '惟維 歎嘆 蕭簫 楊揚 杖仗 疏疎 暖煖 樽尊 妝粧 卻却 回迴 嶽岳 巖岩 並并 於于 彷仿 佛彿 鍾鐘 冥暝 逕徑 '
     '雲云 后後 穀谷 台臺 籍藉 託托 凰皇 寞莫 展輾 閣閤 只祗 坐座 縣懸 闌欄 熏薰 阪坂 凋彫 燃然 暮莫 旁傍 '
-    '蓬篷 煉鍊 漫熳 由繇 磐盤 盤槃 途塗 溪谿 洲州 欹攲 嘯歗 筍笋 杯盃 綫線 鬭鬥 裏裡 個箇').split()}
+    '蓬篷 煉鍊 漫熳 由繇 磐盤 盤槃 途塗 溪谿 洲州 欹攲 嘯歗 筍笋 杯盃 綫線 鬭鬥 裏裡 個箇 '
+    '馀余 锺钟').split()}   # 本库用 馀、锺，古籍的 餘、鍾 经 OpenCC 转成 余、钟，不是错字
 
 
 INTERCHANGEABLE_S = {frozenset(sd.T2S.convert(c) for c in p) for p in INTERCHANGEABLE}
@@ -137,7 +138,7 @@ def load_results(work):
     if os.path.exists(path):
         for line in open(path, encoding='utf-8'):
             r = json.loads(line)
-            if r.get('text') and not r.get('err'):
+            if sd.RESULT_MARKER in r.get('text', '') and not r.get('err'):   # 未渲染出结果的页面不算
                 res[r['q']] = r['text']
     return res
 
@@ -198,7 +199,7 @@ def cmd_analyze(args):
                 stat['sent_applied'] += 1
                 continue
             stat['sent_suspect'] += 1
-            rows.append(dict(key=key, decision='accept', file=p['file'], idx=p['idx'], author=p['author'] or '',
+            rows.append(dict(key=key, decision='', file=p['file'], idx=p['idx'], author=p['author'] or '',
                              title=p['title'] or '', original=s, proposed=s[:k] + ch + s[k + 1:],
                              evidence=f"{len(books)} books: {', '.join(sorted(books)[:3])}"))
     with open(os.path.join(args.work, 'review.tsv'), 'w', encoding='utf-8', newline='') as fp:
@@ -209,7 +210,7 @@ def cmd_analyze(args):
     state = dict(stat, queries_done=sum(1 for q in json.load(open(os.path.join(args.work, 'queries.json'))) if q in res))
     json.dump(state, open(os.path.join(args.work, 'state.json'), 'w'), ensure_ascii=False, indent=1)
     print(json.dumps(state, ensure_ascii=False))
-    print(f'review: {args.work}/review.tsv ({len(rows)} suspects; decision = accept / reject / 正确句子)')
+    print(f'review: {args.work}/review.tsv ({len(rows)} suspects; 逐条填写 decision = accept / reject / 正确句子，留空的不写回)')
 
 
 # ---------------------------------------------------------------- apply

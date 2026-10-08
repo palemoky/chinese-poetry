@@ -95,9 +95,12 @@ def load(rel):
         return json.load(fp)
 
 
+RESULT_MARKER = '生成语料表格并进行分析'   # 结果页正文的起点；search.mjs 只保存此后的部分
+
+
 def snippets(text):
     """识典古籍结果页 → [(原样片段, 简体规整片段, 书名, 出处)]，片段只保留汉字。"""
-    body = text.split('生成语料表格并进行分析', 1)[-1]
+    body = text.split(RESULT_MARKER, 1)[-1]
     for m in re.finditer(r'([^《》]{6,600}?)\s*《([^》]{1,40})》([^《]{0,80})', body):
         raw = ''.join(c for c in m.group(1) if HAN.match(c))
         norm = T2S.convert(raw)
