@@ -1041,7 +1041,7 @@
       ]
     },
     "宋词/ci.song.13000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -1219,6 +1219,71 @@
           "original": "辐巾萧散",
           "corrected": "幅巾萧散",
           "note": "Collation with 识典古籍 (2 books: 宋名家詞, 平齋詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "悉俯鸿濛",
+          "corrected": "悉付鸿濛",
+          "note": "Collation with 识典古籍 (7 books: 宋名家詞, 御定詞譜, 御選歷代詩餘, 程洺水先生集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "安清祐",
+          "corrected": "安清祏",
+          "note": "Collation with 识典古籍 (2 books: 宋名家詞, 洺水集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "参调玉弦",
+          "corrected": "参调玉铉",
+          "note": "Collation with 识典古籍 (4 books: 宋名家詞, 洺水集, 程洺水先生集, 程端明公洺水集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "舟行有恨",
+          "corrected": "舟行有限",
+          "note": "Collation with 识典古籍 (3 books: 古今圖書集成·歲功典, 御選歷代詩餘, 梅溪詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "如河桂湿",
+          "corrected": "入河桂湿",
+          "note": "Collation with 识典古籍 (5 books: [御選]歷代詩餘, 宋七家詞選, 宋六十一家詞選, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "生愁齐色",
+          "corrected": "生愁霁色",
+          "note": "Collation with 识典古籍 (3 books: [御選]歷代詩餘, 御選歷代詩餘, 梅溪詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "歌声闲",
+          "corrected": "歌声阑",
+          "note": "Collation with 识典古籍 (1 books: 宋名家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "轻露沦残暑",
+          "corrected": "轻露瀹残暑",
+          "note": "Collation with 识典古籍 (1 books: 鶴山先生大全文集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "跃跃静神",
+          "corrected": "跃跃精神",
+          "note": "Collation with 识典古籍 (1 books: 鶴山先生大全文集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "风罥荐红雨易晴",
+          "corrected": "风罥蔫红雨易晴",
+          "note": "Collation with 识典古籍 (3 books: 御選歷代詩餘, 清嘯集, 陽春白雪); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "两细香消臂",
+          "corrected": "两钿香消臂",
+          "note": "Collation with 识典古籍 (2 books: 彊村叢書, 方是閒居士小稿); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "皆空裂",
+          "corrected": "眦空裂",
+          "note": "Collation with 识典古籍 (2 books: 彊村叢書, 永樂大典); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "散大图碑",
+          "corrected": "散打图碑",
+          "note": "Collation with 识典古籍 (4 books: [御選]歷代詩餘, 宋名家詞, 平齋詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
         }
       ]
     },
@@ -111010,7 +111075,7 @@
       "fixes": []
     },
     "宋词/ci.song.0.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -111208,11 +111273,106 @@
           "original": "住想修行布施",
           "corrected": "住相修行布施",
           "note": "Collation with 识典古籍 (5 books: 修真十書 悟真篇, 修真十書悟真篇, 修真十書玉隆集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "金蕉叶泛金波齐",
+          "corrected": "金蕉叶泛金波霁",
+          "note": "Collation with 识典古籍 (5 books: 古今圖書集成·文學典, 宋名家詞, 文體明辯, 樂章集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "宴亭永昼喧箫鼓",
+          "corrected": "宴堂永昼喧箫鼓",
+          "note": "Collation with 识典古籍 (4 books: 安陸集, 御定駢字類編, 詞律, 詞綜); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "五侯池馆频开",
+          "corrected": "五侯池馆屏开",
+          "note": "Collation with 识典古籍 (8 books: 增修箋注妙選群英草堂詩餘, 文翰類選大成, 文體明辯附錄, 樂府雅詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "月淡天垂暮",
+          "corrected": "月淡天垂幕",
+          "note": "Collation with 识典古籍 (7 books: 三才圖會, 唐宋諸賢絶妙詞選, 增修箋注妙選草堂詩餘, 安陸集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "梦断寒夜长",
+          "corrected": "梦短寒夜长",
+          "note": "Collation with 识典古籍 (5 books: 安陸集, 御定詞譜, 花草稡編, 詞綜); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "欲问莺",
+          "corrected": "欲闻莺",
+          "note": "Collation with 识典古籍 (7 books: 古今圖書集成·歲功典, 唐宋諸賢絶妙詞選, 大小晏詞, 宋名家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "飞絮纷纷",
+          "corrected": "飞绿纷纷",
+          "note": "Collation with 识典古籍 (4 books: 宋名家詞, 御定詞譜, 御選歷代詩餘, 珠玉詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "流絮飞时春睡重",
+          "corrected": "柳絮飞时春睡重",
+          "note": "Collation with 识典古籍 (3 books: 大小晏詞, 宋名家詞, 珠玉詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "人不语",
+          "corrected": "人不悟",
+          "note": "Collation with 识典古籍 (3 books: [御選]歷代詩餘, 宋名家詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "不道风流真能尽",
+          "corrected": "不道风流真态尽",
+          "note": "Collation with 识典古籍 (2 books: 全芳備祖樂府, 全芳備祖集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "春从一夜",
+          "corrected": "春丛一夜",
+          "note": "Collation with 识典古籍 (7 books: [御選]歷代詩餘, 六一詞, 宋名家詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "云落开时冰吐鉴",
+          "corrected": "云叶开时冰吐鉴",
+          "note": "Collation with 识典古籍 (3 books: 御選歷代詩餘, 興國州志, 花草稡編); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "半栊软玉肌体",
+          "corrected": "半笼软玉肌体",
+          "note": "Collation with 识典古籍 (5 books: [御選]歷代詩餘, 古今圖書集成·歲功典, 古今圖書集成·閨媛典, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "五岳辨微茫",
+          "corrected": "五转辨微茫",
+          "note": "Collation with 识典古籍 (3 books: 修真十書 雜著捷徑, 修真十書玉隆集, 修真十書雜著捷徑); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "相吞相陷却相亲",
+          "corrected": "相吞相啖却相亲",
+          "note": "Collation with 识典古籍 (7 books: 修真十書悟真篇, 修真十書玉隆集, 悟真篇三注, 悟真篇注釋); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "现前获福神通",
+          "corrected": "现前获佛神通",
+          "note": "Collation with 识典古籍 (8 books: 修真十書悟真篇, 修真十書玉隆集, 張平叔悟真篇集注, 悟真篇注疏); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "自从龙虎著斯功",
+          "corrected": "自从龙女著斯功",
+          "note": "Collation with 识典古籍 (7 books: 修真十書悟真篇, 修真十書玉隆集, 張平叔悟真篇集注, 清和真人北游語録); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "从来只为蒙分",
+          "corrected": "从来只为蒙昏",
+          "note": "Collation with 识典古籍 (4 books: 修真十書悟真篇, 修真十書玉隆集, 御選語錄, 悟真篇四注); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "那角解牵骑",
+          "corrected": "那个解牵骑",
+          "note": "Collation with 识典古籍 (5 books: 上陽子金丹大要圖, 修真十書 悟真篇, 張平叔悟真篇集注, 金丹正理大全金丹大要); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.1000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -111410,11 +111570,51 @@
           "original": "小桥飞如横塘",
           "corrected": "小桥飞入横塘",
           "note": "Collation with 识典古籍 (5 books: 古今圖書集成·歲功典, 文體明辯, 草堂詩餘前集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "嬉游醉眠",
+          "corrected": "嬉游醉眼",
+          "note": "Collation with 识典古籍 (5 books: 全芳備祖, 全芳備祖後集, 碎金續譜, 花草稡編); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "枕鸳孤",
+          "corrected": "枕鸾孤",
+          "note": "Collation with 识典古籍 (6 books: [御選]歷代詩餘, 古今圖書集成·閨媛典, 大小晏詞, 宋六十一家詞選); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "欢计莫匆匆",
+          "corrected": "归计莫匆匆",
+          "note": "Collation with 识典古籍 (8 books: 于湖居士文集, 填詞圖譜, 增正詩餘圖譜, 宋名家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "浮宦人间世",
+          "corrected": "浮幻人间世",
+          "note": "Collation with 识典古籍 (9 books: 九宮大成南北詞宮譜, 古今圖書集成·歲功典, 古今詞統, 嘯餘譜); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "心已誓江西",
+          "corrected": "心已浙江西",
+          "note": "Collation with 识典古籍 (6 books: 宋名家詞, 彊村叢書, 東坡樂府, 東坡詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "擘鳞泛玉",
+          "corrected": "擘麟泛玉",
+          "note": "Collation with 识典古籍 (5 books: [御選]歷代詩餘, 古今圖書集成·歲功典, 姑溪居士前集, 姑溪居士文集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "沈沈梦峡雪归后",
+          "corrected": "沈沈梦峡云归后",
+          "note": "Collation with 识典古籍 (2 books: 姑溪詞, 宋名家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "年华爽短鬓",
+          "corrected": "年华双短鬓",
+          "note": "Collation with 识典古籍 (3 books: 樂府雅詞, 舒懶堂詩文存, 花草稡編); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.10000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -111767,11 +111967,56 @@
           "original": "去程无记更从容",
           "corrected": "去程无计更从容",
           "note": "Collation with 识典古籍 (3 books: 宋名家詞, 御選歷代詩餘, 惜香樂府); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "云暮暗千山",
+          "corrected": "云幕暗千山",
+          "note": "Collation with 识典古籍 (3 books: [御選]歷代詩餘, 御選歷代詩餘, 石湖詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "柑子新尝",
+          "corrected": "桐子新尝",
+          "note": "Collation with 识典古籍 (3 books: [御選]歷代詩餘, 克齋詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "念芬馆重来",
+          "corrected": "念粉馆重来",
+          "note": "Collation with 识典古籍 (6 books: 于湖居士文集, 于湖集, 宋名家詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "香亲紫荷陌",
+          "corrected": "香衬紫荷陌",
+          "note": "Collation with 识典古籍 (2 books: 新編事文類聚翰墨全書, 新編事文類聚翰墨大全); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "屠苏香钿",
+          "corrected": "屠苏香细",
+          "note": "Collation with 识典古籍 (2 books: 宋名家詞, 惜香樂府); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "幽鸟闲将远恨来",
+          "corrected": "幽鸟衔将远恨来",
+          "note": "Collation with 识典古籍 (4 books: 惜香樂府, 臨平記, 詞綜, 詩余廣選); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "闲逐清和云",
+          "corrected": "闲逐清和去",
+          "note": "Collation with 识典古籍 (2 books: 宋名家詞, 惜香樂府); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "又还毕备佳期",
+          "corrected": "又还准备佳期",
+          "note": "Collation with 识典古籍 (3 books: 宋名家詞, 御選歷代詩餘, 惜香樂府); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "云荣呈瑞",
+          "corrected": "云容呈瑞",
+          "note": "Collation with 识典古籍 (5 books: [御選]歷代詩餘, 古今圖書集成·交誼典, 宋名家詞, 山谷詞); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.11000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -112059,11 +112304,51 @@
           "original": "看扫幽兰新阙",
           "corrected": "看扫幽兰新阕",
           "note": "Collation with 识典古籍 (3 books: 御選歷代詩餘, 稼軒詞甲乙丙集, 稼軒長短句); dataset reading attested in none of the retrieved books; applied by hand (sentence contains 《》)"
+        },
+        {
+          "original": "清思呦冥冥",
+          "corrected": "清思窈冥冥",
+          "note": "Collation with 识典古籍 (6 books: 二十一史, 古今圖書集成·樂律典, 宋史, 御製律呂正義後編); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "治国手",
+          "corrected": "活国手",
+          "note": "Collation with 识典古籍 (3 books: 古今詞選, 宋名家詞, 稼軒長短句); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "西风白马",
+          "corrected": "西风白鸟",
+          "note": "Collation with 识典古籍 (5 books: [雍正]江西通志, 古今詞統, 稼軒長短句, 詩余廣選); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "比□桃源溪上路",
+          "corrected": "比著桃源溪上路",
+          "note": "Collation with 识典古籍 (4 books: [御選]歷代詩餘, 宋名家詞, 御選歷代詩餘, 稼軒詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "眼看春药秋萁",
+          "corrected": "眼看春叶秋萁",
+          "note": "Collation with 识典古籍 (3 books: 宋名家詞, 稼軒長短句, 詞海評林); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "何人汉简雠天禄",
+          "corrected": "何人汗简雠天禄",
+          "note": "Collation with 识典古籍 (5 books: [御選]歷代詩餘, 御選歷代詩餘, 稼軒詞, 稼軒長短句); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "随钗低扇",
+          "corrected": "堕钗低扇",
+          "note": "Collation with 识典古籍 (3 books: 古今類傳, 宋名家詞, 書舟詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "青膏集",
+          "corrected": "春膏集",
+          "note": "Collation with 识典古籍 (2 books: 唐宋八家詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.12000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -112436,11 +112721,46 @@
           "original": "竞谁与",
           "corrected": "竟谁与",
           "note": "Collation with 识典古籍 (8 books: [御選]歷代詩餘, 中興以來絶妙詞選, 台州札記); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "醉倚危墙",
+          "corrected": "醉倚危樯",
+          "note": "Collation with 识典古籍 (4 books: [御選]歷代詩餘, 宋名家詞, 御選歷代詩餘, 詞綜); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "风了人",
+          "corrected": "撇了人",
+          "note": "Collation with 识典古籍 (2 books: 宋名家詞, 詞律); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "舞情飙",
+          "corrected": "舞晴飙",
+          "note": "Collation with 识典古籍 (2 books: 宋名家詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "说伊政声佳",
+          "corrected": "说尹政声佳",
+          "note": "Collation with 识典古籍 (2 books: 宋五家詞, 西樵語業); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "罗衣初萦",
+          "corrected": "罗衣初索",
+          "note": "Collation with 识典古籍 (4 books: 宋詞三百首, 御選歷代詩餘, 白石道人歌曲, 白石道人詩集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "况茂林游倦",
+          "corrected": "况茂陵游倦",
+          "note": "Collation with 识典古籍 (7 books: 古今圖書集成·歲功典, 御定詞譜, 御選歷代詩餘, 白石詩集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "闲好语",
+          "corrected": "闻好语",
+          "note": "Collation with 识典古籍 (5 books: 中興以來絶妙詞選, 白石詩集, 白石道人歌曲, 花菴詞選); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.14000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -112763,11 +113083,31 @@
           "original": "棋秤休务",
           "corrected": "棋枰休务",
           "note": "Collation with 识典古籍 (3 books: 十名家詞集, 御選歷代詩餘, 虚齋樂府); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "彼食大藩",
+          "corrected": "彼须大藩",
+          "note": "Collation with 识典古籍 (3 books: 海瓊子詞, 海瓊玉蟾先生文集, 鮑明遠集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "祭而裸璋",
+          "corrected": "祭而祼璋",
+          "note": "Collation with 识典古籍 (3 books: 彊村叢書, 後村先生大全集, 後村長短句); dataset reading attested in none of the retrieved books; corrected by reviewer"
+        },
+        {
+          "original": "自愿卑栖翼",
+          "corrected": "自顾卑栖翼",
+          "note": "Collation with 识典古籍 (5 books: 典雅詞, 宋九家詞, 宋八家詞, 宋六家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "纷纷纡紫脱蓝",
+          "corrected": "纷纷纡紫拖蓝",
+          "note": "Collation with 识典古籍 (4 books: 十名家詞集, 御選歷代詩餘, 虚齋樂府, 閩詞鈔); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.15000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -113045,11 +113385,46 @@
           "original": "万红镜裹",
           "corrected": "万红镜里",
           "note": "Collation with 识典古籍 (2 books: 夢窗稿, 夢窗詞集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "金莲地市",
+          "corrected": "金莲地匝",
+          "note": "Collation with 识典古籍 (1 books: 開慶四明續志); dataset reading attested in none of the retrieved books; corrected by reviewer"
+        },
+        {
+          "original": "聘梅奴李",
+          "corrected": "娉梅奴李",
+          "note": "Collation with 识典古籍 (2 books: 宋元四明六志, 開慶四明續志); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "谁把金魂屑",
+          "corrected": "谁把金瑰屑",
+          "note": "Collation with 识典古籍 (3 books: 宋元四明六志, 彊村叢書, 開慶四明續志); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "半夜天矫陨坠",
+          "corrected": "半夜天骄陨坠",
+          "note": "Collation with 识典古籍 (2 books: 彊村叢書, 開慶四明續志); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "面丐菩萨",
+          "corrected": "面匀菩萨",
+          "note": "Collation with 识典古籍 (6 books: [御選]歷代詩餘, 全芳備祖, 全芳備祖前集, 全芳備祖樂府); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "山互同云垂幕",
+          "corrected": "山冱同云垂幕",
+          "note": "Collation with 识典古籍 (3 books: 秋崖先生小槁, 秋崖先生小稿, 秋崖集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "顾春如旧",
+          "corrected": "愿春如旧",
+          "note": "Collation with 识典古籍 (5 books: 夢窗稿, 夢窗詞集, 宋七家詞選, 彊村叢書); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.16000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -113377,11 +113752,51 @@
           "original": "皓鹤泪空碧",
           "corrected": "皓鹤唳空碧",
           "note": "Collation with 识典古籍 (2 books: [御選]歷代詩餘, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "轰围舞袖歌裳",
+          "corrected": "红围舞袖歌裳",
+          "note": "Collation with 识典古籍 (2 books: 夢窗稿, 彊村叢書); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "钓玉纤纤",
+          "corrected": "钩玉纤纤",
+          "note": "Collation with 识典古籍 (7 books: [御選]歷代詩餘, 夢窗稿, 宋六十一家詞選, 宋名家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "垂杨疏雨",
+          "corrected": "垂杨梳雨",
+          "note": "Collation with 识典古籍 (6 books: [御選]歷代詩餘, 古今圖書集成·閨媛典, 夢窗稿, 彊村叢書); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "气凌秋庄",
+          "corrected": "气凌秋壮",
+          "note": "Collation with 识典古籍 (3 books: 新編事文類聚翰墨全書甲集, 新編事文類聚翰墨大全, 新編通用啓札截江網); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "音和韵钧",
+          "corrected": "音和韶钧",
+          "note": "Collation with 识典古籍 (6 books: [御選]歷代詩餘, 中興以來絶妙詞選, 御選歷代詩餘, 花草稡編); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "晚烟泼□",
+          "corrected": "晚烟泼泼",
+          "note": "Collation with 识典古籍 (2 books: 柴氏四隱集, 柴秋堂詩集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "帐山君",
+          "corrected": "怅山君",
+          "note": "Collation with 识典古籍 (2 books: 詞綜補遺, 陽春白雪); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "帝思王某",
+          "corrected": "帝恩王某",
+          "note": "Collation with 识典古籍 (1 books: 雪坡集); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.17000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -113729,11 +114144,71 @@
           "original": "三生杜枚",
           "corrected": "三生杜牧",
           "note": "Collation with 识典古籍 (3 books: 元草堂詩餘, 精選名儒草堂詩餘, 鳳林書院草堂詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "回鸾子",
+          "corrected": "回鸾字",
+          "note": "Collation with 识典古籍 (4 books: [御選]歷代詩餘, 御選歷代詩餘, 潛齋先生文集, 潛齋集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "量芳钿",
+          "corrected": "晕芳钿",
+          "note": "Collation with 识典古籍 (4 books: 古今圖書集成·閨媛典, 復堂詞錄, 絶妙好詞箋, 詞綜); dataset reading attested in none of the retrieved books; corrected by reviewer"
+        },
+        {
+          "original": "疏疏点点忽难鸣",
+          "corrected": "疏疏点点忽鸡鸣",
+          "note": "Collation with 识典古籍 (2 books: 彊村叢書, 須溪集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "但细数斋年几人存",
+          "corrected": "但细数齐年几人存",
+          "note": "Collation with 识典古籍 (4 books: 新編事文類聚翰墨全書, 新編事文類聚翰墨全書甲集, 新編事文類聚翰墨大全, 須溪集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "若教此掏到痴人",
+          "corrected": "若教此掐到痴人",
+          "note": "Collation with 识典古籍 (2 books: 彊村叢書, 須溪集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "识他金带万钉垂",
+          "corrected": "谶他金带万钉垂",
+          "note": "Collation with 识典古籍 (1 books: 須溪集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "更老似渠□",
+          "corrected": "更老似渠鬓",
+          "note": "Collation with 识典古籍 (2 books: 宋明十六家詞, 須溪集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "新霜桀",
+          "corrected": "新霜粲",
+          "note": "Collation with 识典古籍 (3 books: 弁陽老人詞, 彊村叢書, 蘋州漁笛譜); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "愁更廿五声",
+          "corrected": "秋更廿五声",
+          "note": "Collation with 识典古籍 (4 books: 宋七家詞選, 御選歷代詩餘, 蘋州漁笛譜, 頻州漁笛譜); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "忍题红",
+          "corrected": "认题红",
+          "note": "Collation with 识典古籍 (4 books: [御選]歷代詩餘, 弁陽老人詞, 御選歷代詩餘, 頻州漁笛譜); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "点波一奁秋碧",
+          "corrected": "点破一奁秋碧",
+          "note": "Collation with 识典古籍 (3 books: 弁陽老人詞, 彊村叢書, 頻州漁笛譜); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "筝尘半妆",
+          "corrected": "筝尘半床",
+          "note": "Collation with 识典古籍 (5 books: 古今圖書集成·閨媛典, 弁陽老人詞, 御選歷代詩餘, 絶妙好詞箋); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.18000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -114011,11 +114486,26 @@
           "original": "拔棹皱涟漪",
           "corrected": "拨棹皱涟漪",
           "note": "Collation with 识典古籍 (4 books: 典雅詞, 别下齋叢書, 宋六家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "恰则绂鳞三日后",
+          "corrected": "恰则绂麟三日后",
+          "note": "Collation with 识典古籍 (3 books: [御選]歷代詩餘, 御選歷代詩餘, 覆瓿集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "纷丸曾泛金瓯",
+          "corrected": "粉丸曾泛金瓯",
+          "note": "Collation with 识典古籍 (5 books: 古今圖書集成·坤輿典, 宋名家詞, 御選歷代詩餘, 紅萼軒詞牌); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "奇峰相对接球庭",
+          "corrected": "奇峰相对接殊庭",
+          "note": "Collation with 识典古籍 (3 books: 宋元明三十三家詞, 山中白雲詞, 張玉田詞); dataset reading attested in none of the retrieved books; corrected by reviewer"
         }
       ]
     },
     "宋词/ci.song.19000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -114148,11 +114638,16 @@
           "original": "享运正当摄提",
           "corrected": "亨运正当摄提",
           "note": "Collation with 识典古籍 (3 books: 二十一史, 五禮通考, 古今圖書集成·樂律典); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "云章焜耀傅温玉",
+          "corrected": "云章焜耀传温玉",
+          "note": "Collation with 识典古籍 (2 books: 宋史, 御製律呂正義後編); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.2000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -114350,11 +114845,51 @@
           "original": "故人何处舣危墙",
           "corrected": "故人何处舣危樯",
           "note": "Collation with 识典古籍 (2 books: 别下齋叢書, 忠正德文集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "夭桃芳散锦",
+          "corrected": "夭桃方散锦",
+          "note": "Collation with 识典古籍 (4 books: [雍正]浙江通志, 古今圖書集成·歲功典, 宋名家詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "莫厌烧令短",
+          "corrected": "莫厌烧今短",
+          "note": "Collation with 识典古籍 (2 books: 丹陽詞, 宋名家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "推上百花如锦绣",
+          "corrected": "洲上百花如锦绣",
+          "note": "Collation with 识典古籍 (4 books: 宋元明三十三家詞, 宋名家詞, 御選歷代詩餘, 酒邊詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "不被鸡期",
+          "corrected": "不被鸡欺",
+          "note": "Collation with 识典古籍 (7 books: 宋名家詞, 山谷琴趣外篇, 山谷詞, 山谷集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "急檀催卷金河",
+          "corrected": "急檀催卷金荷",
+          "note": "Collation with 识典古籍 (5 books: 宋名家詞, 山谷琴趣外篇, 山谷詞, 山谷集); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "割爱金河",
+          "corrected": "割爱金荷",
+          "note": "Collation with 识典古籍 (3 books: 宋名家詞, 山谷全書, 山谷琴趣外篇); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "红映微花帘箔",
+          "corrected": "红映薇花帘箔",
+          "note": "Collation with 识典古籍 (8 books: 古今圖書集成·歲功典, 增修箋注妙選群英草堂詩餘前集, 增修箋注妙選草堂詩餘, 花草稡編); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "望尧斝",
+          "corrected": "望尧蓂",
+          "note": "Collation with 识典古籍 (3 books: 能改齋漫錄, 詞苑叢談, 詞苑叢谈); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.20000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -114432,6 +114967,26 @@
           "original": "借问优游黄倚",
           "corrected": "借问优游黄绮",
           "note": "Collation with 识典古籍 (2 books: 介菴詞, 宋元明三十三家詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "觚陆展躬祠",
+          "corrected": "觚陛展躬祠",
+          "note": "Collation with 识典古籍 (1 books: 宋史); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "紫烟竣事",
+          "corrected": "柴烟竣事",
+          "note": "Collation with 识典古籍 (2 books: 宋史, 欽定續文獻通考); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "也肌心饱眼",
+          "corrected": "也饥心饱眼",
+          "note": "Collation with 识典古籍 (5 books: 堅瓠集, 山中一夕話, 新刻東坡禪喜集, 東坡雜著五種); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "千岁容与旦人间",
+          "corrected": "千岁容与且人间",
+          "note": "Collation with 识典古籍 (3 books: 于湖居士文集, 于湖集, 合刻兩張先生集); dataset reading attested in none of the retrieved books"
         }
       ]
     },
@@ -114454,7 +115009,7 @@
       ]
     },
     "宋词/ci.song.3000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -114737,11 +115292,26 @@
           "original": "长记合欢东管夜",
           "corrected": "长记合欢东馆夜",
           "note": "Collation with 识典古籍 (2 books: 彊村叢書, 敬齊古今黈); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "轻阴易□",
+          "corrected": "轻阴易失",
+          "note": "Collation with 识典古籍 (2 books: 山中白雲詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "天涤悉皆归",
+          "corrected": "天地悉皆归",
+          "note": "Collation with 识典古籍 (10 books: 修真十書 雜著捷徑, 修真十書玉隆集, 太上老君説常清靜妙經纂圖解注, 太上老君説常清靜經注); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "客浣漳滨",
+          "corrected": "客宦漳滨",
+          "note": "Collation with 识典古籍 (3 books: [御選]歷代詩餘, 御定詞譜, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.4000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -114909,11 +115479,21 @@
           "original": "大千捏在豪端聚",
           "corrected": "大千捏在毫端聚",
           "note": "Collation with 识典古籍 (3 books: 南嶽禪燈會刻, 林間錄, 石門文字禪); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "华颠又喜熊罴且",
+          "corrected": "华颠又喜熊罴旦",
+          "note": "Collation with 识典古籍 (2 books: 御選歷代詩餘, 晁无咎詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "归路玉眠吹帽",
+          "corrected": "归路玉绵吹帽",
+          "note": "Collation with 识典古籍 (2 books: 晁无咎詞, 晁氏琴趣外篇); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.5000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -115051,11 +115631,16 @@
           "original": "画柯横江",
           "corrected": "画舸横江",
           "note": "Collation with 识典古籍 (2 books: 御選歷代詩餘, 竹坡詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "□慢梳头浅画眉",
+          "corrected": "松慢梳头浅画眉",
+          "note": "Collation with 识典古籍 (4 books: 唐宋諸賢絶妙詞選, 御定韻府拾遺, 詞苑英華, 詞苑英華九種); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.6000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -115238,11 +115823,16 @@
           "original": "叶剪玻璃芯糁金",
           "corrected": "叶剪玻璃蕊糁金",
           "note": "Collation with 识典古籍 (2 books: 宋名家詞, 閩詞鈔); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "碧云□杳",
+          "corrected": "碧云路杳",
+          "note": "Collation with 识典古籍 (5 books: [御選]歷代詩餘, 友古詞, 宋名家詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.7000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -115465,11 +116055,21 @@
           "original": "迟书忽寄西飞鹤",
           "corrected": "尺书忽寄西飞鹤",
           "note": "Collation with 识典古籍 (5 books: 全閩詩話, 历朝名媛詩詞, 御選歷代詩餘); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "雨月为期",
+          "corrected": "两月为期",
+          "note": "Collation with 识典古籍 (1 books: 聖求詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "数声□度风前",
+          "corrected": "数声蝉度风前",
+          "note": "Collation with 识典古籍 (2 books: 御選歷代詩餘, 逃禪詞); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.8000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "needs_review",
       "fixes": [
@@ -115632,11 +116232,16 @@
           "original": "拂拭苍崖苔鲜",
           "corrected": "拂拭苍崖苔藓",
           "note": "Collation with 识典古籍 (5 books: [御選]歷代詩餘, 古今圖書集成·考工典, 孏窟詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "环花仙标格",
+          "corrected": "坏花仙标格",
+          "note": "Collation with 识典古籍 (2 books: 盤洲文集, 盤洲樂章); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/ci.song.9000.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -115794,11 +116399,26 @@
           "original": "今夜只边舟",
           "corrected": "今夜只扁舟",
           "note": "Collation with 识典古籍 (2 books: 永樂大典, 石湖詞); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "又送焦柯",
+          "corrected": "又送樵柯",
+          "note": "Collation with 识典古籍 (4 books: [御選]歷代詩餘, 南詞十三種, 御選歷代詩餘, 花草稡編); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "紫河香满晴陌",
+          "corrected": "紫荷香满晴陌",
+          "note": "Collation with 识典古籍 (6 books: 草堂詩余, 草堂詩餘前集, 草堂詩餘正集, 詞學筌蹄); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "不思琵琶道得真",
+          "corrected": "不似琵琶道得真",
+          "note": "Collation with 识典古籍 (7 books: 宋名家詞, 放翁詞, 永樂大典, 渭南文集); dataset reading attested in none of the retrieved books"
         }
       ]
     },
     "宋词/宋词三百首.json": {
-      "date": "2026-10-26",
+      "date": "2026-10-31",
       "reviewer": "claude-opus-5-5",
       "status": "fixed",
       "fixes": [
@@ -115906,6 +116526,21 @@
           "original": "长怀望断",
           "corrected": "长淮望断",
           "note": "Collation with 识典古籍 (5 books: 于湖居士文集, 于湖集, 宋六十一家詞選); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "嬉游醉眠",
+          "corrected": "嬉游醉眼",
+          "note": "Collation with 识典古籍 (5 books: 全芳備祖, 全芳備祖後集, 碎金續譜, 花草稡編); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "枕鸳孤",
+          "corrected": "枕鸾孤",
+          "note": "Collation with 识典古籍 (6 books: [御選]歷代詩餘, 古今圖書集成·閨媛典, 大小晏詞, 宋六十一家詞選); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "罗衣初萦",
+          "corrected": "罗衣初索",
+          "note": "Collation with 识典古籍 (4 books: 宋詞三百首, 御選歷代詩餘, 白石道人歌曲, 白石道人詩集); dataset reading attested in none of the retrieved books"
         }
       ]
     },
