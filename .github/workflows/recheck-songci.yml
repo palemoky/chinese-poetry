@@ -1,0 +1,79 @@
+# 宋词对勘复核：每 4 小时检索识典古籍一批，重新核对既往判定，并上传复核表。说明见 docs/宋词对勘.md。
+# 全部检索完成后请在 Actions 页面停用本 workflow。
+name: Recheck 宋词
+
+on:
+  schedule:
+    - cron: '30 */4 * * *'      # 避开整点（GitHub 定时任务可能延迟数十分钟）
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '本次检索条数（每条约 6 秒）'
+        default: '2000'
+
+concurrency:
+  group: recheck-songci         # 同一时间只运行一次，避免并发访问识典古籍
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  W: /home/runner/recheck-work
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: scripts/shidian/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          pip install opencc-python-reimplemented
+          cd scripts/shidian && npm ci && npx playwright install --with-deps chromium
+
+      - name: Restore work directory
+        uses: actions/cache/restore@v6
+        with:
+          path: ${{ env.W }}
+          key: recheck-songci-${{ github.run_id }}
+          restore-keys: recheck-songci-
+
+      - name: Plan
+        run: python3 scripts/recheck.py plan --work "$W"
+
+      # 2000 条慢时会超过 4 小时：给检索单独设时限，留出时间做后面的分析与保存
+      - name: Search 识典古籍
+        timeout-minutes: 210
+        continue-on-error: true
+        run: node scripts/shidian/search.mjs "$W/queries.json" "$W/results.jsonl" --limit "${{ inputs.limit || '2000' }}"
+
+      - name: Analyze
+        run: |
+          python3 scripts/recheck.py analyze --work "$W" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Save work directory
+        if: always()
+        uses: actions/cache/save@v6
+        with:
+          path: ${{ env.W }}
+          key: recheck-songci-${{ github.run_id }}
+
+      - name: Upload recheck table
+        uses: actions/upload-artifact@v7
+        with:
+          name: recheck-songci
+          path: |
+            ${{ env.W }}/recheck.tsv
+            ${{ env.W }}/state.json
+          retention-days: 30
