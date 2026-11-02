@@ -322,6 +322,26 @@
           "original": "[formatting] question_mark 1; whitespace 29; half_width 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "一树料阳蝉更咽",
+          "corrected": "一树斜阳蝉更咽",
+          "note": "形近错字；《通志堂集》卷八（康熙三十年徐乾学刻本）、张纯修刻《饮水词集》卷下作「一树斜阳蝉更咽」（识典古籍 https://www.shidianguji.com/search/一树斜阳蝉更咽）"
+        },
+        {
+          "original": "絮己为萍风卷叶",
+          "corrected": "絮已为萍风卷叶",
+          "note": "形近错字；光绪六年娱园刻本《纳兰词》卷三作「絮已为萍风卷叶」，《通志堂集》作「巳」（识典古籍 https://www.shidianguji.com/search/絮已为萍风卷叶）"
+        },
+        {
+          "original": "樱桃半是鸟街残",
+          "corrected": "樱桃半是鸟衔残",
+          "note": "形近错字；《通志堂集》卷六、张纯修刻《饮水词集》卷上、娱园本《纳兰词》卷五均作「鸟衔残」（识典古籍 https://www.shidianguji.com/search/樱桃半是鸟衔残）"
+        },
+        {
+          "original": "伏雨朝寒悉不胜",
+          "corrected": "伏雨朝寒愁不胜",
+          "note": "形近错字；词题即「伏雨朝寒愁不胜」，古诗文网同（https://www.gushiwen.cn/shiwenv_f05e33d6c7a1.aspx）"
         }
       ]
     },
@@ -368,6 +388,16 @@
           "original": "[formatting] question_mark 2",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "霾土忽兮塺々",
+          "corrected": "霾土忽兮塺塺",
+          "note": "日文重复符号 々 → 塺；四部丛刊《楚辞》卷十五、王逸《楚辞章句》作「霾土忽兮塺塺」（识典古籍 https://www.shidianguji.com/search/霾土忽兮塺塺）"
+        },
+        {
+          "original": "飘风蓬龙埃坲々兮",
+          "corrected": "飘风蓬龙埃坲坲兮",
+          "note": "日文重复符号 々 → 坲；四部丛刊《楚辞》卷十六、王逸《楚辞章句》作「埃坲坲兮」（识典古籍 https://www.shidianguji.com/search/飘风蓬龙埃坲坲）"
         }
       ]
     },
@@ -1037,6 +1067,11 @@
           "original": "[lacuna marker] 囗 ×7",
           "corrected": "[lacuna marker] □",
           "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        },
+        {
+          "original": "桂掉举摇开翠烟",
+          "corrected": "桂棹举摇开翠烟",
+          "note": "形近错字；《雍熙乐府》卷十七（四部丛刊景嘉靖本）作「桂棹举摇开翠烟」（识典古籍 https://www.shidianguji.com/search/桂棹举摇开翠烟）"
         }
       ]
     },
@@ -112741,6 +112776,11 @@
           "original": "独甚占秋光",
           "corrected": "独自占秋光",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：中興以來絶妙詞選 全芳備祖前集 全芳備祖集 歷代詩餘 讀畫齋重刻南宋群賢小集"
+        },
+        {
+          "original": "雨﹀人︽",
+          "corrected": "雨僝云僽",
+          "note": "乱码 ﹀︽ → 僝僽，且「人」当作「云」；陈亮《点绛唇》，四库本《龙川词》《龙川集》卷十七、汲古阁本《宋名家词·龙川词》均作「雨僝云僽」（识典古籍 https://www.shidianguji.com/search/千里人长久君知否）"
         }
       ]
     },
@@ -113103,6 +113143,11 @@
           "original": "红烛呼庐宵不寐",
           "corrected": "红烛呼卢宵不寐",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：宋名家詞 宋金元人詞 後村先生大全集 後村居士集 後村集 歷代詩餘"
+        },
+        {
+          "original": "风﹀雨︽",
+          "corrected": "风僝雨僽",
+          "note": "乱码 ﹀︽ → 僝僽；白玉蟾词，《修真十书·上清集》《白玉蟾集》作「吃尽风僝雨僽」（识典古籍 https://www.shidianguji.com/search/吃尽风僝雨僽）"
         }
       ]
     },
@@ -114626,6 +114671,11 @@
           "original": "五年未老君犹健",
           "corrected": "吾年未老君犹健",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：新編事文類聚翰墨全書甲集 新編事文類聚翰墨大全 新編事文類聚翰墨大全甲集"
+        },
+        {
+          "original": "釂琼ⅲ也",
+          "corrected": "釂琼𨠑也",
+          "note": "乱码 ⅲ；四库本《竹山词》、汲古阁本《宋名家词·竹山词》、《御选历代诗余》作「釂琼𨠑也」，《御定词谱》作「酏」（识典古籍 https://www.shidianguji.com/search/镜月危楼釂琼）"
         }
       ]
     },
@@ -116128,6 +116178,11 @@
           "original": "一枝轻寒",
           "corrected": "一枕轻寒",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：唐宋諸賢絶妙詞選 歷代詩餘 花菴詞選 詞苑英華"
+        },
+        {
+          "original": "﹀︽莺莺并燕燕",
+          "corrected": "僝僽莺莺并燕燕",
+          "note": "乱码 ﹀︽ → 僝僽；《于湖居士文集》卷三十三（四部丛刊景宋本）作「僝僽莺莺并燕燕」（识典古籍 https://www.shidianguji.com/search/僝僽莺莺并燕燕）"
         }
       ]
     },
@@ -116400,6 +116455,11 @@
           "original": "长亭兹辰劝酒",
           "corrected": "长享兹辰劝酒",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：彊村叢書 松隱文集 松隱集"
+        },
+        {
+          "original": "风﹀雨︽",
+          "corrected": "风僝雨僽",
+          "note": "乱码 ﹀︽ → 僝僽；杨无咎词，四库本《逃禅词》、《花草稡编》卷十九作「风僝雨僽」（识典古籍 https://www.shidianguji.com/search/一春晴昼风僝雨僽）"
         }
       ]
     },
@@ -116597,6 +116657,11 @@
           "original": "卮圣万肩摩",
           "corrected": "扈圣万肩摩",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：二十一史 宋史 文體明辯 盤洲文集"
+        },
+        {
+          "original": "风﹀雨︽",
+          "corrected": "风僝雨僽",
+          "note": "乱码 ﹀︽ → 僝僽；朱淑真词，四库本与汲古阁本《断肠词》作「风僝雨僽，打碎光凝色」（识典古籍 https://www.shidianguji.com/search/好景难留风僝雨僽）"
         }
       ]
     },
