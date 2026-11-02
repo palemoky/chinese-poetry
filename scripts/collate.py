@@ -11,7 +11,7 @@
   python3 scripts/collate.py apply   --work <work> --applied docs/宋词对勘.applied.json --reviewer <名字> --date YYYY-MM-DD
   python3 scripts/collate.py report  --work <work> --applied docs/宋词对勘.applied.json --doc docs/宋词对勘.md
 
-检索与分析由 .github/workflows/collate-songci.yml 每天定时运行；审核表从该 workflow 的 artifact 下载。
+宋词对勘已完成，定时 workflow 已删除；对勘其他合集时可从 git 历史恢复 .github/workflows/collate-songci.yml。
   python3 scripts/collate.py next    --work <work>          # 显示下一步要运行的命令
 
 判定规则：

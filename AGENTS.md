@@ -170,7 +170,7 @@ Per-file review cannot scale to rare poems you do not recognize. These tools fix
 | Tool | Purpose |
 |------|---------|
 | `scripts/check_structure.py` | Scan the whole dataset: garbles (Cyrillic/Greek, kana/bopomofo, box-drawing, U+FFFD, bare PUA, ASCII residue), `□` gaps, line-length and 词牌 anomalies. Report only. |
-| `scripts/collate.py` | Whole-corpus, sentence-by-sentence collation against 识典古籍, run in small daily batches by the scheduled workflow `.github/workflows/collate-songci.yml`; humans review its `review.tsv` artifact. 宋词 is in progress — see `docs/宋词对勘.md`. |
+| `scripts/collate.py` | Whole-corpus, sentence-by-sentence collation against 识典古籍, with humans reviewing its `review.tsv`. 宋词 is done and its scheduled workflow removed (restore `collate-songci.yml` from git history to collate another corpus) — see `docs/宋词对勘.md`. |
 | `scripts/twin_collate.py` | Collate anthologies (花间集, 南唐, 唐诗三百首, 千家诗, 水墨唐诗) against the same poems in 全唐诗/宋词; one-char differences judged on 识典古籍, reviewed in `review.tsv`, closed items kept in `docs/小合集互校.applied.json`. Read its docstring for review lessons before deciding. |
 | `scripts/merge_anthologies.py` | Merge Tang anthologies into 全唐诗/poet.tang.* (tags + `prologue`) and drop poet.tang copies of 花间集/南唐 词; dry-run by default, `--apply` writes `docs/唐诗去重.tsv`. Already applied — rerun only if those files are re-imported. |
 | `scripts/shidian.py` + `scripts/shidian/search.mjs` | Evidence pipeline: `build` → search 识典古籍 → `analyze` → review `review.tsv` → `apply`. |

@@ -40,5 +40,5 @@
 - [`scripts/twin_collate.py`](scripts/twin_collate.py)：选本（花间集、唐诗三百首、千家诗等）↔ 全唐诗 / 宋词 互校，一字之差以识典古籍判定，人工审核后写回；已审条目记在 [`docs/小合集互校.applied.json`](docs/小合集互校.applied.json)。
 - [`scripts/merge_anthologies.py`](scripts/merge_anthologies.py)：把唐诗选本并入全唐诗、删除重复（默认预演，`--apply` 写回）。
 - [`scripts/shidian.py`](scripts/shidian.py)：以识典古籍批量检索为证据，生成审核表，人工确认后写回。
-- [`scripts/collate.py`](scripts/collate.py)：整部合集逐句与古籍对勘，由 GitHub Actions 每天定时分批运行。宋词对勘正在进行中，进度与参与方式见 [`docs/宋词对勘.md`](docs/宋词对勘.md)。
+- [`scripts/collate.py`](scripts/collate.py)：整部合集逐句与古籍对勘，曾由 GitHub Actions 定时分批运行。宋词对勘已完成，结果与方法见 [`docs/宋词对勘.md`](docs/宋词对勘.md)。
 - 参与修正请阅读 [`AGENTS.md`](AGENTS.md)（适用于人工与 AI 贡献者）。
