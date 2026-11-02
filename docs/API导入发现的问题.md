@@ -18,8 +18,6 @@
 
 ### `loader/datas.json`
 
-- `songci.excludes` 写的是 `authors.song.json`，实际文件名是 `宋词/author.song.json`（单数）。这个文件现在会被当作诗词读进来，只是因为没有 `paragraphs` 才被丢掉。
-- `宋词/宋词三百首.json` 不在 `excludes` 中，会作为重复数据再导入一遍（API 侧会去重，但其他使用 `datas.json` 的工具不会）。
 - `蒙学/` 不在 `datas.json` 中（`nalanxingde` 的注释里说明过）。
 - `幽梦影/youmengying.json` 只有 `content` 与 `comment` 字段，没有作者，API 侧只能写死为张潮。可以考虑在数据里补上 `author`。
 

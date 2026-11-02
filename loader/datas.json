@@ -38,7 +38,7 @@
             "name": "宋词",
             "id": 5,
             "path": "宋词/",
-            "excludes": ["authors.song.json", "ci.db", "main.py", "README.md", "UpdateCi.py"],
+            "excludes": ["author.song.json", "宋词三百首.json", "ci.db", "main.py", "README.md", "UpdateCi.py"],
             "tag": "paragraphs"
         },
         "youmengying": {
