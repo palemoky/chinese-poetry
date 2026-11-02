@@ -14,7 +14,7 @@
        python3 scripts/shidian.py apply --work /tmp/sd
 
 支持的 --check（与 check_structure.py 同名）：
-  kana_bopomofo / bare_pua                   乱码：原字必在 GB2312 之外（本数据集的规律）
+  kana_bopomofo / symbol_garble / bare_pua   乱码：原字必在 GB2312 之外（本数据集的规律）
   missing_char                               □ 缺字：更严格，需 ≥2 种古籍；原书同缺则不补
   shi_line_length / ci_pattern               字数异常句：比对原样与「多/少一字」的他本
 
@@ -42,7 +42,7 @@ HAN = re.compile(r'[㐀-鿿\U00020000-\U0003ffff]')
 PUNCT = set('，。、；：？！“”‘’「」『』《》（）·・ 　,.;:?!…')
 TRAD_DIRS = {'全唐诗', '四书五经', '论语', '蒙学'}   # 繁体数据
 BOXLIKE = set('口囗丶〇')            # 原书缺字方框常被 OCR 成这些字
-TOKEN_CHECKS = {'kana_bopomofo', 'bare_pua', 'missing_char'}
+TOKEN_CHECKS = {'kana_bopomofo', 'symbol_garble', 'bare_pua', 'missing_char'}
 LINE_CHECKS = {'shi_line_length', 'ci_pattern'}
 
 
@@ -69,13 +69,11 @@ def in_gb2312(text):
 
 
 def side(chars, n=6):
-    """取紧邻的汉字上下文（跳过标点、遇到其他字符即停，叠字符号「々」展开）。"""
+    """取紧邻的汉字上下文（跳过标点、遇到其他字符即停）。"""
     out = ''
     for c in chars:
         if HAN.match(c):
             out += c
-        elif c == '々' and out:
-            out += out[-1]
         elif c in PUNCT or c.isspace():
             continue
         else:
@@ -127,8 +125,9 @@ def iter_strings(rel, data):
 
 
 def token_spans(check, rel, s):
-    if check == 'kana_bopomofo':
-        for m in re.finditer(cs.KANA_BOPOMOFO.pattern + '+', s):
+    if check in ('kana_bopomofo', 'symbol_garble'):
+        rx = cs.KANA_BOPOMOFO if check == 'kana_bopomofo' else cs.SYMBOL_GARBLE
+        for m in re.finditer(rx.pattern + '+', s):
             yield m.start(), m.end(), len(m.group())
     elif check == 'bare_pua':
         holders = [(a.start(), a.end()) for a in cs.PLACEHOLDER.finditer(s)]

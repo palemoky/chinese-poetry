@@ -1072,6 +1072,11 @@
           "original": "桂掉举摇开翠烟",
           "corrected": "桂棹举摇开翠烟",
           "note": "形近错字；《雍熙乐府》卷十七（四部丛刊景嘉靖本）作「桂棹举摇开翠烟」（识典古籍 https://www.shidianguji.com/search/桂棹举摇开翠烟）"
+        },
+        {
+          "original": "<鼻勾>々似鼻息如雷",
+          "corrected": "<鼻勾><鼻勾>似鼻息如雷",
+          "note": "日文叠字符号 々 写出本字（与楚辞 塺々→塺塺 同例），沈和《桂枝香南》标题；《新刻群音类选》卷六（雍正潘氏遂初堂刻本）作「齁齁的鼻息如雷」，《词林摘艳》丙集作「劓劓似鼻息如雷」，均为叠字（识典古籍 https://www.shidianguji.com/search/似鼻息如雷睡足）。<鼻勾> 疑即「齁」，占位符未改（2026-11-02，claude-opus-5-5）"
         }
       ]
     },
@@ -115192,6 +115197,11 @@
           "original": "赤儿绣裳今仲父",
           "corrected": "赤舄绣裳今仲父",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：宋名家詞 東堂詞"
+        },
+        {
+          "original": "骑鸾ⅶ鹤休归去",
+          "corrected": null,
+          "note": "needs_review: 罗马数字乱码 ⅶ (U+2176)，与 ci.song.18000「釂琼ⅲ也」同类，原字应在 GB2312 之外；高伯达《鹧鸪天》，识典古籍检索「留取人间作女仙」「输与萧郎半月前」「骑鸾」均无此词，未补（2026-11-02，claude-opus-5-5）"
         }
       ]
     },

@@ -8,6 +8,7 @@
   cyrillic_greek   西里尔 / 希腊字母乱码
   kana_bopomofo    日文假名 / 注音符号乱码
   box_drawing      制表符号乱码（┾ ╆ 等）与 U+FFFD 替换符
+  symbol_garble    竖排标点兼容形（﹀ ︽ 等）、罗马数字（ⅲ ⅶ 等）与日文叠字符号「々」
   dup_punct        重复标点（？。 ！。 。。 ，， 、、）
   half_width_punct 紧邻汉字的半角 , ; : !
   bare_pua         {...} 之外的私用区字符
@@ -43,13 +44,15 @@ BOX_DRAWING = re.compile(r'[\u2500-\u257f\ufffd]')   # 制表符号乱码与 U+F
 DUP_PUNCT = re.compile(r'？。|！。|。。|，，|、、')                 # 已规整过的重复标点
 HALF_PUNCT = re.compile(r'(?<=[\u4e00-\u9fff])[,;:!]|[,;:!](?=[\u4e00-\u9fff])')   # 紧邻汉字的半角标点
 KANA_BOPOMOFO = re.compile(r'[\u3040-\u30fa\u30fc-\u30ff\u3100-\u312f\u31a0-\u31bf]')  # 假名、注音乱码（不含标题分隔符・）
+# 竖排标点兼容形与罗马数字是同类乱码（﹀︽ → 僝僽，ⅲ → 𨠑）；「々」不是中文用字，叠字一律写出本字（塺々 → 塺塺）
+SYMBOL_GARBLE = re.compile(r'[\ufe30-\ufe4f\u2160-\u217f\u3005]')
 PUA = re.compile(r'[-]')
 CI_DIRS = {'宋词', '五代诗词'}
 SHI_DIRS = {'全唐诗', '水墨唐诗', '曹操诗集', '纳兰性德'}  # 元曲有衬字，不做字数检查
 
 
 # 这些检查项一旦增加即视为退化（CI 失败）；缺字、字数异常等多为底本原貌，仅作提示
-STRICT = ('bad_json', 'cyrillic_greek', 'kana_bopomofo', 'box_drawing', 'bare_pua', 'ascii_residue',
+STRICT = ('bad_json', 'cyrillic_greek', 'kana_bopomofo', 'symbol_garble', 'box_drawing', 'bare_pua', 'ascii_residue',
           'dup_punct', 'half_width_punct')
 
 
@@ -77,11 +80,10 @@ def iter_poems(rel):
 
 
 def clean(s):
-    """去夹注与校勘方括号，生僻字占位折算为 1 个字符，叠字符号「々」展开为前一字。"""
+    """去夹注与校勘方括号，生僻字占位折算为 1 个字符。"""
     s = NOTE.sub('', s)
     s = PLACEHOLDER.sub('〇', s)
-    s = s.replace('[', '').replace(']', '')
-    return re.sub(r'(.)々', r'\1\1', s)
+    return s.replace('[', '').replace(']', '')
 
 
 def sentences(lines):
@@ -103,7 +105,7 @@ def check_chars(rel, idx, it, lines, report):
     for line in lines:
         body = FOOTNOTE.sub('', PLACEHOLDER.sub('', line))
         for kind, rx in (('cyrillic_greek', CYRILLIC_GREEK), ('kana_bopomofo', KANA_BOPOMOFO),
-                         ('box_drawing', BOX_DRAWING), ('bare_pua', PUA), ('ascii_residue', ASCII_RES),
+                         ('symbol_garble', SYMBOL_GARBLE), ('box_drawing', BOX_DRAWING), ('bare_pua', PUA), ('ascii_residue', ASCII_RES),
                          ('dup_punct', DUP_PUNCT), ('half_width_punct', HALF_PUNCT)):
             for m in rx.finditer(body):
                 report(kind, rel, idx, it, line, token=m.group())
@@ -115,7 +117,7 @@ def check_chars(rel, idx, it, lines, report):
         if isinstance(text, str):
             body = PLACEHOLDER.sub('', text)
             for kind, rx in (('cyrillic_greek', CYRILLIC_GREEK), ('kana_bopomofo', KANA_BOPOMOFO),
-                             ('bare_pua', PUA)):
+                             ('symbol_garble', SYMBOL_GARBLE), ('bare_pua', PUA)):
                 for m in rx.finditer(body):
                     report(kind, rel, idx, it, f'[{field}] {text}', token=m.group())
 
