@@ -13,6 +13,9 @@
   overturn_reject  当时否决：本库读法 0 种书，建议读法 ≥2 种书 → 可能是漏改的错字
   overturn_accept  当时采纳：原读法有书支持 → 可能把异文改掉了；或建议读法 0 种书 → 可能改错了
   weak             双方都不足 2 种书，证据不足
+
+注意：结果页只有第一页，且审核表本身只收录本库读法未命中的句子，所以 overturn_reject 大量虚高。裁定前须用含本库读法的
+字串定向检索（抽样 25% 能查到）。裁定写入 docs/宋词对勘.recheck-decisions.tsv，用 recheck.py apply 写回。
 """
 import argparse
 import collections
@@ -176,6 +179,37 @@ def cmd_analyze(args):
     print(json.dumps(state, ensure_ascii=False))
 
 
+def cmd_apply(args):
+    """按人工裁定表写回：fix 改正错字，revert 撤销误改的异文。collate.py apply 不处理已关闭的条目。"""
+    progress_path = os.path.join(ROOT, 'fix_progress.json')
+    progress = json.load(open(progress_path, encoding='utf-8'))
+    n = collections.Counter()
+    for r in csv.DictReader(open(args.decisions, encoding='utf-8'), delimiter='\t'):
+        path = os.path.join(ROOT, r['file'])
+        raw = open(path, encoding='utf-8').read()
+        paras = json.loads(raw)[int(r['idx'])]['paragraphs']
+        hits = [p for p in paras if p.count(r['current']) == 1]
+        old = json.dumps(hits[0], ensure_ascii=False) if len(hits) == 1 else None
+        if old is None or raw.count(old) != 1:
+            print('skip', r['key'], r['current'])
+            n['skip'] += 1
+            continue
+        new = json.dumps(hits[0].replace(r['current'], r['new'], 1), ensure_ascii=False)
+        open(path, 'w', encoding='utf-8').write(raw.replace(old, new, 1))
+        e = progress['reviewed'][r['file']]
+        fixes = e.setdefault('fixes', [])
+        if r['action'] == 'revert':
+            e['fixes'] = [f for f in fixes if not (f.get('original') == r['new'] and f.get('corrected') == r['current'])]
+        else:
+            fixes.append(dict(original=r['current'], corrected=r['new'],
+                              note=f"Recheck with directed 识典古籍 search: dataset reading not found; {r['evidence']}"))
+        e['date'], e['reviewer'] = args.date, args.reviewer
+        n[r['action']] += 1
+    sd.recompute_stats(progress)
+    open(progress_path, 'w', encoding='utf-8').write(json.dumps(progress, ensure_ascii=False, indent=2))
+    print(dict(n))
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest='cmd', required=True)
@@ -188,6 +222,11 @@ def main():
         p = sub.add_parser(name)
         p.add_argument('--work', required=True)
         p.set_defaults(fn=fn)
+    p = sub.add_parser('apply')
+    p.add_argument('--decisions', default=os.path.join(ROOT, 'docs', '宋词对勘.recheck-decisions.tsv'))
+    p.add_argument('--reviewer', required=True)
+    p.add_argument('--date', required=True)
+    p.set_defaults(fn=cmd_apply)
     args = ap.parse_args()
     args.fn(args)
 
