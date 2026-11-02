@@ -1,6 +1,6 @@
 # API 导入时发现的数据问题
 
-[chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) 把本仓库导入 SQLite 时发现的问题。统计基于 `fix-typo` 分支 6d69e24。逐条清单（2203 条）见 [`API导入问题清单.tsv`](API导入问题清单.tsv)：id 列沿用 `人工复核清单.tsv` 的 `文件#下标` 写法，下标从 0 开始。增删记录后下标会错位，清单由 [`scripts/api_findings.py`](../scripts/api_findings.py) 生成，使用前请在最新数据上重新运行。
+[chinese-poetry-api](https://github.com/palemoky/chinese-poetry-api) 把本仓库导入 SQLite 时发现的问题。统计基于 `fix-typo` 分支 a0eb299。逐条清单（2203 条）见 [`API导入问题清单.tsv`](API导入问题清单.tsv)：id 列沿用 `人工复核清单.tsv` 的 `文件#下标` 写法，下标从 0 开始。增删记录后下标会错位，清单由 [`scripts/api_findings.py`](../scripts/api_findings.py) 生成，使用前请在最新数据上重新运行。
 
 ## 需要在本仓库修复
 

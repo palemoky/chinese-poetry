@@ -5,8 +5,8 @@
     "total_files": 375,
     "reviewed": 689,
     "clean": 157,
-    "fixed": 159,
-    "needs_review": 60,
+    "fixed": 160,
+    "needs_review": 59,
     "out_of_scope": 313,
     "in_scope_files": 376
   },
@@ -6043,13 +6043,8 @@
     "全唐诗/poet.song.68000.json": {
       "date": "2026-10-05",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
-        {
-          "original": "香爐下烟霞客，此夜皇州亦掩門。",
-          "corrected": null,
-          "note": "Bare PUA U+E064 between 爐 and 下 in 晁說之《寄李輔之 其一》. Likely rare char placeholder."
-        },
         {
           "original": "香爐下烟霞客，此夜皇",
           "corrected": "香爐峰下烟霞客，此夜皇",
