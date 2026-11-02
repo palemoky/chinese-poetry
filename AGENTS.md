@@ -235,7 +235,9 @@ Status values:
 - `needs_review` — suspicious but not corrected; include details in `fixes` with `corrected: null`
 - `out_of_scope` — not part of the published dataset (currently all of `全唐诗/error/`, records the upstream project flagged as defective and `loader/datas.json` excludes); kept for reference, not counted as pending
 
-Also update the top-level `stats` counters (`reviewed`, `clean`, `fixed`, `needs_review`, `out_of_scope`, `in_scope_files`). The batch tools recompute them from file statuses automatically.
+When appending fixes to a file that is already in `reviewed`, keep the file's `date`/`reviewer` (they belong to the earlier review) and put `date` and `reviewer` on each new fix entry instead. Record one decision per entry: a garble replacement and an unrelated typo in the same phrase (雨﹀人︽ → 雨僝人僽, then 雨僝人僽 → 雨僝云僽) are two entries, each with its own evidence.
+
+Also update the top-level `stats` counters (`total_files`, `reviewed`, `clean`, `fixed`, `needs_review`, `out_of_scope`, `in_scope_files`). The batch tools recompute them from file statuses automatically.
 
 ---
 

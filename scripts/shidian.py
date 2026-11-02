@@ -359,6 +359,9 @@ def recompute_stats(progress):
     for k in ('clean', 'fixed', 'needs_review', 'out_of_scope'):
         st[k] = statuses.get(k, 0)
     st['in_scope_files'] = st['reviewed'] - st['out_of_scope']
+    # 应审文件 = 扫描清单（check_structure.iter_files）+ 清单外但已记录的在册文件（如作者表 宋词/author.song.json）
+    in_scope = {rel for rel, e in progress['reviewed'].items() if e.get('status') != 'out_of_scope'}
+    st['total_files'] = len(set(cs.iter_files()) | in_scope)
 
 
 def cmd_apply(args):

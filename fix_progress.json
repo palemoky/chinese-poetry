@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "description": "Progress tracker for fixing typos and garbled characters (乱码) in chinese-poetry dataset. See .claude/commands/fix-typos.md for the workflow.",
+  "description": "Progress tracker for fixing typos and garbled characters (乱码) in chinese-poetry dataset. See AGENTS.md for the workflow.",
   "stats": {
-    "total_files": 375,
+    "total_files": 376,
     "reviewed": 689,
     "clean": 157,
     "fixed": 160,
@@ -326,22 +326,30 @@
         {
           "original": "一树料阳蝉更咽",
           "corrected": "一树斜阳蝉更咽",
-          "note": "形近错字；《通志堂集》卷八（康熙三十年徐乾学刻本）、张纯修刻《饮水词集》卷下作「一树斜阳蝉更咽」（识典古籍 https://www.shidianguji.com/search/一树斜阳蝉更咽）"
+          "note": "形近错字；《通志堂集》卷八（康熙三十年徐乾学刻本）、张纯修刻《饮水词集》卷下作「一树斜阳蝉更咽」（识典古籍 https://www.shidianguji.com/search/一树斜阳蝉更咽）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         },
         {
           "original": "絮己为萍风卷叶",
           "corrected": "絮已为萍风卷叶",
-          "note": "形近错字；光绪六年娱园刻本《纳兰词》卷三作「絮已为萍风卷叶」，《通志堂集》作「巳」（识典古籍 https://www.shidianguji.com/search/絮已为萍风卷叶）"
+          "note": "形近错字；光绪六年娱园刻本《纳兰词》卷三作「絮已为萍风卷叶」，《通志堂集》作「巳」（识典古籍 https://www.shidianguji.com/search/絮已为萍风卷叶）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         },
         {
           "original": "樱桃半是鸟街残",
           "corrected": "樱桃半是鸟衔残",
-          "note": "形近错字；《通志堂集》卷六、张纯修刻《饮水词集》卷上、娱园本《纳兰词》卷五均作「鸟衔残」（识典古籍 https://www.shidianguji.com/search/樱桃半是鸟衔残）"
+          "note": "形近错字；《通志堂集》卷六、张纯修刻《饮水词集》卷上、娱园本《纳兰词》卷五均作「鸟衔残」（识典古籍 https://www.shidianguji.com/search/樱桃半是鸟衔残）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         },
         {
           "original": "伏雨朝寒悉不胜",
           "corrected": "伏雨朝寒愁不胜",
-          "note": "形近错字；词题即「伏雨朝寒愁不胜」，古诗文网同（https://www.gushiwen.cn/shiwenv_f05e33d6c7a1.aspx）"
+          "note": "形近错字；张纯修刻《饮水词集》卷上、《通志堂集》卷六（康熙三十年徐乾学刻本）、光绪六年娱园刻本《纳兰词》卷一均作「伏雨朝寒愁不胜」，词题同（识典古籍 https://www.shidianguji.com/search/伏雨朝寒愁不胜）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         }
       ]
     },
@@ -392,12 +400,16 @@
         {
           "original": "霾土忽兮塺々",
           "corrected": "霾土忽兮塺塺",
-          "note": "日文重复符号 々 → 塺；四部丛刊《楚辞》卷十五、王逸《楚辞章句》作「霾土忽兮塺塺」（识典古籍 https://www.shidianguji.com/search/霾土忽兮塺塺）"
+          "note": "日文重复符号 々 → 塺；四部丛刊《楚辞》卷十五、王逸《楚辞章句》作「霾土忽兮塺塺」（识典古籍 https://www.shidianguji.com/search/霾土忽兮塺塺）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         },
         {
           "original": "飘风蓬龙埃坲々兮",
           "corrected": "飘风蓬龙埃坲坲兮",
-          "note": "日文重复符号 々 → 坲；四部丛刊《楚辞》卷十六、王逸《楚辞章句》作「埃坲坲兮」（识典古籍 https://www.shidianguji.com/search/飘风蓬龙埃坲坲）"
+          "note": "日文重复符号 々 → 坲；四部丛刊《楚辞》卷十六、王逸《楚辞章句》作「埃坲坲兮」（识典古籍 https://www.shidianguji.com/search/飘风蓬龙埃坲坲）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         }
       ]
     },
@@ -1071,12 +1083,16 @@
         {
           "original": "桂掉举摇开翠烟",
           "corrected": "桂棹举摇开翠烟",
-          "note": "形近错字；《雍熙乐府》卷十七（四部丛刊景嘉靖本）作「桂棹举摇开翠烟」（识典古籍 https://www.shidianguji.com/search/桂棹举摇开翠烟）"
+          "note": "形近错字；《雍熙乐府》卷十七（四部丛刊景嘉靖本）作「桂棹举摇开翠烟」（识典古籍 https://www.shidianguji.com/search/桂棹举摇开翠烟）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         },
         {
           "original": "<鼻勾>々似鼻息如雷",
           "corrected": "<鼻勾><鼻勾>似鼻息如雷",
-          "note": "日文叠字符号 々 写出本字（与楚辞 塺々→塺塺 同例），沈和《桂枝香南》标题；《新刻群音类选》卷六（雍正潘氏遂初堂刻本）作「齁齁的鼻息如雷」，《词林摘艳》丙集作「劓劓似鼻息如雷」，均为叠字（识典古籍 https://www.shidianguji.com/search/似鼻息如雷睡足）。<鼻勾> 疑即「齁」，占位符未改（2026-11-02，claude-opus-5-5）"
+          "note": "日文叠字符号 々 写出本字（与楚辞 塺々→塺塺 同例），沈和《桂枝香南》标题；《新刻群音类选》卷六（雍正潘氏遂初堂刻本）作「齁齁的鼻息如雷」，《词林摘艳》丙集作「劓劓似鼻息如雷」，均为叠字（识典古籍 https://www.shidianguji.com/search/似鼻息如雷睡足）。<鼻勾> 疑即「齁」，占位符未改",
+          "date": "2026-11-02",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -112784,8 +112800,17 @@
         },
         {
           "original": "雨﹀人︽",
+          "corrected": "雨僝人僽",
+          "note": "乱码 ﹀︽ → 僝僽；陈亮《点绛唇》，四库本《龙川词》《龙川集》卷十七、汲古阁本《宋名家词·龙川词》均作「雨僝…僽」（识典古籍 https://www.shidianguji.com/search/君知否雨僝云僽）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
+        },
+        {
+          "original": "雨僝人僽",
           "corrected": "雨僝云僽",
-          "note": "乱码 ﹀︽ → 僝僽，且「人」当作「云」；陈亮《点绛唇》，四库本《龙川词》《龙川集》卷十七、汲古阁本《宋名家词·龙川词》均作「雨僝云僽」（识典古籍 https://www.shidianguji.com/search/千里人长久君知否）"
+          "note": "错字「人」→「云」（乱码之外的另一处改动，单列）；四库本《龙川集》卷十七与《龙川词》、《花草稡编》卷二、汲古阁本《宋名家词·龙川词》、崇祯六年刻《龙川文集》卷十七、同治胡氏退补斋本《龙川集》均作「雨僝云僽」，识典古籍检索「雨僝人僽」无此读法（https://www.shidianguji.com/search/君知否雨僝云僽）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         }
       ]
     },
@@ -113152,7 +113177,9 @@
         {
           "original": "风﹀雨︽",
           "corrected": "风僝雨僽",
-          "note": "乱码 ﹀︽ → 僝僽；白玉蟾词，《修真十书·上清集》《白玉蟾集》作「吃尽风僝雨僽」（识典古籍 https://www.shidianguji.com/search/吃尽风僝雨僽）"
+          "note": "乱码 ﹀︽ → 僝僽；白玉蟾词，《修真十书·上清集》《白玉蟾集》作「吃尽风僝雨僽」（识典古籍 https://www.shidianguji.com/search/吃尽风僝雨僽）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         }
       ]
     },
@@ -114680,7 +114707,9 @@
         {
           "original": "釂琼ⅲ也",
           "corrected": "釂琼𨠑也",
-          "note": "乱码 ⅲ；四库本《竹山词》、汲古阁本《宋名家词·竹山词》、《御选历代诗余》作「釂琼𨠑也」，《御定词谱》作「酏」（识典古籍 https://www.shidianguji.com/search/镜月危楼釂琼）"
+          "note": "乱码 ⅲ；四库本《竹山词》、汲古阁本《宋名家词·竹山词》、《御选历代诗余》作「釂琼𨠑也」，《御定词谱》作「酏」（识典古籍 https://www.shidianguji.com/search/镜月危楼釂琼）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         }
       ]
     },
@@ -115201,7 +115230,9 @@
         {
           "original": "骑鸾ⅶ鹤休归去",
           "corrected": null,
-          "note": "needs_review: 罗马数字乱码 ⅶ (U+2176)，与 ci.song.18000「釂琼ⅲ也」同类，原字应在 GB2312 之外；高伯达《鹧鸪天》，识典古籍检索「留取人间作女仙」「输与萧郎半月前」「骑鸾」均无此词，未补（2026-11-02，claude-opus-5-5）"
+          "note": "needs_review: 罗马数字乱码 ⅶ (U+2176)，与 ci.song.18000「釂琼ⅲ也」同类，原字应在 GB2312 之外；高伯达《鹧鸪天》，识典古籍检索「留取人间作女仙」「输与萧郎半月前」「骑鸾」均无此词，未补",
+          "date": "2026-11-02",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -116192,7 +116223,9 @@
         {
           "original": "﹀︽莺莺并燕燕",
           "corrected": "僝僽莺莺并燕燕",
-          "note": "乱码 ﹀︽ → 僝僽；《于湖居士文集》卷三十三（四部丛刊景宋本）作「僝僽莺莺并燕燕」（识典古籍 https://www.shidianguji.com/search/僝僽莺莺并燕燕）"
+          "note": "乱码 ﹀︽ → 僝僽；《于湖居士文集》卷三十三（四部丛刊景宋本）作「僝僽莺莺并燕燕」（识典古籍 https://www.shidianguji.com/search/僝僽莺莺并燕燕）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         }
       ]
     },
@@ -116469,7 +116502,9 @@
         {
           "original": "风﹀雨︽",
           "corrected": "风僝雨僽",
-          "note": "乱码 ﹀︽ → 僝僽；杨无咎词，四库本《逃禅词》、《花草稡编》卷十九作「风僝雨僽」（识典古籍 https://www.shidianguji.com/search/一春晴昼风僝雨僽）"
+          "note": "乱码 ﹀︽ → 僝僽；杨无咎词，四库本《逃禅词》、《花草稡编》卷十九作「风僝雨僽」（识典古籍 https://www.shidianguji.com/search/一春晴昼风僝雨僽）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         }
       ]
     },
@@ -116671,7 +116706,9 @@
         {
           "original": "风﹀雨︽",
           "corrected": "风僝雨僽",
-          "note": "乱码 ﹀︽ → 僝僽；朱淑真词，四库本与汲古阁本《断肠词》作「风僝雨僽，打碎光凝色」（识典古籍 https://www.shidianguji.com/search/好景难留风僝雨僽）"
+          "note": "乱码 ﹀︽ → 僝僽；朱淑真词，四库本与汲古阁本《断肠词》作「风僝雨僽，打碎光凝色」（识典古籍 https://www.shidianguji.com/search/好景难留风僝雨僽）",
+          "date": "2026-11-02",
+          "reviewer": "Belugary"
         }
       ]
     },
