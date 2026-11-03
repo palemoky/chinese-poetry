@@ -9,6 +9,7 @@
   kana_bopomofo    日文假名 / 注音符号乱码
   box_drawing      制表符号乱码（┾ ╆ 等）与 U+FFFD 替换符
   symbol_garble    竖排标点兼容形（﹀ ︽ 等）、罗马数字（ⅲ ⅶ 等）与日文叠字符号「々」
+  simplified_in_trad  繁体书写的诗（全唐诗/poet.*）里混入的简化字（來→来、時→时 等），见 docs/繁体混入简化字.md
   dup_punct        重复标点（？。 ！。 。。 ，， 、、）
   half_width_punct 紧邻汉字的半角 , ; : !
   bare_pua         {...} 之外的私用区字符
@@ -47,13 +48,61 @@ KANA_BOPOMOFO = re.compile(r'[\u3040-\u30fa\u30fc-\u30ff\u3100-\u312f\u31a0-\u31
 # 竖排标点兼容形与罗马数字是同类乱码（﹀︽ → 僝僽，ⅲ → 𨠑）；「々」不是中文用字，叠字一律写出本字（塺々 → 塺塺）
 SYMBOL_GARBLE = re.compile(r'[\ufe30-\ufe4f\u2160-\u217f\u3005]')
 PUA = re.compile(r'[-]')
+# 繁体诗中混入的简化字 → 繁体正字。只收《简化字总表》中的简化字，且在这批文本里只有一个对应的繁体字。
+# 不收字形或异体差异（黄/黃、却/卻、别/別、户/戶、泪/淚、叠/疊……）：底本大量使用，属于原貌，不改；
+# 也不收本身就是古字的简化字（无、凭、尔、号），它们在古书里可能本来就这样写，需逐处核对。
+# 判定依据与完整的排除清单见 docs/繁体混入简化字.md。
+SIMPLIFIED_IN_TRAD = dict(zip(
+    '带来将随盖壮堕楼装莱隐数峡鱼寝禅稳属挟惨弹碍惬箧蒋状义萧胆屡巩螀爱蝇两蝉粮偬单夹糁陕聪袜惮峣掺浃侠赍麦颜瞩蟏径墙趋舣毵媭'
+    '赠妆惧郸挝殚钴鼹黪闻题馀残笔纷献响赐屦担婵飙狭辀箓荚飔蛱嘱飗鳀时东谁声过乐问语经寻断虽谢说陈齐拟条环炉琼腾颠绵样赊鹃缐'
+    '块缝觐钺飨俩偻颢渑鳖徕窭讫硖衅渗娈颣亸骦襕狝锧梼帮浉柠',
+    '帶來將隨蓋壯墮樓裝萊隱數峽魚寢禪穩屬挾慘彈礙愜篋蔣狀義蕭膽屢鞏螿愛蠅兩蟬糧傯單夾糝陝聰襪憚嶢摻浹俠齎麥顏矚蠨徑牆趨艤毿嬃'
+    '贈妝懼鄲撾殫鈷鼴黲聞題餘殘筆紛獻響賜屨擔嬋飆狹輈籙莢颸蛺囑飀鯷時東誰聲過樂問語經尋斷雖謝說陳齊擬條環爐瓊騰顛綿樣賒鵑線'
+    '塊縫覲鉞饗倆僂顥澠鱉徠窶訖硤釁滲孌纇嚲驦襴獮鑕檮幫溮檸'))
+TRAD_POEM_FILE = re.compile(r'^全唐诗/poet\.[a-z]+\.\d+\.json$')
+
+
+def written_in_simplified(text):
+    """整首以简体录入的诗不算混入，跳过。繁体文本里总有 GB2312 编不了的繁体字（風、雲、來……），
+    简体文本几乎没有；这类字比表中的简化字还少，就无从判断是繁体，当作简体书写。
+    与 OpenCC 的简繁判定对比过：没有一首繁体诗因此被跳过。"""
+    simp = sum(c in SIMPLIFIED_IN_TRAD for c in text)
+    return simp > 0 and non_gb2312_hanzi(text) < simp
+
+
+def non_gb2312_hanzi(text):
+    n = 0
+    for c in HANZI_BMP.findall(text):
+        try:
+            c.encode('gb2312')
+        except UnicodeEncodeError:
+            n += 1
+    return n
+
+
+HANZI_BMP = re.compile(r'[\u4e00-\u9fff]')
+
+
+def check_simplified_in_trad(rel, idx, it, lines, report):
+    if not TRAD_POEM_FILE.match(rel.replace(os.sep, '/')):
+        return
+    title = it.get('title') if isinstance(it.get('title'), str) else ''
+    if written_in_simplified(title + ''.join(lines)):
+        return
+    for field, texts in (('title', [title]), ('paragraphs', lines)):
+        for text in texts:
+            for c in text:
+                if c in SIMPLIFIED_IN_TRAD:
+                    report('simplified_in_trad', rel, idx, it, f'[{field}] {text}', token=c, detail=f'{c}→{SIMPLIFIED_IN_TRAD[c]}')
+
+
 CI_DIRS = {'宋词', '五代诗词'}
 SHI_DIRS = {'全唐诗', '水墨唐诗', '曹操诗集', '纳兰性德'}  # 元曲有衬字，不做字数检查
 
 
 # 这些检查项一旦增加即视为退化（CI 失败）；缺字、字数异常等多为底本原貌，仅作提示
 STRICT = ('bad_json', 'cyrillic_greek', 'kana_bopomofo', 'symbol_garble', 'box_drawing', 'bare_pua', 'ascii_residue',
-          'dup_punct', 'half_width_punct')
+          'dup_punct', 'half_width_punct', 'simplified_in_trad')
 
 
 def iter_files():
@@ -216,6 +265,7 @@ def main():
             continue
         for idx, it, lines in poems:
             check_chars(rel, idx, it, lines, report)
+            check_simplified_in_trad(rel, idx, it, lines, report)
             if top in CI_DIRS and it.get('rhythmic'):
                 ci_poems.append((rel, idx, it, lines))
             elif top in SHI_DIRS:

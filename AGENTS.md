@@ -139,7 +139,7 @@ Common typo patterns when Tier 1 applies:
 #### 2d. Do not change
 
 - `·` (U+00B7) in titles like `《宋史·乐志》` — standard Chinese punctuation
-- Traditional/simplified variants — intentional
+- Traditional/simplified variants — intentional: simplified files stay simplified, traditional files traditional, and glyph or variant forms the base text uses (黄/黃, 却/卻, 别/別, 户/戶) stay as they are. The one exception is a simplified character from 《简化字总表》 inside traditional text (風带泉聲 → 風帶泉聲): `check_structure.py` flags it as `simplified_in_trad` and `scripts/fix_simplified.py` fixes it from a curated table — see `docs/繁体混入简化字.md`. Extend that table rather than fixing such characters by hand.
 - Archaic character forms
 
 ---
@@ -174,6 +174,7 @@ Per-file review cannot scale to rare poems you do not recognize. These tools fix
 | `scripts/check_structure.py` | Scan the whole dataset: garbles (Cyrillic/Greek, kana/bopomofo, box-drawing, U+FFFD, bare PUA, ASCII residue), `□` gaps, line-length and 词牌 anomalies. Report only. |
 | `scripts/collate.py` | Whole-corpus, sentence-by-sentence collation against 识典古籍, with humans reviewing its `review.tsv`. 宋词 is done and its scheduled workflow removed (restore `collate-songci.yml` from git history to collate another corpus) — see `docs/宋词对勘.md`. |
 | `scripts/twin_collate.py` | Collate anthologies (花间集, 南唐, 唐诗三百首, 千家诗, 水墨唐诗) against the same poems in 全唐诗/宋词; one-char differences judged on 识典古籍, reviewed in `review.tsv`, closed items kept in `docs/小合集互校.applied.json`. Read its docstring for review lessons before deciding. |
+| `scripts/fix_simplified.py` | Replace simplified characters inside traditional poems (`全唐诗/poet.*`) from the curated `SIMPLIFIED_IN_TRAD` table in `check_structure.py`; dry-run by default, `--apply` writes back in the original JSON format and records every change in `docs/繁体混入简化字.tsv`. Already applied. |
 | `scripts/merge_anthologies.py` | Merge Tang anthologies into 全唐诗/poet.tang.* (tags + `prologue`) and drop poet.tang copies of 花间集/南唐 词; dry-run by default, `--apply` writes `docs/唐诗去重.tsv`. Already applied — rerun only if those files are re-imported. |
 | `scripts/shidian.py` + `scripts/shidian/search.mjs` | Evidence pipeline: `build` → search 识典古籍 → `analyze` → review `review.tsv` → `apply`. |
 
