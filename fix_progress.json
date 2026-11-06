@@ -112336,6 +112336,13 @@
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《花草稡編》卷六「陽臺夢 解昉」, 《御選歷代詩餘》.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「张」 (#565–566, 2 词)",
+          "corrected": "author 「张昪」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍 毛晉《宋名家詞》第五册, 《記紅集》卷二「離亭燕 張昇 一帶江山如畫」 (張昇 = 张昪, 字杲卿, cf. author.song.json); #565 is in the same contiguous block.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -112585,6 +112592,13 @@
           "original": "author 「董」 (#991–992, 2 词)",
           "corrected": "author 「董乂」",
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍「董乂望江南有詩云：縹緲煙中漁父槳」; 全宋诗 also has 董乂.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「章」 (#76–77, 2 词)",
+          "corrected": "author 「章楶」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《花菴詞選》卷五「章質夫名楶 水龍吟 燕忙鶯懶花殘」, 《詞源》卷下「章質夫楊花水龍吟」; #77 is in the same block.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -116157,6 +116171,13 @@
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《樂齋詞》(识典古籍: 樂齋詞一卷, 宋金元明人詞十七種, 南詞十三種, 唐宋八家詞); 向 records alternate with 向滈 in the same block; 38+5 = 43 = 全宋词 向滈.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「王」 (#642–642, 1 词)",
+          "corrected": "author 「王雱」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《御定詞譜》卷二四, 《古今圖書集成·歲功典》卷四一「倦尋芳 王雱」.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -118105,6 +118126,440 @@
           "original": "登归时候",
           "corrected": "登临时候",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：清綺軒詞選 絶妙好詞箋 詞綜 詞鵠初編"
+        },
+        {
+          "original": "啼暝。花暗省。许",
+          "corrected": "啼暝。花悰暗省。许",
+          "note": "陆叡《瑞鹤仙》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.15000.json#815 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "黄花，香西风雨。",
+          "corrected": "黄花，香噀西风雨。",
+          "note": "吴文英《霜叶飞》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.15000.json#880 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "染鲛绡，凤迷归，",
+          "corrected": "染鲛绡，亸凤迷归，",
+          "note": "吴文英《莺啼序》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.15000.json#971 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "，缓步香。朱颜空",
+          "corrected": "，缓步香裀。朱颜空",
+          "note": "韩缜《凤箫吟・芳草》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.1000.json#24 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "君幽独。艳一枝细",
+          "corrected": "君幽独。秾艳一枝细",
+          "note": "苏轼《贺新郎》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.1000.json#562 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "人未寝、枕钗横鬓",
+          "corrected": "人未寝、敧枕钗横鬓",
+          "note": "苏轼《洞仙歌》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.1000.json#564 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "无人见。如三鼓，",
+          "corrected": "无人见。紞如三鼓，",
+          "note": "苏轼《永遇乐》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.1000.json#591 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "远。约略轻笑浅。",
+          "corrected": "远。约略嚬轻笑浅。",
+          "note": "李元膺《洞仙歌》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.3000.json#705 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "渐酒空金，花困蓬",
+          "corrected": "渐酒空金榼，花困蓬",
+          "note": "秦观《满庭芳》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.3000.json#782 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "涯倦宦，岁华行暮",
+          "corrected": "涯倦宦，骎骎岁华行暮",
+          "note": "贺铸《伴云来・天香》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.3000.json#971 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "襟零袂，尘谁浣。",
+          "corrected": "襟零袂，涴尘谁浣。",
+          "note": "吴文英《三姝媚》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.16000.json#40 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "强整帽檐侧，曾经",
+          "corrected": "强整帽檐敧侧，曾经",
+          "note": "潘希白《大有》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#55 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "河多丽。漾明光连",
+          "corrected": "河多丽。滉漾明光连",
+          "note": "刘辰翁《宝鼎现》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#442 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "相对，残无寐，满",
+          "corrected": "相对，残釭无寐，满",
+          "note": "刘辰翁《永遇乐》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#515 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "南无路，州今夜，",
+          "corrected": "南无路，鄜州今夜，",
+          "note": "刘辰翁《永遇乐》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#515 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "前茸帽风。秦关汴",
+          "corrected": "前茸帽风敧。秦关汴",
+          "note": "周密《高阳台》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#795 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "醒寐，遗浮沈沣浦",
+          "corrected": "醒寐，遗珮浮沈沣浦",
+          "note": "彭元逊《解佩环・疏影》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#893 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "润，为君泪。",
+          "corrected": "润，为君裛泪。",
+          "note": "彭元逊《六丑》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#906 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "青无地。雨、春心",
+          "corrected": "青无地。愔愔雨、春心",
+          "note": "彭元逊《六丑》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#906 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "云髻，未整。江南",
+          "corrected": "云髻，未忺整。江南",
+          "note": "潘汾《贺新郎》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.7000.json#129 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "病。云髻，未整。",
+          "corrected": "病。云髻亸，未整。",
+          "note": "潘汾《贺新郎》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.7000.json#129 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "镇无聊、酒厌厌病",
+          "corrected": "镇无聊、殢酒厌厌病",
+          "note": "潘汾《贺新郎》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.7000.json#129 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "鬓乱，未整。江南",
+          "corrected": "鬓乱，未忺整。江南",
+          "note": "李玉《贺新郎》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.7000.json#138 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "凝想、明素袜。如",
+          "corrected": "凝想、明珰素袜。如",
+          "note": "姜夔《庆宫春・高阳台》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.12000.json#683 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "、几声啼。十里扬",
+          "corrected": "、几声啼鴂。十里扬",
+          "note": "姜夔《琵琶仙・自度曲》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.12000.json#693 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "总付与啼。长恨相",
+          "corrected": "总付与啼鴂。长恨相",
+          "note": "姜夔《八归》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.12000.json#698 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "味。仗酒清愁，花",
+          "corrected": "味。仗酒襏清愁，花",
+          "note": "姜夔《翠楼吟》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.12000.json#713 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "，今年汉初赐。新",
+          "corrected": "，今年汉酺初赐。新",
+          "note": "姜夔《翠楼吟》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.12000.json#713 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "伊心力。云尤雨，",
+          "corrected": "伊心力。殢云尤雨，",
+          "note": "柳永《浪淘沙》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.0.json#119 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "消，腻云。终日厌",
+          "corrected": "消，腻云亸。终日厌",
+          "note": "柳永《定风波》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.0.json#133 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "听陇水潺。正蝉吟",
+          "corrected": "听陇水潺湲。正蝉吟",
+          "note": "柳永《戚氏》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.0.json#164 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "人、妆楼望，误几",
+          "corrected": "人、妆楼顒望，误几",
+          "note": "柳永《八声甘州》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.0.json#199 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "陌、飞絮。嘶骑渐",
+          "corrected": "陌、飞絮濛濛。嘶骑渐",
+          "note": "张先《一丛花令・一丛花》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.0.json#283 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "禁杨花，乱扑行人",
+          "corrected": "禁杨花，濛濛乱扑行人",
+          "note": "晏殊《踏莎行》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.0.json#508 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "。土花庭，虫网阑",
+          "corrected": "。土花庭甃，虫网阑",
+          "note": "史达祖《玉胡蝶・玉蝴蝶》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.13000.json#463 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "露井，彩云窗，往",
+          "corrected": "露井，彩箑云窗，往",
+          "note": "吴文英《澡兰香》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.6000.json#494 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "如今有谁摘。守著",
+          "corrected": "如今有谁忺摘。守著",
+          "note": "李清照《声声慢》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.6000.json#716 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "盈翠袖，英雄泪。",
+          "corrected": "盈翠袖，搵英雄泪。",
+          "note": "辛弃疾《水龙吟》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.11000.json#115 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "说鲈鱼堪。尽西风",
+          "corrected": "说鲈鱼堪鲙。尽西风",
+          "note": "辛弃疾《水龙吟》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.11000.json#115 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "乱多少寒，神京远",
+          "corrected": "乱多少寒螀，神京远",
+          "note": "晁补之《洞仙歌》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#286 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "花桃树。坊陌人家",
+          "corrected": "花桃树。愔愔坊陌人家",
+          "note": "周邦彦《瑞龙吟》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#356 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "。谁信无，为伊才",
+          "corrected": "。谁信无憀，为伊才",
+          "note": "周邦彦《过秦楼》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#393 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "憔悴，卫清羸，等",
+          "corrected": "憔悴，卫玠清羸，等",
+          "note": "周邦彦《大酺》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#430 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "袅，向人侧。漂流",
+          "corrected": "袅，向人敧侧。漂流",
+          "note": "周邦彦《六丑》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#435 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "、念我无，梦魂凝",
+          "corrected": "、念我无憀，梦魂凝",
+          "note": "周邦彦《尉迟杯》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#453 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "漏将残，辘，牵金",
+          "corrected": "漏将残，轣辘，牵金",
+          "note": "周邦彦《蝶恋花》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#456 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "班草，欷酹酒，极",
+          "corrected": "班草，欷歔酹酒，极",
+          "note": "周邦彦《夜飞鹊・夜飞鹊慢》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#474 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "门。投宿征骑，飞",
+          "corrected": "门。投宿骎骎征骑，飞",
+          "note": "孔夷《南浦》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#578 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "气。几回娇半醉。",
+          "corrected": "气。几回殢娇半醉。",
+          "note": "王沂孙《天香》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.18000.json#66 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "玉。问芳、何时再",
+          "corrected": "玉。问芳悰、何时再",
+          "note": "蒋捷《贺新郎》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.18000.json#461 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "丝千丈、晴空。殷",
+          "corrected": "丝千丈、罥晴空。殷",
+          "note": "叶梦得《虞美人》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.5000.json#284 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "画帘开、衣纨扇，",
+          "corrected": "画帘开、綀衣纨扇，",
+          "note": "刘克庄《贺新郎》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.14000.json#732 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "朱钿宝。天上飞",
+          "corrected": "朱钿宝玦。天上飞",
+          "note": "周密《瑶花慢》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#683 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "东风外，暖丝情絮",
+          "corrected": "东风外，颺暖丝情絮",
+          "note": "周密《曲游春》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.17000.json#689 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "。闻琴解神仙侣。",
+          "corrected": "。闻琴解珮神仙侣。",
+          "note": "欧阳修《玉楼春》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.0.json#676 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "高梧，露幽草，宝",
+          "corrected": "高梧，露漙幽草，宝",
+          "note": "张《满庭芳》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.6000.json#365 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "明时节。地东风欺",
+          "corrected": "明时节。剗地东风欺",
+          "note": "辛弃疾《念奴娇》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.11000.json#139 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "绿树听鹈。更那堪",
+          "corrected": "绿树听鹈鴂。更那堪",
+          "note": "辛弃疾《贺新郎》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.11000.json#362 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "焰蜡，露烘炉。花",
+          "corrected": "焰蜡，露浥烘炉。花",
+          "note": "周邦彦《解语花》: non-GB2312 character dropped on import; restored from the same 词 in 宋词/ci.song.4000.json#427 (全宋词).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「韩」 (#50)",
+          "corrected": "author 「韩疁」",
+          "note": "Truncated author name; the same 词 is under this name in 宋词/ci.song.* (restored there from 识典古籍 evidence or full text match).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「张」 (#119)",
+          "corrected": "author 「张鎡」",
+          "note": "Truncated author name; the same 词 is under this name in 宋词/ci.song.* (restored there from 识典古籍 evidence or full text match).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「张」 (#190)",
+          "corrected": "author 「张鎡」",
+          "note": "Truncated author name; the same 词 is under this name in 宋词/ci.song.* (restored there from 识典古籍 evidence or full text match).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
