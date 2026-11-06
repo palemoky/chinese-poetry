@@ -3727,6 +3727,13 @@
           "original": "更深河漢淡，砧□出籬落。",
           "corrected": null,
           "note": "needs_review: lacuna □ — candidate 「杵」 supported by only 1 book on 识典古籍 (《廬山集》廬山集卷一“五言古詩”); not filled"
+        },
+        {
+          "original": "author: 宋蒲壽宬",
+          "corrected": "author: 蒲壽宬",
+          "note": "Same poet as the adjacent records with a biography: 劉摰 → 劉摯 (摰/摯 look-alike), 陈渊/吴龍翰 (simplified 陈、吴 in traditional text), 宋蒲壽宬 (dynasty prefixed to the name). The bio-less author entries were removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -3754,6 +3761,13 @@
           "original": "意風雅軋",
           "corrected": "意與風雅軋",
           "note": "Line-length anomaly (5-char poem): missing char restored; 3 books on 识典古籍 read 「意與風雅軋」 (e.g. 《兩宋名賢小集》, 《東甌詩集》, 《飲冰詩集》), none read the dataset's version"
+        },
+        {
+          "original": "author: 吴龍翰",
+          "corrected": "author: 吳龍翰",
+          "note": "Same poet as the adjacent records with a biography: 劉摰 → 劉摯 (摰/摯 look-alike), 陈渊/吴龍翰 (simplified 陈、吴 in traditional text), 宋蒲壽宬 (dynasty prefixed to the name). The bio-less author entries were removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4098,6 +4112,13 @@
           "original": "斯瑩青玉",
           "corrected": "斯巖瑩青玉",
           "note": "Line-length anomaly (5-char poem): missing char restored; 2 books on 识典古籍 read 「斯巖瑩青玉」 (e.g. 《〖光緒〗江西通志》, 《江西通志》), none read the dataset's version"
+        },
+        {
+          "original": "author: 劉摰",
+          "corrected": "author: 劉摯",
+          "note": "Same poet as the adjacent records with a biography: 劉摰 → 劉摯 (摰/摯 look-alike), 陈渊/吴龍翰 (simplified 陈、吴 in traditional text), 宋蒲壽宬 (dynasty prefixed to the name). The bio-less author entries were removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4145,6 +4166,13 @@
           "original": "鍊金液，以待九轉□丹成。",
           "corrected": "鍊金液，以待九轉靈丹成。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 3 independent books on 识典古籍 agree, e.g. 《福州府志》福州府志卷之六（一）; 《福建續志》卷八十八"
+        },
+        {
+          "original": "author: 劉摰",
+          "corrected": "author: 劉摯",
+          "note": "Same poet as the adjacent records with a biography: 劉摰 → 劉摯 (摰/摯 look-alike), 陈渊/吴龍翰 (simplified 陈、吴 in traditional text), 宋蒲壽宬 (dynasty prefixed to the name). The bio-less author entries were removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4830,6 +4858,13 @@
           "note": "ASCII 残渣「0」删除，七言句复原；「輪」船子和尚原偈作「綸」（《五灯会元》卷十三等），此为惟照颂古引用，未改（https://www.shidianguji.com/zh/search/千尺丝纶直下垂）",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 陈渊",
+          "corrected": "author: 陳淵",
+          "note": "Same poet as the adjacent records with a biography: 劉摰 → 劉摯 (摰/摯 look-alike), 陈渊/吴龍翰 (simplified 陈、吴 in traditional text), 宋蒲壽宬 (dynasty prefixed to the name). The bio-less author entries were removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4871,6 +4906,34 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "author 墨梅 (#588–592: 次韻何文縝墨梅二絕 其一–三, 次韻秦會之題墨梅二首 其一–二)",
+          "corrected": "author 張于文",
+          "note": "墨梅 is part of the titles, not a poet. authors.song.json: 張于文「與秦檜、何𣓨有詩唱和。今錄詩七首」= the 2 poems already under 張于文 (#586–587) plus these 5 (秦會之 = 秦檜, 何文縝 = 何𣓨). 《宋詩紀事》卷五〇 lists them under 張子文 (another attribution).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "年端喚醒玉梅魂",
+          "corrected": "筆端喚醒玉梅魂",
+          "note": "识典古籍: 《楚風補》卷十六, 《宋詩紀事》卷五〇, 《永樂大典》卷二八一二, 《聲畫集》卷五 (2 editions), 《御定歷代題畫詩類》 all read 「筆端喚醒玉梅魂」; the dataset reading is attested in none.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "不禁橫行巧擠排",
+          "corrected": "不禁橫竹巧擠排",
+          "note": "识典古籍: 《永樂大典》卷二八一二, 《聲畫集》卷五 (3 editions) all read 「不禁橫竹巧擠排」; the dataset reading is attested in none.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "妬婦津頭風怨急",
+          "corrected": "妬婦津頭風恐急",
+          "note": "识典古籍: 《永樂大典》卷二八一二, 《聲畫集》卷五 (四庫本, 抄本, 文化本), 《宋詩拾遺》卷二一 all read 「妬婦津頭風恐急」; the dataset reading is attested in none.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4949,6 +5012,13 @@
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 僧皎然、僧貫休、僧齊己",
+          "corrected": "author: 皎然、貫休、齊己",
+          "note": "Variant spellings of one poet unified with the authors.tang.json entry that has a biography: simplified chars in traditional text (韩愈、權德舆), 劉义 → 劉叉 (义/叉 look-alike; the same 怨詩 is 劉叉《古怨》 in 《御定全唐詩》卷三九五, 识典古籍), variant glyphs (東方虯/虬、楊淩/凌、劉皁/皂、歐陽袞/衮、羅袞/衮), and the 僧/釋 prefix used in the 樂府 卷 (僧貫休 → 貫休 etc.). The bio-less duplicate author entries were removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4998,6 +5068,13 @@
           "original": "[markup] editorial collation marks in 13 poems",
           "corrected": "[markup] text resolved to the edited reading; 15 marks kept verbatim in notes",
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 僧子蘭、僧皎然、僧貫休、僧齊己、劉义、劉皁、東方虯、楊淩、韩愈",
+          "corrected": "author: 子蘭、皎然、貫休、齊己、劉叉、劉皂、東方虬、楊凌、韓愈",
+          "note": "Variant spellings of one poet unified with the authors.tang.json entry that has a biography: simplified chars in traditional text (韩愈、權德舆), 劉义 → 劉叉 (义/叉 look-alike; the same 怨詩 is 劉叉《古怨》 in 《御定全唐詩》卷三九五, 识典古籍), variant glyphs (東方虯/虬、楊淩/凌、劉皁/皂、歐陽袞/衮、羅袞/衮), and the 僧/釋 prefix used in the 樂府 卷 (僧貫休 → 貫休 etc.). The bio-less duplicate author entries were removed.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -6336,6 +6413,13 @@
           "original": "恭館靖尊妙化，帝居齋祓",
           "corrected": "恭館靖𡨋尊妙化，帝居齋祓",
           "note": "Bare PUA U+E805 → 𡨋; 识典古籍 (/zh/): 《文莊集》卷三十 reads 「闈恭館靖𡨋尊妙化帝」 (2 hit(s))"
+        },
+        {
+          "original": "author 蒋堂 (42 poems)",
+          "corrected": "author 蔣堂",
+          "note": "Simplified 蒋 in traditional text split the poet in two (蒋堂 had the bio, 蔣堂 had none; the bio itself reads 蔣堂). Unified to 蔣堂 and the bio moved to that entry.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -6748,6 +6832,13 @@
           "original": "[markup] editorial collation marks in 12 poems",
           "corrected": "[markup] text resolved to the edited reading; 21 marks kept verbatim in notes",
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 權德舆",
+          "corrected": "author: 權德輿",
+          "note": "Variant spellings of one poet unified with the authors.tang.json entry that has a biography: simplified chars in traditional text (韩愈、權德舆), 劉义 → 劉叉 (义/叉 look-alike; the same 怨詩 is 劉叉《古怨》 in 《御定全唐詩》卷三九五, 识典古籍), variant glyphs (東方虯/虬、楊淩/凌、劉皁/皂、歐陽袞/衮、羅袞/衮), and the 僧/釋 prefix used in the 樂府 卷 (僧貫休 → 貫休 etc.). The bio-less duplicate author entries were removed.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -7302,6 +7393,13 @@
           "original": "[markup] editorial collation marks in 21 poems",
           "corrected": "[markup] text resolved to the edited reading; 21 marks kept verbatim in notes",
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 僧皎然、僧齊己",
+          "corrected": "author: 皎然、齊己",
+          "note": "Variant spellings of one poet unified with the authors.tang.json entry that has a biography: simplified chars in traditional text (韩愈、權德舆), 劉义 → 劉叉 (义/叉 look-alike; the same 怨詩 is 劉叉《古怨》 in 《御定全唐詩》卷三九五, 识典古籍), variant glyphs (東方虯/虬、楊淩/凌、劉皁/皂、歐陽袞/衮、羅袞/衮), and the 僧/釋 prefix used in the 樂府 卷 (僧貫休 → 貫休 etc.). The bio-less duplicate author entries were removed.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -10512,6 +10610,13 @@
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 釋明解",
+          "corrected": "author: 明解",
+          "note": "Variant spellings of one poet unified with the authors.tang.json entry that has a biography: simplified chars in traditional text (韩愈、權德舆), 劉义 → 劉叉 (义/叉 look-alike; the same 怨詩 is 劉叉《古怨》 in 《御定全唐詩》卷三九五, 识典古籍), variant glyphs (東方虯/虬、楊淩/凌、劉皁/皂、歐陽袞/衮、羅袞/衮), and the 僧/釋 prefix used in the 樂府 卷 (僧貫休 → 貫休 etc.). The bio-less duplicate author entries were removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10835,6 +10940,13 @@
           "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 常袞、赵居貞、顧况",
+          "corrected": "author: 常衮、趙居貞、顧況",
+          "note": "Same poet under two spellings in authors.tang.json: 赵居貞/顧况 (simplified 赵、况 in traditional text), 常袞 (補編) vs 常衮 (正編), 李适 / 德宗皇帝李适 vs 德宗皇帝 (bio: 帝諱适). Poems moved to the main name; the 補編 bio appended to its desc and the extra author entry removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10916,6 +11028,13 @@
           "original": "李璟《應天長》 (title with note only)",
           "corrected": "[structure] removed",
           "note": "存目 record: the title carries the note 「今按：《全唐詩》八八九作李煜詞」 and no text; the same 詞 is already at 全唐诗/poet.tang.49000.json under 後主煜. Removed with the other note-only records.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 李适",
+          "corrected": "author: 德宗皇帝",
+          "note": "Same poet under two spellings in authors.tang.json: 赵居貞/顧况 (simplified 赵、况 in traditional text), 常袞 (補編) vs 常衮 (正編), 李适 / 德宗皇帝李适 vs 德宗皇帝 (bio: 帝諱适). Poems moved to the main name; the 補編 bio appended to its desc and the extra author entry removed.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -11022,6 +11141,20 @@
           "note": "The sub-title had been split from its poem into an empty record; merged.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 歐陽袞",
+          "corrected": "author: 歐陽衮",
+          "note": "Variant spellings of one poet unified with the authors.tang.json entry that has a biography: simplified chars in traditional text (韩愈、權德舆), 劉义 → 劉叉 (义/叉 look-alike; the same 怨詩 is 劉叉《古怨》 in 《御定全唐詩》卷三九五, 识典古籍), variant glyphs (東方虯/虬、楊淩/凌、劉皁/皂、歐陽袞/衮、羅袞/衮), and the 僧/釋 prefix used in the 樂府 卷 (僧貫休 → 貫休 etc.). The bio-less duplicate author entries were removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 常袞、德宗皇帝李适",
+          "corrected": "author: 常衮、德宗皇帝",
+          "note": "Same poet under two spellings in authors.tang.json: 赵居貞/顧况 (simplified 赵、况 in traditional text), 常袞 (補編) vs 常衮 (正編), 李适 / 德宗皇帝李适 vs 德宗皇帝 (bio: 帝諱适). Poems moved to the main name; the 補編 bio appended to its desc and the extra author entry removed.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11068,6 +11201,13 @@
           "original": "[structure] 2 group-title records with no text",
           "corrected": "[structure] removed",
           "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 羅袞",
+          "corrected": "author: 羅衮",
+          "note": "Variant spellings of one poet unified with the authors.tang.json entry that has a biography: simplified chars in traditional text (韩愈、權德舆), 劉义 → 劉叉 (义/叉 look-alike; the same 怨詩 is 劉叉《古怨》 in 《御定全唐詩》卷三九五, 识典古籍), variant glyphs (東方虯/虬、楊淩/凌、劉皁/皂、歐陽袞/衮、羅袞/衮), and the 僧/釋 prefix used in the 樂府 卷 (僧貫休 → 貫休 etc.). The bio-less duplicate author entries were removed.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
