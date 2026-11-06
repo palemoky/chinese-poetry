@@ -10407,6 +10407,13 @@
           "note": "Whole leading （…） editorial note or 本事 preface (source remarks, 案/按 notes, 原注, anecdote ending in 曰：) moved verbatim into notes; the poem text after the closing ） stays in paragraphs. Records consisting only of notes, lacuna markers （上缺）/（前缺） and 联句 participant lists were left in place.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 25 records with empty title and paragraphs [\"。\"]",
+          "corrected": "[structure] removed",
+          "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10441,6 +10448,13 @@
           "note": "Whole leading （…） editorial note or 本事 preface (source remarks, 案/按 notes, 原注, anecdote ending in 曰：) moved verbatim into notes; the poem text after the closing ） stays in paragraphs. Records consisting only of notes, lacuna markers （上缺）/（前缺） and 联句 participant lists were left in place.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 28 records with empty title and paragraphs [\"。\"]",
+          "corrected": "[structure] removed",
+          "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10463,6 +10477,13 @@
           "original": "[notes] inline variant notes 219, block notes 334 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[structure] 19 records with empty title and paragraphs [\"。\"]",
+          "corrected": "[structure] removed",
+          "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10480,6 +10501,13 @@
           "original": "[notes] leading note paragraph(s) in 2 poems",
           "corrected": "[notes] moved to the front of the notes field",
           "note": "Whole leading （…） editorial note or 本事 preface (source remarks, 案/按 notes, 原注, anecdote ending in 曰：) moved verbatim into notes; the poem text after the closing ） stays in paragraphs. Records consisting only of notes, lacuna markers （上缺）/（前缺） and 联句 participant lists were left in place.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 26 records with empty title and paragraphs [\"。\"]",
+          "corrected": "[structure] removed",
+          "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -10509,6 +10537,13 @@
           "original": "[notes] inline variant notes 218, block notes 320 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[structure] 32 records with empty title and paragraphs [\"。\"]",
+          "corrected": "[structure] removed",
+          "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11218,6 +11253,13 @@
           "original": "[notes] inline variant notes 991, block notes 285 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[structure] 16 records with empty title and paragraphs [\"。\"]",
+          "corrected": "[structure] removed",
+          "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11245,6 +11287,13 @@
           "original": "[notes] inline variant notes 36, block notes 428 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[structure] 9 records with empty title and paragraphs [\"。\"]",
+          "corrected": "[structure] removed",
+          "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
