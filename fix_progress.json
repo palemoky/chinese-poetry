@@ -2,10 +2,10 @@
   "version": "1.0",
   "description": "Progress tracker for fixing typos and garbled characters (乱码) in chinese-poetry dataset. See AGENTS.md for the workflow.",
   "stats": {
-    "total_files": 376,
+    "total_files": 375,
     "reviewed": 688,
-    "clean": 155,
-    "fixed": 162,
+    "clean": 154,
+    "fixed": 163,
     "needs_review": 58,
     "out_of_scope": 313,
     "in_scope_files": 375
@@ -14,8 +14,121 @@
     "诗经/shijing.json": {
       "date": "2026-06-27",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "肃肃免罝",
+          "corrected": "肃肃兔罝",
+          "note": "Collation with 识典古籍 (3 books: 十三經解詁, 毛詩故訓傳定本, 詩集傳); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "绿衣黄裹",
+          "corrected": "绿衣黄里",
+          "note": "Collation with 识典古籍 (7 books: 古文尚書撰異, 吕氏家塾讀詩記, 毛詩); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "爰有寒痊",
+          "corrected": "爰有寒泉",
+          "note": "Collation with 识典古籍 (3 books: 十三經解詁, 毛詩, 重訂詩經疑問); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "不涉卬否",
+          "corrected": "人涉卬否",
+          "note": "Collation with 识典古籍 (4 books: 十三經, 吕氏家塾讀詩記, 詩演義); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "爰伐琴桑",
+          "corrected": "爰伐琴瑟",
+          "note": "Collation with 识典古籍 (2 books: 十三經解詁, 毛詩故訓傳定本); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "考槃在六",
+          "corrected": "考槃在陆",
+          "note": "Collation with 识典古籍 (2 books: 毛詩故訓傳定本, 詩補傳); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "将叔勿狃",
+          "corrected": "将叔无狃",
+          "note": "Collation with 识典古籍 (12 books: 古今圖書集成·戎政典, 吕氏家塾讀詩記, 周易尊翼); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "不蓵故也",
+          "corrected": "不寁故也",
+          "note": "Collation with 识典古籍 (4 books: 毛詩故訓傳定本, 詩經, 詩纘緒); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "齐了游敖",
+          "corrected": "齐子游敖",
+          "note": "Collation with 识典古籍 (6 books: 十三經解詁, 吕氏家塾讀詩記, 毛詩故訓傳定本); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "无以大康",
+          "corrected": "无已大康",
+          "note": "Collation with 识典古籍 (6 books: 十三經解詁, 吕氏家塾讀詩記, 毛詩故訓傳定本); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "鸿飞遵六",
+          "corrected": "鸿飞遵陆",
+          "note": "Collation with 识典古籍 (5 books: 毛詩, 毛詩故訓傳定本, 詩纘緒); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "田牡孔阜",
+          "corrected": "四牡孔阜",
+          "note": "Collation with 识典古籍 (6 books: 毛詩故訓傳定本, 皇王大紀, 詩經); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "云不何使",
+          "corrected": "云不可使",
+          "note": "Collation with 识典古籍 (8 books: 刻陳眉公先生六經選注, 吕氏家塾讀詩記, 欽定詩經樂譜全書); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "俾我絺也",
+          "corrected": "俾我祇也",
+          "note": "Collation with 识典古籍 (2 books: 續道藏, 詩攷補); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "六月徂署",
+          "corrected": "六月徂暑",
+          "note": "Collation with 识典古籍 (5 books: 欽定詩經樂譜全書, 毛詩故訓傳定本, 詩經朱傳翼); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "四鍭既均",
+          "corrected": "四鍭既钧",
+          "note": "Collation with 识典古籍 (4 books: 吕氏家塾讀詩記, 蘇氏詩集傳, 詩纘緒); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        }
+      ]
     },
     "论语/lunyu.json": {
       "date": "2026-10-06",
@@ -350,6 +463,97 @@
           "note": "形近错字；张纯修刻《饮水词集》卷上、《通志堂集》卷六（康熙三十年徐乾学刻本）、光绪六年娱园刻本《纳兰词》卷一均作「伏雨朝寒愁不胜」，词题同（识典古籍 https://www.shidianguji.com/search/伏雨朝寒愁不胜）",
           "date": "2026-11-02",
           "reviewer": "Belugary"
+        },
+        {
+          "original": "休寻折载话当年",
+          "corrected": "休寻折戟话当年",
+          "note": "Collation with 识典古籍 (2 books: 百名家詞鈔, 通志堂集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "比拟寻常清景别",
+          "corrected": "比似寻常清景别",
+          "note": "Collation with 识典古籍 (2 books: 納蘭詞, 通志堂集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "梦里砧声浑末歇",
+          "corrected": "梦里砧声浑未歇",
+          "note": "Collation with 识典古籍 (2 books: 納蘭詞, 通志堂集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "己惜轻翎退粉",
+          "corrected": "已惜轻翎退粉",
+          "note": "Collation with 识典古籍 (3 books: 名家詞鈔, 百名家詞鈔初集, 飲水詩集); dataset reading attested in none of the retrieved books; corrected by reviewer",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "断肠人去自经年",
+          "corrected": "断肠人去自今年",
+          "note": "Collation with 识典古籍 (3 books: 學海類編, 詞苑叢談, 飲水詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "几翻离合",
+          "corrected": "几番离合",
+          "note": "Collation with 识典古籍 (5 books: 古今詞選, 百名家詞鈔, 通志堂集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "西风月落城乌起",
+          "corrected": "西南月落城乌起",
+          "note": "Collation with 识典古籍 (2 books: 納蘭詞, 飲水詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "寂寞锁朱门",
+          "corrected": "寂寂锁朱门",
+          "note": "Collation with 识典古籍 (2 books: 飲水詞鈔, 飲水詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "一声弹指混无语",
+          "corrected": "一声弹指浑无语",
+          "note": "Collation with 识典古籍 (3 books: 納蘭詞, 飲水詞, 飲水詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "嗟载华亭鹤",
+          "corrected": "嗟哉华亭鹤",
+          "note": "Collation with 识典古籍 (2 books: 國朝詩的, 飲水詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "西风不解征人语",
+          "corrected": "西风不解征人苦",
+          "note": "Collation with 识典古籍 (2 books: 通志堂集, 飲水詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "身向咸池榜末光",
+          "corrected": "身向咸池傍末光",
+          "note": "Collation with 识典古籍 (2 books: 今體詩玉琴集纂注, 飲水詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "待陪巡幸扈星旌",
+          "corrected": "待陪巡幸扈星旄",
+          "note": "Collation with 识典古籍 (2 books: 國朝詩别裁集, 通志堂集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -410,6 +614,118 @@
           "note": "日文重复符号 々 → 坲；四部丛刊《楚辞》卷十六、王逸《楚辞章句》作「埃坲坲兮」（识典古籍 https://www.shidianguji.com/search/飘风蓬龙埃坲坲）",
           "date": "2026-11-02",
           "reviewer": "Belugary"
+        },
+        {
+          "original": "孰离合兮何为",
+          "corrected": "孰离合兮可为",
+          "note": "Collation with 识典古籍 (4 books: 古賦辯體, 楚辭, 楚辭疏); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "绿叶兮素华",
+          "corrected": "绿叶兮素枝",
+          "note": "Collation with 识典古籍 (3 books: 古賦辯體, 楚辭, 楚辭章句); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "灵之来兮敝日",
+          "corrected": "灵之来兮蔽日",
+          "note": "Collation with 识典古籍 (3 books: 楚詞補注, 楚辭, 楚辭章句); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "令五帝使折中兮",
+          "corrected": "令五帝以折中兮",
+          "note": "Collation with 识典古籍 (4 books: 楚辭注評, 楚辭疏, 楚辭述注); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "羌无可保也",
+          "corrected": "羌不可保也",
+          "note": "Collation with 识典古籍 (5 books: 屈原賦戴氏注, 屈子貫, 屈宋古音義); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "属贞臣而日竢",
+          "corrected": "属贞臣而日娭",
+          "note": "Collation with 识典古籍 (3 books: 山帶閣注楚辭, 楚辭, 楚辭章句); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "折若木以弊光兮",
+          "corrected": "折若木以蔽光兮",
+          "note": "Collation with 识典古籍 (5 books: 屈原賦戴氏注, 屈騷心印, 楚辭新集注); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "伴张驰之信期",
+          "corrected": "伴张弛之信期",
+          "note": "Collation with 识典古籍 (2 books: 八代文鈔, 楚辭); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "故駶跳而远去",
+          "corrected": "故跼跳而远去",
+          "note": "Collation with 识典古籍 (3 books: 屈宋古音義, 楚辭集注, 離騷草木史); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "原遂推而为臧",
+          "corrected": "愿遂推而为臧",
+          "note": "Collation with 识典古籍 (4 books: 楚辭, 楚辭章句, 楚辭集注); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "原壹往而径逝兮",
+          "corrected": "愿壹往而径逝兮",
+          "note": "Collation with 识典古籍 (3 books: 楚詞補注, 楚辭, 楚辭章句); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "孰能若兮原为辅",
+          "corrected": "孰能若兮愿为辅",
+          "note": "Collation with 识典古籍 (3 books: 全上古三代秦漢三國六朝文 全漢文, 楚辭, 楚辭章句); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "诚原藏而不可迁",
+          "corrected": "诚愿藏而不可迁",
+          "note": "Collation with 识典古籍 (3 books: 劉子政集, 楚辭, 楚辭注評); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "就周文兮邠歧",
+          "corrected": "就周文兮邠岐",
+          "note": "Collation with 识典古籍 (2 books: 楚辭, 楚辭章句); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "罽蕠兮青葱",
+          "corrected": "蘮蕠兮青葱",
+          "note": "Collation with 识典古籍 (2 books: 楚辭, 楚辭章句); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "巷有兮蚰蜓",
+          "corrected": "巷有兮蚰蜒",
+          "note": "Collation with 识典古籍 (2 books: 楚辭, 楚辭章句); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -422,6 +738,55 @@
           "original": "[notes] inline variant notes 4, block notes 0 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "臣节不隆",
+          "corrected": "臣节不坠",
+          "note": "Collation with 识典古籍 (5 books: 古今圖書集成·樂律典, 古今詩删, 宋書); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "师之所尊",
+          "corrected": "师之者尊",
+          "note": "Collation with 识典古籍 (3 books: 古今圖書集成·樂律典, 樂府詩集, 詩所); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "造划之陶物",
+          "corrected": "造化之陶物",
+          "note": "Collation with 识典古籍 (3 books: 古樂府, 古詩類苑, 廣文選); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "周礼圣徂落",
+          "corrected": "周孔圣徂落",
+          "note": "Collation with 识典古籍 (2 books: 古今圖書集成·樂律典, 宋書); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "安得驱四方",
+          "corrected": "安得去四方",
+          "note": "Collation with 识典古籍 (3 books: 古樂府, 古詩鏡, 樂府原); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "主国为君",
+          "corrected": "王国为君",
+          "note": "Collation with 识典古籍 (3 books: 古樂府, 宋書, 廣文選); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "河朔隆冬",
+          "corrected": "河朔隆寒",
+          "note": "Collation with 识典古籍 (3 books: 宋書, 晉書, 樂府詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-07",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },

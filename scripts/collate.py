@@ -252,7 +252,10 @@ def cmd_apply(args):
         rel, idx = row['file'], int(row['idx'])
         raw = open(os.path.join(ROOT, rel), encoding='utf-8').read()
         data = json.loads(raw)
-        paras = data[idx]['paragraphs']
+        it = data[idx]
+        paras = it.get('paragraphs') or it.get('para') or it.get('content')
+        if isinstance(paras, str):
+            paras = [paras]
         hits = [(k, para) for k, para in enumerate(paras) if para.count(row['original']) == 1]
         if len(hits) != 1:
             print(f"skip {row['key']}: sentence not unique"); continue
