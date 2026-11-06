@@ -4,8 +4,8 @@
   "stats": {
     "total_files": 376,
     "reviewed": 689,
-    "clean": 157,
-    "fixed": 161,
+    "clean": 156,
+    "fixed": 162,
     "needs_review": 58,
     "out_of_scope": 313,
     "in_scope_files": 376
@@ -2260,8 +2260,16 @@
     "全唐诗/poet.song.123000.json": {
       "date": "2026-06-26",
       "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
+      "status": "fixed",
+      "fixes": [
+        {
+          "original": "望秦川歌 其一: trailing empty paragraph",
+          "corrected": "removed",
+          "note": "Empty string at the end of paragraphs.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        }
+      ]
     },
     "全唐诗/poet.song.124000.json": {
       "date": "2026-10-06",
@@ -3612,6 +3620,13 @@
           "original": "關，換他白馬載經□。",
           "corrected": "關，換他白馬載經還。",
           "note": "Lacuna □ filled from other editions (base text has a gap here): 2 independent books on 识典古籍 agree, e.g. 《元詩選》元詩選癸集癸之甲“龜城叟龔開”; 《梧溪集》卷二"
+        },
+        {
+          "original": "題楊妃唾壺圖: trailing empty paragraph",
+          "corrected": "removed",
+          "note": "Empty string at the end of paragraphs.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8885,6 +8900,13 @@
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "于濆 (untitled) 長聞鄉人語…",
+          "corrected": "title: 富農詩",
+          "note": "Title restored from 识典古籍: 《御定全唐詩》卷五九九 p.8, 《全唐詩》揚州詩局本, 《永樂大典》卷六二四「農」, 《唐詩類苑》卷一八二.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11226,6 +11248,13 @@
           "original": "[markup] editorial collation marks in 16 poems",
           "corrected": "[markup] text resolved to the edited reading; 16 marks kept verbatim in notes",
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "儲光羲 (untitled) 伊昔好觀國…",
+          "corrected": "title: 秋庭貽馬九",
+          "note": "Title restored from 识典古籍: 《唐儲光羲詩集》卷二 p.13, 《御定全唐詩》卷一三七 p.10, 《唐詩所》卷十二, 《儲光羲集》明活字本 卷二, 《唐詩類苑》卷七七.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
