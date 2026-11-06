@@ -1116,6 +1116,55 @@
           "note": "文字未改；卫立中《殿前欢》删除爬取残留「小令」二字（「数椽茅屋和云赁，小令云在松阴」）。张雨、虞集两首标题本身含逗号，非正文混入，未动。余下 12 首见 docs/元曲标题待人工.tsv",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "既能勾鸾风和鸣",
+          "corrected": "既能勾鸾凤和鸣",
+          "note": "Collation with 识典古籍 (2 books: 元明雜劇, 元曲選); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "马摇玉勒难遮挡",
+          "corrected": "马衔玉勒难遮挡",
+          "note": "Collation with 识典古籍 (2 books: 新鐫出像點板纏頭百練, 芥舟書舍全集曲譜); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "击一条一抹绦",
+          "corrected": "系一条一抹绦",
+          "note": "Collation with 识典古籍 (2 books: 元曲選, 元曲選一百種); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "夸悬解何劳道上肝",
+          "corrected": "夸悬解何劳道士肝",
+          "note": "Collation with 识典古籍 (4 books: 御定曲譜, 新定九宮大成南北詞宮譜, 新鐫古今大雅北宮詞紀); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "菊老青松在",
+          "corrected": "菊老青松怪",
+          "note": "Collation with 识典古籍 (4 books: 小山樂府, 張小山小令, 復莊今樂府選); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "你没话计",
+          "corrected": "你没活计",
+          "note": "Collation with 识典古籍 (2 books: 永樂大典, 永樂大典戲文三種); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "把元戌印掌",
+          "corrected": "把元戎印掌",
+          "note": "Collation with 识典古籍 (11 snippets all read 把元戎印掌; 戌/戎 look-alike); dataset reading attested in none of the retrieved books; corrected by reviewer",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
