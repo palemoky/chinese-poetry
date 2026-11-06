@@ -112322,6 +112322,20 @@
           "original": "那角解牵骑",
           "corrected": "那个解牵骑",
           "note": "Collation with 识典古籍 (5 books: 上陽子金丹大要圖, 修真十書 悟真篇, 張平叔悟真篇集注, 金丹正理大全金丹大要); dataset reading attested in none of the retrieved books"
+        },
+        {
+          "original": "author 「荣」 (#839–839, 1 词)",
+          "corrected": "author 「荣諲」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《花草稡編》卷六「大卿榮諲咏梅南鄉子」, 《蕙風詞話》卷二.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「解」 (#855–856, 2 词)",
+          "corrected": "author 「解昉」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《花草稡編》卷六「陽臺夢 解昉」, 《御選歷代詩餘》.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -113775,6 +113789,13 @@
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《南湖集》卷十「詩餘」張鎡 (识典古籍, several editions); interleaved with 张鎡 records.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「杜」 (#822–824, 3 词)",
+          "corrected": "author 「杜旟」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《花草稡編》卷二〇「杜旟字伯高，賦石頭城酹江月」.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -114153,6 +114174,13 @@
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《絶妙好詞箋》卷二「韓疁」 (识典古籍).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「苏」 (#153–154, 2 词)",
+          "corrected": "author 「苏泂」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《游宦紀聞》卷八, 《詞綜》卷十四「蘇泂雨中花」.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -114510,6 +114538,13 @@
           "original": "角断竿鸣疏点",
           "corrected": "角断签鸣疏点",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：夢窗稿 宋名家詞"
+        },
+        {
+          "original": "author 「楼」 (#779–780, 2 词)",
+          "corrected": "author 「楼槃」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《陽春白雪》卷七, 《詞綜》卷三一「樓槃霜天曉角」.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -115690,6 +115725,13 @@
           "note": "乱码 ⅲ；四库本《竹山词》、汲古阁本《宋名家词·竹山词》、《御选历代诗余》作「釂琼𨠑也」，《御定词谱》作「酏」（识典古籍 https://www.shidianguji.com/search/镜月危楼釂琼）",
           "date": "2026-11-02",
           "reviewer": "Belugary"
+        },
+        {
+          "original": "author 「莫」 (#182–186, 5 词)",
+          "corrected": "author 「莫崙」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《御選歷代詩餘》卷七六「莫崙」, 《古今圖書集成·歲功典》「摸魚兒 莫崙」.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -116814,6 +116856,13 @@
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《濟南集》卷四 李廌 (识典古籍, 2 editions).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「蔡」 (#700–700, 1 词)",
+          "corrected": "author 「蔡薿」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《演繁露》卷十五, 《儒學警悟》卷十五, 《茶香室叢鈔》卷二七「蔡薿小詞有曰扇開仙掌」.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -117220,6 +117269,20 @@
           "note": "乱码 ﹀︽ → 僝僽；《于湖居士文集》卷三十三（四部丛刊景宋本）作「僝僽莺莺并燕燕」（识典古籍 https://www.shidianguji.com/search/僝僽莺莺并燕燕）",
           "date": "2026-11-02",
           "reviewer": "Belugary"
+        },
+        {
+          "original": "author 「王」 (#302–302, 1 词)",
+          "corrected": "author 「王楙」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍: the author's own 《野客叢書》卷二九「僕嘗有一詞爲張儀真壽曰：三傑後…」 (several editions).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「曾」 (#633–640, 8 词)",
+          "corrected": "author 「曾慥」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《修真十書雜著捷徑》卷二三「臨江仙 曾慥」 for one 词 of this contiguous block.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -117499,6 +117562,13 @@
           "note": "乱码 ﹀︽ → 僝僽；杨无咎词，四库本《逃禅词》、《花草稡编》卷十九作「风僝雨僽」（识典古籍 https://www.shidianguji.com/search/一春晴昼风僝雨僽）",
           "date": "2026-11-02",
           "reviewer": "Belugary"
+        },
+        {
+          "original": "author 「曾」 (#653–658, 5 词)",
+          "corrected": "author 「曾惇」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《全芳備祖前集》卷二一, 《佩文齋廣群芳譜》「曾惇朝中措」; #657–658 follow 曾惇 #656 in the same block.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -117890,6 +117960,13 @@
           "original": "空与丹庭",
           "corrected": "容与丹庭",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：二十一史 宋史 文體明辯"
+        },
+        {
+          "original": "author 「王」 (#946–947, 2 词)",
+          "corrected": "author 「王嵎」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《絶妙好詞箋》卷二「王嵎」 (both 词), 《御選歷代詩餘》.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
