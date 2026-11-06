@@ -50,7 +50,8 @@ INTERCHANGEABLE = {frozenset(p) for p in (
 # 并补上同类常见字对；写成简体，经 INTERCHANGEABLE_S 对繁体数据同样生效
 INTERCHANGEABLE |= {frozenset(p) for p in (
     '元原 子仔 胡蝴 的得 的地 得地 鲁卤 梢稍 协叶 每们 着著 那哪 么末 么吗 呵啊 罢吧 哩里 恁您 '
-    '交教 叫教 甚什 煞杀 咱喒 偌若 消销 采睬 答搭 匹疋 景影 昏婚 反返 说悦 女汝 帐账').split()}
+    '交教 叫教 甚什 煞杀 咱喒 偌若 消销 采睬 答搭 匹疋 景影 昏婚 反返 说悦 女汝 帐账 '
+    '够勾 桩椿 提题 萧潇 斑班 萍苹').split()}   # 末行：2026-11 元曲第一批审核中否决的字对
 
 
 INTERCHANGEABLE_S = {frozenset(sd.T2S.convert(c) for c in p) for p in INTERCHANGEABLE}

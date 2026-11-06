@@ -1172,6 +1172,97 @@
           "note": "needs_review: 識典古籍 《永樂大典》卷一三九九一 p.54: 外唱「我女復嫁張狀元，這番輻揍，兩情福非淺」— only one witness and 揍 looks like OCR for 輳; not filled.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "绿窗冷落闲针锈",
+          "corrected": "绿窗冷落闲针绣",
+          "note": "Collation with 识典古籍 (2 books: 新定九宮大成南北詞宮譜, 朝野新聲太平樂府); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "拔得个意转心回",
+          "corrected": "拨得个意转心回",
+          "note": "Collation with 识典古籍 (2 books: 群音類選, 西廂記); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "想思事",
+          "corrected": "相思事",
+          "note": "Collation with 识典古籍 (5 books: 增訂金批西廂, 新校注古本西廂記, 硃訂西廂記); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "假若便是上和泥",
+          "corrected": "假若便是土和泥",
+          "note": "Collation with 识典古籍 (2 books: 增訂金批西廂, 群音類選); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "心水成灰",
+          "corrected": "心内成灰",
+          "note": "Collation with 识典古籍 (5 books: 北西廂, 增訂金批西廂, 新定宗北歸音); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "望薄东萧寺暮云遮",
+          "corrected": "望蒲东萧寺暮云遮",
+          "note": "Collation with 识典古籍 (3 books: 南西廂記, 度曲須知, 群音類選); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "张氏乞手乐章",
+          "corrected": "张氏乞予乐章",
+          "note": "Collation with 识典古籍 (2 books: 東維子文集, 楊維禎詩集); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "萦力寸",
+          "corrected": "萦方寸",
+          "note": "Collation with 识典古籍 (2 books: 元曲選, 古雜劇); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "没定指性儿难据",
+          "corrected": "没定止性儿难据",
+          "note": "Collation with 识典古籍 (3 books: 元曲選, 元曲選一百種, 古雜劇); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "柳叫青摇",
+          "corrected": "柳叶青摇",
+          "note": "Collation with 识典古籍 (3 books: 元曲選, 元曲選一百種, 古雜劇); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "既然他有意来推凋",
+          "corrected": "既然他有意来推调",
+          "note": "Collation with 识典古籍 (2 books: 元曲選, 元曲選一百種); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "题待罢告天公",
+          "corrected": "题诗罢告天公",
+          "note": "Collation with 识典古籍 (2 books: 元曲選, 元曲選一百種); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "打独磨来到画桥四",
+          "corrected": "打独磨来到画桥西",
+          "note": "Collation with 识典古籍 (2 books: 元曲選, 元曲選一百種); dataset reading attested in none of the retrieved books",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
