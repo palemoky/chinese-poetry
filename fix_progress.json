@@ -1988,6 +1988,13 @@
           "original": "弔新安風景好",
           "corrected": "新安風景好",
           "note": "Line-length anomaly (5-char poem): extra char removed; 4 books on 识典古籍 read 「新安風景好」 (e.g. 《唐詩》, 《唐音戊籤》, 《徐常侍集》), none read the dataset's version"
+        },
+        {
+          "original": "[structure] 2 records consisting only of an editorial note",
+          "corrected": "[structure] removed",
+          "note": "Records whose paragraphs are a single （…） editor's note (collection prefaces such as 王梵志/崔致遠 卷說明, 存目 remarks ending in 空, 「（劉瑛整理）」) and no poem text; removed at the maintainer's request (2026-11-06). Later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10771,6 +10778,20 @@
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 7 records consisting only of an editorial note",
+          "corrected": "[structure] removed",
+          "note": "Records whose paragraphs are a single （…） editor's note (collection prefaces such as 王梵志/崔致遠 卷說明, 存目 remarks ending in 空, 「（劉瑛整理）」) and no poem text; removed at the maintainer's request (2026-11-06). Later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 2 untitled records without poem text (author bio or editorial note only)",
+          "corrected": "[structure] removed; bios moved to authors.tang.json",
+          "note": "徐源、張司馬、王嚴光: the record held only the author's bio, now the desc of the (previously empty) authors.tang.json entry. 張祜、何仙姑 (「空（按…）」 notes) and 慧稜 (「空。」) held only an editorial note or nothing; removed at the maintainer's request. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10819,6 +10840,20 @@
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 7 records consisting only of an editorial note",
+          "corrected": "[structure] removed",
+          "note": "Records whose paragraphs are a single （…） editor's note (collection prefaces such as 王梵志/崔致遠 卷說明, 存目 remarks ending in 空, 「（劉瑛整理）」) and no poem text; removed at the maintainer's request (2026-11-06). Later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 2 untitled records without poem text (author bio or editorial note only)",
+          "corrected": "[structure] removed; bios moved to authors.tang.json",
+          "note": "徐源、張司馬、王嚴光: the record held only the author's bio, now the desc of the (previously empty) authors.tang.json entry. 張祜、何仙姑 (「空（按…）」 notes) and 慧稜 (「空。」) held only an editorial note or nothing; removed at the maintainer's request. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10855,6 +10890,13 @@
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 2 untitled records without poem text (author bio or editorial note only)",
+          "corrected": "[structure] removed; bios moved to authors.tang.json",
+          "note": "徐源、張司馬、王嚴光: the record held only the author's bio, now the desc of the (previously empty) authors.tang.json entry. 張祜、何仙姑 (「空（按…）」 notes) and 慧稜 (「空。」) held only an editorial note or nothing; removed at the maintainer's request. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10886,6 +10928,13 @@
           "original": "[markup] editorial collation marks in 63 poems",
           "corrected": "[markup] text resolved to the edited reading; 44 marks kept verbatim in notes",
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 5 records consisting only of an editorial note",
+          "corrected": "[structure] removed",
+          "note": "Records whose paragraphs are a single （…） editor's note (collection prefaces such as 王梵志/崔致遠 卷說明, 存目 remarks ending in 空, 「（劉瑛整理）」) and no poem text; removed at the maintainer's request (2026-11-06). Later record indices shift (docs/人工复核清单.tsv remapped).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -11692,6 +11741,13 @@
           "original": "[markup] editorial collation marks in 55 poems",
           "corrected": "[markup] text resolved to the edited reading; 47 marks kept verbatim in notes",
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 1 records consisting only of an editorial note",
+          "corrected": "[structure] removed",
+          "note": "Records whose paragraphs are a single （…） editor's note (collection prefaces such as 王梵志/崔致遠 卷說明, 存目 remarks ending in 空, 「（劉瑛整理）」) and no poem text; removed at the maintainer's request (2026-11-06). Later record indices shift (docs/人工复核清单.tsv remapped).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
