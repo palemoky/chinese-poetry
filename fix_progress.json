@@ -112814,6 +112814,13 @@
           "original": "便须平布清切",
           "corrected": "便须平步清切",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：于湖居士文集 于湖集 於湖居士文集"
+        },
+        {
+          "original": "吕胜己 谒金门 ×3 (「花满树」「嗟久客」「芳思切」) recorded twice in a row (#572–574 = #575–577)",
+          "corrected": "[structure] second copy removed",
+          "note": "Consecutive identical block of three 词 (same author, rhythmic and text); the repeated copy was removed. Later indices in this file shift by 3; references in docs/ (宋词对勘.applied.json, recheck tables, 人工复核清单) remapped.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
