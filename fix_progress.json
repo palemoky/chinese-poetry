@@ -5,8 +5,8 @@
     "total_files": 376,
     "reviewed": 689,
     "clean": 157,
-    "fixed": 160,
-    "needs_review": 59,
+    "fixed": 161,
+    "needs_review": 58,
     "out_of_scope": 313,
     "in_scope_files": 376
   },
@@ -1022,8 +1022,10 @@
         },
         {
           "original": "起初儿相见十分砒タ，心肝儿般敬重将",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble タ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "corrected": "起初儿相见十分忺，心肝儿般敬重将",
+          "note": "needs_review: kana/bopomofo garble タ; no matching passage found on 识典古籍 (shidianguji.com) | 2026-11-06 resolved: 乱码「砒タ」→ 忺（GB2312 外，适意义）；《朝野新声太平乐府》卷一（四部丛刊景元刊本）作「起初兒相見十分忺，心肝兒般敬重將他占」；另两种刻本作「忱」，视为异文，取元刊本（https://www.shidianguji.com/zh/search/心肝儿般敬重）",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         },
         {
           "original": "树梢头ㄋ歌不怕险。",
@@ -1053,7 +1055,7 @@
         {
           "original": "难随，不由他醉了ぴ睡，今日世途非向",
           "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ぴ; no matching passage found on 识典古籍 (shidianguji.com)"
+          "note": "needs_review: kana/bopomofo garble ぴ; no matching passage found on 识典古籍 (shidianguji.com) | 2026-11-06 recheck: 仅《乐府群珠》卷四（抄本）1 种作「醉了劓睡」，单本且字义不通（疑即「齁」类字），未改（https://www.shidianguji.com/zh/search/不由他醉了）"
         },
         {
           "original": "州・听得那静鞭响ㄡㄡ聒聒，听得杖鼓鸣",
@@ -1169,7 +1171,7 @@
         {
           "original": "┾只共、梅花幽独",
           "corrected": null,
-          "note": "needs_review: box-drawing garble ┾; 识典古籍 candidates 晚/暝/数 tie"
+          "note": "needs_review: box-drawing garble ┾; 识典古籍 candidates 晚/暝/数 tie | 2026-11-06 recheck: 新检索仅《御选历代诗馀》（四库本）1 种作「寂寞江城，拚只共、梅花幽獨」，单本且「拚」在 GB2312 内，不足以定，未改（https://www.shidianguji.com/zh/search/寂寞江城）"
         },
         {
           "original": "思住事",
@@ -2591,6 +2593,20 @@
           "original": "[lacuna marker] 囗 ×1",
           "corrected": "[lacuna marker] □",
           "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        },
+        {
+          "original": "幾處爐爣炭",
+          "corrected": "幾處爐熏炭",
+          "note": "「爣」与下句残渣相邻，书证均不作此字；《徂徠集》卷四（四库本）、《徂徠文集》卷四（清抄本）、《徂徠石先生全集》卷四（刻本）作「幾處爐熏炭」，许孚远刻本作「薰」（https://www.shidianguji.com/zh/search/何人坐有）",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "何人坐有[H。 / 70x]氊。",
+          "corrected": "何人坐有氊。",
+          "note": "ASCII 残渣「[H」「70x]」删除，被拆开的一句合并；同上 3 种书作「何人坐有氈」（保留本数据集字形「氊」）",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4701,6 +4717,13 @@
           "original": "棄捐碩果□不食，正音鏗鏘不",
           "corrected": "棄捐碩果人不食，正音鏗鏘不",
           "note": "needs_review: lacuna □ — candidate 「人」 supported by only 1 book on 识典古籍 (《東萊詩集》東萊詩集卷十宋吕本中撰“離行在即事三首”); not filled | 2026-10-07 resolved: [missing_char] □ → 人; 识典古籍 2 books (e.g. 《東萊先生詩集》卷十, 《東萊詩集》東萊詩集卷十宋吕本中撰“離行在即事三首”) — extended search (short contexts + title), authorized access"
+        },
+        {
+          "original": "千尺絲輪0直下垂",
+          "corrected": "千尺絲輪直下垂",
+          "note": "ASCII 残渣「0」删除，七言句复原；「輪」船子和尚原偈作「綸」（《五灯会元》卷十三等），此为惟照颂古引用，未改（https://www.shidianguji.com/zh/search/千尺丝纶直下垂）",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -111138,12 +111161,14 @@
     "宋词/ci.song.0.json": {
       "date": "2026-11-01",
       "reviewer": "claude-opus-5-5",
-      "status": "needs_review",
+      "status": "fixed",
       "fixes": [
         {
           "original": "解刷扮，能ㄋ嗽，表里都峭。",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble ㄋ; 识典古籍 candidates ambiguous: 𠴇, 㑟"
+          "corrected": "解刷扮，能𠴇嗽，表里都峭。",
+          "note": "needs_review: kana/bopomofo garble ㄋ; 识典古籍 candidates ambiguous: 𠴇, 㑟 | 2026-11-06 resolved: 注音乱码 ㄋ → 𠴇；《彊村丛书》本《乐章集》、劳权清抄本《乐章集》卷上均作「能𠴇嗽，表裏都峭」，《花草稡编》（四库本、万历刻本）作「㑟」，取乐章集系统读法（https://www.shidianguji.com/zh/search/解刷扮能）",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         },
         {
           "original": "路隔秋江",
@@ -111682,7 +111707,7 @@
         {
           "original": "�稍�著意斟量过",
           "corrected": null,
-          "note": "needs_review: GBK byte-shift garble (2 chars, partial bytes C9D4); no source found"
+          "note": "needs_review: GBK byte-shift garble (2 chars, partial bytes C9D4); no source found | 2026-11-06 recheck: 《惜香乐府》卷七（四库本）作「幾曾著意斟量」，汲古阁刻本 OCR 为生僻字（𥋧/㬠）。字节分析：稍=C9D4，曾=D4F8，故第二字确为「曾」；第一字 GBK 末字节为 C9（「可」BFC9 合，「几」BCB8 不合），书证与字节不一致，未改（https://www.shidianguji.com/zh/search/著意斟量过）"
         },
         {
           "original": "玉阕琼宫愁寂",
@@ -112841,8 +112866,10 @@
         },
         {
           "original": "づ文王前子，自不与",
-          "corrected": null,
-          "note": "needs_review: kana/bopomofo garble づ; 识典古籍 candidates ambiguous: 亶"
+          "corrected": "亶文王前子，自不与",
+          "note": "needs_review: kana/bopomofo garble づ; 识典古籍 candidates ambiguous: 亶 | 2026-11-06 resolved: 假名乱码 づ → 亶（GB2312 外）；《竹斋诗馀》（四库本）、《宋名家词·竹斋诗馀》（崇祯汲古阁刻本）均作「亶文王前子，自不與世人同」（https://www.shidianguji.com/zh/search/文王前子）",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         },
         {
           "original": "拥熊旗指授，鹰扬や啖，毡裘胆落，鼠",
@@ -114938,7 +114965,7 @@
         {
           "original": "涧篱�怼�",
           "corrected": null,
-          "note": "needs_review: GBK byte-shift garble; no source found"
+          "note": "needs_review: GBK byte-shift garble; no source found | 2026-11-06 recheck: 《彊村丛书·涧泉诗馀》作「雞犬靜，澗籬閉」（1 种）；但字节分析：怼=EDA1，原文应为「X。」且 X 的 GBK 末字节为 ED，「闭」B1D5 不合，未改（https://www.shidianguji.com/zh/search/鸡犬静涧篱）"
         },
         {
           "original": "管教�拍ァ�",
@@ -117025,6 +117052,20 @@
           "original": "[formatting] whitespace 18",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: leading/trailing whitespace trimmed in content/comment fields"
+        },
+        {
+          "original": "酴(tu)醾 (mi）",
+          "corrected": "酴醾",
+          "note": "删除网页底本混入的拼音注音（ASCII 残渣），正文不变",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "擪(ye)管",
+          "corrected": "擪管",
+          "note": "删除网页底本混入的拼音注音（ASCII 残渣），正文不变",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
