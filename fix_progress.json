@@ -3,12 +3,12 @@
   "description": "Progress tracker for fixing typos and garbled characters (乱码) in chinese-poetry dataset. See AGENTS.md for the workflow.",
   "stats": {
     "total_files": 376,
-    "reviewed": 689,
-    "clean": 156,
+    "reviewed": 688,
+    "clean": 155,
     "fixed": 162,
     "needs_review": 58,
     "out_of_scope": 313,
-    "in_scope_files": 376
+    "in_scope_files": 375
   },
   "reviewed": {
     "诗经/shijing.json": {
@@ -1525,6 +1525,13 @@
           "original": "author 「汪」 (#190–202, 13 词)",
           "corrected": "author 「汪晫」",
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《康範詩集》/《西園康範詩集》詩餘 汪晫, 《新安文獻志》卷六〇 (识典古籍).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "李从周《清平乐》「梦魂寻遍」 missing (only in 宋词/ci.song.2019y.json, traditional/simplified mixed)",
+          "corrected": "inserted as #729 in simplified script; 隐映 → 隐约",
+          "note": "Merged from the stray file ci.song.2019y.json, which is removed. 识典古籍: 《詞綜》卷二二 (3 editions), 《詞潔》卷一, 《御選歷代詩餘》 read 「碧雲隱約紅霞」 (隐映 attested in none). Later indices in this file shift by 1; docs references remapped.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -116012,6 +116019,13 @@
           "original": "彤管载音徵",
           "corrected": "彤管载音徽",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：古今圖書集成·樂律典 御製律呂正義後編 駢字類編"
+        },
+        {
+          "original": "九张机 (#309–319): closing 放队 lines missing",
+          "corrected": "added to notes of #319",
+          "note": "The four lines 「歌声飞落画梁尘…尊前忽有断肠人」 were only in ci.song.2019y.json (a combined copy of this 九张机); 识典古籍《樂府雅詞》卷上 (四庫本, 伍氏本) has them after the 九张机.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -116404,12 +116418,6 @@
           "reviewer": "claude-opus-5-5"
         }
       ]
-    },
-    "宋词/ci.song.2019y.json": {
-      "date": "2026-06-26",
-      "reviewer": "claude-sonnet-4-6",
-      "status": "clean",
-      "fixes": []
     },
     "宋词/ci.song.21000.json": {
       "date": "2026-10-07",
