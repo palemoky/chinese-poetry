@@ -201,12 +201,11 @@ def cmd_apply(args):
         if r['action'] == 'revert':
             e['fixes'] = [f for f in fixes if not (f.get('original') == r['new'] and f.get('corrected') == r['current'])]
         else:
-            fixes.append(dict(original=r['current'], corrected=r['new'],
-                              note=f"Recheck with directed 识典古籍 search: dataset reading not found; {r['evidence']}"))
-        e['date'], e['reviewer'] = args.date, args.reviewer
+            sd.add_fix(progress, r['file'], dict(original=r['current'], corrected=r['new'],
+                       note=f"Recheck with directed 识典古籍 search: dataset reading not found; {r['evidence']}"),
+                       args.date, args.reviewer)
         n[r['action']] += 1
-    sd.recompute_stats(progress)
-    open(progress_path, 'w', encoding='utf-8').write(json.dumps(progress, ensure_ascii=False, indent=2))
+    sd.write_progress(progress, progress_path)
     print(dict(n))
 
 

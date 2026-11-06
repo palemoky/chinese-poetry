@@ -262,17 +262,14 @@ def cmd_apply(args):
         if o not in raw:
             print(f"skip {row['key']}: text changed"); continue
         open(os.path.join(ROOT, rel), 'w', encoding='utf-8').write(raw.replace(o, nw, 1))
-        e = progress['reviewed'].setdefault(rel, dict(status='clean', fixes=[]))
-        e.setdefault('fixes', []).append(dict(original=row['original'], corrected=new, note=(
+        e = sd.add_fix(progress, rel, dict(original=row['original'], corrected=new, note=(
             f"Collation with 识典古籍 ({row['evidence']}); dataset reading attested in none of the retrieved books"
-            + ('' if dec == 'accept' else '; corrected by reviewer'))))
-        e['date'], e['reviewer'] = args.date, args.reviewer
+            + ('' if dec == 'accept' else '; corrected by reviewer'))), args.date, args.reviewer)
         if e.get('status') == 'clean':
             e['status'] = 'fixed'
         applied.add(row['key'])
         n += 1
-    sd.recompute_stats(progress)
-    open(progress_path, 'w', encoding='utf-8').write(json.dumps(progress, ensure_ascii=False, indent=2))
+    sd.write_progress(progress, progress_path)
     with open(applied_path(args), 'w', encoding='utf-8') as fp:
         json.dump(sorted(applied), fp, ensure_ascii=False, indent=0)
         fp.write('\n')

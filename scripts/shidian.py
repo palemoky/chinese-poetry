@@ -352,6 +352,22 @@ def cmd_analyze(args):
 
 # ---------------------------------------------------------------- apply
 
+def add_fix(progress, rel, fix, date, reviewer):
+    """按 AGENTS.md 记一条修正：新文件建条目时写文件级 date/reviewer；已在册的文件保留原 date/reviewer
+    （属于更早的审阅），日期与审核人写在这条 fix 上。返回该文件条目。"""
+    e = progress['reviewed'].get(rel)
+    if e is None:
+        e = progress['reviewed'][rel] = dict(date=date, reviewer=reviewer, status='clean', fixes=[])
+    e.setdefault('fixes', []).append(dict(fix, date=date, reviewer=reviewer))
+    return e
+
+
+def write_progress(progress, path):
+    recompute_stats(progress)
+    with open(path, 'w', encoding='utf-8') as fp:
+        fp.write(json.dumps(progress, ensure_ascii=False, indent=2) + '\n')
+
+
 def recompute_stats(progress):
     st = progress.setdefault('stats', {})
     statuses = collections.Counter(e.get('status') for e in progress['reviewed'].values())
@@ -425,26 +441,26 @@ def cmd_apply(args):
         open(path, 'w', encoding='utf-8').write(raw)
 
     for rel, fx in records.items():
-        e = progress['reviewed'].setdefault(rel, dict(status='clean', fixes=[]))
-        e.setdefault('fixes', [])
-        known = {(x['original'], x['corrected']) for x in e['fixes']}
+        e = progress['reviewed'].get(rel) or dict(fixes=[])
+        known = {(x['original'], x['corrected']) for x in e.get('fixes', [])}
         for x in fx:
             if (x['original'], x['corrected']) in known:
                 continue
             # 同一位置已有 needs_review 记录：就地更新，而不是另起一条
-            old = next((y for y in e['fixes'] if y['corrected'] is None and y['original'] == x['original']), None)
+            old = next((y for y in e.get('fixes', []) if y['corrected'] is None and y['original'] == x['original']), None)
             if old is not None and x['corrected'] is not None:
                 old['corrected'] = x['corrected']
                 old['note'] += f" | resolved {args.date}: {x['note']}"
+                old['date'], old['reviewer'] = args.date, args.reviewer
             elif old is None:
-                e['fixes'].append(x)
-        e['date'], e['reviewer'] = args.date, args.reviewer
+                e = add_fix(progress, rel, x, args.date, args.reviewer)
+        if rel not in progress['reviewed']:
+            continue
         if any(x['corrected'] is None for x in e['fixes']):
             e['status'] = 'needs_review'
         elif any(x['corrected'] != x['original'] for x in e['fixes']):
             e['status'] = 'fixed'
-    recompute_stats(progress)
-    open(progress_path, 'w', encoding='utf-8').write(json.dumps(progress, ensure_ascii=False, indent=2))
+    write_progress(progress, progress_path)
     n_fix = sum(len(v) for v in edits.values())
     print(f'applied {n_fix} edits in {len(by_file)} files; recorded {sum(len(v) for v in records.values())} entries in fix_progress.json')
 

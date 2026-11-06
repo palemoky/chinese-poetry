@@ -227,9 +227,7 @@ def edit(progress, rel, path, sent, k, ch, note, reviewer, date):
             return f'skip {rel}{path}: {o} not unique in file'
         raw = raw.replace(o, n, 1)
     open(os.path.join(ROOT, rel), 'w', encoding='utf-8').write(raw)
-    e = progress['reviewed'].setdefault(rel, dict(status='clean', fixes=[]))
-    e.setdefault('fixes', []).append(dict(original=sent, corrected=new_sent, note=note))
-    e['date'], e['reviewer'] = date, reviewer
+    e = sd.add_fix(progress, rel, dict(original=sent, corrected=new_sent, note=note), date, reviewer)
     if e.get('status') == 'clean':
         e['status'] = 'fixed'
     return None
@@ -264,8 +262,7 @@ def cmd_apply(args):
         else:
             applied.add(key)
             n += 1
-    sd.recompute_stats(progress)
-    open(progress_path, 'w', encoding='utf-8').write(json.dumps(progress, ensure_ascii=False, indent=2))
+    sd.write_progress(progress, progress_path)
     if args.applied:
         with open(args.applied, 'w', encoding='utf-8') as fp:
             json.dump(sorted(applied), fp, ensure_ascii=False, indent=0)
