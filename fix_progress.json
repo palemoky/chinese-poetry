@@ -1429,6 +1429,13 @@
           "original": "萧散龙游鹤渚",
           "corrected": "萧散龙游鹤翥",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：古今圖書集成·文學典 歷代詩餘"
+        },
+        {
+          "original": "author 「汪」 (#190–202, 13 词)",
+          "corrected": "author 「汪晫」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《康範詩集》/《西園康範詩集》詩餘 汪晫, 《新安文獻志》卷六〇 (识典古籍).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -112552,6 +112559,13 @@
           "original": "酒阑滋味思残春",
           "corrected": "酒阑滋味似残春",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：古今圖書集成·歲功典 東坡先生全集 歷代詩餘 蘇長公二妙集"
+        },
+        {
+          "original": "author 「王」 (#21–23, 3 词)",
+          "corrected": "author 「王珪」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《華陽集》卷六「輓詞」王珪 (识典古籍, 3 editions).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -113754,6 +113768,13 @@
           "note": "错字「人」→「云」（乱码之外的另一处改动，单列）；四库本《龙川集》卷十七与《龙川词》、《花草稡编》卷二、汲古阁本《宋名家词·龙川词》、崇祯六年刻《龙川文集》卷十七、同治胡氏退补斋本《龙川集》均作「雨僝云僽」，识典古籍检索「雨僝人僽」无此读法（https://www.shidianguji.com/search/君知否雨僝云僽）",
           "date": "2026-11-02",
           "reviewer": "Belugary"
+        },
+        {
+          "original": "author 「张」 (#472–506, 27 词)",
+          "corrected": "author 「张鎡」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《南湖集》卷十「詩餘」張鎡 (识典古籍, several editions); interleaved with 张鎡 records.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -114125,6 +114146,13 @@
           "note": "乱码 ﹀︽ → 僝僽；白玉蟾词，《修真十书·上清集》《白玉蟾集》作「吃尽风僝雨僽」（识典古籍 https://www.shidianguji.com/search/吃尽风僝雨僽）",
           "date": "2026-11-02",
           "reviewer": "Belugary"
+        },
+        {
+          "original": "author 「韩」 (#49–54, 6 词)",
+          "corrected": "author 「韩疁」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《絶妙好詞箋》卷二「韓疁」 (识典古籍).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -115321,6 +115349,13 @@
           "original": "鸡听人语",
           "corrected": "鸡声人语",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：元草堂詩餘 歷代詩餘 精選名儒草堂詩餘 詞律拾遺 鳳林書院草堂詩餘"
+        },
+        {
+          "original": "author 「黄廷」 (#237–242, 5 词)",
+          "corrected": "author 「黄廷璹」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: records between/after 黄廷璹 in the same block.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -116059,6 +116094,13 @@
           "original": "尽目厌厌总无语",
           "corrected": "尽日厌厌总无语",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：歷代詩餘 花草稡編"
+        },
+        {
+          "original": "author 「向」 (#181–222, 38 词)",
+          "corrected": "author 「向滈」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《樂齋詞》(识典古籍: 樂齋詞一卷, 宋金元明人詞十七種, 南詞十三種, 唐宋八家詞); 向 records alternate with 向滈 in the same block; 38+5 = 43 = 全宋词 向滈.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -116765,6 +116807,13 @@
           "original": "细丝梅蕊晚香浓",
           "corrected": "细看梅蕊晚香浓",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：歷代詩餘 溪堂詞"
+        },
+        {
+          "original": "author 「李」 (#573–576, 4 词)",
+          "corrected": "author 「李廌」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《濟南集》卷四 李廌 (识典古籍, 2 editions).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
