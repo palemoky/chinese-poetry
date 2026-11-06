@@ -1165,6 +1165,13 @@
           "note": "Collation with 识典古籍 (11 snippets all read 把元戎印掌; 戌/戎 look-alike); dataset reading attested in none of the retrieved books; corrected by reviewer",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "无名氏《张协状元》 同前 「……。」 (after 迎仙客「协冒渎，望周全」)",
+          "corrected": null,
+          "note": "needs_review: 識典古籍 《永樂大典》卷一三九九一 p.54: 外唱「我女復嫁張狀元，這番輻揍，兩情福非淺」— only one witness and 揍 looks like OCR for 輳; not filled.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -3094,6 +3101,13 @@
           "original": "[formatting] half_width 2",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "上丞相壽 其一/其三/…/其三九 (20 records, no text); 其二…其四〇 hold one line each",
+          "corrected": null,
+          "note": "needs_review: 識典古籍: 《浣川集》卷三 (四庫本 p.12) has these lines inside 集句 poems (lines from 杜牧、李商隱、張籍 etc.); the original grouping could not be recovered from search snippets. Needs the page image.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10792,6 +10806,13 @@
           "note": "徐源、張司馬、王嚴光: the record held only the author's bio, now the desc of the (previously empty) authors.tang.json entry. 張祜、何仙姑 (「空（按…）」 notes) and 慧稜 (「空。」) held only an editorial note or nothing; removed at the maintainer's request. Later record indices shift.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 4 group-title records with no text",
+          "corrected": "[structure] removed",
+          "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10852,6 +10873,27 @@
           "original": "[structure] 2 untitled records without poem text (author bio or editorial note only)",
           "corrected": "[structure] removed; bios moved to authors.tang.json",
           "note": "徐源、張司馬、王嚴光: the record held only the author's bio, now the desc of the (previously empty) authors.tang.json entry. 張祜、何仙姑 (「空（按…）」 notes) and 慧稜 (「空。」) held only an editorial note or nothing; removed at the maintainer's request. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "于祐題紅葉二句: (no text)",
+          "corrected": "曾聞葉上題紅怨，葉上題詩寄阿誰。",
+          "note": "Missing text restored from 识典古籍 (婚禮新編 卷十二, 古今圖書集成·文學典 卷二一七, 新刊訓解直音書言故事大全 卷一); the dataset had an empty body.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 2 group-title records with no text",
+          "corrected": "[structure] removed",
+          "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "李璟《應天長》 (title with note only)",
+          "corrected": "[structure] removed",
+          "note": "存目 record: the title carries the note 「今按：《全唐詩》八八九作李煜詞」 and no text; the same 詞 is already at 全唐诗/poet.tang.49000.json under 後主煜. Removed with the other note-only records.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -10937,6 +10979,27 @@
           "note": "Records whose paragraphs are a single （…） editor's note (collection prefaces such as 王梵志/崔致遠 卷說明, 存目 remarks ending in 空, 「（劉瑛整理）」) and no poem text; removed at the maintainer's request (2026-11-06). Later record indices shift (docs/人工复核清单.tsv remapped).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "問如滿禪師 一: (no text)",
+          "corrected": "佛從何方來，滅向何方去？\n既言常住世，佛今在何處？",
+          "note": "Missing text restored from 识典古籍 (景德傳燈録 卷六, 五燈會元 卷三, 大藏一覽集 卷一); the dataset had an empty body.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 3 group-title records with no text",
+          "corrected": "[structure] removed",
+          "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "永嘉百詠 滴水卷 (empty) + 永嘉百詠 「滴水泠泠徹碧紗…」",
+          "corrected": "永嘉百詠 滴水卷 「滴水泠泠徹碧紗…」",
+          "note": "The sub-title had been split from its poem into an empty record; merged.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10978,6 +11041,13 @@
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 2 group-title records with no text",
+          "corrected": "[structure] removed",
+          "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11000,6 +11070,13 @@
           "original": "[markup] editorial collation marks in 10 poems",
           "corrected": "[markup] text resolved to the edited reading; 7 marks kept verbatim in notes",
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 2 group-title records with no text",
+          "corrected": "[structure] removed",
+          "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -11750,6 +11827,13 @@
           "note": "Records whose paragraphs are a single （…） editor's note (collection prefaces such as 王梵志/崔致遠 卷說明, 存目 remarks ending in 空, 「（劉瑛整理）」) and no poem text; removed at the maintainer's request (2026-11-06). Later record indices shift (docs/人工复核清单.tsv remapped).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 4 group-title records with no text",
+          "corrected": "[structure] removed",
+          "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11789,6 +11873,20 @@
           "original": "[markup] editorial collation marks in 91 poems",
           "corrected": "[markup] text resolved to the edited reading; 81 marks kept verbatim in notes",
           "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "沈警遇仙張女郎廟詩（題擬） 吟畢聞簾外歎賞之聲復云: (no text)",
+          "corrected": "閒宵豈虛擲，朗月豈無明。",
+          "note": "Missing text restored from 识典古籍 (太平廣記 卷三二六 (several editions), 逸史搜奇 卷九, 廣博物志 卷十四); the dataset had an empty body.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[structure] 1 group-title records with no text",
+          "corrected": "[structure] removed",
+          "note": "Group headers (e.g. 「過王濬墓（二首）」 followed by 「過王濬墓（二首） 一」「二」) whose only paragraph was 「。」; the poems are the following records. Later record indices shift.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
