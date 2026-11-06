@@ -17,6 +17,7 @@
 判定规则：
   - 比对前统一异体（OpenCC 繁简 + Unihan 语义/字形异体），工作目录首次分析时自动下载 Unihan
   - fix：他本读法有 ≥2 种古籍支持，且本库读法在检索到的古籍中一种都没有
+  - 丢字：他本多出一个 GB2312 以外的字、去掉后与本库相同（导入时丢掉的生僻字），同样要求 ≥2 种古籍、本库读法无古籍；审核表 evidence 列标 dropped char
   - 两读皆有古籍 → 异文不改；一常用一生僻 → 视为异体不改；古书通用字、古今字（INTERCHANGEABLE）不改
 """
 import argparse
@@ -150,7 +151,9 @@ def load_results(work):
 
 
 def judge_sentence(norm, s, prev, nxt, snips):
-    """返回 (as_is_books, {candidate: books})：只考虑同长度一字之差（形近/音近错字）。"""
+    """返回 (as_is_books, {(位置, 字, 类型): books})。类型 'sub'：同长度一字之差（形近/音近错字）；
+    'ins'：他本多出一个 GB2312 以外的字、去掉后与本库相同——导入时丢掉生僻字（宋词三百首「如三鼓」→「紞如三鼓」），
+    元曲整部只有万分之一点几的非 GB2312 字，多半是这样丢的。"""
     S, P, N = norm(s), norm(prev)[-2:], norm(nxt)[:2]
     as_is, cand = set(), collections.defaultdict(set)
     for raw, nsnip, book in snips:
@@ -163,7 +166,13 @@ def judge_sentence(norm, s, prev, nxt, snips):
             diff = [k for k in range(len(S)) if S[k] != t[k]]
             if len(diff) == 1:
                 k = diff[0]
-                cand[(k, raw[m.start(1) + k])].add(book)
+                cand[(k, raw[m.start(1) + k], 'sub')].add(book)
+        for m in re.finditer(re.escape(P) + f'(.{{{len(S) + 1}}})' + re.escape(N), nsnip):
+            t = m.group(1)
+            for k in range(len(t)):
+                if t[:k] + t[k + 1:] == S and not gb(t[k]):
+                    cand[(k, raw[m.start(1) + k], 'ins')].add(book)
+                    break
     return as_is, cand
 
 
@@ -193,11 +202,16 @@ def cmd_analyze(args):
             if not cand:
                 stat['sent_confirmed'] += 1
                 continue
-            (k, ch), books = max(cand.items(), key=lambda kv: len(kv[1]))
+            (k, ch, kind), books = max(cand.items(), key=lambda kv: len(kv[1]))
             ch = sd.to_dataset_script(p['file'], ch)
-            wrong = s[k]
-            if as_is or len(books) < 2 or gb(wrong) != gb(ch) or interchangeable(wrong, ch) \
-                    or norm(wrong) == norm(ch):
+            if kind == 'ins':
+                weak = as_is or len(books) < 2 or gb(ch)
+                proposed = s[:k] + ch + s[k:]
+            else:
+                wrong = s[k]
+                weak = as_is or len(books) < 2 or gb(wrong) != gb(ch) or interchangeable(wrong, ch) or norm(wrong) == norm(ch)
+                proposed = s[:k] + ch + s[k + 1:]
+            if weak:
                 stat['sent_variant_or_weak'] += 1
                 continue
             key = f"{p['file']}#{p['idx']}#{i}"
@@ -206,8 +220,8 @@ def cmd_analyze(args):
                 continue
             stat['sent_suspect'] += 1
             rows.append(dict(key=key, decision='', file=p['file'], idx=p['idx'], author=p['author'] or '',
-                             title=p['title'] or '', original=s, proposed=s[:k] + ch + s[k + 1:],
-                             evidence=f"{len(books)} books: {', '.join(sorted(books)[:3])}"))
+                             title=p['title'] or '', original=s, proposed=proposed,
+                             evidence=('dropped char; ' if kind == 'ins' else '') + f"{len(books)} books: {', '.join(sorted(books)[:3])}"))
     with open(os.path.join(args.work, 'review.tsv'), 'w', encoding='utf-8', newline='') as fp:
         w = csv.DictWriter(fp, delimiter='\t', fieldnames=['key', 'decision', 'file', 'idx', 'author', 'title',
                                                            'original', 'proposed', 'evidence'])
