@@ -651,45 +651,18 @@ id	作者	题目	问题	详情	建议
 宋词/ci.song.21000.json#44	赵□	失调名	作者名含缺字/括注	「赵□」共 1 首（此处为首次出现）	核实作者名；无法补全的统一写法，括注移入 notes
 全唐诗/poet.tang.50000.json#222	李翔		首段疑为注文	（《涉道詩》二十八首〖伯三八六六〗）。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.50000.json#367	王梵志		首段疑为注文	（案《全唐詩》無王梵志詩，生平事跡不可考。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.50000.json#532	張鷟	答張文成	首段疑为注文	（案以下各詩，《遊仙窟》雖謂崔十娘所作，要皆張文成戲墨耳。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.50000.json#556	張鷟	詠筝	首段疑为注文	（案以下各詩，《遊仙窟》雖謂崔五嫂所作，要亦張文成戲墨而已。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.50000.json#596	皇甫冉	送韓司直	首段疑为注文	（見宋趙師秀《衆妙集》，並見宋周弼《唐三體詩》卷六。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.50000.json#599	赵居貞	雲門山投龍詩刻（並序）	首段疑为注文	（按《全唐詩》卷二百五十八收此詩，《山左金石志》石刻亦載之，惟異文較多，且序中有	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.50000.json#630	范的	時在育王寺書石字奉酬□丞使君寄贈四韻依次用本韻	首段疑为注文	（《金石文鈔》題作《時在育王寺書石中丞使君寄目前四韻奉酬本韻》）拙藝荷才雄，新詩	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.50000.json#679	張祜	寓居臨平山下三首	首段疑为注文	（按此第一首亦見《永樂大典》卷二二七一、七模、湖字臨平湖條〖二函二十冊〗。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.50000.json#715	張祜	江上旅伯呈池州杜員外	首段疑为注文	（按《全唐詩》卷五一一收此詩之前四句，缺其後半。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.50000.json#718	張祜	題贈崔權處士	首段疑为注文	（按此詩亦見《永樂大典》卷一三四五○「二寘」「士」字「處士」條。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.50000.json#719	張祜	酬餘姚鄭摸（《大典》作「模」）明府見贈長句四韻	首段疑为注文	（按此詩亦見《永樂大典》卷一一○○○「六姥」「府」字「明府」條。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.50000.json#860	魏璞	尋鳥窠蹟	首段疑为注文	（原注：唐道林禪師入秦望山，見長松蟠曲如蓋，送棲止其上，故稱鳥窠禪師。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.50000.json#898	呂從慶		首段疑为注文	（按《全唐詩》無呂從慶詩。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.50000.json#949	徐鉉		首段疑为注文	（《全唐詩》編徐鉉詩爲六卷，以下二首及句均所未收，據《宋詩紀事》卷三錄補之。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.50000.json#955	范質	誡兒姪八百字	首段疑为注文	（昨得謝課書，希於京秩之中更與遷轉。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.50000.json#984	顏真卿等	竹山連句題潘氏書堂	首段疑为注文	（顏真卿、陸羽、李蕚、裴修、康造、湯清河、清晝、陸士修、房夔、顏粲、顏顓、顏須、	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.51000.json#47	崔致遠		首段疑为注文	（案《全唐詩》無崔致遠詩。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#112	李淵	爲秦王制詩	首段疑为注文	（初太宗爲秦王，高祖制詩云云。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#120	李百藥	過楊玄感墓	首段疑为注文	（《唐書》曰：天后西幸京師，路經楊玄感墓，上誦李百藥《過玄感墓詩》云云，歎曰：「	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#140	王勃	自鄉[還]（遠）虢	首段疑为注文	（王福畤之子，勔、勮、勃皆有才名，故杜易簡稱爲三珠樹。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.51000.json#173	缺名	五言白話詩	首段疑为注文	（原缺卷首。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.51000.json#200	缺名	五言詩	首段疑为注文	（原爲長篇連續不斷。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#214	神秀	偈	首段疑为注文	（五祖弘忍一日會衆傳法弟子，神秀呈偈出於壁間。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#216	慧能	偈	首段疑为注文	（慧能不識字，聞人誦神秀偈，乃偈請人書其側曰：）菩提本無樹，明鏡亦非臺。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.51000.json#235	圓觀	竹枝詞	首段疑为注文	（二首○《蜀中名勝記》二三《夔州府·萬縣》引《碑目》云：「大雲寺碑有唐僧圓澤傳。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#238	西鄙人	爲哥舒翰歌	首段疑为注文	（天寶中，哥舒翰爲安西節度使，控地數千里，甚著威令。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#240	李白	日出東南隅行	首段疑为注文	（《文苑英華》一九三載李白此詩，注云：「集無此詩。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#241	李白	代佳人寄翁參樞先輩	首段疑为注文	（《文苑英華》二六二注云：「此詩總目及《李集》皆不載，惟《英華》諸本有之。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#250	李白	興唐寺	首段疑为注文	（在歙縣郡城練水西，唐至德二年建。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#278	嚴維	經蘭亭故池聯句	首段疑为注文	（原注：鮑防、嚴維、劉全白、宋迪，共三十五人，具姓名。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#280	玄覽	題竹	首段疑为注文	（玄覽，大曆末住荆州陟岵寺，道高有風韻，人不可得而親。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.51000.json#283	李穆	留辭	首段疑为注文	（今按：劉長卿另有《送李穆歸淮南詩》，《全唐詩》一五一誤以此詩爲長卿詩○同前八。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#289	魏炎	歷山	首段疑为注文	（齊州城東有孤石，平地聳出，俗謂之歷山。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#300	陸贄	句	首段疑为注文	（贄爲渭南尉有詩云云。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#315	范傳正	題皎然影堂	首段疑为注文	（皎然名晝，以貞元元年終山寺。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#325	李正封	賞牡丹（句）	首段疑为注文	（唐文皇好詩，大和中賞牡丹，上謂程脩己曰：「今京邑人傳牡丹詩，誰爲首出？	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.51000.json#330	伏牛上人	三傷頌	首段疑为注文	（斯五五五八卷錄此詩，題作「龍興寺香嚴和尚《嗟世三傷吟》」。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#339	楊茂卿	過華山（句）（《全唐詩》四八四作楊虞卿句）	首段疑为注文	（《雲谿友議》卷中《中山誨》云：「楊危〖應作茂〗卿配校書《過華山》詩曰〖見下〗。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#348	賈餗	貢茶唱和（句）	首段疑为注文	（金沙池泉，在常州宜興縣罨畫溪之東，有寺，寺有碑，載當時杭、湖、常三州貢茶唱和，	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#368	李德谷	南竄途中感憤（句）	首段疑为注文	（李衛公歷三朝大權，出門下者多矣。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.51000.json#369	廣文諸生	詩	首段疑为注文	（《唐語林》七《補遺》云：「李衛公頗升寒素。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.51000.json#373	李紳	鶯鶯歌（逸句〖1〗）	首段疑为注文	（董解元《西廂記諸宮調》徵引公垂《鶯鶯歌》凡四處。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.52000.json#271	王梵志	詩（幷序） 四十九	首段疑为注文	（前缺）人去像還去，人來像以明。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.52000.json#409	王梵志	迴波樂 六十九	首段疑为注文	（上缺）剝削。	若为整段注释，移入 notes 字段
@@ -713,8 +686,6 @@ id	作者	题目	问题	详情	建议
 全唐诗/poet.tang.53000.json#65	戴叔倫	贈淮西賈兵馬使	首段疑为注文	（按：《文苑英華》卷三○○收作戴叔倫詩，卷二五七收作清江詩。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.53000.json#74	韋應物	春雪（存目）	首段疑为注文	（按：此詩見《文苑英華》卷一五四。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.53000.json#113	戎昱	開元觀陪杜大夫中元日觀樂	首段疑为注文	（按：《全唐詩》卷二七○收此詩，第八句缺一字。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.53000.json#435	崔詞	謁禹廟	首段疑为注文	（按：崔詞疑即與薛苹同題禹廟十七人之一。	若为整段注释，移入 notes 字段
-全唐诗/poet.tang.53000.json#436	羊士諤	歷山	首段疑为注文	（按：《全唐詩》卷三三二收此二句，缺題，今重錄。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.53000.json#440	自在	三個不歸頌	首段疑为注文	（按：《全唐詩續補遺》據《鑑誡錄》卷十《高僧諭》條，錄伏牛上人《三傷頌》三首，擬	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.54000.json#127	薛能	海棠（補序）	首段疑为注文	（按：《全唐詩》卷五六○錄此序僅存三十九字，殆據《容齋隨筆》卷七之節錄本。	若为整段注释，移入 notes 字段
 全唐诗/poet.tang.55000.json#335	徐知證	題東林寺聯句	首段疑为注文	（徐知證虔修李玄李□王三□孟拱辰〖《崇文總目》卷五有《孟拱辰文集》三卷。	若为整段注释，移入 notes 字段
@@ -725,18 +696,6 @@ id	作者	题目	问题	详情	建议
 全唐诗/poet.tang.56000.json#615	無名氏	山榴（題擬）	首段疑为注文	（前缺）病隨支遁偶行行，正見榴花獨滿庭。	若为整段注释，移入 notes 字段
 全唐诗/poet.song.0.json#284	扈蒙	存目  其二	首段疑为注文	（以上劉瑛整理）。	若为整段注释，移入 notes 字段
 全唐诗/poet.song.0.json#939	李昉	存目  其三	首段疑为注文	（劉瑛整理）。	若为整段注释，移入 notes 字段
-全唐诗/authors.tang.json#131	張祜		作者表重名条目	同名条目下标 131, 2783	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#146	崔湜		作者表重名条目	同名条目下标 146, 2702	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#194	王無競		作者表重名条目	同名条目下标 194, 2703	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#348	王績		作者表重名条目	同名条目下标 348, 2740	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#416	李適		作者表重名条目	同名条目下标 416, 2704	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#445	喬備		作者表重名条目	同名条目下标 445, 2705	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#449	魏奉古		作者表重名条目	同名条目下标 449, 2707	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#457	劉知幾		作者表重名条目	同名条目下标 457, 2708	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#486	元希聲		作者表重名条目	同名条目下标 486, 2709	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#530	胡皓		作者表重名条目	同名条目下标 530, 2711	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#2196	栖白		作者表重名条目	同名条目下标 2196, 2813	同一人则合并小传；不同人则在名字或 id 上区分
-全唐诗/authors.tang.json#2284	吳筠		作者表重名条目	同名条目下标 2284, 2823	同一人则合并小传；不同人则在名字或 id 上区分
 全唐诗/authors.tang.json#38	蜀太妃徐氏		作者小传为空	desc 为空	补写小传，或确认无传可考
 全唐诗/authors.tang.json#40	不詳		作者小传为空	desc 为空	补写小传，或确认无传可考
 全唐诗/authors.tang.json#45	林鍾宮		作者小传为空	desc 为空	补写小传，或确认无传可考
@@ -1615,230 +1574,230 @@ id	作者	题目	问题	详情	建议
 全唐诗/authors.tang.json#2699	崔五嫂		作者小传为空	desc 为空	补写小传，或确认无传可考
 全唐诗/authors.tang.json#2700	香兒		作者小传为空	desc 为空	补写小传，或确认无传可考
 全唐诗/authors.tang.json#2701	唐明皇		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2706	劉希移		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2712	王冷然		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2716	梁去惑		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2717	房旭		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2718	樂仲卿		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2719	嚴嶷		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2720	鄭愿		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2721	孟嬰		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2722	□嘉惠		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2723	鄭韞玉		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2725	皇甫斌		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2726	桓顒		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2727	盧茂欽		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2729	沙門日進		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2731	王重民輯錄，劉脩業整理。		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2732	李翔		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2734	佚名		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2735	敦煌人作品[一]		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2736	王重民		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2737	孫望輯錄		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2765	徐源		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2829	孫望		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2830	童養年		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2831	李淵		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2832	李世民		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2833	武曌		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2835	岑義		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2836	王寵		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2838	缺名		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2842	李隆基		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2848	玄覽		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2849	李适		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2850	魏炎		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2858	劉乂		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2860	山東野客		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2861	李德谷		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2862	廣文諸生		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2864	羅萬象		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2867	韋曾		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2868	韋膺		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2869	張毅夫		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2870	英才		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2871	莊布		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2872	李忱		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2873	李壽朋		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2874	韓續		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2875	敬相		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2876	李漼		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2877	童漢卿		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2879	路巖		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2881	崔錡		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2882	韓喜		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2884	張彥修〖1〗		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2885	小白		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2886	清尚〖1〗		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2887	楊煥		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2890	唐朝美		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2894	獨孤貞節		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2896	張振祖		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2899	福全		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2902	楊溥		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2904	李璟		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2905	成文幹		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2918	韋謙		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2919	陳長官		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2923	盧誥		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2925	拓善		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2927	范禹偁		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2934	勾龍逢		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2935	杜仁傑		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2939	宋自然		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2941	村寺僧		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2942	王承旨		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2945	馬希振		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2955	栖巖		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2956	賣藥道人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2958	史維翰		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2959	吳資		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2960	李渭		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2961	李欽止		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2962	施逵		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2964	清遠居士		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2965	楊禹珪		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2966	楊興義		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2967	厲翼		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2968	鄭詳		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2969	獨孤均		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2970	聶通志		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2971	魏證		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2972	清範		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2973	德圓		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2974	覺隱		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2977	嗜酒道人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2979	寧化九龍進士		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2980	蜀宮人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2987	太宗皇帝李世民		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#2992	薛開府		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3008	高宗皇帝李治		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3019	權龍襄		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3091	張司馬		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3098	玄宗皇帝李隆基		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3100	王嚴光		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3102	蘇㝢		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3107	太易		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3112	鄭轅		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3128	浙東衆詩人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3140	鮑君徽		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3141	德宗皇帝李适		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3145	陳詡		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3161	蘇州刺史		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3204	歐陽袞		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3223	空海		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3229	李翺		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3231	開成朝士		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3236	開成時儒		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3247	淮南幕吏		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3265	李節		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3273	某大德		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3284	京師小子弟		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3295	潘煒		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3299	章碣		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3356	狄常侍		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3363	羅袞		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3370	李存勗		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3375	後唐廚官		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3392	同州判官		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3393	五代外鎮官		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3418	李昪		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3440	開寶中江南叟		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3443	包穎		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3445	唐鎬		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3449	朱貞白		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3455	李從謙		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3486	錢俶		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3526	廖處士		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3536	林楚材		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3543	孫光憲同寮		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3548	王衍		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3549	花蘂夫人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3554	孟昶		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3562	王漸		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3563	王國華		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3564	元昉		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3565	元□□		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3566	毛熙聖		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3567	史君寶		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3568	司馬□		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3569	江津		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3570	存初公		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3572	李斌		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3573	李驛		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3574	李昌遇		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3575	李思聰		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3576	李善美		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3577	李嘉運		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3579	李端公		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3581	林鐸		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3582	林先輩		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3583	孟安序		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3584	武涉		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3587	季仲砥		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3588	尚隆之　吳永素		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3589	范崇		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3590	范洒心		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3592	高瀛		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3593	孫誧		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3595	康道		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3596	晁祖道		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3597	徐矩		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3598	徐魁		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3600	許古		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3601	許晏		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3602	淑徳郡主		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3604	張承福		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3605	張彥勝		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3606	陳充		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3607	陳端		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3608	陳嘉		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3611	陶令君		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3612	崔元明		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3613	曾扈		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3616	賀蘭遂		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3618	楊鄴		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3619	楊少陽		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3620	齊顗		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3621	鄧廷聞		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3623	裴極		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3624	裴相公		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3625	劉珃		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3626	歐陽皓		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3627	鄭在德		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3629	蕭沼		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3630	蕭鐸		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3631	蕭闢		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3632	錢叔獻		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3633	蘇癿		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3635	白雲仙人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3637	岑真人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3640	曹真人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3642	彭真君		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3644	賀蘭求		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3646	楊行真人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3647	楊真人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3648	董大仙		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3650	竇真君		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3651	逸人不顧		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3652	芒鞵道人		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3653	大宗		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3654	若訥		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3655	法珍		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3656	南粤		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3657	惠敏		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3658	惠顗		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3659	僧可		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3660	德最		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3661	慧集法師		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3662	趙志		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3663	項宗		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3667	朱彥時		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3669	陰真君		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3670	葛玄		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3671	劉思真		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3673	徐幹		作者小传为空	desc 为空	补写小传，或确认无传可考
-全唐诗/authors.tang.json#3674	王融		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2702	劉希移		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2704	王冷然		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2708	梁去惑		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2709	房旭		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2710	樂仲卿		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2711	嚴嶷		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2712	鄭愿		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2713	孟嬰		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2714	□嘉惠		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2715	鄭韞玉		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2717	皇甫斌		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2718	桓顒		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2719	盧茂欽		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2721	沙門日進		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2723	王重民輯錄，劉脩業整理。		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2724	李翔		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2726	佚名		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2727	敦煌人作品[一]		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2728	王重民		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2729	孫望輯錄		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2756	徐源		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2817	孫望		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2818	童養年		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2819	李淵		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2820	李世民		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2821	武曌		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2823	岑義		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2824	王寵		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2826	缺名		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2830	李隆基		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2836	玄覽		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2837	李适		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2838	魏炎		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2846	劉乂		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2848	山東野客		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2849	李德谷		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2850	廣文諸生		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2852	羅萬象		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2855	韋曾		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2856	韋膺		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2857	張毅夫		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2858	英才		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2859	莊布		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2860	李忱		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2861	李壽朋		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2862	韓續		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2863	敬相		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2864	李漼		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2865	童漢卿		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2867	路巖		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2869	崔錡		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2870	韓喜		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2872	張彥修〖1〗		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2873	小白		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2874	清尚〖1〗		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2875	楊煥		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2878	唐朝美		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2882	獨孤貞節		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2884	張振祖		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2887	福全		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2890	楊溥		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2892	李璟		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2893	成文幹		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2906	韋謙		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2907	陳長官		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2911	盧誥		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2913	拓善		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2915	范禹偁		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2922	勾龍逢		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2923	杜仁傑		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2927	宋自然		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2929	村寺僧		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2930	王承旨		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2933	馬希振		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2943	栖巖		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2944	賣藥道人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2946	史維翰		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2947	吳資		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2948	李渭		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2949	李欽止		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2950	施逵		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2952	清遠居士		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2953	楊禹珪		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2954	楊興義		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2955	厲翼		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2956	鄭詳		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2957	獨孤均		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2958	聶通志		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2959	魏證		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2960	清範		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2961	德圓		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2962	覺隱		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2965	嗜酒道人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2967	寧化九龍進士		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2968	蜀宮人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2975	太宗皇帝李世民		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2980	薛開府		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#2996	高宗皇帝李治		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3007	權龍襄		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3079	張司馬		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3086	玄宗皇帝李隆基		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3088	王嚴光		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3090	蘇㝢		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3095	太易		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3100	鄭轅		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3116	浙東衆詩人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3128	鮑君徽		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3129	德宗皇帝李适		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3133	陳詡		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3149	蘇州刺史		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3192	歐陽袞		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3211	空海		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3217	李翺		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3219	開成朝士		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3224	開成時儒		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3235	淮南幕吏		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3253	李節		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3261	某大德		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3272	京師小子弟		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3283	潘煒		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3287	章碣		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3344	狄常侍		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3351	羅袞		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3358	李存勗		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3363	後唐廚官		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3380	同州判官		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3381	五代外鎮官		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3406	李昪		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3428	開寶中江南叟		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3431	包穎		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3433	唐鎬		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3437	朱貞白		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3443	李從謙		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3474	錢俶		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3514	廖處士		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3524	林楚材		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3531	孫光憲同寮		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3536	王衍		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3537	花蘂夫人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3542	孟昶		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3550	王漸		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3551	王國華		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3552	元昉		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3553	元□□		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3554	毛熙聖		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3555	史君寶		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3556	司馬□		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3557	江津		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3558	存初公		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3560	李斌		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3561	李驛		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3562	李昌遇		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3563	李思聰		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3564	李善美		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3565	李嘉運		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3567	李端公		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3569	林鐸		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3570	林先輩		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3571	孟安序		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3572	武涉		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3575	季仲砥		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3576	尚隆之　吳永素		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3577	范崇		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3578	范洒心		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3580	高瀛		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3581	孫誧		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3583	康道		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3584	晁祖道		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3585	徐矩		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3586	徐魁		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3588	許古		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3589	許晏		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3590	淑徳郡主		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3592	張承福		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3593	張彥勝		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3594	陳充		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3595	陳端		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3596	陳嘉		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3599	陶令君		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3600	崔元明		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3601	曾扈		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3604	賀蘭遂		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3606	楊鄴		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3607	楊少陽		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3608	齊顗		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3609	鄧廷聞		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3611	裴極		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3612	裴相公		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3613	劉珃		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3614	歐陽皓		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3615	鄭在德		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3617	蕭沼		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3618	蕭鐸		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3619	蕭闢		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3620	錢叔獻		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3621	蘇癿		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3623	白雲仙人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3625	岑真人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3628	曹真人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3630	彭真君		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3632	賀蘭求		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3634	楊行真人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3635	楊真人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3636	董大仙		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3638	竇真君		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3639	逸人不顧		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3640	芒鞵道人		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3641	大宗		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3642	若訥		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3643	法珍		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3644	南粤		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3645	惠敏		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3646	惠顗		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3647	僧可		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3648	德最		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3649	慧集法師		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3650	趙志		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3651	項宗		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3655	朱彥時		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3657	陰真君		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3658	葛玄		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3659	劉思真		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3661	徐幹		作者小传为空	desc 为空	补写小传，或确认无传可考
+全唐诗/authors.tang.json#3662	王融		作者小传为空	desc 为空	补写小传，或确认无传可考
 全唐诗/authors.song.json#548	蔣堂		作者小传为空	desc 为空	补写小传，或确认无传可考
 全唐诗/authors.song.json#1525	劉摰		作者小传为空	desc 为空	补写小传，或确认无传可考
 全唐诗/authors.song.json#3261	陈渊		作者小传为空	desc 为空	补写小传，或确认无传可考

@@ -10400,6 +10400,13 @@
           "original": "[notes] inline variant notes 57, block notes 223 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[notes] leading note paragraph(s) in 8 poems",
+          "corrected": "[notes] moved to the front of the notes field",
+          "note": "Whole leading （…） editorial note or 本事 preface (source remarks, 案/按 notes, 原注, anecdote ending in 曰：) moved verbatim into notes; the poem text after the closing ） stays in paragraphs. Records consisting only of notes, lacuna markers （上缺）/（前缺） and 联句 participant lists were left in place.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10427,6 +10434,13 @@
           "original": "[notes] inline variant notes 141, block notes 352 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[notes] leading note paragraph(s) in 19 poems",
+          "corrected": "[notes] moved to the front of the notes field",
+          "note": "Whole leading （…） editorial note or 本事 preface (source remarks, 案/按 notes, 原注, anecdote ending in 曰：) moved verbatim into notes; the poem text after the closing ） stays in paragraphs. Records consisting only of notes, lacuna markers （上缺）/（前缺） and 联句 participant lists were left in place.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10461,6 +10475,13 @@
           "original": "[notes] inline variant notes 65, block notes 456 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[notes] leading note paragraph(s) in 2 poems",
+          "corrected": "[notes] moved to the front of the notes field",
+          "note": "Whole leading （…） editorial note or 本事 preface (source remarks, 案/按 notes, 原注, anecdote ending in 曰：) moved verbatim into notes; the poem text after the closing ） stays in paragraphs. Records consisting only of notes, lacuna markers （上缺）/（前缺） and 联句 participant lists were left in place.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
