@@ -11,13 +11,13 @@
   python3 scripts/collate.py apply   --work <work> --applied docs/宋词对勘.applied.json --reviewer <名字> --date YYYY-MM-DD
   python3 scripts/collate.py report  --work <work> --applied docs/宋词对勘.applied.json --doc docs/宋词对勘.md
 
-宋词对勘已完成，定时 workflow 已删除；对勘其他合集时可从 git 历史恢复 .github/workflows/collate-songci.yml。
+宋词对勘已完成，定时 workflow 已删除；元曲对勘由 .github/workflows/collate-yuanqu.yml 定时运行（docs/元曲对勘.md）。
   python3 scripts/collate.py next    --work <work>          # 显示下一步要运行的命令
 
 判定规则：
   - 比对前统一异体（OpenCC 繁简 + Unihan 语义/字形异体），工作目录首次分析时自动下载 Unihan
   - fix：他本读法有 ≥2 种古籍支持，且本库读法在检索到的古籍中一种都没有
-  - 两读皆有古籍 → 异文不改；一常用一生僻 → 视为异体不改；古书通用字（INTERCHANGEABLE）不改
+  - 两读皆有古籍 → 异文不改；一常用一生僻 → 视为异体不改；古书通用字、古今字（INTERCHANGEABLE）不改
 """
 import argparse
 import collections
@@ -44,6 +44,12 @@ INTERCHANGEABLE = {frozenset(p) for p in (
     '雲云 后後 穀谷 台臺 籍藉 託托 凰皇 寞莫 展輾 閣閤 只祗 坐座 縣懸 闌欄 熏薰 阪坂 凋彫 燃然 暮莫 旁傍 '
     '蓬篷 煉鍊 漫熳 由繇 磐盤 盤槃 途塗 溪谿 洲州 欹攲 嘯歗 筍笋 杯盃 綫線 鬭鬥 裏裡 個箇 '
     '馀余 锺钟').split()}   # 本库用 馀、锺，古籍的 餘、鍾 经 OpenCC 转成 余、钟，不是错字
+# 古今字、元明俗写：元曲（尤其杂剧宾白）里两种写法并行，录文多按今字整理，不是错字。
+# 来自 2026-11 元曲 150 首试跑的误报（元来/原来、子细/仔细、胡蝶/蝴蝶、听的/听得……），
+# 并补上同类常见字对；写成简体，经 INTERCHANGEABLE_S 对繁体数据同样生效
+INTERCHANGEABLE |= {frozenset(p) for p in (
+    '元原 子仔 胡蝴 的得 的地 得地 鲁卤 梢稍 协叶 每们 着著 那哪 么末 么吗 呵啊 罢吧 哩里 恁您 '
+    '交教 叫教 甚什 煞杀 咱喒 偌若 消销 采睬 答搭 匹疋 景影 昏婚 反返 说悦 女汝 帐账').split()}
 
 
 INTERCHANGEABLE_S = {frozenset(sd.T2S.convert(c) for c in p) for p in INTERCHANGEABLE}
