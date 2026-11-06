@@ -4906,6 +4906,13 @@
           "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 30 poems",
+          "corrected": "[markup] text resolved to the edited reading; 32 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4948,6 +4955,13 @@
           "original": "author: 耿[湋]",
           "corrected": "author: 耿湋",
           "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 13 poems",
+          "corrected": "[markup] text resolved to the edited reading; 15 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -5147,6 +5161,13 @@
           "original": "詞客衰時且未還",
           "corrected": "詞客哀時且未還",
           "note": "Twin collation with 蒙学/tangshisanbaishou.json (詞客哀時且未還); 识典古籍: 「哀」 in 7 books (唐詩品彙；唐詩所；唐詩類苑), dataset reading 「衰」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 7 poems",
+          "corrected": "[markup] text resolved to the edited reading; 8 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -5374,6 +5395,13 @@
           "original": "霄漢長懷捧日新",
           "corrected": "霄漢長懷捧日心",
           "note": "Twin collation with 蒙学/tangshisanbaishou.json (霄漢長懷捧日心); 识典古籍: 「心」 in 3 books (唐詩三百首注釋；唐詩紀事；唐詩選), dataset reading 「新」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 9 poems",
+          "corrected": "[markup] text resolved to the edited reading; 9 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -5596,6 +5624,13 @@
           "original": "[lacuna marker] 囗 ×22",
           "corrected": "[lacuna marker] □",
           "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        },
+        {
+          "original": "[markup] editorial collation marks in 8 poems",
+          "corrected": "[markup] text resolved to the edited reading; 8 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -5738,6 +5773,13 @@
           "original": "[lacuna marker] 囗 ×23",
           "corrected": "[lacuna marker] □",
           "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        },
+        {
+          "original": "[markup] editorial collation marks in 11 poems",
+          "corrected": "[markup] text resolved to the edited reading; 11 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -6200,6 +6242,13 @@
           "original": "腰下實玦青珊瑚",
           "corrected": "腰下寶玦青珊瑚",
           "note": "Twin collation with 蒙学/tangshisanbaishou.json (腰下寶玦青珊瑚); 识典古籍: 「寶」 in 8 books (唐詩三百首注疏；杜工部集；杜甫集), dataset reading 「實」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 7 poems",
+          "corrected": "[markup] text resolved to the edited reading; 7 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -6420,6 +6469,13 @@
           "original": "回家衣食無厚薄",
           "corrected": "田家衣食無厚薄",
           "note": "Twin collation with 水墨唐诗/shuimotangshi.json (田家衣食无厚薄); 识典古籍: 「田」 in 7 books (唐世精華；唐百家詩選；唐詩正聲), dataset reading 「回」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 7 poems",
+          "corrected": "[markup] text resolved to the edited reading; 7 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -6502,6 +6558,13 @@
           "original": "[lacuna marker] 囗 ×4",
           "corrected": "[lacuna marker] □",
           "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        },
+        {
+          "original": "[markup] editorial collation marks in 6 poems",
+          "corrected": "[markup] text resolved to the edited reading; 6 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -6644,6 +6707,13 @@
           "original": "[lacuna marker] 囗 ×21",
           "corrected": "[lacuna marker] □",
           "note": "Lacuna marker 囗 (U+56D7, a radical not used in running text) unified to □ (U+25A1) as elsewhere in the dataset; component notation like <囗贵> left untouched"
+        },
+        {
+          "original": "[markup] editorial collation marks in 12 poems",
+          "corrected": "[markup] text resolved to the edited reading; 21 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -6891,6 +6961,13 @@
           "original": "郎吟孤憤平",
           "corrected": "朗吟孤憤平",
           "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 5 books on 识典古籍 read 朗 (e.g. 《劉夢得文集》劉夢得文集卷第一“古詩”, 《唐詩品彙》五言古詩卷之十九“接武”), none support 郎"
+        },
+        {
+          "original": "[markup] editorial collation marks in 17 poems",
+          "corrected": "[markup] text resolved to the edited reading; 17 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7085,6 +7162,13 @@
           "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 14 poems",
+          "corrected": "[markup] text resolved to the edited reading; 15 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7177,6 +7261,13 @@
           "original": "盤庚遷美士",
           "corrected": "盤庚遷美土",
           "note": "Twin collation: 士 → 土; the other source (御定全唐詩) and 6 books on 识典古籍 read 土 (e.g. 《全唐詩目》第九册, 《御定全唐詩》御定全唐詩卷四十五“杜易簡”), none support 士"
+        },
+        {
+          "original": "[markup] editorial collation marks in 21 poems",
+          "corrected": "[markup] text resolved to the edited reading; 21 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7274,6 +7365,13 @@
           "original": "大漠山如雪",
           "corrected": "大漠沙如雪",
           "note": "Twin collation with 水墨唐诗/shuimotangshi.json (大漠沙如雪); 识典古籍: 「沙」 in 4 books (唐詩類苑；宋洪魏公進萬首唐人絶句；昌谷集), dataset reading 「山」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 13 poems",
+          "corrected": "[markup] text resolved to the edited reading; 14 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7431,6 +7529,13 @@
           "original": "朱紫盡公候",
           "corrected": "朱紫盡公侯",
           "note": "Twin collation: 候 → 侯; the other source (御定全唐詩) and 2 books on 识典古籍 read 侯 (e.g. 《文粹》卷十九, 《文粹》卷十六下), none support 候"
+        },
+        {
+          "original": "[markup] editorial collation marks in 7 poems",
+          "corrected": "[markup] text resolved to the edited reading; 7 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7578,6 +7683,13 @@
           "original": "寵辱斯須自不如",
           "corrected": "寵辱斯須自不知",
           "note": "Twin collation: 如 → 知; the other source (御定全唐詩) and 3 books on 识典古籍 read 知 (e.g. 《白居易集》白氏文集卷第十七“自題”, 《白氏長慶集》卷十七), none support 如"
+        },
+        {
+          "original": "[markup] editorial collation marks in 7 poems",
+          "corrected": "[markup] text resolved to the edited reading; 7 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7675,6 +7787,13 @@
           "original": "詠歡偶成詩",
           "corrected": "詠歎偶成詩",
           "note": "Twin collation: 歡 → 歎; the other source (御定全唐詩) and 7 books on 识典古籍 read 歎 (e.g. 《唐詩類苑》唐詩類苑卷第二十九“山部”, 《文苑英華》文苑英華卷二百二十七宋李昉等編“早冬遊至王屋自靈都抵陽臺上方望天壇偶”), none support 歡"
+        },
+        {
+          "original": "[markup] editorial collation marks in 9 poems",
+          "corrected": "[markup] text resolved to the edited reading; 10 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7732,6 +7851,13 @@
           "original": "緣波芳草暫停舟",
           "corrected": "綠波芳草暫停舟",
           "note": "Twin collation: 緣 → 綠; the other source (御定全唐詩) and 2 books on 识典古籍 read 綠 (e.g. 《全唐詩目》第九册, 《百家唐詩》百家唐詩牟融詩集一卷), none support 緣"
+        },
+        {
+          "original": "[markup] editorial collation marks in 9 poems",
+          "corrected": "[markup] text resolved to the edited reading; 10 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7839,6 +7965,13 @@
           "original": "迷路喜爲遠",
           "corrected": "迷路喜未遠",
           "note": "Twin collation: 爲 → 未; the other source (御定全唐詩) and 6 books on 识典古籍 read 未 (e.g. 《中晚唐詩》卷二十五, 《中晚唐詩紀》卷四十一), none support 爲"
+        },
+        {
+          "original": "[markup] editorial collation marks in 16 poems",
+          "corrected": "[markup] text resolved to the edited reading; 18 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7921,6 +8054,13 @@
           "original": "龜魚即絕跡",
           "corrected": "龜魚既絕跡",
           "note": "Twin collation: 即 → 既; the other source (御定全唐詩) and 4 books on 识典古籍 read 既 (e.g. 《唐詩紀事》唐詩紀事卷四十三“竇參”, 《唐詩紀事》唐詩紀事卷第四十三“舒元輿”), none support 即"
+        },
+        {
+          "original": "[markup] editorial collation marks in 9 poems",
+          "corrected": "[markup] text resolved to the edited reading; 10 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7978,6 +8118,13 @@
           "original": "吟今欲就枕",
           "corrected": "吟多欲就枕",
           "note": "Twin collation: 今 → 多; the other source (御定全唐詩) and 6 books on 识典古籍 read 多 (e.g. 《唐四十四家詩》朱慶餘詩集, 《唐詩類苑》卷九十二), none support 今"
+        },
+        {
+          "original": "[markup] editorial collation marks in 6 poems",
+          "corrected": "[markup] text resolved to the edited reading; 6 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8160,6 +8307,13 @@
           "original": "何物比清冷",
           "corrected": "何物比清泠",
           "note": "Twin collation: 冷 → 泠; the other source (御定全唐詩) and 4 books on 识典古籍 read 泠 (e.g. 《唐四十四家詩》喻凫詩集, 《唐詩》唐詩卷四百四十), none support 冷"
+        },
+        {
+          "original": "[markup] editorial collation marks in 10 poems",
+          "corrected": "[markup] text resolved to the edited reading; 10 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8262,6 +8416,13 @@
           "original": "終翼作良臣",
           "corrected": "終冀作良臣",
           "note": "Twin collation: 翼 → 冀; the other source (御定全唐詩) and 4 books on 识典古籍 read 冀 (e.g. 《古今圖書集成·經籍典》欽定古今圖書集成理學彙編經籍典第七千三百六十五卷“史學部藝文二詩”, 《唐詩類苑》卷六十七), none support 翼"
+        },
+        {
+          "original": "[markup] editorial collation marks in 5 poems",
+          "corrected": "[markup] text resolved to the edited reading; 5 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8364,6 +8525,13 @@
           "original": "馬足車輸在處通",
           "corrected": "馬足車輪在處通",
           "note": "Twin collation: 輸 → 輪; the other source (御定全唐詩) and 4 books on 识典古籍 read 輪 (e.g. 《唐詩英華》唐詩英華卷十三, 《唐詩鼓吹》唐詩鼓吹卷二“元郝天挺注”), none support 輸"
+        },
+        {
+          "original": "[markup] editorial collation marks in 9 poems",
+          "corrected": "[markup] text resolved to the edited reading; 9 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8411,6 +8579,13 @@
           "original": "前日獨拘束",
           "corrected": "前日猶拘束",
           "note": "Twin collation: 獨 → 猶; the other source (御定全唐詩) and 6 books on 识典古籍 read 猶 (e.g. 《全唐詩》第九函第四册卷三, 《唐人八家詩》長江集卷七), none support 獨"
+        },
+        {
+          "original": "[markup] editorial collation marks in 11 poems",
+          "corrected": "[markup] text resolved to the edited reading; 11 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8483,6 +8658,13 @@
           "original": "相願不相疑",
           "corrected": "相顧不相疑",
           "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 8 books on 识典古籍 read 顧 (e.g. 《中晚唐詩》卷十五, 《十三唐人詩》十三唐人詩曹鄴卷), none support 願"
+        },
+        {
+          "original": "[markup] editorial collation marks in 10 poems",
+          "corrected": "[markup] text resolved to the edited reading; 10 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8675,6 +8857,13 @@
           "original": "王郎風姿盡列仙",
           "corrected": "王朗風姿盡列仙",
           "note": "Twin collation: 郎 → 朗; the other source (御定全唐詩) and 3 books on 识典古籍 read 朗 (e.g. 《古今圖書集成·歲功典》欽定古今圖書集成曆象彙編歲功典第九十九卷“寒夜文宴得泉字前人”, 《御定全唐詩》御定全唐詩卷六百十四“皮日休”), none support 郎"
+        },
+        {
+          "original": "[markup] editorial collation marks in 22 poems",
+          "corrected": "[markup] text resolved to the edited reading; 23 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8792,6 +8981,13 @@
           "original": "半匙清粉攪潺湲",
           "corrected": "半匙青粉攪潺湲",
           "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 7 books on 识典古籍 read 青 (e.g. 《唐李推官披沙集》唐李推官披沙集卷第二“謝僧寄茶”, 《唐詩類苑》卷一百八十七), none support 清"
+        },
+        {
+          "original": "[markup] editorial collation marks in 5 poems",
+          "corrected": "[markup] text resolved to the edited reading; 5 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -8934,6 +9130,13 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[markup] editorial collation marks in 15 poems",
+          "corrected": "[markup] text resolved to the edited reading; 16 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9031,6 +9234,13 @@
           "original": "唯有啼鳥伴夜碪",
           "corrected": "唯有啼烏伴夜碪",
           "note": "Twin collation: 鳥 → 烏; the other source (御定全唐詩) and 5 books on 识典古籍 read 烏 (e.g. 《唐音戊籤》戊籤七十五韓偓之四“七言絶句”, 《御定全唐詩錄》御定全唐詩録卷九十三), none support 鳥"
+        },
+        {
+          "original": "[markup] editorial collation marks in 16 poems",
+          "corrected": "[markup] text resolved to the edited reading; 16 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9063,6 +9273,13 @@
           "original": "一夜寒鴻來不住",
           "corrected": "一夜塞鴻來不住",
           "note": "Twin collation: 寒 → 塞; the other source (御定全唐詩) and 5 books on 识典古籍 read 塞 (e.g. 《唐四十四家詩》唐風集卷下, 《唐音戊籤》戊籤餘六杜荀鶴之五、唐音統籤卷、盧士衡後唐天成二年進士集一卷), none support 寒"
+        },
+        {
+          "original": "[markup] editorial collation marks in 8 poems",
+          "corrected": "[markup] text resolved to the edited reading; 9 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9130,6 +9347,13 @@
           "original": "清泉抵石遠",
           "corrected": "清泉抵石還",
           "note": "Twin collation: 遠 → 還; the other source (御定全唐詩) and 6 books on 识典古籍 read 還 (e.g. 《唐詩類苑》卷二十五, 《御定全唐詩》御定全唐詩卷七百二“張玭”), none support 遠"
+        },
+        {
+          "original": "[markup] editorial collation marks in 18 poems",
+          "corrected": "[markup] text resolved to the edited reading; 18 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9262,6 +9486,13 @@
           "original": "白雲下彤闈",
           "corrected": "白雪下彤闈",
           "note": "Twin collation: 雲 → 雪; the other source (御定全唐詩) and 4 books on 识典古籍 read 雪 (e.g. 《唐詩所》卷三十一, 《唐詩紀事》唐詩紀事卷十“趙彦昭”), none support 雲"
+        },
+        {
+          "original": "[markup] editorial collation marks in 15 poems",
+          "corrected": "[markup] text resolved to the edited reading; 18 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9319,6 +9550,13 @@
           "original": "朱輪爲染酬恩血",
           "corrected": "朱輪未染酬恩血",
           "note": "Twin collation: 爲 → 未; the other source (御定全唐詩) and 7 books on 识典古籍 read 未 (e.g. 《[雍正]山西通志》山西通志卷二百二十六（一）, 《【乾隆】直隸絳州志》【乾隆】直隸絳州志卷十八), none support 爲"
+        },
+        {
+          "original": "[markup] editorial collation marks in 8 poems",
+          "corrected": "[markup] text resolved to the edited reading; 8 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9506,6 +9744,13 @@
           "original": "[notes] inline variant notes 1, block notes 0 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[markup] editorial collation marks in 6 poems",
+          "corrected": "[markup] text resolved to the edited reading; 6 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9673,6 +9918,13 @@
           "original": "解脫清襦與別人",
           "corrected": "解脫青襦與別人",
           "note": "Twin collation: 清 → 青; the other source (御定全唐詩) and 3 books on 识典古籍 read 青 (e.g. 《唐詩》唐詩卷五百四十一, 《御定全唐詩》御定全唐詩卷七百六十七“孫元晏”), none support 清"
+        },
+        {
+          "original": "[markup] editorial collation marks in 17 poems",
+          "corrected": "[markup] text resolved to the edited reading; 17 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9755,6 +10007,13 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[markup] editorial collation marks in 9 poems",
+          "corrected": "[markup] text resolved to the edited reading; 9 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9832,6 +10091,13 @@
           "original": "author: [嚴]續姬",
           "corrected": "author: 嚴續姬",
           "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 2 poems",
+          "corrected": "[markup] text resolved to the edited reading; 2 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -10056,6 +10322,13 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "[markup] editorial collation marks in 15 poems",
+          "corrected": "[markup] text resolved to the edited reading; 15 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10103,6 +10376,13 @@
           "original": "衣多作臥稜",
           "corrected": "衣多坐臥稜",
           "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 3 books on 识典古籍 read 坐 (e.g. 《御定全唐詩》御定全唐詩卷八百四十“寄華山司空圖”, 《白蓮集》三), none support 作"
+        },
+        {
+          "original": "[markup] editorial collation marks in 21 poems",
+          "corrected": "[markup] text resolved to the edited reading; 21 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10180,6 +10460,13 @@
           "original": "author: 河[湄]鬼",
           "corrected": "author: 河湄鬼",
           "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 8 poems",
+          "corrected": "[markup] text resolved to the edited reading; 8 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -10269,6 +10556,13 @@
           "original": "福士氓",
           "corrected": "福土氓",
           "note": "Twin collation: 士 → 土; the other source (御定全唐詩) and 5 books on 识典古籍 read 土 (e.g. 《五朝小説》五朝小説卷十六, 《前定錄》續前定録唐鍾輅撰“竇相易直”), none support 士"
+        },
+        {
+          "original": "[markup] editorial collation marks in 1 poems",
+          "corrected": "[markup] text resolved to the edited reading; 1 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10306,6 +10600,13 @@
           "original": "想思空有夢相尋",
           "corrected": "相思空有夢相尋",
           "note": "Twin collation with 五代诗词/huajianji/huajianji-5-juan.json (相思空有梦相寻); 识典古籍: 「相」 in 3 books (御定駢字類編；花間集；詞綜), dataset reading 「想」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 13 poems",
+          "corrected": "[markup] text resolved to the edited reading; 15 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10403,6 +10704,13 @@
           "original": "世事磋跎成白首",
           "corrected": "世事蹉跎成白首",
           "note": "Twin collation with 蒙学/tangshisanbaishou.json (世事蹉跎成白首); 识典古籍: 「蹉」 in 8 books (十二家唐詩；唐樂府；唐王右丞詩集注説), dataset reading 「磋」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 18 poems",
+          "corrected": "[markup] text resolved to the edited reading; 18 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10456,6 +10764,13 @@
           "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 181 poems",
+          "corrected": "[markup] text resolved to the edited reading; 215 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10497,6 +10812,13 @@
           "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 173 poems",
+          "corrected": "[markup] text resolved to the edited reading; 31 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10526,6 +10848,13 @@
           "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 127 poems",
+          "corrected": "[markup] text resolved to the edited reading; 147 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10550,6 +10879,13 @@
           "original": "[structure] 26 records with empty title and paragraphs [\"。\"]",
           "corrected": "[structure] removed",
           "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 63 poems",
+          "corrected": "[markup] text resolved to the edited reading; 44 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -10586,6 +10922,13 @@
           "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 48 poems",
+          "corrected": "[markup] text resolved to the edited reading; 34 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10603,6 +10946,13 @@
           "original": "[notes] inline variant notes 23, block notes 101 in paragraphs",
           "corrected": "[notes] moved to the notes field",
           "note": "Editorial notes separated from the text: 「一作…」/「某本作…」 variant notes moved with up to 4 preceding characters as anchor; whole-line notes (sources, collation remarks) moved verbatim. Manuscript corrections X（Y）/[X]（Y）, 联句 speaker tags and lacuna markers left in place."
+        },
+        {
+          "original": "[markup] editorial collation marks in 10 poems",
+          "corrected": "[markup] text resolved to the edited reading; 7 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10745,6 +11095,13 @@
           "original": "爵士封其新",
           "corrected": "爵土封其新",
           "note": "Twin collation: 士 → 土; the other source (御定全唐詩) and 7 books on 识典古籍 read 土 (e.g. 《儲光羲集》卷三, 《古今圖書集成·家範典》欽定古今圖書集成明倫彙編家範典第四千零三十八卷“姻婭部藝文二詩”), none support 士"
+        },
+        {
+          "original": "[markup] editorial collation marks in 16 poems",
+          "corrected": "[markup] text resolved to the edited reading; 16 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10882,6 +11239,13 @@
           "original": "願向平原笑",
           "corrected": "顧向平原笑",
           "note": "Twin collation: 願 → 顧; the other source (御定全唐詩) and 8 books on 识典古籍 read 顧 (e.g. 《分類補注李太白詩》二, 《唐文粹》文粹卷第十四上古調五“古風十一首”), none support 願"
+        },
+        {
+          "original": "[markup] editorial collation marks in 17 poems",
+          "corrected": "[markup] text resolved to the edited reading; 17 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11049,6 +11413,13 @@
           "original": "仍連故鄉水",
           "corrected": "仍憐故鄉水",
           "note": "Twin collation with 蒙学/tangshisanbaishou.json (仍憐故鄉水); 识典古籍: 「憐」 in 4 books (唐詩品彙；文體明辯；李太白文集), dataset reading 「連」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 6 poems",
+          "corrected": "[markup] text resolved to the edited reading; 6 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11171,6 +11542,13 @@
           "original": "早鴈拂銀河",
           "corrected": "早鴈拂金河",
           "note": "Twin collation with 水墨唐诗/shuimotangshi.json (早雁拂金河); 识典古籍: 「金」 in 3 books (古今圖書集成·歲功典；唐詩品彙；唐詩類苑), dataset reading 「銀」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 7 poems",
+          "corrected": "[markup] text resolved to the edited reading; 8 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11273,6 +11651,13 @@
           "original": "騎人蓬萊清淺中",
           "corrected": "騎入蓬萊清淺中",
           "note": "Twin collation: 人 → 入; the other source (御定全唐詩) and 5 books on 识典古籍 read 入 (e.g. 《全唐詩》第九函第十册卷十三, 《唐甫里先生文集》唐甫里先生文集卷之十二“七言絶句詩”), none support 人"
+        },
+        {
+          "original": "[markup] editorial collation marks in 10 poems",
+          "corrected": "[markup] text resolved to the edited reading; 10 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -11300,6 +11685,13 @@
           "original": "[structure] 16 records with empty title and paragraphs [\"。\"]",
           "corrected": "[structure] removed",
           "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 55 poems",
+          "corrected": "[markup] text resolved to the edited reading; 47 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -11334,6 +11726,13 @@
           "original": "[structure] 9 records with empty title and paragraphs [\"。\"]",
           "corrected": "[structure] removed",
           "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "[markup] editorial collation marks in 91 poems",
+          "corrected": "[markup] text resolved to the edited reading; 81 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
@@ -11513,6 +11912,13 @@
           "original": "忽然一夜春風來",
           "corrected": "忽如一夜春風來",
           "note": "Twin collation with 水墨唐诗/shuimotangshi.json (忽如一夜春风来); 识典古籍: 「如」 in 3 books (岑參集；情采編；淵鑑類函), dataset reading 「然」 in 0"
+        },
+        {
+          "original": "[markup] editorial collation marks in 20 poems",
+          "corrected": "[markup] text resolved to the edited reading; 21 marks kept verbatim in notes",
+          "note": "Collation markup of the modern edition resolved in title/paragraphs: [X]（Y） → X (X = editor's reading, Y = manuscript); [X] → X (supplied character; [X]□… with matching □ count → X); in poet.tang.50000 Dunhuang section X（Y） → Y (Y = correct character); footnote markers [一]/〖1〗 dropped. Each resolved mark is copied verbatim into notes with up to 4 characters of context. 〖…〗 remarks inside （…） notes and X（Y） elsewhere (（句）, （疑）, （題擬） etc.) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
