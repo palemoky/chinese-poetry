@@ -112580,6 +112580,13 @@
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 《華陽集》卷六「輓詞」王珪 (识典古籍, 3 editions).",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「董」 (#991–992, 2 词)",
+          "corrected": "author 「董乂」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍「董乂望江南有詩云：縹緲煙中漁父槳」; 全宋诗 also has 董乂.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -114942,6 +114949,13 @@
           "original": "小荷新绿浮园",
           "corrected": "小荷新绿浮圆",
           "note": "Recheck with directed 识典古籍 search: dataset reading not found; 建议读法见于：日湖漁唱 歷代詩餘 西麓繼周集"
+        },
+        {
+          "original": "author 「赵希��」 (#185–185, 1 词)",
+          "corrected": "author 「赵希𩇕」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍「增：趙希𩇕霜天曉角姮娥戲劇」 (U+FFFD garble in the name); 全宋诗 also has 趙希𩇕.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -117281,6 +117295,13 @@
           "original": "author 「曾」 (#633–640, 8 词)",
           "corrected": "author 「曾慥」",
           "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《修真十書雜著捷徑》卷二三「臨江仙 曾慥」 for one 词 of this contiguous block.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author 「查」 (#628–628, 1 词)",
+          "corrected": "author 「查荎」",
+          "note": "Truncated author name: the non-GB2312 character was dropped on import. Evidence: 识典古籍《詞品》, 《碎金詞譜》卷十「查荎透碧霄」.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
