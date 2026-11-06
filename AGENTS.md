@@ -96,7 +96,7 @@ Japanese kana and bopomofo (e.g. け然 → 翛然, 荼コ → 荼蘼, ゐ惶 �
 
 So are CJK vertical presentation forms and Roman numerals (雨﹀云︽ → 雨僝云僽, 釂琼ⅲ也 → 釂琼𨠑也). The Japanese iteration mark `々` is not used in this dataset: write the repeated character out (塺々 → 塺塺).
 
-**Detection**: regex `[Ѐ-ӿͰ-Ͽ]` (Cyrillic/Greek), `[぀-ヺー-ヿ㄀-ㄯㆠ-ㆿ]` (kana/bopomofo) and `[︰-﹏Ⅰ-ⅿ々]` (`symbol_garble`: vertical forms, Roman numerals, 々). `python3 scripts/check_structure.py` runs these and other structural checks over the whole dataset, including `title` fields (元曲 titles contain body text).
+**Detection**: regex `[Ѐ-ӿͰ-Ͽ]` (Cyrillic/Greek), `[぀-ヺー-ヿ㄀-ㄯㆠ-ㆿ]` (kana/bopomofo) and `[︰-﹏Ⅰ-ⅿ々]` (`symbol_garble`: vertical forms, Roman numerals, 々). `python3 scripts/check_structure.py` runs these and other structural checks over the whole dataset, including `title` fields (元曲 titles contain body text) and author names (`author` in poems, `name` in the author tables): garbles there, and `author_truncated` — a one-character author name, left when the 宋词 import dropped non-GB2312 characters (张鎡 → 张, 向子諲 → 向), which merges different poets. Restore such names only with evidence (a 词集/词选 crediting the 词 to that person), never by guessing among same-surname poets.
 
 **Correction approach** (in order of confidence):
 1. Obvious from immediate context (single character gap, clear word/phrase)

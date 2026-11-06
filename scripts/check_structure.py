@@ -14,6 +14,8 @@
   half_width_punct 紧邻汉字的半角 , ; : !
   bare_pua         {...} 之外的私用区字符
   missing_char     □ 缺字
+  author_truncated 作者名只剩一个字（导入时丢掉了 GB2312 以外的字，如 向子諲 → 向），诗词文件与作者表都查
+  作者字段（author，作者表的 name）同样做乱码检查（西里尔/希腊、假名注音、竖排符号、私用区、U+FFFD）
 
 用法：
   python3 scripts/check_structure.py --baseline scripts/check_baseline.json   # CI：乱码类数量不得增加
@@ -102,7 +104,8 @@ SHI_DIRS = {'全唐诗', '水墨唐诗', '曹操诗集', '纳兰性德'}  # 元�
 
 # 这些检查项一旦增加即视为退化（CI 失败）；缺字、字数异常等多为底本原貌，仅作提示
 STRICT = ('bad_json', 'cyrillic_greek', 'kana_bopomofo', 'symbol_garble', 'box_drawing', 'bare_pua', 'ascii_residue',
-          'dup_punct', 'half_width_punct', 'simplified_in_trad')
+          'dup_punct', 'half_width_punct', 'simplified_in_trad', 'author_truncated')
+AUTHOR_TABLE = re.compile(r'(^|/)authors?\.[^/]*\.json$')   # 作者表：全唐诗/authors.*.json、宋词/author.song.json 等
 
 
 def iter_files():
@@ -169,6 +172,41 @@ def check_chars(rel, idx, it, lines, report):
                              ('symbol_garble', SYMBOL_GARBLE), ('bare_pua', PUA)):
                 for m in rx.finditer(body):
                     report(kind, rel, idx, it, f'[{field}] {text}', token=m.group())
+    check_author_name(rel, idx, it, it.get('author'), 'author', report)
+
+
+AUTHOR_GARBLES = (('cyrillic_greek', CYRILLIC_GREEK), ('kana_bopomofo', KANA_BOPOMOFO),
+                  ('symbol_garble', SYMBOL_GARBLE), ('box_drawing', BOX_DRAWING), ('bare_pua', PUA))
+
+
+def check_author_name(rel, idx, it, name, field, report):
+    """作者名：乱码，以及只剩一个字（宋词导入时丢掉了 GB2312 以外的字，「张鎡」成了「张」，不同词人被并成一个）。"""
+    if not isinstance(name, str):
+        return
+    body = PLACEHOLDER.sub('', name)
+    for kind, rx in AUTHOR_GARBLES:
+        for m in rx.finditer(body):
+            report(kind, rel, idx, it, f'[{field}] {name}', token=m.group())
+    if len(name.strip()) == 1:
+        report('author_truncated', rel, idx, it, f'[{field}] {name}', token=name.strip())
+
+
+def iter_author_tables():
+    for dirpath, dirs, filenames in os.walk(ROOT):
+        dirs[:] = sorted(d for d in dirs if d not in SKIP_DIRS)
+        for f in sorted(filenames):
+            rel = os.path.relpath(os.path.join(dirpath, f), ROOT)
+            if AUTHOR_TABLE.search(rel.replace(os.sep, '/')):
+                yield rel
+
+
+def check_author_tables(report):
+    for rel in iter_author_tables():
+        with open(os.path.join(ROOT, rel), encoding='utf-8') as fp:
+            data = json.load(fp)
+        for idx, it in enumerate(data if isinstance(data, list) else []):
+            if isinstance(it, dict):
+                check_author_name(rel, idx, {'author': it.get('name'), 'title': '作者表'}, it.get('name'), 'name', report)
 
 
 LEGIT_ODD = re.compile(r'^君不[見见]|^嗚呼|^呜呼|兮')    # 歌行常见的合法加字
@@ -271,6 +309,7 @@ def main():
             elif top in SHI_DIRS:
                 check_shi(rel, idx, it, lines, report)
     check_ci(ci_poems, report)
+    check_author_tables(report)
 
     if args.out:
         with open(args.out, 'w', encoding='utf-8') as fp:
