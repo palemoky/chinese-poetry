@@ -4899,6 +4899,13 @@
           "original": "作當太微",
           "corrected": "坐當太微",
           "note": "Twin collation: 作 → 坐; the other source (御定全唐詩) and 3 books on 识典古籍 read 坐 (e.g. 《全唐詩目》第三册, 《周詩遺軌》卷八), none support 作"
+        },
+        {
+          "original": "author: 耿[湋]、鮑氏君[徽]微",
+          "corrected": "author: 耿湋、鮑氏君徽",
+          "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -4936,6 +4943,13 @@
           "original": "[formatting] dup_punct 1",
           "corrected": "[formatting] normalized",
           "note": "Mechanical normalization: duplicated end punctuation (？。→？, ！。→！, 。。, ，，, 、、), half-width ,;:! next to CJK → full-width, leading/trailing whitespace trimmed; 元曲: 黄?无疆 → 黄耇无疆, crawled HTTP-header paragraph removed"
+        },
+        {
+          "original": "author: 耿[湋]",
+          "corrected": "author: 耿湋",
+          "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -7064,6 +7078,13 @@
           "original": "永矣白雪適",
           "corrected": "永矣白雲適",
           "note": "Twin collation: 雪 → 雲; the other source (御定全唐詩) and 5 books on 识典古籍 read 雲 (e.g. 《五唐人詩集》孟東野集卷四, 《唐詩百名家全集》孟東野詩卷四), none support 雪"
+        },
+        {
+          "original": "author: 胡[証]",
+          "corrected": "author: 胡證",
+          "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -9806,6 +9827,13 @@
           "original": "俗情對淺近",
           "corrected": "俗情封淺近",
           "note": "Twin collation: 對 → 封; the other source (御定全唐詩) and 6 books on 识典古籍 read 封 (e.g. 《吳興詩存初集》卷八, 《唐三高僧詩集》杼山集卷二), none support 對"
+        },
+        {
+          "original": "author: [嚴]續姬",
+          "corrected": "author: 嚴續姬",
+          "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10147,6 +10175,13 @@
           "original": "凡骨空陪汗漫流",
           "corrected": "凡骨空陪汗漫遊",
           "note": "Twin collation: 流 → 遊; the other source (御定全唐詩) and 2 books on 识典古籍 read 遊 (e.g. 《御定全唐詩》御定全唐詩卷八百六十二“清遠道士”, 《道光保寧府志》保寧府志卷之五十三“雜類志二”), none support 流"
+        },
+        {
+          "original": "author: 河[湄]鬼",
+          "corrected": "author: 河湄鬼",
+          "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
@@ -10412,6 +10447,13 @@
           "original": "[structure] 25 records with empty title and paragraphs [\"。\"]",
           "corrected": "[structure] removed",
           "note": "Author-heading placeholders from the 補編 import: no title, no text, no notes, always followed by poems of the same author. Removed; later record indices shift (docs/人工复核清单.tsv remapped).",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "author: 敦煌人作品[一]",
+          "corrected": "author: 敦煌人作品",
+          "note": "Editorial brackets removed from author names so the same poet is not split in two: 耿[湋]/鮑氏君[徽]微 merge with the existing 耿湋/鮑氏君徽; 胡證、嚴續姬 follow 《全唐詩》; 河湄鬼 per the poem (祇役死河湄); [一] in 敦煌人作品[一] is a footnote marker. Names with □ (base-text lacunae) left as they are.",
           "date": "2026-11-06",
           "reviewer": "claude-opus-5-5"
         }
