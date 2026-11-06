@@ -1776,6 +1776,20 @@
           "original": "官娥相与传",
           "corrected": "宫娥相与传",
           "note": "Twin collation with 全唐诗/poet.tang.49000.json#693 (宮娥相與傳); 识典古籍: 「宮」 in 3 books (御定全唐詩；御定詞譜；花間集), dataset reading 「官」 in 0"
+        },
+        {
+          "original": "银背，铜漏永",
+          "corrected": "银釭背，铜漏永",
+          "note": "顾敻《献衷心》: non-GB2312 釭 dropped on import. 识典古籍《花間集》明刻本卷三, 湯顯祖評本卷三, 影印本卷八, 《文體明辯附錄》卷十, 《御選歷代詩餘》卷四五, 《御定詞譜》卷十四; also 全唐诗 卷 (顧敻《獻衷心》, before the 3cf4574 merge)",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
+        },
+        {
+          "original": "画孔雀欹",
+          "corrected": "画孔雀屏欹",
+          "note": "顾敻《献衷心》: missing 屏 (the line pairs with 「绣鸳鸯帐暖」). 识典古籍《花間集》明刻本卷三, 湯顯祖評本卷三, 影印本卷八, 《文體明辯附錄》卷十, 《御選歷代詩餘》卷四五, 《御定詞譜》卷十四; also 全唐诗 卷 (顧敻《獻衷心》, before the 3cf4574 merge)",
+          "date": "2026-11-06",
+          "reviewer": "claude-opus-5-5"
         }
       ]
     },
