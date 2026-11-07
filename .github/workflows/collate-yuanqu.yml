@@ -4,22 +4,22 @@ name: Collate 元曲
 
 on:
   schedule:
-    - cron: '0 */4 * * *'       # 每 4 小时一次（每次约 1～2 小时；GitHub 定时任务可能延迟数十分钟）
+    - cron: "0 */3 * * *" # 每 3 小时一次（每次约 1～2 小时；GitHub 定时任务可能延迟数十分钟）
   workflow_dispatch:
     inputs:
       limit:
-        description: '本次检索条数（每条约 6 秒；超过 2000 条可能超出 4 小时时限）'
-        default: '1200'
+        description: "本次检索条数（每条约 6 秒；超过 2000 条可能超出 4 小时时限）"
+        default: "1200"
 
 concurrency:
-  group: collate-yuanqu         # 同一时间只运行一次，避免并发访问识典古籍
+  group: collate-yuanqu # 同一时间只运行一次，避免并发访问识典古籍
   cancel-in-progress: false
 
 permissions:
   contents: read
 
 env:
-  W: /home/runner/collate-work  # 放在仓库外：检索结果缓存会有数百 MB
+  W: /home/runner/collate-work # 放在仓库外：检索结果缓存会有数百 MB
   APPLIED: docs/元曲对勘.applied.json
 
 jobs:
@@ -31,10 +31,10 @@ jobs:
 
       - uses: actions/setup-python@v7
         with:
-          python-version: '3.x'
+          python-version: "3.x"
       - uses: actions/setup-node@v7
         with:
-          node-version: '24'
+          node-version: "24"
           cache: npm
           cache-dependency-path: scripts/shidian/package-lock.json
 
