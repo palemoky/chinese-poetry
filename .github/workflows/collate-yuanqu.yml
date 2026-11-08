@@ -9,7 +9,7 @@ on:
     inputs:
       limit:
         description: "本次检索条数（每条约 6 秒；超过 2000 条可能超出 4 小时时限）"
-        default: "1200"
+        default: "2000"
 
 concurrency:
   group: collate-yuanqu # 同一时间只运行一次，避免并发访问识典古籍
