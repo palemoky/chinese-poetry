@@ -55,7 +55,7 @@ jobs:
         run: python3 scripts/collate.py plan --dir 元曲 --work "$W"
 
       - name: Search 识典古籍
-        run: node scripts/shidian/search.mjs "$W/queries.json" "$W/results.jsonl" --limit "${{ inputs.limit || '1200' }}"
+        run: node scripts/shidian/search.mjs "$W/queries.json" "$W/results.jsonl" --limit "${{ inputs.limit || '2000' }}"
 
       - name: Analyze
         run: |
